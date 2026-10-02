@@ -122,7 +122,7 @@ export class NodeNet implements Net {
   }
 
   // Completes a TLS handshake to read the certificate, then hangs up without sending anything.
-  // Invalid certificates are still reported: who issued them is the interesting part.
+  // The certificate is validated as usual; an invalid one fails with TLS_HANDSHAKE.
   tls(host: string, port: number, signal: AbortSignal): Promise<TlsInfo> {
     const blocked = this.blockedLiteral(host);
     if (blocked) return Promise.reject(blocked);
@@ -132,7 +132,6 @@ export class NodeNet implements Net {
         host,
         port,
         servername: isIP(host) ? undefined : host,
-        rejectUnauthorized: false,
         ...(this.allowPrivate ? {} : { lookup: publicOnlyLookup }),
       });
       const onAbort = () => {
