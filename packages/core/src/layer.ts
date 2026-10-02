@@ -1,24 +1,27 @@
 import type { Net } from './net.ts';
 import type { LayerErrorCode, LayerId, SurfaceKind } from './report.ts';
 
-export type SignalKind =
-  | 'header'
-  | 'cookie-name'
-  | 'meta'
-  | 'script-src'
-  | 'link-href'
-  | 'a'
-  | 'aaaa'
-  | 'cname'
-  | 'ns'
-  | 'mx'
-  | 'txt'
-  | 'cert-issuer'
-  | 'asn'
-  | 'request-url'
-  | 'request-header'
-  | 'websocket-url'
-  | 'window-global';
+export const SIGNAL_KINDS = [
+  'header',
+  'cookie-name',
+  'meta',
+  'script-src',
+  'link-href',
+  'a',
+  'aaaa',
+  'cname',
+  'ns',
+  'mx',
+  'txt',
+  'cert-issuer',
+  'asn',
+  'request-url',
+  'request-header',
+  'websocket-url',
+  'window-global',
+] as const;
+
+export type SignalKind = (typeof SIGNAL_KINDS)[number];
 
 // A raw observation. Layers emit signals; the fingerprint engine turns them into evidence.
 export interface Signal {
