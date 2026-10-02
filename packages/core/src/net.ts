@@ -1,5 +1,7 @@
 // Everything a layer may do on the network goes through Net. Core never does I/O itself:
 // the Node implementation, the hosted runner and the test replayer each provide one.
+// Expected failures (no such domain, refused connection, bad certificate) are thrown as a
+// LayerError with a code, so they can be recorded and replayed like any other answer.
 
 export interface HttpRequest {
   url: string;
