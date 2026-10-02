@@ -1,5 +1,6 @@
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { LayerError } from '../src/layer.ts';
+import { distillHtml, isHtml } from '../src/layers/http.ts';
 import type {
   DnsAnswer,
   DnsRecordType,
@@ -52,8 +53,11 @@ export class FixtureMiss extends Error {
 // so a test cannot quietly pass on an incomplete fixture.
 export class ReplayNet implements Net {
   readonly misses: string[] = [];
+  private readonly recording: NetRecording;
 
-  constructor(private readonly recording: NetRecording) {}
+  constructor(recording: NetRecording) {
+    this.recording = recording;
+  }
 
   http(req: HttpRequest): Promise<HttpResponse> {
     return this.answer(this.recording.http, keys.http(req));
@@ -81,12 +85,10 @@ export class ReplayNet implements Net {
 // Wraps a real Net and keeps every answer, redacted, for saving as a fixture.
 export class RecordingNet implements Net {
   readonly recording: NetRecording;
+  private readonly inner: Net;
 
-  constructor(
-    private readonly inner: Net,
-    url: string,
-    recordedAt = new Date(),
-  ) {
+  constructor(inner: Net, url: string, recordedAt = new Date()) {
+    this.inner = inner;
     this.recording = { url, recordedAt: recordedAt.toISOString(), http: {}, dns: {}, tls: {} };
   }
 
@@ -99,7 +101,8 @@ export class RecordingNet implements Net {
         ...res,
         url: redactText(res.url),
         headers: redactHeaders(res.headers),
-        body: redactText(res.body),
+        // Only the tags the HTTP layer reads; no page content goes into the repo.
+        body: isHtml(res) ? redactText(distillHtml(res.body)) : '',
       }),
     );
   }
