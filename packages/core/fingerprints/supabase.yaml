@@ -1,0 +1,57 @@
+id: supabase
+name: Supabase
+category: backend-as-a-service
+website: https://supabase.com
+rules:
+  - id: api-request
+    layer: browser
+    signal: request-url
+    match: { regex: '^https://[a-z0-9]{20}\.supabase\.co/(?:rest|auth|storage|functions)/v1/' }
+    weight: 0.95
+    detail: Request to a Supabase project API
+
+  - id: realtime-websocket
+    layer: browser
+    signal: websocket-url
+    match: { regex: '^wss://[a-z0-9]{20}\.supabase\.co/realtime/v1/' }
+    weight: 0.95
+    detail: Supabase Realtime connection
+
+  - id: client-info-header
+    layer: browser
+    signal: request-header
+    key: x-client-info
+    match: { regex: '^supabase-js(?:-web|-node)?/(\d+\.\d+\.\d+)' }
+    version: $1
+    weight: 0.9
+    detail: supabase-js client header
+
+  # Set by @supabase/ssr and the auth helpers.
+  - id: auth-cookie-browser
+    layer: browser
+    signal: cookie-name
+    match: { regex: '^sb-[a-z0-9]+-auth-token' }
+    weight: 0.85
+    detail: Supabase auth cookie
+
+  - id: auth-cookie-http
+    layer: http
+    signal: cookie-name
+    match: { regex: '^sb-[a-z0-9]+-auth-token' }
+    weight: 0.85
+    detail: Supabase auth cookie
+
+  - id: preconnect
+    layer: http
+    signal: link-href
+    match: { regex: '^https://[a-z0-9]{20}\.supabase\.co' }
+    weight: 0.8
+    detail: Preconnect to a Supabase project
+
+  # Custom domains for the Supabase API point here.
+  - id: dns-cname
+    layer: dns
+    signal: cname
+    match: { regex: '\.supabase\.co\.?$' }
+    weight: 0.6
+    detail: CNAME to Supabase

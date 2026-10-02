@@ -1,0 +1,64 @@
+id: vercel
+name: Vercel
+category: hosting
+website: https://vercel.com
+rules:
+  - id: header-x-vercel-id
+    layer: http
+    signal: header
+    key: x-vercel-id
+    match: { exists: true }
+    weight: 0.95
+    detail: Vercel request id header
+
+  - id: header-x-vercel-cache
+    layer: http
+    signal: header
+    key: x-vercel-cache
+    match: { exists: true }
+    weight: 0.9
+    detail: Vercel edge cache header
+
+  - id: header-server
+    layer: http
+    signal: header
+    key: server
+    match: { equals: Vercel }
+    weight: 0.9
+
+  # Vercel Web Analytics and Speed Insights are served from the deployment itself.
+  - id: insights-script
+    layer: http
+    signal: script-src
+    match: { regex: '/_vercel/(?:insights|speed-insights)/' }
+    weight: 0.85
+    detail: Vercel analytics script
+
+  - id: insights-request
+    layer: browser
+    signal: request-url
+    match: { regex: '/_vercel/(?:insights|speed-insights)/' }
+    weight: 0.85
+    detail: Vercel analytics request
+
+  - id: dns-cname
+    layer: dns
+    signal: cname
+    match: { regex: '\.vercel-dns(?:-\d+)?\.com\.?$' }
+    weight: 0.9
+    detail: CNAME to Vercel
+
+  - id: dns-a-anycast
+    layer: dns
+    signal: a
+    match: { cidr: [76.76.21.0/24] }
+    weight: 0.85
+    detail: A record in Vercel's anycast range
+
+  # DNS hosted at Vercel says little about where the site itself runs.
+  - id: dns-ns
+    layer: dns
+    signal: ns
+    match: { regex: '\.vercel-dns\.com\.?$' }
+    weight: 0.4
+    detail: Nameservers at Vercel

@@ -1,0 +1,76 @@
+id: nextjs
+name: Next.js
+category: framework
+website: https://nextjs.org
+rules:
+  - id: header-x-powered-by
+    layer: http
+    signal: header
+    key: x-powered-by
+    match: { regex: '(?:^|, *)Next\.js' }
+    weight: 0.95
+
+  - id: header-cache
+    layer: http
+    signal: header
+    key: x-nextjs-cache
+    match: { exists: true }
+    weight: 0.9
+
+  - id: header-prerender
+    layer: http
+    signal: header
+    key: x-nextjs-prerender
+    match: { exists: true }
+    weight: 0.9
+
+  # App Router responses vary on its router headers.
+  - id: header-vary-router
+    layer: http
+    signal: header
+    key: vary
+    match: { contains: next-router-state-tree }
+    weight: 0.9
+
+  - id: static-script
+    layer: http
+    signal: script-src
+    match: { contains: /_next/static/ }
+    weight: 0.9
+    detail: Script served from /_next/static/
+
+  - id: static-link
+    layer: http
+    signal: link-href
+    match: { contains: /_next/static/ }
+    weight: 0.9
+    detail: Asset served from /_next/static/
+
+  # Pages Router.
+  - id: meta-head-count
+    layer: http
+    signal: meta
+    key: next-head-count
+    match: { exists: true }
+    weight: 0.9
+
+  - id: global-next-data
+    layer: browser
+    signal: window-global
+    match: { equals: __NEXT_DATA__ }
+    weight: 0.95
+    detail: Pages Router data global
+
+  - id: global-flight
+    layer: browser
+    signal: window-global
+    match: { equals: __next_f }
+    weight: 0.95
+    detail: App Router streaming global
+
+  - id: static-request
+    layer: browser
+    signal: request-url
+    match: { contains: /_next/static/ }
+    weight: 0.9
+    detail: Request to /_next/static/
