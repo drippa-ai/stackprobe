@@ -1,6 +1,6 @@
 {
   "url": "https://nextjs.org/",
-  "recordedAt": "2026-10-02T15:18:16.907Z",
+  "recordedAt": "2026-10-02T15:24:41.396Z",
   "http": {
     "GET https://nextjs.org/": {
       "result": {
@@ -34,18 +34,72 @@
           ["x-nextjs-stale-time", "300"],
           ["x-powered-by", "Next.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "fra1::sfo1::b776q-1790954297317-0f14b756aef5"],
+          ["x-vercel-id", "fra1::sfo1::pfn5h-1790954681534-81d7db8e5d2b"],
           ["x-xss-protection", "0"],
           ["vary", "rsc,next-router-state-tree,next-router-prefetch,next-router-segment-prefetch"],
           ["alt-svc", "h3=\":443\"; ma=300"],
-          ["age", "798"],
-          ["x-vercel-pop", "OSL50-P2"],
-          ["x-vercel-pop-id", "aASkmJZ9oQEx7uUFVEWPtdVQPYUgsTbW2Ba35BovOSfDElzPVeVoXw=="]
+          ["age", "280"],
+          ["x-vercel-pop", "OSL50-P1"],
+          ["x-vercel-pop-id", "HsgxdIdBbad3vxIY9ebqmlhG6SaF_Z0xPFab3NvUVVPETXwsybRzfQ=="]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preload\" as=\"image\" href=\"/_next/static/immutable/media/vercel-light.3_gxxexgi1nmy.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/_next/static/immutable/media/vercel-dark.1f3cgy23m5_jy.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/_next/static/immutable/media/vercel-logotype-light.0k7echqflwha4.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/_next/static/immutable/media/vercel-logotype-dark.3m9ycmsc1ql8m.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/_next/static/immutable/media/logo-twitter-x-light.0dvkch_c5dvys.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/_next/static/immutable/media/logo-twitter-x-dark.1-i769nzu94hl.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/_next/static/immutable/media/logo-bluesky-light.2may7hm2y7g6v.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/_next/static/immutable/media/logo-bluesky-dark.39tbulfg2p-1z.svg\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/21h1ctucpphw6.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/3-gma-zh-2hxu.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/2lra4q96-7lip.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/3spci--kp_o0c.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/2feic8vb1xod6.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/13zl3j0tcuiku.js\">\n<script src=\"/_next/static/immutable/chunks/0jw50m4lfegr-.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1ic0vpcz8db-b.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1s_c6miza8va0.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0y00j6wsy_1f4.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-29z21rggqxrvg.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1wisltwhv6f1a.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1ybw01cxsgtur.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/39p-dzi49tgr3.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2q6evjwm-565v.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/37wisn-jhlgoz.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/44o96zlithagp.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/35w652djhbf7x.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2t8z1r0_lcugz.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2su15yy5fxhvd.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/265jqrnj_sahp.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2rmic9ae7f-mg.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3vsw5602j7q64.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/31jgbu3j0br53.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/15t9bbcnejzvv.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3cbp7uf0rxa43.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3w-qik2id_b-i.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1-bqlai7cz8am.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2ft_zheeeqi7-.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/18pg66twysj5k.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1k_4k-hbsr1xh.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1lcboadkhf_i0.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2t6sq63eag1z4.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/25ml6m3r-2_pr.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2ps9oj5d_eoxb.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0yvn69vm8wejp.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/25aelooikel_t.js\" async=\"\"></script>\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"description\" content=\"Next.js by Vercel is the full-stack React framework for the web.\">\n<link rel=\"canonical\" href=\"https://nextjs.org\">\n<link rel=\"alternate\" type=\"text/markdown\" href=\"https://nextjs.org/llms.md\">\n<meta property=\"og:title\" content=\"Next.js by Vercel - The React Framework\">\n<meta property=\"og:description\" content=\"Next.js by Vercel is the full-stack React framework for the web.\">\n<meta property=\"og:url\" content=\"https://nextjs.org\">\n<meta property=\"og:image\" content=\"https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/nextjs/twitter-card.png\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:site\" content=\"@vercel\">\n<meta name=\"twitter:title\" content=\"Next.js by Vercel - The React Framework\">\n<meta name=\"twitter:description\" content=\"Production grade React applications that scale. The world's leading companies use Next.js by Vercel to build static and dynamic websites and web applications.\">\n<meta name=\"twitter:image\" content=\"https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/nextjs/twitter-card.png\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.38folom4sz_yx.ico\" sizes=\"48x48\" type=\"image/x-icon\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/13zl3j0tcuiku.js\" async=\"\"></script>"
       }
     }
   },
-  "dns": {},
-  "tls": {}
+  "dns": {
+    "NS nextjs.org": {
+      "result": {
+        "name": "nextjs.org",
+        "type": "NS",
+        "records": ["ns2.vercel-dns.com", "ns1.vercel-dns.com"]
+      }
+    },
+    "CNAME nextjs.org": {
+      "result": {
+        "name": "nextjs.org",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "AAAA nextjs.org": {
+      "result": {
+        "name": "nextjs.org",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "A nextjs.org": {
+      "result": {
+        "name": "nextjs.org",
+        "type": "A",
+        "records": ["155.121.0.3"]
+      }
+    },
+    "TXT 3.0.121.155.origin.asn.cymru.com": {
+      "result": {
+        "name": "3.0.121.155.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 155.121.0.0/24 | US | arin | 2025-12-23"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "nextjs.org:443": {
+      "result": {
+        "host": "nextjs.org",
+        "ip": "155.121.0.3",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+        "subjectAltNames": ["*.nextjs.org", "nextjs.org"],
+        "validFrom": "Sep 23 22:38:26 2026 GMT",
+        "validTo": "Dec 22 22:38:25 2026 GMT"
+      }
+    }
+  }
 }

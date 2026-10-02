@@ -1,5 +1,5 @@
 // Generated from fingerprints/*.yaml by `pnpm fingerprints`. Do not edit.
-export const FINGERPRINTS_VERSION = '21f606546cfb';
+export const FINGERPRINTS_VERSION = 'ae623421dbd4';
 export const FINGERPRINT_DEFINITIONS: unknown[] = [
   {
     "id": "nextjs",
@@ -258,16 +258,29 @@ export const FINGERPRINT_DEFINITIONS: unknown[] = [
         "detail": "CNAME to Vercel"
       },
       {
-        "id": "dns-a-anycast",
+        "id": "dns-a-vercel-network",
         "layer": "dns",
         "signal": "a",
         "match": {
           "cidr": [
-            "76.76.21.0/24"
+            "76.76.21.0/24",
+            "66.33.60.0/24",
+            "198.169.1.0/24",
+            "198.169.2.0/24",
+            "216.198.79.0/24",
+            "216.230.84.0/24",
+            "216.230.86.0/24",
+            "216.150.16.0/24",
+            "216.150.1.0/24",
+            "64.239.123.0/24",
+            "64.239.109.0/24",
+            "64.29.17.0/24",
+            "143.13.0.0/16",
+            "155.121.0.0/16"
           ]
         },
         "weight": 0.85,
-        "detail": "A record in Vercel's anycast range"
+        "detail": "A record in a network registered to Vercel"
       },
       {
         "id": "dns-ns",

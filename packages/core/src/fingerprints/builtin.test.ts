@@ -33,6 +33,7 @@ describe('vercel', () => {
       { layer: 'dns', kind: 'cname', value: 'd1d4fc829fe7bc7c.vercel-dns-017.com.' },
     ],
     ['anycast A record', { layer: 'dns', kind: 'a', value: '76.76.21.21' }],
+    ['newer Vercel network', { layer: 'dns', kind: 'a', value: '155.121.0.3' }],
   ])('detects %s', (_, signal) => {
     expect(techs([signal])).toEqual(['vercel']);
   });

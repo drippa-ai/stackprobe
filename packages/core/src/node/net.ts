@@ -1,11 +1,13 @@
 import dns, { type LookupAddress, type LookupOptions } from 'node:dns';
+import { Resolver } from 'node:dns/promises';
 import http, { type IncomingMessage } from 'node:http';
 import https from 'node:https';
 import { BlockList, isIP } from 'node:net';
 import type { Readable } from 'node:stream';
+import tls from 'node:tls';
 import zlib from 'node:zlib';
 import { LayerError } from '../layer.ts';
-import type { DnsAnswer, HttpRequest, HttpResponse, Net, TlsInfo } from '../net.ts';
+import type { DnsAnswer, DnsRecordType, HttpRequest, HttpResponse, Net, TlsInfo } from '../net.ts';
 import type { LayerErrorCode } from '../report.ts';
 import { STACKPROBE_VERSION } from '../version.ts';
 
@@ -68,10 +70,8 @@ export class NodeNet implements Net {
     if (url.protocol !== 'https:' && url.protocol !== 'http:') {
       return Promise.reject(new LayerError('HTTP_STATUS', `Unsupported URL ${req.url}`));
     }
-    const literal = url.hostname.replace(/^\[|\]$/g, '');
-    if (!this.allowPrivate && isIP(literal) && isPrivateAddress(literal)) {
-      return Promise.reject(blockedError(literal));
-    }
+    const blocked = this.blockedLiteral(url.hostname);
+    if (blocked) return Promise.reject(blocked);
     const client = url.protocol === 'https:' ? https : http;
 
     return new Promise((resolve, reject) => {
@@ -105,13 +105,97 @@ export class NodeNet implements Net {
     });
   }
 
-  dns(): Promise<DnsAnswer> {
-    return Promise.reject(new LayerError('INTERNAL', 'DNS is not implemented yet'));
+  async dns(name: string, type: DnsRecordType, signal: AbortSignal): Promise<DnsAnswer> {
+    const resolver = new Resolver({ timeout: 2_000, tries: 2 });
+    const cancel = () => resolver.cancel();
+    signal.addEventListener('abort', cancel, { once: true });
+    try {
+      return { name, type, records: await resolve(resolver, name, type) };
+    } catch (error) {
+      if (signal.aborted) throw signal.reason;
+      // The name exists but has no records of this type.
+      if ((error as NodeJS.ErrnoException).code === 'ENODATA') return { name, type, records: [] };
+      throw toLayerError(error);
+    } finally {
+      signal.removeEventListener('abort', cancel);
+    }
   }
 
-  tls(): Promise<TlsInfo> {
-    return Promise.reject(new LayerError('INTERNAL', 'TLS is not implemented yet'));
+  // Completes a TLS handshake to read the certificate, then hangs up without sending anything.
+  // The certificate is validated as usual; an invalid one fails with TLS_HANDSHAKE.
+  tls(host: string, port: number, signal: AbortSignal): Promise<TlsInfo> {
+    const blocked = this.blockedLiteral(host);
+    if (blocked) return Promise.reject(blocked);
+
+    return new Promise((resolve, reject) => {
+      const socket = tls.connect({
+        host,
+        port,
+        servername: isIP(host) ? undefined : host,
+        ...(this.allowPrivate ? {} : { lookup: publicOnlyLookup }),
+      });
+      const onAbort = () => {
+        socket.destroy();
+        reject(signal.reason);
+      };
+      signal.addEventListener('abort', onAbort, { once: true });
+      const done = () => signal.removeEventListener('abort', onAbort);
+
+      socket.once('secureConnect', () => {
+        const cert = socket.getPeerCertificate();
+        const info: TlsInfo = {
+          host,
+          ip: socket.remoteAddress ?? '',
+          issuer: describeName(cert.issuer),
+          subjectAltNames: (cert.subjectaltname ?? '')
+            .split(',')
+            .map((entry) => entry.trim().replace(/^DNS:/, ''))
+            .filter(Boolean),
+          validFrom: cert.valid_from ?? '',
+          validTo: cert.valid_to ?? '',
+        };
+        done();
+        socket.end();
+        resolve(info);
+      });
+      socket.once('error', (error) => {
+        done();
+        reject(toLayerError(error));
+      });
+    });
   }
+
+  private blockedLiteral(hostname: string): LayerError | null {
+    const literal = hostname.replace(/^\[|\]$/g, '');
+    return !this.allowPrivate && isIP(literal) && isPrivateAddress(literal)
+      ? blockedError(literal)
+      : null;
+  }
+}
+
+async function resolve(resolver: Resolver, name: string, type: DnsRecordType): Promise<string[]> {
+  switch (type) {
+    case 'A':
+      return resolver.resolve4(name);
+    case 'AAAA':
+      return resolver.resolve6(name);
+    case 'CNAME':
+      return resolver.resolveCname(name);
+    case 'NS':
+      return resolver.resolveNs(name);
+    case 'MX':
+      return (await resolver.resolveMx(name)).map((mx) => mx.exchange);
+    case 'TXT':
+      return (await resolver.resolveTxt(name)).map((chunks) => chunks.join(''));
+  }
+}
+
+function describeName(name: Record<string, string | string[] | undefined> | undefined): string {
+  if (!name) return '';
+  return ['C', 'O', 'OU', 'CN']
+    .filter((field) => name[field])
+    .map((field) => `${field}=${[name[field]].flat().join(' ')}`)
+    .join(', ');
 }
 
 type LookupCallback = (
@@ -194,6 +278,8 @@ function readBody(response: IncomingMessage): Promise<string> {
 
 const CONNECT_ERRORS = new Set([
   'ECONNREFUSED',
+  'ETIMEOUT',
+  'ESERVFAIL',
   'ECONNRESET',
   'EHOSTUNREACH',
   'ENETUNREACH',

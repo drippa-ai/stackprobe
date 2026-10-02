@@ -1,6 +1,6 @@
 {
   "url": "https://vercel.com/",
-  "recordedAt": "2026-10-02T15:18:09.610Z",
+  "recordedAt": "2026-10-02T15:24:40.273Z",
   "http": {
     "GET https://vercel.com/": {
       "result": {
@@ -8,7 +8,7 @@
         "status": 200,
         "headers": [
           ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["age", "231"],
+          ["age", "621"],
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-encoding", "br"],
           [
@@ -47,7 +47,7 @@
           ["x-pathname", "/"],
           ["x-powered-by", "Next.js, Payload"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::iad1::6jr9m-1790954289699-e5735719161f"],
+          ["x-vercel-id", "arn1::iad1::szdps-1790954680342-aa621492b92f"],
           ["x-xss-protection", "0"],
           ["transfer-encoding", "chunked"]
         ],
@@ -55,6 +55,60 @@
       }
     }
   },
-  "dns": {},
-  "tls": {}
+  "dns": {
+    "A vercel.com": {
+      "result": {
+        "name": "vercel.com",
+        "type": "A",
+        "records": ["64.239.109.129", "64.239.109.193"]
+      }
+    },
+    "AAAA vercel.com": {
+      "result": {
+        "name": "vercel.com",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "NS vercel.com": {
+      "result": {
+        "name": "vercel.com",
+        "type": "NS",
+        "records": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"]
+      }
+    },
+    "CNAME vercel.com": {
+      "result": {
+        "name": "vercel.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "TXT 193.109.239.64.origin.asn.cymru.com": {
+      "result": {
+        "name": "193.109.239.64.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 64.239.109.0/24 | US | arin | 2024-07-24"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "vercel.com:443": {
+      "result": {
+        "host": "vercel.com",
+        "ip": "64.239.109.193",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR1",
+        "subjectAltNames": ["*.vercel.com", "vercel.com"],
+        "validFrom": "Sep 25 12:18:22 2026 GMT",
+        "validTo": "Dec 24 12:18:21 2026 GMT"
+      }
+    }
+  }
 }
