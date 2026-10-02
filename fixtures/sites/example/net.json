@@ -1,29 +1,83 @@
 {
   "url": "https://example.com/",
-  "recordedAt": "2026-10-02T15:18:18.680Z",
+  "recordedAt": "2026-10-02T15:24:42.585Z",
   "http": {
     "GET https://example.com/": {
       "result": {
         "url": "https://example.com/",
         "status": 200,
         "headers": [
-          ["date", "Fri, 02 Oct 2026 15:18:18 GMT"],
+          ["date", "Fri, 02 Oct 2026 15:24:43 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
           ["server", "cloudflare"],
           ["last-modified", "Mon, 28 Sep 2026 16:19:23 GMT"],
           ["allow", "GET, HEAD"],
-          ["age", "10030"],
+          ["age", "10415"],
           ["cf-cache-status", "HIT"],
           ["content-encoding", "br"],
-          ["cf-ray", "a444adcf8e5b8a28-CPH"],
+          ["cf-ray", "a444b73378ddb354-CPH"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
         "body": "<meta charset=\"utf-8\">\n<link rel=\"icon\" href=\"data:,\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<script src=\"/s.js\"></script>"
       }
     }
   },
-  "dns": {},
-  "tls": {}
+  "dns": {
+    "CNAME example.com": {
+      "result": {
+        "name": "example.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "NS example.com": {
+      "result": {
+        "name": "example.com",
+        "type": "NS",
+        "records": ["hera.ns.cloudflare.com", "elliott.ns.cloudflare.com"]
+      }
+    },
+    "AAAA example.com": {
+      "result": {
+        "name": "example.com",
+        "type": "AAAA",
+        "records": ["2606:4700:10::ac42:93f3", "2606:4700:10::6814:179a"]
+      }
+    },
+    "A example.com": {
+      "result": {
+        "name": "example.com",
+        "type": "A",
+        "records": ["172.66.147.243", "104.20.23.154"]
+      }
+    },
+    "TXT 243.147.66.172.origin.asn.cymru.com": {
+      "result": {
+        "name": "243.147.66.172.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | 172.66.144.0/20 | US | arin | 2015-02-25"]
+      }
+    },
+    "TXT as13335.asn.cymru.com": {
+      "result": {
+        "name": "AS13335.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | US | arin | 2010-07-14 | CLOUDFLARENET - Cloudflare, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "example.com:443": {
+      "result": {
+        "host": "example.com",
+        "ip": "172.66.147.243",
+        "issuer": "C=US, O=SSL Corporation, CN=Cloudflare TLS Issuing ECC CA 3",
+        "subjectAltNames": ["example.com", "*.example.com"],
+        "validFrom": "Sep 26 22:49:11 2026 GMT",
+        "validTo": "Dec 25 22:56:35 2026 GMT"
+      }
+    }
+  }
 }

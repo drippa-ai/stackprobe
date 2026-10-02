@@ -1,6 +1,6 @@
 {
   "present": [
-    { "tech": "vercel", "minConfidence": 0.9 },
+    { "tech": "vercel", "minConfidence": 0.99 },
     { "tech": "nextjs", "minConfidence": 0.9 }
   ],
   "absent": ["supabase"]

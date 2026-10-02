@@ -5,7 +5,14 @@ export { compileFingerprints, Fingerprint, FingerprintError } from './fingerprin
 export { builtinFingerprints, FINGERPRINTS_VERSION } from './fingerprints/index.ts';
 export type { Layer, LayerContext, Signal, SignalKind, SurfaceTarget } from './layer.ts';
 export { LayerError, SIGNAL_KINDS } from './layer.ts';
-export { DEFAULT_LAYERS, distillHtml, httpLayer } from './layers/index.ts';
+export {
+  DEFAULT_LAYERS,
+  distillHtml,
+  dnsLayer,
+  httpLayer,
+  lookupAsn,
+  tlsLayer,
+} from './layers/index.ts';
 export type { DnsAnswer, DnsRecordType, HttpRequest, HttpResponse, Net, TlsInfo } from './net.ts';
 export {
   Detection,
