@@ -1,0 +1,38 @@
+{
+  "name": "@drippa/stackprobe-store-postgres",
+  "version": "0.0.0",
+  "description": "Stores stackprobe scans in any Postgres database, including Supabase.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./migrate": "./src/migrate.ts"
+  },
+  "publishConfig": {
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "./migrate": {
+        "types": "./dist/migrate.d.ts",
+        "default": "./dist/migrate.js"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "migrations"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@drippa/stackprobe-core": "workspace:*",
+    "postgres": "^3.4.9"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.8"
+  }
+}
