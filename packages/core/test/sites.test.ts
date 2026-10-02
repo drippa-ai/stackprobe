@@ -1,10 +1,7 @@
 import { readdirSync } from 'node:fs';
 import { describe, expect, test } from 'vitest';
-import { detect } from '../src/detect.ts';
-import { builtinFingerprints } from '../src/fingerprints/index.ts';
-import { DEFAULT_LAYERS } from '../src/layers/index.ts';
-import { runLayers } from '../src/runner.ts';
-import { surfaceTarget } from '../src/surface.ts';
+import { Report } from '../src/report.ts';
+import { scan } from '../src/scan.ts';
 import { FIXTURES_DIR, loadFixture, ReplayNet } from './fixtures.ts';
 
 const sites = readdirSync(FIXTURES_DIR, { withFileTypes: true })
@@ -17,17 +14,14 @@ describe.each(sites)('%s', (name) => {
 
   test('scans as expected', async () => {
     const net = new ReplayNet(recording);
-    const results = await runLayers(DEFAULT_LAYERS, surfaceTarget(recording.url), { net });
+    const report = await scan(recording.url, { net });
     expect(net.misses, 'calls missing from the recording').toEqual([]);
-    expect(results.map((r) => r.run.error)).not.toContainEqual(
+    expect(Report.parse(report)).toEqual(report);
+    expect(report.layersRun.map((run) => run.error)).not.toContainEqual(
       expect.objectContaining({ code: 'INTERNAL' }),
     );
 
-    const detections = detect(
-      results.flatMap((r) => r.signals),
-      builtinFingerprints(),
-    );
-    const found = new Map(detections.map((d) => [d.tech, d.confidence]));
+    const found = new Map(report.surfaces[0]?.detections.map((d) => [d.tech, d.confidence]));
     for (const { tech, minConfidence } of expected.present) {
       expect(found.get(tech), `${tech} confidence`).toBeGreaterThanOrEqual(minConfidence);
     }

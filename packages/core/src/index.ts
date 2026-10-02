@@ -27,5 +27,9 @@ export {
 } from './report.ts';
 export type { LayerResult, RunOptions } from './runner.ts';
 export { runLayer, runLayers } from './runner.ts';
+export type { BuildReportInput, ScanOptions, SurfaceResults } from './scan.ts';
+export { buildReport, reportStatus, SCAN_BUDGET_MS, scan } from './scan.ts';
+export type { ScanRecord, ScanStatus, Store } from './store.ts';
+export { MemoryStore, ScanFinishedError, ScanNotFoundError } from './store.ts';
 export { surfaceTarget } from './surface.ts';
 export { STACKPROBE_VERSION } from './version.ts';
