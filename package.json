@@ -12,7 +12,8 @@
     "lint": "biome check .",
     "format": "biome check --write .",
     "test": "vitest run",
-    "schema": "node packages/core/scripts/write-schema.ts"
+    "schema": "node packages/core/scripts/write-schema.ts",
+    "fingerprints": "node packages/core/scripts/build-fingerprints.ts"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.15",
