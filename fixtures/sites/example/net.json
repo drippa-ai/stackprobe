@@ -1,0 +1,29 @@
+{
+  "url": "https://example.com/",
+  "recordedAt": "2026-10-02T15:18:18.680Z",
+  "http": {
+    "GET https://example.com/": {
+      "result": {
+        "url": "https://example.com/",
+        "status": 200,
+        "headers": [
+          ["date", "Fri, 02 Oct 2026 15:18:18 GMT"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["server", "cloudflare"],
+          ["last-modified", "Mon, 28 Sep 2026 16:19:23 GMT"],
+          ["allow", "GET, HEAD"],
+          ["age", "10030"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a444adcf8e5b8a28-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<link rel=\"icon\" href=\"data:,\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<script src=\"/s.js\"></script>"
+      }
+    }
+  },
+  "dns": {},
+  "tls": {}
+}

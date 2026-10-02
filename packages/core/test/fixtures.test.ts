@@ -49,9 +49,10 @@ describe('record and replay', () => {
       status: 200,
       headers: [
         ['server', 'Vercel'],
+        ['content-type', 'text/html'],
         ['set-cookie', 'session=abc123'],
       ],
-      body: `<script>const key = "${jwt}"</script>`,
+      body: `<p>Hello</p><script src="/a.js?key=${jwt}"></script><script>const key = "${jwt}"</script>`,
     }),
     dns: async (name, type) => {
       if (name === 'missing.example') throw new LayerError('DNS_NXDOMAIN', 'no such domain');
@@ -81,9 +82,10 @@ describe('record and replay', () => {
     const res = await replay.http({ url: 'https://example.com/', method: 'GET' });
     expect(res.headers).toEqual([
       ['server', 'Vercel'],
+      ['content-type', 'text/html'],
       ['set-cookie', 'session=<redacted>'],
     ]);
-    expect(res.body).toBe('<script>const key = "<jwt>"</script>');
+    expect(res.body).toBe('<script src="/a.js?key=<jwt>"></script>');
     expect((await replay.dns('example.com', 'A')).records).toEqual(['76.76.21.21']);
     await expect(replay.dns('missing.example', 'A')).rejects.toMatchObject({
       name: 'LayerError',

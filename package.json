@@ -13,7 +13,8 @@
     "format": "biome check --write .",
     "test": "vitest run",
     "schema": "node packages/core/scripts/write-schema.ts",
-    "fingerprints": "node packages/core/scripts/build-fingerprints.ts"
+    "fingerprints": "node packages/core/scripts/build-fingerprints.ts",
+    "record-fixture": "node packages/core/scripts/record-fixture.ts"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.15",
