@@ -14,4 +14,4 @@ Read the relevant spec section before starting any task. Keep the spec private.
 ## Working style
 - Plan first, wait for approval, then build.
 - Small PRs, one concern each. Drippa reviews every PR.
-- TypeScript, pnpm workspaces, Node 20+.
+- TypeScript, pnpm workspaces, Node 22.12+.
