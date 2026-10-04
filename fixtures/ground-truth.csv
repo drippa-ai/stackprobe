@@ -1,0 +1,52 @@
+domain,surface_url,surface_kind,present,absent,source,source_date,strength,notes
+drippa.ai,https://app.drippa.ai/,app,vercel supabase,,first-hand,2026-10,first-hand,
+getcircular.ai,https://getcircular.ai/login,app,vercel supabase,,first-hand,2026-10,first-hand-unconfirmed,app shares domain with marketing
+bydagny.com,https://www.bydagny.com/sign-in,app,vercel supabase,,first-hand,2026-10,first-hand,app shares domain with marketing
+indykite.com,https://us.hub.indykite.com/login,app,,vercel supabase,first-hand,2026-10,first-hand,GCP + CockroachDB (no fingerprints yet; negative control)
+notion.com,https://www.notion.com/,marketing,vercel nextjs,,https://vercel.com/customers/how-notion-powers-rapid-and-performant-experimentation,2024-11,strong,marketing only
+ramp.com,https://ramp.com/,marketing,vercel nextjs,,https://vercel.com/customers/how-ramp-kept-100-uptime-through-100x-traffic-surges-on-vercel,2026-02,strong,marketing only
+chatbase.co,https://www.chatbase.co/,marketing,vercel nextjs,,https://vercel.com/customers/how-chatbase-scaled-rapidly-with-vercels-developer-experience-and-ai-sdk,2024-10,strong,
+chatbase.co,https://www.chatbase.co/dashboard,app,vercel nextjs supabase,,https://supabase.com/customers/chatbase,2026-05,medium,app path inferred
+leonardo.ai,https://app.leonardo.ai/,app,vercel nextjs,,https://vercel.com/customers/leonardo-ai-performantly-generates-4-5-million-images-daily-with-next-js-and-vercel,2024-03,strong,
+openevidence.com,https://www.openevidence.com/,app,vercel nextjs,,https://vercel.com/customers/how-openevidence-built-a-healthcare-ai-that-physicians-can-trust,2026-02,strong,product at root
+metamask.io,https://metamask.io/,marketing,vercel nextjs,,https://vercel.com/customers/how-consensys-rebuilt-metamask-io-with-vercel-and-next-js,2025-05,strong,
+tray.ai,https://tray.ai/,marketing,vercel nextjs,,https://vercel.com/customers/tray-ai-cut-build-times-from-a-day-to-minutes-with-vercel,2025-06,strong,
+speechify.com,https://speechify.com/,marketing,vercel nextjs,,https://vercel.com/customers/how-speechify-serves-50000-dynamic-pages-to-60-million-users-on-vercel,2026-07,strong,
+meter.com,https://dashboard.meter.com/,app,vercel,nextjs,https://vercel.com/customers/from-minutes-to-seconds-how-meter-accelerates-delivery-with-vercel-and-next,2024-11,medium,React/Vite dashboard; hostname to confirm
+elevenlabs.io,https://elevenlabs.io/docs,docs,vercel nextjs,,https://vercel.com/customers/how-fern-delivers-6m-monthly-views-and-80-faster-docs-with-vercel,2025-05,medium,docs served by Fern
+kubernetes.io,https://kubernetes.io/docs/,docs,netlify,nextjs,https://www.netlify.com/blog/why-kubernetes-and-cncf-projects-prefer-netlify/,2024-05,strong,Hugo
+navan.com,https://navan.com/,marketing,netlify nextjs,,https://www.netlify.com/blog/navan-next-case-study/,2023-01,medium,
+leagueoflegends.com,https://www.leagueoflegends.com/,marketing,netlify,nextjs,https://www.netlify.com/blog/riot-games-case-study-bandwidth-optimization/,2023-08,medium,Gatsby
+stackoverflow.com,https://stackoverflow.com/questions,app,,netlify,https://www.netlify.com/blog/stack-overflow-case-study/,2022-06,medium,negative control
+turso.tech,https://app.turso.tech/,app,clerk nextjs,,https://turso.tech/blog/why-we-transitioned-to-clerk-for-authentication,2024-08,strong,own blog
+inngest.com,https://app.inngest.com/,app,clerk,,https://www.inngest.com/blog/building-auth-workflows-with-clerk-integration,2024-01,medium,app URL inferred
+openstatus.dev,https://www.openstatus.dev/app,app,nextjs,clerk,https://www.openstatus.dev/blog/migration-auth-clerk-to-next-auth,2024-05,medium,moved off Clerk; app URL inferred
+buildwithfern.com,https://dashboard.buildwithfern.com/,app,auth0,,https://auth0.com/case-studies/fern,2025,strong,Auth0 strings on marketing are SDK docs not auth
+rightblogger.com,https://rightblogger.com/,unclear,cloudflare,,https://www.cloudflare.com/case-studies/rightblogger/,2025,strong,whole site on Cloudflare CDN
+lunarcrush.com,https://lunarcrush.com/,unclear,cloudflare,vercel,https://www.cloudflare.com/case-studies/lunarcrush/,2025,medium,moved off Vercel (implied)
+cal.com,https://cal.com/,marketing,framer,,https://www.framer.com/stories/calcom/,2026,strong,marketing vs app split
+cal.com,https://app.cal.com/,app,nextjs,framer,https://www.framer.com/stories/calcom/,2026,medium,app stack via open-source repo
+perplexity.ai,https://www.perplexity.ai/hub/,marketing,framer,,https://www.framer.com/customers/perplexity/,2026,strong,path-level surface on app domain
+mutinyhq.com,https://www.mutinyhq.com/,marketing,framer,,https://www.framer.com/stories/mutiny/,2026-04,strong,
+whereby.com,https://whereby.com/,marketing,framer,,https://www.framer.com/customers/whereby/,2026,strong,Framer behind reverse proxy
+superthread.com,https://superthread.com/,marketing,framer,webflow,https://superthread.com/blog/why-we-moved-our-website-from-webflow-to-framer,2025-07,strong,own blog
+mixpanel.com,https://mixpanel.com/,marketing,framer,,https://www.framer.com/stories/mixpanel/,2026,medium,
+bettermode.com,https://bettermode.com/,marketing,framer,webflow,https://elaya.design/project-detail/rebuilding-a-marketing-website-from-webflow-to-framer,2026-08,medium,agency source
+arkoselabs.com,https://www.arkoselabs.com/,marketing,webflow,,https://webflow.com/customers/arkose-labs,2026,strong,moved off WordPress
+greenhouse.com,https://www.greenhouse.com/,marketing,webflow,,https://webflow.com/customers/greenhouse,2026-06,strong,
+oysterhr.com,https://www.oysterhr.com/,marketing,webflow,,https://webflow.com/customers/oyster,2023-11,medium,
+attentive.com,https://www.attentive.com/,marketing,webflow,,https://webflow.com/customers/attentive,2023-10,medium,
+intility.com,https://engineering.intility.com/,marketing,payload nextjs,webflow,https://engineering.intility.com/article/engineering-our-engineering-blog,2025-11,strong,engineering blog
+releese.io,https://releese.io/,marketing,payload nextjs,,https://payloadcms.com/case-studies/releese,2024,medium,
+bizee.com,https://bizee.com/,marketing,payload nextjs vercel,,https://payloadcms.com/case-studies/bizee,2024,medium,
+payloadcms.com,https://payloadcms.com/,marketing,payload nextjs,,https://github.com/payloadcms/website,2026,strong,official repo
+mobbin.com,https://mobbin.com/,app,supabase,firebase,https://supabase.com/customers/mobbin,2023-02,strong,moved off Firebase
+resend.com,https://resend.com/login,app,supabase,,https://supabase.com/customers/resend,2025-02,strong,app shares domain
+humata.ai,https://app.humata.ai/,app,supabase vercel nextjs,,https://supabase.com/customers/humata,2024-10,strong,
+goodtape.io,https://app.goodtape.io/auth/login,app,supabase,auth0,https://supabase.com/customers/good-tape,2023-10,strong,moved off Auth0
+udio.com,https://www.udio.com/,app,supabase,,https://supabase.com/customers/udio,2025-05,strong,product at root
+qa.tech,https://app.qa.tech/,app,supabase,,https://supabase.com/customers/qa-tech,2026-08,medium,app URL inferred
+lingo.dev,https://lingo.dev/,unclear,supabase,,https://supabase.com/customers/lingodotdev,2026-08,medium,
+ayrshare.com,https://app.ayrshare.com/,app,firebase,,https://www.ayrshare.com/blog/how-to-use-firebase-queues/,2024-01,strong,
+shortwave.com,https://app.shortwave.com/,app,firebase,,https://groups.google.com/g/firebase-talk/c/3leAmATwdE4,2022-02,medium,old source
+thehouse.id,https://thehouse.id/,app,firebase,,https://firebase.blog/posts/2025/07/houseid-studio-showcase,2025-07,strong,
