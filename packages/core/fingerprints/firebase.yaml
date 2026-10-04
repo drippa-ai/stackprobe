@@ -1,0 +1,49 @@
+id: firebase
+name: Firebase
+category: backend-as-a-service
+website: https://firebase.google.com
+rules:
+  # Firebase Hosting reserves /__/firebase/ for its own SDK and config scripts.
+  - id: hosting-reserved-script
+    layer: http
+    signal: script-src
+    match: { regex: '/__/firebase/' }
+    weight: 0.95
+    detail: Script from Firebase Hosting's reserved URLs
+
+  - id: sdk-script
+    layer: http
+    signal: script-src
+    match: { regex: '^https://www\.gstatic\.com/firebasejs/(\d+\.\d+\.\d+)/' }
+    version: $1
+    weight: 0.9
+    detail: Firebase JavaScript SDK
+
+  - id: dns-cname
+    layer: dns
+    signal: cname
+    match: { regex: '\.(?:web\.app|firebaseapp\.com)\.?$' }
+    weight: 0.9
+    detail: CNAME to Firebase Hosting
+
+  # The A records Firebase Hosting gives custom domains: the current one, and the older pair.
+  - id: dns-a
+    layer: dns
+    signal: a
+    match: { cidr: [199.36.158.100/32, 151.101.1.195/32, 151.101.65.195/32] }
+    weight: 0.85
+    detail: A record at Firebase Hosting
+
+  - id: api-request
+    layer: browser
+    signal: request-url
+    match: { regex: '^https://(?:firestore|identitytoolkit|securetoken|firebaseinstallations)\.googleapis\.com/' }
+    weight: 0.9
+    detail: Request to a Firebase API
+
+  - id: realtime-database
+    layer: browser
+    signal: websocket-url
+    match: { regex: '\.firebaseio\.com/' }
+    weight: 0.9
+    detail: Firebase Realtime Database connection

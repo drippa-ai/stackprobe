@@ -1,0 +1,43 @@
+id: netlify
+name: Netlify
+category: hosting
+website: https://www.netlify.com
+rules:
+  - id: header-server
+    layer: http
+    signal: header
+    key: server
+    match: { equals: Netlify }
+    weight: 0.95
+
+  - id: header-request-id
+    layer: http
+    signal: header
+    key: x-nf-request-id
+    match: { exists: true }
+    weight: 0.95
+    detail: Netlify request id header
+
+  - id: header-vary
+    layer: http
+    signal: header
+    key: netlify-vary
+    match: { exists: true }
+    weight: 0.9
+    detail: Netlify cache header
+
+  # Site subdomains, the apex load balancer and enterprise CDN names.
+  - id: dns-cname
+    layer: dns
+    signal: cname
+    match: { regex: '\.netlify(?:globalcdn)?\.(?:app|com)\.?$' }
+    weight: 0.9
+    detail: CNAME to Netlify
+
+  # The A record Netlify tells customers to use for root domains.
+  - id: dns-a
+    layer: dns
+    signal: a
+    match: { cidr: [75.2.60.5/32] }
+    weight: 0.85
+    detail: A record at Netlify's load balancer

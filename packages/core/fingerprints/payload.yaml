@@ -1,0 +1,22 @@
+id: payload
+name: Payload
+category: cms
+website: https://payloadcms.com
+rules:
+  # Payload adds itself to x-powered-by unless the site turns it off.
+  - id: header-powered-by
+    layer: http
+    signal: header
+    key: x-powered-by
+    match: { regex: '\bPayload\b' }
+    weight: 0.95
+    detail: x-powered-by names Payload
+
+  # Uploads are served from /api/<collection>/file/<name> by default.
+  - id: upload-url
+    layer: http
+    signal: meta
+    key: og:image
+    match: { regex: '/api/[a-z0-9-]+/file/' }
+    weight: 0.6
+    detail: Share image served from a Payload upload URL

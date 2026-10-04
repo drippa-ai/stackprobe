@@ -1,0 +1,49 @@
+id: cloudflare
+name: Cloudflare
+category: cdn
+website: https://www.cloudflare.com
+rules:
+  - id: header-cf-ray
+    layer: http
+    signal: header
+    key: cf-ray
+    match: { exists: true }
+    weight: 0.95
+    detail: Cloudflare request id header
+
+  - id: header-server
+    layer: http
+    signal: header
+    key: server
+    match: { equals: cloudflare }
+    weight: 0.95
+
+  - id: header-cache-status
+    layer: http
+    signal: header
+    key: cf-cache-status
+    match: { exists: true }
+    weight: 0.9
+    detail: Cloudflare cache header
+
+  # Set by Cloudflare's bot management on the site's own domain.
+  - id: cookie-bot-management
+    layer: http
+    signal: cookie-name
+    match: { equals: __cf_bm }
+    weight: 0.9
+    detail: Cloudflare bot management cookie
+
+  - id: asn
+    layer: tls
+    signal: asn
+    match: { regex: '^AS13335\b' }
+    weight: 0.85
+    detail: Address in Cloudflare's network
+
+  - id: dns-cname
+    layer: dns
+    signal: cname
+    match: { regex: '\.(?:pages\.dev|cdn\.cloudflare\.net)\.?$' }
+    weight: 0.9
+    detail: CNAME to Cloudflare
