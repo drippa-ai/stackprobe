@@ -22,6 +22,8 @@ interface ScanRow {
 
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 const SCAN_COLUMNS = 'id, domain, url, status, created_at, finished_at, report';
+// JSON goes in as text and is cast with $n::text::jsonb. With a bare $n::jsonb, postgres.js
+// JSON-encodes the already encoded text again, and the column ends up holding a JSON string.
 
 // Stores scans in Postgres, in the `stackprobe` schema created by migrate().
 export class PostgresStore implements Store {
@@ -45,7 +47,7 @@ export class PostgresStore implements Store {
       ? await this.sql.query(
           `insert into stackprobe.layer_results
              (scan_id, surface_id, layer, status, duration_ms, error, signals)
-           select $1, $2, $3, $4, $5, $6::jsonb, $7::jsonb
+           select $1, $2, $3, $4, $5, $6::text::jsonb, $7::text::jsonb
            where exists (select 1 from stackprobe.scans where id = $1 and status = 'running')
            on conflict (scan_id, surface_id, layer) do update set
              status = excluded.status,
@@ -72,7 +74,7 @@ export class PostgresStore implements Store {
     const row = await this.sql.transaction(async (tx) => {
       const [updated] = await tx.query<ScanRow>(
         `update stackprobe.scans
-         set status = $2, finished_at = now(), fingerprints_version = $3, report = $4::jsonb
+         set status = $2, finished_at = now(), fingerprints_version = $3, report = $4::text::jsonb
          where id = $1 and status = 'running'
          returning ${SCAN_COLUMNS}`,
         [scanId, reportStatus(report), report.fingerprintsVersion, JSON.stringify(report)],
