@@ -1,0 +1,107 @@
+{
+  "url": "https://dashboard.meter.com/",
+  "recordedAt": "2026-10-04T16:50:53.720Z",
+  "http": {
+    "GET https://dashboard.meter.com/": {
+      "result": {
+        "url": "https://dashboard.meter.com/",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "156082"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Sun, 04 Oct 2026 16:50:53 GMT"],
+          ["etag", "W/\"8c2a71a1111664936ac09aa501d3e6de\""],
+          ["last-modified", "Fri, 02 Oct 2026 21:29:31 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::lljq9-1791132653881-7507fcb0d934"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<link rel=\"icon\" href=\"/images/favicon.png\">\n<meta name=\"viewport\" content=\"viewport-fit=cover, width=device-width, initial-scale=1\">\n<meta name=\"mobile-web-app-capable\" content=\"yes\">\n<meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\">\n<meta name=\"theme-color\" id=\"meter-theme-color\" content=\"#FFFFFF\">\n<meta name=\"color-scheme\" id=\"meter-color-scheme\" content=\"light dark\">\n<meta name=\"healthcheck\" content=\"name=dashboard,status=online\">\n<meta name=\"robots\" content=\"noindex, nofollow\">\n<script type=\"module\" crossorigin=\"\" src=\"/assets/index-Co3Ngkdd.js\"></script>\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/jsx-runtime-qugFlhtW.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/exports-DLldTtZw.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/errorboundary-B-UebVjH.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/react-dom-f10ZNGnq.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/dist-Cn2-tMJl.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/src-CBHCeafP.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/dist-CQCcfPg_.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/preload-helper-D13UdkDh.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/src-DJRMf3GK.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/errors-BWeWtQMz.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/esm-DtbyFHkT.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/replayStats-OVwhbdRP.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useFeatureFlags-n9PNAn9b.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/cookies-B-M-bnfK.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useAxiosInstance-CYOJvzY7.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/IdentityDataProvider-BRlD173F.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/src-ZLNz1IIb.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/src-CnX46Lwo.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-BxpRig6_2.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useSuspenseQuery-Cy2nvdRL.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useMutation-CFn94QXV.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/gql-Dgz24EHJ.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/logError-n4868hE7.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useKeyValue-BLyXhqD8.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/src-6N33G5Wb.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/constants-DkdGq5CF.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useCurrentCompanyFromPath-C6OZcD6k.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/CurrentCompanyProvider-CQvB06Tp.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/nav-BWR4Pe5f.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useNetworkFromPath-D3b2NuOs.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/zod-types-B8E1ts_S.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useLocalStorage-CSwD9ABd.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useAccessLevelForUser-BWyemt2b.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/withZodSchema-Ckg8nye5.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/immer.esm-C19XHJ6g.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/client-DkbzuThN.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/src-YjGKa1yC.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/DeviceSpecsProvider-Bo7a7v5s.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useCompany-CAxIi5Ih.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/main_and_drawer_navigation-f9Es-UXD.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/SelectedDevicesProvider-jgvRxR_I.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/ThemeProvider-CxuFQfx4.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useHourCyclePreference-BIalu01C.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/stitches-Bojgm4GN.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/FullscreenFallback-D-gps0nq.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/queries-BQMD6IE5.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/AutoAddMeterEmployeeToCompany-CFiFiUgk.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/AutoPageTitle-CAhsnAU0.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/Markdown-DlxJ7MI4.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/NotFound-Bs2P44gt.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useCloseDrawerCallback-Drh7TSQW.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/realmConfig-B4MamKiy.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/ErrorFallback-DM1EDxeV.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/isEqual-poTfRQbn.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/DestructiveDialog-DxbHnF6-.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/FormTracker-C-dxcBP4.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useActiveControllerForNetwork-DmHS-BiU.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/enums-D--Kyl2Q.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/lastUsedTabs-DxuVv49R.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/ReactRouterLink-B9QbUXXc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/schemas-3q3BZ1Zj.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useCompanyNetworksVariables-BS1P9VP5.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-CJ9qEKJS.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useNetworkClients-BYq4-tLE.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/SearchParamsStateProvider-B9QbUXXc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useIsActive-VOKWmfah.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-DqKctomt.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/numbers-CNl2t8Bm.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/HasAccess-CnZNEAOz.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/FieldProvider-B9QbUXXc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/Fields-B9QbUXXc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-BXRpUyV0.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/deviceModelDisplayName-IslU8yWP.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/NoValue-B9QbUXXc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/createColumnBuilder-B9QbUXXc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-BzAKdLFu.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/schedulingHelpers-CeZx0-rN.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/macAddress-C9ryTAW2.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-C4EF3dGA.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/strings-XMAf6X1K.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/chart_utils-FnIc4e6A.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils2-DGPBe-DX.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/Insights-B9QbUXXc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/graphql-B-7-ETGl.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/Glossary-D1P4Fumo.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/_stringToArray-C4-BLuUq.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/_createCaseFirst-TctWsETI.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/upperFirst-2ABwaGYE.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/capitalize-BUuT9A7D.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-BlLrGXwn.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-BLXDdsng.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-Bd9lFXBu.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/NOSUpgradeChannel-DzjkZNTY.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-XtxgkQFc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/withZodSchema-B9QbUXXc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/NetworkForm-BQZHI6Uz.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useHandleNetworkAddSuccess-DI72uNPB.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-B7q1NhJj.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-C2ROXzUh.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useViewsStatePreference-BUnt6KwK.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/TableState-DFZDFzYj.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/bestPath-DPNlbb-y.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-e8Buv-AY2.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/network-BorOgKnF.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/KeyBoundSearchInput-B9QbUXXc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/Sites-UYKqv0gH.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-EitYGIHR.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-CnNYAyQE.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/fqdn-CFbq9TU-.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-C4JVR51y.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/AlertTabs-tLvHSGel.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/NotificationsTabs-C519k5Km.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-BFsJ4L-c.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/route_elements-BGMP6Yw-.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/uploadToPresignedUrl-DBlCMS1z.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/UnifiedFileUploader-RjRICtQf.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/ToolbarOrganizations-Cl1Y8-dv.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-itgJWY_I.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useRequestTemporaryAccess-DK45FYaL.js\">\n<link rel=\"stylesheet\" crossorigin=\"\" href=\"/src-Bgzzq2Sa.css\">\n<link rel=\"stylesheet\" crossorigin=\"\" href=\"/fonts-Dt730d2p.css\">\n<script src=\"/theme-bootstrap.js\"></script>"
+      }
+    }
+  },
+  "dns": {
+    "CNAME dashboard.meter.com": {
+      "result": {
+        "name": "dashboard.meter.com",
+        "type": "CNAME",
+        "records": ["cname.vercel-dns.com"]
+      }
+    },
+    "AAAA dashboard.meter.com": {
+      "result": {
+        "name": "dashboard.meter.com",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "A dashboard.meter.com": {
+      "result": {
+        "name": "dashboard.meter.com",
+        "type": "A",
+        "records": ["76.76.21.142", "66.33.60.66"]
+      }
+    },
+    "CNAME cname.vercel-dns.com": {
+      "result": {
+        "name": "cname.vercel-dns.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "NS dashboard.meter.com": {
+      "result": {
+        "name": "dashboard.meter.com",
+        "type": "NS",
+        "records": [
+          "ns3.vercel-dns-3.com",
+          "ns1.vercel-dns-3.com",
+          "ns2.vercel-dns-3.com",
+          "ns4.vercel-dns-3.com"
+        ]
+      }
+    },
+    "TXT 241.21.76.76.origin.asn.cymru.com": {
+      "result": {
+        "name": "241.21.76.76.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 76.76.21.0/24 | US | arin | 2020-05-08"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "dashboard.meter.com:443": {
+      "result": {
+        "host": "dashboard.meter.com",
+        "ip": "76.76.21.241",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+        "subjectAltNames": ["dashboard.meter.com"],
+        "validFrom": "Sep 16 08:21:54 2026 GMT",
+        "validTo": "Dec 15 08:21:53 2026 GMT"
+      }
+    }
+  }
+}

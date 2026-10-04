@@ -4,7 +4,7 @@ import net from 'node:net';
 import { describe, expect, test } from 'vitest';
 import { LayerError } from '../src/layer.ts';
 import type { Net } from '../src/net.ts';
-import { FIXTURES_DIR, FixtureMiss, RecordingNet, ReplayNet } from './fixtures.ts';
+import { FIXTURES_DIR, FixtureMiss, RECORDINGS_DIR, RecordingNet, ReplayNet } from './fixtures.ts';
 import { findSecrets, redactHeaders, redactText } from './redact.ts';
 
 const jwt = 'eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYW5vbiIsInJlZiI6InRlc3QifQ.c2lnbmF0dXJlX2hlcmVfMTIz';
@@ -130,5 +130,12 @@ test('committed fixtures are complete and contain no secrets', () => {
       const text = readFileSync(new URL(`${site.name}/${file}`, FIXTURES_DIR), 'utf8');
       expect(findSecrets(text), `${site.name}/${file}`).toEqual([]);
     }
+  }
+  const recordings = existsSync(RECORDINGS_DIR)
+    ? readdirSync(RECORDINGS_DIR, { withFileTypes: true }).filter((e) => e.isDirectory())
+    : [];
+  for (const recording of recordings) {
+    const text = readFileSync(new URL(`${recording.name}/net.json`, RECORDINGS_DIR), 'utf8');
+    expect(findSecrets(text), `recordings/${recording.name}`).toEqual([]);
   }
 });

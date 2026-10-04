@@ -34,3 +34,19 @@ because the two often run on different stacks.
 Rules: only list a technology a source states explicitly (a logo on a customer wall is not
 enough), and never a fact you found by scanning the site yourself. Plain CSV with no quoting, so
 no field may contain a comma. A test checks the format.
+
+### Measuring accuracy
+
+```sh
+pnpm record-ground-truth   # records surfaces in the CSV that have no recording yet (live sites)
+pnpm accuracy              # replays every recording and rewrites accuracy.md
+```
+
+`recordings/<name>/net.json` holds one recording per CSV row, made and redacted the same way as
+`sites/`. `accuracy.md` shows, per technology, how often a scan finds what the source says is
+there, and how often it reports something the source says is gone. A test fails when
+`accuracy.md` is stale, so every change to fingerprints or layers shows its effect in the diff.
+Pages that answer with an error (usually bot protection) are listed but not scored.
+
+When a recording contradicts its source, fix the CSV by removing the claim and saying why in
+`notes`. Never add a technology because our own scan found it.

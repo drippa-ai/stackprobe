@@ -1,32 +1,16 @@
-import { readFileSync } from 'node:fs';
 import { expect, test } from 'vitest';
 import { SurfaceKind } from '../src/report.ts';
+import { COLUMNS, readGroundTruthLines } from './ground-truth.ts';
 
 // fixtures/ground-truth.csv: sites whose stack is documented publicly or known first-hand.
 // Accuracy is measured against it, so a malformed row would quietly skew every number.
-const COLUMNS = [
-  'domain',
-  'surface_url',
-  'surface_kind',
-  'present',
-  'absent',
-  'source',
-  'source_date',
-  'strength',
-  'notes',
-];
 const STRENGTHS = ['first-hand', 'first-hand-unconfirmed', 'strong', 'medium'];
 const KINDS = [...SurfaceKind.options.filter((kind) => kind !== 'unclassified'), 'unclear'];
 
-const [header, ...lines] = readFileSync(
-  new URL('../../../fixtures/ground-truth.csv', import.meta.url),
-  'utf8',
-)
-  .trim()
-  .split('\n');
+const { header, lines } = readGroundTruthLines();
 
 test('has the expected columns', () => {
-  expect(header?.split(',')).toEqual(COLUMNS);
+  expect(header.split(',')).toEqual(COLUMNS);
 });
 
 test.each(lines.map((line, i) => [i + 2, line] as const))('row %i is well formed', (_, line) => {

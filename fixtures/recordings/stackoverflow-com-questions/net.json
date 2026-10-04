@@ -1,0 +1,105 @@
+{
+  "url": "https://stackoverflow.com/questions",
+  "recordedAt": "2026-10-04T16:50:54.933Z",
+  "http": {
+    "GET https://stackoverflow.com/questions": {
+      "result": {
+        "url": "https://stackoverflow.com/questions",
+        "status": 403,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 16:50:55 GMT"],
+          ["content-type", "text/html; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "close"],
+          [
+            "accept-ch",
+            "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA"
+          ],
+          ["cf-mitigated", "challenge"],
+          [
+            "content-security-policy",
+            "default-src 'none'; script-src 'nonce-saOhNELUZiZFUkbu3nmebS' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'"
+          ],
+          ["server", "cloudflare"],
+          [
+            "critical-ch",
+            "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA"
+          ],
+          ["cross-origin-embedder-policy", "require-corp"],
+          ["cross-origin-opener-policy", "same-origin"],
+          ["cross-origin-resource-policy", "same-origin"],
+          ["origin-agent-cluster", "?1"],
+          [
+            "permissions-policy",
+            "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*"
+          ],
+          ["referrer-policy", "same-origin"],
+          ["server-timing", "chlray;desc=\"a455b035f9705689\""],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["x-dns-prefetch-control", "off"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a455b035f9705689-OSL"]
+        ],
+        "body": "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\n<meta name=\"robots\" content=\"noindex,nofollow\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"content-security-policy\" content=\"default-src 'none'; script-src 'nonce-saOhNELUZiZFUkbu3nmebS' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'\">\n<meta http-equiv=\"refresh\" content=\"360\">"
+      }
+    }
+  },
+  "dns": {
+    "A stackoverflow.com": {
+      "result": {
+        "name": "stackoverflow.com",
+        "type": "A",
+        "records": ["198.252.206.1"]
+      }
+    },
+    "NS stackoverflow.com": {
+      "result": {
+        "name": "stackoverflow.com",
+        "type": "NS",
+        "records": ["damian.ns.cloudflare.com", "sureena.ns.cloudflare.com"]
+      }
+    },
+    "CNAME stackoverflow.com": {
+      "result": {
+        "name": "stackoverflow.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "AAAA stackoverflow.com": {
+      "result": {
+        "name": "stackoverflow.com",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "TXT 1.206.252.198.origin.asn.cymru.com": {
+      "result": {
+        "name": "1.206.252.198.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | 198.252.206.0/24 | US | arin | 2012-10-17"]
+      }
+    },
+    "TXT as13335.asn.cymru.com": {
+      "result": {
+        "name": "AS13335.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | US | arin | 2010-07-14 | CLOUDFLARENET - Cloudflare, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "stackoverflow.com:443": {
+      "result": {
+        "host": "stackoverflow.com",
+        "ip": "198.252.206.1",
+        "issuer": "C=US, O=Let's Encrypt, CN=YE1",
+        "subjectAltNames": ["*.stackoverflow.com", "stackoverflow.com"],
+        "validFrom": "Aug 15 12:39:06 2026 GMT",
+        "validTo": "Nov 13 12:39:05 2026 GMT"
+      }
+    }
+  }
+}

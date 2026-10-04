@@ -1,0 +1,90 @@
+{
+  "url": "https://superthread.com/",
+  "recordedAt": "2026-10-04T16:50:58.706Z",
+  "http": {
+    "GET https://superthread.com/": {
+      "result": {
+        "url": "https://superthread.com/",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 16:50:58 GMT"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-content-type-options", "nosniff"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=51sGJcjNo%2FwdMtSxmuOsN%2FB7CQG%2BVY%2FStoW2EcCfWjAvvzV4hBUqfc5gR1y5N4DEEJ91fdP7OaRmbWkpW40j91q8I1t3UXHMNYHRFr%2B5dxqT8vkM3exasZMJ%2Fpi77gpmfMc%3D\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["vary", "accept-encoding"],
+          ["server", "cloudflare"],
+          ["cf-cache-status", "DYNAMIC"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a455b04daf28b4fa-OSL"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"description\" content=\"Bring AI agents, tasks, projects, docs, meetings, and client work into one fast workspace where execution and knowledge stay connected.\">\n<link rel=\"canonical\" href=\"https://superthread.com/\">\n<meta name=\"theme-color\" content=\"#fcfcfd\">\n<link rel=\"preconnect\" href=\"https://assets.superthread.com\" crossorigin=\"\">\n<link rel=\"dns-prefetch\" href=\"https://assets.superthread.com\">\n<link rel=\"preconnect\" href=\"https://static.superthread.com\" crossorigin=\"\">\n<link rel=\"dns-prefetch\" href=\"https://static.superthread.com\">\n<link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.ico\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"48x48\" href=\"/favicon-48x48.png\">\n<link rel=\"icon\" href=\"/favicon-light.png\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/favicon-dark.png\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">\n<link rel=\"manifest\" href=\"/manifest.webmanifest\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:title\" content=\"Superthread: AI Agents, Tasks &amp; Docs for Teams\">\n<meta property=\"og:description\" content=\"Bring AI agents, tasks, projects, docs, meetings, and client work into one fast workspace where execution and knowledge stay connected.\">\n<meta property=\"og:image\" content=\"https://assets.superthread.com/images/og/superthread-card.png\">\n<meta property=\"og:url\" content=\"https://superthread.com/\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Superthread: AI Agents, Tasks &amp; Docs for Teams\">\n<meta name=\"twitter:description\" content=\"Bring AI agents, tasks, projects, docs, meetings, and client work into one fast workspace where execution and knowledge stay connected.\">\n<meta name=\"twitter:image\" content=\"https://assets.superthread.com/images/og/superthread-card.png\">\n<link rel=\"preload\" as=\"video\" type=\"video/mp4\" href=\"https://assets.superthread.com/video/home/agents-main-8b843b1ae2bb.mp4\" fetchpriority=\"high\">\n<link rel=\"stylesheet\" href=\"/_astro/Layout.CjXCEvHC.css\">\n<script type=\"module\" src=\"/_astro/AnnouncementPill.astro_astro_type_script_index_0_lang.C1nm6RRv.js\"></script>\n<script type=\"module\" src=\"/_astro/InlinePillLink.astro_astro_type_script_index_0_lang.C1nm6RRv.js\"></script>"
+      }
+    }
+  },
+  "dns": {
+    "CNAME superthread.com": {
+      "result": {
+        "name": "superthread.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "AAAA superthread.com": {
+      "result": {
+        "name": "superthread.com",
+        "type": "AAAA",
+        "records": ["2606:4700:20::681a:c2", "2606:4700:20::ac43:4576", "2606:4700:20::681a:1c2"]
+      }
+    },
+    "NS superthread.com": {
+      "result": {
+        "name": "superthread.com",
+        "type": "NS",
+        "records": ["asa.ns.cloudflare.com", "kyree.ns.cloudflare.com"]
+      }
+    },
+    "A superthread.com": {
+      "result": {
+        "name": "superthread.com",
+        "type": "A",
+        "records": ["104.26.1.194", "104.26.0.194", "172.67.69.118"]
+      }
+    },
+    "TXT 118.69.67.172.origin.asn.cymru.com": {
+      "result": {
+        "name": "118.69.67.172.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | 172.67.64.0/20 | US | arin | 2015-02-25"]
+      }
+    },
+    "TXT as13335.asn.cymru.com": {
+      "result": {
+        "name": "AS13335.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | US | arin | 2010-07-14 | CLOUDFLARENET - Cloudflare, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "superthread.com:443": {
+      "result": {
+        "host": "superthread.com",
+        "ip": "172.67.69.118",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "subjectAltNames": ["superthread.com"],
+        "validFrom": "Oct  1 19:26:17 2026 GMT",
+        "validTo": "Dec 30 20:26:12 2026 GMT"
+      }
+    }
+  }
+}

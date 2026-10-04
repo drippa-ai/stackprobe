@@ -15,7 +15,9 @@
     "schema": "node packages/core/scripts/write-schema.ts",
     "fingerprints": "node packages/core/scripts/build-fingerprints.ts",
     "record-fixture": "node packages/core/scripts/record-fixture.ts",
-    "db:migrate": "node --env-file-if-exists=.env.local packages/store-postgres/scripts/migrate.ts"
+    "db:migrate": "node --env-file-if-exists=.env.local packages/store-postgres/scripts/migrate.ts",
+    "record-ground-truth": "node packages/core/scripts/record-ground-truth.ts",
+    "accuracy": "node packages/core/scripts/accuracy.ts"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.15",

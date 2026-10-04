@@ -1,0 +1,103 @@
+{
+  "url": "https://tray.ai/",
+  "recordedAt": "2026-10-04T16:50:53.262Z",
+  "http": {
+    "GET https://tray.ai/": {
+      "result": {
+        "url": "https://tray.ai/",
+        "status": 200,
+        "headers": [
+          ["content-type", "text/html; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["access-control-allow-origin", "*"],
+          [
+            "cache-control",
+            "public, max-age=0, must-revalidate, s-maxage=31536000, stale-while-revalidate=86400"
+          ],
+          ["content-disposition", "inline"],
+          ["content-encoding", "br"],
+          ["date", "Sun, 04 Oct 2026 16:50:53 GMT"],
+          ["etag", "W/\"033f21de853500f9e061a573142fbb05\""],
+          ["last-modified", "Fri, 02 Oct 2026 20:16:09 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["set-cookie", "geo_requires_consent=<redacted>"],
+          ["strict-transport-security", "max-age=63072000; includeSubDomains; preload"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-geo-source", "cloudfront"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::rgcmn-1791132653482-6af28f1ffef8"],
+          ["x-cache", "Miss from cloudfront"],
+          ["via", "1.1 2f853405672b44e6943a292601416804.cloudfront.net (CloudFront)"],
+          ["x-amz-cf-pop", "OSL51-P2"],
+          ["x-amz-cf-id", "7wE6WCfGvoBwgIybSOGniSdGm_m7yly1xzYGjuWmBGA7vOK750qzzg=="],
+          ["age", "160483"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"generator\" content=\"Astro v6.2.2\">\n<meta name=\"description\" content=\"Tray.ai is the AI-native enterprise iPaaS for building AI agents, governing Model Context Protocol (MCP), and integrating 700+ apps — orchestration for data…\">\n<link rel=\"canonical\" href=\"https://tray.ai/\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:title\" content=\"Tray.ai — The AI-ready integration and automation platform\">\n<meta property=\"og:description\" content=\"Tray.ai is the AI-native enterprise iPaaS for building AI agents, governing Model Context Protocol (MCP), and integrating 700+ apps — orchestration for data…\">\n<meta property=\"og:url\" content=\"https://tray.ai/\">\n<meta property=\"og:image\" content=\"https://tray.ai/images/og-default.png\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Tray.ai — The AI-ready integration and automation platform\">\n<meta name=\"twitter:description\" content=\"Tray.ai is the AI-native enterprise iPaaS for building AI agents, governing Model Context Protocol (MCP), and integrating 700+ apps — orchestration for data…\">\n<meta name=\"twitter:image\" content=\"https://tray.ai/images/og-default.png\">\n<link rel=\"preload\" href=\"/_astro/poppins-latin-400-normal.cpxAROuN.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"preload\" href=\"/_astro/poppins-latin-500-normal.C8OXljZJ.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"preload\" href=\"/_astro/poppins-latin-600-normal.zEkxB9Mr.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/icons/icon-192.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"512x512\" href=\"/icons/icon-512.png\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-icon.png\">\n<link rel=\"preload\" href=\"/_astro/playfair-display-latin-600-italic.Bvp5b4iR.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<script type=\"module\" src=\"/_astro/page.B0T0_mRX.js\"></script>\n<script type=\"module\" src=\"/_astro/MeetingBooker.astro_astro_type_script_index_0_lang.BhYMSG8H.js?dpl=dpl_CsuNLp2xFYUSh7y4zVzvcDqFmCDy\"></script>\n<script type=\"module\" src=\"/_astro/CustomerVideoHighlight.astro_astro_type_script_index_0_lang.8n-BNr7v.js?dpl=dpl_CsuNLp2xFYUSh7y4zVzvcDqFmCDy\"></script>\n<script type=\"module\" src=\"/_astro/BaseLayout.astro_astro_type_script_index_0_lang.CBkGg4uX.js?dpl=dpl_CsuNLp2xFYUSh7y4zVzvcDqFmCDy\"></script>"
+      }
+    }
+  },
+  "dns": {
+    "AAAA tray.ai": {
+      "result": {
+        "name": "tray.ai",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "A tray.ai": {
+      "result": {
+        "name": "tray.ai",
+        "type": "A",
+        "records": ["13.32.28.34", "13.32.28.38", "13.32.28.78", "13.32.28.112"]
+      }
+    },
+    "CNAME tray.ai": {
+      "result": {
+        "name": "tray.ai",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "NS tray.ai": {
+      "result": {
+        "name": "tray.ai",
+        "type": "NS",
+        "records": [
+          "ns-47.awsdns-05.com",
+          "ns-1159.awsdns-16.org",
+          "ns-1002.awsdns-61.net",
+          "ns-1653.awsdns-14.co.uk"
+        ]
+      }
+    },
+    "TXT 34.28.32.13.origin.asn.cymru.com": {
+      "result": {
+        "name": "34.28.32.13.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 13.32.28.0/24 | US | arin | 2020-08-05"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "tray.ai:443": {
+      "result": {
+        "host": "tray.ai",
+        "ip": "13.32.28.34",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+        "subjectAltNames": ["tray.ai", "*.tray.ai"],
+        "validFrom": "Sep 25 00:00:00 2026 GMT",
+        "validTo": "Apr 10 23:59:59 2027 GMT"
+      }
+    }
+  }
+}

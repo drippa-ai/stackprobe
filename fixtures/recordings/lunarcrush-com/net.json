@@ -1,0 +1,94 @@
+{
+  "url": "https://lunarcrush.com/",
+  "recordedAt": "2026-10-04T16:50:56.523Z",
+  "http": {
+    "GET https://lunarcrush.com/": {
+      "result": {
+        "url": "https://lunarcrush.com/",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 16:50:56 GMT"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=0, s-maxage=0, must-revalidate"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ZOCiu2nEpbEMbTEDR8mkrUpVPRZ3hcqSz8uALzH5EMfHkqIGTWz1f%2F4X9mSgDSagkYDRIueHV0I%2FS8Kb4FjQuUv0E0KNg1rC%2F47gZEcunhn%2FCiCGXmGXd0QrxzclXY9gcbzDGRK3uM5ZThICRVMhUm0ue2Kpn0B%2BrR8cuFXRFzMH4Y4%3D\"}]}"
+          ],
+          ["permissions-policy", "camera=(), microphone=(self), geolocation=()"],
+          ["vary", "accept-encoding"],
+          ["server-timing", "cfCacheStatus;desc=\"DYNAMIC\""],
+          ["server-timing", "cfEdge;dur=28,cfOrigin;dur=308"],
+          ["cf-cache-status", "DYNAMIC"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a455b03ff8f432fa-OSL"]
+        ],
+        "body": "<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\">\n<link rel=\"preconnect\" href=\"https://wsrv.nl\" crossorigin=\"\">\n<link rel=\"dns-prefetch\" href=\"https://wsrv.nl\">\n<link rel=\"preconnect\" href=\"https://cdn.lunarcrush.com\" crossorigin=\"\">\n<link rel=\"preconnect\" href=\"https://lunarcrush.com\" crossorigin=\"\">\n<link rel=\"icon\" type=\"image/png\" href=\"/landing-assets/favicon.png\">\n<link rel=\"preload\" href=\"/landing-assets/PlusJakartaSans-Variable.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\">\n<script type=\"module\" crossorigin=\"\" src=\"/landing-assets/assets/index-DsdiNfp8.js\"></script>\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/landing-assets/assets/vendor-react-Dh9LqfKY.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/landing-assets/assets/vendor-ds-BBGBs0Ze.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/landing-assets/assets/HomePage-Jg1ZM_0y.js\">\n<link rel=\"stylesheet\" href=\"/landing-assets/assets/style-DK1gGa6_.css\" media=\"print\" onload=\"this.media='all'; this.onload=null;\">\n<meta name=\"description\" content=\"Real-time sentiment and social volume across 40+ categories — crypto, stocks, sports, brands, and more — sourced from X, Reddit, YouTube, and TikTok.\">\n<link rel=\"canonical\" href=\"https://lunarcrush.com/\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:title\" content=\"LunarCrush: The Social Media Sentiment Layer\">\n<meta property=\"og:description\" content=\"Real-time sentiment and social volume across 40+ categories — crypto, stocks, sports, brands, and more — sourced from X, Reddit, YouTube, and TikTok.\">\n<meta property=\"og:url\" content=\"https://lunarcrush.com/\">\n<meta property=\"og:image\" content=\"https://lunarcrush.com/og/dynamic/home.png\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"LunarCrush: The Social Media Sentiment Layer\">\n<meta property=\"og:site_name\" content=\"LunarCrush\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:site\" content=\"@LunarCrush\">\n<meta name=\"twitter:title\" content=\"LunarCrush: The Social Media Sentiment Layer\">\n<meta name=\"twitter:description\" content=\"Real-time sentiment and social volume across 40+ categories — crypto, stocks, sports, brands, and more — sourced from X, Reddit, YouTube, and TikTok.\">\n<meta name=\"twitter:image\" content=\"https://lunarcrush.com/og/dynamic/home.png\">\n<meta name=\"twitter:image:alt\" content=\"LunarCrush: The Social Media Sentiment Layer\">\n<script id=\"gtag-js\" async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-QWXNXSLZZ8\"></script>\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495\" integrity=\"sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;3bc2232921a647539758d12ee5fb08c0&quot;,&quot;spa&quot;:2}\" crossorigin=\"anonymous\"></script>"
+      }
+    }
+  },
+  "dns": {
+    "NS lunarcrush.com": {
+      "result": {
+        "name": "lunarcrush.com",
+        "type": "NS",
+        "records": ["dakota.ns.cloudflare.com", "dell.ns.cloudflare.com"]
+      }
+    },
+    "CNAME lunarcrush.com": {
+      "result": {
+        "name": "lunarcrush.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "AAAA lunarcrush.com": {
+      "result": {
+        "name": "lunarcrush.com",
+        "type": "AAAA",
+        "records": ["2606:4700:20::681a:ba8", "2606:4700:20::ac43:4a32", "2606:4700:20::681a:aa8"]
+      }
+    },
+    "A lunarcrush.com": {
+      "result": {
+        "name": "lunarcrush.com",
+        "type": "A",
+        "records": ["104.26.10.168", "104.26.11.168", "172.67.74.50"]
+      }
+    },
+    "TXT 168.10.26.104.origin.asn.cymru.com": {
+      "result": {
+        "name": "168.10.26.104.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | 104.26.0.0/20 | US | arin | 2014-03-28"]
+      }
+    },
+    "TXT as13335.asn.cymru.com": {
+      "result": {
+        "name": "AS13335.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | US | arin | 2010-07-14 | CLOUDFLARENET - Cloudflare, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "lunarcrush.com:443": {
+      "result": {
+        "host": "lunarcrush.com",
+        "ip": "104.26.10.168",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "subjectAltNames": ["lunarcrush.com"],
+        "validFrom": "Sep 29 20:21:54 2026 GMT",
+        "validTo": "Dec 28 21:21:50 2026 GMT"
+      }
+    }
+  }
+}

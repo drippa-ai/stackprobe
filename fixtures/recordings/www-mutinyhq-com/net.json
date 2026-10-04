@@ -1,0 +1,111 @@
+{
+  "url": "https://www.mutinyhq.com/",
+  "recordedAt": "2026-10-04T16:50:58.179Z",
+  "http": {
+    "GET https://www.mutinyhq.com/": {
+      "result": {
+        "url": "https://www.mutinyhq.com/",
+        "status": 200,
+        "headers": [
+          ["alt-svc", "h3=\":443\"; ma=2592000"],
+          ["cache-control", "private, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          ["content-length", "65180"],
+          ["content-type", "text/html"],
+          ["date", "Sun, 04 Oct 2026 16:50:57 GMT"],
+          ["etag", "\"bc7ca0f084ca232a4989d778aadc7bc6\""],
+          ["framer-site-id", "3b88683e3d0d7d86c44bce5d58038b53a797e7214f216497f0b91e4c0ef9fbaa"],
+          ["last-modified", "Fri, 11 Sep 2026 01:04:21 GMT"],
+          [
+            "link",
+            "<https://framerusercontent.com>; rel=\"preconnect\", <https://framerusercontent.com>; rel=\"preconnect\"; crossorigin=\"\""
+          ],
+          ["server", "Framer/26fa766"],
+          [
+            "server-timing",
+            "region;desc=\"eu-central-1\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"26fa766\", instance;desc=\"172f0a2\", route;dur=1;desc=\"id=ShFvJSlE0&locale=default\", abtests;dur=1;desc=\"WQd80AGuG=Ze1DNM0ZD\", country;desc=\"NO\", ss-only-routes"
+          ],
+          ["strict-transport-security", "max-age=31536000"],
+          ["vary", "Accept-Encoding, Accept"],
+          ["x-content-type-options", "nosniff"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width\">\n<meta name=\"generator\" content=\"Framer 835d061\">\n<meta name=\"description\" content=\"Be the one buyers remember. Join the frontier of how the best enterprise sales teams operate.\">\n<meta name=\"framer-search-index\" content=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/searchIndex-hlBZYBXeU229.json\">\n<meta name=\"framer-search-index-fallback\" content=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/searchIndex-avtToHwEgniM.json\">\n<link href=\"https://framerusercontent.com/images/rjFqnxoeGYqjuccsmE7WLtggBI.svg\" rel=\"icon\" media=\"(prefers-color-scheme: light)\">\n<link href=\"https://framerusercontent.com/images/Co8GHDzW1fD2qcipVU2vPNdfOQ.svg\" rel=\"icon\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"apple-touch-icon\" href=\"https://framerusercontent.com/images/FKaI3Qbe3NJHqpdlN77wYQwFIU.png\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:title\" content=\"Mutiny | The sales assistant built for customer-facing work\">\n<meta property=\"og:description\" content=\"Be the one buyers remember. Join the frontier of how the best enterprise sales teams operate.\">\n<meta property=\"og:image\" content=\"https://framerusercontent.com/assets/rX6lSVagakDXpOpmwgYVyCZE438.png\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Mutiny | The sales assistant built for customer-facing work\">\n<meta name=\"twitter:description\" content=\"Be the one buyers remember. Join the frontier of how the best enterprise sales teams operate.\">\n<meta name=\"twitter:image\" content=\"https://framerusercontent.com/assets/rX6lSVagakDXpOpmwgYVyCZE438.png\">\n<link rel=\"canonical\" href=\"https://www.mutinyhq.com/\">\n<meta property=\"og:url\" content=\"https://www.mutinyhq.com/\">\n<script id=\"cookieyes\" type=\"text/javascript\" src=\"https://cdn-cookieyes.com/client_data/501e559551c3282eaab0f549a1f1e915/script.js\"></script>\n<script type=\"text/javascript\" id=\"hs-script-loader\" async=\"\" defer=\"\" src=\"//js.hs-scripts.com/6371341.js\"></script>\n<link href=\"https://fonts.gstatic.com\" rel=\"preconnect\" crossorigin=\"\">\n<meta name=\"robots\" content=\"max-image-preview:large\">\n<script src=\"https://t.contentsquare.net/uxa/0354354d777f1.js\" defer=\"\"></script>\n<script async=\"\" src=\"https://events.framer.com/script?v=2\" data-fid=\"3b88683e3d0d7d86c44bce5d58038b53a797e7214f216497f0b91e4c0ef9fbaa\" data-no-nt=\"\"></script>\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/rolldown-runtime.Dh6celcD.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/react.B4CyDAGV.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/motion.CIG8Xx4G.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/framer.DdixyprF.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/PgpT0x6xv.BqFQYxWf.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/MvPvNEF6G.BaGEx-Sx.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/CWVjyunj6.DjRcD3ys.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/98Ydb131ta9ZI-l2RwmD62Dcle_xXOqxkNPlR8CJ2yQ.CR0ThTg4.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/Vimeo.mt8C7VEm.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/OIjZRBmWDcIE2B6qgG1j.BphKPquF.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/default-utils.js@_0.45.DWWutQ4n.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/pJaiDSKeK.CDO4vVwv.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/Examples.DVbFCYiQ.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/JAPZKBymc.BIpT6mnz.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/bdjEip255.B-7Mb2jP.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/nIKXpXl1z.BoFtZ7kd.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/oaGq2Uz6y.CXxgpjnU.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/wO7bYn2X7.BX_gqsqc.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/aLati2IkI.Dy9rcRsu.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/cGR65mKak.DkwGx7zY.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/YyxEbSHsi.CP2bG0GV.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/fdbjR0Vhk.B1qLxQF4.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/jzZ83LY0P.HDORpzGN.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/aDyoGLt8g.CXrRgECP.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/dGDreIfdP.5OO-ueTj.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/UG9MTujqC.C3YUXaCy.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/pnTtJXI25.44Ex6tHB.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/NP8vz4RevF4aVyF_jRy1ZzqX0rCGRS7LUYMHQZq__mk.DL6CqDXi.mjs\">\n<script type=\"module\" async=\"\" data-framer-bundle=\"main\" fetchpriority=\"low\" src=\"https://framerusercontent.com/sites/5THoeMhq39EvB3iNT1njfp/script_main.1beOAdmq.mjs\"></script>"
+      }
+    }
+  },
+  "dns": {
+    "NS www.mutinyhq.com": {
+      "result": {
+        "name": "www.mutinyhq.com",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "AAAA www.mutinyhq.com": {
+      "result": {
+        "name": "www.mutinyhq.com",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "NS mutinyhq.com": {
+      "result": {
+        "name": "mutinyhq.com",
+        "type": "NS",
+        "records": [
+          "ns-127.awsdns-15.com",
+          "ns-534.awsdns-02.net",
+          "ns-1474.awsdns-56.org",
+          "ns-1580.awsdns-05.co.uk"
+        ]
+      }
+    },
+    "CNAME www.mutinyhq.com": {
+      "result": {
+        "name": "www.mutinyhq.com",
+        "type": "CNAME",
+        "records": ["sites.framer.app"]
+      }
+    },
+    "A www.mutinyhq.com": {
+      "result": {
+        "name": "www.mutinyhq.com",
+        "type": "A",
+        "records": ["31.43.161.6", "31.43.160.6"]
+      }
+    },
+    "CNAME sites.framer.app": {
+      "result": {
+        "name": "sites.framer.app",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "TXT 6.160.43.31.origin.asn.cymru.com": {
+      "result": {
+        "name": "6.160.43.31.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 31.43.160.0/24 | NL | ripencc | 2011-03-01"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "www.mutinyhq.com:443": {
+      "result": {
+        "host": "www.mutinyhq.com",
+        "ip": "31.43.160.6",
+        "issuer": "C=US, O=Let's Encrypt, CN=YE1",
+        "subjectAltNames": ["www.mutinyhq.com"],
+        "validFrom": "Sep 24 08:33:57 2026 GMT",
+        "validTo": "Dec 23 08:33:56 2026 GMT"
+      }
+    }
+  }
+}

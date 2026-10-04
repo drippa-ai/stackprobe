@@ -1,0 +1,96 @@
+{
+  "url": "https://thehouse.id/",
+  "recordedAt": "2026-10-04T16:51:05.072Z",
+  "http": {
+    "GET https://thehouse.id/": {
+      "result": {
+        "url": "https://thehouse.id/",
+        "status": 200,
+        "headers": [
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-control", "s-maxage=31536000"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 16:51:08 GMT"],
+          ["etag", "\"84dkq9wj8zazv\""],
+          ["server", "envoy"],
+          ["traceparent", "00-cb2a9644104b6a06347c9afae4034ca5-5d850b229654ee01-01"],
+          [
+            "vary",
+            "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding"
+          ],
+          ["x-cloud-trace-context", "cb2a9644104b6a06347c9afae4034ca5/6738804660608757249;o=1"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["x-nextjs-cache", "HIT"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "4294967294"],
+          ["x-powered-by", "Next.js"],
+          ["server-timing", "l2gfet4t7; dur=3176"],
+          ["via", "1.1 google"],
+          ["cdn-cache-status", "miss"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/44ce747bfa0cdc14.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/webpack-3a68ca926a023bb8.js\">\n<script src=\"/_next/static/chunks/4bd1b696-b98887138107acd7.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/684-76ac575fe1546a0d.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/main-app-f5531582a8aef103.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/bc9e92e6-ae33bc13ba3d0f54.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/36b4fd63-cb4284f3e3f3863b.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/982-8151d6dff6d7db7a.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/873-2f316d7b4b63687e.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/589-473228c6304fc74d.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/874-d7e83e81932746e2.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/184-0863bc588d5d1902.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/718-cbc62b82af80c4f4.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/759-7b757ecd69add047.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/layout-7084f63fad002d57.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/118-d495de99321a6895.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/page-07fa3bb5a983344d.js\" async=\"\"></script>\n<meta name=\"description\" content=\"Generate unique building facades from faces using AI\">\n<link rel=\"icon\" href=\"/favicon.ico\" type=\"image/x-icon\" sizes=\"16x16\">\n<script src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/chunks/webpack-3a68ca926a023bb8.js\" async=\"\"></script>"
+      }
+    }
+  },
+  "dns": {
+    "A thehouse.id": {
+      "result": {
+        "name": "thehouse.id",
+        "type": "A",
+        "records": ["35.219.200.9"]
+      }
+    },
+    "NS thehouse.id": {
+      "result": {
+        "name": "thehouse.id",
+        "type": "NS",
+        "records": ["ns49.domaincontrol.com", "ns50.domaincontrol.com"]
+      }
+    },
+    "TXT 9.200.219.35.origin.asn.cymru.com": {
+      "result": {
+        "name": "9.200.219.35.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["15169 19527 | 35.216.0.0/14 | US | arin | 2017-09-29"]
+      }
+    },
+    "TXT as15169.asn.cymru.com": {
+      "result": {
+        "name": "AS15169.asn.cymru.com",
+        "type": "TXT",
+        "records": ["15169 | US | arin | 2000-03-30 | GOOGLE - Google LLC, US"]
+      }
+    },
+    "CNAME thehouse.id": {
+      "result": {
+        "name": "thehouse.id",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "AAAA thehouse.id": {
+      "result": {
+        "name": "thehouse.id",
+        "type": "AAAA",
+        "records": []
+      }
+    }
+  },
+  "tls": {
+    "thehouse.id:443": {
+      "result": {
+        "host": "thehouse.id",
+        "ip": "35.219.200.9",
+        "issuer": "C=US, O=Google Trust Services, CN=WR3",
+        "subjectAltNames": ["thehouse.id", "*.thehouse.id"],
+        "validFrom": "Aug 28 00:02:55 2026 GMT",
+        "validTo": "Nov 26 00:58:50 2026 GMT"
+      }
+    }
+  }
+}

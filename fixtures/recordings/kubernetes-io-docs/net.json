@@ -1,0 +1,109 @@
+{
+  "url": "https://kubernetes.io/docs/",
+  "recordedAt": "2026-10-04T16:50:53.901Z",
+  "http": {
+    "GET https://kubernetes.io/docs/": {
+      "result": {
+        "url": "https://kubernetes.io/docs/",
+        "status": 301,
+        "headers": [
+          ["age", "9388"],
+          ["cache-control", "public,max-age=0,must-revalidate"],
+          ["cache-status", "\"Netlify Edge\"; hit; ttl=31526612"],
+          ["content-length", "27"],
+          ["content-type", "text/plain"],
+          ["date", "Sun, 04 Oct 2026 16:50:54 GMT"],
+          ["location", "/docs/home/"],
+          ["netlify-vary", "query"],
+          ["server", "Netlify"],
+          ["strict-transport-security", "max-age=31536000"],
+          ["x-nf-request-id", "01M43X6PFNMF882FCXM7HAFPCT"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://kubernetes.io/docs/home/": {
+      "result": {
+        "url": "https://kubernetes.io/docs/home/",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["age", "9930"],
+          ["cache-control", "public,max-age=0,must-revalidate"],
+          ["cache-status", "\"Netlify Edge\"; hit; ttl=31526070"],
+          ["content-encoding", "br"],
+          ["content-length", "45407"],
+          ["content-type", "text/html; charset=UTF-8"],
+          ["date", "Sun, 04 Oct 2026 16:50:54 GMT"],
+          ["etag", "\"4506e472d290fb3091e421d69e892bda-ssl-df\""],
+          ["server", "Netlify"],
+          ["strict-transport-security", "max-age=31536000"],
+          ["vary", "Accept-Encoding"],
+          ["x-nf-request-id", "01M43X6PGZ6P871YMQDHB95BA9"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\">\n<link rel=\"alternate\" type=\"text/html\" href=\"https://kubernetes.io/docs/home/_print/\">\n<meta name=\"robots\" content=\"index, follow\">\n<link rel=\"shortcut icon\" type=\"image/png\" href=\"/images/kubernetes.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"64x64\" href=\"/icons/favicon-64.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/icons/favicon-32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/icons/favicon-16.png\">\n<link rel=\"apple-touch-icon-256x256\" href=\"/icons/apple-touch-icon-256x256.png\">\n<link rel=\"apple-touch-icon-196x196\" href=\"/icons/apple-touch-icon-196x196.png\">\n<link rel=\"apple-touch-icon-192x192\" href=\"/icons/apple-touch-icon-192x192.png\">\n<link rel=\"apple-touch-icon-180x180\" href=\"/icons/apple-touch-icon-180x180.png\">\n<link rel=\"apple-touch-icon-167x167\" href=\"/icons/apple-touch-icon-167x167.png\">\n<link rel=\"apple-touch-icon-160x160\" href=\"/icons/apple-touch-icon-160x160.png\">\n<link rel=\"apple-touch-icon-152x152\" href=\"/icons/apple-touch-icon-152x152.png\">\n<link rel=\"apple-touch-icon-120x120\" href=\"/icons/apple-touch-icon-120x120.png\">\n<link rel=\"apple-touch-icon-76x76\" href=\"/icons/apple-touch-icon-76x76.png\">\n<link rel=\"icon\" type=\"image/png\" href=\"/icons/icon-128x128.png\" sizes=\"128x128\">\n<meta name=\"theme-color\" content=\"#326de6\">\n<meta name=\"description\" content=\"Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications. The open source project is hosted by the Cloud Native Computing Foundation.\">\n<meta property=\"og:url\" content=\"https://kubernetes.io/docs/home/\">\n<meta property=\"og:site_name\" content=\"Kubernetes\">\n<meta property=\"og:title\" content=\"Kubernetes Documentation\">\n<meta property=\"og:description\" content=\"Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications. The open source project is hosted by the Cloud Native Computing Foundation.\">\n<meta property=\"og:locale\" content=\"en\">\n<meta property=\"og:type\" content=\"website\">\n<meta itemprop=\"name\" content=\"Kubernetes Documentation\">\n<meta itemprop=\"description\" content=\"Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications. The open source project is hosted by the Cloud Native Computing Foundation.\">\n<meta itemprop=\"dateModified\" content=\"2025-11-25T21:57:02+00:00\">\n<meta name=\"twitter:card\" content=\"summary\">\n<meta name=\"twitter:title\" content=\"Kubernetes Documentation\">\n<meta name=\"twitter:description\" content=\"Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications. The open source project is hosted by the Cloud Native Computing Foundation.\">\n<link rel=\"preload\" href=\"/scss/main.min.87c973b8ec0f8846d06afc9d62bf804aaf9dcf2c55fb56f683f086531011a55b.css\" as=\"style\" integrity=\"sha256-h8lzuOwPiEbQavydYr+ASq+dzyxV+1b2g/CGUxARpVs=\" crossorigin=\"anonymous\">\n<link href=\"/scss/main.min.87c973b8ec0f8846d06afc9d62bf804aaf9dcf2c55fb56f683f086531011a55b.css\" rel=\"stylesheet\" integrity=\"sha256-h8lzuOwPiEbQavydYr+ASq+dzyxV+1b2g/CGUxARpVs=\" crossorigin=\"anonymous\">\n<script src=\"https://code.jquery.com/jquery-3.7.1.min.js\" integrity=\"sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==\" crossorigin=\"anonymous\"></script>\n<meta property=\"og:image\" content=\"/images/kubernetes-open-graph.png\">\n<link rel=\"manifest\" href=\"/manifest.webmanifest\">\n<link rel=\"alternate\" hreflang=\"bn\" href=\"https://kubernetes.io/bn/docs/home/\">\n<link rel=\"alternate\" hreflang=\"zh-cn\" href=\"https://kubernetes.io/zh-cn/docs/home/\">\n<link rel=\"alternate\" hreflang=\"fr\" href=\"https://kubernetes.io/fr/docs/home/\">\n<link rel=\"alternate\" hreflang=\"de\" href=\"https://kubernetes.io/de/docs/home/\">\n<link rel=\"alternate\" hreflang=\"hi\" href=\"https://kubernetes.io/hi/docs/home/\">\n<link rel=\"alternate\" hreflang=\"id\" href=\"https://kubernetes.io/id/docs/home/\">\n<link rel=\"alternate\" hreflang=\"it\" href=\"https://kubernetes.io/it/docs/home/\">\n<link rel=\"alternate\" hreflang=\"ja\" href=\"https://kubernetes.io/ja/docs/home/\">\n<link rel=\"alternate\" hreflang=\"ko\" href=\"https://kubernetes.io/ko/docs/home/\">\n<link rel=\"alternate\" hreflang=\"fa\" href=\"https://kubernetes.io/fa/docs/home/\">\n<link rel=\"alternate\" hreflang=\"pl\" href=\"https://kubernetes.io/pl/docs/home/\">\n<link rel=\"alternate\" hreflang=\"pt-br\" href=\"https://kubernetes.io/pt-br/docs/home/\">\n<link rel=\"alternate\" hreflang=\"ru\" href=\"https://kubernetes.io/ru/docs/home/\">\n<link rel=\"alternate\" hreflang=\"es\" href=\"https://kubernetes.io/es/docs/home/\">\n<link rel=\"alternate\" hreflang=\"uk\" href=\"https://kubernetes.io/uk/docs/home/\">\n<link rel=\"alternate\" hreflang=\"vi\" href=\"https://kubernetes.io/vi/docs/home/\">\n<meta name=\"theme-color\" content=\"#326ce5\">\n<script defer=\"\" src=\"/js/banner-dismiss.min.d63c13bb21e46f5f758aba46e2ec7ebe4a40d2cbb3941f72a9fb20938c41292e.js\" integrity=\"sha256-1jwTuyHkb191irpG4ux+vkpA0suzlB9yqfsgk4xBKS4=\" crossorigin=\"anonymous\"></script>\n<script src=\"/js/legacy-script.js\"></script>\n<script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-JPP6RFM2BP\"></script>\n<script src=\"/js/main.min.e9282dfda597601de0c44edcf9f9436a1617b759dfd9bce3b9741a68600ef528.js\" integrity=\"sha256-6Sgt/aWXYB3gxE7c+flDahYXt1nf2bzjuXQaaGAO9Sg=\" crossorigin=\"anonymous\"></script>\n<script src=\"/js/tabpane-persist.js\"></script>\n<script src=\"/js/theme-image-swap.min.88f931f9bc2b0a9831f03c73f97e158e30850b7a3a294b79e9d61475bb504d10.js\" integrity=\"sha256-iPkx+bwrCpgx8Dxz+X4VjjCFC3o6KUt56dYUdbtQTRA=\" crossorigin=\"anonymous\"></script>\n<script defer=\"\" src=\"/js/detect-js.min.01b26bef8719aa29fb17d861978451b8fbee4b6d1576627b1e1c94dba3084ecc.js\" integrity=\"sha256-AbJr74cZqin7F9hhl4RRuPvuS20VdmJ7HhyU26MITsw=\" crossorigin=\"anonymous\"></script>"
+      }
+    }
+  },
+  "dns": {
+    "NS kubernetes.io": {
+      "result": {
+        "name": "kubernetes.io",
+        "type": "NS",
+        "records": [
+          "ns-cloud-a1.googledomains.com",
+          "ns-cloud-a4.googledomains.com",
+          "ns-cloud-a3.googledomains.com",
+          "ns-cloud-a2.googledomains.com"
+        ]
+      }
+    },
+    "A kubernetes.io": {
+      "result": {
+        "name": "kubernetes.io",
+        "type": "A",
+        "records": ["3.33.186.135", "15.197.167.90"]
+      }
+    },
+    "CNAME kubernetes.io": {
+      "result": {
+        "name": "kubernetes.io",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "AAAA kubernetes.io": {
+      "result": {
+        "name": "kubernetes.io",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "TXT 90.167.197.15.origin.asn.cymru.com": {
+      "result": {
+        "name": "90.167.197.15.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 15.197.160.0/20 | US | arin | 2021-01-28"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "kubernetes.io:443": {
+      "result": {
+        "host": "kubernetes.io",
+        "ip": "15.197.167.90",
+        "issuer": "C=US, O=Let's Encrypt, CN=YE1",
+        "subjectAltNames": ["kubernetes.io", "www.kubernetes.io"],
+        "validFrom": "Aug 12 08:23:52 2026 GMT",
+        "validTo": "Nov 10 08:23:51 2026 GMT"
+      }
+    }
+  }
+}
