@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs';
 import { PGlite } from '@electric-sql/pglite';
 import { describe, expect, test } from 'vitest';
 import { describeStore } from '../../core/test/store-contract.ts';
@@ -31,7 +32,7 @@ describeStore('PostgresStore', async () => new PostgresStore(await freshDatabase
 describe('migrate', () => {
   test('applies each migration once', async () => {
     const sql = fromPGlite(new PGlite());
-    expect(await migrate(sql)).toEqual(['0001_scans.sql']);
+    expect(await migrate(sql)).toEqual(['0001_scans.sql', '0002_unwrap_json_strings.sql']);
     expect(await migrate(sql)).toEqual([]);
   });
 
@@ -114,4 +115,33 @@ test('ids that are not UUIDs are simply not found', async () => {
   const store = new PostgresStore(await freshDatabase());
   expect(await store.getScan('not-a-uuid')).toBeNull();
   await expect(store.finishScan('not-a-uuid', {} as never)).rejects.toThrow(/No scan/);
+});
+
+test('0002 unwraps JSON that an earlier version stored as a string', async () => {
+  const sql = await freshDatabase();
+  const [scan] = await sql.query<{ id: string }>(
+    `insert into stackprobe.scans (domain, url, status, report)
+     values ('acme.test', 'https://acme.test/', 'done', to_jsonb('{"domain":"acme.test"}'::text))
+     returning id`,
+  );
+  await sql.query(
+    `insert into stackprobe.layer_results
+       (scan_id, surface_id, layer, status, duration_ms, error, signals)
+     values ($1, 'root', 'http', 'failed', 1, to_jsonb('{"code":"TIMEOUT"}'::text),
+             to_jsonb('[]'::text))`,
+    [scan?.id],
+  );
+
+  const repair = readFileSync(
+    new URL('../migrations/0002_unwrap_json_strings.sql', import.meta.url),
+  );
+  await sql.exec(repair.toString());
+  await sql.exec(repair.toString());
+
+  expect(await sql.query('select report from stackprobe.scans')).toEqual([
+    { report: { domain: 'acme.test' } },
+  ]);
+  expect(await sql.query('select error, signals from stackprobe.layer_results')).toEqual([
+    { error: { code: 'TIMEOUT' }, signals: [] },
+  ]);
 });
