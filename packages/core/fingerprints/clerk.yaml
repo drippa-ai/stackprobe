@@ -1,0 +1,51 @@
+id: clerk
+name: Clerk
+category: auth
+website: https://clerk.com
+rules:
+  # Set by Clerk's middleware on every request it handles.
+  - id: header-auth-status
+    layer: http
+    signal: header
+    key: x-clerk-auth-status
+    match: { exists: true }
+    weight: 0.95
+    detail: Clerk middleware header
+
+  - id: header-auth-reason
+    layer: http
+    signal: header
+    key: x-clerk-auth-reason
+    match: { exists: true }
+    weight: 0.95
+    detail: Clerk middleware header
+
+  # clerk-js is loaded from the app's Clerk frontend API: clerk.<domain> or *.clerk.accounts.dev.
+  - id: clerk-js
+    layer: http
+    signal: script-src
+    match: { regex: '/npm/@clerk/clerk-js@(\d+)[^/]*/' }
+    version: $1
+    weight: 0.95
+    detail: Clerk's JavaScript SDK
+
+  - id: cookie-uat
+    layer: http
+    signal: cookie-name
+    match: { regex: '^__client_uat(?:_|$)' }
+    weight: 0.9
+    detail: Clerk session cookie
+
+  - id: cookie-uat-browser
+    layer: browser
+    signal: cookie-name
+    match: { regex: '^__client_uat(?:_|$)' }
+    weight: 0.9
+    detail: Clerk session cookie
+
+  - id: frontend-api-request
+    layer: browser
+    signal: request-url
+    match: { regex: '^https://(?:clerk\.[a-z0-9.-]+|[a-z0-9-]+\.clerk\.accounts\.dev)/v1/' }
+    weight: 0.9
+    detail: Request to Clerk's frontend API

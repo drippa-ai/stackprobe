@@ -1,0 +1,58 @@
+id: webflow
+name: Webflow
+category: site-builder
+website: https://webflow.com
+rules:
+  - id: header-page-id
+    layer: http
+    signal: header
+    key: x-wf-page-id
+    match: { exists: true }
+    weight: 0.95
+    detail: Webflow page id header
+
+  - id: header-region
+    layer: http
+    signal: header
+    key: x-wf-region
+    match: { exists: true }
+    weight: 0.9
+    detail: Webflow region header
+
+  - id: meta-generator
+    layer: http
+    signal: meta
+    key: generator
+    match: { regex: '^Webflow\b' }
+    weight: 0.95
+    detail: Generator tag names Webflow
+
+  # Site CSS and scripts are published to Webflow's asset CDN.
+  - id: asset-cdn
+    layer: http
+    signal: link-href
+    match: { regex: '^https://(?:cdn\.prod|assets)\.website-files\.com/' }
+    weight: 0.85
+    detail: Stylesheet or asset from Webflow's CDN
+
+  - id: script-cdn
+    layer: http
+    signal: script-src
+    match: { regex: '^https://(?:cdn\.prod|assets)\.website-files\.com/' }
+    weight: 0.85
+    detail: Script from Webflow's CDN
+
+  - id: dns-cname
+    layer: dns
+    signal: cname
+    match: { regex: '^(?:cdn|proxy-ssl)\.webflow\.com\.?$' }
+    weight: 0.9
+    detail: CNAME to Webflow
+
+  # The A record Webflow tells customers to use for root domains.
+  - id: dns-a
+    layer: dns
+    signal: a
+    match: { cidr: [198.202.211.1/32] }
+    weight: 0.85
+    detail: A record at Webflow

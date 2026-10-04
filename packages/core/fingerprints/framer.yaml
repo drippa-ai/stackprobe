@@ -1,0 +1,49 @@
+id: framer
+name: Framer
+category: site-builder
+website: https://www.framer.com
+rules:
+  - id: meta-generator
+    layer: http
+    signal: meta
+    key: generator
+    match: { regex: '^Framer\b' }
+    weight: 0.95
+    detail: Generator tag names Framer
+
+  - id: header-site-id
+    layer: http
+    signal: header
+    key: framer-site-id
+    match: { exists: true }
+    weight: 0.95
+    detail: Framer site id header
+
+  - id: header-server
+    layer: http
+    signal: header
+    key: server
+    match: { regex: '^Framer(?:/|$)' }
+    weight: 0.95
+
+  # Framer serves site assets, images and fonts from its own CDN.
+  - id: asset-cdn
+    layer: http
+    signal: link-href
+    match: { prefix: 'https://framerusercontent.com/' }
+    weight: 0.85
+    detail: Asset served from Framer's CDN
+
+  - id: script-cdn
+    layer: http
+    signal: script-src
+    match: { regex: '^https://(?:framerusercontent\.com|events\.framer\.com)/' }
+    weight: 0.85
+    detail: Script served by Framer
+
+  - id: dns-cname
+    layer: dns
+    signal: cname
+    match: { regex: '\.framer\.(?:app|website)\.?$' }
+    weight: 0.9
+    detail: CNAME to Framer

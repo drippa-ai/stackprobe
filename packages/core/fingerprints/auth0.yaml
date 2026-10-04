@@ -1,0 +1,42 @@
+id: auth0
+name: Auth0
+category: auth
+website: https://auth0.com
+rules:
+  # Apps that sign in on the server redirect straight to the tenant's login.
+  - id: redirect-to-login
+    layer: http
+    signal: header
+    key: location
+    match: { regex: '^https://[a-z0-9-]+(?:\.[a-z]{2})?\.auth0\.com/(?:authorize|u/login)' }
+    weight: 0.95
+    detail: Redirect to an Auth0 login
+
+  - id: cdn-script
+    layer: http
+    signal: script-src
+    match: { prefix: 'https://cdn.auth0.com/' }
+    weight: 0.85
+    detail: Script from Auth0's CDN
+
+  - id: preconnect
+    layer: http
+    signal: link-href
+    match: { regex: '^https://[a-z0-9-]+(?:\.[a-z]{2})?\.auth0\.com' }
+    weight: 0.8
+    detail: Preconnect to an Auth0 tenant
+
+  - id: tenant-request
+    layer: browser
+    signal: request-url
+    match: { regex: '^https://[a-z0-9-]+(?:\.[a-z]{2})?\.auth0\.com/(?:authorize|oauth/token|u/login|co/authenticate)' }
+    weight: 0.95
+    detail: Request to an Auth0 tenant
+
+  # Set by auth0-spa-js.
+  - id: spa-cookie
+    layer: browser
+    signal: cookie-name
+    match: { regex: '^auth0\.[A-Za-z0-9]+\.is\.authenticated$' }
+    weight: 0.9
+    detail: auth0-spa-js session cookie
