@@ -1,3 +1,5 @@
+export type { Browser, BrowserCapture, CaptureOptions } from './browser.ts';
+export { browserLayer, captureSignals, sanitizeCapture } from './browser.ts';
 export type {
   Classification,
   ClassifiedKind,
@@ -65,7 +67,15 @@ export { FRESH_FOR_MS, requestScan, STALE_AFTER_MS } from './request-scan.ts';
 export type { LayerResult, RunOptions } from './runner.ts';
 export { runLayer, runLayers } from './runner.ts';
 export type { BuildReportInput, ScanOptions, SurfaceResults } from './scan.ts';
-export { buildReport, layersForSurfaces, reportStatus, SCAN_BUDGET_MS, scan } from './scan.ts';
+export {
+  browserTargets,
+  buildReport,
+  layersForSurfaces,
+  MAX_BROWSER_SURFACES,
+  reportStatus,
+  SCAN_BUDGET_MS,
+  scan,
+} from './scan.ts';
 export type { ScanRecord, ScanStatus, Store } from './store.ts';
 export { DEFAULT_LIST_LIMIT, MemoryStore, ScanFinishedError, ScanNotFoundError } from './store.ts';
 export { surfaceTarget } from './surface.ts';
