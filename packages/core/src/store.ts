@@ -26,7 +26,11 @@ export interface Store {
   getScan(scanId: string): Promise<ScanRecord | null>;
   // The newest scan of a domain, running or finished.
   latestScan(domain: string): Promise<ScanRecord | null>;
+  // A domain's scans, newest first, running or finished. For history and diffs.
+  listScans(domain: string, options?: { limit?: number }): Promise<ScanRecord[]>;
 }
+
+export const DEFAULT_LIST_LIMIT = 20;
 
 export class ScanNotFoundError extends Error {
   constructor(scanId: string) {
@@ -86,16 +90,17 @@ export class MemoryStore implements Store {
   }
 
   async latestScan(domain: string): Promise<ScanRecord | null> {
-    let latest: ScanRecord | null = null;
-    for (const record of this.scans.values()) {
-      if (
-        record.domain === domain.toLowerCase() &&
-        (!latest || record.createdAt >= latest.createdAt)
-      ) {
-        latest = record;
-      }
-    }
-    return latest ? structuredClone(latest) : null;
+    return (await this.listScans(domain, { limit: 1 }))[0] ?? null;
+  }
+
+  async listScans(domain: string, options: { limit?: number } = {}): Promise<ScanRecord[]> {
+    // Map order is insertion order, so reversing breaks createdAt ties newest first.
+    return [...this.scans.values()]
+      .filter((record) => record.domain === domain.toLowerCase())
+      .reverse()
+      .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+      .slice(0, options.limit ?? DEFAULT_LIST_LIMIT)
+      .map((record) => structuredClone(record));
   }
 
   // Raw layer results saved for a scan, for tests.

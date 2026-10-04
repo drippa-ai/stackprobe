@@ -109,5 +109,20 @@ export function describeStore(name: string, makeStore: () => Promise<Store>) {
       await store.createScan({ domain: 'other.test', url: 'https://other.test/' });
       expect((await store.latestScan('ACME.test'))?.id).toBe(second.id);
     });
+
+    test('lists the scans of a domain, newest first', async () => {
+      const store = await makeStore();
+      expect(await store.listScans('acme.test')).toEqual([]);
+      const ids: string[] = [];
+      for (let i = 0; i < 3; i++) {
+        ids.push((await store.createScan({ domain: 'acme.test', url: 'https://acme.test/' })).id);
+        await new Promise((resolve) => setTimeout(resolve, 5));
+      }
+      await store.createScan({ domain: 'other.test', url: 'https://other.test/' });
+      expect((await store.listScans('ACME.test')).map((scan) => scan.id)).toEqual(ids.reverse());
+      expect((await store.listScans('acme.test', { limit: 2 })).map((scan) => scan.id)).toEqual(
+        ids.slice(0, 2),
+      );
+    });
   });
 }
