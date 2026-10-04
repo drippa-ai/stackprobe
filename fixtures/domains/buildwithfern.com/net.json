@@ -1,0 +1,506 @@
+{
+  "url": "https://buildwithfern.com/",
+  "recordedAt": "2026-10-04T18:01:25.906Z",
+  "http": {
+    "GET https://buildwithfern.com/": {
+      "result": {
+        "url": "https://buildwithfern.com/",
+        "status": 200,
+        "headers": [
+          ["content-type", "text/html; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["content-encoding", "br"],
+          [
+            "link",
+            "</index.md>; rel=\"alternate\"; type=\"text/markdown\", </openapi.json>; rel=\"service-desc\"; type=\"application/openapi+json\", </llms.txt>; rel=\"describedby\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "300"],
+          ["x-powered-by", "Next.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::iad1::76tpj-1791135162899-4d8bda064038"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["date", "Sun, 04 Oct 2026 18:01:26 GMT"],
+          ["etag", "W/\"fx51ibkzz52mkvp\""],
+          ["vary", "Accept-Encoding"],
+          ["x-cache", "RefreshHit from cloudfront"],
+          ["via", "1.1 50c588fd3255d023d9b9021263f5fa0a.cloudfront.net (CloudFront)"],
+          ["x-amz-cf-pop", "OSL50-P2"],
+          ["x-amz-cf-id", "5GUnajiuK-bMwbWXdixcc6zvG4bjBLXblLKLKuxyhvcSEwawYqz68w=="]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/051742360c26797e-s.p.1wmoa0e_blxrz.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/345c85a432359eed-s.p.24jxsbewvqxgy.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/8e451580e5e95631-s.p.0ic9f6t6i9npx.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/9be384ea93fe3f49-s.p.0oq27de-d8s-p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/BerkeleyMonoVariable_Italic-s.p.2pc3hunrutc0f.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/BerkeleyMonoVariable_Regular-s.p.0rrc68be95dtt.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Black-s.p.08t1u045gb50x.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Bold-s.p.3hpv9gbac1wg3.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Italic_15_Black-s.p.35s_88izcj-pv.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Italic_15_Bold-s.p.0d873kpat48y2.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Italic_15_Light-s.p.2-gx-yjq7sm_v.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Italic_15_Medium-s.p.2o578ummds_ch.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Italic_15_Regular-s.p.1ecr91u_c4nds.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Italic_15_Thin-s.p.02viooch4drnk.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Light-s.p.2bjc7t8w01ctg.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Medium-s.p.2tj8ldbl6hq9p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Regular-s.p.2ndkjvk7f5evk.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Thin-s.p.2_a54715v3ibp.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/product-cards/docs-illustration.png\" as=\"image\">\n<link rel=\"preload\" href=\"/product-cards/docs-illustration-dark.png\" as=\"image\">\n<link rel=\"preload\" href=\"/product-cards/sdk-illustration.png\" as=\"image\">\n<link rel=\"preload\" href=\"/product-cards/sdk-illustration-dark.png\" as=\"image\">\n<link rel=\"preload\" href=\"/product-cards/cli-illustration.png\" as=\"image\">\n<link rel=\"preload\" href=\"/product-cards/cli-illustration-dark.png\" as=\"image\">\n<link rel=\"preload\" href=\"/docs/ai-claude.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/docs/ai-gemini.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/docs/ai-copilot.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/docs/ai-chatgpt.svg\" as=\"image\">\n<link rel=\"preload\" as=\"image\" href=\"/home-heroanimation-bg.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/2zqsbm8s85161.js\">\n<script src=\"/_next/static/immutable/chunks/0i3qf0zh14s38.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3teauim1lnjtt.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/00cbwvqtmwgla.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-3eypreg2ay-u5.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0ieuvkmrhab6m.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0zu45315_mupg.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3b9x5-y5-i48j.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0vr3ygvj66knv.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1oryi4y88tw2v.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0uzqmn61x2m8t.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1i_2hb9_fi7j2.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/238w3dgvsmzcf.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1w9671or299iw.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2mn7s7jesrkc1.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3u7h7h5zotbyc.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0_fflop70n2os.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2cgkwkh8lhc-j.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2fdjnz3_fl7_p.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1umd883dnu_-i.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/33uabizd2cfcg.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2u7qgsoe6_k1r.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2jn7tose4c-w8.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2qm27k9_i35ek.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/35b5v8igzln19.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"/customers/webflow/webflow-light.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/webflow/webflow-dark.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/deepgram/deepgram-light.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/deepgram/deepgram-dark.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/deel/deel-light.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/deel/deel-dark.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/nvidia/nvidia-light.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/nvidia/nvidia-dark.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/merge/merge-light.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/elevenlabs/elevenlabs-light.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/elevenlabs/elevenlabs-dark.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/docs/ai-cursor.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/merge/merge-dark.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/square/square-light.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/square/square-dark.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/payabli/payabli-light.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/payabli/payabli-dark.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/shipbob/shipbob-light.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/shipbob/shipbob-dark.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/auth0/auth0-light.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/auth0/auth0-dark.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customer-sites/elevenlabs.jpg\" as=\"image\">\n<link rel=\"preload\" href=\"/customer-sites/elevenlabs-dark.jpg\" as=\"image\">\n<link rel=\"preload\" href=\"/customer-sites/frame.jpg\" as=\"image\">\n<link rel=\"preload\" href=\"/case-studies/unleash.jpg\" as=\"image\">\n<link rel=\"preload\" href=\"/case-studies/unleash-dark.jpg\" as=\"image\">\n<link rel=\"service-desc\" type=\"application/openapi+json\" href=\"/openapi.json\">\n<link rel=\"describedby\" type=\"text/plain\" href=\"/llms.txt\">\n<link rel=\"sitemap\" type=\"application/xml\" href=\"/sitemap.xml\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"description\" content=\"Start with OpenAPI. Generate SDKs in multiple languages, interactive API documentation, and an agent-first CLI.\">\n<link rel=\"canonical\" href=\"https://buildwithfern.com\">\n<meta property=\"og:title\" content=\"Fern: Docs, SDKs, and CLIs for your API\">\n<meta property=\"og:description\" content=\"Start with OpenAPI. Generate SDKs in multiple languages, interactive API documentation, and an agent-first CLI.\">\n<meta property=\"og:url\" content=\"https://buildwithfern.com\">\n<meta property=\"og:image\" content=\"https://buildwithfern.com/og-default.jpg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"Fern\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Fern: Docs, SDKs, and CLIs for your API\">\n<meta name=\"twitter:description\" content=\"Start with OpenAPI. Generate SDKs in multiple languages, interactive API documentation, and an agent-first CLI.\">\n<meta name=\"twitter:image\" content=\"https://buildwithfern.com/og-default.jpg\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.0ckj2l9zlkhz-.ico\" sizes=\"32x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon0.png?icon0.09bj491xecm6p.png\" sizes=\"16x16\" type=\"image/png\">\n<link rel=\"icon\" href=\"/icon1.png?icon1.2sv7bi6xjajlm.png\" sizes=\"32x32\" type=\"image/png\">\n<link rel=\"icon\" href=\"/icon2.png?icon2.3j5grklc_ni5o.png\" sizes=\"48x48\" type=\"image/png\">\n<link rel=\"icon\" href=\"/icon3.png?icon3.2clu2o1z5k85j.png\" sizes=\"64x64\" type=\"image/png\">\n<link rel=\"icon\" href=\"/icon4.png?icon4.0fhp4e6gawwmn.png\" sizes=\"128x128\" type=\"image/png\">\n<link rel=\"icon\" href=\"/icon5.png?icon5.0jqucivbvhgzl.png\" sizes=\"256x256\" type=\"image/png\">\n<link rel=\"apple-touch-icon\" href=\"/apple-icon.png?apple-icon.0jqucivbvhgzl.png\" sizes=\"256x256\" type=\"image/png\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"/\"></a>\n<a href=\"/docs\">DocsBeautiful, customizable documentation websites.</a>\n<a href=\"/sdks\">SDKsClient libraries designed by language experts.</a>\n<a href=\"/cli\">CLIInteract with your API from the terminal.</a>\n<a href=\"/docs\"></a>\n<a href=\"https://buildwithfern.com/learn\">DocumentationLearn how to use Fern</a>\n<a href=\"/careers\">CareersWe're hiring</a>\n<a href=\"/trust\">Trust centerSOC 2 compliant and secure</a>\n<a href=\"https://buildwithfern.com/agent-score\">Get your Agent-readiness score</a>\n<a href=\"/customers\">Customers</a>\n<a href=\"/blog\">Blog</a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"https://dashboard.buildwithfern.com\">Sign in</a>\n<a href=\"https://dashboard.buildwithfern.com/sign-up?redirect_on_login=%2Fget-started&amp;utm_source=fern-website&amp;utm_content=nav-top-right\">Start for free</a>\n<a href=\"/book-demo\">Book a demo</a>\n<a href=\"/customers/elevenlabs\">20M+Docs pages served per year</a>\n<a href=\"/customers/frame\">99%Reduction in time to first API call</a>\n<a href=\"/customers/unleash\">14xAI search engagement</a>\n<a href=\"https://buildwithfern.com/learn/docs/getting-started/project-structure\">docs.yml1instances:2 - url: docs.example.com3navigation:4 - section: Get started5 contents:6 - page:</a>\n<a href=\"https://buildwithfern.com/learn/docs/ai-features/ask-fern/overview\">AI chat in docsBuilt-in AI chat lets users ask questions and get answers grounded in your docs, with</a>\n<a href=\"https://buildwithfern.com/learn/docs/ai-features/llms-txt\">llms.txtYour docs ship as clean Markdown with an auto-generated llms.txt, so every LLM and agent can</a>\n<a href=\"https://buildwithfern.com/learn/docs/ai-features/mcp-server\">MCP serverExpose your docs and API through an MCP server so AI tools can query and execute in real t</a>\n<a href=\"https://buildwithfern.com/learn/docs/ai-features/fern-agent\">AI-assisted authoringTag Fern Agent to draft updates, open GitHub PRs, and keep your documentation i</a>\n<a href=\"/book-demo\">Migrate to Fern</a>\n<a href=\"https://buildwithfern.com/learn/docs/authentication/overview\">Security &amp; access controlGate your docs so customers see only the content relevant to them. Connect </a>\n<a href=\"https://buildwithfern.com/learn/docs/preview-publish/multi-source-docs\">Multi-source docsAggregate content from multiple repos into one site, with product and version switc</a>\n<a href=\"https://buildwithfern.com/learn/docs/self-hosted/overview\">Self-hostRun on our managed cloud, or self-host to meet stricter security, networking, and complianc</a>\n<a href=\"https://buildwithfern.com/learn/docs/localization/overview\">LocalizationFirst-class translated content. Ship docs in multiple languages as part of the rollout, </a>\n<a href=\"/trust\">ComplianceSOC 2 Type II and annual pentests. Reports and supporting security documentation available</a>\n<a href=\"/support\">Support &amp; SLAsUptime SLA, escalation paths, and a dedicated Slack or Teams channel, with 24/7 covera</a>\n<a href=\"https://buildwithfern.com/learn/docs/integrations/postman\">Read the Postman docs</a>\n<a href=\"/customers\">Customer stories</a>\n<a href=\"/customers/elevenlabs\">“I used to work at Stripe, where they built their own SDK auto-generation in house. I know how much </a>\n<a href=\"/customers/auth0\">“Adding a feature used to mean implementing it seven times, once per language. Now we change the spe</a>\n<a href=\"/blog\">View all posts</a>\n<a href=\"/post/building-fern-agent\">How we built Fern Agent</a>\n<a href=\"/post/fern-agent\">One agent for your documentation</a>\n<a href=\"/post/content-marketing-agents\">How I ship Fern's marketing content using skills</a>\n<a href=\"https://dashboard.buildwithfern.com/sign-up?redirect_on_login=%2Fget-started&amp;utm_source=fern-website&amp;utm_content=footer-cta\">Start for free</a>\n<a href=\"https://status.buildwithfern.com/\">All systems operational</a>\n<a href=\"/trust\">SOC 2 Type II</a>\n<a href=\"/index.md\">View as Markdown</a>\n<a href=\"https://buildwithfern.com/learn/home\">Getting started</a>\n<a href=\"https://buildwithfern.com/learn/api-definition/openapi/overview\">OpenAPI compatibility</a>\n<a href=\"https://buildwithfern.com/learn/docs/getting-started/overview\">Docs</a>\n<a href=\"https://buildwithfern.com/learn/sdks/introduction/overview\">SDKs</a>\n<a href=\"https://buildwithfern.com/learn/cli-generator/get-started/overview\">CLI</a>\n<a href=\"/careers\">Careers</a>\n<a href=\"/support\">Support</a>\n<a href=\"https://brandfetch.com/buildwithfern.com\">Brand kit</a>\n<a href=\"https://github.com/fern-api/fern\">GitHub</a>\n<a href=\"/privacy-policy\">Privacy policy</a>\n<a href=\"/terms-of-service\">Terms of service</a>\n<a href=\"https://x.com/buildwithfern\"></a>\n<a href=\"https://github.com/fern-api/fern\"></a>\n<a href=\"https://www.linkedin.com/company/buildwithfern\"></a>\n<script src=\"/_next/static/immutable/chunks/2zqsbm8s85161.js\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://app.buildwithfern.com/": {
+      "result": {
+        "url": "https://app.buildwithfern.com/",
+        "status": 404,
+        "headers": [
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://app.buildwithfern.com https: blob:; style-src 'self' 'unsafe-inline' https://app.buildwithfern.com https:; img-src 'self' https://app.buildwithfern.com https: data: blob:; font-src 'self' https://app.buildwithfern.com https: data:; connect-src 'self' https://app.buildwithfern.com https: wss: ws: data: blob:; media-src 'self' https://app.buildwithfern.com https: data: blob:; object-src 'self' https://app.buildwithfern.com https: data: blob:; frame-src 'self' https://app.buildwithfern.com https: data: blob:; base-uri 'self'; form-action 'self' https://app.buildwithfern.com https:; frame-ancestors 'self' https://*.buildwithfern.com"
+          ],
+          ["content-type", "text/plain;charset=UTF-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:26 GMT"],
+          ["permissions-policy", "camera=(self), microphone=(self), geolocation=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000; includeSubDomains; preload"],
+          ["x-content-type-options", "nosniff"],
+          ["x-vercel-id", "arn1::x2zzk-1791136886452-4bc04713d6bd"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://buildwithfern.com/trust": {
+      "result": {
+        "url": "https://buildwithfern.com/trust",
+        "status": 200,
+        "headers": [
+          ["content-type", "text/html; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["content-encoding", "br"],
+          ["etag", "W/\"11tz51gowax2799q\""],
+          [
+            "link",
+            "</trust.md>; rel=\"alternate\"; type=\"text/markdown\", </openapi.json>; rel=\"service-desc\"; type=\"application/openapi+json\", </llms.txt>; rel=\"describedby\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/trust"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "300"],
+          ["x-powered-by", "Next.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::iad1::lh55d-1791133535996-e87eb3ba9de6"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["date", "Sun, 04 Oct 2026 18:01:26 GMT"],
+          ["vary", "Accept-Encoding"],
+          ["x-cache", "RefreshHit from cloudfront"],
+          ["via", "1.1 dfa43a17d6715f83d8bb6aa560e80366.cloudfront.net (CloudFront)"],
+          ["x-amz-cf-pop", "OSL50-P2"],
+          ["x-amz-cf-id", "YdC3KfAhCHe-KHyR405QN28rlJUJPYqu6_81_p3rdw96YpUomSqNLg=="]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/BerkeleyMonoVariable_Italic-s.p.2pc3hunrutc0f.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/BerkeleyMonoVariable_Regular-s.p.0rrc68be95dtt.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Black-s.p.08t1u045gb50x.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Bold-s.p.3hpv9gbac1wg3.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Italic_15_Black-s.p.35s_88izcj-pv.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Italic_15_Bold-s.p.0d873kpat48y2.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Italic_15_Light-s.p.2-gx-yjq7sm_v.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Italic_15_Medium-s.p.2o578ummds_ch.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Italic_15_Regular-s.p.1ecr91u_c4nds.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Italic_15_Thin-s.p.02viooch4drnk.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Light-s.p.2bjc7t8w01ctg.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Medium-s.p.2tj8ldbl6hq9p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Regular-s.p.2ndkjvk7f5evk.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Thin-s.p.2_a54715v3ibp.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" as=\"image\" href=\"/product-cards/docs-illustration.png\">\n<link rel=\"preload\" as=\"image\" href=\"/product-cards/docs-illustration-dark.png\">\n<link rel=\"preload\" as=\"image\" href=\"/product-cards/sdk-illustration.png\">\n<link rel=\"preload\" as=\"image\" href=\"/product-cards/sdk-illustration-dark.png\">\n<link rel=\"preload\" as=\"image\" href=\"/product-cards/cli-illustration.png\">\n<link rel=\"preload\" as=\"image\" href=\"/product-cards/cli-illustration-dark.png\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/2zqsbm8s85161.js\">\n<script src=\"/_next/static/immutable/chunks/0i3qf0zh14s38.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3teauim1lnjtt.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/00cbwvqtmwgla.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-3eypreg2ay-u5.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0ieuvkmrhab6m.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0zu45315_mupg.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3b9x5-y5-i48j.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0vr3ygvj66knv.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1oryi4y88tw2v.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0uzqmn61x2m8t.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1i_2hb9_fi7j2.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/238w3dgvsmzcf.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1w9671or299iw.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2mn7s7jesrkc1.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3u7h7h5zotbyc.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0_fflop70n2os.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2cgkwkh8lhc-j.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2fdjnz3_fl7_p.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1umd883dnu_-i.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/33uabizd2cfcg.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2sp-4y4vydblh.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1mn20c-bz4m8t.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3xzay1mn16m9o.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2ksbppc48y8k2.js\" async=\"\"></script>\n<link rel=\"service-desc\" type=\"application/openapi+json\" href=\"/openapi.json\">\n<link rel=\"describedby\" type=\"text/plain\" href=\"/llms.txt\">\n<link rel=\"sitemap\" type=\"application/xml\" href=\"/sitemap.xml\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"description\" content=\"Fern's trust center. Review our security posture and request access to compliance documentation, including SOC 2.\">\n<link rel=\"canonical\" href=\"https://buildwithfern.com/trust\">\n<meta property=\"og:title\" content=\"Trust center | Fern\">\n<meta property=\"og:description\" content=\"Fern's trust center. Review our security posture and request access to compliance documentation, including SOC 2.\">\n<meta property=\"og:url\" content=\"https://buildwithfern.com/trust\">\n<meta property=\"og:image\" content=\"https://buildwithfern.com/og-default.jpg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"Fern\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Trust center | Fern\">\n<meta name=\"twitter:description\" content=\"Fern's trust center. Review our security posture and request access to compliance documentation, including SOC 2.\">\n<meta name=\"twitter:image\" content=\"https://buildwithfern.com/og-default.jpg\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.0ckj2l9zlkhz-.ico\" sizes=\"32x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon0.png?icon0.09bj491xecm6p.png\" sizes=\"16x16\" type=\"image/png\">\n<link rel=\"icon\" href=\"/icon1.png?icon1.2sv7bi6xjajlm.png\" sizes=\"32x32\" type=\"image/png\">\n<link rel=\"icon\" href=\"/icon2.png?icon2.3j5grklc_ni5o.png\" sizes=\"48x48\" type=\"image/png\">\n<link rel=\"icon\" href=\"/icon3.png?icon3.2clu2o1z5k85j.png\" sizes=\"64x64\" type=\"image/png\">\n<link rel=\"icon\" href=\"/icon4.png?icon4.0fhp4e6gawwmn.png\" sizes=\"128x128\" type=\"image/png\">\n<link rel=\"icon\" href=\"/icon5.png?icon5.0jqucivbvhgzl.png\" sizes=\"256x256\" type=\"image/png\">\n<link rel=\"apple-touch-icon\" href=\"/apple-icon.png?apple-icon.0jqucivbvhgzl.png\" sizes=\"256x256\" type=\"image/png\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"/\"></a>\n<a href=\"/docs\">DocsBeautiful, customizable documentation websites.</a>\n<a href=\"/sdks\">SDKsClient libraries designed by language experts.</a>\n<a href=\"/cli\">CLIInteract with your API from the terminal.</a>\n<a href=\"/docs\"></a>\n<a href=\"https://buildwithfern.com/learn\">DocumentationLearn how to use Fern</a>\n<a href=\"/careers\">CareersWe're hiring</a>\n<a href=\"/trust\">Trust centerSOC 2 compliant and secure</a>\n<a href=\"https://buildwithfern.com/agent-score\">Get your Agent-readiness score</a>\n<a href=\"/customers\">Customers</a>\n<a href=\"/blog\">Blog</a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"https://dashboard.buildwithfern.com\">Sign in</a>\n<a href=\"https://dashboard.buildwithfern.com/sign-up?redirect_on_login=%2Fget-started&amp;utm_source=fern-website&amp;utm_content=nav-top-right\">Start for free</a>\n<a href=\"/book-demo\">Book a demo</a>\n<a href=\"https://status.buildwithfern.com/\">All systems operational</a>\n<a href=\"/trust\">SOC 2 Type II</a>\n<a href=\"/post/building-fern-agent\">How we built Fern Agent</a>\n<a href=\"/post/fern-agent\">One agent for your documentation</a>\n<a href=\"/post/content-marketing-agents\">How I ship Fern's marketing content using skills</a>\n<a href=\"/trust.md\">View as Markdown</a>\n<a href=\"https://buildwithfern.com/learn/home\">Getting started</a>\n<a href=\"https://buildwithfern.com/learn/api-definition/openapi/overview\">OpenAPI compatibility</a>\n<a href=\"https://buildwithfern.com/learn/docs/getting-started/overview\">Docs</a>\n<a href=\"https://buildwithfern.com/learn/sdks/introduction/overview\">SDKs</a>\n<a href=\"https://buildwithfern.com/learn/cli-generator/get-started/overview\">CLI</a>\n<a href=\"/careers\">Careers</a>\n<a href=\"/support\">Support</a>\n<a href=\"https://brandfetch.com/buildwithfern.com\">Brand kit</a>\n<a href=\"https://github.com/fern-api/fern\">GitHub</a>\n<a href=\"/privacy-policy\">Privacy policy</a>\n<a href=\"/terms-of-service\">Terms of service</a>\n<a href=\"https://x.com/buildwithfern\"></a>\n<a href=\"https://github.com/fern-api/fern\"></a>\n<a href=\"https://www.linkedin.com/company/buildwithfern\"></a>\n<script src=\"/_next/static/immutable/chunks/2zqsbm8s85161.js\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://buildwithfern.com/docs": {
+      "result": {
+        "url": "https://buildwithfern.com/docs",
+        "status": 200,
+        "headers": [
+          ["content-type", "text/html; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["content-encoding", "br"],
+          [
+            "link",
+            "</docs.md>; rel=\"alternate\"; type=\"text/markdown\", </openapi.json>; rel=\"service-desc\"; type=\"application/openapi+json\", </llms.txt>; rel=\"describedby\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/docs"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "300"],
+          ["x-powered-by", "Next.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::iad1::fxzmb-1791136841169-5e2bd011cd31"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["date", "Sun, 04 Oct 2026 18:01:26 GMT"],
+          ["etag", "W/\"17me1drdxum3iy22\""],
+          ["vary", "Accept-Encoding"],
+          ["x-cache", "RefreshHit from cloudfront"],
+          ["via", "1.1 331956c71b3e587b085083fed0bc8c3e.cloudfront.net (CloudFront)"],
+          ["x-amz-cf-pop", "OSL50-P2"],
+          ["x-amz-cf-id", "BJ_JNrIvHT6eMFVg4KoOc-9k3b1TuxOW2t4nDA75HXX579mgJRBUCQ=="]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/051742360c26797e-s.p.1wmoa0e_blxrz.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/345c85a432359eed-s.p.24jxsbewvqxgy.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/8e451580e5e95631-s.p.0ic9f6t6i9npx.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/9be384ea93fe3f49-s.p.0oq27de-d8s-p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/BerkeleyMonoVariable_Italic-s.p.2pc3hunrutc0f.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/BerkeleyMonoVariable_Regular-s.p.0rrc68be95dtt.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Black-s.p.08t1u045gb50x.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Bold-s.p.3hpv9gbac1wg3.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Italic_15_Black-s.p.35s_88izcj-pv.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Italic_15_Bold-s.p.0d873kpat48y2.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Italic_15_Light-s.p.2-gx-yjq7sm_v.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Italic_15_Medium-s.p.2o578ummds_ch.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Italic_15_Regular-s.p.1ecr91u_c4nds.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Italic_15_Thin-s.p.02viooch4drnk.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Light-s.p.2bjc7t8w01ctg.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Medium-s.p.2tj8ldbl6hq9p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Regular-s.p.2ndkjvk7f5evk.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/GT_Planar_Thin-s.p.2_a54715v3ibp.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" as=\"image\" href=\"/product-cards/docs-illustration.png\">\n<link rel=\"preload\" as=\"image\" href=\"/product-cards/docs-illustration-dark.png\">\n<link rel=\"preload\" as=\"image\" href=\"/product-cards/sdk-illustration.png\">\n<link rel=\"preload\" as=\"image\" href=\"/product-cards/sdk-illustration-dark.png\">\n<link rel=\"preload\" as=\"image\" href=\"/product-cards/cli-illustration.png\">\n<link rel=\"preload\" as=\"image\" href=\"/product-cards/cli-illustration-dark.png\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/sites/you-light.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/sites/you-dark.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/sites/elevenlabs-light.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/sites/elevenlabs-dark.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/sites/ada-light.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/sites/ada-dark.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/sites/webflow-light.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/sites/webflow-dark.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/sites/nvidia-light.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/sites/nvidia-dark.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/sites/cohere-light.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/sites/cohere-dark.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/sites/persona-light.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/sites/persona-dark.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/sites/nominal-light.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/sites/nominal-dark.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/sites/launchdarkly-light.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/sites/launchdarkly-dark.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"image\" href=\"/docs-heroanimation-bg.avif\" fetchpriority=\"high\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/2zqsbm8s85161.js\">\n<script src=\"/_next/static/immutable/chunks/0i3qf0zh14s38.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3teauim1lnjtt.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/00cbwvqtmwgla.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-3eypreg2ay-u5.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0ieuvkmrhab6m.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0zu45315_mupg.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3b9x5-y5-i48j.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0vr3ygvj66knv.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1oryi4y88tw2v.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0uzqmn61x2m8t.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1i_2hb9_fi7j2.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/238w3dgvsmzcf.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1w9671or299iw.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2mn7s7jesrkc1.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3u7h7h5zotbyc.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0_fflop70n2os.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2cgkwkh8lhc-j.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2fdjnz3_fl7_p.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1umd883dnu_-i.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/33uabizd2cfcg.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/29s932y-yfui0.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0hw1t334aw8j5.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/02ebezppxacr9.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2totiuiqyrdk8.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3nq5tmc99xvez.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"/customers/deepgram/deepgram-light.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/customers/deepgram/deepgram-dark.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/docs/dashboard/web-analytics.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/docs/dashboard/web-analytics-dark.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/docs/ai-claude.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/docs/ai-cursor.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/docs/ai-copilot.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/docs/ai-writer-avatar-0.avif\" as=\"image\">\n<link rel=\"preload\" href=\"/docs/dashboard/reader-insights.svg\" as=\"image\">\n<link rel=\"preload\" href=\"/docs/dashboard/reader-insights-dark.svg\" as=\"image\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/ai-gemini.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/docs/ai-chatgpt.svg\">\n<link rel=\"service-desc\" type=\"application/openapi+json\" href=\"/openapi.json\">\n<link rel=\"describedby\" type=\"text/plain\" href=\"/llms.txt\">\n<link rel=\"sitemap\" type=\"application/xml\" href=\"/sitemap.xml\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"description\" content=\"Beautiful, fully-featured documentation generated from your OpenAPI spec. Docs as code in Markdown, agent-ready with /llms.txt, optimized for SEO.\">\n<link rel=\"canonical\" href=\"https://buildwithfern.com/docs\">\n<meta property=\"og:title\" content=\"Fern Docs: Documentation for developers and agents.\">\n<meta property=\"og:description\" content=\"Beautiful, fully-featured documentation generated from your OpenAPI spec. Docs as code in Markdown, agent-ready with /llms.txt, optimized for SEO.\">\n<meta property=\"og:url\" content=\"https://buildwithfern.com/docs\">\n<meta property=\"og:image\" content=\"https://buildwithfern.com/og-docs.jpg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"Fern Docs\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Fern Docs: Documentation for developers and agents.\">\n<meta name=\"twitter:description\" content=\"Beautiful, fully-featured documentation generated from your OpenAPI spec. Docs as code in Markdown, agent-ready with /llms.txt, optimized for SEO.\">\n<meta name=\"twitter:image\" content=\"https://buildwithfern.com/og-docs.jpg\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.0ckj2l9zlkhz-.ico\" sizes=\"32x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon0.png?icon0.09bj491xecm6p.png\" sizes=\"16x16\" type=\"image/png\">\n<link rel=\"icon\" href=\"/icon1.png?icon1.2sv7bi6xjajlm.png\" sizes=\"32x32\" type=\"image/png\">\n<link rel=\"icon\" href=\"/icon2.png?icon2.3j5grklc_ni5o.png\" sizes=\"48x48\" type=\"image/png\">\n<link rel=\"icon\" href=\"/icon3.png?icon3.2clu2o1z5k85j.png\" sizes=\"64x64\" type=\"image/png\">\n<link rel=\"icon\" href=\"/icon4.png?icon4.0fhp4e6gawwmn.png\" sizes=\"128x128\" type=\"image/png\">\n<link rel=\"icon\" href=\"/icon5.png?icon5.0jqucivbvhgzl.png\" sizes=\"256x256\" type=\"image/png\">\n<link rel=\"apple-touch-icon\" href=\"/apple-icon.png?apple-icon.0jqucivbvhgzl.png\" sizes=\"256x256\" type=\"image/png\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"/\"></a>\n<a href=\"/docs\">DocsBeautiful, customizable documentation websites.</a>\n<a href=\"/sdks\">SDKsClient libraries designed by language experts.</a>\n<a href=\"/cli\">CLIInteract with your API from the terminal.</a>\n<a href=\"/docs\"></a>\n<a href=\"https://buildwithfern.com/learn\">DocumentationLearn how to use Fern</a>\n<a href=\"/careers\">CareersWe're hiring</a>\n<a href=\"/trust\">Trust centerSOC 2 compliant and secure</a>\n<a href=\"https://buildwithfern.com/agent-score\">Get your Agent-readiness score</a>\n<a href=\"/customers\">Customers</a>\n<a href=\"/blog\">Blog</a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"https://dashboard.buildwithfern.com\">Sign in</a>\n<a href=\"https://dashboard.buildwithfern.com/sign-up?redirect_on_login=%2Fget-started&amp;utm_source=fern-website&amp;utm_content=nav-top-right\">Start for free</a>\n<a href=\"/book-demo\">Book a demo</a>\n<a href=\"/customers/deepgram\">Read case study</a>\n<a href=\"/sdks\">add SDKs</a>"
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "170732"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:26 GMT"],
+          [
+            "link",
+            "</_next/static/immutable/media/GT_Planar_Black-s.p.3pvyy57qp7yb_.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/GT_Planar_Bold-s.p.1l7pv_6-mw2cz.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/GT_Planar_Italic_15_Regular-s.p.2s7mujg--pcsn.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/GT_Planar_Light-s.p.09dx1t3_256qy.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/GT_Planar_Medium-s.p.1130q9igrw1-b.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/GT_Planar_Regular-s.p.2daubusjb75l-.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-current-path", "/"],
+          ["x-matched-path", "/"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "300"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5h7j9-1791136886445-a6dc513cd609"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1mvv076onosjj.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1w-k7go1gbyjg.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/144djskz2ar40.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/3xsvb246nq2rh.js\">\n<script src=\"/_next/static/immutable/chunks/3asc6e5hpq6ue.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0t73n6wzx1ssd.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/02_0sxfqwgdj7.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0yp-xmjsx09bk.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2bsve4cum92rg.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/13i3oxuacqis1.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0q5wl-daxew2y.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-2ebbgw2e5k14o.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3b4da641vter0.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1kg3_i34yk3cm.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0w5hp_wtgodnd.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1m0-kqzw6v21l.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1n0x6celof18f.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/08v6q1jua2_o0.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3cw_dd4uviyfp.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1seqwophq77jh.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1c1wsvm4obv88.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2z_-sp7nzrm0c.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1cqny7iumv03o.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1dam7b7011dbu.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2zrpwgnp_l811.js\" async=\"\"></script>\n<meta name=\"next-size-adjust\" content=\"\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.35zksrfoijlz4.ico\" sizes=\"48x48\" type=\"image/x-icon\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3xsvb246nq2rh.js\" id=\"_R_\" async=\"\"></script>\n<meta id=\"__next-page-redirect\" http-equiv=\"refresh\" content=\"1;url=/login\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>"
+      }
+    },
+    "GET https://api.buildwithfern.com/": {
+      "result": {
+        "url": "https://api.buildwithfern.com/",
+        "status": 404,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 18:01:26 GMT"],
+          ["content-type", "application/json; charset=utf-8"],
+          ["content-length", "72"],
+          ["connection", "keep-alive"],
+          ["access-control-allow-origin", "*"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://buildwithfern.com/learn/docs/getting-started/project-structure": {
+      "result": {
+        "url": "https://buildwithfern.com/learn/docs/getting-started/project-structure",
+        "status": 200,
+        "headers": [
+          ["content-type", "text/html; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["date", "Sun, 04 Oct 2026 18:01:26 GMT"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=1C3ahWU9EHgJfq0%2BsX1xJYkpoNz%2FU4ar7ElJwyyv5ysN%2BhhG1E3bNFWHhNW6zQzcT7vM1R8i82AGnTtVy78hmYsiwrpTfBpVzSC%2BO1WVxIduaKCByq0xe2Bhuhtl2rZJtIzCacYSKL8NBg%3D%3D\"}]}"
+          ],
+          ["content-encoding", "br"],
+          ["cf-ray", "a4561784df82b50b-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=0, must-revalidate, s-maxage=300"],
+          ["etag", "W/\"a15fbrq91xc3f1x\""],
+          ["last-modified", "Fri, 02 Oct 2026 21:29:18 GMT"],
+          [
+            "link",
+            "</learn/docs/getting-started/project-structure.md>; rel=\"alternate\"; type=\"text/markdown\", </learn/docs/getting-started/project-structure/llms.txt>; rel=\"describedby\", </learn/_astro/inline.lZp3X2N8rK0rIhCR.css>; rel=\"preload\"; as=\"style\", </learn/_astro/inline.MP8NhjIJEBMcHU6O.css>; rel=\"preload\"; as=\"style\", </learn/_astro/inline.SWIXErqwrC2-MfGs.css>; rel=\"preload\"; as=\"style\", </learn/_astro/inline.f_t4Dy-xMsO2h3p6.css>; rel=\"preload\"; as=\"style\", </learn/_fern-files/fern.docs.buildwithfern.com/a8f095799dd15f03b9a1f7d1d0612292d837452a4f54328f3c53f3e6f64608f4/assets/GT-Planar.woff2>; rel=\"preload\"; as=\"font\"; type=\"font/woff2\"; crossorigin, </.well-known/api-catalog>; rel=\"api-catalog\""
+          ],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000; includeSubDomains; preload"],
+          ["cf-placement", "remote-"],
+          [
+            "content-security-policy",
+            "default-src 'self'; script-src 'self' 'strict-dynamic' 'unsafe-eval' 'sha256-lHT4DAx2WlKOUoz8Pnsv4hBB6WQQWpSMnN7i1SYcCTQ=' 'sha256-yLmoBUgWc5ZJbxo/poBLFBmcN2cWKVr/fden1Aazsww=' 'sha256-yPw5wPQkejJJ8owozmkqrhQ/E33R+fuN0gmcjwalrjM=' 'sha256-drv3o7SAp4kRRnm1O3mApm1I8jGz5FllG5wzKyLQzC0=' 'sha256-cXe+dMWZMuTrQ2/02jeaPa37aqjySMQmVsEtMoOrUok=' 'sha256-JNRWfKA0/3PjmANZcp6WHQ9ZPfz0H1IhBDx2IzCHzSo=' 'sha256-I4ugEdufaAp+x65dUEvWM/PHXFb4rrT9/uocwN56N3g=' 'sha256-BhOH4JYGbqMwyJUjQ+YtFP1woqWD5SmDlYGLY7ohj+Q=' 'sha256-/JWGdIlaxl0ZyfyqpzqcG/UlejLpc/BZgV0BSKDHEVQ=' 'sha256-f3V7rrKd8YmEpUemSN3PsI2ruiYEUrqcVvvpcR2Qx8s=' 'sha256-n8quXrJpucOWgwl9EtorAHy9KPQEswJpRrukYWalRQQ=' 'sha256-zFo8zUJhw7fgzk+Af+huWXX4LmgdQJrJvANWtaMqfUs=' 'sha256-w9tmmM2s9r/y08iZX6brtj36Q+Khaq8xgNJpwcOC++k=' 'sha256-VBV3C16BSqzybfi3XPEvoYvoF9CLEopZLZkrGN9wg8o=' 'sha256-6I6GONbRuC68NHvseg/qBpObhQuWIBSmA9Ed8yvia1I=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-T1+y1cvSwZYJ3HIuterqJJBjdz+dRH3UfCJRs9HDxIA=' 'sha256-kTSBfkWSRqPvnL7wLDahzmEr70cvFGgbhdDpjuUUa2k=' 'sha256-gb6dNSVZKu5ARVoUjTW1x8JnToWeIcP2K0lB6J49wPA=' 'sha256-myDVWtPUibNCc/gDmZPiGlNjtqrvA600x3LaNNkAqxE=' 'sha256-UcFWuGOmpTtO5Q327exCYUlmoM/EMxXhouWfu47NVmE=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-x1wskm/lkyubA82cLymU3FNe/dREjNnHJ3O+ubkr1eo=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-H7wv8QNwNKVnzjrw9qBetlt5e06skkB52q18BJXmpg4=' 'sha256-jcxbEvUjrfY8WvKl0ZAzyASQexH87z1dga6qjzxVlqQ=' 'sha256-B9F+y8Sn6mcid46oerRB5FZEqFvXSM3zcZ9mMoG47aI=' 'sha256-Uq8FyP9qOF+gDNl9a/4GbEYyMqAXh8Wno07kUl3jZGw='; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; connect-src 'self' data: blob: https: wss:; media-src 'self' data: blob: https:; frame-src 'self' data: https:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https:; frame-ancestors 'self' https://*.buildwithfern.com"
+          ],
+          ["content-security-policy-report-only", "style-src 'self' https:"],
+          ["permissions-policy", "camera=(self), microphone=(self), geolocation=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-fern-renderer", "static"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["x-cache", "Miss from cloudfront"],
+          ["via", "1.1 edea1d4f37b8855878682c02540138fe.cloudfront.net (CloudFront)"],
+          ["x-amz-cf-pop", "OSL50-P2"],
+          ["x-amz-cf-id", "_4DlkIjPvrwnHRu5EsFd_U48GrZsxx-qAvEetcmXg7lFApxRC_Yawg=="],
+          ["age", "3474"]
+        ],
+        "body": "<meta charset=\"UTF-8\">\n<link rel=\"stylesheet\" href=\"/learn/_astro/inline.lZp3X2N8rK0rIhCR.css\">\n<meta name=\"viewport\" content=\"width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=5, user-scalable=yes\">\n<link rel=\"preload\" href=\"/learn/_fern-files/fern.docs.buildwithfern.com/a8f095799dd15f03b9a1f7d1d0612292d837452a4f54328f3c53f3e6f64608f4/assets/GT-Planar.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" fetchpriority=\"high\">\n<link rel=\"preload\" href=\"/learn/_fern-files/fern.docs.buildwithfern.com/99485baca0155691a5be09ae38cbd12f069be089e4298087de880212393ebf2a/assets/GT-Planar-Medium.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" fetchpriority=\"high\">\n<link rel=\"preload\" href=\"/learn/_fern-files/fern.docs.buildwithfern.com/4c450750364f55abbf3c6d8277854d98a2608a70f0eb9b7ef67d7bb10072bdf4/assets/GT-Planar-Bold.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" fetchpriority=\"high\">\n<link rel=\"icon\" href=\"/learn/api/fern-docs/favicon.ico\">\n<meta name=\"fern-docs-build\" content=\"{&quot;renderer&quot;:&quot;static&quot;,&quot;version&quot;:&quot;1.0.71&quot;,&quot;revision&quot;:&quot;b348451&quot;,&quot;buildId&quot;:&quot;01a0fe7e-e5fa-7537-b1ac-ee93089afd94&quot;}\">\n<meta name=\"description\" content=\"An overview of the file and folder structure of a Fern Docs project.\">\n<link rel=\"canonical\" href=\"https://buildwithfern.com/learn/docs/getting-started/project-structure\">\n<meta name=\"fern-page-roles\" content=\"{&quot;authed&quot;:false,&quot;viewers&quot;:[&quot;everyone&quot;]}\">\n<meta property=\"og:title\" content=\"Project structure | Fern Documentation\">\n<meta property=\"og:description\" content=\"An overview of the file and folder structure of a Fern Docs project.\">\n<meta property=\"og:url\" content=\"https://buildwithfern.com/learn/docs/getting-started/project-structure\">\n<meta property=\"og:locale\" content=\"en\">\n<meta property=\"og:image\" content=\"https://buildwithfern.com/learn/api/fern-docs/og?slug=learn%2Fdocs%2Fgetting-started%2Fproject-structure\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Project structure | Fern Documentation\">\n<meta name=\"twitter:description\" content=\"An overview of the file and folder structure of a Fern Docs project.\">\n<meta name=\"twitter:image\" content=\"https://buildwithfern.com/learn/api/fern-docs/og?slug=learn%2Fdocs%2Fgetting-started%2Fproject-structure\">\n<meta name=\"twitter:image:width\" content=\"1200\">\n<meta name=\"twitter:image:height\" content=\"630\">\n<link rel=\"alternate\" hreflang=\"en\" href=\"https://buildwithfern.com/learn/docs/getting-started/project-structure\">\n<link rel=\"alternate\" hreflang=\"zh\" href=\"https://buildwithfern.com/learn/zh/docs/getting-started/project-structure\">\n<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://buildwithfern.com/learn/docs/getting-started/project-structure\">\n<link rel=\"alternate\" type=\"text/markdown\" href=\"https://buildwithfern.com/learn/docs/getting-started/project-structure.md\">\n<link rel=\"describedby\" href=\"https://buildwithfern.com/learn/docs/getting-started/project-structure/llms.txt\">\n<link rel=\"alternate\" type=\"text/markdown\" href=\"/learn/docs/getting-started/project-structure.md\">\n<link rel=\"alternate\" type=\"text/plain\" href=\"/learn/llms.txt\">\n<meta id=\"fern-theme-color-preferred-light\" name=\"theme-color\" content=\"#fff\" media=\"(prefers-color-scheme: light)\">\n<meta id=\"fern-theme-color-preferred-dark\" name=\"theme-color\" content=\"#111113\" media=\"(prefers-color-scheme: dark)\">\n<meta id=\"fern-theme-color\" name=\"theme-color\" content=\"#fff\">\n<meta name=\"fern-csp-no-wasm\" content=\"1\">\n<meta name=\"astro-view-transitions-enabled\" content=\"true\">\n<meta name=\"astro-view-transitions-fallback\" content=\"swap\">\n<link rel=\"stylesheet\" href=\"/learn/_astro/inline.MP8NhjIJEBMcHU6O.css\">\n<link rel=\"stylesheet\" href=\"/learn/_astro/inline.SWIXErqwrC2-MfGs.css\">\n<link rel=\"stylesheet\" href=\"/learn/_astro/inline.f_t4Dy-xMsO2h3p6.css\">\n<link rel=\"stylesheet\" href=\"/learn/_astro/build-version.BJZezrfa.css\">\n<link rel=\"stylesheet\" href=\"/learn/_astro/inline.WBkQzSE4ivC6AoOm.css\">\n<link rel=\"stylesheet\" href=\"/learn/_astro/inline.eizgfzl8LxNXPOvv.css\">\n<link rel=\"stylesheet\" href=\"/learn/_astro/inline.kWJs3mQ7g08hFcDU.css\">\n<a href=\"/\"></a>\n<a href=\"https://buildwithfern.com/book-demo?utm_source=fern-docs\">Book a demo</a>\n<a href=\"https://dashboard.buildwithfern.com/login?utm_source=fern-docs\">Log in</a>\n<a href=\"https://dashboard.buildwithfern.com/sign-up?redirect_on_login=%2Fget-started&amp;utm_source=fern-docs\">Start for free</a>\n<a href=\"#fern-sidebar\">Skip to navigation</a>\n<a href=\"#directory-structure\">Directory structure</a>\n<a href=\"#pages-folder\">Pages folder</a>\n<a href=\"#assets-folder\">Assets folder</a>\n<a href=\"#docsyml\">docs.yml</a>\n<a href=\"#api-definitions-and-generatorsyml\">API definitions and generators.yml</a>\n<a href=\"#fernconfigjson\">fern.config.json</a>\n<a href=\"/learn/docs/getting-started/capabilities\">Getting started</a>\n<a href=\"https://buildwithfern.com/learn/docs/getting-started/project-structure.md\">View as Markdown</a>\n<a href=\"/learn/docs/preview-publish/multi-source-docs\">Multi-source docs</a>\n<a href=\"/learn/docs/configuration/navigation#add-a-folder\">folder configuration</a>\n<a href=\"/learn/docs/configuration/site-level-settings\">docs.yml reference</a>\n<a href=\"/learn/docs/api-references/generate-api-ref\">API Reference</a>\n<a href=\"/learn/docs/api-references/sdk-snippets\">SDK code snippets</a>\n<a href=\"/learn/api-definitions/openapi/overlays\">add an overlays file</a>\n<a href=\"https://github.com/fluidstackio/fern-config/tree/main/fern/openapi\">Fluidstack’s Fern configuration</a>\n<a href=\"/learn/api-definitions/asyncapi/overrides\">add an overrides file</a>\n<a href=\"https://github.com/VapiAI/docs/tree/main/fern/apis\">Vapi’s Fern configuration</a>\n<a href=\"/learn/cli-api-reference/cli-reference/version-policy\">organization-wide CLI version policy</a>\n<a href=\"/learn/cli-api-reference/cli-reference/overview#installation\">Install Fern CLI locally</a>\n<a href=\"https://dashboard.buildwithfern.com/fern/edit-page?docsUrl=buildwithfern.com%2Flearn&amp;slug=learn%2Fdocs%2Fgetting-started%2Fproject-structure&amp;fallbackUrl=https%3A%2F%2Fgithub.com%2Ffern-api%2Fdocs%2Fblob%2Fmain%2Ffern%2Fproducts%2Fdocs%2Fpages%2Fgetting-started%2Fproject-structure.mdx%3Fplain%3D1\">Edit this page</a>\n<a href=\"/learn/docs/getting-started/quickstart\">PreviousDocs quickstart</a>\n<a href=\"/learn/docs/changelog\">NextChangelog</a>\n<a href=\"/learn/docs/getting-started/capabilities\">Capabilities</a>\n<a href=\"/learn/docs/getting-started/how-it-works\">How it works</a>\n<a href=\"/learn/docs/getting-started/quickstart\">Quickstart</a>\n<a href=\"/learn/docs/getting-started/project-structure\">Project structure</a>\n<a href=\"https://buildwithfern.com/showcase#docs-customers.alldocs-features\">Customer showcase</a>\n<a href=\"/learn/docs/changelog\">Changelog</a>\n<a href=\"/learn/docs/configuration/overview\">Overview</a>\n<a href=\"/learn/docs/configuration/site-level-settings\">Site settings</a>\n<a href=\"/learn/docs/configuration/page-level-settings\">Page settings</a>\n<a href=\"/learn/docs/writing-content/markdown-basics\">Markdown basics</a>\n<a href=\"/learn/docs/writing-content/markdown-media\">Rich media in Markdown</a>\n<a href=\"/learn/docs/writing-content/fern-editor\">Fern Editor</a>\n<a href=\"/learn/docs/writing-content/reusable-snippets\">Reusable snippets</a>\n<a href=\"/learn/docs/ai-features/overview\">Overview</a>\n<a href=\"/learn/docs/fern-api-reference/get-jwt\">GETJWT from Fern API key</a>\n<a href=\"/learn/docs/fern-api-reference/get-search-key\">GETAlgolia search credentials</a>\n<a href=\"/learn/docs/fern-api-reference/whoami\">GETCurrent user information</a>\n<a href=\"/learn/docs/scribe-api/fern-writer-api/get-fern-writer-install-link\">GETGet Fern Writer Install Link</a>\n<a href=\"/learn/docs/configuration/navigation-overview\">Overview</a>\n<a href=\"/learn/docs/configuration/navigation\">Sections, pages, and folders</a>\n<a href=\"/learn/docs/configuration/tabs\">Tabs</a>\n<a href=\"/learn/docs/configuration/versions\">Versions</a>\n<a href=\"/learn/docs/configuration/products\">Products</a>\n<a href=\"/learn/docs/configuration/changelogs\">Changelog pages</a>\n<a href=\"/learn/docs/writing-content/components/overview\">Overview</a>\n<a href=\"/learn/docs/writing-content/components/accordions\">Accordion</a>\n<a href=\"/learn/docs/writing-content/components/anchor\">Anchor</a>\n<a href=\"/learn/docs/writing-content/components/aside\">Aside</a>\n<a href=\"/learn/docs/writing-content/components/badges\">Badge</a>\n<a href=\"/learn/docs/writing-content/components/button\">Button</a>\n<a href=\"/learn/docs/writing-content/components/callouts\">Callout</a>\n<a href=\"/learn/docs/writing-content/components/cards\">Card</a>\n<a href=\"/learn/docs/writing-content/components/code-blocks\">Code block</a>\n<a href=\"/learn/docs/writing-content/components/copy\">Copy</a>\n<a href=\"/learn/docs/writing-content/components/download\">Download</a>\n<a href=\"/learn/docs/writing-content/components/request-snippet\">Endpoint request snippet</a>\n<a href=\"/learn/docs/writing-content/components/response-snippet\">Endpoint response snippet</a>\n<a href=\"/learn/docs/writing-content/components/endpoint-schema-snippet\">Endpoint schema snippet</a>\n<a href=\"/learn/docs/writing-content/components/webhook-payload-snippet\">Webhook payload snippet</a>\n<a href=\"/learn/docs/writing-content/components/files\">Files</a>\n<a href=\"/learn/docs/writing-content/components/frames\">Frame</a>\n<a href=\"/learn/docs/writing-content/components/icons\">Icon</a>\n<a href=\"/learn/docs/writing-content/components/if\">If</a>\n<a href=\"/learn/docs/writing-content/components/indent\">Indent</a>\n<a href=\"/learn/docs/writing-content/components/parameter-fields\">Parameter field</a>\n<a href=\"/learn/docs/writing-content/components/prompt\">Prompt</a>\n<a href=\"/learn/docs/writing-content/components/runnable-endpoint\">Runnable endpoint</a>\n<a href=\"/learn/docs/writing-content/components/schema\">Schema</a>\n<a href=\"/learn/docs/writing-content/components/scroll-walkthrough\">Scroll walkthrough</a>\n<a href=\"/learn/docs/writing-content/components/steps\">Step</a>\n<a href=\"/learn/docs/writing-content/components/tables\">Table</a>\n<a href=\"/learn/docs/writing-content/components/tabs\">Tab</a>\n<a href=\"/learn/docs/writing-content/components/tooltips\">Tooltip</a>\n<a href=\"/learn/docs/writing-content/components/versions\">Versions</a>\n<a href=\"/learn/docs/ai-features/ask-fern/overview\">Overview</a>\n<a href=\"/learn/docs/ai-features/ask-fern/slack-app\">Slack app</a>\n<a href=\"/learn/docs/ai-features/ask-fern/guidance\">Custom guidance</a>\n<a href=\"/learn/docs/ai-features/ask-fern/content-sources\">Additional content sources</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/overview\">Overview</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/chat/post-chat-completion\">Post Chat Completion</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/code/create-code-record\">Create Code Record</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/code/batch-create-code-records\">Batch Create Code Records</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/code/get-code-record-by-id\">Get Code Record By Id</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/code/get-code-records\">Get Code Records</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/code/delete-code-record-by-id\">Delete Code Record By Id</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/code/delete-all-code-records\">Delete All Code Records</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/conversation/get-conversation-by-id\">Get Conversation By Id</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/document/create-document\">Create Document</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/document/batch-create-document\">Batch Create Document</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/document/get-document-by-id\">Get Document By Id</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/document/delete-document\">Delete Document</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/document/update-document\">Update Document</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/document/delete-document-by-id\">Delete Document By Id</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/document/batch-delete-document\">Batch Delete Document</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/document/get-documents\">Get Documents</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/document/delete-documents\">Delete Documents</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/document/delete-all-documents\">Delete All Documents</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/guidance/create-guidance\">Create Guidance</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/guidance/get-guidance-by-id\">Get Guidance By Id</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/guidance/delete-guidance-by-id\">Delete Guidance By Id</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/guidance/update\">Update</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/guidance/get-guidances\">Get Guidances</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/query/get-recent-queries\">Get Recent Queries</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/slack-ask-fern/get-slack-install-link\">Get Slack Install Link</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/website/index-website\">Index Website</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/website/get-website-status\">Get Website Status</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/website/get-website-by-id\">Get Website By Id</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/website/get-websites\">Get Websites</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/website/reindex-website\">Reindex Website</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/website/delete-website\">Delete Website</a>\n<a href=\"/learn/docs/ai-features/ask-fern/api-reference/website/delete-all-websites\">Delete All Websites</a>\n<a href=\"/learn/docs/ai-features/search-widget/overview\">Overview</a>\n<a href=\"/learn/docs/ai-features/search-widget/search-modal\">Search modal with AI chat</a>\n<a href=\"/learn/docs/ai-features/search-widget/ask-ai-chat\">Ask AI chat panel</a>\n<a href=\"/learn/docs/ai-features/mcp-server\">MCP server for your site</a>\n<a href=\"/learn/docs/ai-features/host-skills\">Custom skills for your site</a>\n<a href=\"/learn/docs/ai-features/api-catalog\">API catalog discovery</a>\n<a href=\"/learn/docs/ai-features/fern-agent\">Fern Agent</a>\n<a href=\"/learn/docs/ai-features/fern-mcp-servers\">Fern's MCP server</a>\n<a href=\"/learn/docs/ai-features/agent-skills\">Skills for using Fern Docs</a>\n<a href=\"/learn/docs/ai-features/ai-examples\">AI-generated examples</a>\n<a href=\"/learn/docs/ai-features/markdown\">Markdown access</a>\n<a href=\"/learn/docs/ai-features/llms-txt\">llms.txt</a>\n<a href=\"/learn/docs/ai-features/customize-llm-output\">Customize LLM output</a>\n<a href=\"/learn/docs/ai-features/agent-directives\">Agent directives</a>\n<a href=\"/learn/docs/ai-features/llms-txt-analytics\">Analytics and integration</a>\n<a href=\"/learn/docs/preview-publish/overview\">Overview</a>\n<a href=\"/learn/docs/preview-publish/preview-changes\">Preview changes</a>\n<a href=\"/learn/docs/preview-publish/publishing-your-docs\">Publishing your docs</a>\n<a href=\"/learn/docs/preview-publish/setting-up-your-domain\">Setting up your domain</a>\n<a href=\"/learn/docs/preview-publish/reverse-proxy\">Reverse proxy setup</a>\n<a href=\"/learn/docs/customization/announcement-banner\">Announcement banner</a>\n<a href=\"/learn/docs/customization/embedded-mode\">Embedded mode</a>\n<a href=\"/learn/docs/customization/hiding-content\">Hiding content</a>\n<a href=\"/learn/docs/customization/search\">Search</a>\n<a href=\"/learn/docs/user-feedback\">User feedback</a>\n<a href=\"/learn/docs/customization/custom-css-js\">Custom CSS &amp; JS</a>\n<a href=\"/learn/docs/customization/css-selectors-reference\">CSS selectors reference</a>\n<a href=\"/learn/docs/customization/custom-react-components\">Custom React components</a>\n<a href=\"/learn/docs/customization/header-and-footer\">Header and footer</a>\n<a href=\"/learn/docs/customization/global-themes\">Global themes</a>\n<a href=\"/learn/docs/localization/overview\">Overview</a>\n<a href=\"/learn/docs/accessibility/overview\">Overview</a>\n<a href=\"/learn/docs/accessibility/keyboard-shortcuts\">Keyboard shortcuts</a>\n<a href=\"/learn/docs/api-references/overview\">Overview</a>\n<a href=\"/learn/docs/api-references/generate-api-ref\">REST API Reference</a>\n<a href=\"/learn/docs/api-references/generate-webhook-ref\">Webhook Reference</a>\n<a href=\"/learn/docs/api-references/generate-websocket-ref\">WebSocket Reference</a>\n<a href=\"/learn/docs/api-references/generate-openrpc-ref\">OpenRPC Reference</a>\n<a href=\"/learn/docs/api-references/generate-grpc-ref\">gRPC Reference</a>\n<a href=\"/learn/docs/api-references/generate-graphql-ref\">GraphQL Reference</a>\n<a href=\"/learn/docs/api-references/library-reference\">Library Reference</a>\n<a href=\"/learn/docs/api-references/customize-api-reference-layout\">Customize API Reference layout</a>\n<a href=\"/learn/docs/api-references/audiences\">Audiences</a>\n<a href=\"/learn/docs/api-references/write-markdown-in-api-reference\">Write Markdown in API Reference</a>\n<a href=\"/learn/docs/api-references/sdk-snippets\">SDK snippets</a>\n<a href=\"/learn/docs/api-references/http-snippets\">HTTP snippets</a>\n<a href=\"/learn/docs/api-references/api-explorer\">API Explorer</a>\n<a href=\"/learn/docs/seo/overview\">Overview</a>\n<a href=\"/learn/docs/seo/setting-seo-metadata\">Setting SEO metadata</a>\n<a href=\"/learn/docs/seo/configuring-slugs\">Configuring slugs</a>\n<a href=\"/learn/docs/seo/redirects\">Redirects</a>\n<a href=\"/learn/docs/seo/robots-txt\">Custom robots.txt</a>\n<a href=\"/learn/docs/authentication/overview\">Overview</a>\n<a href=\"/learn/docs/authentication/setup/password-protection\">Password protection</a>\n<a href=\"/learn/docs/authentication/setup/sso\">SSO</a>\n<a href=\"/learn/docs/authentication/setup/jwt\">JWT</a>\n<a href=\"/learn/docs/authentication/setup/oauth\">OAuth</a>\n<a href=\"/learn/docs/authentication/features/rbac\">Role-based access control (RBAC)</a>\n<a href=\"/learn/docs/authentication/features/api-key-injection\">API key injection</a>\n<a href=\"/learn/docs/security/overview\">Overview</a>\n<a href=\"/learn/docs/self-hosted/overview\">Overview</a>\n<a href=\"/learn/docs/self-hosted/set-up\">Set up self-hosted documentation</a>\n<a href=\"/learn/docs/self-hosted/authentication\">Authentication</a>\n<a href=\"/learn/docs/self-hosted/previews\">Previews</a>\n<a href=\"/learn/docs/self-hosted/health-check-endpoints\">Health check endpoints</a>\n<a href=\"/learn/docs/self-hosted/release-notes\">Releases</a>\n<a href=\"/learn/docs/integrations/overview\">Overview</a>\n<a href=\"/learn/docs/integrations/analytics/posthog\">PostHog</a>\n<a href=\"/learn/docs/integrations/analytics/google\">Google</a>\n<a href=\"/learn/docs/integrations/analytics/segment\">Segment</a>\n<a href=\"/learn/docs/integrations/analytics/mixpanel\">Mixpanel</a>\n<a href=\"/learn/docs/integrations/analytics/events\">Analytics events reference</a>\n<a href=\"/learn/docs/integrations/analytics/fullstory\">Fullstory</a>\n<a href=\"/learn/docs/integrations/support/intercom\">Intercom</a>\n<a href=\"/learn/docs/integrations/postman\">Postman</a>\n<a href=\"/learn/docs/integrations/context7\">Context7</a>\n<a href=\"/learn/docs/developer-tools/orchestrate-git-hub-releases\">Orchestrate GitHub releases</a>\n<a href=\"/learn/docs/developer-tools/auto-update-last-updated-dates\">Auto-update last updated dates</a>\n<a href=\"/learn/docs/developer-tools/cursor\">Cursor</a>\n<a href=\"/learn/docs/developer-tools/git-lab\">GitLab</a>\n<a href=\"/learn/docs/developer-tools/vale\">Vale</a>\n<a href=\"/learn/docs/developer-tools/openapi-spec\">Download OpenAPI spec</a>\n<a href=\"/learn/docs/developer-tools/asyncapi-spec\">Download AsyncAPI spec</a>\n<a href=\"/learn/docs/fern-api-reference/get-jwt\">JWT from Fern API key</a>\n<a href=\"/learn/docs/fern-api-reference/get-search-key\">Algolia search credentials</a>\n<a href=\"/learn/docs/fern-api-reference/whoami\">Current user information</a>\n<a href=\"/learn/docs/scribe-api/fern-writer-api/get-fern-writer-install-link\">Get Fern Writer Install Link</a>\n<a href=\"/learn/home\">Home</a>\n<a href=\"/learn/sdks\">SDKs</a>\n<a href=\"/learn/cli-generator\">CLI Generator</a>\n<a href=\"/learn/docs\">Docs</a>\n<a href=\"/learn/dashboard\">Dashboard</a>\n<a href=\"/learn/cli-api-reference\">Fern CLI</a>\n<a href=\"/learn/api-definitions\">API Definitions</a>\n<a href=\"/learn/api-definitions/openapi/overview\">OpenAPI</a>\n<a href=\"/learn/api-definitions/asyncapi/overview\">AsyncAPI</a>\n<a href=\"/learn/api-definitions/openrpc/overview\">OpenRPC</a>\n<a href=\"/learn/api-definitions/grpc/overview\">gRPC</a>\n<a href=\"/learn/docs/getting-started/project-structure\">English</a>\n<a href=\"/learn/zh/docs/getting-started/project-structure\">中文</a>\n<a href=\"https://buildwithfern.com\"></a>\n<a href=\"https://status.buildwithfern.com\">Checking status...</a>\n<a href=\"https://security.buildwithfern.com/\">SOC2Soc 2 Type II</a>\n<a href=\"/learn/sdks/overview/introduction\">SDKs</a>\n<a href=\"/learn/docs/getting-started/overview\">Docs</a>\n<a href=\"/learn/docs/ai-features/ask-fern/overview\">Ask Fern</a>\n<a href=\"/learn/cli-api-reference/cli-reference/overview\">CLI Reference</a>\n<a href=\"https://buildwithfern.com/blog\">Blog</a>\n<a href=\"/learn/home#get-support\">Support</a>\n<a href=\"https://buildwithfern.com/pricing\">Pricing</a>\n<a href=\"https://brandfetch.com/buildwithfern.com\">Brand Kit</a>\n<a href=\"https://buildwithfern.com/privacy-policy\">Privacy Policy</a>\n<a href=\"https://buildwithfern.com/terms-of-service\">Terms of Service</a>\n<a href=\"https://github.com/fern-api/fern\"></a>\n<a href=\"https://x.com/buildwithfern\"></a>\n<a href=\"https://www.linkedin.com/company/buildwithfern\"></a>"
+      }
+    }
+  },
+  "dns": {
+    "CNAME buildwithfern.com": {
+      "result": {
+        "name": "buildwithfern.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "AAAA buildwithfern.com": {
+      "result": {
+        "name": "buildwithfern.com",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "NS buildwithfern.com": {
+      "result": {
+        "name": "buildwithfern.com",
+        "type": "NS",
+        "records": [
+          "ns-1962.awsdns-53.co.uk",
+          "ns-264.awsdns-33.com",
+          "ns-993.awsdns-60.net",
+          "ns-1258.awsdns-29.org"
+        ]
+      }
+    },
+    "A buildwithfern.com": {
+      "result": {
+        "name": "buildwithfern.com",
+        "type": "A",
+        "records": ["3.167.2.65", "3.167.2.45", "3.167.2.121", "3.167.2.120"]
+      }
+    },
+    "TXT 121.2.167.3.origin.asn.cymru.com": {
+      "result": {
+        "name": "121.2.167.3.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 3.167.0.0/21 | US | arin | 2018-06-25"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    },
+    "CNAME stackprobe-wildcard-check.buildwithfern.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND stackprobe-wildcard-check.buildwithfern.com"
+      }
+    },
+    "A stackprobe-wildcard-check.buildwithfern.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND stackprobe-wildcard-check.buildwithfern.com"
+      }
+    },
+    "CNAME app.buildwithfern.com": {
+      "result": {
+        "name": "app.buildwithfern.com",
+        "type": "CNAME",
+        "records": ["b7278b3c9357963d.vercel-dns-013.com"]
+      }
+    },
+    "A api.buildwithfern.com": {
+      "result": {
+        "name": "api.buildwithfern.com",
+        "type": "A",
+        "records": [
+          "54.84.43.7",
+          "3.222.221.215",
+          "98.86.84.31",
+          "100.56.190.32",
+          "52.203.164.127",
+          "54.221.231.166"
+        ]
+      }
+    },
+    "A docs.buildwithfern.com": {
+      "result": {
+        "name": "docs.buildwithfern.com",
+        "type": "A",
+        "records": ["76.76.21.21"]
+      }
+    },
+    "CNAME console.buildwithfern.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND console.buildwithfern.com"
+      }
+    },
+    "CNAME docs.buildwithfern.com": {
+      "result": {
+        "name": "docs.buildwithfern.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A portal.buildwithfern.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND portal.buildwithfern.com"
+      }
+    },
+    "A console.buildwithfern.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND console.buildwithfern.com"
+      }
+    },
+    "A app.buildwithfern.com": {
+      "result": {
+        "name": "app.buildwithfern.com",
+        "type": "A",
+        "records": ["64.239.123.193", "64.239.109.193"]
+      }
+    },
+    "CNAME api.buildwithfern.com": {
+      "result": {
+        "name": "api.buildwithfern.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "CNAME portal.buildwithfern.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND portal.buildwithfern.com"
+      }
+    },
+    "NS dashboard.buildwithfern.com": {
+      "result": {
+        "name": "dashboard.buildwithfern.com",
+        "type": "NS",
+        "records": [
+          "ns3.vercel-dns-3.com",
+          "ns2.vercel-dns-3.com",
+          "ns1.vercel-dns-3.com",
+          "ns4.vercel-dns-3.com"
+        ]
+      }
+    },
+    "CNAME dashboard.buildwithfern.com": {
+      "result": {
+        "name": "dashboard.buildwithfern.com",
+        "type": "CNAME",
+        "records": ["cname.vercel-dns.com"]
+      }
+    },
+    "AAAA dashboard.buildwithfern.com": {
+      "result": {
+        "name": "dashboard.buildwithfern.com",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "A dashboard.buildwithfern.com": {
+      "result": {
+        "name": "dashboard.buildwithfern.com",
+        "type": "A",
+        "records": ["66.33.60.67", "76.76.21.98"]
+      }
+    },
+    "AAAA app.buildwithfern.com": {
+      "result": {
+        "name": "app.buildwithfern.com",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "AAAA api.buildwithfern.com": {
+      "result": {
+        "name": "api.buildwithfern.com",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "NS api.buildwithfern.com": {
+      "result": {
+        "name": "api.buildwithfern.com",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "NS app.buildwithfern.com": {
+      "result": {
+        "name": "app.buildwithfern.com",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "CNAME cname.vercel-dns.com": {
+      "result": {
+        "name": "cname.vercel-dns.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "CNAME b7278b3c9357963d.vercel-dns-013.com": {
+      "result": {
+        "name": "b7278b3c9357963d.vercel-dns-013.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "TXT 22.21.76.76.origin.asn.cymru.com": {
+      "result": {
+        "name": "22.21.76.76.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 76.76.21.0/24 | US | arin | 2020-05-08"]
+      }
+    },
+    "TXT 193.123.239.64.origin.asn.cymru.com": {
+      "result": {
+        "name": "193.123.239.64.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 64.239.123.0/24 | US | arin | 2024-07-24"]
+      }
+    },
+    "TXT 31.84.86.98.origin.asn.cymru.com": {
+      "result": {
+        "name": "31.84.86.98.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": [
+          "16509 | 98.80.0.0/12 | US | arin | 2018-09-18",
+          "14618 | 98.80.0.0/13 | US | arin | 2018-09-18"
+        ]
+      }
+    }
+  },
+  "tls": {
+    "buildwithfern.com:443": {
+      "result": {
+        "host": "buildwithfern.com",
+        "ip": "3.167.2.121",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
+        "subjectAltNames": [
+          "buildwithfern.com",
+          "*.buildwithfern.com",
+          "*.doc.buildwithfern.com",
+          "*.doc.dev.buildwithfern.com"
+        ],
+        "validFrom": "Jul 15 00:00:00 2026 GMT",
+        "validTo": "Jan 28 23:59:59 2027 GMT"
+      }
+    },
+    "app.buildwithfern.com:443": {
+      "result": {
+        "host": "app.buildwithfern.com",
+        "ip": "64.239.123.193",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR1",
+        "subjectAltNames": ["app.buildwithfern.com"],
+        "validFrom": "Sep 16 10:26:46 2026 GMT",
+        "validTo": "Dec 15 10:26:45 2026 GMT"
+      }
+    },
+    "dashboard.buildwithfern.com:443": {
+      "result": {
+        "host": "dashboard.buildwithfern.com",
+        "ip": "76.76.21.22",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+        "subjectAltNames": ["dashboard.buildwithfern.com"],
+        "validFrom": "Sep  1 06:14:45 2026 GMT",
+        "validTo": "Nov 30 06:14:44 2026 GMT"
+      }
+    },
+    "api.buildwithfern.com:443": {
+      "result": {
+        "host": "api.buildwithfern.com",
+        "ip": "98.86.84.31",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+        "subjectAltNames": ["buildwithfern.com", "*.buildwithfern.com"],
+        "validFrom": "Sep 27 00:00:00 2026 GMT",
+        "validTo": "Apr 12 23:59:59 2027 GMT"
+      }
+    }
+  }
+}

@@ -1,0 +1,510 @@
+{
+  "url": "https://resend.com/",
+  "recordedAt": "2026-10-04T18:01:30.386Z",
+  "http": {
+    "GET https://resend.com/": {
+      "result": {
+        "url": "https://resend.com/",
+        "status": 200,
+        "headers": [
+          ["age", "1"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 14:17:36 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"jg9ryf7pum8svp\""],
+          ["link", "</.well-known/api-catalog>; rel=\"api-catalog\""],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "4294967294"],
+          ["x-powered-by", "Next.js"],
+          ["x-vercel-cache", "REVALIDATED"],
+          ["x-vercel-id", "arn1::iad1::kgk6v-1791136890470-453cfc240ea1"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/abc_favorit_book.p.2svqvtuar83ra.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/abc_favorit_medium.p.2r95o5prhs9hb.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/commit_mono_italic.p.24go0wiyheis0.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/commit_mono_regular.p.17ccpk27lq6an.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/domaine_bold.p.3n2td7ookua-p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/domaine_medium.p.180pom31p-fh2.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/domaine_regular.p.2joc-huu8rdu_.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/inter_variable.p.2v4uvb3i5caxn.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/3v7ju2k_s7gyj.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/05o_glrjf0a_t.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1-37d9o45r6f3.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/0q9w1p-wq49jc.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/0sz3w4ruui2m3.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/3wsplgvgy7ts9.js\">\n<script src=\"/_next/static/immutable/chunks/26yaa-tw3zzt9.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0mkndzizltmhl.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1b_urwkv-1ye3.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2hac_pqvvhbtf.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3rzcznqno3l4x.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/42nqg8iofeahh.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-38rbih6w-xpd_.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3rcbc5ykjhl1-.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2j-p05rh4r3ty.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0f1yxz8kjobho.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/09ks-r5e3o51w.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3sbu-uw8fjt54.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/032r24cnetaud.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2q-iizrd467kk.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/18izbvn6b_nzg.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1o4nn6sydr-g8.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/14x6sqdl7pa17.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0eyfh_xo1mp0w.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/294m4lbt8bcq2.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/275offp0vi84d.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2ju74ym-7-e-0.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2v8ut3qlj7jev.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1z_ex2c53v4h-.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0m4qim3evn34m.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1wi-x7a2sgcx1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1c379dn-leg1q.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/13iqndfz4jyb4.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3ep_gs-68x_5p.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1soc96-il1yf-.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2q-58913mj7xr.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1ydztcipwy_4l.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2rixe38hiq0yi.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0sb6__ynbmn4u.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1_n8bjfg563jj.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/18a7v_tbeve53.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0z9-d7_rxz-s_.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/294zex2goy287.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0cy1_eiozvx4v.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1rmkzxtv1poom.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/39wbj72s1wjov.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/31pqa0i1at9hi.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3w1efcyjkvbt-.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/019u55srpvqc1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3ovroemqioi-2.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1hm-s--ydy7iw.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0iiluehrt-9lk.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0yqbijl7tgh1t.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3iaqbimnm7sqg.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1x8neaa9c-eq3.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0e-75t5927343.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/009p1sa0hf389.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1_kkg_zqk3hjz.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/30jnq-a__0_uo.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0rusv4z4-v_b1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0d4flbou49f4k.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0_j8i5dyn0dm1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/20s3vvo-5bjyn.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3g9o907hemtp2.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/000ozyz_qmkfk.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/04ozsa_86qfg5.js\" async=\"\" crossorigin=\"\"></script>\n<meta name=\"theme-color\" content=\"#000000\">\n<meta name=\"color-scheme\" content=\"dark\">\n<meta name=\"description\" content=\"The best way to reach humans instead of spam folders. Deliver transactional and marketing emails at scale.\">\n<link rel=\"author\" href=\"/about\">\n<meta name=\"author\" content=\"Resend\">\n<meta name=\"referrer\" content=\"origin-when-cross-origin\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta name=\"googlebot\" content=\"index, follow\">\n<link rel=\"canonical\" href=\"https://resend.com\">\n<link rel=\"alternate\" type=\"application/rss+xml\" href=\"https://resend.com/blog/rss.xml\">\n<meta property=\"og:title\" content=\"Resend · Email for developers\">\n<meta property=\"og:description\" content=\"The best way to reach humans instead of spam folders. Deliver transactional and marketing emails at scale.\">\n<meta property=\"og:url\" content=\"https://resend.com\">\n<meta property=\"og:image\" content=\"https://resend.com/static/cover.jpg\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Resend · Email for developers\">\n<meta name=\"twitter:description\" content=\"The best way to reach humans instead of spam folders. Deliver transactional and marketing emails at scale.\">\n<meta name=\"twitter:image\" content=\"https://resend.com/static/cover.jpg\">\n<link rel=\"shortcut icon\" href=\"/static/favicons/favicon-marketing.ico?v=1\">\n<link rel=\"icon\" href=\"/static/favicons/favicon-marketing.ico?v=1\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon-marketing@57x57.png?v=1\" sizes=\"57x57\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon-marketing@60x60.png?v=1\" sizes=\"60x60\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon-marketing@72x72.png?v=1\" sizes=\"72x72\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon-marketing@76x76.png?v=1\" sizes=\"76x76\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon-marketing@114x114.png?v=1\" sizes=\"114x114\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon-marketing@120x120.png?v=1\" sizes=\"120x120\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon-marketing@144x144.png?v=1\" sizes=\"144x144\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon-marketing@152x152.png?v=1\" sizes=\"152x152\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon-marketing@180x180.png?v=1\" sizes=\"180x180\">\n<meta name=\"next-size-adjust\" content=\"\">\n<link crossorigin=\"anonymous\" href=\"https://us.i.posthog.com\" rel=\"preconnect\">\n<link href=\"https://us.i.posthog.com\" rel=\"dns-prefetch\">\n<link rel=\"sitemap\" type=\"application/xml\" title=\"Sitemap\" href=\"/sitemap.xml\">\n<link rel=\"llms-txt\" href=\"/llms.txt\">\n<link rel=\"llms-full-txt\" href=\"/llms-full.txt\">\n<link as=\"fetch\" crossorigin=\"anonymous\" href=\"/static/cube.splinecode\" media=\"(min-width: 1024px)\" rel=\"preload\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"/home\"></a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"/login\">Log in</a>\n<a href=\"/signup\">Get started</a>\n<a href=\"/forward\">Join us at Resend Forward</a>\n<a href=\"https://resend.com/docs\">Documentation</a>\n<a href=\"/enterprise\">Explore Enterprise</a>\n<a href=\"https://github.com/resend/resend-node-example\">View on GitHub</a>\n<a href=\"https://github.com/resend/resend-node-example/archive/refs/heads/main.zip\">Download ZIP</a>\n<a href=\"https://resend.com/docs/dashboard/emails/send-test-emails\">Learn more</a>\n<a href=\"https://resend.com/docs/webhooks/introduction\">Learn more</a>\n<a href=\"/features/audiences\">Learn more</a>\n<a href=\"/features/broadcasts\">Learn more</a>\n<a href=\"https://react.email/docs\">Check the docs</a>\n<a href=\"/get-started\">Get Started</a>\n<a href=\"https://resend.com/docs/send-with-nextjs\">Send with Next.js</a>\n<a href=\"https://x.com/resend\"></a>\n<a href=\"https://github.com/resend\"></a>\n<a href=\"https://linkedin.com/company/resend\"></a>\n<a href=\"https://www.youtube.com/channel/UC0FkhoSz2kYqHVBk4L0QYIg\"></a>\n<a href=\"/status\">Status unknown</a>\n<a href=\"/features/automations\">Automations</a>\n<a href=\"/features/audiences\">Audiences</a>\n<a href=\"/features/broadcasts\">Broadcasts</a>\n<a href=\"/features/inbound\">Inbound</a>\n<a href=\"/features/templates\">Templates</a>\n<a href=\"/features/webhooks\">Webhooks</a>\n<a href=\"/features/dedicated-ips\">Dedicated IPs</a>\n<a href=\"/changelog\">Changelog</a>\n<a href=\"/enterprise\">Enterprise</a>\n<a href=\"/security\">Security</a>\n<a href=\"/security/soc-2\">SOC 2</a>\n<a href=\"/security/gdpr\">GDPR</a>\n<a href=\"/brand\">Brand</a>\n<a href=\"/about\">About</a>\n<a href=\"/blog\">Blog</a>\n<a href=\"/careers\">Careers</a>\n<a href=\"/clubs\">Clubs</a>\n<a href=\"/customers\">Customers</a>\n<a href=\"/humans\">Humans</a>\n<a href=\"/philosophy\">Philosophy</a>\n<a href=\"/support\">Support</a>\n<a href=\"/status\">Status</a>\n<a href=\"/migrate\">Migrate</a>\n<a href=\"https://resend.com/docs/knowledge-base/introduction\">Knowledge base</a>\n<a href=\"/legal\">Legal policies</a>\n<a href=\"/events\">Events</a>\n<a href=\"/insiders\">Insiders</a>\n<a href=\"/open-source\">Open source</a>\n<a href=\"/wallpapers\">Wallpapers</a>\n<script src=\"/_next/static/immutable/chunks/3wsplgvgy7ts9.js\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://docs.resend.com/": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "getaddrinfo ENOTFOUND docs.resend.com"
+      }
+    },
+    "GET https://resend.com/get-started": {
+      "result": {
+        "url": "https://resend.com/get-started",
+        "status": 308,
+        "headers": [
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "text/html"],
+          ["date", "Sun, 04 Oct 2026 18:01:31 GMT"],
+          ["document-policy", "js-profiling"],
+          ["location", "/signup"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["refresh", "0;url=/signup"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-id", "arn1::lsjvd-1791136891610-4467007eb609"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<a href=\"/signup\">here</a>"
+      }
+    },
+    "GET https://resend.com/login": {
+      "result": {
+        "url": "https://resend.com/login",
+        "status": 200,
+        "headers": [
+          ["age", "0"],
+          ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:31 GMT"],
+          ["document-policy", "js-profiling"],
+          [
+            "link",
+            "</_next/static/immutable/media/abc_favorit_book.p.2svqvtuar83ra.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/abc_favorit_medium.p.2r95o5prhs9hb.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/commit_mono_italic.p.24go0wiyheis0.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/commit_mono_regular.p.17ccpk27lq6an.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/domaine_bold.p.3n2td7ookua-p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/domaine_medium.p.180pom31p-fh2.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/domaine_regular.p.2joc-huu8rdu_.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/inter_variable.p.2v4uvb3i5caxn.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/chunks/3v7ju2k_s7gyj.css>; rel=preload; as=\"style\", </_next/static/immutable/chunks/05o_glrjf0a_t.css>; rel=preload; as=\"style\""
+          ],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/login"],
+          ["x-powered-by", "Next.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::iad1::8z4kk-1791136891550-8e0a7ec4ff48"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/3v7ju2k_s7gyj.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/05o_glrjf0a_t.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/3wsplgvgy7ts9.js\">\n<script src=\"/_next/static/immutable/chunks/26yaa-tw3zzt9.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0mkndzizltmhl.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1b_urwkv-1ye3.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2hac_pqvvhbtf.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3rzcznqno3l4x.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/42nqg8iofeahh.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-38rbih6w-xpd_.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3rcbc5ykjhl1-.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2j-p05rh4r3ty.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0f1yxz8kjobho.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/09ks-r5e3o51w.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3sbu-uw8fjt54.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/032r24cnetaud.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2q-iizrd467kk.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/18izbvn6b_nzg.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1o4nn6sydr-g8.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/14x6sqdl7pa17.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0eyfh_xo1mp0w.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/09vjtbl_z5fu0.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2phhya21bfw2a.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1j0bwl3-bv9mj.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/163z8rxilesat.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3iaqbimnm7sqg.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2ju74ym-7-e-0.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1x8neaa9c-eq3.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0e-75t5927343.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/009p1sa0hf389.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1wi-x7a2sgcx1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1_kkg_zqk3hjz.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/30jnq-a__0_uo.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0rusv4z4-v_b1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0d4flbou49f4k.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0_j8i5dyn0dm1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2v8ut3qlj7jev.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/20s3vvo-5bjyn.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3g9o907hemtp2.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/000ozyz_qmkfk.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0sb6__ynbmn4u.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/04ozsa_86qfg5.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1ydztcipwy_4l.js\" async=\"\" crossorigin=\"\"></script>\n<meta name=\"theme-color\" content=\"#000000\">\n<meta name=\"color-scheme\" content=\"dark\">\n<link rel=\"author\" href=\"/about\">\n<meta name=\"author\" content=\"Resend\">\n<meta name=\"referrer\" content=\"origin-when-cross-origin\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta name=\"googlebot\" content=\"index, follow\">\n<link rel=\"canonical\" href=\"https://resend.com\">\n<meta property=\"og:title\" content=\"Resend\">\n<meta property=\"og:url\" content=\"https://resend.com\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Resend\">\n<link rel=\"shortcut icon\" href=\"/static/favicons/favicon.ico?v=1\">\n<link rel=\"icon\" href=\"/static/favicons/favicon.ico?v=1\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@57x57.png?v=1\" sizes=\"57x57\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@60x60.png?v=1\" sizes=\"60x60\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@72x72.png?v=1\" sizes=\"72x72\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@76x76.png?v=1\" sizes=\"76x76\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@114x114.png?v=1\" sizes=\"114x114\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@120x120.png?v=1\" sizes=\"120x120\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@144x144.png?v=1\" sizes=\"144x144\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@152x152.png?v=1\" sizes=\"152x152\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@180x180.png?v=1\" sizes=\"180x180\">\n<meta name=\"next-size-adjust\" content=\"\">\n<link crossorigin=\"anonymous\" href=\"https://us.i.posthog.com\" rel=\"preconnect\">\n<link href=\"https://us.i.posthog.com\" rel=\"dns-prefetch\">\n<link rel=\"sitemap\" type=\"application/xml\" title=\"Sitemap\" href=\"/sitemap.xml\">\n<link rel=\"llms-txt\" href=\"/llms.txt\">\n<link rel=\"llms-full-txt\" href=\"/llms-full.txt\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"/home\">Home</a>\n<a href=\"/signup\">Sign up</a>\n<a href=\"/auth/reset-password?email=\">Forgot your password?</a>\n<a href=\"/legal/terms-of-service\">Terms</a>\n<a href=\"/legal/privacy-policy\">Privacy Policy</a>\n<script src=\"/_next/static/immutable/chunks/3wsplgvgy7ts9.js\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://resend.com/signup": {
+      "result": {
+        "url": "https://resend.com/signup",
+        "status": 200,
+        "headers": [
+          ["age", "0"],
+          ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:31 GMT"],
+          ["document-policy", "js-profiling"],
+          [
+            "link",
+            "</_next/static/immutable/media/abc_favorit_book.p.2svqvtuar83ra.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/abc_favorit_medium.p.2r95o5prhs9hb.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/commit_mono_italic.p.24go0wiyheis0.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/commit_mono_regular.p.17ccpk27lq6an.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/domaine_bold.p.3n2td7ookua-p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/domaine_medium.p.180pom31p-fh2.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/domaine_regular.p.2joc-huu8rdu_.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/inter_variable.p.2v4uvb3i5caxn.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/chunks/3v7ju2k_s7gyj.css>; rel=preload; as=\"style\", </_next/static/immutable/chunks/05o_glrjf0a_t.css>; rel=preload; as=\"style\""
+          ],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/signup"],
+          ["x-powered-by", "Next.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::iad1::sjdzn-1791136891642-0eb00380d48c"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/3v7ju2k_s7gyj.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/05o_glrjf0a_t.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/3wsplgvgy7ts9.js\">\n<script src=\"/_next/static/immutable/chunks/26yaa-tw3zzt9.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0mkndzizltmhl.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1b_urwkv-1ye3.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2hac_pqvvhbtf.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3rzcznqno3l4x.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/42nqg8iofeahh.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-38rbih6w-xpd_.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3rcbc5ykjhl1-.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2j-p05rh4r3ty.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0f1yxz8kjobho.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/09ks-r5e3o51w.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3sbu-uw8fjt54.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/032r24cnetaud.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2q-iizrd467kk.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/18izbvn6b_nzg.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1o4nn6sydr-g8.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/14x6sqdl7pa17.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0eyfh_xo1mp0w.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/09vjtbl_z5fu0.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3iaqbimnm7sqg.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2ju74ym-7-e-0.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1x8neaa9c-eq3.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0e-75t5927343.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/009p1sa0hf389.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1wi-x7a2sgcx1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1_kkg_zqk3hjz.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/30jnq-a__0_uo.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0rusv4z4-v_b1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0d4flbou49f4k.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0_j8i5dyn0dm1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2v8ut3qlj7jev.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/20s3vvo-5bjyn.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3g9o907hemtp2.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/000ozyz_qmkfk.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0sb6__ynbmn4u.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/04ozsa_86qfg5.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1ydztcipwy_4l.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1j0bwl3-bv9mj.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/306hanz_9gqnu.js\" async=\"\"></script>\n<meta name=\"theme-color\" content=\"#000000\">\n<meta name=\"color-scheme\" content=\"dark\">\n<meta name=\"description\" content=\"Create a Resend account.\">\n<link rel=\"author\" href=\"/about\">\n<meta name=\"author\" content=\"Resend\">\n<meta name=\"referrer\" content=\"origin-when-cross-origin\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta name=\"googlebot\" content=\"index, follow\">\n<link rel=\"canonical\" href=\"https://resend.com\">\n<meta property=\"og:title\" content=\"Sign up · Resend\">\n<meta property=\"og:description\" content=\"Create a Resend account.\">\n<meta property=\"og:image\" content=\"https://resend.com/static/cover-signup.jpg\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Sign up · Resend\">\n<meta name=\"twitter:description\" content=\"Create a Resend account.\">\n<meta name=\"twitter:image\" content=\"https://resend.com/static/cover-signup.jpg\">\n<link rel=\"shortcut icon\" href=\"/static/favicons/favicon.ico?v=1\">\n<link rel=\"icon\" href=\"/static/favicons/favicon.ico?v=1\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@57x57.png?v=1\" sizes=\"57x57\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@60x60.png?v=1\" sizes=\"60x60\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@72x72.png?v=1\" sizes=\"72x72\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@76x76.png?v=1\" sizes=\"76x76\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@114x114.png?v=1\" sizes=\"114x114\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@120x120.png?v=1\" sizes=\"120x120\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@144x144.png?v=1\" sizes=\"144x144\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@152x152.png?v=1\" sizes=\"152x152\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@180x180.png?v=1\" sizes=\"180x180\">\n<meta name=\"next-size-adjust\" content=\"\">\n<link crossorigin=\"anonymous\" href=\"https://us.i.posthog.com\" rel=\"preconnect\">\n<link href=\"https://us.i.posthog.com\" rel=\"dns-prefetch\">\n<link rel=\"sitemap\" type=\"application/xml\" title=\"Sitemap\" href=\"/sitemap.xml\">\n<link rel=\"llms-txt\" href=\"/llms.txt\">\n<link rel=\"llms-full-txt\" href=\"/llms-full.txt\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"/home\">Home</a>\n<a href=\"/login\">Log in</a>\n<a href=\"/legal/terms-of-service\">Terms</a>\n<a href=\"/legal/acceptable-use\">Acceptable Use</a>\n<a href=\"/legal/privacy-policy\">Privacy Policy</a>\n<script src=\"/_next/static/immutable/chunks/3wsplgvgy7ts9.js\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://resend.com/docs": {
+      "result": {
+        "url": "https://resend.com/docs",
+        "status": 308,
+        "headers": [
+          ["cache-control", "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"],
+          ["cf-cache-status", "REVALIDATED"],
+          ["cf-ray", "a45617a4ea8df351-ARN"],
+          ["content-length", "103297"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:; worker-src 'self' blob:; object-src 'none'; report-uri /docs/_mintlify/api/csp-report; report-to mintlify-csp;"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:31 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "\"vza4m60ru327pd\""],
+          ["expires", "0"],
+          [
+            "link",
+            "</docs/llms.txt>; rel=\"llms-txt\", </docs/llms-full.txt>; rel=\"llms-full-txt\", </docs/.well-known/api-catalog>; rel=\"api-catalog\", </docs/.well-known/mcp/server-card.json>; rel=\"mcp-server-card\", </docs/.well-known/agent-card.json>; rel=\"agent-card\", </docs/.well-known/agent-skills/index.json>; rel=\"agent-skills\""
+          ],
+          ["location", "/docs/introduction"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["pragma", "no-cache"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["reporting-endpoints", "mintlify-csp=\"/docs/_mintlify/api/csp-report\""],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "rsc, accept-encoding, Accept, User-Agent"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-llms-txt", "/docs/llms.txt"],
+          ["x-matched-path", "/_sites/[subdomain]/[[...slug]]"],
+          ["x-mint-proxy-version", "1.0.0-prod"],
+          ["x-mintlify-client-version", "0.0.3774"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "60"],
+          ["x-served-version", "dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1:arn1:pdx1:pdx1:iad1::iad1::v2jkk-1791136891610-f20e84c870ae"],
+          ["x-vercel-project-id", "prj_ekSYngkqMLMUb1wdarxNSixTj2nj"],
+          ["x-version", "dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/docs/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\">\n<script src=\"/docs/_next/static/chunks/44795504c795ca32.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/bacb7e0d52e4b451.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/b730549587248be7.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/d24f46ac0d244a3f.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/turbopack-176ad69d069e4080.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" nomodule=\"\"></script>\n<script src=\"/docs/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://resend.com/docs/introduction": {
+      "result": {
+        "url": "https://resend.com/docs/introduction",
+        "status": 200,
+        "headers": [
+          ["age", "86088"],
+          ["cache-control", "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"],
+          ["cf-cache-status", "HIT"],
+          ["cf-ray", "a45617a6cfb1b9db-ARN"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:; worker-src 'self' blob:; object-src 'none'; report-uri /docs/_mintlify/api/csp-report; report-to mintlify-csp;"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:31 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"12x33935mrt7gfj\""],
+          ["expires", "0"],
+          [
+            "link",
+            "</docs/llms.txt>; rel=\"llms-txt\", </docs/llms-full.txt>; rel=\"llms-full-txt\", </docs/.well-known/api-catalog>; rel=\"api-catalog\", </docs/.well-known/mcp/server-card.json>; rel=\"mcp-server-card\", </docs/.well-known/agent-card.json>; rel=\"agent-card\", </docs/.well-known/agent-skills/index.json>; rel=\"agent-skills\""
+          ],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["pragma", "no-cache"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["reporting-endpoints", "mintlify-csp=\"/docs/_mintlify/api/csp-report\""],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "rsc, accept-encoding, Accept, User-Agent"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-llms-txt", "/docs/llms.txt"],
+          ["x-matched-path", "/_sites/[subdomain]/[[...slug]]"],
+          ["x-mint-proxy-version", "1.0.0-prod"],
+          ["x-mintlify-client-version", "0.0.3774"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "60"],
+          ["x-served-version", "dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1:arn1:iad1::iad1::shhx7-1791136891914-d56d66f47007"],
+          ["x-vercel-project-id", "prj_ekSYngkqMLMUb1wdarxNSixTj2nj"],
+          ["x-version", "dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" href=\"/docs/_next/static/media/83afe278b6a6bb3c.p.3a6ba036.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/docs/_next/static/media/PaperMono_Variable.p.aa32f7a0.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/docs/_next/static/media/f67ad414ed34149c.p.84166d94.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" as=\"image\" href=\"https://mintcdn.com/resend/w4S5Jr48MiquhhSH/logo-black.svg?fit=max&amp;auto=format&amp;n=w4S5Jr48MiquhhSH&amp;q=85&amp;s=630be7deea6ea94cc7fc4560ea60a5ac\">\n<link rel=\"preload\" as=\"image\" href=\"https://mintcdn.com/resend/w4S5Jr48MiquhhSH/logo-white.svg?fit=max&amp;auto=format&amp;n=w4S5Jr48MiquhhSH&amp;q=85&amp;s=3843916235739ffb9cb1d24683221341\">\n<link rel=\"stylesheet\" href=\"/docs/_next/static/chunks/462bacc63bed9960.css?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/docs/_next/static/chunks/be2d2a9922fde67d.css?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/docs/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\">\n<script src=\"/docs/_next/static/chunks/44795504c795ca32.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/bacb7e0d52e4b451.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/b730549587248be7.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/d24f46ac0d244a3f.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/turbopack-176ad69d069e4080.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/6da4d41f9a3f1e56.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/c50d793b8f34b10b.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/9b51ed6445f8c728.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/8d0901e40ed4b058.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/343f3c7f568a2e5d.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/ccee8d9b3189ccd9.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/3b847e5370bd724e.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/4fa3ca58dfaaeff8.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/468295ca52ed5c09.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/4655c61fa7aba124.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/da953b59c0c41f06.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/f0ef0acaeece4a23.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/7538d80a516400fa.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/8a19ec8c194a3b47.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/589b24301b3a37b4.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/d2fedac44d815262.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/c3a3ab2374198660.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/de5d31edef447a03.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/3a30a2353087aade.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/f19aa31a2b13eef7.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/ff9b0d3d29045006.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/57ef37c03eb76089.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/44b0178948143b4f.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/41c8239ff6030cd1.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/e452a5c043e34035.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/fde44643dbef1bcd.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/c58283ba69dd38df.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/e5dcdb55f621f74a.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/1a0bf1d33a977db0.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/0d29cfad69957710.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"anonymous\">\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"anonymous\">\n<meta name=\"description\" content=\"Resend is the email API for developers.\">\n<meta name=\"application-name\" content=\"Resend\">\n<meta name=\"generator\" content=\"Mintlify\">\n<meta name=\"msapplication-config\" content=\"/docs/_mintlify/favicons/resend/nAzNk0iRWkZBBJ91/_generated/favicon/browserconfig.xml\">\n<meta name=\"apple-mobile-web-app-title\" content=\"Resend\">\n<meta name=\"msapplication-TileColor\" content=\"#000000\">\n<link rel=\"canonical\" href=\"https://resend.com/docs/introduction\">\n<link rel=\"alternate\" type=\"application/xml\" href=\"/docs/sitemap.xml\">\n<link rel=\"alternate\" type=\"text/markdown\" href=\"/docs/introduction.md\">\n<meta property=\"og:title\" content=\"Introduction - Resend\">\n<meta property=\"og:description\" content=\"Resend is the email API for developers.\">\n<meta property=\"og:url\" content=\"https://resend.com/docs/introduction\">\n<meta property=\"og:site_name\" content=\"Resend\">\n<meta property=\"og:image\" content=\"https://resend.com/static/cover-docs.png\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Introduction - Resend\">\n<meta name=\"twitter:description\" content=\"Resend is the email API for developers.\">\n<meta name=\"twitter:image\" content=\"https://resend.com/static/cover-docs.png\">\n<meta name=\"twitter:image:width\" content=\"1200\">\n<meta name=\"twitter:image:height\" content=\"630\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/resend/nAzNk0iRWkZBBJ91/_generated/favicon/android-chrome-192x192.png\" type=\"image/png\" sizes=\"192x192\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"apple-touch-icon\" href=\"/docs/_mintlify/favicons/resend/nAzNk0iRWkZBBJ91/_generated/favicon/apple-touch-icon.png\" type=\"image/png\" sizes=\"180x180\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/resend/nAzNk0iRWkZBBJ91/_generated/favicon/favicon-16x16.png\" type=\"image/png\" sizes=\"16x16\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/resend/nAzNk0iRWkZBBJ91/_generated/favicon/favicon-32x32.png\" type=\"image/png\" sizes=\"32x32\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"shortcut icon\" href=\"/docs/_mintlify/favicons/resend/nAzNk0iRWkZBBJ91/_generated/favicon/favicon.ico\" type=\"image/x-icon\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/resend/nAzNk0iRWkZBBJ91/_generated/favicon-dark/android-chrome-192x192.png\" type=\"image/png\" sizes=\"192x192\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/resend/nAzNk0iRWkZBBJ91/_generated/favicon-dark/favicon-16x16.png\" type=\"image/png\" sizes=\"16x16\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/resend/nAzNk0iRWkZBBJ91/_generated/favicon-dark/favicon-32x32.png\" type=\"image/png\" sizes=\"32x32\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"shortcut icon\" href=\"/docs/_mintlify/favicons/resend/nAzNk0iRWkZBBJ91/_generated/favicon-dark/favicon.ico\" type=\"image/x-icon\" media=\"(prefers-color-scheme: dark)\">\n<script src=\"/docs/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" nomodule=\"\"></script>\n<a href=\"/docs/llms.txt\">/docs/llms.txt</a>\n<link href=\"https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,700;1,700&amp;display=swap\" rel=\"stylesheet\">\n<link href=\"https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;1,400&amp;display=swap\" rel=\"stylesheet\">\n<a href=\"#content-area\">Skip to main content</a>\n<a href=\"https://resend.com\">Resend home page</a>\n<a href=\"/docs/introduction\">Documentation</a>\n<a href=\"/docs/knowledge-base/introduction\">Guides</a>\n<a href=\"/docs/api-reference/introduction\">API Reference</a>\n<a href=\"https://resend.com/login\">Sign In</a>\n<a href=\"https://resend.com/signup\">Get Started</a>\n<a href=\"/docs/introduction\">Introduction</a>\n<a href=\"/docs/create-an-api-key\">Create API key</a>\n<a href=\"/docs/add-a-domain\">Add domain</a>\n<a href=\"/docs/email-types\">Email types</a>\n<a href=\"/docs/ai-onboarding\">AI onboarding</a>\n<a href=\"/docs/sdks\">SDKs</a>\n<a href=\"/docs/cli\">CLI</a>\n<a href=\"/docs/mcp-server\">MCP Server</a>\n<a href=\"/docs/integrations\">Integrations</a>\n<a href=\"/docs/examples\">Examples</a>\n<a href=\"#quickstart\">Quickstart</a>\n<a href=\"#explore\">Explore</a>\n<a href=\"https://resend.com/docs/llms.txt\">llms.txt</a>\n<a href=\"https://resend.com/docs/llms-full.txt\">llms-full.txt</a>\n<a href=\"/docs/add-a-domain\">verified with Resend</a>\n<a href=\"/docs/create-an-api-key\">A Resend API key</a>\n<a href=\"/docs/explore-sending-features\">both types of emails</a>\n<a href=\"#quickstart\">​</a>\n<a href=\"#explore\">​</a>\n<a href=\"/docs/create-an-api-key\">Create an API keyNext</a>\n<a href=\"https://x.com/resend\">x</a>\n<a href=\"https://github.com/resend\">github</a>\n<a href=\"https://www.youtube.com/@resendlabs\">youtube</a>\n<a href=\"https://resend.com/\">website</a>\n<script src=\"/docs/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://api.resend.com/": {
+      "result": {
+        "url": "https://api.resend.com/",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 18:01:32 GMT"],
+          ["content-type", "application/json; charset=utf-8"],
+          ["content-length", "15"],
+          ["connection", "keep-alive"],
+          ["strict-transport-security", "max-age=63072000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=()"],
+          ["content-security-policy", "default-src 'none'; frame-ancestors 'none'"],
+          ["etag", "W/\"f-51rzdr5zfwWQpf+iUepheZg7siQ\""],
+          ["cf-cache-status", "DYNAMIC"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45617a48b4a23eb-OSL"]
+        ],
+        "body": ""
+      }
+    }
+  },
+  "dns": {
+    "A resend.com": {
+      "result": {
+        "name": "resend.com",
+        "type": "A",
+        "records": ["76.76.21.22"]
+      }
+    },
+    "AAAA resend.com": {
+      "result": {
+        "name": "resend.com",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "CNAME resend.com": {
+      "result": {
+        "name": "resend.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "NS resend.com": {
+      "result": {
+        "name": "resend.com",
+        "type": "NS",
+        "records": [
+          "ns-1910.awsdns-46.co.uk",
+          "ns-399.awsdns-49.com",
+          "ns-1017.awsdns-63.net",
+          "ns-1047.awsdns-02.org"
+        ]
+      }
+    },
+    "TXT 22.21.76.76.origin.asn.cymru.com": {
+      "result": {
+        "name": "22.21.76.76.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 76.76.21.0/24 | US | arin | 2020-05-08"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    },
+    "A stackprobe-wildcard-check.resend.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND stackprobe-wildcard-check.resend.com"
+      }
+    },
+    "CNAME stackprobe-wildcard-check.resend.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND stackprobe-wildcard-check.resend.com"
+      }
+    },
+    "CNAME app.resend.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND app.resend.com"
+      }
+    },
+    "A console.resend.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND console.resend.com"
+      }
+    },
+    "CNAME console.resend.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND console.resend.com"
+      }
+    },
+    "CNAME status.resend.com": {
+      "result": {
+        "name": "status.resend.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A dashboard.resend.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND dashboard.resend.com"
+      }
+    },
+    "CNAME api.resend.com": {
+      "result": {
+        "name": "api.resend.com",
+        "type": "CNAME",
+        "records": ["api.resend.com.cdn.cloudflare.net"]
+      }
+    },
+    "CNAME dashboard.resend.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND dashboard.resend.com"
+      }
+    },
+    "A api.resend.com": {
+      "result": {
+        "name": "api.resend.com",
+        "type": "A",
+        "records": ["172.66.165.132", "104.20.29.242"]
+      }
+    },
+    "A docs.resend.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND docs.resend.com"
+      }
+    },
+    "CNAME portal.resend.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND portal.resend.com"
+      }
+    },
+    "CNAME docs.resend.com": {
+      "result": {
+        "name": "docs.resend.com",
+        "type": "CNAME",
+        "records": ["resend.com/docs"]
+      }
+    },
+    "A status.resend.com": {
+      "result": {
+        "name": "status.resend.com",
+        "type": "A",
+        "records": ["52.84.50.68", "52.84.50.66", "52.84.50.10", "52.84.50.72"]
+      }
+    },
+    "A portal.resend.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND portal.resend.com"
+      }
+    },
+    "A app.resend.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND app.resend.com"
+      }
+    },
+    "NS api.resend.com": {
+      "result": {
+        "name": "api.resend.com",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "NS docs.resend.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryNs ENOTFOUND docs.resend.com"
+      }
+    },
+    "AAAA docs.resend.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryAaaa ENOTFOUND docs.resend.com"
+      }
+    },
+    "AAAA api.resend.com": {
+      "result": {
+        "name": "api.resend.com",
+        "type": "AAAA",
+        "records": ["2606:4700:10::ac42:a584", "2606:4700:10::6814:1df2"]
+      }
+    },
+    "CNAME api.resend.com.cdn.cloudflare.net": {
+      "result": {
+        "name": "api.resend.com.cdn.cloudflare.net",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "CNAME resend.com/docs": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND resend.com/docs"
+      }
+    },
+    "TXT 132.165.66.172.origin.asn.cymru.com": {
+      "result": {
+        "name": "132.165.66.172.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | 172.66.160.0/20 | US | arin | 2015-02-25"]
+      }
+    },
+    "TXT as13335.asn.cymru.com": {
+      "result": {
+        "name": "AS13335.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | US | arin | 2010-07-14 | CLOUDFLARENET - Cloudflare, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "resend.com:443": {
+      "result": {
+        "host": "resend.com",
+        "ip": "76.76.21.22",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+        "subjectAltNames": ["resend.com"],
+        "validFrom": "Aug 30 06:21:12 2026 GMT",
+        "validTo": "Nov 28 06:21:11 2026 GMT"
+      }
+    },
+    "docs.resend.com:443": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "getaddrinfo ENOTFOUND docs.resend.com"
+      }
+    },
+    "api.resend.com:443": {
+      "result": {
+        "host": "api.resend.com",
+        "ip": "172.66.165.132",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "subjectAltNames": ["api.resend.com"],
+        "validFrom": "Sep  9 23:01:06 2026 GMT",
+        "validTo": "Dec  9 00:01:02 2026 GMT"
+      }
+    }
+  }
+}

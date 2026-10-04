@@ -20,7 +20,7 @@ leagueoflegends.com,https://www.leagueoflegends.com/,marketing,netlify,,https://
 stackoverflow.com,https://stackoverflow.com/questions,app,,netlify,https://www.netlify.com/blog/stack-overflow-case-study/,2022-06,medium,negative control
 turso.tech,https://app.turso.tech/,app,clerk nextjs,,https://turso.tech/blog/why-we-transitioned-to-clerk-for-authentication,2024-08,strong,own blog
 inngest.com,https://app.inngest.com/,app,clerk,,https://www.inngest.com/blog/building-auth-workflows-with-clerk-integration,2024-01,medium,app URL inferred
-openstatus.dev,https://www.openstatus.dev/app,app,nextjs,clerk,https://www.openstatus.dev/blog/migration-auth-clerk-to-next-auth,2024-05,medium,moved off Clerk; app URL inferred
+openstatus.dev,https://app.openstatus.dev/,app,nextjs,clerk,https://www.openstatus.dev/blog/migration-auth-clerk-to-next-auth,2024-05,medium,moved off Clerk; app URL from the homepage's Log in link
 buildwithfern.com,https://dashboard.buildwithfern.com/,app,auth0,,https://auth0.com/case-studies/fern,2025,strong,Auth0 strings on marketing are SDK docs not auth
 rightblogger.com,https://rightblogger.com/,unclear,cloudflare,,https://www.cloudflare.com/case-studies/rightblogger/,2025,strong,whole site on Cloudflare CDN
 lunarcrush.com,https://lunarcrush.com/,unclear,cloudflare,vercel,https://www.cloudflare.com/case-studies/lunarcrush/,2025,medium,moved off Vercel (implied)

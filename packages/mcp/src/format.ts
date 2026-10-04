@@ -11,6 +11,14 @@ const SURFACE_KINDS: Record<Surface['kind'], string> = {
   other: 'other',
 };
 
+function foundBy(surface: Surface): string {
+  if (!surface.foundBy) return '';
+  if (surface.foundBy.kind === 'subdomain') return '; found as a subdomain';
+  return surface.foundBy.text
+    ? `; found via the "${surface.foundBy.text}" link`
+    : '; found via a link';
+}
+
 const percent = (confidence: number) => `${Math.round(confidence * 100)}%`;
 
 function detectionLine(detection: Detection): string {
@@ -26,7 +34,7 @@ export function formatScan(scan: ScanRecord): string {
     return lines.join('\n');
   }
   for (const surface of scan.report.surfaces) {
-    lines.push('', `Surface ${surface.url} (${SURFACE_KINDS[surface.kind]})`);
+    lines.push('', `Surface ${surface.url} (${SURFACE_KINDS[surface.kind]}${foundBy(surface)})`);
     lines.push(
       ...(surface.detections.length
         ? surface.detections.map(detectionLine)

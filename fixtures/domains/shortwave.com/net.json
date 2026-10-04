@@ -1,0 +1,644 @@
+{
+  "url": "https://shortwave.com/",
+  "recordedAt": "2026-10-04T18:01:30.597Z",
+  "http": {
+    "GET https://shortwave.com/": {
+      "result": {
+        "url": "https://shortwave.com/",
+        "status": 301,
+        "headers": [
+          ["connection", "keep-alive"],
+          ["content-length", "43"],
+          ["content-security-policy", "default-src 'self'"],
+          ["location", "https://www.shortwave.com/#r"],
+          ["strict-transport-security", "max-age=63072000; includeSubDomains; preload"],
+          ["content-type", "text/plain; charset=utf-8"],
+          ["accept-ranges", "bytes"],
+          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
+          ["x-served-by", "cache-osl6525-OSL"],
+          ["x-cache", "HIT"],
+          ["x-cache-hits", "1"],
+          ["x-timer", "S1791136891.671027,VS0,VE1"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["alt-svc", "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.shortwave.com/#r": {
+      "result": {
+        "url": "https://www.shortwave.com/#r",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "357739"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; frame-src *; connect-src 'self'; media-src *; img-src * data:"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
+          ["etag", "W/\"2c8c55004ab6ef1b1d8fd27c60a7c337\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:39:11 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000; includeSubDomains; preload"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5h7j9-1791136890765-bdd5dfa4be06"],
+          ["x-xss-protection", "1; mode=block"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width\">\n<meta name=\"color-scheme\" content=\"dark\">\n<link rel=\"canonical\" href=\"https://www.shortwave.com/\">\n<meta name=\"title\" content=\"Shortwave — Automate your email with AI\">\n<meta name=\"description\" content=\"Agentic AI that helps you organize, write, search, schedule, and more with just a prompt\">\n<meta property=\"og:title\" content=\"Shortwave — Automate your email with AI\">\n<meta property=\"og:site_name\" content=\"Shortwave\">\n<meta property=\"og:url\" content=\"https://www.shortwave.com\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:image\" content=\"https://www.shortwave.com/og-image.png\">\n<meta property=\"og:description\" content=\"Agentic AI that helps you organize, write, search, schedule, and more with just a prompt\">\n<meta property=\"og:logo\" content=\"https://www.shortwave.com/shortwave-logo-192x192.png\">\n<meta name=\"twitter:title\" content=\"Shortwave — Automate your email with AI\">\n<meta name=\"twitter:site\" content=\"@shortwave\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:image\" content=\"https://www.shortwave.com/og-image.png\">\n<meta name=\"twitter:description\" content=\"Agentic AI that helps you organize, write, search, schedule, and more with just a prompt\">\n<link rel=\"icon\" type=\"image/png\" href=\"/favicon.png\">\n<meta name=\"theme-color\" content=\"#ffffff\">\n<meta name=\"next-head-count\" content=\"23\">\n<link rel=\"preload\" href=\"/fonts/poppins/Poppins-Regular.woff2\" as=\"font\" crossorigin=\"\">\n<link rel=\"preload\" href=\"/fonts/poppins/Poppins-SemiBold.woff2\" as=\"font\" crossorigin=\"\">\n<link rel=\"preload\" href=\"/fonts/poppins/Poppins-Bold.woff2\" as=\"font\" crossorigin=\"\">\n<script defer=\"\" crossorigin=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script>\n<script src=\"/_next/static/chunks/webpack-0acac728d5f78fbc.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/framework-ca706bf673a13738.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/main-8d0a861ef11ff460.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/pages/_app-831f45928a08d46d.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/826-988872a1055a1886.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/5024-ccf977618e29ff7e.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/2976-fab7e38bab99000a.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/7246-9878b390ff29a5bc.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/1566-e63a71fc6aef5ee5.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/9873-4f498115ce8e214c.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/pages/index-8311037d98912b79.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/lMTTD6oALm-bX_4sqIY-p/_buildManifest.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/lMTTD6oALm-bX_4sqIY-p/_ssgManifest.js\" defer=\"\" crossorigin=\"\"></script>\n<a href=\"/\"></a>\n<a href=\"/\">Home</a>\n<a href=\"/download/\">Download</a>\n<a href=\"/docs/guides/method/\">Learn</a>\n<a href=\"/changelog/\">Changelog</a>\n<a href=\"/pricing/\">Pricing</a>\n<a href=\"https://app.shortwave.com/login\">Sign in</a>\n<a href=\"https://tasklet.ai?utm_source=shortwave&amp;utm_medium=website&amp;utm_campaign=nyt_feature\">Saw us in the New York Times? Try Tasklet &gt;</a>\n<a href=\"https://app.shortwave.com/login\">Get started for free</a>\n<a href=\"/download/\">Available on iOS, Android, Mac &amp; Windows</a>\n<a href=\"https://tasklet.ai\">Tasklet</a>\n<a href=\"/blog/shortwave-tasklet-integration/\">Learn about Tasklet →</a>\n<a href=\"https://www.businessinsider.com/ai-email-inbox-revolution-chatgpt-google-openai-shortwave-productivity-tools-2023-3\">The AI revolution is coming for your email</a>\n<a href=\"https://www.theverge.com/2023/8/4/23819814/shortwave-android-email-app-gmail-google-inbox-release\">The Google Inbox email successor is finally ready for Android</a>\n<a href=\"https://techcrunch.com/2023/03/01/shortwave-email-app-introduces-ai-powered-summaries/\">Shortwave email app introduces AI-powered summaries</a>\n<a href=\"https://www.digitaltrends.com/mobile/shortwave-email-app-chatgpt-open-ai-changed-my-life/\">This app is like ChatGPT for your email, and it changed my life</a>\n<a href=\"/docs/guides/security/\">compliance</a>\n<a href=\"/blog/shortwave-tasklet-integration/\">Learn more</a>\n<a href=\"/docs/references/search/\">complex queries</a>\n<a href=\"https://www.threads.net/@getshortwave\"></a>\n<a href=\"https://twitter.com/shortwave\"></a>\n<a href=\"https://www.instagram.com/getshortwave/\"></a>\n<a href=\"https://linkedin.com/company/getshortwave\"></a>\n<a href=\"/docs/guides/method/\">Docs</a>\n<a href=\"/blog/\">Blog</a>\n<a href=\"/about/\">About us</a>\n<a href=\"/about/#careers\">Careers</a>\n<a href=\"/docs/how-tos/before-you-contact-support/\">Contact</a>\n<a href=\"/download/\">Get desktop</a>\n<a href=\"https://apps.apple.com/app/shortwave-email/id1559784681#?platform=iphone\"></a>\n<a href=\"https://play.google.com/store/apps/details?id=com.shortwave.android\"></a>\n<a href=\"/policies/terms-of-service/\">Terms of Service</a>\n<a href=\"/policies/privacy-policy/\">Privacy Policy</a>"
+      }
+    },
+    "GET https://www.shortwave.com/docs/guides/method/": {
+      "result": {
+        "url": "https://www.shortwave.com/docs/guides/method/",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "410196"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; frame-src *; connect-src 'self'; media-src *; img-src * data:"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:31 GMT"],
+          ["etag", "W/\"4a3e38e0fa65e71f322cc9485d59af04\""],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000; includeSubDomains; preload"],
+          ["vary", "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Url"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/docs/guides/method"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::kgk6v-1791136891095-10a26142b053"],
+          ["x-xss-protection", "1; mode=block"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width\">\n<meta name=\"color-scheme\" content=\"dark\">\n<link rel=\"canonical\" href=\"https://www.shortwave.com/docs/guides/method/\">\n<meta name=\"title\" content=\"The Shortwave Method\">\n<meta name=\"description\" content=\"Achieve and maintain inbox zero with Shortwave’s approach to managing your email\">\n<meta property=\"og:title\" content=\"The Shortwave Method\">\n<meta property=\"og:site_name\" content=\"Shortwave\">\n<meta property=\"og:url\" content=\"https://www.shortwave.com\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:image\" content=\"https://www.shortwave.com/og-method-image.png\">\n<meta property=\"og:description\" content=\"Achieve and maintain inbox zero with Shortwave’s approach to managing your email\">\n<meta property=\"og:logo\" content=\"https://www.shortwave.com/shortwave-logo-192x192.png\">\n<meta name=\"twitter:title\" content=\"The Shortwave Method\">\n<meta name=\"twitter:site\" content=\"@shortwave\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:image\" content=\"https://www.shortwave.com/og-method-image.png\">\n<meta name=\"twitter:description\" content=\"Achieve and maintain inbox zero with Shortwave’s approach to managing your email\">\n<link rel=\"icon\" type=\"image/png\" href=\"/favicon.png\">\n<meta name=\"theme-color\" content=\"#ffffff\">\n<meta name=\"next-head-count\" content=\"22\">\n<link rel=\"preload\" href=\"/fonts/poppins/Poppins-Regular.woff2\" as=\"font\" crossorigin=\"\">\n<link rel=\"preload\" href=\"/fonts/poppins/Poppins-SemiBold.woff2\" as=\"font\" crossorigin=\"\">\n<link rel=\"preload\" href=\"/fonts/poppins/Poppins-Bold.woff2\" as=\"font\" crossorigin=\"\">\n<script defer=\"\" crossorigin=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js\"></script>\n<script src=\"/_next/static/chunks/webpack-0acac728d5f78fbc.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/framework-ca706bf673a13738.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/main-8d0a861ef11ff460.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/pages/_app-831f45928a08d46d.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/826-988872a1055a1886.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/4810-37ed356daf6e0f5f.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/5024-ccf977618e29ff7e.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/2976-fab7e38bab99000a.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/6404-29191e248f64a016.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/chunks/pages/docs/%5B...slug%5D-ada8b3498bba3e38.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/lMTTD6oALm-bX_4sqIY-p/_buildManifest.js\" defer=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/lMTTD6oALm-bX_4sqIY-p/_ssgManifest.js\" defer=\"\" crossorigin=\"\"></script>\n<a href=\"/\"></a>\n<a href=\"/\">Home</a>\n<a href=\"/download/\">Download</a>\n<a href=\"/docs/guides/method/\">Learn</a>\n<a href=\"/changelog/\">Changelog</a>\n<a href=\"/pricing/\">Pricing</a>\n<a href=\"https://app.shortwave.com/login\">Sign in</a>\n<a href=\"/docs/guides/method/\">The Shortwave Method</a>\n<a href=\"/docs/guides/customize-your-shortwave-settings/\">Customize your Shortwave</a>\n<a href=\"/docs/guides/ai-assistant/\">The Shortwave AI Assistant</a>\n<a href=\"/docs/guides/team/\">Collaborate with your team</a>\n<a href=\"/docs/guides/billing/\">Billing</a>\n<a href=\"/docs/guides/security/\">Security &amp; Privacy</a>\n<a href=\"/docs/migrations/migrating-from-gmail/\">Migrating from Gmail</a>\n<a href=\"/docs/migrations/migrating-from-spark-mail/\">Migrating from Spark</a>\n<a href=\"/docs/migrations/migrating-from-superhuman/\">Migrating from Superhuman</a>\n<a href=\"/docs/references/search/\">Search</a>\n<a href=\"/docs/references/shortcuts/\">Keyboard shortcuts &amp; commands</a>\n<a href=\"/docs/references/browsers/\">Supported browsers</a>\n<a href=\"/docs/how-tos/microsoft-outlook-exchange-other-sign-in-support/\">Use Shortwave with other email providers</a>\n<a href=\"/docs/how-tos/unified-universal-inbox-support/\">Unified inbox via forwarding</a>\n<a href=\"/docs/how-tos/multi-account/\">Manage multiple accounts</a>\n<a href=\"/docs/how-tos/signatures/\">Signatures in Shortwave</a>\n<a href=\"/docs/how-tos/desktop/\">Install Shortwave's PWA</a>\n<a href=\"/docs/how-tos/default-mail/\">Default email app</a>\n<a href=\"/docs/how-tos/enable-push/\">Enable push notifications</a>\n<a href=\"/docs/how-tos/troubleshoot-push/\">Troubleshoot push notifications</a>\n<a href=\"/docs/how-tos/manage-auto-apply-labels/\">Manage auto-apply labels</a>\n<a href=\"/docs/how-tos/crm-integration/\">Integrate Shortwave with your CRM</a>\n<a href=\"/docs/how-tos/using-mcp/\">Using MCP with Shortwave</a>\n<a href=\"/docs/how-tos/ai-quota/\">Make the most of your quota</a>\n<a href=\"/docs/how-tos/missing-threads/\">Troubleshoot email syncing issues</a>\n<a href=\"/docs/how-tos/eml/\">Download EML file</a>\n<a href=\"/docs/how-tos/google-advanced-protection/\">Google Advanced Protection</a>\n<a href=\"/docs/how-tos/import-full-history/\">Import full history</a>\n<a href=\"/docs/how-tos/before-you-contact-support/\">Before you contact support</a>\n<a href=\"/docs/how-tos/downgrade/\">Upgrade, downgrade, or delete account</a>\n<a href=\"/docs/guides/method/#non-actionable\">Non-actionable items</a>\n<a href=\"/docs/guides/method/#quick-tasks\">&lt; 2-minute tasks</a>\n<a href=\"/docs/guides/method/#actionable\">Other actionable tasks</a>\n<a href=\"#triaging-every-item-in-your-inbox\"></a>\n<a href=\"#non-actionable\"></a>\n<a href=\"https://asana.com/resources/pareto-principle-80-20-rule\">Only ~20% of your emails</a>\n<a href=\"#quick-tasks\"></a>\n<a href=\"#actionable\"></a>\n<a href=\"https://app.shortwave.com/settings/inbox#stars\">by default</a>\n<a href=\"#prioritizing-with-drag--drop\"></a>\n<a href=\"#keeping-the-kitchen-clean\"></a>\n<a href=\"/blog/shortwave-tasklet-integration/\">Tasklet</a>\n<a href=\"/docs/guides/customize-your-shortwave-settings/\">customize your Shortwave</a>\n<a href=\"https://www.threads.net/@getshortwave\"></a>\n<a href=\"https://twitter.com/shortwave\"></a>\n<a href=\"https://www.instagram.com/getshortwave/\"></a>\n<a href=\"https://linkedin.com/company/getshortwave\"></a>\n<a href=\"/docs/guides/method/\">Docs</a>\n<a href=\"/blog/\">Blog</a>\n<a href=\"/about/\">About us</a>\n<a href=\"/about/#careers\">Careers</a>\n<a href=\"/docs/how-tos/before-you-contact-support/\">Contact</a>\n<a href=\"/download/\">Get desktop</a>\n<a href=\"https://apps.apple.com/app/shortwave-email/id1559784681#?platform=iphone\"></a>\n<a href=\"https://play.google.com/store/apps/details?id=com.shortwave.android\"></a>\n<a href=\"/policies/terms-of-service/\">Terms of Service</a>\n<a href=\"/policies/privacy-policy/\">Privacy Policy</a>"
+      }
+    },
+    "GET https://app.shortwave.com/login": {
+      "result": {
+        "url": "https://app.shortwave.com/login",
+        "status": 200,
+        "headers": [
+          ["connection", "keep-alive"],
+          ["content-length", "1464"],
+          ["cache-control", "no-cache"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'none'; connect-src * data: blob:; font-src 'self' data:; frame-src https://accounts.google.com https://embed.figma.com https://www.figma.com; img-src * data: blob:; manifest-src 'self'; media-src * data: blob:; object-src 'none'; script-src 'self' 'sha256-bbwWI6HOmqgEh27DqEBPuCeihO2CdlyqnPh8Z/iRaLU='; worker-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["etag", "\"c18d9cd968239a3244f40c13342bd1112a3fa2c0c30b9ad0ce4b1c05c79c89f0-br\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:55:24 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["strict-transport-security", "max-age=31556926"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-xss-protection", "1; mode=block"],
+          ["accept-ranges", "bytes"],
+          ["date", "Sun, 04 Oct 2026 18:01:31 GMT"],
+          ["x-served-by", "cache-osl6550-OSL"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1791136891.136479,VS0,VE56"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["alt-svc", "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"robots\" content=\"noindex,nofollow\">\n<link rel=\"icon\" href=\"/favicon.png\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover\">\n<meta name=\"subspace-app-version\" content=\"2026-10-01\">\n<meta name=\"color-scheme\" content=\"light dark\">\n<meta name=\"theme-color\" content=\"#232323\" data-content-light=\"#E5E9F3\" data-content-dark=\"#232323\">\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black-translucent\">\n<meta property=\"og:title\" content=\"Shortwave — The smartest email app on planet Earth\">\n<meta property=\"og:url\" content=\"https://app.shortwave.com\">\n<meta property=\"og:description\" name=\"description\" content=\"Get organized, stay productive, and save an hour a day with our AI executive assistant.\">\n<meta property=\"og:image\" content=\"https://app.shortwave.com/og-image.png\">\n<link rel=\"apple-touch-icon\" href=\"/favicon.png\">\n<link rel=\"manifest\" href=\"/manifest.json\">\n<script src=\"/webview_support.js\"></script>\n<link rel=\"stylesheet\" href=\"/noscript/index.css\">\n<script type=\"module\" crossorigin=\"\" src=\"/assets/main-bd178c55.js\"></script>\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/config-2dd36096.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/vendor-a819f0ae.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/assets-b97aeed3.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/shared-8b709d33.js\">\n<link rel=\"stylesheet\" href=\"/assets/index-434d6a78.css\">"
+      }
+    },
+    "GET https://api.shortwave.com/": {
+      "result": {
+        "url": "https://api.shortwave.com/",
+        "status": 404,
+        "headers": [
+          ["vary", "Origin"],
+          ["content-security-policy", "default-src 'none'; style-src 'unsafe-inline' 'self'"],
+          ["x-content-type-options", "nosniff"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["cache-control", "no-store"],
+          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
+          ["server", "Ktor/3.0.3"],
+          ["content-length", "0"],
+          ["via", "1.1 google"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    }
+  },
+  "dns": {
+    "NS shortwave.com": {
+      "result": {
+        "name": "shortwave.com",
+        "type": "NS",
+        "records": [
+          "ns-cloud-d3.googledomains.com",
+          "ns-cloud-d2.googledomains.com",
+          "ns-cloud-d1.googledomains.com",
+          "ns-cloud-d4.googledomains.com"
+        ]
+      }
+    },
+    "A shortwave.com": {
+      "result": {
+        "name": "shortwave.com",
+        "type": "A",
+        "records": ["199.36.158.100"]
+      }
+    },
+    "CNAME shortwave.com": {
+      "result": {
+        "name": "shortwave.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "AAAA shortwave.com": {
+      "result": {
+        "name": "shortwave.com",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "TXT 100.158.36.199.origin.asn.cymru.com": {
+      "result": {
+        "name": "100.158.36.199.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["54113 | 199.36.158.0/24 | US | arin | 2010-09-21"]
+      }
+    },
+    "TXT as54113.asn.cymru.com": {
+      "result": {
+        "name": "AS54113.asn.cymru.com",
+        "type": "TXT",
+        "records": ["54113 | US | arin | 2011-10-04 | FASTLY - Fastly, Inc., US"]
+      }
+    },
+    "A stackprobe-wildcard-check.shortwave.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND stackprobe-wildcard-check.shortwave.com"
+      }
+    },
+    "CNAME stackprobe-wildcard-check.shortwave.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND stackprobe-wildcard-check.shortwave.com"
+      }
+    },
+    "A status.shortwave.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND status.shortwave.com"
+      }
+    },
+    "CNAME dashboard.shortwave.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND dashboard.shortwave.com"
+      }
+    },
+    "A console.shortwave.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND console.shortwave.com"
+      }
+    },
+    "A portal.shortwave.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND portal.shortwave.com"
+      }
+    },
+    "CNAME status.shortwave.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND status.shortwave.com"
+      }
+    },
+    "A docs.shortwave.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND docs.shortwave.com"
+      }
+    },
+    "CNAME api.shortwave.com": {
+      "result": {
+        "name": "api.shortwave.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A api.shortwave.com": {
+      "result": {
+        "name": "api.shortwave.com",
+        "type": "A",
+        "records": ["34.107.145.43"]
+      }
+    },
+    "A dashboard.shortwave.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND dashboard.shortwave.com"
+      }
+    },
+    "CNAME console.shortwave.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND console.shortwave.com"
+      }
+    },
+    "CNAME portal.shortwave.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND portal.shortwave.com"
+      }
+    },
+    "CNAME docs.shortwave.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND docs.shortwave.com"
+      }
+    },
+    "A app.shortwave.com": {
+      "result": {
+        "name": "app.shortwave.com",
+        "type": "A",
+        "records": ["151.101.65.195", "151.101.1.195"]
+      }
+    },
+    "CNAME app.shortwave.com": {
+      "result": {
+        "name": "app.shortwave.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "NS www.shortwave.com": {
+      "result": {
+        "name": "www.shortwave.com",
+        "type": "NS",
+        "records": [
+          "ns3.vercel-dns-3.com",
+          "ns2.vercel-dns-3.com",
+          "ns1.vercel-dns-3.com",
+          "ns4.vercel-dns-3.com"
+        ]
+      }
+    },
+    "CNAME www.shortwave.com": {
+      "result": {
+        "name": "www.shortwave.com",
+        "type": "CNAME",
+        "records": ["cname.vercel-dns.com"]
+      }
+    },
+    "A www.shortwave.com": {
+      "result": {
+        "name": "www.shortwave.com",
+        "type": "A",
+        "records": ["66.33.60.67", "76.76.21.98"]
+      }
+    },
+    "AAAA www.shortwave.com": {
+      "result": {
+        "name": "www.shortwave.com",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "AAAA app.shortwave.com": {
+      "result": {
+        "name": "app.shortwave.com",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "CNAME cname.vercel-dns.com": {
+      "result": {
+        "name": "cname.vercel-dns.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "NS api.shortwave.com": {
+      "result": {
+        "name": "api.shortwave.com",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "NS app.shortwave.com": {
+      "result": {
+        "name": "app.shortwave.com",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "AAAA api.shortwave.com": {
+      "result": {
+        "name": "api.shortwave.com",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "TXT 67.60.33.66.origin.asn.cymru.com": {
+      "result": {
+        "name": "67.60.33.66.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 66.33.60.0/24 | US | arin | 2024-03-21"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    },
+    "TXT 195.1.101.151.origin.asn.cymru.com": {
+      "result": {
+        "name": "195.1.101.151.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["54113 | 151.101.0.0/22 | US | arin | 2016-02-01"]
+      }
+    },
+    "TXT 43.145.107.34.origin.asn.cymru.com": {
+      "result": {
+        "name": "43.145.107.34.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": [
+          "396982 | 34.96.0.0/12 | US | arin | 2018-09-28",
+          "396982 | 34.104.0.0/14 | US | arin | 2018-09-28"
+        ]
+      }
+    },
+    "TXT as396982.asn.cymru.com": {
+      "result": {
+        "name": "AS396982.asn.cymru.com",
+        "type": "TXT",
+        "records": ["396982 | US | arin | 2018-08-15 | GOOGLE-CLOUD-PLATFORM - Google LLC, US"]
+      }
+    }
+  },
+  "tls": {
+    "shortwave.com:443": {
+      "result": {
+        "host": "shortwave.com",
+        "ip": "199.36.158.100",
+        "issuer": "C=US, O=Google Trust Services, CN=WR3",
+        "subjectAltNames": [
+          "carllm.ai",
+          "abhirabizztech.in",
+          "tjobs.percentage.net",
+          "sdlibrary.scinnova.com.ph",
+          "djruben.eu",
+          "svlfirstng.svl.co.th",
+          "www.ledneon.cz",
+          "wishify.cz",
+          "www.tylt.mx",
+          "www.devtools.best",
+          "ytsignal.com",
+          "www.lohnbot.at",
+          "www.mercaditosobreredes.com",
+          "al.jackfitterer.com",
+          "novotechx.com",
+          "viewgo.ai",
+          "www.kharlouskaya.com",
+          "auth.journalytic.com",
+          "www.arquivoloto.com.br",
+          "navelthailand.com",
+          "jasonisapedophile.com",
+          "web.zufan.et",
+          "shortwave.com",
+          "www.vrl.me",
+          "www.mygreenloudoun.com",
+          "inclub.world",
+          "pedexp.com",
+          "strengths.godonew.com",
+          "www.pixelayers.com",
+          "heartsmartdelaware.com",
+          "urbangroup.ie",
+          "staging.getrentline.com",
+          "api.relaymd.com",
+          "www.lessonlane.be",
+          "shiori-biz.com",
+          "minami-3n.com",
+          "api.wallet.arianee.com",
+          "algorithmicsuperintelligence.ai",
+          "www.drvclb.com",
+          "timeprogress.nabilamerthabit.com",
+          "www.jeffenreds.com",
+          "evigpote.no",
+          "yujenlin.com",
+          "diyetlife.com",
+          "secure.patented.ai",
+          "martyjacobs.dev",
+          "kaancetinel.dev",
+          "www.peaceredeem.com",
+          "www.pescaderiazapatajr.com",
+          "www.carrington.dev",
+          "devlocalhost.taxinube.com",
+          "willburgis.dev",
+          "aris-bampakos.dev",
+          "publicwealthgen.com",
+          "www.braveandhungry.com",
+          "report.landairsea.bycopilot.com",
+          "partner.uqual.dev",
+          "ths-iot.hjsrlabs.com",
+          "reactimagegrid.williamjacobs.dev",
+          "dreammirage.lol",
+          "zairaperina.com",
+          "www.mattiamenegale.com",
+          "app.trainwithtandem.com",
+          "www.chiisana-kobetsu.com",
+          "nivertech.com",
+          "ocr.colinj.dev",
+          "www.jowall.systems",
+          "tendoo.co",
+          "dayagenda.app",
+          "www.sdelayang.com",
+          "admin.urban-recycle.com",
+          "techbetween.com",
+          "upendocounselling.com",
+          "karaoke.digu.io",
+          "testpartnerbahrain.jeeblynow.com",
+          "guardian.webuild.dev",
+          "www.lunchbug.com",
+          "likato.fr",
+          "tickets.lahornilla.cl",
+          "evernest.fr",
+          "www.workona.com",
+          "link.flygaggle.com",
+          "classicopticals.in",
+          "feuerandflamme.de",
+          "link.mom.life",
+          "vcard.mounton.ch",
+          "rootsbuy.in",
+          "www.e-cono.fr",
+          "pendable.xyz",
+          "kutuki.info",
+          "www.iamiyyappan.dev",
+          "modina.us",
+          "magdentaire.com",
+          "tienda.vinogenes.es",
+          "vanguardathleticscamps.com",
+          "dnos.in",
+          "navadev.studio",
+          "365virtualbench.com",
+          "cypaps.com.ar",
+          "spms3.pluteus.co.jp"
+        ],
+        "validFrom": "Aug 13 16:55:43 2026 GMT",
+        "validTo": "Nov 11 17:51:38 2026 GMT"
+      }
+    },
+    "app.shortwave.com:443": {
+      "result": {
+        "host": "app.shortwave.com",
+        "ip": "151.101.1.195",
+        "issuer": "C=US, O=Google Trust Services, CN=WR3",
+        "subjectAltNames": [
+          "taskify.aveek.io",
+          "vhealfoundation.org",
+          "asia888app.org",
+          "www.norbi-autoszerviz.hu",
+          "www.sharmavaibhav.com",
+          "hacklabs.app",
+          "beta.escapeit.io",
+          "www.siapco.com.mx",
+          "www.franlaurino.com",
+          "spie-ics.speakylink.com",
+          "strategix.com.ar",
+          "www.nourcharaf.de",
+          "pedestrian-music.de",
+          "jiwar.io",
+          "auth-staging.vyzer.co",
+          "beta.indonesiana.tv",
+          "www.dreamswopper.com",
+          "bluntlushstudio.com",
+          "isthepubopen.today",
+          "www.itaag.com",
+          "app.sellconnect.online",
+          "link.ify.re",
+          "www.elephantaresort.com",
+          "content.ws-svc.de",
+          "www.trekandtournepal.com",
+          "pasesmarket.xyz",
+          "thevoodoochildband.com",
+          "pic-alcqa2.mentor-na.neccton.com",
+          "tirupati.aravindtravels.in",
+          "www.aravindtravels.in",
+          "motostar.at",
+          "www.nmbcentennialtour.com",
+          "tiruvallur.aravindtravels.in",
+          "cookie.tribaldata.com",
+          "production.aplano.de",
+          "converter.smoothpdf.com",
+          "gcp.dev.devtools.site",
+          "imaginecreateexist.com",
+          "www.nilly-r.com",
+          "prodo.joseaugustocontent.com",
+          "mtorchio.net.ar",
+          "wakerobineco.com",
+          "wakerobinecology.com",
+          "daresny.sammourtech.org",
+          "www.rcg.dev",
+          "kyozai.to-on.com",
+          "app.shortwave.com",
+          "vivecamedia.com",
+          "datanex-gmbh.de",
+          "microfrontendproblems.jenniferwadella.com",
+          "www.gdg.com.bo",
+          "www.wakerobineco.com",
+          "athena-airsoft.it",
+          "www.hellogoodbye.digital",
+          "www.malayalihub.com",
+          "buyers.demo.invoicenxt.com",
+          "ishango.tadafaba.eu",
+          "photos.afla.fr",
+          "pokermds.com.br",
+          "giorgio.garasto.blog",
+          "n.nivelate.mx",
+          "rembetikaapp.com",
+          "tests.wavpe.com",
+          "www.wakerobinecology.com",
+          "check.westernpleasureranch.com",
+          "www.saiplastics.co.in",
+          "ranking.sydneysabre.com",
+          "cafe96.in",
+          "tangenta.net",
+          "engagingit.com",
+          "casaideal.clau.io",
+          "phc.triadkube.com",
+          "dheema.in",
+          "spotgenie.in",
+          "dev.api.vmbreakouts.com",
+          "amr-uae-hardees-kiosk.supersonic-fm.com",
+          "sleek.software",
+          "khouri.one",
+          "save.space",
+          "link.throdle-app.q-tests.com",
+          "kjnaveen.in",
+          "www.yickka.com",
+          "szz.me",
+          "notes.emersondove.com",
+          "race.viet.run",
+          "job.mkg-uniqum.de",
+          "pandapasha.games",
+          "cnsbowl.kyowakirinuniversity.com",
+          "nexteradevelopers.in",
+          "lcex.algofunds.in",
+          "vleu.net",
+          "careplus-develop.medgrocer.io",
+          "aipicstudio.io",
+          "eyeris.uk",
+          "allergy-pal.co.uk",
+          "bo.ozzen.tech",
+          "www.snailbyte.games",
+          "stage.seaprojects.theseabay.com",
+          "api.tweethunter.io",
+          "www.mwtworld.com"
+        ],
+        "validFrom": "Aug 14 12:50:51 2026 GMT",
+        "validTo": "Nov 12 13:48:53 2026 GMT"
+      }
+    },
+    "www.shortwave.com:443": {
+      "result": {
+        "host": "www.shortwave.com",
+        "ip": "66.33.60.67",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+        "subjectAltNames": ["www.shortwave.com"],
+        "validFrom": "Sep 13 14:24:45 2026 GMT",
+        "validTo": "Dec 12 14:24:44 2026 GMT"
+      }
+    },
+    "api.shortwave.com:443": {
+      "result": {
+        "host": "api.shortwave.com",
+        "ip": "34.107.145.43",
+        "issuer": "C=US, O=Google Trust Services, CN=WR3",
+        "subjectAltNames": ["api.shortwave.com"],
+        "validFrom": "Sep 15 19:04:40 2026 GMT",
+        "validTo": "Dec 14 19:58:33 2026 GMT"
+      }
+    }
+  }
+}

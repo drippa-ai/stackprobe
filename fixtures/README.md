@@ -50,3 +50,7 @@ Pages that answer with an error (usually bot protection) are listed but not scor
 
 When a recording contradicts its source, fix the CSV by removing the claim and saying why in
 `notes`. Never add a technology because our own scan found it.
+
+`domains/<domain>/net.json` holds a full scan, discovery included, of the homepage of each
+company that has a product app in the CSV. `accuracy.md` uses them to show whether scanning the
+homepage finds that app, and how (a "Log in" link, a subdomain check).

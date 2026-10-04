@@ -1,4 +1,10 @@
-import { DEFAULT_LAYERS, MemoryStore, Report } from '@drippa/stackprobe-core';
+import {
+  DEFAULT_LAYERS,
+  MemoryStore,
+  Report,
+  scan as scanInProcess,
+  surfaceTarget,
+} from '@drippa/stackprobe-core';
 import { beforeEach, expect, test, vi } from 'vitest';
 import { loadFixture, ReplayNet } from '../../../../packages/core/test/fixtures.ts';
 
@@ -31,20 +37,27 @@ test('scans a recorded site end to end', async () => {
   expect(await scanWorkflow(scan.id, recording.url, scan.createdAt)).toBe('done');
   expect(net.misses).toEqual([]);
 
-  const saved = await store.getScan(scan.id);
-  const report = Report.parse(saved?.report);
+  const stored = await store.getScan(scan.id);
+  const report = Report.parse(stored?.report);
   expect(report.scannedAt).toBe(scan.createdAt);
   expect(report.surfaces[0]?.kind).toBe('unclassified');
   const found = new Map(report.surfaces[0]?.detections.map((d) => [d.tech, d.confidence]));
   for (const { tech, minConfidence } of expected.present) {
     expect(found.get(tech), tech).toBeGreaterThanOrEqual(minConfidence);
   }
-  expect(
-    store
-      .layerResultsFor(scan.id)
-      .map((r) => r.run.layer)
-      .sort(),
-  ).toEqual([...SCAN_LAYERS].sort());
+
+  // The same surfaces and findings as an in-process scan of the same recording.
+  const local = await scanInProcess(recording.url, { net: new ReplayNet(recording) });
+  const summary = (r: typeof report) =>
+    r.surfaces.map((s) => ({
+      url: s.url,
+      foundBy: s.foundBy,
+      techs: s.detections.map((d) => d.tech),
+    }));
+  expect(summary(report)).toEqual(summary(local));
+  expect(report.surfaces.length).toBeGreaterThan(1);
+  const saved = store.layerResultsFor(scan.id).map((r) => `${r.run.surfaceId} ${r.run.layer}`);
+  expect(saved.sort()).toEqual(local.layersRun.map((r) => `${r.surfaceId} ${r.layer}`).sort());
 });
 
 test('runs every layer core runs', () => {
@@ -54,16 +67,18 @@ test('runs every layer core runs', () => {
 test('finishing twice returns the first result instead of failing the retry', async () => {
   const { store } = services;
   const scan = await store.createScan({ domain: 'vercel.com', url: recording.url });
-  const results = [await runLayerStep(scan.id, recording.url, 'http')];
-  const first = await finishScanStep(scan.id, recording.url, scan.createdAt, results);
-  expect(await finishScanStep(scan.id, recording.url, scan.createdAt, results)).toBe(first);
+  const target = surfaceTarget(recording.url);
+  const surfaces = [{ target, results: [await runLayerStep(scan.id, target, 'http')] }];
+  const first = await finishScanStep(scan.id, scan.createdAt, surfaces);
+  expect(await finishScanStep(scan.id, scan.createdAt, surfaces)).toBe(first);
 });
 
 test('does not retry saving into a scan that already finished', async () => {
   const { store } = services;
   const scan = await store.createScan({ domain: 'vercel.com', url: recording.url });
-  await finishScanStep(scan.id, recording.url, scan.createdAt, []);
-  await expect(runLayerStep(scan.id, recording.url, 'http')).rejects.toMatchObject({
+  const target = surfaceTarget(recording.url);
+  await finishScanStep(scan.id, scan.createdAt, [{ target, results: [] }]);
+  await expect(runLayerStep(scan.id, target, 'http')).rejects.toMatchObject({
     name: 'FatalError',
   });
 });

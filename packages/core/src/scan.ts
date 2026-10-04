@@ -1,4 +1,5 @@
 import { detect } from './detect.ts';
+import { discoverSurfaces } from './discover.ts';
 import type { CompiledFingerprint } from './fingerprint.ts';
 import { builtinFingerprints, FINGERPRINTS_VERSION } from './fingerprints/index.ts';
 import type { Layer, Signal, SurfaceTarget } from './layer.ts';
@@ -38,6 +39,7 @@ export function buildReport(input: BuildReportInput): Report {
       url: target.url,
       kind: target.kind,
       kindConfidence: null,
+      ...(target.foundBy ? { foundBy: target.foundBy } : {}),
       detections: detect(
         results.flatMap((result) => result.signals),
         fingerprints,
@@ -61,17 +63,60 @@ export interface ScanOptions {
   signal?: AbortSignal;
   now?: () => Date;
   onSignal?: (signal: Signal) => void;
+  // Called with each layer's raw result as soon as it is in, e.g. to store it.
+  onLayerResult?: (result: LayerResult) => void | Promise<void>;
+  // Look for the domain's other surfaces (links, common subdomains). On by default.
+  discover?: boolean;
 }
 
-// Scans one domain or URL in-process. The hosted runner uses the same pieces
-// (runLayer per step, then buildReport) instead.
+// The layers to run on each surface: everything on the first surface of each host, and only the
+// per-page layer (HTTP) on further paths of a host already covered, since DNS and TLS are per host.
+export function layersForSurfaces(
+  surfaces: SurfaceTarget[],
+  layers: Layer[] = DEFAULT_LAYERS,
+  coveredHosts: Iterable<string> = [],
+): Map<string, Layer[]> {
+  const covered = new Set(coveredHosts);
+  const plan = new Map<string, Layer[]>();
+  for (const surface of surfaces) {
+    plan.set(
+      surface.id,
+      covered.has(surface.host) ? layers.filter((layer) => layer.id === 'http') : layers,
+    );
+    covered.add(surface.host);
+  }
+  return plan;
+}
+
+// Scans one domain or URL in-process: the page asked for, then the other surfaces it leads to.
+// The hosted runner uses the same pieces (runLayer per step, discoverSurfaces, buildReport).
 export async function scan(input: string, options: ScanOptions): Promise<Report> {
   const target = surfaceTarget(input);
   const scannedAt = options.now?.() ?? new Date();
-  const results = await runLayers(options.layers ?? DEFAULT_LAYERS, target, {
+  const layers = options.layers ?? DEFAULT_LAYERS;
+  const runOptions = {
     net: options.net,
     signal: options.signal ?? AbortSignal.timeout(SCAN_BUDGET_MS),
     ...(options.onSignal ? { onSignal: options.onSignal } : {}),
-  });
-  return buildReport({ domain: target.host, scannedAt, surfaces: [{ target, results }] });
+  };
+  const run = async (surface: SurfaceTarget, surfaceLayers: Layer[]) => {
+    const results = await runLayers(surfaceLayers, surface, runOptions);
+    for (const result of results) await options.onLayerResult?.(result);
+    return { target: surface, results };
+  };
+
+  const root = await run(target, layers);
+  const found =
+    options.discover === false
+      ? []
+      : await discoverSurfaces(
+          target,
+          root.results.flatMap((result) => result.signals),
+          runOptions,
+        );
+  const plan = layersForSurfaces(found, layers, [target.host]);
+  const others = await Promise.all(
+    found.map((surface) => run(surface, plan.get(surface.id) ?? [])),
+  );
+  return buildReport({ domain: target.host, scannedAt, surfaces: [root, ...others] });
 }

@@ -1,5 +1,5 @@
 import type { Net } from './net.ts';
-import type { LayerErrorCode, LayerId, SurfaceKind } from './report.ts';
+import type { LayerErrorCode, LayerId, SurfaceFoundBy, SurfaceKind } from './report.ts';
 
 export const SIGNAL_KINDS = [
   'header',
@@ -40,6 +40,8 @@ export interface SurfaceTarget {
   url: string;
   host: string;
   kind: SurfaceKind;
+  // How the scan came to this surface. Absent means it is what the user asked for.
+  foundBy?: SurfaceFoundBy;
 }
 
 export interface LayerContext {
