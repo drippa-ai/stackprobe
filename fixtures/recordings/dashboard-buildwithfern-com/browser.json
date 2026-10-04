@@ -1,0 +1,627 @@
+{
+  "https://dashboard.buildwithfern.com/": {
+    "url": "https://dashboard.buildwithfern.com/login",
+    "status": 200,
+    "requests": [
+      {
+        "url": "https://dashboard.buildwithfern.com/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Black-s.p.3pvyy57qp7yb_.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Bold-s.p.1l7pv_6-mw2cz.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Italic_15_Regular-s.p.2s7mujg--pcsn.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Light-s.p.09dx1t3_256qy.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Medium-s.p.1130q9igrw1-b.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Regular-s.p.2daubusjb75l-.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1mvv076onosjj.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1w-k7go1gbyjg.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/144djskz2ar40.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/3xsvb246nq2rh.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/3asc6e5hpq6ue.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0t73n6wzx1ssd.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/02_0sxfqwgdj7.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0yp-xmjsx09bk.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/2bsve4cum92rg.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/13i3oxuacqis1.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0q5wl-daxew2y.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/turbopack-2ebbgw2e5k14o.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/3b4da641vter0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1kg3_i34yk3cm.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0w5hp_wtgodnd.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1m0-kqzw6v21l.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1n0x6celof18f.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/08v6q1jua2_o0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/3cw_dd4uviyfp.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1seqwophq77jh.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1c1wsvm4obv88.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/2z_-sp7nzrm0c.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1cqny7iumv03o.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1dam7b7011dbu.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/2zrpwgnp_l811.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/noise.webp",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/monitoring",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Black-s.p.3pvyy57qp7yb_.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Bold-s.p.1l7pv_6-mw2cz.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Italic_15_Regular-s.p.2s7mujg--pcsn.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Light-s.p.09dx1t3_256qy.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Medium-s.p.1130q9igrw1-b.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Regular-s.p.2daubusjb75l-.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/monitoring",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/monitoring",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://widget.usepylon.com/widget/86d449a3-b1ce-41bc-95e2-14148ec6c069",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/login",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Black-s.p.3pvyy57qp7yb_.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Bold-s.p.1l7pv_6-mw2cz.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Italic_15_Regular-s.p.2s7mujg--pcsn.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Light-s.p.09dx1t3_256qy.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Medium-s.p.1130q9igrw1-b.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Regular-s.p.2daubusjb75l-.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1mvv076onosjj.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1w-k7go1gbyjg.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/144djskz2ar40.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/3xsvb246nq2rh.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/3asc6e5hpq6ue.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0t73n6wzx1ssd.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/02_0sxfqwgdj7.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0yp-xmjsx09bk.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/2bsve4cum92rg.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/13i3oxuacqis1.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0q5wl-daxew2y.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/turbopack-2ebbgw2e5k14o.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/3b4da641vter0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1kg3_i34yk3cm.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0w5hp_wtgodnd.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1m0-kqzw6v21l.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1n0x6celof18f.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/08v6q1jua2_o0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/3cw_dd4uviyfp.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0t3dbbeaz86dq.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1dam7b7011dbu.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/3io-8l_dei47w.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/03lu7zcht2y6s.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/3w_yp9k2a2npg.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0d4gk5q-i8rse.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0r373hebg1e71.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1seqwophq77jh.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1_1wvgey-2v96.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/205obz6uixfqr.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0th05f94yirx3.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/noise.webp",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/monitoring",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Black-s.p.3pvyy57qp7yb_.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Bold-s.p.1l7pv_6-mw2cz.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Italic_15_Regular-s.p.2s7mujg--pcsn.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Light-s.p.09dx1t3_256qy.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Medium-s.p.1130q9igrw1-b.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/GT_Planar_Regular-s.p.2daubusjb75l-.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/monitoring",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/monitoring",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_vercel/insights/script.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/cc3e293d766ad86d/script.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://widget.usepylon.com/widget/86d449a3-b1ce-41bc-95e2-14148ec6c069",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/login-page-sdks-light.01_c_ca447zby.avif",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/login-page-sdks-dark.2trzxo-g39xqw.avif",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/login-page-docs-light.10rfzgiemc1vo.avif",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/media/login-page-docs-dark.3a57fqzu2g6lb.avif",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/sign-up",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.buildwithfern.com/sign-up",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      }
+    ],
+    "websockets": [],
+    "cookies": [],
+    "globals": [
+      "_debugIds",
+      "TURBOPACK",
+      "$RX",
+      "__next_f",
+      "$RT",
+      "NEXT_DEPLOYMENT_ID",
+      "next",
+      "__webpack_hash__",
+      "__PosthogExtensions__",
+      "_sentryRouteManifest",
+      "_sentryNextJsVersion",
+      "_sentryRewritesTunnelPath",
+      "__SENTRY__",
+      "__sentry_instrumentation_handlers__",
+      "_sentryWrappedDepth",
+      "Pylon",
+      "vam",
+      "va",
+      "vaq",
+      "si",
+      "MotionIsMounted"
+    ]
+  }
+}

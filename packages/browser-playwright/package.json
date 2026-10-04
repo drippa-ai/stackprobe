@@ -1,0 +1,30 @@
+{
+  "name": "@drippa/stackprobe-browser-playwright",
+  "version": "0.0.0",
+  "description": "Runs stackprobe's browser layer in a local headless Chromium, via Playwright.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "publishConfig": {
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "install-chromium": "playwright-core install chromium"
+  },
+  "dependencies": {
+    "@drippa/stackprobe-core": "workspace:*",
+    "playwright-core": "^1.63.0"
+  }
+}

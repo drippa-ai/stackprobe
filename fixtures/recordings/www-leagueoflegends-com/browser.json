@@ -1,0 +1,641 @@
+{
+  "https://www.leagueoflegends.com/": {
+    "url": "https://www.leagueoflegends.com/en-gb/",
+    "status": 200,
+    "requests": [
+      {
+        "url": "https://www.leagueoflegends.com/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/en-gb/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://cmp.osano.com/16BZ95S4qp9Kl2gUA/c84de61e-21d7-4a4a-9591-3d3a28fb5b1d/osano.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/css/112495035b880485.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/css/d22fe4243c447d5f.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/chunks/webpack-8ab12d32ea1b60b5.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/chunks/framework-d5fbdf5171596063.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/chunks/main-76a240742e38efa1.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/chunks/pages/_app-8e1ba8c934f22784.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/chunks/373-e69bc9a84fe7ccb2.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/chunks/116-7e72687ec2fb2196.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/chunks/374-ec72b2e5fcd81fef.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/chunks/839-6321fedd259ab0fd.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/chunks/pages/%5B%5B...pathArray%5D%5D-de705f74a51683f7.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/Gmozal-5wR6tVeB_azDmk/_buildManifest.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/Gmozal-5wR6tVeB_azDmk/_ssgManifest.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dev.visualwebsiteoptimizer.com/j.php",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/link.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/link-square.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/player-square.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/rg-product-pages/assets/carousel-left.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/rg-product-pages/assets/carousel-right.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/news/8ab3e227121c53aacab0c9b9f7a48adbc65db520.webm",
+        "method": "GET",
+        "type": "media",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/news/bbc27473157462adacf0de441a8796268eb2d0ac.mp4",
+        "method": "GET",
+        "type": "media",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/news/1f5b2cf01a1cf2afa1ce61febee6e2e900808347.mp4",
+        "method": "GET",
+        "type": "media",
+        "headers": {}
+      },
+      {
+        "url": "https://cmp.osano.com/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://cmp.osano.com/16BZ95S4qp9Kl2gUA/c84de61e-21d7-4a4a-9591-3d3a28fb5b1d/osano-ui.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://cmp.osano.com/16BZ95S4qp9Kl2gUA/c84de61e-21d7-4a4a-9591-3d3a28fb5b1d/en.json",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/link.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/link-square.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/common/assets/player-square.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/rg-product-pages/assets/carousel-left.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/rg-product-pages/assets/carousel-right.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cdn.rgpub.io/public/live/riotbar/latest/lol-rso-pbe.en-gb.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.leagueoflegends.com/_next/static/css/d22fe4243c447d5f.css",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/beaufort/BeaufortforLOL-BoldItalic.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/spiegel/Spiegel-Regular.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/spiegel/Spiegel-Bold.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/beaufort/BeaufortforLOL-HeavyItalic.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/spiegel/Spiegel-SemiBold.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/beaufort/BeaufortforLOL-BoldItalic.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://dev.visualwebsiteoptimizer.com/ee.gif",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/spiegel/Spiegel-Regular.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/spiegel/Spiegel-Bold.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/beaufort/BeaufortforLOL-HeavyItalic.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/spiegel/Spiegel-SemiBold.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://www.youtube.com/iframe_api",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9eb028de391e65072d06e77f06d0955f66b9fa2c-736x316.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/2037fa505fd6b830ad9212f57865bbf49014e2e3-656x656.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e1511d4d93a84b836844c77b4ff96b1cf65f4f8d-220x220.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/651b0a4388dffbb709588546d7d73fd1a4e5b45d-220x220.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9872a60add3d215d217eda67e08a07ef7191ab89-220x220.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/fce8a3c7b1267ce428530fa845dd3f970772d5cd-220x220.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/1824a47af762aeac9d88d3bae5a4eb2ece928f0d-220x220.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/019898f21e749a5f6f71b609714d87f3fe084df5-220x220.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/befd42ad6d2564159a441d08cfc3bf511532eb74-1628x1628.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/a6f94cd5ed222d3b99e535f17cd9592d3c716bb5-3840x1616.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/76c98a7d43d4185e9ce1c9e0cd6f9647fed75acd-1304x1304.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/0eb5bc3bbb7794eceea3a5e7948906e1cbcd027f-5120x1810.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e50f5eb867949248d81b3c4a1dcb3e7d7cf187de-440x440.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/88a013a106668103aedbceb8f174bd4cbc06568b-440x440.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/85649ae85ef72fb951c1a608cc62cccd2a3f195d-440x440.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d1df552539dd70a8ffd38b6e93d1e751fb980ea6-440x440.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/4c59eeaf4adc540fd42745bd5c71563fba8f6288-3840x1328.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/acd771813b2b3f3bbcae4f27eadb2d79b1c4f547-4096x2160.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/c01cbdc773cf9f4ba588e738a26a0850e17e79df-1920x1080.jpg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/5f6170c8842549a99f4c937b9d5db73a4173ddcb-1920x1080.jpg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.youtube.com/s/player/8ab5c328/www-widgetapi.vflset/www-widgetapi.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9eb028de391e65072d06e77f06d0955f66b9fa2c-736x316.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/css/riot/fonts.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://xsso.leagueoflegends.com/xsso",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/riotbar_live/cad193769d6a9b38ffa8b098404819b52810c94c-128x128.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/riotbar_live/d984d8f29c6d2f1e7bc8266033940b0f70a4574e-715x872.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/riotbar_live/65711a12be2c5538ad80ec17f2c10dc9111452ee-872x872.jpg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/riotbar_live/1cc0623320d03ffd4378ced5c1ab4523f08413fd-872x872.jpg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/riotbar_live/b6aaea2f06024732f2b90e947abd948bd2222fb5-872x872.jpg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/riotbar_live/e91b59be0fbf1afbf460c2b94d8c8adabe31543f-872x872.jpg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cdn.rgpub.io/public/live/riotbar/latest/spritemap.svg",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://lol.secure.dyn.riotcdn.net/channels/public/x/status/euw1.json",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://cdn.rgpub.io/public/live/riotbar/content-manifests/en_GB.json",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://xsso.leagueoflegends.com/check-session-iframe",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/inter/v3/Inter-SemiBold.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/inter/v3/Inter-Bold.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/inter/v3/Inter-Regular.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/inter/v3/Inter-Medium.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/inter/v3/Inter-SemiBold.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/inter/v3/Inter-Bold.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/inter/v3/Inter-Regular.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/inter/v3/Inter-Medium.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://auth.riotgames.com/check-session-iframe",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/ccm/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://xsso.leagueoflegends.com/riot-owned-iframe",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://xsso.leagueoflegends.com/login",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://auth.riotgames.com/authorize",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://xsso.leagueoflegends.com/redirect",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      }
+    ],
+    "websockets": [],
+    "cookies": [
+      "geo",
+      "lang",
+      "__Secure-YNID",
+      "YSC",
+      "VISITOR_INFO1_LIVE",
+      "VISITOR_PRIVACY_METADATA",
+      "__Secure-ROLLOUT_TOKEN",
+      "__cf_bm"
+    ],
+    "globals": [
+      "gtag",
+      "dataLayer",
+      "webpackChunk_osano_cmp_consent_manager",
+      "Osano",
+      "__uspapi",
+      "code",
+      "_vwo_code",
+      "_vwo_settings_timer",
+      "webpackChunk_N_E",
+      "__next_set_public_path__",
+      "next",
+      "__NEXT_DATA__",
+      "__SSG_MANIFEST_CB",
+      "__NEXT_P",
+      "_N_E",
+      "litHtmlVersions",
+      "DOMPurify",
+      "__MIDDLEWARE_MATCHERS",
+      "__BUILD_MANIFEST",
+      "__SSG_MANIFEST",
+      "DD_RUM",
+      "VWO",
+      "_vwo_acc_id",
+      "_vwo_prevMode",
+      "_VWO_Jphp_StartTime",
+      "_VWO",
+      "_vwo_mt",
+      "_vwo_tm",
+      "_vwo_cookieDomain",
+      "_vwo_surveyAssetsBaseUrl",
+      "google_tag_manager",
+      "google_tag_data",
+      "rdt",
+      "extId",
+      "fbq",
+      "_fbq",
+      "onYouTubeIframeAPIReady",
+      "scriptUrl",
+      "ttPolicy",
+      "YT",
+      "YTConfig",
+      "onYTReady",
+      "RiotBar",
+      "xsso"
+    ]
+  }
+}

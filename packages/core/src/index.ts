@@ -1,5 +1,5 @@
 export type { Browser, BrowserCapture, CaptureOptions } from './browser.ts';
-export { browserLayer, captureSignals, sanitizeCapture } from './browser.ts';
+export { browserLayer, captureSignals, ownCapture, sanitizeCapture } from './browser.ts';
 export type {
   Classification,
   ClassifiedKind,

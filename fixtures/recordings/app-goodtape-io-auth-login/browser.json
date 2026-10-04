@@ -1,0 +1,818 @@
+{
+  "https://app.goodtape.io/auth/login": {
+    "url": "https://app.goodtape.io/auth/login",
+    "status": 200,
+    "requests": [
+      {
+        "url": "https://app.goodtape.io/auth/login",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/fonts/sharp-grotesk/SharpGroteskBook25.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/fonts/sharp-grotesk/SharpGroteskMedium20.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/fonts/sharp-grotesk/SharpGroteskBook20.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/fonts/sharp-grotesk/SharpGroteskMedium25.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/assets/manifest-3b3f2f4a.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/Cn6aL_3I.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/D7s9bMd3.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/BW_0Ltx2.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/BIG7vTIZ.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/B9-7EZGV.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/5jBVRjIE.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/Br40_4MX.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/M_fkrczy.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/Du8b9OfE.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/DSehjWq9.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/CENhZXXP.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/xymt1Yre.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/C46atrCG.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/BBolXf7Y.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/SVoGoie_.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/loGf9Kxq.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/u8wTgF9a.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/B7CKUNBC.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/CY3-SJpC.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/BxhaAtB0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/CE6bMmAw.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/BdaoR1SW.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/CM3s7aax.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/HLrAitpH.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/CGb-eGR2.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/D6FCNbk1.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/CcSk9tRc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/Ckblzf4m.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/wv_iTk-d.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/BiBEYTQU.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/09oia8hT.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/DemS4Bnq.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/aPOkRr2q.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/XNm3l4Rk.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/DCTSG7KH.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/C1if1Ua_.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/BQetr6xq.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/CNVFR8DB.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/CdX6RSuv.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/B5tfLoe4.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/dnToVTJY.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/T44tYLLW.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/JiOG9QMS.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/RYoHg17b.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/D_4KzB6x.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/DMCSiO68.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/sPz_q7tv.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/Bo4trdon.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/Cb8_-w-i.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/CJQPldX4.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/BFXGPaQn.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/Dy2ojYGb.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/rnsxLMUg.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/BhA1QETY.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/RHNvqZy5.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/CTWtd2dq.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/CfUTGudI.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/D7HrI6pR.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/rmOhI1yV.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/BQIe4qz3.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/CnwKBhtc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/DmgT8A0V.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/BdMPY2eW.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/igkq2FnS.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/CoeZ6FuU.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/CFq8hCIZ.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/CpBZUp5i.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/C1GmZiKv.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/B3UNCjPN.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/C32Dw5Lb.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/CMaJ4FiK.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/D6R_PC3e.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/BJftZq6t.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/KbsjaNMY.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/C9WoKuPx.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/Br_5lnaP.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/DJuCZ3J8.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/fonts/sharp-grotesk/SharpGroteskMedium20.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/fonts/sharp-grotesk/SharpGroteskBook20.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://o4509915082194944.ingest.de.sentry.io/api/4509915223097424/envelope/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://server-side.goodtape.io/ekrrfdqxc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/socket.io/",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/ingest/static/surveys.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/ingest/static/dead-clicks-autocapture.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/ingest/array/phc_4dfZRHHEitN35BrvMQ9VqjwVVeKUMiGsIUZS62M1dGx/config.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/ingest/flags/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/socket.io/",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/socket.io/",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/socket.io/",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/ingest/static/posthog-recorder.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/recaptcha__en.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/ingest/api/surveys/",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/ccm/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://region1.google-analytics.com/g/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://server-side.goodtape.io/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://js-eu1.hs-scripts.com/147598558.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/ccm/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://analytics.google.com/g/collect",
+        "method": "HEAD",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://js-eu1.hs-banner.com/v2/147598558/banner.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://js-eu1.hs-analytics.net/analytics/1791138600000/147598558.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://js-eu1.hscollectedforms.net/collectedforms.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://js-eu1.hsadspixel.net/pixels.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://server-side.goodtape.io/g/collect",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://forms-eu1.hscollectedforms.net/collected-forms/v1/config/json",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://track-eu1.hubspot.com/__ptq.gif",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://api-eu1.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://forms-eu1.hsforms.com/embed/v3/counters.gif",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/ccm/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://server-side.goodtape.io/g/collect",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/2188476098354623",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.facebook.com/tr/",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      }
+    ],
+    "websockets": ["wss://app.goodtape.io/socket.io/"],
+    "cookies": [
+      "ph_phc_4dfZRHHEitN35BrvMQ9VqjwVVeKUMiGsIUZS62M1dGx_posthog",
+      "__cf_bm",
+      "__hstc",
+      "hubspotutk",
+      "__hssrc",
+      "__hssc",
+      "_ttp",
+      "_fbp",
+      "_gtmeec"
+    ],
+    "globals": [
+      "__remixContext",
+      "__remixManifest",
+      "_sentryDebugIds",
+      "__reactRouterVersion",
+      "__PosthogExtensions__",
+      "__SENTRY__",
+      "__remixRouteModules",
+      "_sentryClientToLogBufferMap",
+      "__remixRouter",
+      "WINDOW_ENV",
+      "cookieConsent",
+      "cookieMatch",
+      "rawConsent",
+      "marketing",
+      "gtag",
+      "dataLayer",
+      "uetq",
+      "___grecaptcha_cfg",
+      "grecaptcha",
+      "__recaptcha_api",
+      "__google_recaptcha_client",
+      "_posthogReleaseId",
+      "_posthogChunkIds",
+      "__sentry_instrumentation_handlers__",
+      "extendPostHogWithSurveys",
+      "_POSTHOG_REMOTE_CONFIG",
+      "google_tag_data",
+      "google_tag_manager",
+      "onYouTubeIframeAPIReady",
+      "gaGlobal",
+      "recaptcha",
+      "scrypt",
+      "_xsd",
+      "_randomPageId",
+      "_hsp",
+      "__hsReferrer",
+      "__hsInitialUrl",
+      "PIXELS_RAN",
+      "enabledEventSettings",
+      "_hsq",
+      "__hsCollectedFormsDebug",
+      "sanitizeKey",
+      "_hstc_ran",
+      "hsCallsToActionsReady",
+      "__hsUserToken",
+      "expireDateTime",
+      "_hstc_loaded",
+      "hsCookieBanner",
+      "_hspb_loaded",
+      "_hspb_ran",
+      "fbq",
+      "_fbq"
+    ]
+  }
+}

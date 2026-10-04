@@ -50,3 +50,12 @@ Claude Desktop, in `claude_desktop_config.json`:
 Set `STACKPROBE_DB` to keep scans in another file. Set `TYPESAFE_API_KEY` to let TypeSafe's Jev
 model decide what kind a surface is (product app, marketing site, docs…) when the rules can't
 tell; without it, scans classify by rules only.
+
+To also load the product app in a headless browser (this is what reveals Supabase, Firebase and
+other SDKs that only show up when the page's JavaScript runs), install Chromium once:
+
+```sh
+pnpm --filter @drippa/stackprobe-browser-playwright install-chromium
+```
+
+Without it, the browser layer is skipped.

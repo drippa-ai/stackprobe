@@ -1,0 +1,29 @@
+{
+  "https://app.leonardo.ai/": {
+    "url": "https://app.leonardo.ai/",
+    "status": 429,
+    "requests": [
+      {
+        "url": "https://app.leonardo.ai/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://app.leonardo.ai/.well-known/vercel/security/static/challenge.v2.min.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.leonardo.ai/.well-known/vercel/security/static/challenge.v2.wasm",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      }
+    ],
+    "websockets": [],
+    "cookies": [],
+    "globals": ["W", "L", "B"]
+  }
+}

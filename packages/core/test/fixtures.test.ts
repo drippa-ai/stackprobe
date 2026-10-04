@@ -144,8 +144,11 @@ test('committed fixtures are complete and contain no secrets', () => {
       ? readdirSync(dir, { withFileTypes: true }).filter((e) => e.isDirectory())
       : [];
     for (const recording of recordings) {
-      const text = readFileSync(new URL(`${recording.name}/net.json`, dir), 'utf8');
-      expect(findSecrets(text), `${dir.pathname} ${recording.name}`).toEqual([]);
+      for (const file of ['net.json', 'browser.json']) {
+        const url = new URL(`${recording.name}/${file}`, dir);
+        if (!existsSync(url)) continue;
+        expect(findSecrets(readFileSync(url, 'utf8')), `${recording.name}/${file}`).toEqual([]);
+      }
     }
   }
   if (existsSync(DECISIONS_FILE)) {

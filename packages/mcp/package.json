@@ -30,6 +30,7 @@
     "start": "node src/bin.ts"
   },
   "dependencies": {
+    "@drippa/stackprobe-browser-playwright": "workspace:*",
     "@drippa/stackprobe-core": "workspace:*",
     "@drippa/stackprobe-decider-typesafe": "workspace:*",
     "@drippa/stackprobe-store-sqlite": "workspace:*",

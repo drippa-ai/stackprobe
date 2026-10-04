@@ -1,5 +1,11 @@
 import { describe, expect, test } from 'vitest';
-import { type Browser, type BrowserCapture, captureSignals, sanitizeCapture } from './browser.ts';
+import {
+  type Browser,
+  type BrowserCapture,
+  captureSignals,
+  ownCapture,
+  sanitizeCapture,
+} from './browser.ts';
 import type { Classification } from './classify.ts';
 import { detect } from './detect.ts';
 import { builtinFingerprints } from './fingerprints/index.ts';
@@ -70,6 +76,64 @@ test('a capture of a Supabase app is detected as Supabase, with its version', ()
   expect(supabase?.version).toBe('2.45.0');
   expect(supabase?.evidence.every((e) => e.layer === 'browser')).toBe(true);
   expect(detections.map((d) => d.tech)).toEqual(expect.arrayContaining(['nextjs', 'clerk']));
+});
+
+describe('ownCapture', () => {
+  const page = (url: string, type = 'document') => ({ url, method: 'GET', type, headers: {} });
+  const left: BrowserCapture = {
+    url: 'https://signin.acme.test/',
+    status: 200,
+    requests: [
+      page('https://app.acme.test/'),
+      page('https://app.acme.test/_next/static/app.js', 'script'),
+      page('https://signin.acme.test/'),
+      page('https://signin.acme.test/_next/static/signin.js', 'script'),
+    ],
+    websockets: ['wss://signin.acme.test/live'],
+    cookies: ['signin_session'],
+    globals: ['__next_f'],
+  };
+
+  test('keeps what happened before the page left for another host, and where it went', () => {
+    expect(ownCapture(left, 'https://app.acme.test/')).toEqual({
+      ...left,
+      requests: [
+        page('https://app.acme.test/'),
+        page('https://app.acme.test/_next/static/app.js', 'script'),
+        page('https://signin.acme.test/'),
+      ],
+      websockets: [],
+      cookies: [],
+      globals: [],
+    });
+  });
+
+  test('a page that stays on its host, or only adds www, is kept whole', () => {
+    expect(ownCapture(left, 'https://signin.acme.test/')).toBe(left);
+    const www = { ...left, url: 'https://www.acme.test/' };
+    expect(ownCapture(www, 'https://acme.test/')).toBe(www);
+  });
+
+  test('a redirect to an Auth0 login still shows Auth0, not the login page stack', () => {
+    const auth0: BrowserCapture = {
+      ...left,
+      url: 'https://acme.eu.auth0.com/u/login',
+      requests: [
+        page('https://app.acme.test/'),
+        page('https://acme.eu.auth0.com/authorize'),
+        page('https://acme.eu.auth0.com/u/login'),
+        page('https://cdn.auth0.com/ulp/react.js', 'script'),
+      ],
+    };
+    const own = ownCapture(auth0, 'https://app.acme.test/');
+    const techs = detect(captureSignals(own), builtinFingerprints()).map((d) => d.tech);
+    expect(techs).toContain('auth0');
+    expect(techs).not.toContain('nextjs');
+    expect(own.requests.map((r) => r.url)).toEqual([
+      'https://app.acme.test/',
+      'https://acme.eu.auth0.com/authorize',
+    ]);
+  });
 });
 
 describe('browserTargets', () => {

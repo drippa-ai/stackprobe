@@ -1,0 +1,611 @@
+{
+  "https://app.qa.tech/": {
+    "url": "https://app.qa.tech/auth/sign-in",
+    "status": 200,
+    "requests": [
+      {
+        "url": "https://app.qa.tech/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/auth/sign-in",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/media/83afe278b6a6bb3c.p.2bn3s6zvc0dyp.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/1oqp1ik8giur4.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/2qv5_t2-2f_1_.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/0-wnuvpaes179.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/3jeehj7aajegz.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/29w9qy1qurka_.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/23asetxkgwioy.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/27pruof2q2dnb.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/1sub44l8ckr2g.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/17mx-6zbovyoe.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/2pu2h9-4wb3jt.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/127c519dj1dwb.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/2hh9fxtrsml4z.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/3wmkucd_ufm03.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/3htcc6efw8oyi.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/turbopack-0-79e1o2th-ka.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/2tdonm4juflgg.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/2gsprul1ol8ef.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/1aluoawgl01l_.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/02t4f1i_f6etf.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/0dlue9lrzea_p.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/1x3jopfg10i-3.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/2tjxkj4am06ni.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/0nngx_pew-88h.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/0r2wsp7-8mffp.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/1xjonk-a-umu8.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/2je20u2txntu8.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/1v_q95021t7su.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/3-3n_eez2vcgm.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/19sct5revbkjz.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/1bewvuqiwmuir.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/chunks/17tzqj49ap8de.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/image",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/image",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_x/static/exception-autocapture.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_x/static/tracing-headers.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_x/array/phc_pLjPr8PHFlQnZYccwi84uV0Ka6wKvexhHalRlgW3ySb/config.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/monitoring",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/static/media/83afe278b6a6bb3c.p.2bn3s6zvc0dyp.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/monitoring",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/monitoring",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/auth/password-reset",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://js-eu1.hs-scripts.com/143323477.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.redditstatic.com/ads/pixel.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://assets.apollo.io/micro/website-tracker/tracker.iife.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.com/ccm/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/auth/sign-in",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_x/static/posthog-recorder.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_x/static/surveys.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_x/static/dead-clicks-autocapture.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_x/static/web-vitals.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_x/flags/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/auth/password-reset",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/auth/sign-in",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pixel-config.reddit.com/pixels/a2_ews2jsuxgogn/config",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://alb.reddit.com/rp",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://region1.analytics.google.com/g/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect",
+        "method": "POST",
+        "type": "ping",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.no/ads/ga-audiences",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion/11487178656/",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.com/ccm/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googleadservices.com/ccm/conversion/11487178656/",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://px.ads.linkedin.com/collect",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/362946813210832",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_x/api/surveys/",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://js-eu1.hs-analytics.net/analytics/1791139500000/143323477.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://js-eu1.hs-banner.com/v2/143323477/banner.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://js-eu1.hsadspixel.net/pixels.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://px.ads.linkedin.com/wa/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11487178656/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://aplo-evnt.com/api/v1/intent_pixel/track_request",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://api-eu1.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.facebook.com/tr/",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://track-eu1.hubspot.com/__ptq.gif",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/a",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://region1.analytics.google.com/g/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      }
+    ],
+    "websockets": [],
+    "cookies": [
+      "anonymousId",
+      "x-analytics-enabled",
+      "_rdt_uuid",
+      "__cf_bm",
+      "_ga",
+      "_ga_GZNKDHNCXB",
+      "_gcl_au",
+      "ph_phc_pLjPr8PHFlQnZYccwi84uV0Ka6wKvexhHalRlgW3ySb_posthog",
+      "bcookie",
+      "li_gc",
+      "lidc",
+      "_fbp",
+      "__hstc",
+      "hubspotutk",
+      "__hssrc",
+      "__hssc"
+    ],
+    "globals": [
+      "_debugIds",
+      "TURBOPACK",
+      "$RB",
+      "$RV",
+      "$RC",
+      "__next_f",
+      "$RT",
+      "NEXT_DEPLOYMENT_ID",
+      "next",
+      "__webpack_hash__",
+      "__PosthogExtensions__",
+      "_sentryRouteManifest",
+      "_sentryNextJsVersion",
+      "_sentryRewritesTunnelPath",
+      "__SENTRY__",
+      "__sentry_instrumentation_handlers__",
+      "dataLayer",
+      "google_tag_data",
+      "google_tag_manager",
+      "rdt",
+      "_linkedin_partner_id",
+      "_linkedin_data_partner_ids",
+      "lintrk",
+      "fbq",
+      "_fbq",
+      "initApollo",
+      "_POSTHOG_REMOTE_CONFIG",
+      "posthogErrorWrappingFunctions",
+      "extendPostHogWithExceptionAutoCapture",
+      "extendPostHogWithExceptionAutocapture",
+      "redditNormalizeEmail",
+      "onYouTubeIframeAPIReady",
+      "gaGlobal",
+      "postHogTracingHeadersPatchFns",
+      "trackingFunctions",
+      "_already_called_lintrk",
+      "ORIBILI",
+      "postHogWebVitalsCallbacks",
+      "extendPostHogWithSurveys",
+      "_hsp",
+      "__hsReferrer",
+      "__hsInitialUrl",
+      "PIXELS_RAN",
+      "enabledEventSettings",
+      "_hsq",
+      "sanitizeKey",
+      "_hstc_loaded",
+      "hsCookieBanner",
+      "_hspb_loaded",
+      "_hspb_ran",
+      "_hstc_ran",
+      "hsCallsToActionsReady",
+      "__hsUserToken",
+      "expireDateTime"
+    ]
+  }
+}

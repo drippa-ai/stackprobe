@@ -2,7 +2,14 @@ import { existsSync } from 'node:fs';
 import { builtinFingerprints, FINGERPRINTS_VERSION } from '../src/fingerprints/index.ts';
 import { scan } from '../src/scan.ts';
 import { ReplayDecider } from './decisions.ts';
-import { DOMAINS_DIR, loadRecording, RECORDINGS_DIR, ReplayNet } from './fixtures.ts';
+import {
+  DOMAINS_DIR,
+  loadBrowserRecording,
+  loadRecording,
+  RECORDINGS_DIR,
+  ReplayBrowser,
+  ReplayNet,
+} from './fixtures.ts';
 import type { GroundTruthRow } from './ground-truth.ts';
 
 // How well scans of the recorded ground-truth surfaces match what their sources say.
@@ -33,6 +40,10 @@ export interface Accuracy {
   kindsWithModel: KindScore[];
   // Questions the model would be asked that have no recorded answer: re-record them.
   decisionMisses: string[];
+  // Pages the browser layer would load that have no recorded capture.
+  browserMisses: string[];
+  // Surfaces scored with recorded browser captures.
+  withBrowser: number;
   // Detected, but the ground truth says nothing either way.
   unverified: { recording: string; tech: string }[];
   // Surfaces left out of the scores, and why.
@@ -128,6 +139,7 @@ export async function measureAccuracy(rows: GroundTruthRow[]): Promise<Accuracy>
   };
   const decider = new ReplayDecider();
   const unverified: Accuracy['unverified'] = [];
+  const browserMisses: string[] = [];
   const notScored: Accuracy['notScored'] = [];
 
   for (const row of rows) {
@@ -148,12 +160,17 @@ export async function measureAccuracy(rows: GroundTruthRow[]): Promise<Accuracy>
       });
       continue;
     }
-    // The CSV describes this exact surface, so no discovery here.
+    // The CSV describes this exact surface, so no discovery here. The browser layer runs where a
+    // scan would run it, from recorded captures.
+    const captures = loadBrowserRecording(row.recording);
+    const browser = captures ? new ReplayBrowser(captures) : undefined;
     const report = await scan(row.surfaceUrl, {
       discover: false,
       net: new ReplayNet(recording),
       now: () => new Date(recording.recordedAt),
+      ...(browser ? { browser } : {}),
     });
+    browserMisses.push(...(browser?.misses ?? []));
     const http = report.layersRun.find((run) => run.layer === 'http');
     if (http?.status !== 'ok') {
       const reason = http?.error ? `${http.error.code}: ${http.error.message}` : 'no HTTP';
@@ -201,6 +218,8 @@ export async function measureAccuracy(rows: GroundTruthRow[]): Promise<Accuracy>
     total: rows.length,
     discovery: await measureDiscovery(rows, decider),
     decisionMisses: [...new Set(decider.misses)].sort(),
+    browserMisses: [...new Set(browserMisses)].sort(),
+    withBrowser: rows.filter((row) => loadBrowserRecording(row.recording)).length,
   };
 }
 
@@ -220,7 +239,7 @@ export function formatAccuracy(accuracy: Accuracy): string {
     'Do not edit by hand: a test fails when this file is out of date.',
     '',
     `Fingerprints version \`${FINGERPRINTS_VERSION}\`. ${accuracy.scored} of ${accuracy.total} ` +
-      'surfaces scored.',
+      `surfaces scored, ${accuracy.withBrowser} of them with recorded browser captures.`,
     '',
     `**Technologies we have fingerprints for: found ${found} of ${found + missed} ` +
       `(${percent(found, found + missed)}). Wrong: ${wrong}.**`,
@@ -303,6 +322,14 @@ export function formatAccuracy(accuracy: Accuracy): string {
       `**${accuracy.decisionMisses.length} decisions have no recorded answer; run ` +
         '`pnpm record-decisions`:** ' +
         accuracy.decisionMisses.join(', '),
+    );
+  }
+  if (accuracy.browserMisses.length) {
+    lines.push(
+      '',
+      `**${accuracy.browserMisses.length} browser loads have no recorded capture; run ` +
+        '`pnpm record-browser`:** ' +
+        accuracy.browserMisses.join(', '),
     );
   }
 

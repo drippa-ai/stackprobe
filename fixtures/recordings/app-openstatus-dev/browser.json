@@ -1,0 +1,283 @@
+{
+  "https://app.openstatus.dev/": {
+    "url": "https://app.openstatus.dev/login",
+    "status": 200,
+    "requests": [
+      {
+        "url": "https://app.openstatus.dev/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/overview",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/login",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/media/797e433ab948586e-s.p.1v5bejj26fx9h.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/media/CalSans_SemiBold-s.p.36fsdtbhywrvd.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/media/CommitMono_400_Italic-s.p.0rnuo2147qah4.otf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/media/CommitMono_400_Regular-s.p.1ot3n3tzfq2ho.otf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/media/CommitMono_700_Italic-s.p.1fmtesxsx53ei.otf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/media/CommitMono_700_Regular-s.p.3hmpgs9gaxjfp.otf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/media/caa3a2e1cccd8315-s.p.0zr6hhvz-h9nw.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/1i-bbnm5x8lh1.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/1us3o-lvuln9k.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://openpanel.dev/op1.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/1w1q-dum89wgn.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/0t4g-i01yicww.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/1wqtnon_j9c7o.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/11ya_humdx8by.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/0n2erjj27forr.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/turbopack-44pb8iy-7j269.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/3t5ektktyf_ua.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/2jtvkbzpybwau.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/1sjw87h_3x02k.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/310_fuk16lic7.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/3cv4-9my0ljsm.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/3ape1_41zr_ls.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/0gk-nefv03l8a.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/1iyyl61n45hds.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/image",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/media/797e433ab948586e-s.p.1v5bejj26fx9h.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/media/CalSans_SemiBold-s.p.36fsdtbhywrvd.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/media/CommitMono_400_Italic-s.p.0rnuo2147qah4.otf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/media/CommitMono_400_Regular-s.p.1ot3n3tzfq2ho.otf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/media/CommitMono_700_Italic-s.p.1fmtesxsx53ei.otf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/media/CommitMono_700_Regular-s.p.3hmpgs9gaxjfp.otf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/media/caa3a2e1cccd8315-s.p.0zr6hhvz-h9nw.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/3b2d0lhl8xx3q.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://o4505782661349376.ingest.us.sentry.io/api/4510552198479872/envelope/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://o4505782661349376.ingest.us.sentry.io/api/4510552198479872/envelope/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://openpanel.dev/op1-replay.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://api.openpanel.dev/track",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      }
+    ],
+    "websockets": [],
+    "cookies": [
+      "auth-redirect",
+      "__Host-authjs.csrf-token",
+      "__Secure-authjs.callback-url",
+      "x-currency"
+    ],
+    "globals": [
+      "_debugIds",
+      "TURBOPACK",
+      "__next_f",
+      "NEXT_DEPLOYMENT_ID",
+      "next",
+      "__webpack_hash__",
+      "_sentryRouteManifest",
+      "_sentryNextJsVersion",
+      "__SENTRY__",
+      "__sentry_instrumentation_handlers__",
+      "_sentryWrappedDepth",
+      "__NuqsAdapterContext",
+      "openpanel",
+      "__openpanel_replay"
+    ]
+  }
+}

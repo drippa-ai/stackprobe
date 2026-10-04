@@ -1,0 +1,609 @@
+{
+  "https://www.perplexity.ai/hub/": {
+    "url": "https://www.perplexity.ai/hub",
+    "status": 200,
+    "requests": [
+      {
+        "url": "https://www.perplexity.ai/hub/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://www.perplexity.ai/hub",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://frontend-cdn.perplexity.ai/_agi_assets/fonts/PPLX-Sans-Beta-v2-VF.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://frontend-cdn.perplexity.ai/_agi_assets/fonts/PPLX-Serif-Beta-v2-VF.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://frontend-cdn.perplexity.ai/_agi_assets/fonts/FKGroteskNeue.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/index.html-C4dTx59-.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/rolldown-runtime-BYbx6iT9.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/vite-l9Q5E00E.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/vendors-DI6JD-XO.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/pplx-icons-D_S1l24Q.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/platform-core-QnzOnuIV.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/aether-core-Cf38cbe5.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/i18n-BTCIV-aP.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/dist-DGfKqoeH.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/react-spring_web.modern-DrXPfzNY.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/react-query-DbSGb-Bc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/pplx-stream-Dllod_LU.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/platform-components-DsGWPfMO.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/useAetherContext-CmwrN94Y.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/ManagedModalLifecycleContext-H3qxwrTk.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/config-yF9Ke0PX.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/Motion-CMNV_v16.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/Surface-yBA7voQd.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/elevation-BTay4dr6.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/useAetherLabels-CsXAU6A6.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/ModalContext-GmJPM1NF.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/ToastContext-Djuqjx7R.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/openfeature-uAw9p1yA.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/experimentation-B-ZDfREP.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/useGdprConsent-CbO-5ZYW.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/marketingHostRouteAliases-BrWsUv4m.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/ResolvedMarketingLocationContext-B0zTnlRK.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/MarketingQueryStateContext-Cwbq2P3x.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/browserSanityDocumentMode-vVK7wRul.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/Shared-BJN7R0CD.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/types-DtQQ35k9.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/r2Asset-B6630YKB.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/consts-B9uRFDHh.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/SingularAttributionProviderShared-DyvNnEqP.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/style-BnRoHGTn.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://frontend-cdn.perplexity.ai/_agi_assets/marketing/hub/hero/hero-highres-v4.webp",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://frontend-cdn.perplexity.ai/_agi_assets/marketing/hub/subhead/phone-aura.jpg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://frontend-cdn.perplexity.ai/_agi_assets/marketing/hub/subhead/comb.jpg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://r2cdn.perplexity.ai/js/count/0.1.0/loader.min.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://frontend-cdn.perplexity.ai/_agi_assets/marketing/hub/subhead/bubbles-hand.jpg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.perplexity.ai/unifyintent.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://frontend-cdn.perplexity.ai/_agi_assets/marketing/hub/subhead/portrait-glow.jpg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://edge.perplexity.ai/image",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://frontend-cdn.perplexity.ai/_agi_assets/marketing/hub/hero/hub-hero-video.mp4",
+        "method": "GET",
+        "type": "media",
+        "headers": {}
+      },
+      {
+        "url": "https://tag.unifyintent.com/v1/A3gCbGqrKTjKGRFjZDjrdQ/script.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://count.perplexity.ai/bs",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://frontend-cdn.perplexity.ai/_agi_assets/fonts/PPLX-Mono-Beta-v0-VF.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://frontend-cdn.perplexity.ai/_agi_assets/fonts/GT-Canon-VF.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://frontend-cdn.perplexity.ai/_agi_assets/fonts/GT-Canon-Italic-VF.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://frontend-cdn.perplexity.ai/_agi_assets/marketing/hub/subhead/sphere.jpg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://frontend-cdn.perplexity.ai/_agi_assets/marketing/hub/backgrounds/abstract-frabric-light-2.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://frontend-cdn.perplexity.ai/_agi_assets/marketing/hub/backgrounds/flower-garden-3.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/hub-Cx83prAV.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/Header-B08SN0IN.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/Logo-GYCFvKEB.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/withInstrumentationScope-BaP_V6Bz.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/InstrumentationScope-BfR2nY-X.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/easing-DOPtNfmj.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/Faq-CjjkcTAC.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/NimbusSection-BA1TY8_6.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/localizableString-CTGoYb0A.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/Footer-D_Epa4VU.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/useInView-DL6qFkul.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/hubIcons-CLW7e46i.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.perplexity.ai/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://frontend-cdn.perplexity.ai/_agi_assets/fonts/PPLX-Serif-Italic-Beta-v2-VF.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://www.perplexity.ai/cdn-cgi/challenge-platform/h/b/scripts/jsd/d76008a69eab/main.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://count.perplexity.ai/api/v1/bs/618b666a7a0ecf98337180c96a2fbbdfa2eb8e04754144bbb6311d6620fc62f0",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://count.perplexity.ai/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.perplexity.ai/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.3474752098377132:1791140719:alDAYYfkN58eOJWZXxbV5w3T7w9G9kaDLyqxKL-gyxM/a456c2d8af7b56b7",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://count.perplexity.ai/cdn-cgi/challenge-platform/h/b/scripts/jsd/d76008a69eab/main.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://count.perplexity.ai/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.3474752098377132:1791140719:alDAYYfkN58eOJWZXxbV5w3T7w9G9kaDLyqxKL-gyxM/a456c2dbcacc56b7",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/dist-CeDAvWL7.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/eppo-sdk-C4hZNuaj.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/GlobalToastRenderer-15B6oVnI.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.perplexity.ai/rest/models/config/v2",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.perplexity.ai/rest/user/info",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.perplexity.ai/api/auth/session",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/loadDatadogOpenFeatureProvider-p0Bay09X.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://fscdn.eppo.cloud/api/flag-config/v1/config",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.perplexity.ai/rest/visitor/consent-requirement",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://api.unifyintent.com/analytics/v1/page",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.perplexity.ai/rest/event/analytics",
+        "method": "POST",
+        "type": "ping",
+        "headers": {}
+      },
+      {
+        "url": "https://count.perplexity.ai/api/v1/bs",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://count.perplexity.ai/cdn-cgi/rum",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://www.perplexity.ai/cdn-cgi/rum",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://www.perplexity.ai/rest/models/config/v2",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.perplexity.ai/rest/models/config/v2",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      }
+    ],
+    "websockets": [],
+    "cookies": [
+      "pplx.visitor-id",
+      "pplx.session-id",
+      "pplx.metadata",
+      "_dd_s_v2",
+      "cf_clearance",
+      "__cf_bm",
+      "__cflb",
+      "unify_session_id",
+      "IndrX2c1OFdjNG9oXzgxd1JocUVVWGFadkNMVEZaYlkzeGRCUlRlR1JldWhCX3VuaWZ5X3Nlc3Npb25faWQi",
+      "unify_visitor_id",
+      "IndrX2c1OFdjNG9oXzgxd1JocUVVWGFadkNMVEZaYlkzeGRCUlRlR1JldWhCX3VuaWZ5X3Zpc2l0b3JfaWQi"
+    ],
+    "globals": [
+      "__PPL_INITIAL_SERVER_ROUTE__",
+      "__PPL_INITIAL_SERVER_DATA__",
+      "__PPL_INITIAL_SESSION__",
+      "unify",
+      "unifyBrowser",
+      "DD_LOGS",
+      "DD_RUM",
+      "__CONTEXT_REGISTRY__",
+      "__cfBeacon"
+    ]
+  }
+}

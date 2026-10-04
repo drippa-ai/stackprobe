@@ -1,0 +1,871 @@
+{
+  "https://getcircular.ai/login": {
+    "url": "https://getcircular.ai/login",
+    "status": 200,
+    "requests": [
+      {
+        "url": "https://getcircular.ai/login",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/media/4473ecc91f70f139-s.p.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/media/463dafcda517f24f-s.p.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/media/b1edc04b1a551a15-s.p.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/api/gradient",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/css/6eef696d342ace66.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/css/3fac3464f0551057.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/webpack-0c70e006b1645aa9.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/ab71fe2e-86ffc8fe8760e451.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/37206-ca7da75fe76959db.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/main-app-fd1784bf577e444e.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/0d813d77-d3b4b989ffa96258.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/44964-28ea2b6bdbfb8a99.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/29598-53194e1804e5b088.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/8347-51dc413e3302c28f.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/77197-686fdd59b41d6746.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/40936-af88b39a8df7bb05.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/app/layout-7a0e19c7bedfd572.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/47324-02a7e0eee5669ad9.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/59453-6d92f42e4f657550.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/37975-ad3b4d61f80fa5a7.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/app/(site)/layout-2d23632d8c9f3d35.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/08ffd5a1-9dedab42a7562aa0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/6317-d178cb7bfb30b409.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/71863-289aa582025445b7.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/20196-aaca0586678b6c44.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/19727-5e14e3ed9c945c3f.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/92011-fac43d5b52e514a6.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/25423-243c0bd114bab282.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/97208-828a51a2437f5d9f.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/65588-53718a6fcb7ccbd9.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/72983-089b8cd8f264044c.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/69172-75b11cc963cb5cd1.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/82576-df6953936c430004.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/app/(site)/page-a140ab77eceaa07d.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/35652-e212ee14758cc48a.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/8640-d2481b90d02f6254.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/83504-eec607a5c43b5993.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/95312-62b6c7856b674c45.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/94059-a1c72fe907389f48.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/app/(site)/login/page-0c17093a1e561bf1.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/logo-new-9.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.clarity.ms/tag/ux84x144hj",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_vercel/insights/script.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/embed/script",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://ndoyjyehjpocvtgvafym.supabase.co/functions/v1/script",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_vercel/speed-insights/script.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/product",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/news",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/pricing",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/how-it-works",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://scripts.clarity.ms/0.8.70/clarity.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://ndoyjyehjpocvtgvafym.supabase.co/functions/v1/ingest",
+        "method": "POST",
+        "type": "ping",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/embed/project-settings",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/app/(site)/news/page-7e8e846d2fca3901.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/demo",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/media/4c4b46c0e834e406-s.p.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/css/834ed8fbc32cb658.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/app/(site)/product/page-58df2cadf6af01f8.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/onboarding",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/71900-12dfb0b76967b0b7.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/app/(site)/how-it-works/page-ef84c9edc0ed62a0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/features",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/embed/widget.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/embed/chat/69037c6e3b38bdc02289bc95",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://cdn.heyo.so/cdn-cgi/image/width=128,height=128,fit=cover,format=auto,quality=90/users/69037c6d3b38bdc02289bc7e/avatar",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cdn.heyo.so/users/69037c6d3b38bdc02289bc7e/avatar",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/entry.iosi5RFY.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/embed-chat.BWafHOgT.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/chat-message-list.C-lhDN3V.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/modal-bookmark-tags.Jq5wffmP.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/BbWQSGCF.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/zYNrTtLW.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/DlAUqK2U.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/Cw8DzHK1.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/Cwd8hTZg.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/CM2P-9v2.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/CQoWTSbt.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/DYbIl49f.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/DiXYOKmW.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/CAPjrvhR.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/kP38rdpV.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/C6Y-ieo6.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/CRZQzBEj.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/BYcEDLnz.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/Df7OMhDN.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/BD0Zy5TW.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/D0hVk09N.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/bsyCNCYk.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/pumbXwiZ.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/CkySDlzD.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/Bj7fHGYo.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/BcK8X44W.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/CpXcVXMZ.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/Bya_Osll.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/DDy_xPqy.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/BEF_eybY.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/Ck-AVot4.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/Bd8G4IsQ.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/C8umKnH0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/SGdMe6JY.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/BMR_hRvf.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/Br6CRVe9.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/7g205X1b.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/BGuyRkUc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/CZK_xhj6.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/C8-s_yoo.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/CtcPo4U_.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/IFPKBb3E.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_fonts/ZHaz3DhCHNWhsElqYfuM71rfBBDgjuU2sd34vaYJwQg-71NZaZSGjxzAGjCMnCc2zS5rS_EGA0xHKPGCggWuXik.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_fonts/HgJel4iAS5mDVqJaDUYKmxaMJg4zKHTGmyD1FQkOsTM-2hVuuQIZ4GSGMgNv6dvlqz7cfD6lr7xLohUph7OCgFg.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/embed/project-settings",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/app/(site)/demo/page-182076b505737f68.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/charities",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/css/7e7d96b1e6991756.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/80959-769852cd0891575f.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/app/(site)/onboarding/page-3a1bda5b74484b9f.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/business-models",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/about",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/app/(site)/pricing/page-5b98ec17495d6a79.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/resources",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://cdn.heyo.so/users/69037c6d3b38bdc02289bc7e/avatar",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_fonts/RUUN-23UGP8yTJV6xaMhEeTm2TLDCA206NGUBPDCQyk-xkhXnPxF1UcF1sQuTpcjj6vj81p3pox8F65G5ndYOYs.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_fonts/ppPcyD9u3AAh0XAJnxi7vJUfx53qxORStdLloFeDOew-yg9zZpRrZit_sUTwUa9zS6y6ilu4ghjvIE_Mw6kE5D8.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_fonts/Jtqhy44WKYEjGWTSusP5YJfJv7Wf74QqgkBOI9u_77s-Rl_Bht5SvmaotE20bkavBEAJEEGEa0hcz3d_8yOeXmw.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/api/_nuxt_icon/fa6-solid.json",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_fonts/KCD5gdyGvwD04J2YZVfG5P-c82WM-ESA68SM8qCokq0-VU4O6gA3mknWHXkXUMY7aShByLKqEZOCYay7MuxAVuU.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/app/(site)/charities/page-0f026f24735620fb.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/app/(site)/about/page-9d78ffe0d2957acc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://heyo.so/_nuxt/builds/meta/4bb98532-1cb8-4341-bec4-087afb88808f.json",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/30326-ae34ded05b933016.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/92659-e7def498ac459bfd.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/68898-aa4a34712fa32fe4.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/72531-eb84f77bde544152.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/app/(site)/resources/layout-d500e7caca700624.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://getcircular.ai/_next/static/chunks/app/(site)/resources/page-13b14c338a965706.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      }
+    ],
+    "websockets": ["wss://heyo.so/ws"],
+    "cookies": [
+      "mp_d5639119610fbcd82434d748d20d1563_mixpanel",
+      "_ga",
+      "_ga_5E1PZPCWD6",
+      "heyo-vid/69037c6e3b38bdc02289bc95"
+    ],
+    "globals": [
+      "V_C",
+      "__next_f",
+      "webpackChunk_N_E",
+      "_N_E",
+      "next",
+      "_N_E_STYLE_LOAD",
+      "__mp_recorder",
+      "clarity",
+      "vam",
+      "va",
+      "c15tStore",
+      "gtag",
+      "dataLayer",
+      "si",
+      "google_tag_data",
+      "google_tag_manager",
+      "onYouTubeIframeAPIReady",
+      "__clr",
+      "HEYO",
+      "gaGlobal"
+    ]
+  }
+}

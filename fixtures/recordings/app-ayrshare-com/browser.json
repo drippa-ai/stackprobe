@@ -1,0 +1,449 @@
+{
+  "https://app.ayrshare.com/": {
+    "url": "https://app.ayrshare.com/login",
+    "status": 200,
+    "requests": [
+      {
+        "url": "https://app.ayrshare.com/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/cdn-cgi/speculation",
+        "method": "GET",
+        "type": "other",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/media/c825fd02acae0153-s.p.1q3-y3vmyf3p6.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/3j_oe1hpzneix.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/3whblwp65mfbj.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/1ver93wp6g6fn.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/1havn6tn5y3f3.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/0_yl-0ndn2dug.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/04dhk6r345-e5.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/turbopack-22ccywoolswdg.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/16715nxz6ddcm.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/30vg0u6c2w5dc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/1ggbayewp1sck.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/06gnzqbap7id_.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/1qy34a0bhj7-c.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/05g964k-9ztmw.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/2lemjrgodcdzl.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/2jo8bj3jkhn8y.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/2_4otq-940jdc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/3v5u2ufj_h39-.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/3d5tca51boszp.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/13zirg5pxl6zy.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/0--rfylb-_5tg.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/20soeyw30fqce.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/2gnzs_aj_6b_y.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/3irgqij6wi8ri.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/38yt8txw62r8y.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/1o4y8ia-esgov.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/217lao5xekzy9.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/3a7ztx8kjl8sb.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/cdn-cgi/rum",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/0dj05-rv4-q8i.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/054pvjlek5ez2.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/2vj30pjg4dy9u.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/33yb83gc_d7v9.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/0k2zstqdztzcs.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/12309_vgku8n_.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.com/ccm/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://firebase.googleapis.com/v1alpha/projects/-/apps/1:481832134203:web:d29cf4688cb14f31ba1e1e/webConfig",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://firebaseinstallations.googleapis.com/v1/projects/ayrshare/installations",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {
+          "x-firebase-client": "eyJ2ZXJzaW9uIjoyLCJoZWFydGJlYXRzIjpbeyJhZ2VudCI6ImZpcmUtY29yZS8wLjE2LjIgZmlyZS1jb3JlLWVzbTIwMjAvMC4xNi4yIGZpcmUtanMvIGZp"
+        }
+      },
+      {
+        "url": "https://app.ayrshare.com/login.txt",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/recaptcha__en.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/1m4y1fbb_o6kh.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/3-2a5madw9xbe.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/2k_acyl7qr_wd.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/2ewlmm2ljkgb2.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/0w0aopuyamqb6.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/0epkoun0jlwp2.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/media/c825fd02acae0153-s.p.1q3-y3vmyf3p6.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/0xjwmg-1fprw0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://region1.analytics.google.com/g/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect",
+        "method": "POST",
+        "type": "ping",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.no/ads/ga-audiences",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/styles__ltr.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/recaptcha__en.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/webworker.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/recaptcha__en.js",
+        "method": "GET",
+        "type": "other",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.com/ccm/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      }
+    ],
+    "websockets": [],
+    "cookies": ["_gcl_au", "_ga", "_ga_601PYKGM15"],
+    "globals": [
+      "TURBOPACK",
+      "__next_f",
+      "NEXT_DEPLOYMENT_ID",
+      "next",
+      "__webpack_hash__",
+      "__cfBeacon",
+      "__NuqsAdapterContext",
+      "gtag",
+      "dataLayer",
+      "google_tag_data",
+      "google_tag_manager",
+      "__ayrshareDashboardAppCheckInitialized",
+      "__ayrshareDashboardAnalyticsInitialized",
+      "___grecaptcha_cfg",
+      "grecaptcha",
+      "__recaptcha_api",
+      "__google_recaptcha_client",
+      "recaptcha",
+      "scrypt",
+      "closure_lm_176384",
+      "gaGlobal"
+    ]
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "https://app.humata.ai/": {
+    "url": "https://app.humata.ai/login",
+    "status": 200,
+    "requests": [
+      {
+        "url": "https://app.humata.ai/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/fonts/stylesheet.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/css/0374ed014e6d1442.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/webpack-6d3ba2b371439074.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/framework-0c3bd8565bf0b876.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/main-a6be0cf89893215c.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/pages/_app-6e155927e37b253b.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/pages/index-01c7dac1feaa9095.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/Ziw4EGO2lfvslUvsHbtOO/_buildManifest.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/Ziw4EGO2lfvslUvsHbtOO/_ssgManifest.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://widget.intercom.io/widget/ni8ix7uw",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://r.wdfl.co/rw.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/media/Sohne-Leicht.355f2437.otf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/fonts/Sohne-Leicht.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/data/Ziw4EGO2lfvslUvsHbtOO/logout.json",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/fonts/Sohne-Leicht.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/fonts/Sohne-Extraleicht.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/fonts/Sohne-Extraleicht.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/954613023339162",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/pages/logout-76a784e359642b74.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/css/cb924e2a3cca105f.css",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://region1.analytics.google.com/g/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect",
+        "method": "POST",
+        "type": "ping",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.no/ads/ga-audiences",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.com/ccm/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/data/Ziw4EGO2lfvslUvsHbtOO/login.json",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://js.intercomcdn.com/frame.9e82d32e.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://js.intercomcdn.com/vendor.6b1beca3.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.facebook.com/tr/",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/2510-f3a040a4412a45cc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/2151-8085add93c241adf.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/pages/login-7a1ea0503d25c511.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/css/58224b8182870a7f.css",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://api-iam.intercom.io/messenger/web/launcher_settings",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://api-iam.intercom.io/messenger/web/ping",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://www.facebook.com/tr/",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/media/Sohne-Kraftig.ad11ba52.otf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/media/Sohne-Halbfett.3d53fd4b.otf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/media/Sohne-Buch.3f4fe154.otf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/logo.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/logomark.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/fonts/Sohne-Kraftig.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/image",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/image",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/image",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/image",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/fonts/Sohne-Kraftig.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/data/Ziw4EGO2lfvslUvsHbtOO/forgot-password.json",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/data/Ziw4EGO2lfvslUvsHbtOO/signup.json",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/pages/forgot-password-4879f8ba0a2d6ba3.js",
+        "method": "GET",
+        "type": "other",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/pages/forgot-password-4879f8ba0a2d6ba3.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/css/88edcb258734b63d.css",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/329aca58-dcd01da07c3b6a2a.js",
+        "method": "GET",
+        "type": "other",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/7651-a69a0d62b3b303a1.js",
+        "method": "GET",
+        "type": "other",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/pages/signup-2a1328b29c1dbeca.js",
+        "method": "GET",
+        "type": "other",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/329aca58-dcd01da07c3b6a2a.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/7651-a69a0d62b3b303a1.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/pages/signup-2a1328b29c1dbeca.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/css/51296d1ccc30e6b1.css",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.com/ccm/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      }
+    ],
+    "websockets": [
+      "wss://nexus-websocket-a.intercom.io/pubsub/5-RBIQGVfwK41uWJtmUas4aApXtwAxbR6J_pnt6ZxBbnf1-ouStg908XwFhKohMDNfuMhLTSWzT--eCXS40v8SSZtWiDqG9zOSp_6e"
+    ],
+    "cookies": [
+      "_ga",
+      "_gcl_au",
+      "_fbp",
+      "intercom-id-ni8ix7uw",
+      "intercom-session-ni8ix7uw",
+      "intercom-device-id-ni8ix7uw",
+      "_ga_98M4H1DSL3"
+    ],
+    "globals": [
+      "_rwq",
+      "rewardful",
+      "webpackChunk_N_E",
+      "__next_set_public_path__",
+      "next",
+      "__NEXT_DATA__",
+      "__SSG_MANIFEST_CB",
+      "__NEXT_P",
+      "_N_E",
+      "__PosthogExtensions__",
+      "regeneratorRuntime",
+      "pdfjsLib",
+      "__NEXT_PRELOADREADY",
+      "__MIDDLEWARE_MATCHERS",
+      "__BUILD_MANIFEST",
+      "__SSG_MANIFEST",
+      "intercomSettings",
+      "Intercom",
+      "dataLayer",
+      "gtag",
+      "fbq",
+      "_fbq",
+      "__defNormalProp",
+      "__spreadValues",
+      "_rewardful_loaded",
+      "Rewardful",
+      "google_tag_data",
+      "google_tag_manager",
+      "onYouTubeIframeAPIReady",
+      "gaGlobal",
+      "__intercomAssignLocation",
+      "__intercomReloadLocation"
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "https://app.drippa.ai/": {
+    "url": "https://app.drippa.ai/login",
+    "status": 200,
+    "requests": [
+      {
+        "url": "https://app.drippa.ai/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/login",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/media/017d9bea37084d9b-s.p.2fl0vhx7oyatw.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/media/797e433ab948586e-s.p.1v5bejj26fx9h.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/image",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/2low7b3ympyxz.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/1cxkq6t8rbtbq.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/image",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/1bdglmhk3io3-.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/37j0fse5aqm7e.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/0310rj95uuxr8.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/0zqe33iojj7x3.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/2w05p8no808ff.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/turbopack-283cq43m6ay11.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/0l6c8_4m8g6g9.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/0ij9f9es4gkuc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/2fdvq3sqnt5m4.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/20jguie8mkqa2.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/2ib4s3mz05paj.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/media/017d9bea37084d9b-s.p.2fl0vhx7oyatw.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/media/797e433ab948586e-s.p.1v5bejj26fx9h.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      }
+    ],
+    "websockets": [],
+    "cookies": [],
+    "globals": [
+      "__next_s",
+      "__next_f",
+      "TURBOPACK",
+      "NEXT_DEPLOYMENT_ID",
+      "next",
+      "__webpack_hash__",
+      "__ENV"
+    ]
+  }
+}
