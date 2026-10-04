@@ -16,7 +16,7 @@ import {
   surfaceTarget,
 } from '@drippa/stackprobe-core';
 import { FatalError } from 'workflow';
-import { getNet, getStore } from '../lib/services.ts';
+import { getDecider, getNet, getStore } from '../lib/services.ts';
 
 // The surface the user asked for. A step because workflow code can't load core.
 export async function rootSurfaceStep(url: string): Promise<SurfaceTarget> {
@@ -71,7 +71,8 @@ export async function classifyStep(
   surfaces: SurfaceResults[],
 ): Promise<Record<string, Classification>> {
   'use step';
-  return classifySurfaces(surfaces);
+  const decider = getDecider();
+  return classifySurfaces(surfaces, decider ? { decider } : {});
 }
 
 // Builds the report from every surface's results and marks the scan done or partial.

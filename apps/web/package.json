@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@drippa/stackprobe-core": "workspace:*",
+    "@drippa/stackprobe-decider-typesafe": "workspace:*",
     "@drippa/stackprobe-store-postgres": "workspace:*",
     "next": "^16.3.8",
     "react": "^19.3.0",

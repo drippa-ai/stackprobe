@@ -1,4 +1,5 @@
 import {
+  type Decider,
   diffReports,
   type Net,
   Report,
@@ -16,6 +17,8 @@ import { runScanLocally } from './local-runner.ts';
 export interface ServerOptions {
   store: Store;
   net: Net;
+  // Settles surface kinds the rules can't; rules only without one.
+  decider?: Decider;
   now?: () => Date;
 }
 
@@ -32,7 +35,7 @@ const which = {
 };
 
 // The stackprobe MCP server. Each tool is a thin wrapper around core.
-export function createServer({ store, net, now }: ServerOptions): McpServer {
+export function createServer({ store, net, now, decider }: ServerOptions): McpServer {
   const server = new McpServer({ name: 'stackprobe', version: STACKPROBE_VERSION });
 
   server.registerTool(
@@ -62,7 +65,7 @@ export function createServer({ store, net, now }: ServerOptions): McpServer {
             ...(now ? { now } : {}),
             start: async (created) => {
               ran = true;
-              await runScanLocally(store, net, created);
+              await runScanLocally(store, net, created, decider);
             },
           },
           { force: force ?? false },

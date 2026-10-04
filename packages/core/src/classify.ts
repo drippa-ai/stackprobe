@@ -48,6 +48,10 @@ interface Vote {
 export const RULES_SETTLE = 0.75;
 // Without a Decider, rules still name a kind from this confidence; below it, unclassified.
 export const RULES_MINIMUM = 0.6;
+// A Decider's answer counts only this sure. On our ground truth Jev was 0.93 or more on the
+// marketing sites it got right, and 0.59 to 0.87 on the product homepages it got wrong: below
+// this, not knowing beats being wrong.
+export const DECIDER_MINIMUM = 0.9;
 
 const APP_SECTIONS = /^(?:login|log-in|signin|sign-in|auth|dashboard|console|app|account)$/i;
 const SIGNUP_SECTIONS = /^(?:signup|sign-up|register|onboarding|get-started)$/i;
@@ -152,22 +156,60 @@ export async function classifySurfaces(
             : { kind: 'unclassified', confidence: null, reasons: rules.reasons, decidedBy: 'none' };
         return;
       }
-      const decision = await options.decider.choose({
-        instructions:
-          'What kind of web surface is this? Judge from its address, how the scan reached it, ' +
-          'its title and description, the links on it, and the technologies detected on it.',
-        options: KIND_DESCRIPTIONS,
-        state: surfaceState(target, signals, detections),
-      });
+      let decision: {
+        choice: ClassifiedKind;
+        probabilities: Record<ClassifiedKind, number>;
+        confidence: number;
+      };
+      try {
+        decision = await options.decider.choose(kindQuestion(target, signals, detections));
+      } catch {
+        // A model outage or an empty credit balance must not fail the scan: rules only, then.
+        out[target.id] =
+          (rules.confidence ?? 0) >= RULES_MINIMUM
+            ? { ...rules, reasons: [...rules.reasons, 'decision model unavailable'] }
+            : {
+                kind: 'unclassified',
+                confidence: null,
+                reasons: [...rules.reasons, 'decision model unavailable'],
+                decidedBy: 'none',
+              };
+        return;
+      }
+      const sure = decision.probabilities[decision.choice] ?? decision.confidence;
+      if (sure < DECIDER_MINIMUM) {
+        const unsure = `decision model unsure (${Math.round(sure * 100)}% ${decision.choice})`;
+        out[target.id] =
+          (rules.confidence ?? 0) >= RULES_MINIMUM
+            ? { ...rules, reasons: [...rules.reasons, unsure] }
+            : {
+                kind: 'unclassified',
+                confidence: null,
+                reasons: [...rules.reasons, unsure],
+                decidedBy: 'none',
+              };
+        return;
+      }
       out[target.id] = {
         kind: decision.choice,
-        confidence: round(decision.probabilities[decision.choice] ?? decision.confidence),
+        confidence: round(sure),
         reasons: [...rules.reasons, 'judged by the decision model'],
         decidedBy: 'decider',
       };
     }),
   );
   return out;
+}
+
+// The question a Decider gets about one surface.
+export function kindQuestion(target: SurfaceTarget, signals: Signal[], detections: Detection[]) {
+  return {
+    instructions:
+      'What kind of web surface is this? Judge from its address, how the scan reached it, ' +
+      'its title and description, the links on it, and the technologies detected on it.',
+    options: KIND_DESCRIPTIONS,
+    state: surfaceState(target, signals, detections),
+  };
 }
 
 // Public facts about a surface, for a Decider. Never cookie values or anything private.

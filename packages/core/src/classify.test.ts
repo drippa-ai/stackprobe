@@ -136,6 +136,33 @@ describe('classifySurfaces', () => {
     expect(kinds.b).toMatchObject({ kind: 'unclassified', confidence: null, decidedBy: 'none' });
   });
 
+  test('an unsure or failing decider leaves the surface unclassified', async () => {
+    const unsure: Decider = {
+      async choose(question) {
+        const keys = Object.keys(question.options);
+        const probabilities = Object.fromEntries(keys.map((k) => [k, k === 'app' ? 0.7 : 0.05]));
+        return { choice: 'app' as never, probabilities: probabilities as never, confidence: 0.5 };
+      },
+    };
+    const failing: Decider = {
+      async choose() {
+        throw new Error('402 out of credit');
+      },
+    };
+    for (const decider of [unsure, failing]) {
+      const kinds = await classifySurfaces(
+        [
+          {
+            ...surface('https://acme.test/'),
+            target: { ...target('https://acme.test/'), id: 'b' },
+          },
+        ],
+        { decider },
+      );
+      expect(kinds.b).toMatchObject({ kind: 'unclassified', confidence: null, decidedBy: 'none' });
+    }
+  });
+
   test('a decider settles only what rules cannot', async () => {
     const model = decider('app');
     const kinds = await classifySurfaces(

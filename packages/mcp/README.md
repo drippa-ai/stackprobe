@@ -47,4 +47,6 @@ Claude Desktop, in `claude_desktop_config.json`:
 }
 ```
 
-Set `STACKPROBE_DB` to keep scans in another file.
+Set `STACKPROBE_DB` to keep scans in another file. Set `TYPESAFE_API_KEY` to let TypeSafe's Jev
+model decide what kind a surface is (product app, marketing site, docs…) when the rules can't
+tell; without it, scans classify by rules only.

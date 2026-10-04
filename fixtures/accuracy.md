@@ -28,33 +28,33 @@ Fingerprints version `84c9355fa9ff`. 46 of 49 surfaces scored.
 
 ## Surface kinds
 
-**Kind right for 27 of 42 surfaces (64%). Wrong: 0; the rest were left unclassified.** Each surface scanned on its own, by rules only.
+**Rules only: kind right for 27 of 42 surfaces (64%), wrong 0, the rest left unclassified. With the decision model (Jev, recorded answers): right for 38 of 42 (90%), wrong 0.** Each surface scanned on its own.
 
-| Kind | Right | Wrong | Unclassified |
-| --- | --- | --- | --- |
-| app | 17 | 0 | 3 |
-| docs | 2 | 0 | 0 |
-| marketing | 8 | 0 | 12 |
+| Kind | Rules: right | wrong | unclassified | With Jev: right | wrong | unclassified |
+| --- | --- | --- | --- | --- | --- | --- |
+| app | 17 | 0 | 3 | 17 | 0 | 3 |
+| docs | 2 | 0 | 0 | 2 | 0 | 0 |
+| marketing | 8 | 0 | 12 | 19 | 0 | 1 |
 
-- app www-openevidence-com: unclassified
-- app www-udio-com: unclassified
-- app thehouse-id: unclassified
-- marketing www-notion-com: unclassified
-- marketing ramp-com: unclassified
-- marketing www-chatbase-co: unclassified
-- marketing metamask-io: unclassified
-- marketing tray-ai: unclassified
-- marketing speechify-com: unclassified
-- marketing navan-com: unclassified
-- marketing www-leagueoflegends-com: unclassified
-- marketing superthread-com: unclassified
-- marketing engineering-intility-com: unclassified
-- marketing bizee-com: unclassified
-- marketing payloadcms-com: unclassified
+- app thehouse-id: rules unclassified, with Jev unclassified
+- app www-openevidence-com: rules unclassified, with Jev unclassified
+- app www-udio-com: rules unclassified, with Jev unclassified
+- marketing bizee-com: rules unclassified, with Jev marketing
+- marketing engineering-intility-com: rules unclassified, with Jev marketing
+- marketing metamask-io: rules unclassified, with Jev marketing
+- marketing navan-com: rules unclassified, with Jev marketing
+- marketing payloadcms-com: rules unclassified, with Jev marketing
+- marketing ramp-com: rules unclassified, with Jev marketing
+- marketing speechify-com: rules unclassified, with Jev marketing
+- marketing superthread-com: rules unclassified, with Jev unclassified
+- marketing tray-ai: rules unclassified, with Jev marketing
+- marketing www-chatbase-co: rules unclassified, with Jev marketing
+- marketing www-leagueoflegends-com: rules unclassified, with Jev marketing
+- marketing www-notion-com: rules unclassified, with Jev marketing
 
 ## Finding the app
 
-**Scanning the company's homepage found 21 of 22 product apps (95%), and called 18 of them the product app (82%).** Each app in the ground truth, how the scan reached it, and what it called it:
+**Scanning the company's homepage found 21 of 22 product apps (95%). It called 18 of them the product app by rules only (82%), and 18 with Jev (82%).** Each app in the ground truth, how the scan reached it, and what it called it:
 
 - https://app.ayrshare.com/: link "Log in"; called app
 - https://app.cal.com/: link "Sign in"; called app
