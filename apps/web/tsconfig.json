@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["es2023", "dom", "dom.iterable"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "declaration": false,
+    "types": ["node"],
+    "plugins": [{ "name": "next" }, { "name": "workflow" }]
+  },
+  "include": ["next-env.d.ts", "src", "next.config.ts", "vitest.config.ts", ".next/types/**/*.ts"]
+}
