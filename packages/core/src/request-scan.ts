@@ -1,9 +1,6 @@
-import {
-  SCAN_BUDGET_MS,
-  type ScanRecord,
-  type Store,
-  surfaceTarget,
-} from '@drippa/stackprobe-core';
+import { SCAN_BUDGET_MS } from './scan.ts';
+import type { ScanRecord, Store } from './store.ts';
+import { surfaceTarget } from './surface.ts';
 
 // A finished scan younger than this is returned instead of scanning again.
 export const FRESH_FOR_MS = 24 * 60 * 60 * 1000;

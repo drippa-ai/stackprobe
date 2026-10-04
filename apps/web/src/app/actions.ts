@@ -1,8 +1,8 @@
 'use server';
 
+import { requestScan } from '@drippa/stackprobe-core';
 import { redirect } from 'next/navigation';
 import { start } from 'workflow/api';
-import { requestScan } from '../lib/request-scan.ts';
 import { getStore } from '../lib/services.ts';
 import { scanWorkflow } from '../workflows/scan.ts';
 

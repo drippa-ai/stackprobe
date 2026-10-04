@@ -1,4 +1,5 @@
 import {
+  DEFAULT_LIST_LIMIT,
   type LayerResult,
   type Report,
   reportStatus,
@@ -113,12 +114,16 @@ export class PostgresStore implements Store {
   }
 
   async latestScan(domain: string): Promise<ScanRecord | null> {
-    const [row] = await this.sql.query<ScanRow>(
+    return (await this.listScans(domain, { limit: 1 }))[0] ?? null;
+  }
+
+  async listScans(domain: string, options: { limit?: number } = {}): Promise<ScanRecord[]> {
+    const rows = await this.sql.query<ScanRow>(
       `select ${SCAN_COLUMNS} from stackprobe.scans
-       where domain = $1 order by created_at desc limit 1`,
-      [domain.toLowerCase()],
+       where domain = $1 order by created_at desc limit $2`,
+      [domain.toLowerCase(), options.limit ?? DEFAULT_LIST_LIMIT],
     );
-    return row ? toRecord(row) : null;
+    return rows.map(toRecord);
   }
 
   private async throwNotRunning(scanId: string): Promise<never> {

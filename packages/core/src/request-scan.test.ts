@@ -1,6 +1,7 @@
-import { MemoryStore, type Report, type ScanRecord } from '@drippa/stackprobe-core';
 import { beforeEach, describe, expect, test } from 'vitest';
+import type { Report } from './report.ts';
 import { FRESH_FOR_MS, requestScan, STALE_AFTER_MS } from './request-scan.ts';
+import { MemoryStore, type ScanRecord } from './store.ts';
 
 let clock: Date;
 let store: MemoryStore;
