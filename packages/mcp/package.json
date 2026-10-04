@@ -1,0 +1,38 @@
+{
+  "name": "@drippa/stackprobe-mcp",
+  "version": "0.0.0",
+  "description": "MCP server for stackprobe: lets AI agents scan a domain and explain what it is built on.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bin": {
+    "stackprobe-mcp": "./src/bin.ts"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "publishConfig": {
+    "bin": {
+      "stackprobe-mcp": "./dist/bin.js"
+    },
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "start": "node src/bin.ts"
+  },
+  "dependencies": {
+    "@drippa/stackprobe-core": "workspace:*",
+    "@drippa/stackprobe-store-sqlite": "workspace:*",
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.6.5"
+  }
+}
