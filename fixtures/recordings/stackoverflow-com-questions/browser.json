@@ -1,0 +1,41 @@
+{
+  "https://stackoverflow.com/questions": {
+    "url": "https://stackoverflow.com/questions",
+    "status": 403,
+    "requests": [
+      {
+        "url": "https://stackoverflow.com/questions",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://stackoverflow.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://stackoverflow.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://stackoverflow.com/cdn-cgi/challenge-platform/h/b/scripts/precursor/d76008a69eab/main.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://stackoverflow.com/cdn-cgi/challenge-platform/h/b/precursor/d76008a69eab/0.5557615208118429:1791140719:zGQwdQk3LlbSevXsaC-G2v5tcSbsWv2_R7nqeglaAhA/a456c2b69a0756a2",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      }
+    ],
+    "websockets": [],
+    "cookies": ["__cf_ob", "cf_clearance", "__cf_bm"],
+    "globals": ["__CF$cv$params", "_cf_chl_opt", "DrdK7", "CygOM5", "jrTa8", "WXoI8"]
+  }
+}

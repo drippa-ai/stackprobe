@@ -1,0 +1,448 @@
+{
+  "https://app.turso.tech/": {
+    "url": "https://app.turso.tech/login",
+    "status": 200,
+    "requests": [
+      {
+        "url": "https://app.turso.tech/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/login",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/44yq3g03e8hdl.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/0jyqdz0-9vvic.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/43_4b2odbj_vg.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/0rnts1su1q3d9.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/0ywfqrpkr7nyq.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/008ao_2vvmmmh.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/0svkai00pv8ct.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/3ufznw_w897kn.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/turbopack-1ksb84fvyv6ok.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://clerk.turso.tech/npm/@clerk/clerk-js@5/dist/clerk.browser.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/2kkhd5-i2fm8m.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/1wg83mkl1-cpo.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/0x_pc84sc5h8j.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/0pq0svdwnula3.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/337ulb_6jmkph.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/3vxerzb4mjra3.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/0vcb8f2xqctju.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/0pxsszfavsfwt.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/2i9ht_v4o5t9x.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/2lsm02he3at9p.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/3etj4nruigd6f.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/39iq-j-m5q5vs.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/165vwox4v_ehg.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/03497l03eiv4p.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/31ch_9q9233lz.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/3gq9-svdzw_6u.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/0l-nh-n9sqnt7.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://us-assets.i.posthog.com/array/phc_pMhv2miXNG72Aj2fSt7Dpg4tBDCyBxyQh9VCqFBg2Jax/config.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://clerk.turso.tech/npm/@clerk/clerk-js@5.128.0/dist/clerk.browser.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://static.reo.dev/81f7759ee14008a/reo.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_vercel/insights/script.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.turso.tech/_vercel/speed-insights/script.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://static.ads-twitter.com/uwt.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.com/ccm/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://clerk.turso.tech/v1/environment",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://clerk.turso.tech/v1/client",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://region1.google-analytics.com/g/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://region1.analytics.google.com/g/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect",
+        "method": "POST",
+        "type": "ping",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.no/ads/ga-audiences",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://t.co/1/i/adsctp",
+        "method": "POST",
+        "type": "ping",
+        "headers": {}
+      },
+      {
+        "url": "https://analytics.twitter.com/1/i/adsctp",
+        "method": "POST",
+        "type": "ping",
+        "headers": {}
+      },
+      {
+        "url": "https://clerk.turso.tech/npm/@clerk/clerk-js@5.128.0/dist/framework_clerk.browser_70f75e_5.128.0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://clerk.turso.tech/npm/@clerk/clerk-js@5.128.0/dist/vendors_clerk.browser_70f75e_5.128.0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://clerk.turso.tech/npm/@clerk/clerk-js@5.128.0/dist/ui-common_clerk.browser_70f75e_5.128.0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://clerk.turso.tech/npm/@clerk/clerk-js@5.128.0/dist/subscriptionDetails_clerk.browser_70f75e_5.128.0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://clerk.turso.tech/npm/@clerk/clerk-js@5.128.0/dist/signin_clerk.browser_70f75e_5.128.0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://us-assets.i.posthog.com/static/posthog-recorder.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://us-assets.i.posthog.com/static/surveys.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://us.i.posthog.com/flags/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzJkcmNFaWRwcEFLSFp4RnlQZTNMYXl6QTd2ayJ9",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzNJNndnUVA0QnNNb3ZsWmtqWW1rSHJ0R1JQUSJ9",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://img.clerk.com/static/github.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://img.clerk.com/static/google.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzJkcmNFaWRwcEFLSFp4RnlQZTNMYXl6QTd2ayJ9",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzNJNndnUVA0QnNNb3ZsWmtqWW1rSHJ0R1JQUSJ9",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://img.clerk.com/static/github.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://img.clerk.com/static/google.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      }
+    ],
+    "websockets": [],
+    "cookies": [
+      "_gcl_au",
+      "_ga",
+      "_ga_0REW30XRXK",
+      "_ga_YMMQC402S1",
+      "_twsid",
+      "_twpid",
+      "__client",
+      "__client_uat",
+      "__client_uat_bsoevYmn",
+      "__cf_bm",
+      "_cfuvid",
+      "guest_id_marketing",
+      "guest_id_ads",
+      "personalization_id",
+      "guest_id",
+      "muc_ads",
+      "ph_phc_pMhv2miXNG72Aj2fSt7Dpg4tBDCyBxyQh9VCqFBg2Jax_posthog"
+    ],
+    "globals": [
+      "_debugIds",
+      "TURBOPACK",
+      "__next_f",
+      "NEXT_DEPLOYMENT_ID",
+      "next",
+      "__webpack_hash__",
+      "__PosthogExtensions__",
+      "global",
+      "__BUILD_DISABLE_RHC__",
+      "__clerk_internal_navigations",
+      "__clerk_publishable_key",
+      "__clerk_proxy_url",
+      "__clerk_domain",
+      "__unstable__onBeforeSetActive",
+      "__unstable__onAfterSetActive",
+      "vam",
+      "va",
+      "si",
+      "google_tag_data",
+      "google_tag_manager",
+      "twq",
+      "webpackChunk_clerk_clerk_js",
+      "Clerk",
+      "onYouTubeIframeAPIReady",
+      "gaGlobal",
+      "twttr",
+      "_POSTHOG_REMOTE_CONFIG",
+      "extendPostHogWithSurveys"
+    ]
+  }
+}

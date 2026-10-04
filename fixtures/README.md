@@ -60,3 +60,8 @@ could not classify, keyed by a hash of the exact question. Tests and `accuracy.m
 and never call a live model. Re-record with `pnpm record-decisions` (needs `TYPESAFE_API_KEY`)
 after changing the question or the page facts it is given; `accuracy.md` lists any question
 without a recorded answer.
+
+`recordings/<name>/browser.json` holds the browser loads (sanitized: no query strings, cookie
+values or header values beyond a short allowlist) that a scan of that surface makes: its app
+pages, or an unclassified homepage. Record them with `pnpm record-browser`, which needs Chromium
+(`pnpm --filter @drippa/stackprobe-browser-playwright install-chromium`).

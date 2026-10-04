@@ -1,0 +1,557 @@
+{
+  "https://www.bydagny.com/sign-in": {
+    "url": "https://www.bydagny.com/sign-in",
+    "status": 200,
+    "requests": [
+      {
+        "url": "https://www.bydagny.com/sign-in",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/images/people-cafe.webp",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/3289t2y5hp9hl.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://api.fontshare.com/v2/css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/2ww7m4uthf9jj.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/1qf0-3umuvlgs.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/1c-4h2aze0ifj.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/06sy4oi_ui504.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/20eevrxlqp_9y.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/082e10nix1-ed.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/turbopack-06688wwul_ajq.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/3pq1wc-j3ja4g.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/2_jlx2bd84vxt.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/08ec-sgyjoduq.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/18agb5d5xarky.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/2wu-cw53ii2uk.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/0ngnexp95s191.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/1pc4rd05yqsw_.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/01ns8cob_5b4b.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/2sz501iu8nwvw.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/0eat8sc2uv30_.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/0hcri9un_86us.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/28kiji-41mch6.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/2_hkysr1tk_ta.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/03u9pcumxhaxu.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/2f63mvcny0vzo.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/0muw8gu0j2-a0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/1ariht2ia-yss.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/brand/dagny-lockup-black.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1y9ogUE.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://cdn.fontshare.com/wf/BLNB4FAQFNK56DWWNF7PMGTCOTZHOEII/ST3WKSSDMBK2MIQQO3MAVYWLF4FTOLFV/6IN5WOLRCYP4G4MOCOHOMXNON6Q7MDAR.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://cdn.fontshare.com/wf/BLNB4FAQFNK56DWWNF7PMGTCOTZHOEII/ST3WKSSDMBK2MIQQO3MAVYWLF4FTOLFV/6IN5WOLRCYP4G4MOCOHOMXNON6Q7MDAR.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://cdn.fontshare.com/wf/BLNB4FAQFNK56DWWNF7PMGTCOTZHOEII/ST3WKSSDMBK2MIQQO3MAVYWLF4FTOLFV/6IN5WOLRCYP4G4MOCOHOMXNON6Q7MDAR.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/fonts/switzer/switzer-400.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/api/c15t/init",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/monitoring",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/monitoring",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://ndoyjyehjpocvtgvafym.supabase.co/functions/v1/script",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.clarity.ms/tag/xai44sbdem",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/3l4nq_8z6mzah.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/c97dc4bad6ee81ed/script.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://widget.intercom.io/widget/u64uzifi",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://cdn.fontshare.com/wf/5SZVFDB7V52TI6ULVC6J3WQZQCIZVDV5/ODYPSTCUDMKSTYIPTV4CLQ7URIK7XYBJ/YS3VPNVO4B3TOJMEXDGFZQ4TLZGGSRZC.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/new",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/privacy-policy",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://cdn.fontshare.com/wf/5SZVFDB7V52TI6ULVC6J3WQZQCIZVDV5/ODYPSTCUDMKSTYIPTV4CLQ7URIK7XYBJ/YS3VPNVO4B3TOJMEXDGFZQ4TLZGGSRZC.woff",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://cdn.fontshare.com/wf/5SZVFDB7V52TI6ULVC6J3WQZQCIZVDV5/ODYPSTCUDMKSTYIPTV4CLQ7URIK7XYBJ/YS3VPNVO4B3TOJMEXDGFZQ4TLZGGSRZC.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/fonts/switzer/switzer-600.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://ndoyjyehjpocvtgvafym.supabase.co/functions/v1/ingest",
+        "method": "POST",
+        "type": "ping",
+        "headers": {}
+      },
+      {
+        "url": "https://scripts.clarity.ms/0.8.70/clarity.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/connector-icons/gmail.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/brand/tools/outlook.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/connector-icons/google-calendar.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/connector-icons/google-drive.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/connector-icons/google-sheets.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/brand/tools/excel.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/brand/tools/word.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/connector-icons/gbp.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/connector-icons/whatsapp.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/brand/tools/teams.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/connector-icons/slack.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/connector-icons/facebook-pages.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/connector-icons/instagram.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/connector-icons/stripe.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/connector-icons/mailchimp.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/privacy-policy",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://js.intercomcdn.com/frame.9e82d32e.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://js.intercomcdn.com/vendor.6b1beca3.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/privacy-policy",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/new",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://l.clarity.ms/collect",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/privacy-policy",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://api-iam.intercom.io/messenger/web/launcher_settings",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://api-iam.intercom.io/messenger/web/ping",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/3c9g7uw5o89kf.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/1i_hyespczggy.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/18ham3_1y0mfy.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/0fx1x1szzcnh4.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/2gw6_h-fx5ucy.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      }
+    ],
+    "websockets": [
+      "wss://nexus-websocket-a.intercom.io/pubsub/5-fQoTOqnBynR6qHc0gdvyurNiT1uVvSFj_jy15rthJoZox0yZTbgpJYyTyeKe-nqcpw72DKT5JX57T6ZOVX_7ENXUmyiU6GMF_hZH"
+    ],
+    "cookies": [
+      "sb-cookie-domain-migrated",
+      "intercom-id-u64uzifi",
+      "intercom-session-u64uzifi",
+      "intercom-device-id-u64uzifi"
+    ],
+    "globals": [
+      "_debugIds",
+      "TURBOPACK",
+      "$RT",
+      "$RB",
+      "$RV",
+      "$RC",
+      "__next_f",
+      "NEXT_DEPLOYMENT_ID",
+      "next",
+      "__webpack_hash__",
+      "_sentryRouteManifest",
+      "_sentryNextJsVersion",
+      "_sentryRewritesTunnelPath",
+      "__SENTRY__",
+      "__sentry_instrumentation_handlers__",
+      "_sentryWrappedDepth",
+      "c15tStore",
+      "clarity",
+      "intercomSettings",
+      "Intercom",
+      "vam",
+      "va",
+      "vaq",
+      "__mp_recorder",
+      "__mp_targeting",
+      "__clr",
+      "__intercomAssignLocation",
+      "__intercomReloadLocation"
+    ]
+  }
+}

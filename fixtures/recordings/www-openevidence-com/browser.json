@@ -1,0 +1,441 @@
+{
+  "https://www.openevidence.com/": {
+    "url": "https://www.openevidence.com/",
+    "status": 200,
+    "requests": [
+      {
+        "url": "https://www.openevidence.com/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/media/5c0c2bcbaa4149ca-s.p.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/media/91601dd83defba07-s.p.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/css/350dbc27f33bf780.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/css/64c9a88dc9a69abf.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/webpack-32da39b1ba91750f.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/e994a86a-f96c43937d54eeaa.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/tags.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://cdn-cookieyes.com/client_data/d1785f07c35aeed00758cbf7/script.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/vendors-s4y-7866d41c69a040a7.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/27097-15030205861331e6.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/main-app-2c234fc6e8d79f3a.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/app/global-error-eab32bdc85f10ddc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/x-u2l-f7800900d64dd66a.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/x-o31y-ce2429ad6b75270a.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/x-a1i-4ce9c8ce8b3d7d1d.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/x-c16n-0a34d03a2444b091.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/46106-ca9957cea2048f42.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/48622-2545e261318af246.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/73017-f9ae13084ada32bf.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/13135-192d1995dfe27b3c.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/65983-b8dc5397813a00c2.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/49678-3a2bd665e6b08e1d.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/31092-e220ae802ebd2246.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/18815-05ff0e6b639db1ca.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/93373-85e56100fa4cfc27.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/app/(no-layout)/unavailable/page-aaa0586f419d1b43.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://log.cookieyes.com/api/v1/log",
+        "method": "POST",
+        "type": "ping",
+        "headers": {}
+      },
+      {
+        "url": "https://cdn-cookieyes.com/client_data/d1785f07c35aeed00758cbf7/banner.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://o4504572680667136.ingest.sentry.io/api/4504737630453760/envelope/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/media/5c0c2bcbaa4149ca-s.p.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/media/91601dd83defba07-s.p.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/x-u0i-2287ea5a510f4446.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/x-a5e-ebe55837cb7da748.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/x-s3e-ee189977a91ab419.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/x-a4e-30a05eb6d6f0d3a4.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/x-c7m-69370fa2f4ff8351.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/27703-18515e3f92681749.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/4352-a0320a4b34537f43.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/79133-d7e56dcebb92cbb6.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/26855-b8959098312ddfb0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/43587-170e8c38805c13cb.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/27192-3ff6abb2574cc627.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/68558-c362b27bbb950011.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/87172-cc8489873b99b36b.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/60890-e64969d10b1f5a05.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/18832-81106ba68aa67159.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/392-62a9cf5607cafbbb.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/9241-2131b99ed2908aa1.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/12174-1bb909dabbfa9cb1.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/36645-71dc46342d335cc4.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/app/layout-075e9b1ebc7f0818.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/_next/static/chunks/app/(app)/(with-sidebar)/not-found-5bc2f353b9e7279b.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/api/auth/me",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www3.doubleclick.net/",
+        "method": "HEAD",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagservices.com/dcm/dcmads.js",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://pizza.openevidence.com/web/v3/vVvi7RaFtHHdLycmX9Po/loader_v3.12.6.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/api/events",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/api/events",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.openevidence.com/02a22ac7a995c71b/script.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://cdn-cookieyes.com/client_data/d1785f07c35aeed00758cbf7/xPHMbrwq.json",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://breadsticks.openevidence.com/js/",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://directory.cookieyes.com/api/v1/ip",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://marketingplatform.google.com/about/enterprise/",
+        "method": "HEAD",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://cdn-cookieyes.com/client_data/d1785f07c35aeed00758cbf7/audit-table/daSPakHf.json",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://pizza.openevidence.com/lQsjKJ/vN8rKJa/NU4i/jQ0",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      }
+    ],
+    "websockets": [],
+    "cookies": ["theme_mode", "xyla_device_id", "datadome", "cookieyes-consent"],
+    "globals": [
+      "_sentryDebugIds",
+      "_sentryDebugIdIdentifier",
+      "_sentryModuleMetadata",
+      "webpackChunk_N_E",
+      "cookieyes",
+      "__next_f",
+      "_sentryRewritesTunnelPath",
+      "SENTRY_RELEASE",
+      "_sentryBasePath",
+      "_sentryNextJsVersion",
+      "_sentryRewriteFramesAssetPrefixPath",
+      "_sentryAssetPrefix",
+      "_sentryExperimentalThirdPartyOriginStackFrames",
+      "_sentryRouteManifest",
+      "__SENTRY__",
+      "__sentry_instrumentation_handlers__",
+      "NEXT_DEPLOYMENT_ID",
+      "next",
+      "_N_E_STYLE_LOAD",
+      "_N_E",
+      "__MUI_LICENSE_INFO__",
+      "ddjskey",
+      "ddoptions",
+      "DataDomeJsTag",
+      "dataDomeProcessed",
+      "dataDomeOptions",
+      "ddShouldSkipFingerPrintReq",
+      "si",
+      "revisitCkyConsent",
+      "performBannerAction",
+      "getCkyConsent",
+      "uetq",
+      "__fpjs_p_l_b"
+    ]
+  }
+}

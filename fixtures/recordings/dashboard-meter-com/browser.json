@@ -1,0 +1,1215 @@
+{
+  "https://dashboard.meter.com/": {
+    "url": "https://signin.meter.com/",
+    "status": 200,
+    "requests": [
+      {
+        "url": "https://dashboard.meter.com/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/index-Co3Ngkdd.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/jsx-runtime-qugFlhtW.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/exports-DLldTtZw.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/errorboundary-B-UebVjH.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/react-dom-f10ZNGnq.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/dist-Cn2-tMJl.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/src-CBHCeafP.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/dist-CQCcfPg_.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/preload-helper-D13UdkDh.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/src-DJRMf3GK.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/errors-BWeWtQMz.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/esm-DtbyFHkT.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/replayStats-OVwhbdRP.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useFeatureFlags-n9PNAn9b.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/cookies-B-M-bnfK.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useAxiosInstance-CYOJvzY7.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/IdentityDataProvider-BRlD173F.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/src-ZLNz1IIb.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/src-CnX46Lwo.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils-BxpRig6_2.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useSuspenseQuery-Cy2nvdRL.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useMutation-CFn94QXV.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/gql-Dgz24EHJ.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/logError-n4868hE7.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useKeyValue-BLyXhqD8.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/src-6N33G5Wb.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/constants-DkdGq5CF.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useCurrentCompanyFromPath-C6OZcD6k.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/CurrentCompanyProvider-CQvB06Tp.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/nav-BWR4Pe5f.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useNetworkFromPath-D3b2NuOs.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/zod-types-B8E1ts_S.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useLocalStorage-CSwD9ABd.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useAccessLevelForUser-BWyemt2b.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/withZodSchema-Ckg8nye5.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/immer.esm-C19XHJ6g.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/client-DkbzuThN.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/src-YjGKa1yC.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/DeviceSpecsProvider-Bo7a7v5s.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useCompany-CAxIi5Ih.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/main_and_drawer_navigation-f9Es-UXD.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/SelectedDevicesProvider-jgvRxR_I.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/ThemeProvider-CxuFQfx4.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useHourCyclePreference-BIalu01C.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/stitches-Bojgm4GN.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/FullscreenFallback-D-gps0nq.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/queries-BQMD6IE5.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/AutoAddMeterEmployeeToCompany-CFiFiUgk.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/AutoPageTitle-CAhsnAU0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/Markdown-DlxJ7MI4.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/NotFound-Bs2P44gt.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useCloseDrawerCallback-Drh7TSQW.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/realmConfig-B4MamKiy.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/ErrorFallback-DM1EDxeV.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/isEqual-poTfRQbn.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/DestructiveDialog-DxbHnF6-.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/FormTracker-C-dxcBP4.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useActiveControllerForNetwork-DmHS-BiU.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/enums-D--Kyl2Q.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/lastUsedTabs-DxuVv49R.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/ReactRouterLink-B9QbUXXc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/schemas-3q3BZ1Zj.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useCompanyNetworksVariables-BS1P9VP5.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils-CJ9qEKJS.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useNetworkClients-BYq4-tLE.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/SearchParamsStateProvider-B9QbUXXc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useIsActive-VOKWmfah.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils-DqKctomt.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/numbers-CNl2t8Bm.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/HasAccess-CnZNEAOz.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/FieldProvider-B9QbUXXc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/Fields-B9QbUXXc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils-BXRpUyV0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/deviceModelDisplayName-IslU8yWP.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/NoValue-B9QbUXXc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/createColumnBuilder-B9QbUXXc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils-BzAKdLFu.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/schedulingHelpers-CeZx0-rN.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/macAddress-C9ryTAW2.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils-C4EF3dGA.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/strings-XMAf6X1K.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/chart_utils-FnIc4e6A.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils2-DGPBe-DX.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/Insights-B9QbUXXc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/graphql-B-7-ETGl.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/Glossary-D1P4Fumo.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/_stringToArray-C4-BLuUq.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/_createCaseFirst-TctWsETI.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/upperFirst-2ABwaGYE.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/capitalize-BUuT9A7D.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils-BlLrGXwn.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils-BLXDdsng.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils-Bd9lFXBu.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/NOSUpgradeChannel-DzjkZNTY.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils-XtxgkQFc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/withZodSchema-B9QbUXXc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/NetworkForm-BQZHI6Uz.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useHandleNetworkAddSuccess-DI72uNPB.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils-B7q1NhJj.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils-C2ROXzUh.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useViewsStatePreference-BUnt6KwK.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/TableState-DFZDFzYj.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/bestPath-DPNlbb-y.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils-e8Buv-AY2.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/network-BorOgKnF.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/KeyBoundSearchInput-B9QbUXXc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/Sites-UYKqv0gH.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils-EitYGIHR.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils-CnNYAyQE.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/fqdn-CFbq9TU-.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils-C4JVR51y.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/AlertTabs-tLvHSGel.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/NotificationsTabs-C519k5Km.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils-BFsJ4L-c.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/route_elements-BGMP6Yw-.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/uploadToPresignedUrl-DBlCMS1z.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/UnifiedFileUploader-RjRICtQf.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/ToolbarOrganizations-Cl1Y8-dv.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/utils-itgJWY_I.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/assets/useRequestTemporaryAccess-DK45FYaL.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/src-Bgzzq2Sa.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/fonts-Dt730d2p.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/theme-bootstrap.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://o322827.ingest.sentry.io/api/5733722/envelope/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/posthog/array/phc_Cg2LV3KHkkGdS4mzS298AqFWTvfsvqHiMHeYY3JS8BzY/config.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/posthog/decide/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.launchdarkly.com/sdk/goals/6202a2b1eaa80614de55c9cd",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://app.launchdarkly.com/sdk/evalx/6202a2b1eaa80614de55c9cd/contexts/eyJhbm9ueW1vdXMiOnRydWUsImtpbmQiOiJ1c2VyIiwia2V5IjoiZWY4OGQ3NjAtYzAyZC0xMWYxLWI2M2EtMmY4NWRiMTMzNGU1In0",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/_vercel/speed-insights/script.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/_vercel/insights/script.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://events.launchdarkly.com/events/diagnostic/6202a2b1eaa80614de55c9cd",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://dashboard.meter.com/meta.json",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://login.meter.com/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://clientstream.launchdarkly.com/eval/6202a2b1eaa80614de55c9cd/eyJhbm9ueW1vdXMiOnRydWUsImtpbmQiOiJ1c2VyIiwia2V5IjoiZWY4OGQ3NjAtYzAyZC0xMWYxLWI2M2EtMmY4NWRiMTMzNGU1In0",
+        "method": "GET",
+        "type": "eventsource",
+        "headers": {}
+      },
+      {
+        "url": "https://api.workos.com/user_management/authorize",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://auth.meter.com/user_management/authorize",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/bootstrap",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://events.launchdarkly.com/events/bulk/6202a2b1eaa80614de55c9cd",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/media/0336a89fb4e7fc1d-s.p.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/css/bf917185192191dc.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/css/16f35683376c9fbb.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/css/ffaacae75e6cc956.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://workos.imgix.net/app-branding/environment_01H66RR1N16K2T4RWZ5YAM3TCB/01JXGS000FY0SE8RQQ7PSXW1AA",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://workos.imgix.net/app-branding/environment_01H66RR1N16K2T4RWZ5YAM3TCB/01JXGS000ETFA9W8RQ13J71BBT",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/webpack-0f594d2c735ab934.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/b098b0ab-ca82bc116ffd7c3e.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/4232-adcb84c088a85f62.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/9911-57b32f17e634d7ea.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/main-app-ff12eea153dfa812.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/2684-5c30178e2ff20f1d.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/7580-f73c23374850e278.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/3022-44d7cf7e808ca363.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/1940-f3d0c2993d8393d7.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/app/global-error-46183d5273d8a1ff.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/6644-657b1b9ac7fac3ca.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/6675-699365ca920261ce.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/5269-9eda70d1104e3983.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/6918-e3229d900f68a8c3.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/1015-844925f27c7f92ca.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/9457-f001db610af416d6.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/231-ddaadca5a53b49f5.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/3672-3fda0353cdfa0d6b.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/8205-8c1ae4a924174b8a.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/3346-1f911c958a42b5b0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/9707-8330f38652b45838.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/app/(main)/(root)/(sign-in)/page-e297640ae918ad2d.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/app/error-90cf52a3a28d8530.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/571-bc37f4e4e57da08b.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/app/(main)/(root)/(sign-in)/layout-f2f633a4eee21c27.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://o207216.ingest.sentry.io/api/4505703603830784/envelope/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/media/0336a89fb4e7fc1d-s.p.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/app/(main)/(root)/layout-15e1642fa940d108.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://o207216.ingest.sentry.io/api/4505703603830784/envelope/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://o207216.ingest.sentry.io/api/4505703603830784/envelope/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/apps/hosted-authkit/production/_next/static/chunks/5550.3bd6fef46297376d.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/magic-code/send",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/workers/signals-worker.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://forwarder.workos.com/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://forwarder.workos.com/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://forwarder.workos.com/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://forwarder.workos.com/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://forwarder.workos.com/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/magic-code/send",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://signin.meter.com/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      }
+    ],
+    "websockets": [],
+    "cookies": [
+      "ph_phc_Cg2LV3KHkkGdS4mzS298AqFWTvfsvqHiMHeYY3JS8BzY_posthog",
+      "_dd_s",
+      "__cf_bm",
+      "__Host-state-01M447XSDYSHDG0GY7J4WGBV4B",
+      "_cfuvid",
+      "__wuid"
+    ],
+    "globals": [
+      "_sentryDebugIds",
+      "_sentryDebugIdIdentifier",
+      "webpackChunk_N_E",
+      "__next_f",
+      "_N_E",
+      "DD_RUM",
+      "_sentryRewritesTunnelPath",
+      "SENTRY_RELEASE",
+      "_sentryBasePath",
+      "_sentryNextJsVersion",
+      "_sentryRewriteFramesAssetPrefixPath",
+      "_sentryAssetPrefix",
+      "_sentryExperimentalThirdPartyOriginStackFrames",
+      "_sentryRouteManifest",
+      "__SENTRY__",
+      "__sentry_instrumentation_handlers__",
+      "NEXT_DEPLOYMENT_ID",
+      "next",
+      "_N_E_STYLE_LOAD",
+      "__REACT_INTL_CONTEXT__"
+    ]
+  }
+}

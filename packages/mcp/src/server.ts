@@ -1,4 +1,5 @@
 import {
+  type Browser,
   type Decider,
   diffReports,
   type Net,
@@ -19,6 +20,8 @@ export interface ServerOptions {
   net: Net;
   // Settles surface kinds the rules can't; rules only without one.
   decider?: Decider;
+  // Loads app surfaces in a browser; without one, the browser layer is skipped.
+  browser?: Browser;
   now?: () => Date;
 }
 
@@ -35,7 +38,7 @@ const which = {
 };
 
 // The stackprobe MCP server. Each tool is a thin wrapper around core.
-export function createServer({ store, net, now, decider }: ServerOptions): McpServer {
+export function createServer({ store, net, now, decider, browser }: ServerOptions): McpServer {
   const server = new McpServer({ name: 'stackprobe', version: STACKPROBE_VERSION });
 
   server.registerTool(
@@ -65,7 +68,7 @@ export function createServer({ store, net, now, decider }: ServerOptions): McpSe
             ...(now ? { now } : {}),
             start: async (created) => {
               ran = true;
-              await runScanLocally(store, net, created, decider);
+              await runScanLocally(store, net, created, { decider, browser });
             },
           },
           { force: force ?? false },

@@ -1,0 +1,766 @@
+{
+  "https://app.cal.com/": {
+    "url": "https://app.cal.com/auth/login",
+    "status": 200,
+    "requests": [
+      {
+        "url": "https://app.cal.com/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/auth/login",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/media/CalSansVF-s.p.2rgkxu5r5bnqz.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/media/CalSansVF_Italic-s.p.1chx0yk-x7uu1.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/25zhmyxow6dbi.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/0_hrvgoevl2o9.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/0f8zx88n2mcd5.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/google-icon-colored.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/microsoft-logo.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/2n-tzeusxj9a8.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/06i-jz32s-bg8.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/2r1nd404mqgat.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/1ega6ntky4e9k.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/3286zil4wt2cy.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/32u9gnf08m_yw.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/2y3z951bqjl_j.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/turbopack-1cw97n_026suc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/44pep-cnghx00.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/31d6j93mdd7o0.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/05cw0hu657i38.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/1-xt4vs0inmtu.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/05mvgrb06o78t.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/3pmz_70tew54e.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/1p0u99kefqtyp.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/13ijgh3wm0o50.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/15z4zli9lgtgc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/1w0r159sihzie.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/2j7ya6ihbnnbc.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/0g4m-q3unk_7z.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/03fs8o7u5md22.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/06b52qzx1j8_8.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/3cyoy3mok75oi.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/10wo0ioc2sm35.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/1c3kpo9k72bv4.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/24xun0daafdys.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/201tirqy-5u0s.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/16yhrkqykmpb5.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/0grdm3yvihh_8.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/0w1p-fyen5cs_.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/0ehqqkdfrx804.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/0-1k-oh6qvu_i.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/3frkyr3oeoe7g.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/100_1aalqkfo-.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/0w7dogmrrt3bl.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/25p6-usb08i5t.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/3_fcsf8yn516o.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/1lrr4vu3hcd-w.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/1s0e_i3doyzlw.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/0ud5owlhxnd_7.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/1eaao0o7ik3zf.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/3_q6tl0-sofvg.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/12nwfbdnzvw8f.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/0ume8d10_2oh7.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/0l0i-2dc6wmwd.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/22dhhi_e1tj84.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/2ybxaa4pmhqom.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/2z_bpbvvm1uov.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/17ocqnwrf1bt4.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/3sx8taod2kxza.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/3zm7nmtipnaax.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/30sxvjwyef5lv.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/0rtxag47l7vj6.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/3lauqha71bnna.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/3bcxsy_q5ho8z.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/0kq3u5o7wyrtr.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/2w_pl_qd1anap.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/29o6vimf-78gm.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/245-bac5me-uq.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/1jvrcd--4lm5z.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/12f_abqi3dymn.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/1la9ve7qmet33.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/3bp0_kqa9wjga.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/27o8_9h3ik3ar.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/1xr5b9fvtlt-5.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/3aiivxlip0bef.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/3f2v7ao_-eu1d.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/3u2x8w7n_kvg1.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/3s9xjnlnrdou_.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/2l6v-h_nm-yit.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/3yfew8o__zg_v.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/2dsge4hlf9mjq.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/2t5g3au46_twu.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/media/CalSansVF-s.p.2rgkxu5r5bnqz.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/media/CalSansVF-s.p.2rgkxu5r5bnqz.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/media/CalSansVF_Italic-s.p.1chx0yk-x7uu1.woff2",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/0gwnx6d3dygws.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/2z4rk1yz2418j.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/2269sx20pt3qt.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/_next/static/chunks/1ax7zwjs4lnbn.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/api/trpc/public/ssoConnections",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/api/trpc/features/map",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/auth/forgot-password",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/api/auth/session",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://widget.intercom.io/widget/z9l4o9ru",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/auth/forgot-password",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/api/trpc/teams/hasTeamPlan",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.cal.com/api/trpc/me/get",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://js.intercomcdn.com/frame.9e82d32e.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://js.intercomcdn.com/vendor.6b1beca3.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://static.ads-twitter.com/uwt.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://bzrcdn.openai.com/sdk/oaiq.min.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://r2.leadsy.ai/tag.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.com/ccm/collect",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.no/ads/ga-audiences",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.com/ccm/collect",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/1291313566424348",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/a",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://t.co/1/i/adsct",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://analytics.twitter.com/1/i/adsct",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://px.ads.linkedin.com/collect",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://px.ads.linkedin.com/insight_tag_errors.gif",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      }
+    ],
+    "websockets": [],
+    "cookies": [
+      "__cf_bm",
+      "__Secure-next-auth.csrf-token",
+      "__Secure-next-auth.callback-url",
+      "_gcl_au",
+      "_cfuvid",
+      "_twsid",
+      "_twpid",
+      "__obref",
+      "_ga",
+      "_ga_RX4HHQ613S",
+      "_fbp"
+    ],
+    "globals": [
+      "TURBOPACK",
+      "__next_f",
+      "NEXT_DEPLOYMENT_ID",
+      "next",
+      "__webpack_hash__",
+      "__SENTRY__",
+      "__sentry_instrumentation_handlers__",
+      "V_C",
+      "_sentryWrappedDepth",
+      "isEmbed",
+      "getEmbedTheme",
+      "getEmbedNamespace",
+      "CalEmbed",
+      "regeneratorRuntime",
+      "__PosthogExtensions__",
+      "__zod_globalConfig",
+      "__zod_globalRegistry",
+      "Intercom",
+      "__THREE__",
+      "__intercomAssignLocation",
+      "__intercomReloadLocation",
+      "google_tag_data",
+      "google_tag_manager",
+      "twq",
+      "_linkedin_data_partner_ids",
+      "_already_called_lintrk",
+      "fbq",
+      "_fbq",
+      "oaiq",
+      "twttr",
+      "onYouTubeIframeAPIReady",
+      "gaGlobal",
+      "lintrk",
+      "ORIBILI"
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "https://app.shortwave.com/": {
+    "url": "https://app.shortwave.com/login",
+    "status": 200,
+    "requests": [
+      {
+        "url": "https://app.shortwave.com/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://app.shortwave.com/webview_support.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.shortwave.com/assets/main-bd178c55.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.shortwave.com/assets/config-2dd36096.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.shortwave.com/assets/vendor-a819f0ae.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.shortwave.com/assets/assets-b97aeed3.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.shortwave.com/assets/shared-8b709d33.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.shortwave.com/assets/index-434d6a78.css",
+        "method": "GET",
+        "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://o373565.ingest.sentry.io/api/5189738/envelope/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://api.shortwave.com/check",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.shortwave.com/assets/googleLogoWhite-b602960d.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.shortwave.com/light/logo_full_lockup.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://api.shortwave.com/log",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://api.shortwave.com/log",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      }
+    ],
+    "websockets": [],
+    "cookies": ["shortwave_session_id"],
+    "globals": [
+      "pdfjsLib",
+      "openPushNotification",
+      "pushNotificationAction",
+      "openEmailIntent",
+      "openUrl",
+      "onPushToken",
+      "pasteImage",
+      "onBackButton",
+      "__SENTRY__"
+    ]
+  }
+}

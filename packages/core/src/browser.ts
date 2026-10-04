@@ -62,6 +62,38 @@ export function sanitizeCapture(capture: BrowserCapture): BrowserCapture {
   };
 }
 
+// The part of a capture that belongs to the surface. When the page leaves the surface's host
+// (a hosted sign-in page, say), what the other page loads and defines is that page's stack, not
+// this surface's: only requests made before leaving count, plus where it went.
+export function ownCapture(capture: BrowserCapture, surfaceUrl: string): BrowserCapture {
+  const host = (url: string) => {
+    try {
+      return new URL(url).hostname.replace(/^www\./, '');
+    } catch {
+      return '';
+    }
+  };
+  const home = host(surfaceUrl);
+  if (host(capture.url) === home) return capture;
+  const left = capture.requests.findIndex(
+    (request) => request.type === 'document' && host(request.url) !== home,
+  );
+  const before = left === -1 ? capture.requests : capture.requests.slice(0, left);
+  const destination = capture.requests[left] ?? {
+    url: capture.url,
+    method: 'GET',
+    type: 'document',
+    headers: {},
+  };
+  return {
+    ...capture,
+    requests: [...before, { ...destination, headers: {} }],
+    websockets: [],
+    cookies: [],
+    globals: [],
+  };
+}
+
 export function captureSignals(capture: BrowserCapture): Signal[] {
   const source = capture.url;
   const signals: Signal[] = [];
@@ -95,8 +127,11 @@ export function browserLayer(browser: Browser, timeoutMs = 30_000): Layer {
     timeoutMs,
     appliesTo: () => true,
     async run(surface, ctx) {
-      const capture = sanitizeCapture(
-        await browser.capture(surface.url, { signal: ctx.signal, timeoutMs: timeoutMs - 2_000 }),
+      const capture = ownCapture(
+        sanitizeCapture(
+          await browser.capture(surface.url, { signal: ctx.signal, timeoutMs: timeoutMs - 2_000 }),
+        ),
+        surface.url,
       );
       for (const signal of captureSignals(capture)) ctx.emit(signal);
     },

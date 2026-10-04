@@ -1,4 +1,10 @@
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import {
+  type Browser,
+  type BrowserCapture,
+  type CaptureOptions,
+  sanitizeCapture,
+} from '../src/browser.ts';
 import { LayerError } from '../src/layer.ts';
 import { distillHtml, isHtml } from '../src/layers/http.ts';
 import type {
@@ -169,4 +175,53 @@ export function saveRecording(name: string, recording: NetRecording, root = FIXT
   const dir = new URL(`${name}/`, root);
   mkdirSync(dir, { recursive: true });
   writeFileSync(new URL('net.json', dir), `${JSON.stringify(recording, null, 2)}\n`);
+}
+
+// Browser captures, sanitized, stored per recording as browser.json: { [url]: capture }.
+export type BrowserRecording = Record<string, BrowserCapture>;
+
+export class RecordingBrowser implements Browser {
+  readonly recording: BrowserRecording = {};
+  private readonly inner: Browser;
+
+  constructor(inner: Browser) {
+    this.inner = inner;
+  }
+
+  async capture(url: string, options: CaptureOptions): Promise<BrowserCapture> {
+    const capture = sanitizeCapture(await this.inner.capture(url, options));
+    this.recording[url] = capture;
+    return capture;
+  }
+}
+
+export class ReplayBrowser implements Browser {
+  readonly misses: string[] = [];
+  private readonly recording: BrowserRecording;
+
+  constructor(recording: BrowserRecording) {
+    this.recording = recording;
+  }
+
+  async capture(url: string): Promise<BrowserCapture> {
+    const capture = this.recording[url];
+    if (!capture) {
+      this.misses.push(url);
+      throw new FixtureMiss(`browser ${url}`);
+    }
+    return capture;
+  }
+}
+
+export function loadBrowserRecording(name: string, root = RECORDINGS_DIR): BrowserRecording | null {
+  const file = new URL(`${name}/browser.json`, root);
+  return existsSync(file) ? JSON.parse(readFileSync(file, 'utf8')) : null;
+}
+
+export function saveBrowserRecording(
+  name: string,
+  recording: BrowserRecording,
+  root = RECORDINGS_DIR,
+): void {
+  writeFileSync(new URL(`${name}/browser.json`, root), `${JSON.stringify(recording, null, 2)}\n`);
 }
