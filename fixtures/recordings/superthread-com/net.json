@@ -1,20 +1,20 @@
 {
   "url": "https://superthread.com/",
-  "recordedAt": "2026-10-04T16:50:58.706Z",
+  "recordedAt": "2026-10-04T17:53:08.667Z",
   "http": {
     "GET https://superthread.com/": {
       "result": {
         "url": "https://superthread.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 16:50:58 GMT"],
+          ["date", "Sun, 04 Oct 2026 17:53:08 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
           ["x-content-type-options", "nosniff"],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=51sGJcjNo%2FwdMtSxmuOsN%2FB7CQG%2BVY%2FStoW2EcCfWjAvvzV4hBUqfc5gR1y5N4DEEJ91fdP7OaRmbWkpW40j91q8I1t3UXHMNYHRFr%2B5dxqT8vkM3exasZMJ%2Fpi77gpmfMc%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=LdpDpRsDJp3KQOg5gDg%2BbT4AycruFFkYcnRCzGgyfq00lTXdILVYmqkj5b0gVqE3OGlQQkr7yY46kBPHA2CYADefGzEK07sjj2JtCH0QeD5xflryVsY599AB2ckZlYB2bzk%3D\"}]}"
           ],
           ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
           ["access-control-allow-origin", "*"],
@@ -24,10 +24,10 @@
           ["server", "cloudflare"],
           ["cf-cache-status", "DYNAMIC"],
           ["content-encoding", "br"],
-          ["cf-ray", "a455b04daf28b4fa-OSL"],
+          ["cf-ray", "a4560b5df9ebb51d-OSL"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"description\" content=\"Bring AI agents, tasks, projects, docs, meetings, and client work into one fast workspace where execution and knowledge stay connected.\">\n<link rel=\"canonical\" href=\"https://superthread.com/\">\n<meta name=\"theme-color\" content=\"#fcfcfd\">\n<link rel=\"preconnect\" href=\"https://assets.superthread.com\" crossorigin=\"\">\n<link rel=\"dns-prefetch\" href=\"https://assets.superthread.com\">\n<link rel=\"preconnect\" href=\"https://static.superthread.com\" crossorigin=\"\">\n<link rel=\"dns-prefetch\" href=\"https://static.superthread.com\">\n<link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.ico\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"48x48\" href=\"/favicon-48x48.png\">\n<link rel=\"icon\" href=\"/favicon-light.png\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/favicon-dark.png\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">\n<link rel=\"manifest\" href=\"/manifest.webmanifest\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:title\" content=\"Superthread: AI Agents, Tasks &amp; Docs for Teams\">\n<meta property=\"og:description\" content=\"Bring AI agents, tasks, projects, docs, meetings, and client work into one fast workspace where execution and knowledge stay connected.\">\n<meta property=\"og:image\" content=\"https://assets.superthread.com/images/og/superthread-card.png\">\n<meta property=\"og:url\" content=\"https://superthread.com/\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Superthread: AI Agents, Tasks &amp; Docs for Teams\">\n<meta name=\"twitter:description\" content=\"Bring AI agents, tasks, projects, docs, meetings, and client work into one fast workspace where execution and knowledge stay connected.\">\n<meta name=\"twitter:image\" content=\"https://assets.superthread.com/images/og/superthread-card.png\">\n<link rel=\"preload\" as=\"video\" type=\"video/mp4\" href=\"https://assets.superthread.com/video/home/agents-main-8b843b1ae2bb.mp4\" fetchpriority=\"high\">\n<link rel=\"stylesheet\" href=\"/_astro/Layout.CjXCEvHC.css\">\n<script type=\"module\" src=\"/_astro/AnnouncementPill.astro_astro_type_script_index_0_lang.C1nm6RRv.js\"></script>\n<script type=\"module\" src=\"/_astro/InlinePillLink.astro_astro_type_script_index_0_lang.C1nm6RRv.js\"></script>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"description\" content=\"Bring AI agents, tasks, projects, docs, meetings, and client work into one fast workspace where execution and knowledge stay connected.\">\n<link rel=\"canonical\" href=\"https://superthread.com/\">\n<meta name=\"theme-color\" content=\"#fcfcfd\">\n<link rel=\"preconnect\" href=\"https://assets.superthread.com\" crossorigin=\"\">\n<link rel=\"dns-prefetch\" href=\"https://assets.superthread.com\">\n<link rel=\"preconnect\" href=\"https://static.superthread.com\" crossorigin=\"\">\n<link rel=\"dns-prefetch\" href=\"https://static.superthread.com\">\n<link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.ico\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"48x48\" href=\"/favicon-48x48.png\">\n<link rel=\"icon\" href=\"/favicon-light.png\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/favicon-dark.png\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">\n<link rel=\"manifest\" href=\"/manifest.webmanifest\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:title\" content=\"Superthread: AI Agents, Tasks &amp; Docs for Teams\">\n<meta property=\"og:description\" content=\"Bring AI agents, tasks, projects, docs, meetings, and client work into one fast workspace where execution and knowledge stay connected.\">\n<meta property=\"og:image\" content=\"https://assets.superthread.com/images/og/superthread-card.png\">\n<meta property=\"og:url\" content=\"https://superthread.com/\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Superthread: AI Agents, Tasks &amp; Docs for Teams\">\n<meta name=\"twitter:description\" content=\"Bring AI agents, tasks, projects, docs, meetings, and client work into one fast workspace where execution and knowledge stay connected.\">\n<meta name=\"twitter:image\" content=\"https://assets.superthread.com/images/og/superthread-card.png\">\n<link rel=\"preload\" as=\"video\" type=\"video/mp4\" href=\"https://assets.superthread.com/video/home/agents-main-8b843b1ae2bb.mp4\" fetchpriority=\"high\">\n<link rel=\"stylesheet\" href=\"/_astro/Layout.CjXCEvHC.css\">\n<a href=\"/\"></a>\n<a href=\"/features/agents\">Agents New Delegate work across Superthread</a>\n<a href=\"/features/tasks-boards\">Tasks &amp; boards Plan and track everyday work</a>\n<a href=\"/features/time-tracking\">Time tracking New Track billable time and capacity</a>\n<a href=\"/features/forms\">Forms and portal New Capture, route, and manage requests</a>\n<a href=\"/features/roadmap-projects\">Projects Coordinate larger initiatives</a>\n<a href=\"/features/sprints\">Sprints Run focused delivery cycles</a>\n<a href=\"/features/saved-filters\">Saved filters Return to important work</a>\n<a href=\"/features/docs-wiki\">Pages &amp; subpages Write and organise knowledge</a>\n<a href=\"/features/spaces\">Spaces Give each team or client a home</a>\n<a href=\"/features/notes-transcription\">AI note-taker Turn meetings into notes and actions</a>\n<a href=\"/features/inbox\">Notifications See changes that need attention</a>\n<a href=\"https://superthread.com/docs/help/github-integration\">GitHub Keep code and work in sync</a>\n<a href=\"https://superthread.com/docs/help/slack-integration\">Slack Create work from conversations</a>\n<a href=\"https://superthread.com/docs/help/zapier-integration\">Zapier Automate across thousands of apps</a>\n<a href=\"/features/integrations\">View all Browse every integration</a>\n<a href=\"/solutions/startups\">Startups Move quickly without losing context</a>\n<a href=\"/solutions/small-business\">Small business Run the whole business in one place</a>\n<a href=\"/solutions/agencies\">Agencies Run client work, delivery, and billable time</a>\n<a href=\"/solutions/construction\">Property &amp; construction Connect work from planning to handover and aftercare</a>\n<a href=\"/solutions/education\">Education Coordinate learning, projects, and knowledge</a>\n<a href=\"/solutions/personal\">Personal Organise ideas, plans, and everyday work</a>\n<a href=\"/solutions/product-engineering\">Product &amp; engineering Connect product plans to shipped work</a>\n<a href=\"/solutions/marketing\">Marketing Move campaigns from brief to launch</a>\n<a href=\"/solutions/recruitment\">Recruitment Coordinate roles, candidates, and clients</a>\n<a href=\"/solutions/human-resources\">Human resources Run people requests and operations</a>\n<a href=\"/solutions/internal-service-teams\">Internal service teams Give employees one place to ask for help</a>\n<a href=\"/solutions/it\">IT Handle support requests and keep systems documented</a>\n<a href=\"/solutions/agent-use-cases\">Agent use cases Browse prompts and triggers for recurring work</a>\n<a href=\"/solutions/project-management\">Project management Plan clearly and keep delivery on track</a>\n<a href=\"/templates/simple-sales-template\">Sales pipeline Track leads and keep deals moving</a>\n<a href=\"/templates/influencer-marketing-campaign-manager\">Influencer marketing Plan creators, content, and campaign delivery</a>\n<a href=\"/templates/fundraising-template\">Seed fundraising Organise investors, outreach, and follow-ups</a>\n<a href=\"/templates\">View template library Start faster with a proven workflow</a>\n<a href=\"/customers\">Customers</a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"/about-us\">About us</a>\n<a href=\"/roadmap\">Roadmap</a>\n<a href=\"/security\">Security</a>\n<a href=\"/contact-sales\">Contact sales</a>\n<a href=\"https://superthread.com/docs\">Help centre</a>\n<a href=\"/blog\">Blog</a>\n<a href=\"/learn\">Guides</a>\n<a href=\"https://join.slack.com/t/superthreadcommunity/shared_invite/zt-z0inhlyc-ifhwtGUNBM1G~z2NkMJIPg\">Slack community</a>\n<a href=\"https://superthread.com/docs/api-docs\">API docs</a>\n<a href=\"https://api.superthread.com/mcp#mcp\">MCP</a>\n<a href=\"https://superthread.com/docs/changelog\">Changelog</a>\n<a href=\"https://status.superthread.com/\">System status</a>\n<a href=\"https://app.superthread.com\">Login</a>\n<a href=\"https://app.superthread.com/login\">Start for free</a>\n<a href=\"/features/agents\">New Meet Superthread Agents</a>\n<script type=\"module\" src=\"/_astro/AnnouncementPill.astro_astro_type_script_index_0_lang.C1nm6RRv.js\"></script>\n<a href=\"/solutions/agent-use-cases\">See examples</a>\n<script type=\"module\" src=\"/_astro/InlinePillLink.astro_astro_type_script_index_0_lang.C1nm6RRv.js\"></script>\n<a href=\"/contact-sales\">Request a demo</a>\n<a href=\"#feature-video\">More</a>\n<a href=\"/solutions/agent-use-cases\">Browse every agent use case →</a>\n<a href=\"/features/agents\">See how agents work</a>\n<a href=\"/customers\">customers</a>\n<a href=\"https://www.tenderlake.com/\">Flemming Madsen, Tenderlake</a>\n<a href=\"/customers/medialab\">Adam, Head of Engineering, Medialab</a>\n<a href=\"/customers/acceler8-talent\">Mat Ferdenzi, CEO, Acceler8 Talent</a>\n<a href=\"https://www.jetbrains.com/youtrack/\"></a>\n<a href=\"https://static.superthread.com/desktop-app/Superthread-arm64.dmg\">Download</a>\n<a href=\"https://static.superthread.com/desktop-app/Superthread-win32-x64.exe\">Download</a>\n<a href=\"https://apps.apple.com/gb/app/superthread/id6755784114?platform=iphone\">App Store</a>\n<a href=\"https://play.google.com/store/apps/details?id=com.superthread.app\">Play Store</a>\n<a href=\"/solutions/startups\">Startups:</a>\n<a href=\"/solutions/small-business\">Small businesses:</a>\n<a href=\"/solutions/agencies\">Agencies:</a>\n<a href=\"/solutions/internal-service-teams\">Internal service teams:</a>\n<a href=\"/solutions/it\">IT teams:</a>\n<a href=\"/solutions/education\">Education:</a>\n<a href=\"/solutions/personal\">Personal:</a>\n<a href=\"https://api.superthread.com/mcp#mcp\">Superthread MCP server</a>\n<a href=\"https://superthread.com/docs/cli/index\">Superthread CLI</a>\n<a href=\"/pricing\">Compare plans</a>\n<a href=\"#import-tasks\">See the available import options</a>\n<a href=\"/pricing\">Compare Superthread plans</a>\n<a href=\"/security\">security and privacy</a>\n<a href=\"/features/integrations\">and more</a>\n<a href=\"https://viberacer.superthread.com/?utm_source=superthread.com&amp;utm_medium=owned&amp;utm_campaign=viberacer_launch&amp;utm_content=home_promo\">Play Vibe Racer</a>\n<a href=\"/scalability\">Scalability</a>\n<a href=\"/security\">Security &amp; privacy</a>\n<a href=\"/features/integrations\">Integrations</a>\n<a href=\"/templates\">Templates</a>\n<a href=\"https://static.superthread.com/desktop-app/Superthread-arm64.dmg\">Mac Apple Silicon</a>\n<a href=\"https://static.superthread.com/desktop-app/Superthread-x64.dmg\">Mac Intel</a>\n<a href=\"https://apps.apple.com/gb/app/superthread/id6755784114?platform=iphone\">iOS App Store</a>\n<a href=\"https://play.google.com/store/apps/details?id=com.superthread.app\">Google Play Store</a>\n<a href=\"https://static.superthread.com/desktop-app/Superthread-win32-x64.exe\">Windows</a>\n<a href=\"https://join.slack.com/t/superthreadcommunity/shared_invite/zt-z0inhlyc-ifhwtGUNBM1G~z2NkMJIPg\">Community</a>\n<a href=\"/terms/security-compliance\">Legal &amp; terms</a>\n<a href=\"https://viberacer.superthread.com/?utm_source=superthread.com&amp;utm_medium=owned&amp;utm_campaign=viberacer_launch&amp;utm_content=footer\">🎮 Vibe Racer</a>\n<a href=\"/ai\">AI</a>\n<a href=\"/brand-guidelines\">Brand guide</a>\n<a href=\"/compare/trello-vs-superthread\">vs Trello</a>\n<a href=\"/compare/jira-vs-superthread\">vs Jira</a>\n<a href=\"/compare/shortcut-vs-superthread\">vs Shortcut</a>\n<a href=\"/compare/monday-vs-superthread\">vs Monday</a>\n<a href=\"/compare/asana-vs-superthread\">vs Asana</a>\n<a href=\"https://www.youtube.com/@superthread_devlog\"></a>\n<a href=\"https://www.linkedin.com/company/superthread\"></a>\n<a href=\"https://x.com/superthread_\"></a>"
       }
     }
   },
@@ -39,18 +39,18 @@
         "records": []
       }
     },
-    "AAAA superthread.com": {
-      "result": {
-        "name": "superthread.com",
-        "type": "AAAA",
-        "records": ["2606:4700:20::681a:c2", "2606:4700:20::ac43:4576", "2606:4700:20::681a:1c2"]
-      }
-    },
     "NS superthread.com": {
       "result": {
         "name": "superthread.com",
         "type": "NS",
-        "records": ["asa.ns.cloudflare.com", "kyree.ns.cloudflare.com"]
+        "records": ["kyree.ns.cloudflare.com", "asa.ns.cloudflare.com"]
+      }
+    },
+    "AAAA superthread.com": {
+      "result": {
+        "name": "superthread.com",
+        "type": "AAAA",
+        "records": ["2606:4700:20::681a:1c2", "2606:4700:20::681a:c2", "2606:4700:20::ac43:4576"]
       }
     },
     "A superthread.com": {
@@ -60,11 +60,11 @@
         "records": ["104.26.1.194", "104.26.0.194", "172.67.69.118"]
       }
     },
-    "TXT 118.69.67.172.origin.asn.cymru.com": {
+    "TXT 194.1.26.104.origin.asn.cymru.com": {
       "result": {
-        "name": "118.69.67.172.origin.asn.cymru.com",
+        "name": "194.1.26.104.origin.asn.cymru.com",
         "type": "TXT",
-        "records": ["13335 | 172.67.64.0/20 | US | arin | 2015-02-25"]
+        "records": ["13335 | 104.26.0.0/20 | US | arin | 2014-03-28"]
       }
     },
     "TXT as13335.asn.cymru.com": {
@@ -79,7 +79,7 @@
     "superthread.com:443": {
       "result": {
         "host": "superthread.com",
-        "ip": "172.67.69.118",
+        "ip": "104.26.1.194",
         "issuer": "C=US, O=Google Trust Services, CN=WE1",
         "subjectAltNames": ["superthread.com"],
         "validFrom": "Oct  1 19:26:17 2026 GMT",

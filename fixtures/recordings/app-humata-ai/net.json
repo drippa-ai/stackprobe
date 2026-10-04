@@ -1,6 +1,6 @@
 {
   "url": "https://app.humata.ai/",
-  "recordedAt": "2026-10-04T16:51:02.492Z",
+  "recordedAt": "2026-10-04T17:53:09.901Z",
   "http": {
     "GET https://app.humata.ai/": {
       "result": {
@@ -14,29 +14,29 @@
           ],
           [
             "content-security-policy",
-            "default-src 'self'; script-src 'self' 'nonce-TwV0jD0PPC/IMO8dJl9bKw==' 'strict-dynamic' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; connect-src 'self' https: wss:; media-src 'self' data: blob: https:; frame-src 'self' https:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https:; upgrade-insecure-requests"
+            "default-src 'self'; script-src 'self' 'nonce-oQU8xvkinPIMB0dH4jDVVQ==' 'strict-dynamic' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; connect-src 'self' https: wss:; media-src 'self' data: blob: https:; frame-src 'self' https:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https:; upgrade-insecure-requests"
           ],
           ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
           ["x-powered-by", "Next.js"],
-          ["etag", "\"128rzwx8mvx2m9\""],
+          ["etag", "\"17lyikagpqr2m9\""],
           ["content-type", "text/html; charset=utf-8"],
           ["vary", "Accept-Encoding"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 16:51:03 GMT"],
+          ["date", "Sun, 04 Oct 2026 17:53:10 GMT"],
           ["server", "Google Frontend"],
           ["via", "1.1 google"],
           ["alt-svc", "h3=\":443\"; ma=2592000"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta charset=\"UTF-8\" data-next-head=\"\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" data-next-head=\"\">\n<link rel=\"stylesheet\" href=\"/fonts/stylesheet.css\">\n<link rel=\"icon\" href=\"/favicon.ico\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">\n<link rel=\"shortcut icon\" href=\"/favicon.ico\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">\n<meta property=\"og:image\" content=\"https://app.humata.ai/og-logo-banner.png\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"600\">\n<meta property=\"og:title\" content=\"Humata: AI meets your knowledge base\">\n<meta property=\"og:description\" content=\"Humata is an AI agent that turns your documents into a fast, intelligent knowledge base for instant analysis, insights, and answers.\">\n<meta property=\"og:image:type\" content=\"image/png\">\n<link data-next-font=\"\" rel=\"preconnect\" href=\"/\" crossorigin=\"anonymous\">\n<link nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" rel=\"preload\" href=\"/_next/static/css/0374ed014e6d1442.css\" as=\"style\">\n<link nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" rel=\"stylesheet\" href=\"/_next/static/css/0374ed014e6d1442.css\" data-n-g=\"\">\n<script defer=\"\" nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script>\n<script src=\"/_next/static/chunks/webpack-6d3ba2b371439074.js\" nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/framework-0c3bd8565bf0b876.js\" nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/main-a6be0cf89893215c.js\" nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/pages/_app-6e155927e37b253b.js\" nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/pages/index-01c7dac1feaa9095.js\" nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" defer=\"\"></script>\n<script src=\"/_next/static/Ziw4EGO2lfvslUvsHbtOO/_buildManifest.js\" nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" defer=\"\"></script>\n<script src=\"/_next/static/Ziw4EGO2lfvslUvsHbtOO/_ssgManifest.js\" nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" defer=\"\"></script>"
+        "body": "<meta charset=\"UTF-8\" data-next-head=\"\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" data-next-head=\"\">\n<link rel=\"stylesheet\" href=\"/fonts/stylesheet.css\">\n<link rel=\"icon\" href=\"/favicon.ico\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">\n<link rel=\"shortcut icon\" href=\"/favicon.ico\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">\n<meta property=\"og:image\" content=\"https://app.humata.ai/og-logo-banner.png\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"600\">\n<meta property=\"og:title\" content=\"Humata: AI meets your knowledge base\">\n<meta property=\"og:description\" content=\"Humata is an AI agent that turns your documents into a fast, intelligent knowledge base for instant analysis, insights, and answers.\">\n<meta property=\"og:image:type\" content=\"image/png\">\n<link data-next-font=\"\" rel=\"preconnect\" href=\"/\" crossorigin=\"anonymous\">\n<link nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" rel=\"preload\" href=\"/_next/static/css/0374ed014e6d1442.css\" as=\"style\">\n<link nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" rel=\"stylesheet\" href=\"/_next/static/css/0374ed014e6d1442.css\" data-n-g=\"\">\n<script defer=\"\" nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script>\n<script src=\"/_next/static/chunks/webpack-6d3ba2b371439074.js\" nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/framework-0c3bd8565bf0b876.js\" nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/main-a6be0cf89893215c.js\" nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/pages/_app-6e155927e37b253b.js\" nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/pages/index-01c7dac1feaa9095.js\" nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" defer=\"\"></script>\n<script src=\"/_next/static/Ziw4EGO2lfvslUvsHbtOO/_buildManifest.js\" nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" defer=\"\"></script>\n<script src=\"/_next/static/Ziw4EGO2lfvslUvsHbtOO/_ssgManifest.js\" nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" defer=\"\"></script>"
       }
     }
   },
   "dns": {
-    "NS app.humata.ai": {
+    "AAAA app.humata.ai": {
       "result": {
         "name": "app.humata.ai",
-        "type": "NS",
+        "type": "AAAA",
         "records": []
       }
     },
@@ -47,30 +47,30 @@
         "records": ["8.232.96.226"]
       }
     },
+    "CNAME app.humata.ai": {
+      "result": {
+        "name": "app.humata.ai",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "NS app.humata.ai": {
+      "result": {
+        "name": "app.humata.ai",
+        "type": "NS",
+        "records": []
+      }
+    },
     "NS humata.ai": {
       "result": {
         "name": "humata.ai",
         "type": "NS",
         "records": [
           "ns-cloud-c3.googledomains.com",
-          "ns-cloud-c2.googledomains.com",
           "ns-cloud-c1.googledomains.com",
+          "ns-cloud-c2.googledomains.com",
           "ns-cloud-c4.googledomains.com"
         ]
-      }
-    },
-    "AAAA app.humata.ai": {
-      "result": {
-        "name": "app.humata.ai",
-        "type": "AAAA",
-        "records": []
-      }
-    },
-    "CNAME app.humata.ai": {
-      "result": {
-        "name": "app.humata.ai",
-        "type": "CNAME",
-        "records": []
       }
     },
     "TXT 226.96.232.8.origin.asn.cymru.com": {

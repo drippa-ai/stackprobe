@@ -1,6 +1,6 @@
 {
   "url": "https://www.leagueoflegends.com/",
-  "recordedAt": "2026-10-04T16:50:54.417Z",
+  "recordedAt": "2026-10-04T17:53:05.835Z",
   "http": {
     "GET https://www.leagueoflegends.com/": {
       "result": {
@@ -9,11 +9,11 @@
         "headers": [
           ["cache-control", "private, no-cache"],
           ["content-length", "0"],
-          ["date", "Sun, 04 Oct 2026 16:50:54 GMT"],
+          ["date", "Sun, 04 Oct 2026 17:53:06 GMT"],
           ["location", "/en-gb/"],
           ["server", "Netlify"],
           ["strict-transport-security", "max-age=31536000"],
-          ["x-nf-request-id", "01M43X6PYSR2ZF2C114V81SCNN"]
+          ["x-nf-request-id", "01M440RJYZSAY3YF3XZ99G14ZV"]
         ],
         "body": ""
       }
@@ -23,7 +23,7 @@
         "url": "https://www.leagueoflegends.com/en-gb/",
         "status": 200,
         "headers": [
-          ["age", "0"],
+          ["age", "3"],
           ["cache-control", "private,no-cache"],
           [
             "cache-status",
@@ -31,8 +31,8 @@
           ],
           ["content-encoding", "br"],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 16:50:54 GMT"],
-          ["etag", "W/\"a47imsw0y05j28-df\""],
+          ["date", "Sun, 04 Oct 2026 17:53:06 GMT"],
+          ["etag", "W/\"14nbqu1f29b5j4n-df\""],
           [
             "netlify-vary",
             "query=__nextDataReq|_rsc,header=x-nextjs-data|x-next-debug-logging|next-router-prefetch|next-router-segment-prefetch|next-router-state-tree|next-url|rsc|accept-encoding,cookie=__prerender_bypass|__next_preview_data"
@@ -45,13 +45,13 @@
           ["vary", "Accept-Encoding"],
           ["x-content-type-options", "nosniff"],
           ["x-cookie-source", "edge"],
-          ["x-nextjs-date", "Sun, 04 Oct 2026 16:50:54 GMT"],
-          ["x-nf-request-id", "01M43X6Q0SB5K23D74SG27FHQ6"],
+          ["x-nextjs-date", "Sun, 04 Oct 2026 17:53:06 GMT"],
+          ["x-nf-request-id", "01M440RK0HFK9V2P2W51YCBK67"],
           ["x-powered-by", "Next.js"],
           ["x-sitebuilder-version", "4.45.1"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta charset=\"utf-8\" data-next-head=\"\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" data-next-head=\"\">\n<meta name=\"description\" content=\"League of Legends is a team-based game with over 140 champions to make epic plays with. Play now for free.\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/ar-ae/\" hreflang=\"ar-ae\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/cs-cz/\" hreflang=\"cs-cz\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/de-de/\" hreflang=\"de-de\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/el-gr/\" hreflang=\"el-gr\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/en-au/\" hreflang=\"en-au\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/en-gb/\" hreflang=\"en-gb\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/en-us/\" hreflang=\"en-us\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/es-es/\" hreflang=\"es-es\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/es-mx/\" hreflang=\"es-mx\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/fr-fr/\" hreflang=\"fr-fr\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/hu-hu/\" hreflang=\"hu-hu\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/id-id/\" hreflang=\"id-id\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/it-it/\" hreflang=\"it-it\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/ja-jp/\" hreflang=\"ja-jp\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/ko-kr/\" hreflang=\"ko-kr\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/pl-pl/\" hreflang=\"pl-pl\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/pt-br/\" hreflang=\"pt-br\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/ro-ro/\" hreflang=\"ro-ro\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/ru-ru/\" hreflang=\"ru-ru\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/tr-tr/\" hreflang=\"tr-tr\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/en-sg/\" hreflang=\"en-sg\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/en-ph/\" hreflang=\"en-ph\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/zh-tw/\" hreflang=\"zh-tw\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/vi-vn/\" hreflang=\"vi-vn\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/th-th/\" hreflang=\"th-th\" data-next-head=\"\">\n<link rel=\"canonical\" href=\"https://www.leagueoflegends.com/en-gb/\" data-next-head=\"\">\n<meta property=\"og:url\" content=\"https://www.leagueoflegends.com/en-gb/\" data-next-head=\"\">\n<meta property=\"og:title\" content=\"League of Legends\" data-next-head=\"\">\n<meta property=\"og:description\" content=\"League of Legends is a team-based game with over 140 champions to make epic plays with. Play now for free.\" data-next-head=\"\">\n<meta property=\"og:image\" content=\"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d3b7bd9decb1e1672dcb80be4f8bc1aa05490dc1-110x70.svg?accountingTag=LoL?w=1200&amp;h=630&amp;fm=webp&amp;fit=crop&amp;crop=center\" data-next-head=\"\">\n<meta property=\"og:locale\" content=\"en-gb\" data-next-head=\"\">\n<link rel=\"icon\" href=\"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d3b7bd9decb1e1672dcb80be4f8bc1aa05490dc1-110x70.svg?accountingTag=LoL\" sizes=\"any\" data-next-head=\"\">\n<link rel=\"preconnect\" href=\"https://dev.visualwebsiteoptimizer.com\" data-next-head=\"\">\n<script id=\"osano-script\" src=\"https://cmp.osano.com/16BZ95S4qp9Kl2gUA/c84de61e-21d7-4a4a-9591-3d3a28fb5b1d/osano.js\" data-next-head=\"\"></script>\n<link rel=\"preload\" href=\"/_next/static/css/112495035b880485.css\" as=\"style\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/112495035b880485.css\" data-n-g=\"\">\n<link rel=\"preload\" href=\"/_next/static/css/d22fe4243c447d5f.css\" as=\"style\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/d22fe4243c447d5f.css\" data-n-p=\"\">\n<script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script>\n<script src=\"/_next/static/chunks/webpack-8ab12d32ea1b60b5.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/framework-d5fbdf5171596063.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/main-76a240742e38efa1.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/pages/_app-8e1ba8c934f22784.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/373-e69bc9a84fe7ccb2.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/116-7e72687ec2fb2196.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/374-ec72b2e5fcd81fef.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/839-6321fedd259ab0fd.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/pages/%5B%5B...pathArray%5D%5D-de705f74a51683f7.js\" defer=\"\"></script>\n<script src=\"/_next/static/Gmozal-5wR6tVeB_azDmk/_buildManifest.js\" defer=\"\"></script>\n<script src=\"/_next/static/Gmozal-5wR6tVeB_azDmk/_ssgManifest.js\" defer=\"\"></script>"
+        "body": "<meta charset=\"utf-8\" data-next-head=\"\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" data-next-head=\"\">\n<meta name=\"description\" content=\"League of Legends is a team-based game with over 140 champions to make epic plays with. Play now for free.\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/ar-ae/\" hreflang=\"ar-ae\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/cs-cz/\" hreflang=\"cs-cz\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/de-de/\" hreflang=\"de-de\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/el-gr/\" hreflang=\"el-gr\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/en-au/\" hreflang=\"en-au\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/en-gb/\" hreflang=\"en-gb\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/en-us/\" hreflang=\"en-us\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/es-es/\" hreflang=\"es-es\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/es-mx/\" hreflang=\"es-mx\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/fr-fr/\" hreflang=\"fr-fr\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/hu-hu/\" hreflang=\"hu-hu\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/id-id/\" hreflang=\"id-id\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/it-it/\" hreflang=\"it-it\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/ja-jp/\" hreflang=\"ja-jp\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/ko-kr/\" hreflang=\"ko-kr\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/pl-pl/\" hreflang=\"pl-pl\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/pt-br/\" hreflang=\"pt-br\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/ro-ro/\" hreflang=\"ro-ro\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/ru-ru/\" hreflang=\"ru-ru\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/tr-tr/\" hreflang=\"tr-tr\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/en-sg/\" hreflang=\"en-sg\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/en-ph/\" hreflang=\"en-ph\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/zh-tw/\" hreflang=\"zh-tw\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/vi-vn/\" hreflang=\"vi-vn\" data-next-head=\"\">\n<link rel=\"alternate\" href=\"https://www.leagueoflegends.com/th-th/\" hreflang=\"th-th\" data-next-head=\"\">\n<link rel=\"canonical\" href=\"https://www.leagueoflegends.com/en-gb/\" data-next-head=\"\">\n<meta property=\"og:url\" content=\"https://www.leagueoflegends.com/en-gb/\" data-next-head=\"\">\n<meta property=\"og:title\" content=\"League of Legends\" data-next-head=\"\">\n<meta property=\"og:description\" content=\"League of Legends is a team-based game with over 140 champions to make epic plays with. Play now for free.\" data-next-head=\"\">\n<meta property=\"og:image\" content=\"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d3b7bd9decb1e1672dcb80be4f8bc1aa05490dc1-110x70.svg?accountingTag=LoL?w=1200&amp;h=630&amp;fm=webp&amp;fit=crop&amp;crop=center\" data-next-head=\"\">\n<meta property=\"og:locale\" content=\"en-gb\" data-next-head=\"\">\n<link rel=\"icon\" href=\"https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/d3b7bd9decb1e1672dcb80be4f8bc1aa05490dc1-110x70.svg?accountingTag=LoL\" sizes=\"any\" data-next-head=\"\">\n<link rel=\"preconnect\" href=\"https://dev.visualwebsiteoptimizer.com\" data-next-head=\"\">\n<script id=\"osano-script\" src=\"https://cmp.osano.com/16BZ95S4qp9Kl2gUA/c84de61e-21d7-4a4a-9591-3d3a28fb5b1d/osano.js\" data-next-head=\"\"></script>\n<link rel=\"preload\" href=\"/_next/static/css/112495035b880485.css\" as=\"style\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/112495035b880485.css\" data-n-g=\"\">\n<link rel=\"preload\" href=\"/_next/static/css/d22fe4243c447d5f.css\" as=\"style\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/d22fe4243c447d5f.css\" data-n-p=\"\">\n<script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script>\n<script src=\"/_next/static/chunks/webpack-8ab12d32ea1b60b5.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/framework-d5fbdf5171596063.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/main-76a240742e38efa1.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/pages/_app-8e1ba8c934f22784.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/373-e69bc9a84fe7ccb2.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/116-7e72687ec2fb2196.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/374-ec72b2e5fcd81fef.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/839-6321fedd259ab0fd.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/pages/%5B%5B...pathArray%5D%5D-de705f74a51683f7.js\" defer=\"\"></script>\n<script src=\"/_next/static/Gmozal-5wR6tVeB_azDmk/_buildManifest.js\" defer=\"\"></script>\n<script src=\"/_next/static/Gmozal-5wR6tVeB_azDmk/_ssgManifest.js\" defer=\"\"></script>\n<a href=\"https://signup.leagueoflegends.com/en-gb/signup/redownload\">PLAY FOR FREE</a>\n<a href=\"https://www.leagueoflegends.com/en-gb/news/\">View All</a>\n<a href=\"https://lolesports.com/en-gb/news/worlds-anthem-presented-by-true-damage\">Esports2026-09-29T16:00:00.000ZWorlds Anthem Presented by True DamageThis year’s anthem and music vi</a>\n<a href=\"https://youtube.com/shorts/0NIcIbCdlXs\">Media2026-09-29T15:00:00.000Zsmall update from your Worlds artists (quick before Akali sees)she says</a>\n<a href=\"https://www.youtube.com/watch?v=Xj4V2Bp1sl8\">Game Updates2026-09-28T16:00:00.000ZFortune Favors the Bold in League ClassicFizz, Nami, Nautilus, a</a>\n<a href=\"https://www.leagueoflegends.com/en-gb/champions/\">Discover More Champions</a>\n<a href=\"https://signup.leagueoflegends.com/\">Play Now</a>\n<a href=\"https://signup.leagueoflegends.com/\">PLAY NOW</a>\n<a href=\"https://signup.leagueoflegends.com/\">PLAY FOR FREE</a>"
       }
     }
   },
@@ -61,27 +61,6 @@
         "name": "www.leagueoflegends.com",
         "type": "A",
         "records": ["3.33.186.135", "15.197.167.90"]
-      }
-    },
-    "CNAME www.leagueoflegends.com": {
-      "result": {
-        "name": "www.leagueoflegends.com",
-        "type": "CNAME",
-        "records": ["riotgames-publishing.netlifyglobalcdn.com"]
-      }
-    },
-    "AAAA www.leagueoflegends.com": {
-      "result": {
-        "name": "www.leagueoflegends.com",
-        "type": "AAAA",
-        "records": ["2a05:d014:58f:6200::1f5", "2a05:d014:58f:6200::1f6"]
-      }
-    },
-    "CNAME riotgames-publishing.netlifyglobalcdn.com": {
-      "result": {
-        "name": "riotgames-publishing.netlifyglobalcdn.com",
-        "type": "CNAME",
-        "records": []
       }
     },
     "NS www.leagueoflegends.com": {
@@ -96,10 +75,10 @@
         "name": "leagueoflegends.com",
         "type": "NS",
         "records": [
-          "ns-981.awsdns-58.net",
-          "ns-1809.awsdns-34.co.uk",
           "ns-212.awsdns-26.com",
-          "ns-1095.awsdns-08.org"
+          "ns-1095.awsdns-08.org",
+          "ns-981.awsdns-58.net",
+          "ns-1809.awsdns-34.co.uk"
         ]
       }
     },
@@ -115,6 +94,27 @@
         "name": "AS16509.asn.cymru.com",
         "type": "TXT",
         "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    },
+    "CNAME www.leagueoflegends.com": {
+      "result": {
+        "name": "www.leagueoflegends.com",
+        "type": "CNAME",
+        "records": ["riotgames-publishing.netlifyglobalcdn.com"]
+      }
+    },
+    "CNAME riotgames-publishing.netlifyglobalcdn.com": {
+      "result": {
+        "name": "riotgames-publishing.netlifyglobalcdn.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "AAAA www.leagueoflegends.com": {
+      "result": {
+        "name": "www.leagueoflegends.com",
+        "type": "AAAA",
+        "records": ["2a05:d014:58f:6200::1f5", "2a05:d014:58f:6200::1f6"]
       }
     }
   },

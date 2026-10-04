@@ -104,7 +104,7 @@ export class RecordingNet implements Net {
         ...res,
         url: redactText(res.url),
         headers: redactHeaders(res.headers),
-        // Only the tags the HTTP layer reads; no page content goes into the repo.
+        // Only the tags the HTTP layer reads, plus link text; no other page content goes into the repo.
         body: isHtml(res) ? redactText(distillHtml(res.body)) : '',
       }),
     );

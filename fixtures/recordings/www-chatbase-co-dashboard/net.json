@@ -1,6 +1,6 @@
 {
   "url": "https://www.chatbase.co/dashboard",
-  "recordedAt": "2026-10-04T16:50:51.767Z",
+  "recordedAt": "2026-10-04T17:53:04.692Z",
   "http": {
     "GET https://www.chatbase.co/dashboard": {
       "result": {
@@ -13,7 +13,7 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "text/html"],
-          ["date", "Sun, 04 Oct 2026 16:50:51 GMT"],
+          ["date", "Sun, 04 Oct 2026 17:53:04 GMT"],
           ["location", "/auth/signin?next=%2Fdashboard"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
@@ -21,10 +21,10 @@
           ["strict-transport-security", "max-age=63072000"],
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "SAMEORIGIN"],
-          ["x-vercel-id", "arn1::9p25q-1791132651786-0aaed9c969da"],
+          ["x-vercel-id", "arn1::w28qs-1791136384798-5ab3e61f18b8"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": ""
+        "body": "<a href=\"/auth/signin?next=%252Fdashboard\">here</a>"
       }
     },
     "GET https://www.chatbase.co/auth/signin?next=%2Fdashboard": {
@@ -40,7 +40,7 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 16:50:51 GMT"],
+          ["date", "Sun, 04 Oct 2026 17:53:04 GMT"],
           [
             "link",
             "</__cb/_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </__cb/_next/static/immutable/media/caa3a2e1cccd8315-s.p.0zr6hhvz-h9nw.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </fonts/ProzaDisplay-SemiBoldItalic.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </fonts/ProzaDisplay-BoldItalic.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\""
@@ -57,26 +57,24 @@
           ["x-frame-options", "SAMEORIGIN"],
           ["x-matched-path", "/auth/signin"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::iad1::qsqnx-1791132651848-11ff52a1bbb3"],
+          ["x-vercel-id", "arn1::iad1::6mppp-1791136384867-33e59365139d"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/0pd517pxh6vcm.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/2-5wzhu8qppjo.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/1t4cxi75rdbk2.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/3u2p097r6uft5.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/__cb/_next/static/immutable/chunks/0c3qvn961npnn.js\">\n<script src=\"/__cb/_next/static/immutable/chunks/1191lj8_x8otc.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2nwa74aoyrwy0.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/030_x03l9ly56.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0ux-h5uvcuc89.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/turbopack-22-c1oqq6f7zu.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0x-9rc1bm-510.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2qdblmd4je3nh.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/4519rpd7jxu8x.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0x767289iclnm.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1ciksvojfipik.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/26520i_dqg323.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3l6-c6vc89ks3.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3th-44uczva1s.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0lpzvm68p_5b7.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0yre_ngvk4fsm.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3vgtzkidybmkg.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3t1g0gue_7_2e.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/33n4ouh7f3_9s.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1imv5lnii1thd.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/22mnbgxpw3eje.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1-0y7-7nhhxm1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/10h9wya-h4zph.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/26v9vzy95by3x.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/30_ukc6_fhn_b.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3uzfp5gpfy5yl.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/05i21-8v2mk_f.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2loevn1b5-7nz.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0-wjlyk8qsae_.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0k8_f9q3v7zje.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/00pjbka6tgacw.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1zii8055jnmqm.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0b8ps6pzkqs3t.js\" async=\"\" crossorigin=\"\"></script>\n<meta name=\"description\" content=\"Sign in to your account\">\n<meta name=\"robots\" content=\"noindex, nofollow\">\n<link rel=\"canonical\" href=\"https://www.chatbase.co/auth/signin\">\n<meta name=\"next-size-adjust\" content=\"\">\n<link rel=\"preload\" href=\"/fonts/ProzaDisplay-SemiBoldItalic.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/fonts/ProzaDisplay-BoldItalic.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<script src=\"/__cb/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0c3qvn961npnn.js\" id=\"_R_\" async=\"\"></script>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/0pd517pxh6vcm.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/2-5wzhu8qppjo.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/1t4cxi75rdbk2.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/3u2p097r6uft5.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/__cb/_next/static/immutable/chunks/0c3qvn961npnn.js\">\n<script src=\"/__cb/_next/static/immutable/chunks/1191lj8_x8otc.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2nwa74aoyrwy0.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/030_x03l9ly56.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0ux-h5uvcuc89.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/turbopack-22-c1oqq6f7zu.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0x-9rc1bm-510.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2qdblmd4je3nh.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/4519rpd7jxu8x.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0x767289iclnm.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1ciksvojfipik.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/26520i_dqg323.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3l6-c6vc89ks3.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3th-44uczva1s.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0lpzvm68p_5b7.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0yre_ngvk4fsm.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3vgtzkidybmkg.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3t1g0gue_7_2e.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/33n4ouh7f3_9s.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1imv5lnii1thd.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/22mnbgxpw3eje.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1-0y7-7nhhxm1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/10h9wya-h4zph.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/26v9vzy95by3x.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/30_ukc6_fhn_b.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3uzfp5gpfy5yl.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/05i21-8v2mk_f.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2loevn1b5-7nz.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0-wjlyk8qsae_.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0k8_f9q3v7zje.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/00pjbka6tgacw.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1zii8055jnmqm.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0b8ps6pzkqs3t.js\" async=\"\" crossorigin=\"\"></script>\n<meta name=\"description\" content=\"Sign in to your account\">\n<meta name=\"robots\" content=\"noindex, nofollow\">\n<link rel=\"canonical\" href=\"https://www.chatbase.co/auth/signin\">\n<meta name=\"next-size-adjust\" content=\"\">\n<link rel=\"preload\" href=\"/fonts/ProzaDisplay-SemiBoldItalic.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/fonts/ProzaDisplay-BoldItalic.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<script src=\"/__cb/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"/\">Chatbase</a>\n<a href=\"/auth/signup?next=%2Fdashboard\">Create a new account</a>\n<a href=\"/auth/sso\">Sign in with SSO</a>\n<a href=\"/legal/terms\">Terms</a>\n<a href=\"/legal/privacy\">Privacy</a>\n<script src=\"/__cb/_next/static/immutable/chunks/0c3qvn961npnn.js\" id=\"_R_\" async=\"\"></script>\n<a href=\"/auth/password-reset?next=%2Fdashboard\">Forgot password?</a>"
       }
     }
   },
   "dns": {
-    "A www.chatbase.co": {
+    "NS www.chatbase.co": {
       "result": {
         "name": "www.chatbase.co",
-        "type": "A",
-        "records": ["66.33.60.34", "76.76.21.164"]
-      }
-    },
-    "AAAA www.chatbase.co": {
-      "result": {
-        "name": "www.chatbase.co",
-        "type": "AAAA",
-        "records": []
+        "type": "NS",
+        "records": [
+          "ns4.vercel-dns-3.com",
+          "ns2.vercel-dns-3.com",
+          "ns1.vercel-dns-3.com",
+          "ns3.vercel-dns-3.com"
+        ]
       }
     },
     "CNAME www.chatbase.co": {
@@ -86,16 +84,18 @@
         "records": ["cname.vercel-dns.com"]
       }
     },
-    "NS www.chatbase.co": {
+    "AAAA www.chatbase.co": {
       "result": {
         "name": "www.chatbase.co",
-        "type": "NS",
-        "records": [
-          "ns2.vercel-dns-3.com",
-          "ns1.vercel-dns-3.com",
-          "ns4.vercel-dns-3.com",
-          "ns3.vercel-dns-3.com"
-        ]
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "A www.chatbase.co": {
+      "result": {
+        "name": "www.chatbase.co",
+        "type": "A",
+        "records": ["76.76.21.93", "66.33.60.194"]
       }
     },
     "CNAME cname.vercel-dns.com": {
@@ -105,11 +105,11 @@
         "records": []
       }
     },
-    "TXT 193.60.33.66.origin.asn.cymru.com": {
+    "TXT 123.21.76.76.origin.asn.cymru.com": {
       "result": {
-        "name": "193.60.33.66.origin.asn.cymru.com",
+        "name": "123.21.76.76.origin.asn.cymru.com",
         "type": "TXT",
-        "records": ["16509 | 66.33.60.0/24 | US | arin | 2024-03-21"]
+        "records": ["16509 | 76.76.21.0/24 | US | arin | 2020-05-08"]
       }
     },
     "TXT as16509.asn.cymru.com": {
@@ -124,7 +124,7 @@
     "www.chatbase.co:443": {
       "result": {
         "host": "www.chatbase.co",
-        "ip": "66.33.60.193",
+        "ip": "76.76.21.123",
         "issuer": "C=US, O=Let's Encrypt, CN=YR1",
         "subjectAltNames": ["www.chatbase.co"],
         "validFrom": "Aug 21 15:34:15 2026 GMT",
