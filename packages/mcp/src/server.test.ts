@@ -57,7 +57,9 @@ describe('stackprobe MCP server', () => {
       expect.arrayContaining(['vercel', 'nextjs']),
     );
     expect(scan.text).toContain('- vercel (hosting) 99%');
-    expect(scan.text).toContain('not yet known whether this is the product app');
+    // Product first: the login page leads, the homepage is not passed off as the product.
+    expect(scan.text).toMatch(/^Surface https:\/\/vercel\.com\/login \(product app/m);
+    expect(scan.text).toContain('Surface https://vercel.com/ (not sure what this is');
     expect(await store.listScans('vercel.com')).toHaveLength(1);
   });
 

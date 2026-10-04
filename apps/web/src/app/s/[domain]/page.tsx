@@ -1,4 +1,10 @@
-import type { Detection, Report, ScanRecord, Surface } from '@drippa/stackprobe-core';
+import {
+  type Detection,
+  type Report,
+  type ScanRecord,
+  type Surface,
+  surfacesByRole,
+} from '@drippa/stackprobe-core';
 import type { Metadata } from 'next';
 import { getStore } from '../../../lib/services.ts';
 import { rescanAction } from '../../actions.ts';
@@ -58,10 +64,22 @@ function ScanStatusLine({ scan }: { scan: ScanRecord }) {
   );
 }
 
+// Product first: marketing findings never stand in for the product's stack.
 function ReportView({ report }: { report: Report }) {
+  const { product, marketing, other } = surfacesByRole(report);
   return (
     <>
-      {report.surfaces.map((surface) => (
+      <section>
+        <h2>Product</h2>
+        {product.length > 0 ? null : marketing.length > 0 ? (
+          <p className="warn">No product app found; showing the marketing site only.</p>
+        ) : (
+          <p className="warn">
+            Couldn't tell which of these is the product app, so nothing is shown as the product.
+          </p>
+        )}
+      </section>
+      {[...product, ...marketing, ...other].map((surface) => (
         <SurfaceView key={surface.id} surface={surface} />
       ))}
       <section>
@@ -81,7 +99,7 @@ function ReportView({ report }: { report: Report }) {
 }
 
 const SURFACE_LABELS: Record<Surface['kind'], string> = {
-  unclassified: 'Not yet known whether this is the product app or its marketing site.',
+  unclassified: 'Not sure what this is',
   marketing: 'Marketing site',
   app: 'Product app',
   api: 'API',
@@ -105,7 +123,9 @@ function SurfaceView({ surface }: { surface: Surface }) {
         <code>{surface.url}</code>
       </h2>
       <p className="muted">
-        {SURFACE_LABELS[surface.kind]}
+        <strong>{SURFACE_LABELS[surface.kind]}</strong>
+        {surface.kindConfidence !== null ? ` (${Math.round(surface.kindConfidence * 100)}%)` : ''}
+        {surface.kindReasons?.length ? `: ${surface.kindReasons.join(', ')}.` : '.'}
         {surface.foundBy ? ` ${FOUND_BY(surface.foundBy)}` : ''}
       </p>
       {surface.detections.length === 0 ? (

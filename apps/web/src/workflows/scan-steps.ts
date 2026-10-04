@@ -1,5 +1,7 @@
 import {
   buildReport,
+  type Classification,
+  classifySurfaces,
   DEFAULT_LAYERS,
   discoverSurfaces,
   type LayerId,
@@ -64,11 +66,20 @@ export async function discoverStep(
   }));
 }
 
+// Decides what kind each surface is: rules first, a decision model when one is configured.
+export async function classifyStep(
+  surfaces: SurfaceResults[],
+): Promise<Record<string, Classification>> {
+  'use step';
+  return classifySurfaces(surfaces);
+}
+
 // Builds the report from every surface's results and marks the scan done or partial.
 export async function finishScanStep(
   scanId: string,
   scannedAt: string,
   surfaces: SurfaceResults[],
+  classifications: Record<string, Classification> = {},
 ): Promise<ScanStatus> {
   'use step';
   const [root] = surfaces;
@@ -77,6 +88,7 @@ export async function finishScanStep(
     domain: root.target.host,
     scannedAt: new Date(scannedAt),
     surfaces,
+    classifications,
   });
   const store = getStore();
   try {

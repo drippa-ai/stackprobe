@@ -1,7 +1,13 @@
-import type { Detection, ReportDiff, ScanRecord, Surface } from '@drippa/stackprobe-core';
+import {
+  type Detection,
+  type ReportDiff,
+  type ScanRecord,
+  type Surface,
+  surfacesByRole,
+} from '@drippa/stackprobe-core';
 
 const SURFACE_KINDS: Record<Surface['kind'], string> = {
-  unclassified: 'not yet known whether this is the product app or its marketing site',
+  unclassified: 'not sure what this is',
   marketing: 'marketing site',
   app: 'product app',
   api: 'API',
@@ -33,18 +39,39 @@ export function formatScan(scan: ScanRecord): string {
     lines.push('The scan is still running. Call get_scan again in a few seconds.');
     return lines.join('\n');
   }
-  for (const surface of scan.report.surfaces) {
-    lines.push('', `Surface ${surface.url} (${SURFACE_KINDS[surface.kind]}${foundBy(surface)})`);
+  // Product first: marketing findings never stand in for the product's stack.
+  const { product, marketing, other } = surfacesByRole(scan.report);
+  if (product.length === 0) {
+    lines.push(
+      marketing.length > 0
+        ? 'No product app found; showing the marketing site only.'
+        : 'Could not tell which surface is the product app, so none is presented as the product.',
+    );
+  }
+  for (const surface of [...product, ...marketing, ...other]) {
+    const sure =
+      surface.kindConfidence !== null ? ` ${Math.round(surface.kindConfidence * 100)}%` : '';
+    const why = surface.kindReasons?.length ? ` because: ${surface.kindReasons.join(', ')}` : '';
+    lines.push(
+      '',
+      `Surface ${surface.url} (${SURFACE_KINDS[surface.kind]}${sure}${why}${foundBy(surface)})`,
+    );
     lines.push(
       ...(surface.detections.length
         ? surface.detections.map(detectionLine)
         : ['- nothing detected']),
     );
   }
-  const checks = scan.report.layersRun.map((run) =>
-    run.error ? `${run.layer} ${run.status} (${run.error.message})` : `${run.layer} ${run.status}`,
+  const runs = scan.report.layersRun;
+  const failed = runs.filter((run) => run.status === 'failed' || run.status === 'timeout');
+  lines.push(
+    '',
+    failed.length === 0
+      ? `All ${runs.length} checks ran.`
+      : `Checks that did not finish: ${failed
+          .map((run) => `${run.layer} on ${run.surfaceId} (${run.error?.message ?? run.status})`)
+          .join('; ')}`,
   );
-  lines.push('', `Checks: ${checks.join(', ')}`);
   if (scan.status === 'partial') {
     lines.push('Some checks failed, so this result may be incomplete.');
   }

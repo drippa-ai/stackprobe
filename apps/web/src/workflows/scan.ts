@@ -1,5 +1,11 @@
 import type { LayerId, ScanStatus } from '@drippa/stackprobe-core';
-import { discoverStep, finishScanStep, rootSurfaceStep, runLayerStep } from './scan-steps.ts';
+import {
+  classifyStep,
+  discoverStep,
+  finishScanStep,
+  rootSurfaceStep,
+  runLayerStep,
+} from './scan-steps.ts';
 
 // The layers a hosted scan runs on the page asked for, one workflow step each. Kept in step with
 // core's DEFAULT_LAYERS by a test: workflow code can't load core itself.
@@ -24,5 +30,7 @@ export async function scanWorkflow(
       results: await Promise.all(layers.map((layer) => runLayerStep(scanId, surface, layer))),
     })),
   );
-  return finishScanStep(scanId, scannedAt, [{ target: root, results: rootResults }, ...others]);
+  const surfaces = [{ target: root, results: rootResults }, ...others];
+  const classifications = await classifyStep(surfaces);
+  return finishScanStep(scanId, scannedAt, surfaces, classifications);
 }

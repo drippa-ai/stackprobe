@@ -18,8 +18,16 @@ export interface TechScore {
   wrong: string[];
 }
 
+export interface KindScore {
+  kind: string;
+  correct: string[];
+  wrong: { recording: string; as: string }[];
+  unclassified: string[];
+}
+
 export interface Accuracy {
   techs: TechScore[];
+  kinds: KindScore[];
   // Detected, but the ground truth says nothing either way.
   unverified: { recording: string; tech: string }[];
   // Surfaces left out of the scores, and why.
@@ -31,7 +39,8 @@ export interface Accuracy {
 
 // Whether scanning a company's homepage finds the product app the ground truth names.
 export interface Discovery {
-  found: { app: string; via: string }[];
+  // `kind` is what classification called the surface that matched the app.
+  found: { app: string; via: string; kind: string }[];
   // With the surfaces the scan did find, to show what it saw instead.
   missed: { app: string; surfaces: string[] }[];
   notRecorded: string[];
@@ -68,7 +77,7 @@ export async function measureDiscovery(rows: GroundTruthRow[]): Promise<Discover
         : match.foundBy.kind === 'subdomain'
           ? 'subdomain check'
           : `link "${match.foundBy.text ?? ''}"`;
-      discovery.found.push({ app: row.surfaceUrl, via });
+      discovery.found.push({ app: row.surfaceUrl, via, kind: match.kind });
     } else {
       discovery.missed.push({ app: row.surfaceUrl, surfaces: report.surfaces.map((s) => s.url) });
     }
@@ -88,6 +97,15 @@ export async function measureAccuracy(rows: GroundTruthRow[]): Promise<Accuracy>
     if (!entry) {
       entry = { tech, hasFingerprint: fingerprinted.has(tech), found: [], missed: [], wrong: [] };
       scores.set(tech, entry);
+    }
+    return entry;
+  };
+  const kinds = new Map<string, KindScore>();
+  const kindScore = (kind: string) => {
+    let entry = kinds.get(kind);
+    if (!entry) {
+      entry = { kind, correct: [], wrong: [], unclassified: [] };
+      kinds.set(kind, entry);
     }
     return entry;
   };
@@ -125,6 +143,14 @@ export async function measureAccuracy(rows: GroundTruthRow[]): Promise<Accuracy>
       continue;
     }
 
+    const kind = report.surfaces[0]?.kind ?? 'unclassified';
+    if (row.surfaceKind !== 'unclear') {
+      const entry = kindScore(row.surfaceKind);
+      if (kind === row.surfaceKind) entry.correct.push(row.recording);
+      else if (kind === 'unclassified') entry.unclassified.push(row.recording);
+      else entry.wrong.push({ recording: row.recording, as: kind });
+    }
+
     const detected = new Set(report.surfaces.flatMap((s) => s.detections.map((d) => d.tech)));
     for (const tech of row.present) {
       (detected.has(tech) ? score(tech).found : score(tech).missed).push(row.recording);
@@ -146,6 +172,7 @@ export async function measureAccuracy(rows: GroundTruthRow[]): Promise<Accuracy>
     for (const list of [entry.found, entry.missed, entry.wrong]) list.sort();
   return {
     techs,
+    kinds: [...kinds.values()].sort((a, b) => a.kind.localeCompare(b.kind)),
     unverified: unverified.sort(
       (a, b) => a.tech.localeCompare(b.tech) || a.recording.localeCompare(b.recording),
     ),
@@ -192,17 +219,47 @@ export function formatAccuracy(accuracy: Accuracy): string {
     ),
   ];
 
+  const kindTotals = accuracy.kinds.reduce(
+    (sum, k) => ({
+      correct: sum.correct + k.correct.length,
+      all: sum.all + k.correct.length + k.wrong.length + k.unclassified.length,
+      wrong: sum.wrong + k.wrong.length,
+    }),
+    { correct: 0, all: 0, wrong: 0 },
+  );
+  lines.push(
+    '',
+    '## Surface kinds',
+    '',
+    `**Kind right for ${kindTotals.correct} of ${kindTotals.all} surfaces ` +
+      `(${percent(kindTotals.correct, kindTotals.all)}). Wrong: ${kindTotals.wrong}; the rest ` +
+      'were left unclassified.** Each surface scanned on its own, by rules only.',
+    '',
+    '| Kind | Right | Wrong | Unclassified |',
+    '| --- | --- | --- | --- |',
+    ...accuracy.kinds.map(
+      (k) => `| ${k.kind} | ${k.correct.length} | ${k.wrong.length} | ${k.unclassified.length} |`,
+    ),
+    '',
+    ...accuracy.kinds.flatMap((k) => [
+      ...k.wrong.map((w) => `- ${k.kind} **${w.recording}**: called ${w.as}`),
+      ...k.unclassified.map((u) => `- ${k.kind} ${u}: unclassified`),
+    ]),
+  );
+
   const { discovery } = accuracy;
   const apps = discovery.found.length + discovery.missed.length;
+  const calledApp = discovery.found.filter((f) => f.kind === 'app').length;
   lines.push(
     '',
     '## Finding the app',
     '',
     `**Scanning the company's homepage found ${discovery.found.length} of ${apps} product apps ` +
-      `(${percent(discovery.found.length, apps)}).** Each app in the ground truth, and how the ` +
-      'scan reached it:',
+      `(${percent(discovery.found.length, apps)}), and called ${calledApp} of them the product ` +
+      `app (${percent(calledApp, apps)}).** Each app in the ground truth, how the scan reached ` +
+      'it, and what it called it:',
     '',
-    ...discovery.found.map((f) => `- ${f.app}: ${f.via}`),
+    ...discovery.found.map((f) => `- ${f.app}: ${f.via}; called ${f.kind}`),
     ...discovery.missed.map((m) => `- ${m.app}: **missed** (scanned ${m.surfaces.join(', ')})`),
     ...discovery.notRecorded.map((app) => `- ${app}: homepage not recorded yet`),
   );

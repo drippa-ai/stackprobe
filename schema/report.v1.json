@@ -45,6 +45,12 @@
               }
             ]
           },
+          "kindReasons": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
           "foundBy": {
             "oneOf": [
               {
