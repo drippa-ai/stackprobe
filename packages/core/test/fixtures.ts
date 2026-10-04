@@ -20,6 +20,9 @@ import { redactHeaders, redactText } from './redact.ts';
 //   expected.json  what a scan of this site must and must not detect, written by hand
 
 export const FIXTURES_DIR = new URL('../../../fixtures/sites/', import.meta.url);
+// Recordings of the ground-truth surfaces (fixtures/ground-truth.csv). They have no
+// expected.json: the CSV says what each one should detect.
+export const RECORDINGS_DIR = new URL('../../../fixtures/recordings/', import.meta.url);
 
 type Recorded<T> = { result: T } | { error: { code: LayerErrorCode; message: string } };
 
@@ -155,8 +158,12 @@ export function loadFixture(name: string): { recording: NetRecording; expected: 
   };
 }
 
-export function saveRecording(name: string, recording: NetRecording): void {
-  const dir = new URL(`${name}/`, FIXTURES_DIR);
+export function loadRecording(name: string, root = RECORDINGS_DIR): NetRecording {
+  return JSON.parse(readFileSync(new URL(`${name}/net.json`, root), 'utf8'));
+}
+
+export function saveRecording(name: string, recording: NetRecording, root = FIXTURES_DIR): void {
+  const dir = new URL(`${name}/`, root);
   mkdirSync(dir, { recursive: true });
   writeFileSync(new URL('net.json', dir), `${JSON.stringify(recording, null, 2)}\n`);
 }

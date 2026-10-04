@@ -1,0 +1,129 @@
+{
+  "url": "https://app.turso.tech/",
+  "recordedAt": "2026-10-04T16:50:54.957Z",
+  "http": {
+    "GET https://app.turso.tech/": {
+      "result": {
+        "url": "https://app.turso.tech/",
+        "status": 307,
+        "headers": [
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "text/html"],
+          ["date", "Sun, 04 Oct 2026 16:50:55 GMT"],
+          ["location", "/login?redirect_url=https%3A%2F%2Fapp.turso.tech%2F"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-clerk-auth-reason", "session-token-and-uat-missing"],
+          ["x-clerk-auth-status", "signed-out"],
+          ["x-clerk-redirect-to", "true"],
+          ["x-frame-options", "DENY"],
+          ["x-vercel-id", "arn1::czz8j-1791132655102-2cd2a6256ac4"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.turso.tech/login?redirect_url=https%3A%2F%2Fapp.turso.tech%2F": {
+      "result": {
+        "url": "https://app.turso.tech/login?redirect_url=https%3A%2F%2Fapp.turso.tech%2F",
+        "status": 200,
+        "headers": [
+          ["age", "0"],
+          ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 16:50:55 GMT"],
+          [
+            "link",
+            "</_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-clerk-auth-reason", "session-token-and-uat-missing"],
+          ["x-clerk-auth-status", "signed-out"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/login/[[...login]]"],
+          ["x-powered-by", "Next.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::iad1::lfh4p-1791132655174-76630d4ffea8"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/44yq3g03e8hdl.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/0jyqdz0-9vvic.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/43_4b2odbj_vg.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/0rnts1su1q3d9.js\">\n<script src=\"/_next/static/immutable/chunks/0ywfqrpkr7nyq.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/008ao_2vvmmmh.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0svkai00pv8ct.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3ufznw_w897kn.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-1ksb84fvyv6ok.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2kkhd5-i2fm8m.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1wg83mkl1-cpo.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0x_pc84sc5h8j.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0pq0svdwnula3.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/337ulb_6jmkph.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3vxerzb4mjra3.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0vcb8f2xqctju.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0pxsszfavsfwt.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2i9ht_v4o5t9x.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2lsm02he3at9p.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3etj4nruigd6f.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/39iq-j-m5q5vs.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/165vwox4v_ehg.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/03497l03eiv4p.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/31ch_9q9233lz.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3gq9-svdzw_6u.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0l-nh-n9sqnt7.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"https://clerk.turso.tech/npm/@clerk/clerk-js@5/dist/clerk.browser.js\" data-clerk-js-script=\"true\" async=\"\" crossorigin=\"anonymous\" data-clerk-publishable-key=\"pk_live_<redacted>\"></script>\n<link rel=\"preload\" href=\"https://www.googletagmanager.com/gtm.js?id=GTM-WW757Q5\" as=\"script\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.3dzu3z6cywbjb.ico\" sizes=\"48x48\" type=\"image/x-icon\">\n<meta name=\"next-size-adjust\" content=\"\">\n<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\">\n<meta name=\"sentry-trace\" content=\"c52baabb81ac926635cefce291471c4a-ef7a5ce077d91eb6-1\">\n<meta name=\"baggage\" content=\"sentry-environment=vercel-production,sentry-release=6bb000ca17fb26bdfa74b546e04ac38b961b18c8,sentry-public_key=518d5d280bad51530472318711eb7814,sentry-trace_id=c52baabb81ac926635cefce291471c4a,sentry-org_id=4505630238310400,sentry-transaction=GET%20%2Flogin,sentry-sampled=true,sentry-sample_rand=0.34875762358137186,sentry-sample_rate=1\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0rnts1su1q3d9.js\" id=\"_R_\" async=\"\"></script>"
+      }
+    }
+  },
+  "dns": {
+    "A app.turso.tech": {
+      "result": {
+        "name": "app.turso.tech",
+        "type": "A",
+        "records": ["66.33.60.34", "76.76.21.164"]
+      }
+    },
+    "NS app.turso.tech": {
+      "result": {
+        "name": "app.turso.tech",
+        "type": "NS",
+        "records": [
+          "ns2.vercel-dns-3.com",
+          "ns3.vercel-dns-3.com",
+          "ns4.vercel-dns-3.com",
+          "ns1.vercel-dns-3.com"
+        ]
+      }
+    },
+    "CNAME app.turso.tech": {
+      "result": {
+        "name": "app.turso.tech",
+        "type": "CNAME",
+        "records": ["cname.vercel-dns.com"]
+      }
+    },
+    "AAAA app.turso.tech": {
+      "result": {
+        "name": "app.turso.tech",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "CNAME cname.vercel-dns.com": {
+      "result": {
+        "name": "cname.vercel-dns.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "TXT 67.60.33.66.origin.asn.cymru.com": {
+      "result": {
+        "name": "67.60.33.66.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 66.33.60.0/24 | US | arin | 2024-03-21"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "app.turso.tech:443": {
+      "result": {
+        "host": "app.turso.tech",
+        "ip": "66.33.60.67",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+        "subjectAltNames": ["app.turso.tech"],
+        "validFrom": "Sep  2 07:38:05 2026 GMT",
+        "validTo": "Dec  1 07:38:04 2026 GMT"
+      }
+    }
+  }
+}

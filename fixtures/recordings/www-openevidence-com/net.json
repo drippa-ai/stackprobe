@@ -1,0 +1,103 @@
+{
+  "url": "https://www.openevidence.com/",
+  "recordedAt": "2026-10-04T16:50:52.168Z",
+  "http": {
+    "GET https://www.openevidence.com/": {
+      "result": {
+        "url": "https://www.openevidence.com/",
+        "status": 200,
+        "headers": [
+          ["age", "0"],
+          ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 16:50:52 GMT"],
+          [
+            "link",
+            "</_next/static/media/5c0c2bcbaa4149ca-s.p.woff2?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/91601dd83defba07-s.p.woff2?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/css/350dbc27f33bf780.css?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9>; rel=preload; as=\"style\", </_next/static/css/64c9a88dc9a69abf.css?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9>; rel=preload; as=\"style\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-matched-path", "/unavailable"],
+          ["x-powered-by", "Next.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::cle1::r5xpp-1791132652299-00ce2f285569"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/350dbc27f33bf780.css?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/64c9a88dc9a69abf.css?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/webpack-32da39b1ba91750f.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\">\n<script src=\"/_next/static/chunks/e994a86a-f96c43937d54eeaa.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/vendors-s4y-7866d41c69a040a7.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/27097-15030205861331e6.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/main-app-2c234fc6e8d79f3a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/global-error-eab32bdc85f10ddc.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/x-u2l-f7800900d64dd66a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/x-o31y-ce2429ad6b75270a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/x-a1i-4ce9c8ce8b3d7d1d.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/x-c16n-0a34d03a2444b091.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/46106-ca9957cea2048f42.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/48622-2545e261318af246.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/73017-f9ae13084ada32bf.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/13135-192d1995dfe27b3c.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/65983-b8dc5397813a00c2.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/49678-3a2bd665e6b08e1d.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/31092-e220ae802ebd2246.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/18815-05ff0e6b639db1ca.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/93373-85e56100fa4cfc27.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/(no-layout)/unavailable/page-aaa0586f419d1b43.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<link rel=\"preload\" href=\"/tags.js\" as=\"script\">\n<meta name=\"description\" content=\"America’s Official Medical Knowledge Platform. OpenEvidence is the leading medical platform for healthcare professionals, featuring answers grounded in peer-reviewed research from NEJM, JAMA, Nature, NCCN, Cochrane, and more.\">\n<meta name=\"robots\" content=\"noindex\">\n<meta name=\"google-adsense-account\" content=\"ca-pub-4444906927329691\">\n<meta name=\"p:domain_verify\" content=\"80c096b313537cd8940efb8badcbf849\">\n<meta name=\"apple-itunes-app\" content=\"app-id=6612007783\">\n<meta property=\"og:title\" content=\"Unavailable | OpenEvidence\">\n<meta property=\"og:description\" content=\"America’s Official Medical Knowledge Platform. OpenEvidence is the leading medical platform for healthcare professionals, featuring answers grounded in peer-reviewed research from NEJM, JAMA, Nature, NCCN, Cochrane, and more.\">\n<meta property=\"og:site_name\" content=\"OpenEvidence\">\n<meta property=\"og:locale\" content=\"en-US\">\n<meta property=\"og:image\" content=\"https://www.openevidence.com/open-evidence-logo.jpg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"OpenEvidence logo\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary\">\n<meta name=\"twitter:site\" content=\"@OpenEvidence\">\n<meta name=\"twitter:title\" content=\"Unavailable | OpenEvidence\">\n<meta name=\"twitter:description\" content=\"America’s Official Medical Knowledge Platform. OpenEvidence is the leading medical platform for healthcare professionals, featuring answers grounded in peer-reviewed research from NEJM, JAMA, Nature, NCCN, Cochrane, and more.\">\n<meta name=\"twitter:image\" content=\"https://www.openevidence.com/open-evidence-logo.jpg\">\n<meta name=\"twitter:image:alt\" content=\"OpenEvidence logo\">\n<meta name=\"twitter:image:width\" content=\"1200\">\n<meta name=\"twitter:image:height\" content=\"630\">\n<link rel=\"shortcut icon\" href=\"/favicon.ico\">\n<link rel=\"icon\" href=\"/favicon-16x16.png\" sizes=\"16x16\" type=\"image/png\">\n<link rel=\"icon\" href=\"/favicon-32x32.png\" sizes=\"32x32\" type=\"image/png\">\n<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"emotion-insertion-point\" content=\"\">\n<meta name=\"sentry-trace\" content=\"b5e884a68233ad033d06d215b6ded013-50b19076b608c224-0\">\n<meta name=\"baggage\" content=\"sentry-environment=vercel-production,sentry-release=92addece7ad995dd609d8b3e1acbe33abe69535e,sentry-public_key=8af4c07ca27c4ea48c8bfd4d9db76235,sentry-trace_id=b5e884a68233ad033d06d215b6ded013,sentry-org_id=4504572680667136,sentry-sampled=false,sentry-sample_rand=0.8781698248785337,sentry-sample_rate=0.005\">\n<script src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" nomodule=\"\"></script>\n<script src=\"https://cdn-cookieyes.com/client_data/d1785f07c35aeed00758cbf7/script.js\"></script>\n<script src=\"/_next/static/chunks/webpack-32da39b1ba91750f.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" id=\"_R_\" async=\"\"></script>"
+      }
+    }
+  },
+  "dns": {
+    "AAAA www.openevidence.com": {
+      "result": {
+        "name": "www.openevidence.com",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "NS www.openevidence.com": {
+      "result": {
+        "name": "www.openevidence.com",
+        "type": "NS",
+        "records": [
+          "ns1.vercel-dns-3.com",
+          "ns2.vercel-dns-3.com",
+          "ns3.vercel-dns-3.com",
+          "ns4.vercel-dns-3.com"
+        ]
+      }
+    },
+    "CNAME www.openevidence.com": {
+      "result": {
+        "name": "www.openevidence.com",
+        "type": "CNAME",
+        "records": ["cname.vercel-dns.com"]
+      }
+    },
+    "A www.openevidence.com": {
+      "result": {
+        "name": "www.openevidence.com",
+        "type": "A",
+        "records": ["76.76.21.241", "66.33.60.193"]
+      }
+    },
+    "CNAME cname.vercel-dns.com": {
+      "result": {
+        "name": "cname.vercel-dns.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "TXT 193.60.33.66.origin.asn.cymru.com": {
+      "result": {
+        "name": "193.60.33.66.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 66.33.60.0/24 | US | arin | 2024-03-21"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "www.openevidence.com:443": {
+      "result": {
+        "host": "www.openevidence.com",
+        "ip": "66.33.60.193",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR1",
+        "subjectAltNames": ["www.openevidence.com"],
+        "validFrom": "Sep  7 07:28:12 2026 GMT",
+        "validTo": "Dec  6 07:28:11 2026 GMT"
+      }
+    }
+  }
+}

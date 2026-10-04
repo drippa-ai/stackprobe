@@ -1,0 +1,103 @@
+{
+  "url": "https://app.humata.ai/",
+  "recordedAt": "2026-10-04T16:51:02.492Z",
+  "http": {
+    "GET https://app.humata.ai/": {
+      "result": {
+        "url": "https://app.humata.ai/",
+        "status": 200,
+        "headers": [
+          ["referrer-policy", "no-referrer, strict-origin-when-cross-origin"],
+          [
+            "permissions-policy",
+            "accelerometer=(), autoplay=(self), camera=(), display-capture=(), encrypted-media=(self), fullscreen=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(self), midi=(), payment=(), picture-in-picture=(self), publickey-credentials-get=(self), screen-wake-lock=(), serial=(), usb=(), xr-spatial-tracking=(), interest-cohort=(), browsing-topics=()"
+          ],
+          [
+            "content-security-policy",
+            "default-src 'self'; script-src 'self' 'nonce-TwV0jD0PPC/IMO8dJl9bKw==' 'strict-dynamic' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; connect-src 'self' https: wss:; media-src 'self' data: blob: https:; frame-src 'self' https:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https:; upgrade-insecure-requests"
+          ],
+          ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
+          ["x-powered-by", "Next.js"],
+          ["etag", "\"128rzwx8mvx2m9\""],
+          ["content-type", "text/html; charset=utf-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 16:51:03 GMT"],
+          ["server", "Google Frontend"],
+          ["via", "1.1 google"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"UTF-8\" data-next-head=\"\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" data-next-head=\"\">\n<link rel=\"stylesheet\" href=\"/fonts/stylesheet.css\">\n<link rel=\"icon\" href=\"/favicon.ico\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">\n<link rel=\"shortcut icon\" href=\"/favicon.ico\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">\n<meta property=\"og:image\" content=\"https://app.humata.ai/og-logo-banner.png\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"600\">\n<meta property=\"og:title\" content=\"Humata: AI meets your knowledge base\">\n<meta property=\"og:description\" content=\"Humata is an AI agent that turns your documents into a fast, intelligent knowledge base for instant analysis, insights, and answers.\">\n<meta property=\"og:image:type\" content=\"image/png\">\n<link data-next-font=\"\" rel=\"preconnect\" href=\"/\" crossorigin=\"anonymous\">\n<link nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" rel=\"preload\" href=\"/_next/static/css/0374ed014e6d1442.css\" as=\"style\">\n<link nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" rel=\"stylesheet\" href=\"/_next/static/css/0374ed014e6d1442.css\" data-n-g=\"\">\n<script defer=\"\" nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script>\n<script src=\"/_next/static/chunks/webpack-6d3ba2b371439074.js\" nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/framework-0c3bd8565bf0b876.js\" nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/main-a6be0cf89893215c.js\" nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/pages/_app-6e155927e37b253b.js\" nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/pages/index-01c7dac1feaa9095.js\" nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" defer=\"\"></script>\n<script src=\"/_next/static/Ziw4EGO2lfvslUvsHbtOO/_buildManifest.js\" nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" defer=\"\"></script>\n<script src=\"/_next/static/Ziw4EGO2lfvslUvsHbtOO/_ssgManifest.js\" nonce=\"TwV0jD0PPC/IMO8dJl9bKw==\" defer=\"\"></script>"
+      }
+    }
+  },
+  "dns": {
+    "NS app.humata.ai": {
+      "result": {
+        "name": "app.humata.ai",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "A app.humata.ai": {
+      "result": {
+        "name": "app.humata.ai",
+        "type": "A",
+        "records": ["8.232.96.226"]
+      }
+    },
+    "NS humata.ai": {
+      "result": {
+        "name": "humata.ai",
+        "type": "NS",
+        "records": [
+          "ns-cloud-c3.googledomains.com",
+          "ns-cloud-c2.googledomains.com",
+          "ns-cloud-c1.googledomains.com",
+          "ns-cloud-c4.googledomains.com"
+        ]
+      }
+    },
+    "AAAA app.humata.ai": {
+      "result": {
+        "name": "app.humata.ai",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "CNAME app.humata.ai": {
+      "result": {
+        "name": "app.humata.ai",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "TXT 226.96.232.8.origin.asn.cymru.com": {
+      "result": {
+        "name": "226.96.232.8.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["396982 | 8.232.0.0/15 | US | arin | 2025-01-14"]
+      }
+    },
+    "TXT as396982.asn.cymru.com": {
+      "result": {
+        "name": "AS396982.asn.cymru.com",
+        "type": "TXT",
+        "records": ["396982 | US | arin | 2018-08-15 | GOOGLE-CLOUD-PLATFORM - Google LLC, US"]
+      }
+    }
+  },
+  "tls": {
+    "app.humata.ai:443": {
+      "result": {
+        "host": "app.humata.ai",
+        "ip": "8.232.96.226",
+        "issuer": "C=US, O=Google Trust Services, CN=WR3",
+        "subjectAltNames": ["*.humata.ai", "humata.ai"],
+        "validFrom": "Aug 21 01:43:13 2026 GMT",
+        "validTo": "Nov 19 02:39:07 2026 GMT"
+      }
+    }
+  }
+}

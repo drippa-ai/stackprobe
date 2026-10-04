@@ -1,0 +1,113 @@
+{
+  "url": "https://www.perplexity.ai/hub/",
+  "recordedAt": "2026-10-04T16:50:58.042Z",
+  "http": {
+    "GET https://www.perplexity.ai/hub/": {
+      "result": {
+        "url": "https://www.perplexity.ai/hub/",
+        "status": 403,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 16:50:58 GMT"],
+          ["content-type", "text/html; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "close"],
+          [
+            "accept-ch",
+            "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA"
+          ],
+          ["cf-mitigated", "challenge"],
+          [
+            "content-security-policy",
+            "default-src 'none'; script-src 'nonce-ADHDi7NfQa62q8iLGls7Y5' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'"
+          ],
+          ["server", "cloudflare"],
+          [
+            "critical-ch",
+            "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA"
+          ],
+          ["cross-origin-embedder-policy", "require-corp"],
+          ["cross-origin-opener-policy", "same-origin"],
+          ["cross-origin-resource-policy", "same-origin"],
+          ["origin-agent-cluster", "?1"],
+          [
+            "permissions-policy",
+            "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*"
+          ],
+          ["referrer-policy", "same-origin"],
+          ["server-timing", "chlray;desc=\"a455b04979c549c5\""],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a455b04979c549c5-OSL"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\n<meta name=\"robots\" content=\"noindex,nofollow\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"content-security-policy\" content=\"default-src 'none'; script-src 'nonce-ADHDi7NfQa62q8iLGls7Y5' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'\">\n<meta http-equiv=\"refresh\" content=\"360\">"
+      }
+    }
+  },
+  "dns": {
+    "AAAA www.perplexity.ai": {
+      "result": {
+        "name": "www.perplexity.ai",
+        "type": "AAAA",
+        "records": ["2606:4700::6812:1b30", "2606:4700::6812:1a30"]
+      }
+    },
+    "NS www.perplexity.ai": {
+      "result": {
+        "name": "www.perplexity.ai",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "CNAME www.perplexity.ai": {
+      "result": {
+        "name": "www.perplexity.ai",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A www.perplexity.ai": {
+      "result": {
+        "name": "www.perplexity.ai",
+        "type": "A",
+        "records": ["104.18.27.48", "104.18.26.48"]
+      }
+    },
+    "NS perplexity.ai": {
+      "result": {
+        "name": "perplexity.ai",
+        "type": "NS",
+        "records": ["jessica.ns.cloudflare.com", "emerson.ns.cloudflare.com"]
+      }
+    },
+    "TXT 48.27.18.104.origin.asn.cymru.com": {
+      "result": {
+        "name": "48.27.18.104.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | 104.18.16.0/20 | US | arin | 2014-03-28"]
+      }
+    },
+    "TXT as13335.asn.cymru.com": {
+      "result": {
+        "name": "AS13335.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | US | arin | 2010-07-14 | CLOUDFLARENET - Cloudflare, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "www.perplexity.ai:443": {
+      "result": {
+        "host": "www.perplexity.ai",
+        "ip": "104.18.27.48",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "subjectAltNames": ["perplexity.ai", "*.perplexity.ai", "*.ppc.perplexity.ai"],
+        "validFrom": "Sep 27 16:01:03 2026 GMT",
+        "validTo": "Dec 26 17:00:57 2026 GMT"
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "url": "https://app.leonardo.ai/",
+  "recordedAt": "2026-10-04T16:50:52.073Z",
+  "http": {
+    "GET https://app.leonardo.ai/": {
+      "result": {
+        "url": "https://app.leonardo.ai/",
+        "status": 429,
+        "headers": [
+          ["cache-control", "private, no-store, max-age=0"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["server", "Vercel"],
+          [
+            "x-vercel-challenge-token",
+            "2.1791132652.60.NGY4NWE5YzA0MGNmNmE1YTgwZjgzMzRlMDY1ZmY5ZDc7NGU1YTU2NTg7OTZmMTNmOWFlODNjNzU4NjhjNDFmNTc5MDIzMTAyM2Q3ZjhjNWRlOTszO/ZQqMq2RL/S6PbBWw1hkjWhGfqlRFz1bcVBjrKPJcG2wfZ183gAuRr1/an8dVQ=.915dbc0d5d2aa6f3f6885794ae9b59c5"
+          ],
+          ["x-vercel-id", "arn1::1791132652-aOEVPZe1RGD1BfHlKqoIdcVnpEcHWL4K"],
+          ["x-vercel-mitigated", "challenge"],
+          ["date", "Sun, 04 Oct 2026 16:50:52 GMT"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"theme-color\" content=\"#000\">"
+      }
+    }
+  },
+  "dns": {
+    "NS app.leonardo.ai": {
+      "result": {
+        "name": "app.leonardo.ai",
+        "type": "NS",
+        "records": [
+          "ns1.vercel-dns-3.com",
+          "ns4.vercel-dns-3.com",
+          "ns3.vercel-dns-3.com",
+          "ns2.vercel-dns-3.com"
+        ]
+      }
+    },
+    "AAAA app.leonardo.ai": {
+      "result": {
+        "name": "app.leonardo.ai",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "CNAME app.leonardo.ai": {
+      "result": {
+        "name": "app.leonardo.ai",
+        "type": "CNAME",
+        "records": ["cname.vercel-dns.com"]
+      }
+    },
+    "A app.leonardo.ai": {
+      "result": {
+        "name": "app.leonardo.ai",
+        "type": "A",
+        "records": ["76.76.21.241", "66.33.60.193"]
+      }
+    },
+    "CNAME cname.vercel-dns.com": {
+      "result": {
+        "name": "cname.vercel-dns.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "TXT 193.60.33.66.origin.asn.cymru.com": {
+      "result": {
+        "name": "193.60.33.66.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 66.33.60.0/24 | US | arin | 2024-03-21"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "app.leonardo.ai:443": {
+      "result": {
+        "host": "app.leonardo.ai",
+        "ip": "66.33.60.193",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+        "subjectAltNames": ["app.leonardo.ai"],
+        "validFrom": "Sep 14 08:10:05 2026 GMT",
+        "validTo": "Dec 13 08:10:04 2026 GMT"
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "url": "https://dashboard.buildwithfern.com/",
+  "recordedAt": "2026-10-04T16:50:55.962Z",
+  "http": {
+    "GET https://dashboard.buildwithfern.com/": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "166502"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 16:50:56 GMT"],
+          [
+            "link",
+            "</_next/static/immutable/media/GT_Planar_Black-s.p.3pvyy57qp7yb_.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/GT_Planar_Bold-s.p.1l7pv_6-mw2cz.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/GT_Planar_Italic_15_Regular-s.p.2s7mujg--pcsn.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/GT_Planar_Light-s.p.09dx1t3_256qy.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/GT_Planar_Medium-s.p.1130q9igrw1-b.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/GT_Planar_Regular-s.p.2daubusjb75l-.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-current-path", "/"],
+          ["x-matched-path", "/"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "300"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9sqzd-1791132656118-2f6f07fea638"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1mvv076onosjj.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1w-k7go1gbyjg.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/144djskz2ar40.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/3xsvb246nq2rh.js\">\n<script src=\"/_next/static/immutable/chunks/3asc6e5hpq6ue.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0t73n6wzx1ssd.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/02_0sxfqwgdj7.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0yp-xmjsx09bk.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2bsve4cum92rg.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/13i3oxuacqis1.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0q5wl-daxew2y.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-2ebbgw2e5k14o.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3b4da641vter0.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1kg3_i34yk3cm.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0w5hp_wtgodnd.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1m0-kqzw6v21l.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1n0x6celof18f.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/08v6q1jua2_o0.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3cw_dd4uviyfp.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1seqwophq77jh.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1c1wsvm4obv88.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2z_-sp7nzrm0c.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1cqny7iumv03o.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1dam7b7011dbu.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2zrpwgnp_l811.js\" async=\"\"></script>\n<meta name=\"next-size-adjust\" content=\"\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.35zksrfoijlz4.ico\" sizes=\"48x48\" type=\"image/x-icon\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3xsvb246nq2rh.js\" id=\"_R_\" async=\"\"></script>\n<meta id=\"__next-page-redirect\" http-equiv=\"refresh\" content=\"1;url=/login\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>"
+      }
+    }
+  },
+  "dns": {
+    "AAAA dashboard.buildwithfern.com": {
+      "result": {
+        "name": "dashboard.buildwithfern.com",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "A dashboard.buildwithfern.com": {
+      "result": {
+        "name": "dashboard.buildwithfern.com",
+        "type": "A",
+        "records": ["76.76.21.241", "66.33.60.193"]
+      }
+    },
+    "CNAME dashboard.buildwithfern.com": {
+      "result": {
+        "name": "dashboard.buildwithfern.com",
+        "type": "CNAME",
+        "records": ["cname.vercel-dns.com"]
+      }
+    },
+    "CNAME cname.vercel-dns.com": {
+      "result": {
+        "name": "cname.vercel-dns.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "NS dashboard.buildwithfern.com": {
+      "result": {
+        "name": "dashboard.buildwithfern.com",
+        "type": "NS",
+        "records": [
+          "ns1.vercel-dns-3.com",
+          "ns2.vercel-dns-3.com",
+          "ns3.vercel-dns-3.com",
+          "ns4.vercel-dns-3.com"
+        ]
+      }
+    },
+    "TXT 67.60.33.66.origin.asn.cymru.com": {
+      "result": {
+        "name": "67.60.33.66.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 66.33.60.0/24 | US | arin | 2024-03-21"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "dashboard.buildwithfern.com:443": {
+      "result": {
+        "host": "dashboard.buildwithfern.com",
+        "ip": "66.33.60.67",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+        "subjectAltNames": ["dashboard.buildwithfern.com"],
+        "validFrom": "Sep  1 06:14:45 2026 GMT",
+        "validTo": "Nov 30 06:14:44 2026 GMT"
+      }
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "url": "https://app.qa.tech/",
+  "recordedAt": "2026-10-04T16:51:04.097Z",
+  "http": {
+    "GET https://app.qa.tech/": {
+      "result": {
+        "url": "https://app.qa.tech/",
+        "status": 307,
+        "headers": [
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-type", "text/html"],
+          ["date", "Sun, 04 Oct 2026 16:51:04 GMT"],
+          ["location", "/auth/sign-in?redirectTo=%2F"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-vercel-id", "arn1::qvj9m-1791132664295-618d5bea34ce"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/auth/sign-in?redirectTo=%2F": {
+      "result": {
+        "url": "https://app.qa.tech/auth/sign-in?redirectTo=%2F",
+        "status": 200,
+        "headers": [
+          ["age", "0"],
+          ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 16:51:06 GMT"],
+          [
+            "link",
+            "</_next/static/media/83afe278b6a6bb3c.p.2bn3s6zvc0dyp.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\""
+          ],
+          ["server", "Vercel"],
+          ["set-cookie", "anonymousId=<redacted>"],
+          ["set-cookie", "x-analytics-enabled=<redacted>"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-analytics-enabled", "true"],
+          ["x-anonymous-id", "05f52384-97a2-41f1-b553-21141a654ee8"],
+          ["x-current-path", "/auth/sign-in"],
+          ["x-current-url", "https://app.qa.tech/auth/sign-in?redirectTo=%2F"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/auth/sign-in"],
+          ["x-powered-by", "Next.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::arn1::c7f24-1791132664430-5794d6d3763c"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/1oqp1ik8giur4.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/2qv5_t2-2f_1_.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0-wnuvpaes179.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/3jeehj7aajegz.js\">\n<script src=\"/_next/static/chunks/29w9qy1qurka_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/23asetxkgwioy.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/27pruof2q2dnb.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1sub44l8ckr2g.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/17mx-6zbovyoe.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2pu2h9-4wb3jt.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/127c519dj1dwb.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2hh9fxtrsml4z.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3wmkucd_ufm03.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3htcc6efw8oyi.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-0-79e1o2th-ka.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2tdonm4juflgg.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2gsprul1ol8ef.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1aluoawgl01l_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/02t4f1i_f6etf.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0dlue9lrzea_p.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1x3jopfg10i-3.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2tjxkj4am06ni.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0nngx_pew-88h.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0r2wsp7-8mffp.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1xjonk-a-umu8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2je20u2txntu8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1v_q95021t7su.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3-3n_eez2vcgm.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/19sct5revbkjz.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1bewvuqiwmuir.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/17tzqj49ap8de.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://www.googletagmanager.com/gtm.js?id=GTM-5QNHTFMX\" as=\"script\">\n<meta name=\"theme-color\" content=\"#ffffff\" media=\"(prefers-color-scheme: light)\">\n<meta name=\"theme-color\" content=\"#0a0a0a\" media=\"(prefers-color-scheme: dark)\">\n<meta name=\"description\" content=\"Stop writing tests. Focus on productivity.\">\n<meta name=\"robots\" content=\"noindex\">\n<meta property=\"og:title\" content=\"Sign In\">\n<meta property=\"og:description\" content=\"Stop writing tests. Focus on productivity.\">\n<meta property=\"og:url\" content=\"https://app.qa.tech\">\n<meta property=\"og:site_name\" content=\"QA.tech\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"QA.tech\">\n<meta name=\"twitter:description\" content=\"Stop writing tests. Focus on productivity.\">\n<link rel=\"icon\" href=\"/assets/images/favicon/favicon.ico\">\n<link rel=\"apple-touch-icon\" href=\"/assets/images/favicon/apple-touch-icon.png\">\n<meta name=\"sentry-trace\" content=\"f13cd57a63b14a9ebc06c5d4ed17e31e-afd2cece75ca32e4\">\n<meta name=\"baggage\" content=\"sentry-environment=live,sentry-release=417b26c8009010ce579b6b6046ff94ff3a418f0f,sentry-public_key=a9086fa6da567836bc537588bd156272,sentry-trace_id=f13cd57a63b14a9ebc06c5d4ed17e31e,sentry-org_id=4505800178008064\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/chunks/3jeehj7aajegz.js\" id=\"_R_\" async=\"\"></script>"
+      }
+    }
+  },
+  "dns": {
+    "CNAME app.qa.tech": {
+      "result": {
+        "name": "app.qa.tech",
+        "type": "CNAME",
+        "records": ["cname.vercel-dns.com"]
+      }
+    },
+    "CNAME cname.vercel-dns.com": {
+      "result": {
+        "name": "cname.vercel-dns.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "NS app.qa.tech": {
+      "result": {
+        "name": "app.qa.tech",
+        "type": "NS",
+        "records": [
+          "ns3.vercel-dns-3.com",
+          "ns1.vercel-dns-3.com",
+          "ns2.vercel-dns-3.com",
+          "ns4.vercel-dns-3.com"
+        ]
+      }
+    },
+    "A app.qa.tech": {
+      "result": {
+        "name": "app.qa.tech",
+        "type": "A",
+        "records": ["66.33.60.193", "76.76.21.241"]
+      }
+    },
+    "AAAA app.qa.tech": {
+      "result": {
+        "name": "app.qa.tech",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "TXT 241.21.76.76.origin.asn.cymru.com": {
+      "result": {
+        "name": "241.21.76.76.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 76.76.21.0/24 | US | arin | 2020-05-08"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "app.qa.tech:443": {
+      "result": {
+        "host": "app.qa.tech",
+        "ip": "76.76.21.241",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR1",
+        "subjectAltNames": ["app.qa.tech"],
+        "validFrom": "Sep 20 02:27:55 2026 GMT",
+        "validTo": "Dec 19 02:27:54 2026 GMT"
+      }
+    }
+  }
+}

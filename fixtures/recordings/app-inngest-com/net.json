@@ -1,0 +1,103 @@
+{
+  "url": "https://app.inngest.com/",
+  "recordedAt": "2026-10-04T16:50:55.244Z",
+  "http": {
+    "GET https://app.inngest.com/": {
+      "result": {
+        "url": "https://app.inngest.com/",
+        "status": 200,
+        "headers": [
+          ["age", "0"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' https://analytics-cdn.inngest.com https://clerk.inngest.com https://challenges.cloudflare.com https://unpkg.com/@inngest/ https://js.stripe.com/ https://cdn.jsdelivr.net 'wasm-unsafe-eval'; connect-src 'self' data: https://api.inngest.com wss://api.inngest.com https://analytics-cdn.inngest.com https://analytics.inngest.com https://inn.gs inn.gs https://status.inngest.com https://clerk.inngest.com http://localhost:8288 https://clientstream.launchdarkly.com https://events.launchdarkly.com https://app.launchdarkly.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: https://img.clerk.com; font-src 'self' data: https://fonts-cdn.inngest.com https://fonts.gstatic.com https://cdn.jsdelivr.net; frame-src 'self' https://js.stripe.com https://challenges.cloudflare.com; worker-src 'self' blob:; base-uri 'self'; form-action 'self'; report-uri /api/csp-report; report-to csp-endpoint"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 16:50:55 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["reporting-endpoints", "csp-endpoint=\"/api/csp-report\""],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-clerk-auth-reason", "session-token-and-uat-missing"],
+          ["x-clerk-auth-status", "signed-out"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::fra1::w274b-1791132655370-beaed445a2c8"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"modulepreload\" href=\"/assets/index-CxvcQYAV.js\">\n<link rel=\"modulepreload\" href=\"/assets/index-BjZDpde_.js\">\n<link rel=\"modulepreload\" href=\"/assets/environment-context-ysEKH12S.js\">\n<link rel=\"stylesheet\" href=\"/assets/globals-Cuu4n7Mq.css\" precedence=\"default\">\n<link rel=\"stylesheet\" href=\"/assets/fonts-BC5cL9TT.css\" precedence=\"default\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">\n<script type=\"module\" async=\"\" src=\"/assets/index-CxvcQYAV.js\"></script>"
+      }
+    }
+  },
+  "dns": {
+    "NS app.inngest.com": {
+      "result": {
+        "name": "app.inngest.com",
+        "type": "NS",
+        "records": [
+          "ns2.vercel-dns-3.com",
+          "ns3.vercel-dns-3.com",
+          "ns4.vercel-dns-3.com",
+          "ns1.vercel-dns-3.com"
+        ]
+      }
+    },
+    "A app.inngest.com": {
+      "result": {
+        "name": "app.inngest.com",
+        "type": "A",
+        "records": ["66.33.60.130", "76.76.21.61"]
+      }
+    },
+    "CNAME app.inngest.com": {
+      "result": {
+        "name": "app.inngest.com",
+        "type": "CNAME",
+        "records": ["cname.vercel-dns.com"]
+      }
+    },
+    "AAAA app.inngest.com": {
+      "result": {
+        "name": "app.inngest.com",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "CNAME cname.vercel-dns.com": {
+      "result": {
+        "name": "cname.vercel-dns.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "TXT 67.60.33.66.origin.asn.cymru.com": {
+      "result": {
+        "name": "67.60.33.66.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 66.33.60.0/24 | US | arin | 2024-03-21"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "app.inngest.com:443": {
+      "result": {
+        "host": "app.inngest.com",
+        "ip": "66.33.60.67",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR1",
+        "subjectAltNames": ["app.inngest.com"],
+        "validFrom": "Aug 17 01:41:51 2026 GMT",
+        "validTo": "Nov 15 01:41:50 2026 GMT"
+      }
+    }
+  }
+}

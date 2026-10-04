@@ -1,0 +1,106 @@
+{
+  "url": "https://rightblogger.com/",
+  "recordedAt": "2026-10-04T16:50:56.127Z",
+  "http": {
+    "GET https://rightblogger.com/": {
+      "result": {
+        "url": "https://rightblogger.com/",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 16:50:56 GMT"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a455b03da9484c11-OSL"],
+          ["cf-cache-status", "DYNAMIC"],
+          ["access-control-allow-origin", "*"],
+          ["age", "7035"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2FMo9jnc6lzcs6bi3VD0dBi2xvA2uD1rfjhmlNvkoLQ6546CSvWu9XMsgoKbl7re6g6cojRDdiQ2j9gxIrn4IzHNoasb6G1KLsyBO0sIfrBzL1vJsUt3e042cSXuVX1p8G5Y%3D\"}]}"
+          ],
+          [
+            "link",
+            "</llms.txt>; rel=\"llm-docs\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </feed.xml>; rel=\"alternate\"; type=\"application/rss+xml\", </openapi.json>; rel=\"service-desc\"; type=\"application/json\""
+          ],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+          ],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::2q86t-1791132656360-df75577cd01a"],
+          ["x-xss-protection", "1; mode=block"],
+          ["server-timing", "cfCacheStatus;desc=\"DYNAMIC\""],
+          ["server-timing", "cfEdge;dur=151,cfOrigin;dur=0"],
+          ["content-encoding", "br"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "<meta charset=\"utf-8\" data-next-head=\"\">\n<meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\">\n<link rel=\"preload\" href=\"/images/rightblogger-black.svg\" as=\"image\" data-next-head=\"\">\n<link rel=\"preload\" href=\"/images/rightblogger.svg\" as=\"image\" data-next-head=\"\">\n<meta name=\"robots\" content=\"follow, index\" data-next-head=\"\">\n<meta name=\"description\" content=\"RightBlogger is an AI blog automation tool that researches, writes, publishes, and keeps your site's posts ranking on Google and ChatGPT.\" data-next-head=\"\">\n<link rel=\"canonical\" href=\"https://rightblogger.com/\" data-next-head=\"\">\n<meta property=\"og:url\" content=\"https://rightblogger.com/\" data-next-head=\"\">\n<meta property=\"og:type\" content=\"website\" data-next-head=\"\">\n<meta property=\"og:site_name\" content=\"RightBlogger Blog: AI Tutorials &amp; Tools for Creators\" data-next-head=\"\">\n<meta property=\"og:description\" content=\"RightBlogger is an AI blog automation tool that researches, writes, publishes, and keeps your site's posts ranking on Google and ChatGPT.\" data-next-head=\"\">\n<meta property=\"og:title\" content=\"RightBlogger: AI Blog Automation for Google &amp; ChatGPT\" data-next-head=\"\">\n<meta property=\"og:image\" content=\"https://rightblogger.com/images/rb-share-image.jpg\" data-next-head=\"\">\n<meta name=\"twitter:card\" content=\"summary_large_image\" data-next-head=\"\">\n<meta name=\"twitter:title\" content=\"RightBlogger: AI Blog Automation for Google &amp; ChatGPT\" data-next-head=\"\">\n<meta name=\"twitter:site\" content=\"@right_blogger\" data-next-head=\"\">\n<meta name=\"twitter:description\" content=\"RightBlogger is an AI blog automation tool that researches, writes, publishes, and keeps your site's posts ranking on Google and ChatGPT.\" data-next-head=\"\">\n<meta name=\"twitter:image\" content=\"https://rightblogger.com/images/rb-share-image.jpg\" data-next-head=\"\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"48x48\" href=\"/images/rightblogger-favicon-48x48.png\" data-next-head=\"\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"/images/rightblogger-favicon-96x96.png\" data-next-head=\"\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/images/rightblogger-white-circle.svg\" data-next-head=\"\">\n<link rel=\"apple-touch-icon\" href=\"/images/rightblogger-icon-square.png\" data-next-head=\"\">\n<meta name=\"theme-color\" content=\"#2F1A52\" data-next-head=\"\">\n<meta name=\"msapplication-TileColor\" content=\"#2F1A52\" data-next-head=\"\">\n<meta name=\"application-name\" content=\"RightBlogger\" data-next-head=\"\">\n<meta name=\"apple-mobile-web-app-title\" content=\"RightBlogger\" data-next-head=\"\">\n<link rel=\"preload\" href=\"/_next/static/immutable/chunks/2zv2_vhhde7t-.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/immutable/chunks/101f5cq76d-fn.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/immutable/chunks/39qwzqvnekfur.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/immutable/chunks/3n0b9ohwyjtr1.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/immutable/chunks/1huy60msy4701.css\" as=\"style\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/2zv2_vhhde7t-.css\" data-n-g=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/101f5cq76d-fn.css\" data-n-g=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/39qwzqvnekfur.css\" data-n-g=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/3n0b9ohwyjtr1.css\" data-n-g=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1huy60msy4701.css\" data-n-p=\"\">\n<script defer=\"\" nomodule=\"\" src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/43jwpr10paohx.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/0rfwp_a7tep9a.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/01bvl89cxdnn9.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/0t2zy56_ckt_6.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/3v_41rzb5f776.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/3zru08y5wwi_o.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/062tb0a0e_6d4.js\"></script>\n<script src=\"/_next/static/immutable/chunks/0ivvcry_idl29.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1i7sbheyywm_p.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/25pru1o3zdnh-.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2m4t54-7zc85w.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2f08z1kmby20n.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2uot-ta5vca3y.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3yksf9u1jgu1u.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0ie5u8396a241.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/023m4fogr4prz.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2f9fm_ys7v-5e.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0n6s1l6eu9ff7.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2yqsnsjn4o041.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3jw3jpfjk_qgj.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2bbj8fptlfzb-.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1daqjy-3fkyh6.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3f9w6obetmjs3.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3ptpex9g8o1ed.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2ymauyc-utidn.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3ymdjz55veor8.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/34d3r7_v3f8pn.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0vgsy2puku-xd.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1b6v83amgcg2t.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1sb_grxtg2gcd.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1tcuumvxki75a.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2_g16srut5nbs.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/06-ebj86vz6fs.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/02o_z6l5fvlsr.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0ygyrkyhk8o20.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2d69hgdy6j_wm.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0jw5x_usluucr.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-3fwhinsyvj8e8.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2w3u8-1clfrqt.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1mv632kfbi9fm.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1m9u2bstam85z.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2wtdo_8hjcdch.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2p67apdfkp_zf.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3e7m29t5a2om1.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3-klzor-ri9kl.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-01vn6f18ug2e1.js\" defer=\"\"></script>\n<script src=\"/_next/static/UEdDW5lO6V26EkeuwVUg1/_buildManifest.js\" defer=\"\"></script>\n<script src=\"/_next/static/UEdDW5lO6V26EkeuwVUg1/_ssgManifest.js\" defer=\"\"></script>\n<script src=\"/_next/static/UEdDW5lO6V26EkeuwVUg1/_clientMiddlewareManifest.js\" defer=\"\"></script>\n<link rel=\"preload\" as=\"image\" href=\"/images/rightblogger-black.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/images/rightblogger.svg\">\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495\" integrity=\"sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;a0ef340b95cd4dfb9a5de921702e9f3a&quot;,&quot;spa&quot;:2}\" crossorigin=\"anonymous\"></script>"
+      }
+    }
+  },
+  "dns": {
+    "A rightblogger.com": {
+      "result": {
+        "name": "rightblogger.com",
+        "type": "A",
+        "records": ["172.66.40.239", "172.66.43.17"]
+      }
+    },
+    "AAAA rightblogger.com": {
+      "result": {
+        "name": "rightblogger.com",
+        "type": "AAAA",
+        "records": ["2606:4700:3108::ac42:28ef", "2606:4700:3108::ac42:2b11"]
+      }
+    },
+    "NS rightblogger.com": {
+      "result": {
+        "name": "rightblogger.com",
+        "type": "NS",
+        "records": ["ruth.ns.cloudflare.com", "max.ns.cloudflare.com"]
+      }
+    },
+    "CNAME rightblogger.com": {
+      "result": {
+        "name": "rightblogger.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "TXT 17.43.66.172.origin.asn.cymru.com": {
+      "result": {
+        "name": "17.43.66.172.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | 172.66.40.0/21 | US | arin | 2015-02-25"]
+      }
+    },
+    "TXT as13335.asn.cymru.com": {
+      "result": {
+        "name": "AS13335.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | US | arin | 2010-07-14 | CLOUDFLARENET - Cloudflare, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "rightblogger.com:443": {
+      "result": {
+        "host": "rightblogger.com",
+        "ip": "172.66.43.17",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "subjectAltNames": ["rightblogger.com", "website-info.rightblogger.com"],
+        "validFrom": "Aug 21 19:59:08 2026 GMT",
+        "validTo": "Nov 19 20:58:49 2026 GMT"
+      }
+    }
+  }
+}

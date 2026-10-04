@@ -1,0 +1,105 @@
+{
+  "url": "https://app.ayrshare.com/",
+  "recordedAt": "2026-10-04T16:51:04.645Z",
+  "http": {
+    "GET https://app.ayrshare.com/": {
+      "result": {
+        "url": "https://app.ayrshare.com/",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 16:51:04 GMT"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "max-age=3600"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=6yz0oSyZNGwEdK%2BnCxu9tLHRC329nysUUDsVJnl8BxrCLggARlJpz1VedWjifIU3TRacTT%2FOK6DPeZasei0tOz8NeTSNMVhmdGAeSwtkqblpAiZksH7JaSi8MdRsmHXdAhs%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 02 Oct 2026 16:28:21 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["server-timing", "cfCacheStatus;desc=\"DYNAMIC\""],
+          ["server-timing", "cfEdge;dur=18,cfOrigin;dur=27"],
+          ["x-served-by", "cache-bma-essb1270036-BMA"],
+          ["x-cache", "HIT"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1791132665.820272,VS0,VE1"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["cf-cache-status", "DYNAMIC"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a455b072d8b332fa-OSL"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preload\" href=\"/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/media/c825fd02acae0153-s.p.1q3-y3vmyf3p6.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/3j_oe1hpzneix.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/3whblwp65mfbj.js\">\n<script src=\"/_next/static/chunks/1ver93wp6g6fn.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1havn6tn5y3f3.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0_yl-0ndn2dug.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/04dhk6r345-e5.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-22ccywoolswdg.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/16715nxz6ddcm.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/30vg0u6c2w5dc.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1ggbayewp1sck.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/06gnzqbap7id_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1qy34a0bhj7-c.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/05g964k-9ztmw.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2lemjrgodcdzl.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2jo8bj3jkhn8y.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2_4otq-940jdc.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3v5u2ufj_h39-.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3d5tca51boszp.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/13zirg5pxl6zy.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0--rfylb-_5tg.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/20soeyw30fqce.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2gnzs_aj_6b_y.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3irgqij6wi8ri.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/38yt8txw62r8y.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1o4y8ia-esgov.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/217lao5xekzy9.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3a7ztx8kjl8sb.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://www.googletagmanager.com/gtag/js?id=AW-601557651\" as=\"script\">\n<link rel=\"icon\" href=\"/icon.svg?icon.1lhaw_u4pxj6e.svg\" sizes=\"any\" type=\"image/svg+xml\">\n<link rel=\"icon\" href=\"/icon.png?icon.182ter_0qya74.png\" sizes=\"512x512\" type=\"image/png\">\n<link rel=\"apple-touch-icon\" href=\"/apple-icon.png?apple-icon.1vaarn7vbss-_.png\" sizes=\"512x512\" type=\"image/png\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"darkreader-lock\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/chunks/3whblwp65mfbj.js\" id=\"_R_\" async=\"\"></script>\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495\" integrity=\"sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;d6368da7d36a4f15870b7239077805b4&quot;,&quot;spa&quot;:2}\" crossorigin=\"anonymous\"></script>"
+      }
+    }
+  },
+  "dns": {
+    "A app.ayrshare.com": {
+      "result": {
+        "name": "app.ayrshare.com",
+        "type": "A",
+        "records": ["172.66.43.147", "172.66.40.109"]
+      }
+    },
+    "AAAA app.ayrshare.com": {
+      "result": {
+        "name": "app.ayrshare.com",
+        "type": "AAAA",
+        "records": ["2606:4700:3108::ac42:286d", "2606:4700:3108::ac42:2b93"]
+      }
+    },
+    "NS app.ayrshare.com": {
+      "result": {
+        "name": "app.ayrshare.com",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "CNAME app.ayrshare.com": {
+      "result": {
+        "name": "app.ayrshare.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "NS ayrshare.com": {
+      "result": {
+        "name": "ayrshare.com",
+        "type": "NS",
+        "records": ["mona.ns.cloudflare.com", "donovan.ns.cloudflare.com"]
+      }
+    },
+    "TXT 109.40.66.172.origin.asn.cymru.com": {
+      "result": {
+        "name": "109.40.66.172.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | 172.66.40.0/21 | US | arin | 2015-02-25"]
+      }
+    },
+    "TXT as13335.asn.cymru.com": {
+      "result": {
+        "name": "AS13335.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | US | arin | 2010-07-14 | CLOUDFLARENET - Cloudflare, Inc., US"]
+      }
+    }
+  },
+  "tls": {
+    "app.ayrshare.com:443": {
+      "result": {
+        "host": "app.ayrshare.com",
+        "ip": "172.66.40.109",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "subjectAltNames": ["ayrshare.com", "*.ayrshare.com"],
+        "validFrom": "Sep  4 19:02:39 2026 GMT",
+        "validTo": "Dec  3 20:02:15 2026 GMT"
+      }
+    }
+  }
+}
