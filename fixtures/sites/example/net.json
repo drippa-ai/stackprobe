@@ -1,23 +1,23 @@
 {
   "url": "https://example.com/",
-  "recordedAt": "2026-10-02T15:24:42.585Z",
+  "recordedAt": "2026-10-04T17:53:00.663Z",
   "http": {
     "GET https://example.com/": {
       "result": {
         "url": "https://example.com/",
         "status": 200,
         "headers": [
-          ["date", "Fri, 02 Oct 2026 15:24:43 GMT"],
+          ["date", "Sun, 04 Oct 2026 17:53:00 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
           ["server", "cloudflare"],
-          ["last-modified", "Mon, 28 Sep 2026 16:19:23 GMT"],
+          ["last-modified", "Fri, 02 Oct 2026 16:11:02 GMT"],
           ["allow", "GET, HEAD"],
-          ["age", "10415"],
+          ["age", "6068"],
           ["cf-cache-status", "HIT"],
           ["content-encoding", "br"],
-          ["cf-ray", "a444b73378ddb354-CPH"],
+          ["cf-ray", "a4560b2bdbf35699-OSL"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
         "body": "<meta charset=\"utf-8\">\n<link rel=\"icon\" href=\"data:,\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<script src=\"/s.js\"></script>"
@@ -25,6 +25,20 @@
     }
   },
   "dns": {
+    "A example.com": {
+      "result": {
+        "name": "example.com",
+        "type": "A",
+        "records": ["172.66.147.243", "104.20.23.154"]
+      }
+    },
+    "AAAA example.com": {
+      "result": {
+        "name": "example.com",
+        "type": "AAAA",
+        "records": ["2606:4700:10::6814:179a", "2606:4700:10::ac42:93f3"]
+      }
+    },
     "CNAME example.com": {
       "result": {
         "name": "example.com",
@@ -36,21 +50,7 @@
       "result": {
         "name": "example.com",
         "type": "NS",
-        "records": ["hera.ns.cloudflare.com", "elliott.ns.cloudflare.com"]
-      }
-    },
-    "AAAA example.com": {
-      "result": {
-        "name": "example.com",
-        "type": "AAAA",
-        "records": ["2606:4700:10::ac42:93f3", "2606:4700:10::6814:179a"]
-      }
-    },
-    "A example.com": {
-      "result": {
-        "name": "example.com",
-        "type": "A",
-        "records": ["172.66.147.243", "104.20.23.154"]
+        "records": ["elliott.ns.cloudflare.com", "hera.ns.cloudflare.com"]
       }
     },
     "TXT 243.147.66.172.origin.asn.cymru.com": {

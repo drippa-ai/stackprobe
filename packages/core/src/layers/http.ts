@@ -3,6 +3,9 @@ import { type Layer, LayerError, type Signal } from '../layer.ts';
 import type { HttpResponse } from '../net.ts';
 
 const MAX_REDIRECTS = 5;
+// Pages with huge menus would bloat recordings; the links that matter come early anyway.
+const MAX_ANCHORS = 300;
+const MAX_ANCHOR_TEXT = 100;
 
 // Layer 1: fetches the surface like a browser's first request would and reports its headers,
 // cookie names and the tags in its HTML that reveal a stack.
@@ -49,14 +52,15 @@ export function responseSignals(response: HttpResponse): Signal[] {
   }
   if (isHtml(response)) {
     readTags(response.body, (tag, attributes) => {
-      const signal = tagSignal(tag, attributes);
+      const signal = tagSignal(tag, attributes, response.url);
       if (signal) signals.push({ ...signal, source });
     });
   }
   return signals;
 }
 
-// Keeps only the tags this layer reads, so recorded fixtures hold no page content.
+// Keeps only the tags this layer reads (and the text of links), so recorded fixtures hold no
+// other page content.
 export function distillHtml(html: string): string {
   const lines: string[] = [];
   readTags(html, (tag, attributes) => {
@@ -65,7 +69,13 @@ export function distillHtml(html: string): string {
         ([name, value]) => ` ${name}="${value.replaceAll('&', '&amp;').replaceAll('"', '&quot;')}"`,
       )
       .join('');
-    lines.push(tag === 'script' ? `<script${attrs}></script>` : `<${tag}${attrs}>`);
+    if (tag === 'a') {
+      lines.push(
+        `<a href="${escapeHtml(attributes.href ?? '', true)}">${escapeHtml(attributes.text ?? '')}</a>`,
+      );
+    } else {
+      lines.push(tag === 'script' ? `<script${attrs}></script>` : `<${tag}${attrs}>`);
+    }
   });
   return lines.join('\n');
 }
@@ -76,7 +86,15 @@ export function isHtml(response: HttpResponse): boolean {
 
 type Attributes = Record<string, string>;
 
+function escapeHtml(value: string, attribute = false): string {
+  const text = value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+  return attribute ? text.replaceAll('"', '&quot;') : text;
+}
+
+// Calls onTag for meta, script and link tags, and for links (`a`) with their text as `text`.
 function readTags(html: string, onTag: (tag: string, attributes: Attributes) => void): void {
+  let anchor: { href: string; text: string } | null = null;
+  const anchors = new Set<string>();
   const parser = new Parser(
     {
       onopentag(tag, attributes) {
@@ -86,7 +104,22 @@ function readTags(html: string, onTag: (tag: string, attributes: Attributes) => 
           (tag === 'link' && attributes.href)
         ) {
           onTag(tag, attributes);
+        } else if (tag === 'a' && attributes.href && !anchor) {
+          anchor = { href: attributes.href, text: '' };
         }
+      },
+      ontext(text) {
+        if (anchor) anchor.text += text;
+      },
+      onclosetag(tag) {
+        if (tag !== 'a' || !anchor) return;
+        const text = anchor.text.replace(/\s+/g, ' ').trim().slice(0, MAX_ANCHOR_TEXT);
+        const key = `${anchor.href} ${text}`;
+        if (!anchors.has(key) && anchors.size < MAX_ANCHORS) {
+          anchors.add(key);
+          onTag('a', { href: anchor.href, text });
+        }
+        anchor = null;
       },
     },
     { decodeEntities: true },
@@ -95,7 +128,21 @@ function readTags(html: string, onTag: (tag: string, attributes: Attributes) => 
   parser.end();
 }
 
-function tagSignal(tag: string, attributes: Attributes): Omit<Signal, 'source'> | null {
+function tagSignal(
+  tag: string,
+  attributes: Attributes,
+  base: string,
+): Omit<Signal, 'source'> | null {
+  if (tag === 'a' && attributes.href) {
+    const href = absoluteLink(attributes.href, base);
+    if (!href) return null;
+    return {
+      layer: 'http',
+      kind: 'anchor',
+      value: href,
+      ...(attributes.text ? { key: attributes.text } : {}),
+    };
+  }
   if (tag === 'script' && attributes.src) {
     return { layer: 'http', kind: 'script-src', value: attributes.src };
   }
@@ -118,6 +165,17 @@ function tagSignal(tag: string, attributes: Attributes): Omit<Signal, 'source'> 
     };
   }
   return null;
+}
+
+// Web links only, made absolute. Skips mailto:, javascript:, in-page anchors and the like.
+function absoluteLink(href: string, base: string): string | null {
+  if (href.startsWith('#')) return null;
+  try {
+    const url = new URL(href, base);
+    return url.protocol === 'https:' || url.protocol === 'http:' ? url.href : null;
+  } catch {
+    return null;
+  }
 }
 
 function headerValue(response: HttpResponse, name: string): string | undefined {

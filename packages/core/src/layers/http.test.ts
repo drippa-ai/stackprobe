@@ -65,8 +65,38 @@ describe('responseSignals', () => {
       },
       { layer: 'http', kind: 'link-href', key: 'stylesheet', value: '/_next/static/css/app.css' },
       { layer: 'http', kind: 'script-src', value: '/_next/static/chunks/main.js' },
+      { layer: 'http', kind: 'anchor', key: 'Log in', value: 'https://acme.test/login' },
     ]);
     expect(signals.every((s) => s.source === 'https://acme.test/')).toBe(true);
+  });
+
+  test('reports web links with their text, made absolute', () => {
+    const links = `<nav>
+      <a href="https://app.acme.test/">  Open
+        <b>dashboard</b> </a>
+      <a href="/sign-up"><img alt="">Sign up</a>
+      <a href="/sign-up"><img alt="">Sign up</a>
+      <a href="#pricing">Pricing</a>
+      <a href="mailto:hi@acme.test">Email</a>
+      <a href="javascript:void(0)">Menu</a>
+      <a href="/docs"></a>
+    </nav>`;
+    const signals = responseSignals(
+      page('https://acme.test/home', [['content-type', 'text/html']], links),
+    ).filter((s) => s.kind === 'anchor');
+    expect(signals.map(({ key, value }) => ({ key, value }))).toEqual([
+      { key: 'Open dashboard', value: 'https://app.acme.test/' },
+      { key: 'Sign up', value: 'https://acme.test/sign-up' },
+      { key: undefined, value: 'https://acme.test/docs' },
+    ]);
+  });
+
+  test('keeps at most 300 links per page', () => {
+    const many = Array.from({ length: 400 }, (_, i) => `<a href="/p/${i}">${i}</a>`).join('');
+    const signals = responseSignals(
+      page('https://acme.test/', [['content-type', 'text/html']], many),
+    );
+    expect(signals.filter((s) => s.kind === 'anchor')).toHaveLength(300);
   });
 
   test('does not parse bodies that are not HTML', () => {
@@ -84,6 +114,7 @@ describe('distillHtml', () => {
     expect(distilled).not.toContain('inline content');
     expect(distilled).toContain('<script src="/_next/static/chunks/main.js" async=""></script>');
     expect(distilled).toContain('<meta property="og:title" content="Acme &amp; Co">');
+    expect(distilled).toContain('<a href="/login">Log in</a>');
   });
 
   test('yields the same signals as the original page', () => {

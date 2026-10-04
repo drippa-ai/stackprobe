@@ -1,6 +1,6 @@
 {
   "url": "https://www.bydagny.com/sign-in",
-  "recordedAt": "2026-10-04T16:50:49.724Z",
+  "recordedAt": "2026-10-04T17:53:03.492Z",
   "http": {
     "GET https://www.bydagny.com/sign-in": {
       "result": {
@@ -11,7 +11,7 @@
           ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
           ["content-encoding", "br"],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 16:50:50 GMT"],
+          ["date", "Sun, 04 Oct 2026 17:53:05 GMT"],
           [
             "link",
             "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
@@ -32,26 +32,26 @@
           ["x-powered-by", "Next.js"],
           ["x-robots-tag", "all"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::arn1::6drsq-1791132649937-a6632bc416c4"],
+          ["x-vercel-id", "arn1::arn1::t7fcm-1791136383867-91266f1e441c"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/1rlfj9k92a89e.css?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;display=swap\" data-precedence=\"default\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\">\n<script src=\"/_next/static/chunks/1qf0-3umuvlgs.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1c-4h2aze0ifj.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2tw_tbh6n2iay.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/20eevrxlqp_9y.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/082e10nix1-ed.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-179rgiguyy7f_.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3pq1wc-j3ja4g.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2_jlx2bd84vxt.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/08ec-sgyjoduq.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/18agb5d5xarky.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2wu-cw53ii2uk.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0ngnexp95s191.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1pc4rd05yqsw_.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/01ns8cob_5b4b.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2sz501iu8nwvw.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0eat8sc2uv30_.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0hcri9un_86us.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/28kiji-41mch6.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2_hkysr1tk_ta.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/03u9pcumxhaxu.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2f63mvcny0vzo.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0muw8gu0j2-a0.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1ariht2ia-yss.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@100..800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap\" as=\"style\">\n<link rel=\"preload\" href=\"https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&amp;display=swap\" as=\"style\">\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Dagny Blog\" href=\"/rss.xml\">\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"anonymous\">\n<link rel=\"preconnect\" href=\"https://api.fontshare.com\">\n<link rel=\"preconnect\" href=\"https://cdn.fontshare.com\" crossorigin=\"anonymous\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"theme-color\" content=\"#f7f8fa\">\n<meta name=\"description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<link rel=\"manifest\" href=\"/manifest.json\">\n<meta name=\"robots\" content=\"noindex, nofollow\">\n<link rel=\"canonical\" href=\"https://www.bydagny.com\">\n<meta name=\"mobile-web-app-capable\" content=\"yes\">\n<meta name=\"apple-mobile-web-app-title\" content=\"Dagny\">\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\">\n<meta property=\"og:title\" content=\"Dagny is your AI.\">\n<meta property=\"og:description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<meta property=\"og:url\" content=\"https://www.bydagny.com\">\n<meta property=\"og:site_name\" content=\"Dagny\">\n<meta property=\"og:locale\" content=\"en_US\">\n<meta property=\"og:image\" content=\"https://www.bydagny.com/brand/og-default.jpg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"Dagny\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Dagny is your AI.\">\n<meta name=\"twitter:description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<meta name=\"twitter:image\" content=\"https://www.bydagny.com/brand/og-default.jpg\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.0t8mtmhoze29e.ico\" sizes=\"32x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.svg?icon.1x7fe67glzy7x.svg\" sizes=\"any\" type=\"image/svg+xml\">\n<link rel=\"apple-touch-icon\" href=\"/apple-icon.png?apple-icon.3xpiyfnma559_.png\" sizes=\"180x180\" type=\"image/png\">\n<link href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@100..800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap\" rel=\"stylesheet\">\n<link href=\"https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&amp;display=swap\" rel=\"stylesheet\">\n<meta name=\"sentry-trace\" content=\"dc9ab02230084c31822fdb99333cf787-bf105bff0f8c6f4c-0\">\n<meta name=\"baggage\" content=\"sentry-environment=production,sentry-release=6d0c5d55817cc03b8ac6a234f17340de14e6c038,sentry-public_key=0cc4acb45f8d32622580fbb6ba4d076a,sentry-trace_id=dc9ab02230084c31822fdb99333cf787,sentry-org_id=4511523128803328,sentry-sampled=false,sentry-sample_rand=0.9948805517690404,sentry-sample_rate=0.1\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" nomodule=\"\"></script>\n<script src=\"/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_GdYuN1r7hRqono5tsPbSvTmdRpVZ\" id=\"_R_\" async=\"\"></script>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/1nsxn875279t5.css?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;display=swap\" data-precedence=\"default\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\">\n<script src=\"/_next/static/chunks/1qf0-3umuvlgs.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1c-4h2aze0ifj.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0xzbsnynzal0-.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/20eevrxlqp_9y.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/082e10nix1-ed.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-3-uwzq-tljitu.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3pq1wc-j3ja4g.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2_jlx2bd84vxt.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/08ec-sgyjoduq.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/18agb5d5xarky.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2wu-cw53ii2uk.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0ngnexp95s191.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1pc4rd05yqsw_.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/01ns8cob_5b4b.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2sz501iu8nwvw.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0eat8sc2uv30_.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0hcri9un_86us.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/28kiji-41mch6.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2_hkysr1tk_ta.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/03u9pcumxhaxu.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2f63mvcny0vzo.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0muw8gu0j2-a0.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1ariht2ia-yss.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@100..800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap\" as=\"style\">\n<link rel=\"preload\" href=\"https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&amp;display=swap\" as=\"style\">\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Dagny Blog\" href=\"/rss.xml\">\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"anonymous\">\n<link rel=\"preconnect\" href=\"https://api.fontshare.com\">\n<link rel=\"preconnect\" href=\"https://cdn.fontshare.com\" crossorigin=\"anonymous\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"theme-color\" content=\"#f7f8fa\">\n<meta name=\"description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<link rel=\"manifest\" href=\"/manifest.json\">\n<meta name=\"robots\" content=\"noindex, nofollow\">\n<link rel=\"canonical\" href=\"https://www.bydagny.com\">\n<meta name=\"mobile-web-app-capable\" content=\"yes\">\n<meta name=\"apple-mobile-web-app-title\" content=\"Dagny\">\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\">\n<meta property=\"og:title\" content=\"Dagny is your AI.\">\n<meta property=\"og:description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<meta property=\"og:url\" content=\"https://www.bydagny.com\">\n<meta property=\"og:site_name\" content=\"Dagny\">\n<meta property=\"og:locale\" content=\"en_US\">\n<meta property=\"og:image\" content=\"https://www.bydagny.com/brand/og-default.jpg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"Dagny\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Dagny is your AI.\">\n<meta name=\"twitter:description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<meta name=\"twitter:image\" content=\"https://www.bydagny.com/brand/og-default.jpg\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.0t8mtmhoze29e.ico\" sizes=\"32x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.svg?icon.1x7fe67glzy7x.svg\" sizes=\"any\" type=\"image/svg+xml\">\n<link rel=\"apple-touch-icon\" href=\"/apple-icon.png?apple-icon.3xpiyfnma559_.png\" sizes=\"180x180\" type=\"image/png\">\n<link href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@100..800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap\" rel=\"stylesheet\">\n<link href=\"https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&amp;display=swap\" rel=\"stylesheet\">\n<meta name=\"sentry-trace\" content=\"7e65785670bb40d5a24386db09ae1e0f-9e8b9ca2d3e2459f\">\n<meta name=\"baggage\" content=\"sentry-environment=production,sentry-release=79c03e9de664b957b08c13b870354a47e70d0767,sentry-public_key=0cc4acb45f8d32622580fbb6ba4d076a,sentry-trace_id=7e65785670bb40d5a24386db09ae1e0f,sentry-org_id=4511523128803328\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" nomodule=\"\"></script>\n<a href=\"/\"></a>\n<script src=\"/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_GtRJXTifrmdDw1CcqZeWvvP8fNhP\" id=\"_R_\" async=\"\"></script>\n<a href=\"/privacy-policy\">privacy policy</a>\n<a href=\"/new\">Hire Dagny</a>"
       }
     }
   },
   "dns": {
+    "AAAA www.bydagny.com": {
+      "result": {
+        "name": "www.bydagny.com",
+        "type": "AAAA",
+        "records": []
+      }
+    },
     "A www.bydagny.com": {
       "result": {
         "name": "www.bydagny.com",
         "type": "A",
-        "records": ["216.150.1.129", "216.150.1.65"]
-      }
-    },
-    "NS www.bydagny.com": {
-      "result": {
-        "name": "www.bydagny.com",
-        "type": "NS",
-        "records": []
+        "records": ["216.150.16.129", "216.150.1.65"]
       }
     },
     "CNAME www.bydagny.com": {
@@ -61,10 +61,10 @@
         "records": []
       }
     },
-    "AAAA www.bydagny.com": {
+    "NS www.bydagny.com": {
       "result": {
         "name": "www.bydagny.com",
-        "type": "AAAA",
+        "type": "NS",
         "records": []
       }
     },
@@ -72,14 +72,14 @@
       "result": {
         "name": "bydagny.com",
         "type": "NS",
-        "records": ["ns2.vercel-dns.com", "ns1.vercel-dns.com"]
+        "records": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"]
       }
     },
-    "TXT 129.1.150.216.origin.asn.cymru.com": {
+    "TXT 193.16.150.216.origin.asn.cymru.com": {
       "result": {
-        "name": "129.1.150.216.origin.asn.cymru.com",
+        "name": "193.16.150.216.origin.asn.cymru.com",
         "type": "TXT",
-        "records": ["16509 | 216.150.1.0/24 | US | arin | 2024-07-24"]
+        "records": ["16509 | 216.150.16.0/24 | US | arin | 2024-07-24"]
       }
     },
     "TXT as16509.asn.cymru.com": {
@@ -94,7 +94,7 @@
     "www.bydagny.com:443": {
       "result": {
         "host": "www.bydagny.com",
-        "ip": "216.150.1.129",
+        "ip": "216.150.16.193",
         "issuer": "C=US, O=Let's Encrypt, CN=YR2",
         "subjectAltNames": ["*.bydagny.com", "bydagny.com"],
         "validFrom": "Aug  6 00:44:18 2026 GMT",

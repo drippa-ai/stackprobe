@@ -7,6 +7,8 @@ export const SIGNAL_KINDS = [
   'meta',
   'script-src',
   'link-href',
+  // A link on the page: the absolute URL, with its text as the key. For finding other surfaces.
+  'anchor',
   'a',
   'aaaa',
   'cname',

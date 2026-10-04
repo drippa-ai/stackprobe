@@ -1,6 +1,6 @@
 {
   "url": "https://app.shortwave.com/",
-  "recordedAt": "2026-10-04T16:51:04.819Z",
+  "recordedAt": "2026-10-04T17:53:10.564Z",
   "http": {
     "GET https://app.shortwave.com/": {
       "result": {
@@ -24,11 +24,11 @@
           ["x-frame-options", "DENY"],
           ["x-xss-protection", "1; mode=block"],
           ["accept-ranges", "bytes"],
-          ["date", "Sun, 04 Oct 2026 16:51:05 GMT"],
-          ["x-served-by", "cache-osl6526-OSL"],
+          ["date", "Sun, 04 Oct 2026 17:53:10 GMT"],
+          ["x-served-by", "cache-osl6520-OSL"],
           ["x-cache", "MISS"],
           ["x-cache-hits", "0"],
-          ["x-timer", "S1791132665.965883,VS0,VE65"],
+          ["x-timer", "S1791136391.627304,VS0,VE61"],
           ["vary", "x-fh-requested-host, accept-encoding"],
           ["alt-svc", "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"]
         ],
@@ -37,18 +37,18 @@
     }
   },
   "dns": {
-    "A app.shortwave.com": {
-      "result": {
-        "name": "app.shortwave.com",
-        "type": "A",
-        "records": ["151.101.65.195", "151.101.1.195"]
-      }
-    },
     "CNAME app.shortwave.com": {
       "result": {
         "name": "app.shortwave.com",
         "type": "CNAME",
         "records": []
+      }
+    },
+    "A app.shortwave.com": {
+      "result": {
+        "name": "app.shortwave.com",
+        "type": "A",
+        "records": ["151.101.65.195", "151.101.1.195"]
       }
     },
     "AAAA app.shortwave.com": {
@@ -70,10 +70,10 @@
         "name": "shortwave.com",
         "type": "NS",
         "records": [
-          "ns-cloud-d1.googledomains.com",
           "ns-cloud-d2.googledomains.com",
-          "ns-cloud-d3.googledomains.com",
-          "ns-cloud-d4.googledomains.com"
+          "ns-cloud-d1.googledomains.com",
+          "ns-cloud-d4.googledomains.com",
+          "ns-cloud-d3.googledomains.com"
         ]
       }
     },

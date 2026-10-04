@@ -1,6 +1,6 @@
 {
   "url": "https://mobbin.com/",
-  "recordedAt": "2026-10-04T16:51:02.103Z",
+  "recordedAt": "2026-10-04T17:53:09.598Z",
   "http": {
     "GET https://mobbin.com/": {
       "result": {
@@ -11,7 +11,7 @@
           ["content-encoding", "br"],
           ["content-length", "53769"],
           ["content-type", "text/html"],
-          ["date", "Sun, 04 Oct 2026 16:51:02 GMT"],
+          ["date", "Sun, 04 Oct 2026 17:53:09 GMT"],
           ["document-policy", "js-profiling"],
           ["etag", "\"0ff216021e28babe653cd44701a691ac\""],
           ["framer-site-id", "cf144d45477c2a045035278e96cef3d311a528ab2ea7c9922398e7e714dc203a"],
@@ -24,16 +24,16 @@
           ["server", "Vercel"],
           [
             "server-timing",
-            "region;desc=\"eu-central-1\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"26fa766\", instance;desc=\"e9e8e23\", route;dur=1;desc=\"id=augiA20Il&locale=default\", country;desc=\"NO\", ss-only-routes"
+            "region;desc=\"eu-central-1\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"26fa766\", instance;desc=\"034f1ca\", route;dur=1;desc=\"id=augiA20Il&locale=default\", country;desc=\"NO\", ss-only-routes"
           ],
           ["strict-transport-security", "max-age=31536000"],
           ["vary", "Accept"],
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "SAMEORIGIN"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::nxg2x-1791132662248-1cb0e62a8ca3"]
+          ["x-vercel-id", "arn1::rxpkp-1791136389873-fbc9b59299d4"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width\">\n<meta name=\"generator\" content=\"Framer 4d69bad\">\n<meta name=\"description\" content=\"Save hours of UI &amp; UX research with our library of 400,000+ fully searchable mobile &amp; web app screenshots.\">\n<meta name=\"framer-search-index\" content=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/searchIndex-owe67MK0LxUo.json\">\n<meta name=\"framer-search-index-fallback\" content=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/searchIndex-bZPNa1kpOqc3.json\">\n<link href=\"https://framerusercontent.com/images/oPS7zaP2iinQmw4du221pyfo.svg\" rel=\"icon\" media=\"(prefers-color-scheme: light)\">\n<link href=\"https://framerusercontent.com/images/oPS7zaP2iinQmw4du221pyfo.svg\" rel=\"icon\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"apple-touch-icon\" href=\"https://framerusercontent.com/images/2cz8ZUxTsw3gbMD0g6JE4jLsgr8.png\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:title\" content=\"Mobbin — UI &amp; UX design inspiration for mobile &amp; web apps\">\n<meta property=\"og:description\" content=\"Save hours of UI &amp; UX research with our library of 400,000+ fully searchable mobile &amp; web app screenshots.\">\n<meta property=\"og:image\" content=\"https://framerusercontent.com/assets/FE3uqmxi41SxsiiVq9JNJC1Pwc.png\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Mobbin — UI &amp; UX design inspiration for mobile &amp; web apps\">\n<meta name=\"twitter:description\" content=\"Save hours of UI &amp; UX research with our library of 400,000+ fully searchable mobile &amp; web app screenshots.\">\n<meta name=\"twitter:image\" content=\"https://framerusercontent.com/assets/FE3uqmxi41SxsiiVq9JNJC1Pwc.png\">\n<meta name=\"robots\" content=\"max-image-preview:large\">\n<link rel=\"canonical\" href=\"https://mobbin.com/\">\n<link rel=\"og:url\" href=\"https://mobbin.com/\">\n<link rel=\"alternate\" type=\"text/markdown\" href=\"https://mobbin.com/index.md\">\n<script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-H2L379YHME\"></script>\n<script async=\"\" src=\"https://events.framer.com/script?v=2\" data-fid=\"cf144d45477c2a045035278e96cef3d311a528ab2ea7c9922398e7e714dc203a\" data-no-nt=\"\"></script>\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/rolldown-runtime.Dh6celcD.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/react.DOKkFWbx.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/motion.CRE1Vmz9.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/framer.n3j6MzQs.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/Ext_Button.B4iDb5Ip.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/FoDYUIWnG.DbodhxVZ.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/shared-lib.q5gyywP3.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/eGo6sAgVK.B07l3u2F.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/L1MfLJLqD.DqWTgnZU.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/WrcT54Bab.CM5j1eSJ.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/lJQXt0LgK.Yw7yJu6Y.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/GHBKDnel1.DJW29l4U.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/ALfVijhpb.DqpZg8gp.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/zxNSJOXI5.8SYXN1Mt.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/fpVOKzkeL.BxkM9-HL.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/kWOSoDPrq.omB4a_Pn.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/vHNtk6NeS.BL6XEQsu.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/RlBOiYXtg.BjniymUs.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/P3oMPmOqB.CNnIqlAx.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/dRRPZUiPK.bkjXGdfY.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/10IEhUKW6V-c8lAL8XTYHfC6JIxQpHZSqd8DPuO4KhE.BeGy4D8h.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/Video.DXcWlh0Y.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/OIjZRBmWDcIE2B6qgG1j.D-hb-jA0.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/iAX0uyvQs.D5DUSoWy.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/VpZEXwFGO.BgvASGrh.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/sFcVY2uWk.qVsR2vkl.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/Yej_aT5yT.CRVZk-an.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/LzDENfCcp.C-AONSUM.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/NP0zZJ_n8.C3D46gR6.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/Vn8FdyhhU.COG8OWLe.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/z8rVYwExt.BXeyp2QJ.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/-p6vdJXapyZ7r8nNTvozFuBOSD96K4ZYW2e0Nb6oxaM.7TUoCU0o.mjs\">\n<script type=\"module\" async=\"\" data-framer-bundle=\"main\" fetchpriority=\"low\" src=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/script_main.CzTfTRNn.mjs\"></script>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width\">\n<meta name=\"generator\" content=\"Framer 4d69bad\">\n<meta name=\"description\" content=\"Save hours of UI &amp; UX research with our library of 400,000+ fully searchable mobile &amp; web app screenshots.\">\n<meta name=\"framer-search-index\" content=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/searchIndex-owe67MK0LxUo.json\">\n<meta name=\"framer-search-index-fallback\" content=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/searchIndex-bZPNa1kpOqc3.json\">\n<link href=\"https://framerusercontent.com/images/oPS7zaP2iinQmw4du221pyfo.svg\" rel=\"icon\" media=\"(prefers-color-scheme: light)\">\n<link href=\"https://framerusercontent.com/images/oPS7zaP2iinQmw4du221pyfo.svg\" rel=\"icon\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"apple-touch-icon\" href=\"https://framerusercontent.com/images/2cz8ZUxTsw3gbMD0g6JE4jLsgr8.png\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:title\" content=\"Mobbin — UI &amp; UX design inspiration for mobile &amp; web apps\">\n<meta property=\"og:description\" content=\"Save hours of UI &amp; UX research with our library of 400,000+ fully searchable mobile &amp; web app screenshots.\">\n<meta property=\"og:image\" content=\"https://framerusercontent.com/assets/FE3uqmxi41SxsiiVq9JNJC1Pwc.png\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Mobbin — UI &amp; UX design inspiration for mobile &amp; web apps\">\n<meta name=\"twitter:description\" content=\"Save hours of UI &amp; UX research with our library of 400,000+ fully searchable mobile &amp; web app screenshots.\">\n<meta name=\"twitter:image\" content=\"https://framerusercontent.com/assets/FE3uqmxi41SxsiiVq9JNJC1Pwc.png\">\n<meta name=\"robots\" content=\"max-image-preview:large\">\n<link rel=\"canonical\" href=\"https://mobbin.com/\">\n<link rel=\"og:url\" href=\"https://mobbin.com/\">\n<link rel=\"alternate\" type=\"text/markdown\" href=\"https://mobbin.com/index.md\">\n<script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-H2L379YHME\"></script>\n<script async=\"\" src=\"https://events.framer.com/script?v=2\" data-fid=\"cf144d45477c2a045035278e96cef3d311a528ab2ea7c9922398e7e714dc203a\" data-no-nt=\"\"></script>\n<a href=\"https://mobbin.com/\"></a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"/mcp\">MCP</a>\n<a href=\"/login\">Log in</a>\n<a href=\"/signup\">Join for free</a>\n<a href=\"/pricing\">See our plans</a>\n<a href=\"https://www.figma.com/community/plugin/1332649462188834894/mobbin\">Figma plugin</a>\n<a href=\"/explore\">Explore</a>\n<a href=\"./glossary\">Glossary</a>\n<a href=\"/awards\">Awards</a>\n<a href=\"./changelog\">Changelog</a>\n<a href=\"./blog\">Blog</a>\n<a href=\"./colors\">Colors</a>\n<a href=\"./mcp\">MCP</a>\n<a href=\"./finance\">Finance+</a>\n<a href=\"mailto:support@mobbin.com\">Contact</a>\n<a href=\"https://help.mobbin.com/\">Help center</a>\n<a href=\"https://careers.mobbin.com/\">Careers</a>\n<a href=\"https://merch.mobbin.com/\">Merch</a>\n<a href=\"https://x.com/mobbin\">X (Twitter)</a>\n<a href=\"https://linkedin.com/company/mobbin\">LinkedIn</a>\n<a href=\"./privacy\">Privacy policy</a>\n<a href=\"./terms\">Terms</a>\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/rolldown-runtime.Dh6celcD.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/react.DOKkFWbx.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/motion.CRE1Vmz9.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/framer.n3j6MzQs.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/Ext_Button.B4iDb5Ip.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/FoDYUIWnG.DbodhxVZ.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/shared-lib.q5gyywP3.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/eGo6sAgVK.B07l3u2F.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/L1MfLJLqD.DqWTgnZU.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/WrcT54Bab.CM5j1eSJ.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/lJQXt0LgK.Yw7yJu6Y.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/GHBKDnel1.DJW29l4U.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/ALfVijhpb.DqpZg8gp.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/zxNSJOXI5.8SYXN1Mt.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/fpVOKzkeL.BxkM9-HL.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/kWOSoDPrq.omB4a_Pn.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/vHNtk6NeS.BL6XEQsu.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/RlBOiYXtg.BjniymUs.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/P3oMPmOqB.CNnIqlAx.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/dRRPZUiPK.bkjXGdfY.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/10IEhUKW6V-c8lAL8XTYHfC6JIxQpHZSqd8DPuO4KhE.BeGy4D8h.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/Video.DXcWlh0Y.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/OIjZRBmWDcIE2B6qgG1j.D-hb-jA0.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/iAX0uyvQs.D5DUSoWy.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/VpZEXwFGO.BgvASGrh.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/sFcVY2uWk.qVsR2vkl.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/Yej_aT5yT.CRVZk-an.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/LzDENfCcp.C-AONSUM.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/NP0zZJ_n8.C3D46gR6.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/Vn8FdyhhU.COG8OWLe.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/z8rVYwExt.BXeyp2QJ.mjs\">\n<link rel=\"modulepreload\" fetchpriority=\"low\" href=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/-p6vdJXapyZ7r8nNTvozFuBOSD96K4ZYW2e0Nb6oxaM.7TUoCU0o.mjs\">\n<script type=\"module\" async=\"\" data-framer-bundle=\"main\" fetchpriority=\"low\" src=\"https://framerusercontent.com/sites/HpXkx7LMLmT5DJ5C7LTgx/script_main.CzTfTRNn.mjs\"></script>"
       }
     }
   },
@@ -42,21 +42,7 @@
       "result": {
         "name": "mobbin.com",
         "type": "A",
-        "records": ["66.33.60.193", "76.76.21.241"]
-      }
-    },
-    "NS mobbin.com": {
-      "result": {
-        "name": "mobbin.com",
-        "type": "NS",
-        "records": ["ajay.ns.cloudflare.com", "serenity.ns.cloudflare.com"]
-      }
-    },
-    "CNAME mobbin.com": {
-      "result": {
-        "name": "mobbin.com",
-        "type": "CNAME",
-        "records": []
+        "records": ["76.76.21.164", "66.33.60.34"]
       }
     },
     "AAAA mobbin.com": {
@@ -66,11 +52,25 @@
         "records": []
       }
     },
-    "TXT 129.60.33.66.origin.asn.cymru.com": {
+    "NS mobbin.com": {
       "result": {
-        "name": "129.60.33.66.origin.asn.cymru.com",
+        "name": "mobbin.com",
+        "type": "NS",
+        "records": ["serenity.ns.cloudflare.com", "ajay.ns.cloudflare.com"]
+      }
+    },
+    "CNAME mobbin.com": {
+      "result": {
+        "name": "mobbin.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "TXT 164.21.76.76.origin.asn.cymru.com": {
+      "result": {
+        "name": "164.21.76.76.origin.asn.cymru.com",
         "type": "TXT",
-        "records": ["16509 | 66.33.60.0/24 | US | arin | 2024-03-21"]
+        "records": ["16509 | 76.76.21.0/24 | US | arin | 2020-05-08"]
       }
     },
     "TXT as16509.asn.cymru.com": {
@@ -85,7 +85,7 @@
     "mobbin.com:443": {
       "result": {
         "host": "mobbin.com",
-        "ip": "66.33.60.129",
+        "ip": "76.76.21.164",
         "issuer": "C=US, O=Let's Encrypt, CN=YR2",
         "subjectAltNames": ["mobbin.com"],
         "validFrom": "Aug 29 15:43:20 2026 GMT",

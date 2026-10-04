@@ -1,13 +1,13 @@
 {
   "url": "https://getcircular.ai/login",
-  "recordedAt": "2026-10-04T16:50:49.722Z",
+  "recordedAt": "2026-10-04T17:53:03.489Z",
   "http": {
     "GET https://getcircular.ai/login": {
       "result": {
         "url": "https://getcircular.ai/login",
         "status": 200,
         "headers": [
-          ["age", "1368"],
+          ["age", "1981"],
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-encoding", "br"],
           ["content-type", "text/html; charset=utf-8"],
@@ -23,20 +23,34 @@
           ["x-nextjs-prerender", "1"],
           ["x-nextjs-stale-time", "300"],
           ["x-powered-by", "Next.js"],
-          ["x-vercel-cache", "REVALIDATED"],
-          ["x-vercel-id", "arn1::iad1::czz8j-1791132649924-5173765a2b02"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::iad1::sjdzn-1791136383833-d3c711511728"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" href=\"/_next/static/media/4473ecc91f70f139-s.p.woff\" as=\"font\" crossorigin=\"\" type=\"font/woff\">\n<link rel=\"preload\" href=\"/_next/static/media/463dafcda517f24f-s.p.woff\" as=\"font\" crossorigin=\"\" type=\"font/woff\">\n<link rel=\"preload\" href=\"/_next/static/media/b1edc04b1a551a15-s.p.woff\" as=\"font\" crossorigin=\"\" type=\"font/woff\">\n<link rel=\"preload\" as=\"image\" href=\"/api/gradient?width=250&amp;height=325&amp;seed=auth-layout\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/6eef696d342ace66.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/3fac3464f0551057.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/webpack-0c70e006b1645aa9.js\">\n<script src=\"/_next/static/chunks/ab71fe2e-86ffc8fe8760e451.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/37206-ca7da75fe76959db.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/main-app-fd1784bf577e444e.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0d813d77-d3b4b989ffa96258.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/44964-28ea2b6bdbfb8a99.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/29598-53194e1804e5b088.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/8347-51dc413e3302c28f.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/77197-686fdd59b41d6746.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/40936-af88b39a8df7bb05.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/layout-7a0e19c7bedfd572.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/47324-02a7e0eee5669ad9.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/59453-6d92f42e4f657550.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/37975-ad3b4d61f80fa5a7.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/(site)/layout-2d23632d8c9f3d35.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/08ffd5a1-9dedab42a7562aa0.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/6317-d178cb7bfb30b409.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/71863-289aa582025445b7.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/20196-aaca0586678b6c44.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/19727-5e14e3ed9c945c3f.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/92011-fac43d5b52e514a6.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/25423-243c0bd114bab282.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/97208-828a51a2437f5d9f.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/65588-53718a6fcb7ccbd9.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/72983-089b8cd8f264044c.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/69172-75b11cc963cb5cd1.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/82576-df6953936c430004.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/(site)/page-a140ab77eceaa07d.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/35652-e212ee14758cc48a.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/8640-d2481b90d02f6254.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/83504-eec607a5c43b5993.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/95312-62b6c7856b674c45.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/94059-a1c72fe907389f48.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/(site)/login/page-0c17093a1e561bf1.js\" async=\"\"></script>\n<link rel=\"canonical\" href=\"https://getcircular.ai\">\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Circular News\" href=\"https://getcircular.ai/rss.xml\">\n<link rel=\"llms-txt\" type=\"text/plain\" href=\"https://getcircular.ai/llms.txt\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"description\" content=\"Log in to your Circular account to manage your consignment store, inventory, and sellers.\">\n<meta name=\"author\" content=\"Circular Resale\">\n<meta name=\"keywords\" content=\"resale software,AI powered resale software,inventory management,consignment inventory management,branded resale,AI resale,consignment software\">\n<meta name=\"creator\" content=\"Circular Resale\">\n<meta name=\"publisher\" content=\"Circular Resale\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta name=\"googlebot\" content=\"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1\">\n<link rel=\"canonical\" href=\"https://getcircular.ai\">\n<meta property=\"og:title\" content=\"Circular Resale | Software for Consignment, Thrift &amp; Brands\">\n<meta property=\"og:description\" content=\"Circular Resale is the operating system for resale. 15x faster intake, AI pricing, and inventory management for consignment, thrift, and brands.\">\n<meta property=\"og:url\" content=\"https://getcircular.ai\">\n<meta property=\"og:site_name\" content=\"Circular Resale\">\n<meta property=\"og:locale\" content=\"en_US\">\n<meta property=\"og:image\" content=\"https://getcircular.ai/Circular-OG-image.jpg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"Circular Resale - The operating system for resale\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:creator\" content=\"@circularresale\">\n<meta name=\"twitter:title\" content=\"Circular Resale | Software for Consignment, Thrift &amp; Brands\">\n<meta name=\"twitter:description\" content=\"Circular Resale is the operating system for resale. 15x faster intake, AI pricing, and inventory management for consignment, thrift, and brands.\">\n<meta name=\"twitter:image\" content=\"https://getcircular.ai/Circular-OG-image.jpg\">\n<link rel=\"shortcut icon\" href=\"https://getcircular.ai/logo-new-9.svg\">\n<link rel=\"icon\" href=\"/favicon.ico\" type=\"image/x-icon\" sizes=\"48x48\">\n<link rel=\"icon\" href=\"https://getcircular.ai/logo-new-9.svg\">\n<link rel=\"apple-touch-icon\" href=\"https://getcircular.ai/logo-new-9.svg\">\n<script src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/chunks/webpack-0c70e006b1645aa9.js\" id=\"_R_\" async=\"\"></script>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" href=\"/_next/static/media/4473ecc91f70f139-s.p.woff\" as=\"font\" crossorigin=\"\" type=\"font/woff\">\n<link rel=\"preload\" href=\"/_next/static/media/463dafcda517f24f-s.p.woff\" as=\"font\" crossorigin=\"\" type=\"font/woff\">\n<link rel=\"preload\" href=\"/_next/static/media/b1edc04b1a551a15-s.p.woff\" as=\"font\" crossorigin=\"\" type=\"font/woff\">\n<link rel=\"preload\" as=\"image\" href=\"/api/gradient?width=250&amp;height=325&amp;seed=auth-layout\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/6eef696d342ace66.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/3fac3464f0551057.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/webpack-0c70e006b1645aa9.js\">\n<script src=\"/_next/static/chunks/ab71fe2e-86ffc8fe8760e451.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/37206-ca7da75fe76959db.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/main-app-fd1784bf577e444e.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0d813d77-d3b4b989ffa96258.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/44964-28ea2b6bdbfb8a99.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/29598-53194e1804e5b088.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/8347-51dc413e3302c28f.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/77197-686fdd59b41d6746.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/40936-af88b39a8df7bb05.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/layout-7a0e19c7bedfd572.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/47324-02a7e0eee5669ad9.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/59453-6d92f42e4f657550.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/37975-ad3b4d61f80fa5a7.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/(site)/layout-2d23632d8c9f3d35.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/08ffd5a1-9dedab42a7562aa0.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/6317-d178cb7bfb30b409.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/71863-289aa582025445b7.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/20196-aaca0586678b6c44.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/19727-5e14e3ed9c945c3f.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/92011-fac43d5b52e514a6.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/25423-243c0bd114bab282.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/97208-828a51a2437f5d9f.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/65588-53718a6fcb7ccbd9.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/72983-089b8cd8f264044c.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/69172-75b11cc963cb5cd1.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/82576-df6953936c430004.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/(site)/page-a140ab77eceaa07d.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/35652-e212ee14758cc48a.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/8640-d2481b90d02f6254.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/83504-eec607a5c43b5993.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/95312-62b6c7856b674c45.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/94059-a1c72fe907389f48.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/(site)/login/page-0c17093a1e561bf1.js\" async=\"\"></script>\n<link rel=\"canonical\" href=\"https://getcircular.ai\">\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Circular News\" href=\"https://getcircular.ai/rss.xml\">\n<link rel=\"llms-txt\" type=\"text/plain\" href=\"https://getcircular.ai/llms.txt\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"description\" content=\"Log in to your Circular account to manage your consignment store, inventory, and sellers.\">\n<meta name=\"author\" content=\"Circular Resale\">\n<meta name=\"keywords\" content=\"resale software,AI powered resale software,inventory management,consignment inventory management,branded resale,AI resale,consignment software\">\n<meta name=\"creator\" content=\"Circular Resale\">\n<meta name=\"publisher\" content=\"Circular Resale\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta name=\"googlebot\" content=\"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1\">\n<link rel=\"canonical\" href=\"https://getcircular.ai\">\n<meta property=\"og:title\" content=\"Circular Resale | Software for Consignment, Thrift &amp; Brands\">\n<meta property=\"og:description\" content=\"Circular Resale is the operating system for resale. 15x faster intake, AI pricing, and inventory management for consignment, thrift, and brands.\">\n<meta property=\"og:url\" content=\"https://getcircular.ai\">\n<meta property=\"og:site_name\" content=\"Circular Resale\">\n<meta property=\"og:locale\" content=\"en_US\">\n<meta property=\"og:image\" content=\"https://getcircular.ai/Circular-OG-image.jpg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"Circular Resale - The operating system for resale\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:creator\" content=\"@circularresale\">\n<meta name=\"twitter:title\" content=\"Circular Resale | Software for Consignment, Thrift &amp; Brands\">\n<meta name=\"twitter:description\" content=\"Circular Resale is the operating system for resale. 15x faster intake, AI pricing, and inventory management for consignment, thrift, and brands.\">\n<meta name=\"twitter:image\" content=\"https://getcircular.ai/Circular-OG-image.jpg\">\n<link rel=\"shortcut icon\" href=\"https://getcircular.ai/logo-new-9.svg\">\n<link rel=\"icon\" href=\"/favicon.ico\" type=\"image/x-icon\" sizes=\"48x48\">\n<link rel=\"icon\" href=\"https://getcircular.ai/logo-new-9.svg\">\n<link rel=\"apple-touch-icon\" href=\"https://getcircular.ai/logo-new-9.svg\">\n<script src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\" nomodule=\"\"></script>\n<a href=\"/\"></a>\n<a href=\"/product\">Product</a>\n<a href=\"/news\">News</a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"/how-it-works\">How It Works</a>\n<a href=\"/login\">Log in</a>\n<a href=\"/demo\">Demo</a>\n<a href=\"/onboarding\">Join</a>\n<a href=\"/features\">Features</a>\n<a href=\"/charities\">Charities</a>\n<a href=\"/business-models\">Business models</a>\n<a href=\"/about\">About</a>\n<a href=\"/resources\">Resources</a>\n<script src=\"/_next/static/chunks/webpack-0c70e006b1645aa9.js\" id=\"_R_\" async=\"\"></script>"
       }
     }
   },
   "dns": {
+    "AAAA getcircular.ai": {
+      "result": {
+        "name": "getcircular.ai",
+        "type": "AAAA",
+        "records": []
+      }
+    },
     "A getcircular.ai": {
       "result": {
         "name": "getcircular.ai",
         "type": "A",
-        "records": ["216.150.1.1", "216.150.16.1"]
+        "records": ["216.150.16.1", "216.150.1.129"]
+      }
+    },
+    "NS getcircular.ai": {
+      "result": {
+        "name": "getcircular.ai",
+        "type": "NS",
+        "records": ["ns2.vercel-dns.com", "ns1.vercel-dns.com"]
       }
     },
     "CNAME getcircular.ai": {
@@ -46,23 +60,9 @@
         "records": []
       }
     },
-    "AAAA getcircular.ai": {
+    "TXT 65.16.150.216.origin.asn.cymru.com": {
       "result": {
-        "name": "getcircular.ai",
-        "type": "AAAA",
-        "records": []
-      }
-    },
-    "NS getcircular.ai": {
-      "result": {
-        "name": "getcircular.ai",
-        "type": "NS",
-        "records": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"]
-      }
-    },
-    "TXT 129.16.150.216.origin.asn.cymru.com": {
-      "result": {
-        "name": "129.16.150.216.origin.asn.cymru.com",
+        "name": "65.16.150.216.origin.asn.cymru.com",
         "type": "TXT",
         "records": ["16509 | 216.150.16.0/24 | US | arin | 2024-07-24"]
       }
@@ -79,7 +79,7 @@
     "getcircular.ai:443": {
       "result": {
         "host": "getcircular.ai",
-        "ip": "216.150.16.129",
+        "ip": "216.150.16.65",
         "issuer": "C=US, O=Let's Encrypt, CN=YR2",
         "subjectAltNames": ["getcircular.ai"],
         "validFrom": "Sep 14 15:53:55 2026 GMT",

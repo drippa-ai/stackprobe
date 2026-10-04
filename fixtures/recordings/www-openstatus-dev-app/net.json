@@ -1,6 +1,6 @@
 {
   "url": "https://www.openstatus.dev/app",
-  "recordedAt": "2026-10-04T16:50:55.425Z",
+  "recordedAt": "2026-10-04T17:53:06.250Z",
   "http": {
     "GET https://www.openstatus.dev/app": {
       "result": {
@@ -10,15 +10,15 @@
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-security-policy", "frame-ancestors 'self' https://shoogle.dev"],
           ["content-type", "text/html"],
-          ["date", "Sun, 04 Oct 2026 16:50:55 GMT"],
+          ["date", "Sun, 04 Oct 2026 17:53:06 GMT"],
           ["location", "https://app.openstatus.dev/"],
           ["refresh", "0;url=https://app.openstatus.dev/"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
-          ["x-vercel-id", "arn1::lrzlg-1791132655517-15e4a91057d6"],
+          ["x-vercel-id", "arn1::48cbx-1791136386415-bf5997379108"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": ""
+        "body": "<a href=\"https://app.openstatus.dev/\">here</a>"
       }
     },
     "GET https://app.openstatus.dev/": {
@@ -28,14 +28,14 @@
         "headers": [
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-type", "text/html"],
-          ["date", "Sun, 04 Oct 2026 16:50:55 GMT"],
+          ["date", "Sun, 04 Oct 2026 17:53:06 GMT"],
           ["location", "/overview"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
-          ["x-vercel-id", "arn1::rxpkp-1791132655718-36af70ae7248"],
+          ["x-vercel-id", "arn1::pm5t7-1791136386634-2b978faafc77"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": ""
+        "body": "<a href=\"/overview\">here</a>"
       }
     },
     "GET https://app.openstatus.dev/overview": {
@@ -45,17 +45,17 @@
         "headers": [
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-type", "text/html"],
-          ["date", "Sun, 04 Oct 2026 16:50:56 GMT"],
+          ["date", "Sun, 04 Oct 2026 17:53:07 GMT"],
           ["location", "/login?redirectTo=%2Foverview"],
           ["server", "Vercel"],
           ["set-cookie", "auth-redirect=<redacted>"],
           ["set-cookie", "__Host-authjs.csrf-token=<redacted>"],
           ["set-cookie", "__Secure-authjs.callback-url=<redacted>"],
           ["strict-transport-security", "max-age=63072000"],
-          ["x-vercel-id", "arn1::sjdzn-1791132655790-07447f03037d"],
+          ["x-vercel-id", "arn1::vgr2z-1791136386672-012cc30a7400"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": ""
+        "body": "<a href=\"/login?redirectTo=%252Foverview\">here</a>"
       }
     },
     "GET https://app.openstatus.dev/login?redirectTo=%2Foverview": {
@@ -67,7 +67,7 @@
           ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
           ["content-encoding", "br"],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 16:50:57 GMT"],
+          ["date", "Sun, 04 Oct 2026 17:53:08 GMT"],
           [
             "link",
             "</_next/static/immutable/media/797e433ab948586e-s.p.1v5bejj26fx9h.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/CalSans_SemiBold-s.p.36fsdtbhywrvd.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/CommitMono_400_Italic-s.p.0rnuo2147qah4.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/CommitMono_400_Regular-s.p.1ot3n3tzfq2ho.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/CommitMono_700_Italic-s.p.1fmtesxsx53ei.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/CommitMono_700_Regular-s.p.3hmpgs9gaxjfp.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/caa3a2e1cccd8315-s.p.0zr6hhvz-h9nw.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/chunks/1i-bbnm5x8lh1.css>; rel=preload; as=\"style\", </_next/static/immutable/chunks/1us3o-lvuln9k.css>; rel=preload; as=\"style\""
@@ -84,33 +84,26 @@
           ["x-matched-path", "/login"],
           ["x-powered-by", "Next.js"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::fra1::vgr2z-1791132656972-02557cb7032f"],
+          ["x-vercel-id", "arn1::fra1::vfx99-1791136387828-fe2e0351e45f"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1i-bbnm5x8lh1.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1us3o-lvuln9k.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\">\n<script src=\"/_next/static/immutable/chunks/0t4g-i01yicww.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1wqtnon_j9c7o.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/11ya_humdx8by.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0n2erjj27forr.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-44pb8iy-7j269.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3t5ektktyf_ua.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2jtvkbzpybwau.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1sjw87h_3x02k.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/310_fuk16lic7.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3cv4-9my0ljsm.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3ape1_41zr_ls.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0gk-nefv03l8a.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1iyyl61n45hds.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://openpanel.dev/op1.js?v=1.5.1\" as=\"script\">\n<meta name=\"description\" content=\"Sign in to openstatus. Monitor your services and keep your users informed.\">\n<meta name=\"robots\" content=\"index, follow\">\n<link rel=\"canonical\" href=\"https://app.openstatus.dev/login\">\n<meta property=\"og:title\" content=\"openstatus\">\n<meta property=\"og:description\" content=\"Open-source platform to monitor your services and keep your users informed.\">\n<meta property=\"og:image\" content=\"https://www.openstatus.dev/api/og?title=openstatus&amp;description=Monitor%20your%20services%20and%20keep%20your%20users%20informed.&amp;footer=app.openstatus.dev&amp;image=assets/og/dashboard-v2.png\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"openstatus\">\n<meta name=\"twitter:description\" content=\"Open-source platform to monitor your services and keep your users informed.\">\n<meta name=\"twitter:image\" content=\"https://www.openstatus.dev/api/og?title=openstatus&amp;description=Monitor%20your%20services%20and%20keep%20your%20users%20informed.&amp;footer=app.openstatus.dev&amp;image=assets/og/dashboard-v2.png\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.07a7nheflmzmw.ico\" sizes=\"31x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.svg?icon.14mkonrt_abs6.svg\" sizes=\"any\" type=\"image/svg+xml\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"sentry-trace\" content=\"ed00875771b241528f8d70ec421d0bf4-88d8f523e05562fd-0\">\n<meta name=\"baggage\" content=\"sentry-environment=vercel-production,sentry-release=25b3d65fbb7276d01ae069393fdd4d764c1468d9,sentry-public_key=f20616b5573f2a39dab718d99c8d9e38,sentry-trace_id=ed00875771b241528f8d70ec421d0bf4,sentry-org_id=4505782661349376,sentry-sampled=false,sentry-sample_rand=0.5439390945214654,sentry-sample_rate=0.2\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\" id=\"_R_\" async=\"\"></script>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1i-bbnm5x8lh1.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1us3o-lvuln9k.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\">\n<script src=\"/_next/static/immutable/chunks/0t4g-i01yicww.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1wqtnon_j9c7o.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/11ya_humdx8by.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0n2erjj27forr.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-44pb8iy-7j269.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3t5ektktyf_ua.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2jtvkbzpybwau.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1sjw87h_3x02k.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/310_fuk16lic7.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3cv4-9my0ljsm.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3ape1_41zr_ls.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0gk-nefv03l8a.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1iyyl61n45hds.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://openpanel.dev/op1.js?v=1.5.1\" as=\"script\">\n<meta name=\"description\" content=\"Sign in to openstatus. Monitor your services and keep your users informed.\">\n<meta name=\"robots\" content=\"index, follow\">\n<link rel=\"canonical\" href=\"https://app.openstatus.dev/login\">\n<meta property=\"og:title\" content=\"openstatus\">\n<meta property=\"og:description\" content=\"Open-source platform to monitor your services and keep your users informed.\">\n<meta property=\"og:image\" content=\"https://www.openstatus.dev/api/og?title=openstatus&amp;description=Monitor%20your%20services%20and%20keep%20your%20users%20informed.&amp;footer=app.openstatus.dev&amp;image=assets/og/dashboard-v2.png\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"openstatus\">\n<meta name=\"twitter:description\" content=\"Open-source platform to monitor your services and keep your users informed.\">\n<meta name=\"twitter:image\" content=\"https://www.openstatus.dev/api/og?title=openstatus&amp;description=Monitor%20your%20services%20and%20keep%20your%20users%20informed.&amp;footer=app.openstatus.dev&amp;image=assets/og/dashboard-v2.png\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.07a7nheflmzmw.ico\" sizes=\"31x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.svg?icon.14mkonrt_abs6.svg\" sizes=\"any\" type=\"image/svg+xml\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"sentry-trace\" content=\"57a01cb1d35e4dd5923b1ac87bc2a2ae-b9a7c5fb7cfed80c-0\">\n<meta name=\"baggage\" content=\"sentry-environment=vercel-production,sentry-release=25b3d65fbb7276d01ae069393fdd4d764c1468d9,sentry-public_key=f20616b5573f2a39dab718d99c8d9e38,sentry-trace_id=57a01cb1d35e4dd5923b1ac87bc2a2ae,sentry-org_id=4505782661349376,sentry-sampled=false,sentry-sample_rand=0.34347126809138195,sentry-sample_rate=0.2\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"https://openstatus.dev\">openstatus</a>\n<a href=\"https://www.openstatus.dev/docs\">Documentation</a>\n<a href=\"https://openstatus.dev/legal/terms\">Terms of Service</a>\n<a href=\"https://openstatus.dev/legal/privacy\">Privacy Policy</a>\n<a href=\"https://openstatus.dev/guides/migrate-from-atlassian-statuspage\">Atlassian Statuspage</a>\n<a href=\"https://openstatus.dev/guides/migrate-from-betterstack\">Betterstack</a>\n<a href=\"https://openstatus.dev/guides/migrate-from-instatus\">Instatus</a>\n<script src=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\" id=\"_R_\" async=\"\"></script>"
       }
     }
   },
   "dns": {
-    "A www.openstatus.dev": {
-      "result": {
-        "name": "www.openstatus.dev",
-        "type": "A",
-        "records": ["216.150.1.65", "216.150.1.129"]
-      }
-    },
-    "CNAME www.openstatus.dev": {
-      "result": {
-        "name": "www.openstatus.dev",
-        "type": "CNAME",
-        "records": []
-      }
-    },
     "AAAA www.openstatus.dev": {
       "result": {
         "name": "www.openstatus.dev",
         "type": "AAAA",
         "records": []
+      }
+    },
+    "A www.openstatus.dev": {
+      "result": {
+        "name": "www.openstatus.dev",
+        "type": "A",
+        "records": ["216.150.16.193", "216.150.1.129"]
       }
     },
     "NS www.openstatus.dev": {
@@ -120,16 +113,23 @@
         "records": []
       }
     },
+    "CNAME www.openstatus.dev": {
+      "result": {
+        "name": "www.openstatus.dev",
+        "type": "CNAME",
+        "records": []
+      }
+    },
     "NS openstatus.dev": {
       "result": {
         "name": "openstatus.dev",
         "type": "NS",
-        "records": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"]
+        "records": ["ns2.vercel-dns.com", "ns1.vercel-dns.com"]
       }
     },
-    "TXT 65.1.150.216.origin.asn.cymru.com": {
+    "TXT 129.1.150.216.origin.asn.cymru.com": {
       "result": {
-        "name": "65.1.150.216.origin.asn.cymru.com",
+        "name": "129.1.150.216.origin.asn.cymru.com",
         "type": "TXT",
         "records": ["16509 | 216.150.1.0/24 | US | arin | 2024-07-24"]
       }
@@ -146,7 +146,7 @@
     "www.openstatus.dev:443": {
       "result": {
         "host": "www.openstatus.dev",
-        "ip": "216.150.1.65",
+        "ip": "216.150.1.129",
         "issuer": "C=US, O=Let's Encrypt, CN=YR2",
         "subjectAltNames": ["*.openstatus.dev", "openstatus.dev"],
         "validFrom": "Aug 19 02:11:01 2026 GMT",
