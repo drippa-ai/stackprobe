@@ -91,13 +91,23 @@ const SURFACE_LABELS: Record<Surface['kind'], string> = {
   other: 'Other',
 };
 
+const FOUND_BY = (foundBy: NonNullable<Surface['foundBy']>) =>
+  foundBy.kind === 'subdomain'
+    ? 'Found as a subdomain.'
+    : foundBy.text
+      ? `Found via the “${foundBy.text}” link.`
+      : 'Found via a link.';
+
 function SurfaceView({ surface }: { surface: Surface }) {
   return (
     <section>
       <h2>
         <code>{surface.url}</code>
       </h2>
-      <p className="muted">{SURFACE_LABELS[surface.kind]}</p>
+      <p className="muted">
+        {SURFACE_LABELS[surface.kind]}
+        {surface.foundBy ? ` ${FOUND_BY(surface.foundBy)}` : ''}
+      </p>
       {surface.detections.length === 0 ? (
         <p>Nothing detected here yet.</p>
       ) : (

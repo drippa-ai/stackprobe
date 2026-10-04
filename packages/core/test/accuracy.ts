@@ -1,7 +1,7 @@
 import { existsSync } from 'node:fs';
 import { builtinFingerprints, FINGERPRINTS_VERSION } from '../src/fingerprints/index.ts';
 import { scan } from '../src/scan.ts';
-import { loadRecording, RECORDINGS_DIR, ReplayNet } from './fixtures.ts';
+import { DOMAINS_DIR, loadRecording, RECORDINGS_DIR, ReplayNet } from './fixtures.ts';
 import type { GroundTruthRow } from './ground-truth.ts';
 
 // How well scans of the recorded ground-truth surfaces match what their sources say.
@@ -26,6 +26,58 @@ export interface Accuracy {
   notScored: { recording: string; reason: string }[];
   scored: number;
   total: number;
+  discovery: Discovery;
+}
+
+// Whether scanning a company's homepage finds the product app the ground truth names.
+export interface Discovery {
+  found: { app: string; via: string }[];
+  // With the surfaces the scan did find, to show what it saw instead.
+  missed: { app: string; surfaces: string[] }[];
+  notRecorded: string[];
+}
+
+// A scanned surface is the app when it is on the same host, and, for an app that lives under a
+// path of a shared host (acme.com/login), in the same first path segment.
+export function sameSurface(app: string, surface: string): boolean {
+  const a = new URL(app);
+  const b = new URL(surface);
+  // acme.com and www.acme.com are the same site; scans start at what was typed and redirect.
+  const host = (url: URL) => url.hostname.replace(/^www\./, '');
+  if (host(a) !== host(b)) return false;
+  const section = (url: URL) => url.pathname.split('/')[1] ?? '';
+  return section(a) === '' || section(a) === section(b);
+}
+
+export async function measureDiscovery(rows: GroundTruthRow[]): Promise<Discovery> {
+  const discovery: Discovery = { found: [], missed: [], notRecorded: [] };
+  for (const row of rows.filter((r) => r.surfaceKind === 'app')) {
+    if (!existsSync(new URL(`${row.domain}/net.json`, DOMAINS_DIR))) {
+      discovery.notRecorded.push(row.surfaceUrl);
+      continue;
+    }
+    const recording = loadRecording(row.domain, DOMAINS_DIR);
+    const report = await scan(recording.url, {
+      net: new ReplayNet(recording),
+      now: () => new Date(recording.recordedAt),
+    });
+    const match = report.surfaces.find((surface) => sameSurface(row.surfaceUrl, surface.url));
+    if (match) {
+      const via = !match.foundBy
+        ? 'the homepage itself'
+        : match.foundBy.kind === 'subdomain'
+          ? 'subdomain check'
+          : `link "${match.foundBy.text ?? ''}"`;
+      discovery.found.push({ app: row.surfaceUrl, via });
+    } else {
+      discovery.missed.push({ app: row.surfaceUrl, surfaces: report.surfaces.map((s) => s.url) });
+    }
+  }
+  const byApp = (a: { app: string }, b: { app: string }) => a.app.localeCompare(b.app);
+  discovery.found.sort(byApp);
+  discovery.missed.sort(byApp);
+  discovery.notRecorded.sort();
+  return discovery;
 }
 
 export async function measureAccuracy(rows: GroundTruthRow[]): Promise<Accuracy> {
@@ -60,7 +112,9 @@ export async function measureAccuracy(rows: GroundTruthRow[]): Promise<Accuracy>
       });
       continue;
     }
+    // The CSV describes this exact surface, so no discovery here.
     const report = await scan(row.surfaceUrl, {
+      discover: false,
       net: new ReplayNet(recording),
       now: () => new Date(recording.recordedAt),
     });
@@ -98,6 +152,7 @@ export async function measureAccuracy(rows: GroundTruthRow[]): Promise<Accuracy>
     notScored: notScored.sort((a, b) => a.recording.localeCompare(b.recording)),
     scored: rows.length - notScored.length,
     total: rows.length,
+    discovery: await measureDiscovery(rows),
   };
 }
 
@@ -136,6 +191,21 @@ export function formatAccuracy(accuracy: Accuracy): string {
         `${percent(t.found.length, t.found.length + t.missed.length)} |`,
     ),
   ];
+
+  const { discovery } = accuracy;
+  const apps = discovery.found.length + discovery.missed.length;
+  lines.push(
+    '',
+    '## Finding the app',
+    '',
+    `**Scanning the company's homepage found ${discovery.found.length} of ${apps} product apps ` +
+      `(${percent(discovery.found.length, apps)}).** Each app in the ground truth, and how the ` +
+      'scan reached it:',
+    '',
+    ...discovery.found.map((f) => `- ${f.app}: ${f.via}`),
+    ...discovery.missed.map((m) => `- ${m.app}: **missed** (scanned ${m.surfaces.join(', ')})`),
+    ...discovery.notRecorded.map((app) => `- ${app}: homepage not recorded yet`),
+  );
 
   const listed = (title: string, items: string[]) => {
     if (items.length === 0) return;

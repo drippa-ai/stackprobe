@@ -2,11 +2,8 @@
 //   pnpm record-fixture <name> <url>
 // Writes fixtures/sites/<name>/net.json and prints what was detected, to help write
 // expected.json by hand. Never run in CI.
-import { detect } from '../src/detect.ts';
-import { builtinFingerprints } from '../src/fingerprints/index.ts';
-import { DEFAULT_LAYERS } from '../src/layers/index.ts';
 import { NodeNet } from '../src/node/net.ts';
-import { runLayers } from '../src/runner.ts';
+import { scan } from '../src/scan.ts';
 import { surfaceTarget } from '../src/surface.ts';
 import { RecordingNet, saveRecording } from '../test/fixtures.ts';
 
@@ -18,23 +15,23 @@ if (!name || !input || !/^[a-z0-9-]+$/.test(name)) {
   process.exit(1);
 }
 
+// A full scan, discovery included, so the fixture replays exactly what scan() asks for.
 const surface = surfaceTarget(input);
 const net = new RecordingNet(new NodeNet(), surface.url);
-const results = await runLayers(DEFAULT_LAYERS, surface, { net });
+const report = await scan(surface.url, { net });
 saveRecording(name, net.recording);
 
-for (const { run } of results) {
-  console.log(
-    `${run.layer}: ${run.status}${run.error ? ` (${run.error.code}: ${run.error.message})` : ''}`,
-  );
+for (const run of report.layersRun) {
+  const error = run.error ? ` (${run.error.code}: ${run.error.message})` : '';
+  console.log(`${run.surfaceId} ${run.layer}: ${run.status}${error}`);
 }
-const detections = detect(
-  results.flatMap((r) => r.signals),
-  builtinFingerprints(),
-);
-console.log(detections.length ? '\ndetected:' : '\nnothing detected');
-for (const d of detections) {
-  console.log(`  ${d.tech} ${d.confidence}`);
-  for (const e of d.evidence) console.log(`    ${e.weight} ${e.detail}`);
+for (const s of report.surfaces) {
+  const via = s.foundBy ? ` (found by ${s.foundBy.kind})` : '';
+  console.log(`\n${s.url}${via}`);
+  if (s.detections.length === 0) console.log('  nothing detected');
+  for (const d of s.detections) {
+    console.log(`  ${d.tech} ${d.confidence}`);
+    for (const e of d.evidence) console.log(`    ${e.weight} ${e.detail}`);
+  }
 }
 console.log(`\nwrote fixtures/sites/${name}/net.json; now write expected.json by hand`);

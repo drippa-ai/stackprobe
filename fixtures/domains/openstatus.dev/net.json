@@ -1,0 +1,448 @@
+{
+  "url": "https://openstatus.dev/",
+  "recordedAt": "2026-10-04T18:01:29.521Z",
+  "http": {
+    "GET https://openstatus.dev/": {
+      "result": {
+        "url": "https://openstatus.dev/",
+        "status": 308,
+        "headers": [
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-type", "text/html"],
+          ["date", "Sun, 04 Oct 2026 18:01:29 GMT"],
+          ["location", "https://www.openstatus.dev/"],
+          ["refresh", "0;url=https://www.openstatus.dev/"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-vercel-id", "arn1::xqfbv-1791136889643-4da1c58cb05b"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<a href=\"https://www.openstatus.dev/\">here</a>"
+      }
+    },
+    "GET https://www.openstatus.dev/": {
+      "result": {
+        "url": "https://www.openstatus.dev/",
+        "status": 200,
+        "headers": [
+          ["age", "2442"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'self' https://shoogle.dev"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 17:20:46 GMT"],
+          ["etag", "W/\"43bb4yd25pba0f\""],
+          [
+            "link",
+            "</.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/agent-skills/index.json>; rel=\"agent-skills\"; type=\"application/json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\", <https://www.openstatus.dev/docs>; rel=\"service-doc\"; type=\"text/html\", <https://www.openstatus.dev/openapi.json>; rel=\"service-desc\"; type=\"application/json\", <https://www.openstatus.dev/llms.txt>; rel=\"describedby\"; type=\"text/plain\", <https://www.openstatus.dev/llms-full.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"llms-full\", <https://www.openstatus.dev/terms>; rel=\"terms-of-service\", <https://www.openstatus.dev/privacy>; rel=\"privacy-policy\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-matched-path", "/"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "300"],
+          ["x-powered-by", "Next.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::sin1::2rvjf-1791136889737-3bded2615f3a"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CalSans_SemiBold-s.p.36fsdtbhywrvd.ttf\" as=\"font\" crossorigin=\"\" type=\"font/ttf\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CommitMono_400_Italic-s.p.0rnuo2147qah4.otf\" as=\"font\" crossorigin=\"\" type=\"font/otf\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CommitMono_400_Regular-s.p.1ot3n3tzfq2ho.otf\" as=\"font\" crossorigin=\"\" type=\"font/otf\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CommitMono_700_Italic-s.p.1fmtesxsx53ei.otf\" as=\"font\" crossorigin=\"\" type=\"font/otf\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CommitMono_700_Regular-s.p.3hmpgs9gaxjfp.otf\" as=\"font\" crossorigin=\"\" type=\"font/otf\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/0_wq-2it4yz47.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/06zmwojntcyfm.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\">\n<script src=\"/_next/static/immutable/chunks/0x7-9enqj2qcz.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/20jzicxwpuct1.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0uip4ubi3oglq.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1tartf52-8waj.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-06l7euoutawmf.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2ybi--ayzz0do.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1i-izroq1y3hw.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3a0pupzs6dfyv.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1f08cuv5do--v.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0zwq3g6p8h9sx.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2tjdhv3r30exv.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2eq-gochds99-.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/38hjw8yy8zr90.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2s6pnnfb23h98.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1pg4x90k2fckj.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1vt4qpqujenih.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1kos0kgegfnsr.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/15ibr1pbpeo0s.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3xohcer_3_xfd.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1_9lw27ls0pkp.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://plausible.io/js/script.js\" as=\"script\">\n<link rel=\"preload\" href=\"https://openpanel.dev/op1.js?v=1.5.1\" as=\"script\">\n<link rel=\"preload\" href=\"https://ui.sh/ui-picker.js\" as=\"script\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"description\" content=\"Open source status page and uptime monitoring. Your monitors update it, your subscribers hear it first, your auditor gets the trail. Live in five minutes.\">\n<link rel=\"canonical\" href=\"https://www.openstatus.dev\">\n<meta property=\"og:title\" content=\"Free &amp; Open Source Status Page and Uptime Monitoring\">\n<meta property=\"og:description\" content=\"Open source status page and uptime monitoring. Your monitors update it, your subscribers hear it first, your auditor gets the trail. Live in five minutes.\">\n<meta property=\"og:url\" content=\"https://www.openstatus.dev\">\n<meta property=\"og:image\" content=\"https://www.openstatus.dev/api/og\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Free &amp; Open Source Status Page and Uptime Monitoring\">\n<meta name=\"twitter:description\" content=\"Open source status page and uptime monitoring. Your monitors update it, your subscribers hear it first, your auditor gets the trail. Live in five minutes.\">\n<meta name=\"twitter:image\" content=\"https://www.openstatus.dev/api/og\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.07a7nheflmzmw.ico\" sizes=\"31x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.png?icon.0ql4z1tq5lt1f.png\" sizes=\"478x494\" type=\"image/png\">\n<meta name=\"sentry-trace\" content=\"b9a16da81aaf44a5b82a2673c9f9f073-89310d377b425cb7-0\">\n<meta name=\"baggage\" content=\"sentry-environment=vercel-production,sentry-release=23bac2532b0ed4f37634764ad95928e9c1428a7a,sentry-public_key=f20616b5573f2a39dab718d99c8d9e38,sentry-trace_id=b9a16da81aaf44a5b82a2673c9f9f073,sentry-org_id=4505782661349376,sentry-sampled=false,sentry-sample_rand=0.3325273504171925,sentry-sample_rate=0.2\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"/\">openstatus[right click]</a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"https://app.openstatus.dev/login\">Dashboard</a>\n<a href=\"https://app.openstatus.dev/?ref=home-hero\">Get started free</a>\n<a href=\"/github\">GitHub 9k+</a>\n<a href=\"#trusted-by-teams-who-ship-transparency\"></a>\n<a href=\"https://status.cal.com\"></a>\n<a href=\"/customers/twenty\"></a>\n<a href=\"https://status.documenso.com\"></a>\n<a href=\"/customers/traefik\"></a>\n<a href=\"https://passboltuptime.com\"></a>\n<a href=\"https://status.hanko.io\"></a>\n<a href=\"https://status.whitebit.com\"></a>\n<a href=\"https://status.superwall.com\"></a>\n<a href=\"https://status.openpanel.dev\"></a>\n<a href=\"https://probostatus.com\"></a>\n<a href=\"https://roundtable.eu\"></a>\n<a href=\"https://status.smplrspace.com\"></a>\n<a href=\"#one-incident-start-to-finish\"></a>\n<a href=\"#your-monitor-catches-it-first\"></a>\n<a href=\"/uptime-monitoring\">Uptime monitoring</a>\n<a href=\"/docs/reference/notification\">Notification channels</a>\n<a href=\"/play/checker\">Check any URL from 28 regions</a>\n<a href=\"#know-what-to-say-before-you-say-it\"></a>\n<a href=\"/docs/concept/response-logs-and-retention\">Response logs and retention</a>\n<a href=\"/docs/concept/latency-vs-response-time#the-request-in-phases-dns-tcp-tls-ttfb-transfer\">Request phases: DNS, TCP, TLS, TTFB</a>\n<a href=\"#declare-it-in-slack-or-with-your-favorite-agent\"></a>\n<a href=\"/docs/guides/how-to-setup-slack-agent\">Slack agent</a>\n<a href=\"/tooling/mcp-server\">MCP server</a>\n<a href=\"/tooling/cli\">CLI</a>\n<a href=\"/tooling/api\">API</a>\n<a href=\"#everyone-hears-it-from-you-first\"></a>\n<a href=\"/docs/reference/subscriber\">Subscriptions</a>\n<a href=\"/use-case/reduce-support-tickets\">Reducing support tickets</a>\n<a href=\"#only-the-right-people-see-it\"></a>\n<a href=\"/status-page\">Status page</a>\n<a href=\"/docs/reference/status-page#password-basic-auth\">Password, magic link and IP restriction</a>\n<a href=\"/use-case/enterprise-sales\">Status pages for enterprise sales</a>\n<a href=\"#the-trail-exists-when-the-auditor-asks\"></a>\n<a href=\"/use-case/compliance\">Status pages for compliance</a>\n<a href=\"mailto:gilfoyle@piedpiper.dev\">gilfoyle@piedpiper.dev</a>\n<a href=\"#in-their-words\"></a>\n<a href=\"/customers/twenty\">Read the story</a>\n<a href=\"/customers/traefik\">Read the story</a>\n<a href=\"#for-humans-and-agents\"></a>\n<a href=\"/tooling/terraform\">Terraform</a>\n<a href=\"#flat-pricing\"></a>\n<a href=\"/github\">Open source</a>\n<a href=\"#get-started\"></a>\n<a href=\"https://app.openstatus.dev/?ref=home-bottom\">Create your status page</a>\n<a href=\"/pricing\">Full pricing</a>\n<a href=\"/play/checker\">Check any URL's response time from 28 regions</a>\n<a href=\"#frequently-asked-questions\"></a>\n<a href=\"/tooling/mcp-server\">AI agent</a>\n<a href=\"https://status.cal.com\">Cal.com</a>\n<a href=\"https://status.whitebit.com\">WhiteBIT</a>\n<a href=\"https://status.documenso.com\">Documenso</a>\n<a href=\"https://app.openstatus.dev\">managed service</a>\n<a href=\"/github\">self-hosting</a>\n<a href=\"/pricing\">pricing page</a>\n<a href=\"/use-case/compliance\">SOC 2 status pages</a>\n<a href=\"/docs/guides/self-hosting-openstatus\">Self-hosting the full openstatus stack</a>\n<a href=\"/docs/guides/self-host-status-page-only\">Self-hosting the status page only</a>\n<a href=\"/github\">GitHub</a>\n<a href=\"https://bsky.app/profile/thibaultleouay.dev\">Thibault</a>\n<a href=\"https://x.com/mxkaske\">Max</a>\n<a href=\"/about\">our about page</a>\n<a href=\"/status-page\">Status Page</a>\n<a href=\"/uptime-monitoring\">Uptime Monitoring</a>\n<a href=\"/tooling/mcp-server\">MCP Server</a>\n<a href=\"/blog\">Blog</a>\n<a href=\"/customers\">Customers</a>\n<a href=\"/docs\">Docs</a>\n<a href=\"/guides\">Guides</a>\n<a href=\"/status\">External Status</a>\n<a href=\"/oss-friends\">OSS Friends</a>\n<a href=\"/compare/betterstack\">BetterStack vs openstatus</a>\n<a href=\"/compare/checkly\">Checkly vs openstatus</a>\n<a href=\"/compare/datadog\">Datadog Synthetics vs openstatus</a>\n<a href=\"/compare/incidentio\">Incident.io vs openstatus</a>\n<a href=\"/compare/statusio\">Status.io vs openstatus</a>\n<a href=\"/compare/uptime-robot\">UptimeRobot vs openstatus</a>\n<a href=\"/use-case/agent\">Status Page for AI Agent</a>\n<a href=\"/use-case/startups\">Status Pages for Startups</a>\n<a href=\"/use-case/enterprise-sales\">Status Pages for Enterprise Sales</a>\n<a href=\"/use-case/reduce-support-tickets\">Status Pages for Reducing Support Tickets</a>\n<a href=\"/use-case/api-providers\">Status Pages for API Infrastructure</a>\n<a href=\"/use-case/compliance\">SOC 2-Ready Status Page in 2 Minutes</a>\n<a href=\"/blog/logs-view-filters-two-years-one-day\">Logs View: Two years in the making, one day of migration</a>\n<a href=\"/blog/introducing-openstatus-health\">Introducing @openstatus/health: health endpoints that say which dependency is down</a>\n<a href=\"/blog/self-hosting-openstatus\">Self-hosting openstatus: The Hurdles Then, the Experience Now</a>\n<a href=\"/blog/your-customer-found-out-first\">Your Monitoring Is Green. Your Customer Found Out First.</a>\n<a href=\"/blog/status-page-markdown-for-agents\">Tokenminning: a status page your agents can actually read</a>\n<a href=\"/blog/agent-webhook\">How we built an agent webhook for our status pages</a>\n<a href=\"/play/checker\">Global Speed Checker</a>\n<a href=\"/play/curl\">cURL Builder</a>\n<a href=\"/play/mcp-health\">MCP Server Health Check</a>\n<a href=\"/play/uptime-sla\">SLA Calculator</a>\n<a href=\"/registry\">Shadcn Component Registry</a>\n<a href=\"/health\">Health Endpoints</a>\n<a href=\"https://themes.openstatus.dev\">Theme Explorer</a>\n<a href=\"https://openstat.us\">All Status Codes</a>\n<a href=\"https://openstatus.dev/discord\">Discord</a>\n<a href=\"https://openstatus.dev/github\">GitHub</a>\n<a href=\"https://openstatus.dev/twitter\">Twitter</a>\n<a href=\"https://openstatus.dev/bsky\">BlueSky</a>\n<a href=\"https://openstatus.dev/youtube\">YouTube</a>\n<a href=\"https://openstatus.dev/linkedin\">LinkedIn</a>\n<a href=\"/about\">About</a>\n<a href=\"/changelog\">Changelog</a>\n<a href=\"https://www.openstatus.dev/llms.txt\">I'm an LLM</a>\n<a href=\"/terms\">Terms</a>\n<a href=\"/privacy\">Privacy</a>\n<a href=\"/subprocessors\">Subprocessors</a>\n<a href=\"/cal\">Talk to the founders</a>\n<a href=\"https://status.openstatus.dev\">Unknown</a>\n<script src=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://www.openstatus.dev/status-page": {
+      "result": {
+        "url": "https://www.openstatus.dev/status-page",
+        "status": 200,
+        "headers": [
+          ["age", "1449"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'self' https://shoogle.dev"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 17:37:20 GMT"],
+          ["etag", "W/\"12793b7twxcc8ba\""],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-matched-path", "/status-page"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "300"],
+          ["x-powered-by", "Next.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::iad1::2f4c9-1791136889964-68ed93aa21ec"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CalSans_SemiBold-s.p.36fsdtbhywrvd.ttf\" as=\"font\" crossorigin=\"\" type=\"font/ttf\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CommitMono_400_Italic-s.p.0rnuo2147qah4.otf\" as=\"font\" crossorigin=\"\" type=\"font/otf\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CommitMono_400_Regular-s.p.1ot3n3tzfq2ho.otf\" as=\"font\" crossorigin=\"\" type=\"font/otf\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CommitMono_700_Italic-s.p.1fmtesxsx53ei.otf\" as=\"font\" crossorigin=\"\" type=\"font/otf\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CommitMono_700_Regular-s.p.3hmpgs9gaxjfp.otf\" as=\"font\" crossorigin=\"\" type=\"font/otf\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/0_wq-2it4yz47.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/06zmwojntcyfm.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\">\n<script src=\"/_next/static/immutable/chunks/0x7-9enqj2qcz.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/20jzicxwpuct1.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0uip4ubi3oglq.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1tartf52-8waj.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-06l7euoutawmf.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2ybi--ayzz0do.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1i-izroq1y3hw.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3a0pupzs6dfyv.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1f08cuv5do--v.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0zwq3g6p8h9sx.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2tjdhv3r30exv.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2eq-gochds99-.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/38hjw8yy8zr90.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2s6pnnfb23h98.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1pg4x90k2fckj.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1vt4qpqujenih.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1kos0kgegfnsr.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/15ibr1pbpeo0s.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3xohcer_3_xfd.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1_9lw27ls0pkp.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://plausible.io/js/script.js\" as=\"script\">\n<link rel=\"preload\" href=\"https://openpanel.dev/op1.js?v=1.5.1\" as=\"script\">\n<link rel=\"preload\" href=\"https://ui.sh/ui-picker.js\" as=\"script\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"description\" content=\"Create a free status page on your own domain in minutes. Open source, public or private, with subscribers, maintenance windows and a Slack agent.\">\n<link rel=\"canonical\" href=\"https://www.openstatus.dev/status-page\">\n<meta property=\"og:title\" content=\"Free Status Page — Open Source, Custom Domain, Private\">\n<meta property=\"og:description\" content=\"Create a free status page on your own domain in minutes. Open source, public or private, with subscribers, maintenance windows and a Slack agent.\">\n<meta property=\"og:url\" content=\"https://www.openstatus.dev/status-page\">\n<meta property=\"og:image\" content=\"https://www.openstatus.dev/api/og?title=Free+Status+Page+%E2%80%94+Open+Source%2C+Custom+Domain%2C+Private&amp;description=Create+a+free+status+page+on+your+own+domain+in+minutes.+Open+source%2C+public+or+private%2C+with+subscribers%2C+maintenance+windows+and+a+Slack+agent.&amp;category=Product\">\n<meta property=\"og:type\" content=\"article\">\n<meta property=\"article:published_time\" content=\"2025-11-10T00:00:00.000Z\">\n<meta property=\"article:modified_time\" content=\"2026-09-26T00:00:00.000Z\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Free Status Page — Open Source, Custom Domain, Private\">\n<meta name=\"twitter:description\" content=\"Create a free status page on your own domain in minutes. Open source, public or private, with subscribers, maintenance windows and a Slack agent.\">\n<meta name=\"twitter:image\" content=\"https://www.openstatus.dev/api/og?title=Free+Status+Page+%E2%80%94+Open+Source%2C+Custom+Domain%2C+Private&amp;description=Create+a+free+status+page+on+your+own+domain+in+minutes.+Open+source%2C+public+or+private%2C+with+subscribers%2C+maintenance+windows+and+a+Slack+agent.&amp;category=Product\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.07a7nheflmzmw.ico\" sizes=\"31x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.png?icon.0ql4z1tq5lt1f.png\" sizes=\"478x494\" type=\"image/png\">\n<meta name=\"sentry-trace\" content=\"993272cd08d1453b8c915254895904f6-a8767683917810f5-0\">\n<meta name=\"baggage\" content=\"sentry-environment=vercel-production,sentry-release=23bac2532b0ed4f37634764ad95928e9c1428a7a,sentry-public_key=f20616b5573f2a39dab718d99c8d9e38,sentry-trace_id=993272cd08d1453b8c915254895904f6,sentry-org_id=4505782661349376,sentry-sampled=false,sentry-sample_rand=0.5273406348164008,sentry-sample_rate=0.2\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"/\">openstatus[right click]</a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"https://app.openstatus.dev/login\">Dashboard</a>\n<a href=\"https://app.openstatus.dev/?ref=status-page-hero\">Create your status page</a>\n<a href=\"https://themes.openstatus.dev\">Theme explorer</a>\n<a href=\"#trusted-by-teams-who-ship-transparency\"></a>\n<a href=\"https://status.cal.com\"></a>\n<a href=\"/customers/twenty\"></a>\n<a href=\"https://status.documenso.com\"></a>\n<a href=\"/customers/traefik\"></a>\n<a href=\"https://passboltuptime.com\"></a>\n<a href=\"https://status.hanko.io\"></a>\n<a href=\"https://status.whitebit.com\"></a>\n<a href=\"https://status.superwall.com\"></a>\n<a href=\"https://status.openpanel.dev\"></a>\n<a href=\"https://probostatus.com\"></a>\n<a href=\"https://roundtable.eu\"></a>\n<a href=\"https://status.smplrspace.com\"></a>\n<a href=\"#why-you-need-one\"></a>\n<a href=\"/use-case/reduce-support-tickets\">reducing support tickets</a>\n<a href=\"/use-case/enterprise-sales\">status pages for enterprise sales</a>\n<a href=\"/use-case/compliance\">status pages for compliance</a>\n<a href=\"#components-groups-and-external-services\"></a>\n<a href=\"/docs/reference/page-components\">Page components reference</a>\n<a href=\"/docs/reference/status-page\">Status page reference</a>\n<a href=\"#subscriptions\"></a>\n<a href=\"/docs/reference/subscriber\">All subscription methods</a>\n<a href=\"/guides/slack-status-page-subscriptions\">Slack Connect updates</a>\n<a href=\"#translations\"></a>\n<a href=\"/docs/guides/how-to-translate-status-page\">Translate your status page</a>\n<a href=\"#slack-agent\"></a>\n<a href=\"/docs/guides/how-to-setup-slack-agent\">Set up the Slack agent</a>\n<a href=\"#branded-on-your-domain\"></a>\n<a href=\"https://themes.openstatus.dev\">Theme Store</a>\n<a href=\"/docs/reference/status-page#custom-theme\">Custom theme variables</a>\n<a href=\"#internal-and-private-pages\"></a>\n<a href=\"/docs/reference/status-page#password-basic-auth\">Password, magic link and IP restriction</a>\n<a href=\"/use-case/enterprise-sales\">Status pages for enterprise sales</a>\n<a href=\"#maintenance-windows\"></a>\n<a href=\"/docs/reference/maintenance\">Maintenance reference</a>\n<a href=\"#import-from-another-provider\"></a>\n<a href=\"/docs/guides/how-to-import-status-page\">Import guide</a>\n<a href=\"#for-terminals-and-agents\"></a>\n<a href=\"/docs/reference/status-page#ssh-command\">SSH command</a>\n<a href=\"/registry\">Shadcn component registry</a>\n<a href=\"#get-started\"></a>\n<a href=\"https://app.openstatus.dev/?ref=status-page-bottom\">Create your status page</a>\n<a href=\"#frequently-asked-questions\"></a>\n<a href=\"/status-page\">Status Page</a>\n<a href=\"/uptime-monitoring\">Uptime Monitoring</a>\n<a href=\"/tooling/api\">API</a>\n<a href=\"/tooling/cli\">CLI</a>\n<a href=\"/tooling/mcp-server\">MCP Server</a>\n<a href=\"/tooling/terraform\">Terraform</a>\n<a href=\"/blog\">Blog</a>\n<a href=\"/customers\">Customers</a>\n<a href=\"/docs\">Docs</a>\n<a href=\"/guides\">Guides</a>\n<a href=\"/status\">External Status</a>\n<a href=\"/oss-friends\">OSS Friends</a>\n<a href=\"/compare/betterstack\">BetterStack vs openstatus</a>\n<a href=\"/compare/checkly\">Checkly vs openstatus</a>\n<a href=\"/compare/datadog\">Datadog Synthetics vs openstatus</a>\n<a href=\"/compare/incidentio\">Incident.io vs openstatus</a>\n<a href=\"/compare/statusio\">Status.io vs openstatus</a>\n<a href=\"/compare/uptime-robot\">UptimeRobot vs openstatus</a>\n<a href=\"/use-case/agent\">Status Page for AI Agent</a>\n<a href=\"/use-case/startups\">Status Pages for Startups</a>\n<a href=\"/use-case/enterprise-sales\">Status Pages for Enterprise Sales</a>\n<a href=\"/use-case/reduce-support-tickets\">Status Pages for Reducing Support Tickets</a>\n<a href=\"/use-case/api-providers\">Status Pages for API Infrastructure</a>\n<a href=\"/use-case/compliance\">SOC 2-Ready Status Page in 2 Minutes</a>\n<a href=\"/blog/logs-view-filters-two-years-one-day\">Logs View: Two years in the making, one day of migration</a>\n<a href=\"/blog/introducing-openstatus-health\">Introducing @openstatus/health: health endpoints that say which dependency is down</a>\n<a href=\"/blog/self-hosting-openstatus\">Self-hosting openstatus: The Hurdles Then, the Experience Now</a>\n<a href=\"/blog/your-customer-found-out-first\">Your Monitoring Is Green. Your Customer Found Out First.</a>\n<a href=\"/blog/status-page-markdown-for-agents\">Tokenminning: a status page your agents can actually read</a>\n<a href=\"/blog/agent-webhook\">How we built an agent webhook for our status pages</a>\n<a href=\"/play/checker\">Global Speed Checker</a>\n<a href=\"/play/curl\">cURL Builder</a>\n<a href=\"/play/mcp-health\">MCP Server Health Check</a>\n<a href=\"/play/uptime-sla\">SLA Calculator</a>\n<a href=\"/registry\">Shadcn Component Registry</a>\n<a href=\"/health\">Health Endpoints</a>\n<a href=\"https://themes.openstatus.dev\">Theme Explorer</a>\n<a href=\"https://openstat.us\">All Status Codes</a>\n<a href=\"https://openstatus.dev/discord\">Discord</a>\n<a href=\"https://openstatus.dev/github\">GitHub</a>\n<a href=\"https://openstatus.dev/twitter\">Twitter</a>\n<a href=\"https://openstatus.dev/bsky\">BlueSky</a>\n<a href=\"https://openstatus.dev/youtube\">YouTube</a>\n<a href=\"https://openstatus.dev/linkedin\">LinkedIn</a>\n<a href=\"/about\">About</a>\n<a href=\"/changelog\">Changelog</a>\n<a href=\"https://www.openstatus.dev/llms.txt\">I'm an LLM</a>\n<a href=\"/terms\">Terms</a>\n<a href=\"/privacy\">Privacy</a>\n<a href=\"/subprocessors\">Subprocessors</a>\n<a href=\"/cal\">Talk to the founders</a>\n<a href=\"https://status.openstatus.dev\">Unknown</a>\n<script src=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://www.openstatus.dev/docs/reference/notification": {
+      "result": {
+        "url": "https://www.openstatus.dev/docs/reference/notification",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "203019"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline"],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'self' https://shoogle.dev"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
+          ["etag", "W/\"a4f5469e4f1c1c2ab2e3b248d90f763c\""],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-matched-path", "/docs/reference/notification"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "300"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::s2x4v-1791136889918-1fd9bbff8e31"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CalSans_SemiBold-s.p.36fsdtbhywrvd.ttf\" as=\"font\" crossorigin=\"\" type=\"font/ttf\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CommitMono_400_Italic-s.p.0rnuo2147qah4.otf\" as=\"font\" crossorigin=\"\" type=\"font/otf\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CommitMono_400_Regular-s.p.1ot3n3tzfq2ho.otf\" as=\"font\" crossorigin=\"\" type=\"font/otf\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CommitMono_700_Italic-s.p.1fmtesxsx53ei.otf\" as=\"font\" crossorigin=\"\" type=\"font/otf\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CommitMono_700_Regular-s.p.3hmpgs9gaxjfp.otf\" as=\"font\" crossorigin=\"\" type=\"font/otf\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/0_wq-2it4yz47.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/06zmwojntcyfm.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\">\n<script src=\"/_next/static/immutable/chunks/0x7-9enqj2qcz.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/20jzicxwpuct1.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0uip4ubi3oglq.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1tartf52-8waj.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-06l7euoutawmf.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2ybi--ayzz0do.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1i-izroq1y3hw.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3a0pupzs6dfyv.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1f08cuv5do--v.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3_p07tj5k8wqf.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1pg4x90k2fckj.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2tjdhv3r30exv.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/38hjw8yy8zr90.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3_2c4whqlpoyu.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2s6pnnfb23h98.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0zwq3g6p8h9sx.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3xohcer_3_xfd.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/15ibr1pbpeo0s.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1kos0kgegfnsr.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3yy7on75ywmz4.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1jwbijbnhcch1.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3rwfp4akx-0-h.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3hvloecrhub74.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1_9lw27ls0pkp.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://plausible.io/js/script.js\" as=\"script\">\n<link rel=\"preload\" href=\"https://openpanel.dev/op1.js?v=1.5.1\" as=\"script\">\n<link rel=\"preload\" href=\"https://ui.sh/ui-picker.js\" as=\"script\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"description\" content=\"Technical specification for openstatus notification channels and alert payloads.\">\n<link rel=\"canonical\" href=\"https://www.openstatus.dev/docs/reference/notification\">\n<meta property=\"og:title\" content=\"Notification Channels Reference\">\n<meta property=\"og:description\" content=\"Technical specification for openstatus notification channels and alert payloads.\">\n<meta property=\"og:url\" content=\"https://www.openstatus.dev/docs/reference/notification\">\n<meta property=\"og:image\" content=\"https://www.openstatus.dev/api/og?title=Notification+Channels+Reference&amp;description=Technical+specification+for+openstatus+notification+channels+and+alert+payloads.&amp;category=Reference\">\n<meta property=\"og:type\" content=\"article\">\n<meta property=\"article:published_time\" content=\"2026-10-02T09:12:20.366Z\">\n<meta property=\"article:modified_time\" content=\"2026-10-02T09:12:20.366Z\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Notification Channels Reference\">\n<meta name=\"twitter:description\" content=\"Technical specification for openstatus notification channels and alert payloads.\">\n<meta name=\"twitter:image\" content=\"https://www.openstatus.dev/api/og?title=Notification+Channels+Reference&amp;description=Technical+specification+for+openstatus+notification+channels+and+alert+payloads.&amp;category=Reference\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.07a7nheflmzmw.ico\" sizes=\"31x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.png?icon.0ql4z1tq5lt1f.png\" sizes=\"478x494\" type=\"image/png\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"/\">openstatus[right click]</a>\n<a href=\"https://app.openstatus.dev/login\">Dashboard</a>\n<a href=\"/docs/concept/getting-started\">Overview</a>\n<a href=\"/docs/concept/uptime-monitoring\">Understanding Uptime Monitoring</a>\n<a href=\"/docs/concept/probes-and-locations\">Probes, Locations, and Regions</a>\n<a href=\"/docs/concept/private-locations\">Understanding Private Locations</a>\n<a href=\"/docs/concept/status-reports-and-incidents\">Understanding Status Reports and Incidents</a>\n<a href=\"/docs/concept/best-practices-status-page\">Building Trust with Status Pages</a>\n<a href=\"/docs/concept/uptime-calculation-and-values\">Uptime Calculation and Shared Values</a>\n<a href=\"/docs/concept/uptime-monitoring-as-code\">Understanding Monitoring as Code</a>\n<a href=\"/docs/concept/latency-vs-response-time\">Understanding Latency vs Response Time</a>\n<a href=\"/docs/concept/response-logs-and-retention\">Response Logs and Data Retention</a>\n<a href=\"/docs/tutorial/getting-started\">Overview</a>\n<a href=\"/docs/tutorial/create-your-first-monitor\">Create an Uptime Monitor</a>\n<a href=\"/docs/tutorial/your-first-notification\">Wire Up Your First Notification</a>\n<a href=\"/docs/tutorial/create-your-first-status-page\">Create a Status Page</a>\n<a href=\"/docs/tutorial/your-first-status-report\">Publish Your First Status Report</a>\n<a href=\"/docs/tutorial/get-started-with-openstatus-cli\">Get Started with openstatus CLI</a>\n<a href=\"/docs/tutorial/manage-status-reports-cli\">Manage Status Reports from the CLI</a>\n<a href=\"/docs/guides/getting-started\">Overview</a>\n<a href=\"/docs/guides/how-to-configure-status-page\">How to Configure Your Status Page</a>\n<a href=\"/docs/guides/how-to-create-status-page-theme\">How to Create Your Own Status Page Theme</a>\n<a href=\"/docs/guides/how-to-import-status-page\">How to Import a Status Page from Another Provider</a>\n<a href=\"/docs/guides/how-to-translate-status-page\">How to translate your status page</a>\n<a href=\"/docs/guides/how-to-embed-status-page-iframe\">How to Embed a Status Page in an Iframe</a>\n<a href=\"/docs/guides/how-to-add-svg-status-badge\">How to Add a Status Badge to a GitHub README</a>\n<a href=\"/docs/guides/how-to-use-react-widget\">How to Use openstatus React Widget</a>\n<a href=\"/docs/guides/how-to-monitor-mcp-server\">How to Monitor an MCP Server</a>\n<a href=\"/docs/guides/how-to-run-synthetic-test-github-action\">How to Run Synthetic Tests in GitHub Actions</a>\n<a href=\"/docs/guides/how-to-export-metrics-to-otlp-endpoint\">How to Export Metrics to an OTLP Endpoint</a>\n<a href=\"/docs/guides/how-to-setup-slack-agent\">How to Set Up the openstatus Slack Agent</a>\n<a href=\"/docs/guides/how-to-deploy-statuspage-socials-notifier\">How to Auto-Post Status Updates to X and Bluesky</a>\n<a href=\"/docs/guides/how-to-connect-openstatus-to-your-agent\">How to Connect openstatus to Your Coding Agent</a>\n<a href=\"/docs/guides/how-to-manage-openstatus-with-terraform\">How to Manage Your openstatus Stack with Terraform</a>\n<a href=\"/docs/guides/how-to-create-private-location\">How to Create a Private Location</a>\n<a href=\"/docs/guides/how-to-deploy-probes-cloudflare-containers\">How to Deploy a Private Probe on Cloudflare Containers</a>\n<a href=\"/docs/guides/how-to-set-up-saml-sso\">How to Set Up SAML Single Sign-On</a>\n<a href=\"/docs/guides/self-hosting-openstatus\">How to Self-Host openstatus</a>\n<a href=\"/docs/guides/self-host-status-page-only\">Self-Host the openstatus Status Page (Lightweight)</a>\n<a href=\"/docs/guides/how-deploy-status-page-cf-pages\">How to Deploy a Status Page to Cloudflare Pages</a>\n<a href=\"/docs/sdk/nodejs/overview\">Overview</a>\n<a href=\"/docs/sdk/nodejs/getting-started\">Getting Started</a>\n<a href=\"/docs/sdk/nodejs/authentication\">Authentication</a>\n<a href=\"/docs/sdk/nodejs/monitor-service\">Monitor Service</a>\n<a href=\"/docs/sdk/nodejs/status-page-service\">Status Page Service</a>\n<a href=\"/docs/sdk/nodejs/status-report-service\">Status Report Service</a>\n<a href=\"/docs/sdk/nodejs/maintenance-service\">Maintenance Service</a>\n<a href=\"/docs/sdk/nodejs/notification-service\">Notification Service</a>\n<a href=\"/docs/sdk/nodejs/private-location-service\">Private Location Service</a>\n<a href=\"/docs/sdk/nodejs/health-service\">Health Service</a>\n<a href=\"/docs/sdk/nodejs/error-handling\">Error Handling</a>\n<a href=\"/docs/sdk/nodejs/typescript-tips\">TypeScript Tips</a>\n<a href=\"/docs/sdk/nodejs/reference\">Reference</a>\n<a href=\"/docs/sdk/php/overview\">PHP SDK</a>\n<a href=\"/docs/sdk/python/overview\">Python SDK</a>\n<a href=\"/docs/reference/overview\">Overview</a>\n<a href=\"https://api.openstatus.dev/v1\">API Reference V1 - Deprecated</a>\n<a href=\"https://api.openstatus.dev/openapi\">API Reference V2</a>\n<a href=\"/docs/reference/api-rate-limits\">API Rate Limits</a>\n<a href=\"/docs/reference/cli-reference\">CLI Reference</a>\n<a href=\"/docs/reference/mcp-server\">MCP Server</a>\n<a href=\"/docs/reference/dns-monitor\">DNS Monitor Reference</a>\n<a href=\"/docs/reference/grpc-monitor\">gRPC Monitor Reference</a>\n<a href=\"/docs/reference/http-monitor\">HTTP Monitor Reference</a>\n<a href=\"/docs/reference/icmp-monitor\">ICMP Monitor Reference</a>\n<a href=\"/docs/reference/tcp-monitor\">TCP Monitor Reference</a>\n<a href=\"/docs/reference/notification\">Notification Channels Reference</a>\n<a href=\"/docs/reference/incident\">Incident Reference</a>\n<a href=\"/docs/reference/location\">Location Reference</a>\n<a href=\"/docs/reference/private-location\">Private Location Reference</a>\n<a href=\"/docs/reference/status-page\">Status Page Reference</a>\n<a href=\"/docs/reference/page-components\">Page Components Reference</a>\n<a href=\"/docs/reference/status-report\">Status Report Reference</a>\n<a href=\"/docs/reference/maintenance\">Maintenance Reference</a>\n<a href=\"/docs/reference/subscriber\">Subscriber Reference</a>\n<a href=\"/docs/reference/terraform\">Terraform Provider Reference</a>\n<a href=\"/docs/help/support\">Need help?</a>\n<a href=\"/docs\">docs</a>\n<a href=\"/docs/reference\">reference</a>\n<a href=\"#notification-channels\"></a>\n<a href=\"#slack\"></a>\n<a href=\"https://api.slack.com/incoming-webhooks\">Slack incoming webhook URL</a>\n<a href=\"https://www.openstatus.dev/assets/logos/openstatus.jpeg\">download the openstatus logo</a>\n<a href=\"#email\"></a>\n<a href=\"#discord\"></a>\n<a href=\"https://support.discord.com/hc/en-us/articles/228383668\">Discord webhook URL</a>\n<a href=\"#grafana-oncall-irm\"></a>\n<a href=\"https://grafana.com/docs/grafana-cloud/alerting-and-irm/irm/configure/integrations/webhooks/incoming-webhooks/oncall-webhooks/\">Grafana OnCall IRM webhook URL</a>\n<a href=\"#google-chat\"></a>\n<a href=\"https://developers.google.com/workspace/chat/quickstart/webhooks\">Google Chat webhook URL</a>\n<a href=\"#microsoft-teams\"></a>\n<a href=\"#whatsapp\"></a>\n<a href=\"#telegram\"></a>\n<a href=\"#webhook\"></a>\n<a href=\"#notification-payload\"></a>\n<a href=\"#authentication\"></a>\n<a href=\"#zod-schema\"></a>\n<a href=\"#opsgenie\"></a>\n<a href=\"#pagerduty\"></a>\n<a href=\"#ntfy\"></a>\n<a href=\"#related-resources\"></a>\n<a href=\"/docs/reference/incident\">Incident reference</a>\n<a href=\"https://github.com/openstatusHQ/openstatus/edit/main/apps/web/src/content/pages/docs/reference/notification.mdx\">Edit this page on GitHub</a>\n<a href=\"/docs/reference/tcp-monitor\">PreviousTCP Monitor Reference</a>\n<a href=\"/docs/reference/incident\">NextIncident Reference</a>\n<a href=\"#notification-channels\">Notification channels</a>\n<a href=\"#slack\">Slack</a>\n<a href=\"#email\">Email</a>\n<a href=\"#discord\">Discord</a>\n<a href=\"#grafana-oncall-irm\">Grafana OnCall IRM</a>\n<a href=\"#google-chat\">Google Chat</a>\n<a href=\"#microsoft-teams\">Microsoft Teams</a>\n<a href=\"#whatsapp\">WhatsApp</a>\n<a href=\"#telegram\">Telegram</a>\n<a href=\"#webhook\">Webhook</a>\n<a href=\"#opsgenie\">OpsGenie</a>\n<a href=\"#pagerduty\">PagerDuty</a>\n<a href=\"#ntfy\">Ntfy</a>\n<a href=\"#related-resources\">Related resources</a>\n<a href=\"/cal\">Talk to the founders</a>\n<a href=\"https://status.openstatus.dev\">Unknown</a>\n<script src=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://app.openstatus.dev/login": {
+      "result": {
+        "url": "https://app.openstatus.dev/login",
+        "status": 200,
+        "headers": [
+          ["age", "0"],
+          ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
+          [
+            "link",
+            "</_next/static/immutable/media/797e433ab948586e-s.p.1v5bejj26fx9h.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/CalSans_SemiBold-s.p.36fsdtbhywrvd.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/CommitMono_400_Italic-s.p.0rnuo2147qah4.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/CommitMono_400_Regular-s.p.1ot3n3tzfq2ho.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/CommitMono_700_Italic-s.p.1fmtesxsx53ei.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/CommitMono_700_Regular-s.p.3hmpgs9gaxjfp.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/caa3a2e1cccd8315-s.p.0zr6hhvz-h9nw.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/chunks/1i-bbnm5x8lh1.css>; rel=preload; as=\"style\", </_next/static/immutable/chunks/1us3o-lvuln9k.css>; rel=preload; as=\"style\""
+          ],
+          ["server", "Vercel"],
+          ["set-cookie", "x-currency=<redacted>"],
+          ["set-cookie", "__Host-authjs.csrf-token=<redacted>"],
+          ["set-cookie", "__Secure-authjs.callback-url=<redacted>"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-matched-path", "/login"],
+          ["x-powered-by", "Next.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::fra1::pm5t7-1791136889960-455febdaad6d"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1i-bbnm5x8lh1.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1us3o-lvuln9k.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\">\n<script src=\"/_next/static/immutable/chunks/0t4g-i01yicww.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1wqtnon_j9c7o.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/11ya_humdx8by.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0n2erjj27forr.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-44pb8iy-7j269.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3t5ektktyf_ua.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2jtvkbzpybwau.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1sjw87h_3x02k.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/310_fuk16lic7.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3cv4-9my0ljsm.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3ape1_41zr_ls.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0gk-nefv03l8a.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1iyyl61n45hds.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://openpanel.dev/op1.js?v=1.5.1\" as=\"script\">\n<meta name=\"description\" content=\"Sign in to openstatus. Monitor your services and keep your users informed.\">\n<meta name=\"robots\" content=\"index, follow\">\n<link rel=\"canonical\" href=\"https://app.openstatus.dev/login\">\n<meta property=\"og:title\" content=\"openstatus\">\n<meta property=\"og:description\" content=\"Open-source platform to monitor your services and keep your users informed.\">\n<meta property=\"og:image\" content=\"https://www.openstatus.dev/api/og?title=openstatus&amp;description=Monitor%20your%20services%20and%20keep%20your%20users%20informed.&amp;footer=app.openstatus.dev&amp;image=assets/og/dashboard-v2.png\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"openstatus\">\n<meta name=\"twitter:description\" content=\"Open-source platform to monitor your services and keep your users informed.\">\n<meta name=\"twitter:image\" content=\"https://www.openstatus.dev/api/og?title=openstatus&amp;description=Monitor%20your%20services%20and%20keep%20your%20users%20informed.&amp;footer=app.openstatus.dev&amp;image=assets/og/dashboard-v2.png\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.07a7nheflmzmw.ico\" sizes=\"31x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.svg?icon.14mkonrt_abs6.svg\" sizes=\"any\" type=\"image/svg+xml\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"sentry-trace\" content=\"adecaac7f35f454e842fcfe108c879b0-83dc23af6132f9b3-0\">\n<meta name=\"baggage\" content=\"sentry-environment=vercel-production,sentry-release=25b3d65fbb7276d01ae069393fdd4d764c1468d9,sentry-public_key=f20616b5573f2a39dab718d99c8d9e38,sentry-trace_id=adecaac7f35f454e842fcfe108c879b0,sentry-org_id=4505782661349376,sentry-sampled=false,sentry-sample_rand=0.9141855077504437,sentry-sample_rate=0.2\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"https://openstatus.dev\">openstatus</a>\n<a href=\"https://www.openstatus.dev/docs\">Documentation</a>\n<a href=\"https://openstatus.dev/legal/terms\">Terms of Service</a>\n<a href=\"https://openstatus.dev/legal/privacy\">Privacy Policy</a>\n<a href=\"https://openstatus.dev/guides/migrate-from-atlassian-statuspage\">Atlassian Statuspage</a>\n<a href=\"https://openstatus.dev/guides/migrate-from-betterstack\">Betterstack</a>\n<a href=\"https://openstatus.dev/guides/migrate-from-instatus\">Instatus</a>\n<script src=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://www.openstatus.dev/compare/statusio": {
+      "result": {
+        "url": "https://www.openstatus.dev/compare/statusio",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "203528"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline"],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'self' https://shoogle.dev"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
+          ["etag", "W/\"4d39a819d3652bc2577e8a8a81f938f2\""],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-matched-path", "/compare/statusio"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "300"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::lljq9-1791136889964-f11aa4809bfb"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CalSans_SemiBold-s.p.36fsdtbhywrvd.ttf\" as=\"font\" crossorigin=\"\" type=\"font/ttf\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CommitMono_400_Italic-s.p.0rnuo2147qah4.otf\" as=\"font\" crossorigin=\"\" type=\"font/otf\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CommitMono_400_Regular-s.p.1ot3n3tzfq2ho.otf\" as=\"font\" crossorigin=\"\" type=\"font/otf\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CommitMono_700_Italic-s.p.1fmtesxsx53ei.otf\" as=\"font\" crossorigin=\"\" type=\"font/otf\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/CommitMono_700_Regular-s.p.3hmpgs9gaxjfp.otf\" as=\"font\" crossorigin=\"\" type=\"font/otf\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/0_wq-2it4yz47.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/06zmwojntcyfm.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\">\n<script src=\"/_next/static/immutable/chunks/0x7-9enqj2qcz.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/20jzicxwpuct1.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0uip4ubi3oglq.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1tartf52-8waj.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-06l7euoutawmf.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2ybi--ayzz0do.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1i-izroq1y3hw.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3a0pupzs6dfyv.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1f08cuv5do--v.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0zwq3g6p8h9sx.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2tjdhv3r30exv.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2eq-gochds99-.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/38hjw8yy8zr90.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2s6pnnfb23h98.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1pg4x90k2fckj.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1vt4qpqujenih.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1kos0kgegfnsr.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/15ibr1pbpeo0s.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3xohcer_3_xfd.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1_9lw27ls0pkp.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://plausible.io/js/script.js\" as=\"script\">\n<link rel=\"preload\" href=\"https://openpanel.dev/op1.js?v=1.5.1\" as=\"script\">\n<link rel=\"preload\" href=\"https://ui.sh/ui-picker.js\" as=\"script\">\n<meta name=\"description\" content=\"Looking for a Status.io alternative with built-in monitoring? openstatus includes 28-region uptime checks, starts at $30/mo with unlimited team members, and is open source and self-hostable.\">\n<link rel=\"canonical\" href=\"https://www.openstatus.dev/compare/statusio\">\n<meta property=\"og:title\" content=\"Status.io vs openstatus\">\n<meta property=\"og:description\" content=\"Looking for a Status.io alternative with built-in monitoring? openstatus includes 28-region uptime checks, starts at $30/mo with unlimited team members, and is open source and self-hostable.\">\n<meta property=\"og:url\" content=\"https://www.openstatus.dev/compare/statusio\">\n<meta property=\"og:image\" content=\"https://www.openstatus.dev/api/og?title=Status.io+vs+openstatus&amp;description=Looking+for+a+Status.io+alternative+with+built-in+monitoring%3F+openstatus+includes+28-region+uptime+checks%2C+starts+at+%2430%2Fmo+with+unlimited+team+members%2C+and+is+open+source+and+self-hostable.&amp;category=company\">\n<meta property=\"og:type\" content=\"article\">\n<meta property=\"article:published_time\" content=\"2026-02-21T00:00:00.000Z\">\n<meta property=\"article:modified_time\" content=\"2026-08-26T00:00:00.000Z\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Status.io vs openstatus\">\n<meta name=\"twitter:description\" content=\"Looking for a Status.io alternative with built-in monitoring? openstatus includes 28-region uptime checks, starts at $30/mo with unlimited team members, and is open source and self-hostable.\">\n<meta name=\"twitter:image\" content=\"https://www.openstatus.dev/api/og?title=Status.io+vs+openstatus&amp;description=Looking+for+a+Status.io+alternative+with+built-in+monitoring%3F+openstatus+includes+28-region+uptime+checks%2C+starts+at+%2430%2Fmo+with+unlimited+team+members%2C+and+is+open+source+and+self-hostable.&amp;category=company\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.07a7nheflmzmw.ico\" sizes=\"31x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.png?icon.0ql4z1tq5lt1f.png\" sizes=\"478x494\" type=\"image/png\">\n<meta name=\"next-size-adjust\" content=\"\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"/\">openstatus[right click]</a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"https://app.openstatus.dev/login\">Dashboard</a>\n<a href=\"/compare\">compare</a>\n<a href=\"#looking-for-a-statusio-alternative\"></a>\n<a href=\"#feature-comparison\"></a>\n<a href=\"#pricing-comparison\"></a>\n<a href=\"#when-to-choose-openstatus\"></a>\n<a href=\"#when-to-choose-statusio\"></a>\n<a href=\"#switching-from-statusio-to-openstatus\"></a>\n<a href=\"#related-resources\"></a>\n<a href=\"/status-page\">Status page</a>\n<a href=\"/uptime-monitoring\">Uptime monitoring</a>\n<a href=\"/guides/top-five-atlassian-statuspage-alternatives\">Top 5 Atlassian Statuspage Alternatives</a>\n<a href=\"/guides/why-every-saas-needs-a-status-page\">Why Every SaaS Needs a Status Page</a>\n<a href=\"/use-case/enterprise-sales\">Status Pages for Enterprise Sales</a>\n<a href=\"#frequently-asked-questions\"></a>\n<a href=\"https://app.openstatus.dev?ref=compare-statusio\">Get Started Free</a>\n<a href=\"/compare/incidentio\">PreviousIncident.io vs openstatus</a>\n<a href=\"/compare/betterstack\">NextBetterStack vs openstatus</a>\n<a href=\"/status-page\">Status Page</a>\n<a href=\"/uptime-monitoring\">Uptime Monitoring</a>\n<a href=\"/tooling/api\">API</a>\n<a href=\"/tooling/cli\">CLI</a>\n<a href=\"/tooling/mcp-server\">MCP Server</a>\n<a href=\"/tooling/terraform\">Terraform</a>\n<a href=\"/blog\">Blog</a>\n<a href=\"/customers\">Customers</a>\n<a href=\"/docs\">Docs</a>\n<a href=\"/guides\">Guides</a>\n<a href=\"/status\">External Status</a>\n<a href=\"/oss-friends\">OSS Friends</a>\n<a href=\"/compare/betterstack\">BetterStack vs openstatus</a>\n<a href=\"/compare/checkly\">Checkly vs openstatus</a>\n<a href=\"/compare/datadog\">Datadog Synthetics vs openstatus</a>\n<a href=\"/compare/incidentio\">Incident.io vs openstatus</a>\n<a href=\"/compare/statusio\">Status.io vs openstatus</a>\n<a href=\"/compare/uptime-robot\">UptimeRobot vs openstatus</a>\n<a href=\"/use-case/agent\">Status Page for AI Agent</a>\n<a href=\"/use-case/startups\">Status Pages for Startups</a>\n<a href=\"/use-case/reduce-support-tickets\">Status Pages for Reducing Support Tickets</a>\n<a href=\"/use-case/api-providers\">Status Pages for API Infrastructure</a>\n<a href=\"/use-case/compliance\">SOC 2-Ready Status Page in 2 Minutes</a>\n<a href=\"/blog/logs-view-filters-two-years-one-day\">Logs View: Two years in the making, one day of migration</a>\n<a href=\"/blog/introducing-openstatus-health\">Introducing @openstatus/health: health endpoints that say which dependency is down</a>\n<a href=\"/blog/self-hosting-openstatus\">Self-hosting openstatus: The Hurdles Then, the Experience Now</a>\n<a href=\"/blog/your-customer-found-out-first\">Your Monitoring Is Green. Your Customer Found Out First.</a>\n<a href=\"/blog/status-page-markdown-for-agents\">Tokenminning: a status page your agents can actually read</a>\n<a href=\"/blog/agent-webhook\">How we built an agent webhook for our status pages</a>\n<a href=\"/play/checker\">Global Speed Checker</a>\n<a href=\"/play/curl\">cURL Builder</a>\n<a href=\"/play/mcp-health\">MCP Server Health Check</a>\n<a href=\"/play/uptime-sla\">SLA Calculator</a>\n<a href=\"/registry\">Shadcn Component Registry</a>\n<a href=\"/health\">Health Endpoints</a>\n<a href=\"https://themes.openstatus.dev\">Theme Explorer</a>\n<a href=\"https://openstat.us\">All Status Codes</a>\n<a href=\"https://openstatus.dev/discord\">Discord</a>\n<a href=\"https://openstatus.dev/github\">GitHub</a>\n<a href=\"https://openstatus.dev/twitter\">Twitter</a>\n<a href=\"https://openstatus.dev/bsky\">BlueSky</a>\n<a href=\"https://openstatus.dev/youtube\">YouTube</a>\n<a href=\"https://openstatus.dev/linkedin\">LinkedIn</a>\n<a href=\"/about\">About</a>\n<a href=\"/changelog\">Changelog</a>\n<a href=\"https://www.openstatus.dev/llms.txt\">I'm an LLM</a>\n<a href=\"/terms\">Terms</a>\n<a href=\"/privacy\">Privacy</a>\n<a href=\"/subprocessors\">Subprocessors</a>\n<a href=\"/cal\">Talk to the founders</a>\n<a href=\"https://status.openstatus.dev\">Unknown</a>\n<script src=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://status.openstatus.dev/": {
+      "result": {
+        "url": "https://status.openstatus.dev/",
+        "status": 200,
+        "headers": [
+          ["age", "0"],
+          ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    script-src 'self' 'unsafe-inline';    style-src 'self' 'unsafe-inline';    img-src *;    font-src 'self';    object-src 'none';    base-uri 'self';    form-action 'self';    frame-ancestors *;    connect-src 'self' https://*.ingest.us.sentry.io;    worker-src 'self' blob:;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
+          [
+            "link",
+            "</_next/static/immutable/media/797e433ab948586e-s.p.1v5bejj26fx9h.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/CalSans_SemiBold-s.p.36fsdtbhywrvd.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/CommitMono_400_Italic-s.p.0rnuo2147qah4.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/CommitMono_400_Regular-s.p.1ot3n3tzfq2ho.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/CommitMono_700_Italic-s.p.1fmtesxsx53ei.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/CommitMono_700_Regular-s.p.3hmpgs9gaxjfp.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/caa3a2e1cccd8315-s.p.0zr6hhvz-h9nw.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/chunks/0osdhr71_guj8.css>; rel=preload; as=\"style\", </_next/static/immutable/chunks/3f8wsu4d2k1oq.css>; rel=preload; as=\"style\""
+          ],
+          ["server", "Vercel"],
+          ["set-cookie", "__Host-authjs.csrf-token=<redacted>"],
+          ["set-cookie", "__Secure-authjs.callback-url=<redacted>"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-matched-path", "/[domain]/[locale]"],
+          ["x-powered-by", "Next.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::fra1::6mm4c-1791136889981-b87aa06bfbae"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preload\" as=\"image\" href=\"https://ywhufit3czohfser.public.blob.vercel-storage.com/favicon-5KRUI2vACIJo6fdXzRgs2l6nyXkXk8.ico\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/0osdhr71_guj8.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/3f8wsu4d2k1oq.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/08rd4sugwq_nh.js\">\n<script src=\"/_next/static/immutable/chunks/0w--p_5prh390.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1p5agm_07400c.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/25fosujpw3xqr.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0n2erjj27forr.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0rdt2b8dfoquk.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-0qb1vdo745ohy.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3ekldma78xtpv.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0535x_aiuyr3k.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2omw3cqlzq-bd.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2euw3vfohuric.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2jmvv3zpond2o.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2p17_52kutoxh.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/43fm3zf0wcf5y.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/457631bj1hg96.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0lwjrhk1ynkgq.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2mmylm7lr0fa0.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/195g_jd9dxces.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1shcgrk_kx6fu.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0dwsp0xzhwd6t.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0fnux9mmd3vf5.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0kn3axlostktd.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/02qap5onknru-.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0sgy2af7ucb1k.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3z8vmvac9ke25.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0tnqy46on3l1l.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1ekx2m-zn-w03.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3x-j-isg1sy-0.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3xeldwix81qiw.js\" async=\"\"></script>\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"description\" content=\"Our own status page 🚀\">\n<meta name=\"robots\" content=\"index, follow\">\n<link rel=\"canonical\" href=\"https://status.openstatus.dev\">\n<link rel=\"alternate\" type=\"text/markdown\" href=\"https://status.openstatus.dev/.md\">\n<link rel=\"alternate\" type=\"application/json\" href=\"https://status.openstatus.dev/api/status/summary.json\">\n<meta property=\"og:title\" content=\"Openstatus Status Page\">\n<meta property=\"og:description\" content=\"Our own status page 🚀\">\n<meta property=\"og:image\" content=\"https://www.openstatus.dev/api/og/page?slug=status\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Openstatus Status Page\">\n<meta name=\"twitter:description\" content=\"Our own status page 🚀\">\n<meta name=\"twitter:image\" content=\"https://www.openstatus.dev/api/og/page?slug=status\">\n<link rel=\"icon\" href=\"https://ywhufit3czohfser.public.blob.vercel-storage.com/favicon-5KRUI2vACIJo6fdXzRgs2l6nyXkXk8.ico\">\n<meta name=\"sentry-trace\" content=\"2c6c86f2bdd74ceb8795c4d6ce8ae2a8-871ba99e8dae916a-0\">\n<meta name=\"baggage\" content=\"sentry-environment=vercel-production,sentry-release=25b3d65fbb7276d01ae069393fdd4d764c1468d9,sentry-public_key=f20616b5573f2a39dab718d99c8d9e38,sentry-trace_id=2c6c86f2bdd74ceb8795c4d6ce8ae2a8,sentry-org_id=4505782661349376,sentry-sampled=false,sentry-sample_rand=0.6456576933522686,sentry-sample_rate=0.2\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/08rd4sugwq_nh.js\" id=\"_R_\" async=\"\"></script>\n<a href=\"https://openstatus.dev\"></a>\n<a href=\"/\">Status</a>\n<a href=\"/events\">Events</a>\n<a href=\"/monitors\">Monitors</a>\n<a href=\"mailto:ping@openstatus.dev\">Get in touch</a>\n<a href=\"/events\">View events history</a>"
+      }
+    },
+    "GET https://www.openstatus.dev/status": {
+      "result": {
+        "url": "https://www.openstatus.dev/status",
+        "status": 200,
+        "headers": [
+          ["age", "0"],
+          ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'self' https://shoogle.dev"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
+          [
+            "link",
+            "</_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/CalSans_SemiBold-s.p.36fsdtbhywrvd.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/CommitMono_400_Italic-s.p.0rnuo2147qah4.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/CommitMono_400_Regular-s.p.1ot3n3tzfq2ho.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/CommitMono_700_Italic-s.p.1fmtesxsx53ei.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/CommitMono_700_Regular-s.p.3hmpgs9gaxjfp.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/chunks/0_wq-2it4yz47.css>; rel=preload; as=\"style\", </_next/static/immutable/chunks/06zmwojntcyfm.css>; rel=preload; as=\"style\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-matched-path", "/status"],
+          ["x-powered-by", "Next.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::fra1::wbtlj-1791136889959-8374ab2f85ae"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/0_wq-2it4yz47.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/06zmwojntcyfm.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\">\n<script src=\"/_next/static/immutable/chunks/0x7-9enqj2qcz.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/20jzicxwpuct1.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0uip4ubi3oglq.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1tartf52-8waj.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-06l7euoutawmf.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2ybi--ayzz0do.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1i-izroq1y3hw.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3a0pupzs6dfyv.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1f08cuv5do--v.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0zwq3g6p8h9sx.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2tjdhv3r30exv.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2eq-gochds99-.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/38hjw8yy8zr90.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2s6pnnfb23h98.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1pg4x90k2fckj.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0s3hry8vnw28y.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1kw30en5udp27.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1_9lw27ls0pkp.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3xohcer_3_xfd.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/15ibr1pbpeo0s.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1kos0kgegfnsr.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3yy7on75ywmz4.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://plausible.io/js/script.js\" as=\"script\">\n<link rel=\"preload\" href=\"https://openpanel.dev/op1.js?v=1.5.1\" as=\"script\">\n<link rel=\"preload\" href=\"https://ui.sh/ui-picker.js\" as=\"script\">\n<meta name=\"description\" content=\"Easily check if your external providers is working properly\">\n<link rel=\"canonical\" href=\"https://www.openstatus.dev/status\">\n<meta property=\"og:title\" content=\"External Status\">\n<meta property=\"og:description\" content=\"Easily check if your external providers is working properly\">\n<meta property=\"og:image\" content=\"https://www.openstatus.dev/api/og/external-service\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"External Status\">\n<meta name=\"twitter:description\" content=\"Easily check if your external providers is working properly\">\n<meta name=\"twitter:image\" content=\"https://www.openstatus.dev/api/og/external-service\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.07a7nheflmzmw.ico\" sizes=\"31x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.png?icon.0ql4z1tq5lt1f.png\" sizes=\"478x494\" type=\"image/png\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"sentry-trace\" content=\"5df27fc98e7a498fbc38da00deea204d-aca5cbef1ae0ad24-1\">\n<meta name=\"baggage\" content=\"sentry-environment=vercel-production,sentry-release=23bac2532b0ed4f37634764ad95928e9c1428a7a,sentry-public_key=f20616b5573f2a39dab718d99c8d9e38,sentry-trace_id=5df27fc98e7a498fbc38da00deea204d,sentry-org_id=4505782661349376,sentry-transaction=GET%20%2Fstatus,sentry-sampled=true,sentry-sample_rand=0.10869827264616949,sentry-sample_rate=0.2\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"/\">openstatus[right click]</a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"https://app.openstatus.dev/login\">Dashboard</a>\n<a href=\"https://app.openstatus.dev?ref=status-index-top\">Catch downtime instantly and keep your users in the loop with OpenStatus →</a>\n<a href=\"/status-page\">hosted status page</a>\n<a href=\"https://app.openstatus.dev?ref=status-index-bottom\">Create your status page</a>\n<a href=\"/status-page\">Status Page</a>\n<a href=\"/uptime-monitoring\">Uptime Monitoring</a>\n<a href=\"/tooling/api\">API</a>\n<a href=\"/tooling/cli\">CLI</a>\n<a href=\"/tooling/mcp-server\">MCP Server</a>\n<a href=\"/tooling/terraform\">Terraform</a>\n<a href=\"/blog\">Blog</a>\n<a href=\"/customers\">Customers</a>\n<a href=\"/docs\">Docs</a>\n<a href=\"/guides\">Guides</a>\n<a href=\"/status\">External Status</a>\n<a href=\"/oss-friends\">OSS Friends</a>\n<a href=\"/compare/betterstack\">BetterStack vs openstatus</a>\n<a href=\"/compare/checkly\">Checkly vs openstatus</a>\n<a href=\"/compare/datadog\">Datadog Synthetics vs openstatus</a>\n<a href=\"/compare/incidentio\">Incident.io vs openstatus</a>\n<a href=\"/compare/statusio\">Status.io vs openstatus</a>\n<a href=\"/compare/uptime-robot\">UptimeRobot vs openstatus</a>\n<a href=\"/use-case/agent\">Status Page for AI Agent</a>\n<a href=\"/use-case/startups\">Status Pages for Startups</a>\n<a href=\"/use-case/enterprise-sales\">Status Pages for Enterprise Sales</a>\n<a href=\"/use-case/reduce-support-tickets\">Status Pages for Reducing Support Tickets</a>\n<a href=\"/use-case/api-providers\">Status Pages for API Infrastructure</a>\n<a href=\"/use-case/compliance\">SOC 2-Ready Status Page in 2 Minutes</a>\n<a href=\"/blog/logs-view-filters-two-years-one-day\">Logs View: Two years in the making, one day of migration</a>\n<a href=\"/blog/introducing-openstatus-health\">Introducing @openstatus/health: health endpoints that say which dependency is down</a>\n<a href=\"/blog/self-hosting-openstatus\">Self-hosting openstatus: The Hurdles Then, the Experience Now</a>\n<a href=\"/blog/your-customer-found-out-first\">Your Monitoring Is Green. Your Customer Found Out First.</a>\n<a href=\"/blog/status-page-markdown-for-agents\">Tokenminning: a status page your agents can actually read</a>\n<a href=\"/blog/agent-webhook\">How we built an agent webhook for our status pages</a>\n<a href=\"/play/checker\">Global Speed Checker</a>\n<a href=\"/play/curl\">cURL Builder</a>\n<a href=\"/play/mcp-health\">MCP Server Health Check</a>\n<a href=\"/play/uptime-sla\">SLA Calculator</a>\n<a href=\"/registry\">Shadcn Component Registry</a>\n<a href=\"/health\">Health Endpoints</a>\n<a href=\"https://themes.openstatus.dev\">Theme Explorer</a>\n<a href=\"https://openstat.us\">All Status Codes</a>\n<a href=\"https://openstatus.dev/discord\">Discord</a>\n<a href=\"https://openstatus.dev/github\">GitHub</a>\n<a href=\"https://openstatus.dev/twitter\">Twitter</a>\n<a href=\"https://openstatus.dev/bsky\">BlueSky</a>\n<a href=\"https://openstatus.dev/youtube\">YouTube</a>\n<a href=\"https://openstatus.dev/linkedin\">LinkedIn</a>\n<a href=\"/about\">About</a>\n<a href=\"/changelog\">Changelog</a>\n<a href=\"https://www.openstatus.dev/llms.txt\">I'm an LLM</a>\n<a href=\"/terms\">Terms</a>\n<a href=\"/privacy\">Privacy</a>\n<a href=\"/subprocessors\">Subprocessors</a>\n<a href=\"/cal\">Talk to the founders</a>\n<a href=\"https://status.openstatus.dev\">Unknown</a>\n<script src=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\" id=\"_R_\" async=\"\"></script>\n<a href=\"/status/1password\">1PasswordOperational</a>\n<a href=\"/status/airtable\">AirtableOperational</a>\n<a href=\"/status/amplitude\">AmplitudeOperational</a>\n<a href=\"/status/anthropic\">AnthropicOperational</a>\n<a href=\"/status/appsflyer\">AppsFlyerOperational</a>\n<a href=\"/status/atlassian\">AtlassianOperational</a>\n<a href=\"/status/attio\">AttioOperational</a>\n<a href=\"/status/bitbucket\">BitbucketOperational</a>\n<a href=\"/status/bitly\">BitlyOperational</a>\n<a href=\"/status/bluesky\">BlueskyOperational</a>\n<a href=\"/status/box\">BoxMinor Issue</a>\n<a href=\"/status/brex\">BrexOperational</a>\n<a href=\"/status/bubble\">BubbleOperational</a>\n<a href=\"/status/buffer\">BufferOperational</a>\n<a href=\"/status/circleci\">CircleCIOperational</a>\n<a href=\"/status/cloudflare\">CloudflareMinor Issue</a>\n<a href=\"/status/cloudflare-workers\">Cloudflare WorkersMinor Issue</a>\n<a href=\"/status/cloudinary\">CloudinaryOperational</a>\n<a href=\"/status/cloudways\">CloudwaysMinor Issue</a>\n<a href=\"/status/coda\">CodaOperational</a>\n<a href=\"/status/cohere\">CohereOperational</a>\n<a href=\"/status/coinbase\">CoinbaseOperational</a>\n<a href=\"/status/coursera\">CourseraOperational</a>\n<a href=\"/status/crowdin\">CrowdinOperational</a>\n<a href=\"/status/cursor\">CursorOperational</a>\n<a href=\"/status/datadog\">DatadogOperational</a>\n<a href=\"/status/digitalocean\">DigitalOceanOperational</a>\n<a href=\"/status/discord\">DiscordOperational</a>\n<a href=\"/status/dropbox\">DropboxOperational</a>\n<a href=\"/status/elevenlabs\">ElevenlabsOperational</a>\n<a href=\"/status/epic-games\">Epic GamesOperational</a>\n<a href=\"/status/etsy\">EtsyOperational</a>\n<a href=\"/status/figma\">FigmaOperational</a>\n<a href=\"/status/fivetran\">FivetranUnknown</a>\n<a href=\"/status/github\">GitHubOperational</a>\n<a href=\"/status/grammarly\">GrammarlyOperational</a>\n<a href=\"/status/granola\">GranolaOperational</a>\n<a href=\"/status/greenhouse\">GreenhouseOperational</a>\n<a href=\"/status/groq\">GroqOperational</a>\n<a href=\"/status/hashicorp\">HashicorpOperational</a>\n<a href=\"/status/hostinger\">HostingerOperational</a>\n<a href=\"/status/hubspot\">HubSpotOperational</a>\n<a href=\"/status/incident-io\">Incident.ioOperational</a>\n<a href=\"/status/intercom\">IntercomOperational</a>\n<a href=\"/status/jamf\">JamfOperational</a>\n<a href=\"/status/kinsta\">KinstaOperational</a>\n<a href=\"/status/lastpass\">LastPassUnknown</a>\n<a href=\"/status/launchdarkly\">LaunchDarklyOperational</a>\n<a href=\"/status/lever\">LeverOperational</a>\n<a href=\"/status/linear\">LinearOperational</a>\n<a href=\"/status/linode\">LinodeOperational</a>\n<a href=\"/status/liveblocks\">LiveblocksOperational</a>\n<a href=\"/status/liveramp\">LiverampOperational</a>\n<a href=\"/status/loom\">LoomOperational</a>\n<a href=\"/status/loops\">LoopsOperational</a>\n<a href=\"/status/lovable\">LovableOperational</a>\n<a href=\"/status/mezmo\">MezmoOperational</a>\n<a href=\"/status/mintlify\">MintlifyOperational</a>\n<a href=\"/status/miro\">MiroOperational</a>\n<a href=\"/status/mixpanel\">MixpanelOperational</a>\n<a href=\"/status/modal\">ModalOperational</a>\n<a href=\"/status/monday\">MondayOperational</a>\n<a href=\"/status/mongodb-atlas\">MongoDB AtlasOperational</a>\n<a href=\"/status/motorly\">MotorlyOperational</a>\n<a href=\"/status/mux\">MuxOperational</a>\n<a href=\"/status/netlify\">NetlifyOperational</a>\n<a href=\"/status/npm\">npmOperational</a>\n<a href=\"/status/onesignal\">OnesignalOperational</a>\n<a href=\"/status/openai\">OpenAIOperational</a>\n<a href=\"/status/pinecone\">PineconeOperational</a>\n<a href=\"/status/planetscale\">PlanetscaleOperational</a>\n<a href=\"/status/pleo\">PleoOperational</a>\n<a href=\"/status/posthog\">PosthogUnknown</a>\n<a href=\"/status/postman\">PostmanOperational</a>\n<a href=\"/status/ramp-to-ride\">Ramp-to-rideOperational</a>\n<a href=\"/status/rampagecloud\">RampagecloudMaintenance</a>\n<a href=\"/status/rdstation\">RdstationOperational</a>\n<a href=\"/status/reddit\">RedditOperational</a>\n<a href=\"/status/render\">RenderOperational</a>\n<a href=\"/status/replit\">ReplitUnknown</a>\n<a href=\"/status/resend\">ResendOperational</a>\n<a href=\"/status/scaleway\">ScalewayMinor Issue</a>\n<a href=\"/status/segment\">SegmentOperational</a>\n<a href=\"/status/sendgrid\">SendGridMinor Issue</a>\n<a href=\"/status/sentry\">SentryOperational</a>\n<a href=\"/status/shopify\">ShopifyOperational</a>\n<a href=\"/status/slack\">SlackOperational</a>\n<a href=\"/status/snowflake\">SnowflakeMinor Issue</a>\n<a href=\"/status/snyk\">SnykMinor Issue</a>\n<a href=\"/status/square\">SquareOperational</a>\n<a href=\"/status/squarespace\">SquarespaceOperational</a>\n<a href=\"/status/stytch\">StytchOperational</a>\n<a href=\"/status/sumo-logic\">Sumo LogicOperational</a>\n<a href=\"/status/sumup\">SumupOperational</a>\n<a href=\"/status/supabase\">SupabaseMinor Issue</a>\n<a href=\"/status/teamviewer\">TeamViewerOperational</a>\n<a href=\"/status/trello\">TrelloOperational</a>\n<a href=\"/status/truelayer\">TruelayerOperational</a>\n<a href=\"/status/twilio\">TwilioMinor Issue</a>\n<a href=\"/status/udemy\">UdemyOperational</a>\n<a href=\"/status/upcloud\">UpCloudOperational</a>\n<a href=\"/status/vanta\">VantaOperational</a>\n<a href=\"/status/vercel\">VercelOperational</a>\n<a href=\"/status/vimeo\">VimeoOperational</a>\n<a href=\"/status/webflow\">WebflowOperational</a>\n<a href=\"/status/wix\">WixOperational</a>\n<a href=\"/status/workos\">WorkosOperational</a>\n<a href=\"/status/workramp\">WorkrampOperational</a>\n<a href=\"/status/zed\">ZedOperational</a>\n<a href=\"/status/zoom\">ZoomMinor Issue</a>"
+      }
+    }
+  },
+  "dns": {
+    "AAAA openstatus.dev": {
+      "result": {
+        "name": "openstatus.dev",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "NS openstatus.dev": {
+      "result": {
+        "name": "openstatus.dev",
+        "type": "NS",
+        "records": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"]
+      }
+    },
+    "CNAME openstatus.dev": {
+      "result": {
+        "name": "openstatus.dev",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A openstatus.dev": {
+      "result": {
+        "name": "openstatus.dev",
+        "type": "A",
+        "records": ["216.150.1.129", "216.150.1.193"]
+      }
+    },
+    "TXT 193.1.150.216.origin.asn.cymru.com": {
+      "result": {
+        "name": "193.1.150.216.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 216.150.1.0/24 | US | arin | 2024-07-24"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    },
+    "A stackprobe-wildcard-check.openstatus.dev": {
+      "result": {
+        "name": "stackprobe-wildcard-check.openstatus.dev",
+        "type": "A",
+        "records": ["216.150.16.1", "216.150.16.193"]
+      }
+    },
+    "CNAME stackprobe-wildcard-check.openstatus.dev": {
+      "result": {
+        "name": "stackprobe-wildcard-check.openstatus.dev",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A www.openstatus.dev": {
+      "result": {
+        "name": "www.openstatus.dev",
+        "type": "A",
+        "records": ["216.150.16.193", "216.150.1.129"]
+      }
+    },
+    "NS app.openstatus.dev": {
+      "result": {
+        "name": "app.openstatus.dev",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "AAAA app.openstatus.dev": {
+      "result": {
+        "name": "app.openstatus.dev",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "CNAME app.openstatus.dev": {
+      "result": {
+        "name": "app.openstatus.dev",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "AAAA www.openstatus.dev": {
+      "result": {
+        "name": "www.openstatus.dev",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "NS status.openstatus.dev": {
+      "result": {
+        "name": "status.openstatus.dev",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "A status.openstatus.dev": {
+      "result": {
+        "name": "status.openstatus.dev",
+        "type": "A",
+        "records": ["216.150.16.193", "216.150.16.1"]
+      }
+    },
+    "A app.openstatus.dev": {
+      "result": {
+        "name": "app.openstatus.dev",
+        "type": "A",
+        "records": ["216.150.1.65", "216.150.16.193"]
+      }
+    },
+    "AAAA status.openstatus.dev": {
+      "result": {
+        "name": "status.openstatus.dev",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "CNAME www.openstatus.dev": {
+      "result": {
+        "name": "www.openstatus.dev",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "CNAME status.openstatus.dev": {
+      "result": {
+        "name": "status.openstatus.dev",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "NS www.openstatus.dev": {
+      "result": {
+        "name": "www.openstatus.dev",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "TXT 129.1.150.216.origin.asn.cymru.com": {
+      "result": {
+        "name": "129.1.150.216.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 216.150.1.0/24 | US | arin | 2024-07-24"]
+      }
+    },
+    "TXT 193.16.150.216.origin.asn.cymru.com": {
+      "result": {
+        "name": "193.16.150.216.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 216.150.16.0/24 | US | arin | 2024-07-24"]
+      }
+    },
+    "TXT 1.1.150.216.origin.asn.cymru.com": {
+      "result": {
+        "name": "1.1.150.216.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 216.150.1.0/24 | US | arin | 2024-07-24"]
+      }
+    }
+  },
+  "tls": {
+    "openstatus.dev:443": {
+      "result": {
+        "host": "openstatus.dev",
+        "ip": "216.150.1.193",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+        "subjectAltNames": ["*.openstatus.dev", "openstatus.dev"],
+        "validFrom": "Aug 19 02:11:01 2026 GMT",
+        "validTo": "Nov 17 02:11:00 2026 GMT"
+      }
+    },
+    "www.openstatus.dev:443": {
+      "result": {
+        "host": "www.openstatus.dev",
+        "ip": "216.150.1.129",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+        "subjectAltNames": ["*.openstatus.dev", "openstatus.dev"],
+        "validFrom": "Aug 19 02:11:01 2026 GMT",
+        "validTo": "Nov 17 02:11:00 2026 GMT"
+      }
+    },
+    "app.openstatus.dev:443": {
+      "result": {
+        "host": "app.openstatus.dev",
+        "ip": "216.150.16.193",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+        "subjectAltNames": ["*.openstatus.dev", "openstatus.dev"],
+        "validFrom": "Aug 19 02:11:01 2026 GMT",
+        "validTo": "Nov 17 02:11:00 2026 GMT"
+      }
+    },
+    "status.openstatus.dev:443": {
+      "result": {
+        "host": "status.openstatus.dev",
+        "ip": "216.150.1.1",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+        "subjectAltNames": ["*.openstatus.dev", "openstatus.dev"],
+        "validFrom": "Aug 19 02:11:01 2026 GMT",
+        "validTo": "Nov 17 02:11:00 2026 GMT"
+      }
+    }
+  }
+}

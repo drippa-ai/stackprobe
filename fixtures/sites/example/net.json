@@ -1,23 +1,23 @@
 {
   "url": "https://example.com/",
-  "recordedAt": "2026-10-04T17:53:00.663Z",
+  "recordedAt": "2026-10-04T18:01:22.198Z",
   "http": {
     "GET https://example.com/": {
       "result": {
         "url": "https://example.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 17:53:00 GMT"],
+          ["date", "Sun, 04 Oct 2026 18:01:22 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
           ["server", "cloudflare"],
           ["last-modified", "Fri, 02 Oct 2026 16:11:02 GMT"],
           ["allow", "GET, HEAD"],
-          ["age", "6068"],
+          ["age", "6570"],
           ["cf-cache-status", "HIT"],
           ["content-encoding", "br"],
-          ["cf-ray", "a4560b2bdbf35699-OSL"],
+          ["cf-ray", "a456176a3a2a1ae6-OSL"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
         "body": "<meta charset=\"utf-8\">\n<link rel=\"icon\" href=\"data:,\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<script src=\"/s.js\"></script>"
@@ -25,13 +25,6 @@
     }
   },
   "dns": {
-    "A example.com": {
-      "result": {
-        "name": "example.com",
-        "type": "A",
-        "records": ["172.66.147.243", "104.20.23.154"]
-      }
-    },
     "AAAA example.com": {
       "result": {
         "name": "example.com",
@@ -44,6 +37,13 @@
         "name": "example.com",
         "type": "CNAME",
         "records": []
+      }
+    },
+    "A example.com": {
+      "result": {
+        "name": "example.com",
+        "type": "A",
+        "records": ["104.20.23.154", "172.66.147.243"]
       }
     },
     "NS example.com": {
@@ -65,6 +65,118 @@
         "name": "AS13335.asn.cymru.com",
         "type": "TXT",
         "records": ["13335 | US | arin | 2010-07-14 | CLOUDFLARENET - Cloudflare, Inc., US"]
+      }
+    },
+    "A stackprobe-wildcard-check.example.com": {
+      "result": {
+        "name": "stackprobe-wildcard-check.example.com",
+        "type": "A",
+        "records": []
+      }
+    },
+    "CNAME stackprobe-wildcard-check.example.com": {
+      "result": {
+        "name": "stackprobe-wildcard-check.example.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A dashboard.example.com": {
+      "result": {
+        "name": "dashboard.example.com",
+        "type": "A",
+        "records": []
+      }
+    },
+    "A app.example.com": {
+      "result": {
+        "name": "app.example.com",
+        "type": "A",
+        "records": []
+      }
+    },
+    "A console.example.com": {
+      "result": {
+        "name": "console.example.com",
+        "type": "A",
+        "records": []
+      }
+    },
+    "CNAME app.example.com": {
+      "result": {
+        "name": "app.example.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "CNAME portal.example.com": {
+      "result": {
+        "name": "portal.example.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A docs.example.com": {
+      "result": {
+        "name": "docs.example.com",
+        "type": "A",
+        "records": []
+      }
+    },
+    "A portal.example.com": {
+      "result": {
+        "name": "portal.example.com",
+        "type": "A",
+        "records": []
+      }
+    },
+    "CNAME dashboard.example.com": {
+      "result": {
+        "name": "dashboard.example.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "CNAME docs.example.com": {
+      "result": {
+        "name": "docs.example.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "CNAME status.example.com": {
+      "result": {
+        "name": "status.example.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A api.example.com": {
+      "result": {
+        "name": "api.example.com",
+        "type": "A",
+        "records": []
+      }
+    },
+    "CNAME api.example.com": {
+      "result": {
+        "name": "api.example.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A status.example.com": {
+      "result": {
+        "name": "status.example.com",
+        "type": "A",
+        "records": []
+      }
+    },
+    "CNAME console.example.com": {
+      "result": {
+        "name": "console.example.com",
+        "type": "CNAME",
+        "records": []
       }
     }
   },

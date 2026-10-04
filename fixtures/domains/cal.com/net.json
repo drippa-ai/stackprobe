@@ -1,0 +1,648 @@
+{
+  "url": "https://cal.com/",
+  "recordedAt": "2026-10-04T18:01:25.911Z",
+  "http": {
+    "GET https://cal.com/": {
+      "result": {
+        "url": "https://cal.com/",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 18:01:26 GMT"],
+          ["content-type", "text/html"],
+          ["content-length", "141939"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45617815ff84c11-OSL"],
+          ["cf-cache-status", "DYNAMIC"],
+          ["cache-control", "private, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          ["etag", "\"c88bda1744db88b77d8a8ce3777800e2\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:24:15 GMT"],
+          [
+            "link",
+            "<https://framerusercontent.com>; rel=\"preconnect\", <https://framerusercontent.com>; rel=\"preconnect\"; crossorigin=\"\""
+          ],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000"],
+          ["vary", "Accept-Encoding, Accept"],
+          ["framer-site-id", "bc7227767b20f032f6b0c5eca6d5f196207f19e615b861e2b14cd0579a235b43"],
+          [
+            "server-timing",
+            "region;desc=\"eu-central-1\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"26fa766\", instance;desc=\"466fd99\", route;dur=1;desc=\"id=v7M7xdOQx&locale=default\", abtests;dur=1;desc=\"Yoe_8Npvc=XfzD6rVDK\", country;desc=\"NO\", ss-only-routes"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width\">\n<meta name=\"generator\" content=\"Framer 756c74d\">\n<link rel=\"canonical\" href=\"https://cal.com/\">\n<meta property=\"og:url\" content=\"https://cal.com/\">\n<meta name=\"description\" content=\"A fully customizable scheduling software for individuals, businesses taking calls and developers building scheduling platforms where users meet users.\">\n<meta name=\"framer-search-index\" content=\"https://framerusercontent.com/sites/3nD48sbvLWIxKbF7A73bty/searchIndex-KY0QZoIppvUR.json\">\n<meta name=\"framer-search-index-fallback\" content=\"https://framerusercontent.com/sites/3nD48sbvLWIxKbF7A73bty/searchIndex-8cGcp2FqLSlN.json\">\n<link href=\"https://framerusercontent.com/images/KLEuLsreYtfUbTcK9TjmfF0QoGY.png\" rel=\"icon\" media=\"(prefers-color-scheme: light)\">\n<link href=\"https://framerusercontent.com/images/KLEuLsreYtfUbTcK9TjmfF0QoGY.png\" rel=\"icon\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"apple-touch-icon\" href=\"https://framerusercontent.com/images/63tSo3fa0ylcjt88Er8WTEPS6Dw.png\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:title\" content=\"Cal.com | Scheduling Software for Online Bookings\">\n<meta property=\"og:description\" content=\"A fully customizable scheduling software for individuals, businesses taking calls and developers building scheduling platforms where users meet users.\">\n<meta property=\"og:image\" content=\"https://framerusercontent.com/images/pPSh5HDe1qaySb4R7xBgMHudhU.png\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Cal.com | Scheduling Software for Online Bookings\">\n<meta name=\"twitter:description\" content=\"A fully customizable scheduling software for individuals, businesses taking calls and developers building scheduling platforms where users meet users.\">\n<meta name=\"twitter:image\" content=\"https://framerusercontent.com/images/pPSh5HDe1qaySb4R7xBgMHudhU.png\">\n<meta name=\"cal-com\" content=\"app-id=6757157271, app-argument=cal.com\">\n<link rel=\"manifest\" href=\"https://api.jsonbin.io/v3/b/69739405ae596e708ff0394c?meta=false\">\n<link href=\"https://fonts.gstatic.com\" rel=\"preconnect\" crossorigin=\"\">\n<meta name=\"robots\" content=\"max-image-preview:large\">\n<link rel=\"alternate\" href=\"https://cal.com/\" hreflang=\"en\">\n<link rel=\"alternate\" href=\"https://cal.com/de/\" hreflang=\"de\">\n<link rel=\"alternate\" href=\"https://cal.com/fr/\" hreflang=\"fr\">\n<link rel=\"alternate\" href=\"https://cal.com/nl/\" hreflang=\"nl\">\n<link rel=\"alternate\" href=\"https://cal.com/pt/\" hreflang=\"pt\">\n<link rel=\"alternate\" href=\"https://cal.com/es/\" hreflang=\"es\">\n<link rel=\"alternate\" href=\"https://cal.com/it/\" hreflang=\"it\">\n<link rel=\"alternate\" href=\"https://cal.com/\" hreflang=\"x-default\">\n<script src=\"https://www.dubcdn.com/analytics/script.js\" defer=\"\" data-domains=\"{&quot;refer&quot;:&quot;refer.cal.com&quot;}\"></script>\n<script async=\"\" src=\"https://events.framer.com/script?v=2\" data-fid=\"bc7227767b20f032f6b0c5eca6d5f196207f19e615b861e2b14cd0579a235b43\" data-no-nt=\"\"></script>\n<a href=\"./\"></a>\n<a href=\"./enterprise\">Enterprise</a>\n<a href=\"./ai\">Cal.ai</a>\n<a href=\"./pricing\">Pricing</a>\n<a href=\"https://app.cal.com/auth/login?_gl=1*1d3xgrt*_gcl_au*MTY1ODY5NjUwMS4xNzQxOTczMzA5*_ga*MTA0ODE0ODU4LjE3NDE5NzMzMTA.*_ga_RX4HHQ613S*MTc0MTk3MzMwOS4xLjEuMTc0MTk3MzY2NC42MC4wLjk4NDg1NDg4\">Sign in</a>\n<a href=\"https://app.cal.com/signup\">Get started</a>\n<a href=\"https://app.cal.com/signup\">For IndividualsPersonal scheduling made simple</a>\n<a href=\"./teams\">For TeamsCollaborative scheduling for groups</a>\n<a href=\"./organizations\">For OrganizationsLarger teams scheduling for more control &amp; security</a>\n<a href=\"./enterprise\">For EnterprisesEnterprise-level scheduling solutions</a>\n<a href=\"./scheduling/talent-acquisition-teams\">Recruiting</a>\n<a href=\"./scheduling/sales-teams\">Sales</a>\n<a href=\"./scheduling/people-operations\">HR</a>\n<a href=\"./scheduling/higher-education\">Education</a>\n<a href=\"./scheduling/customer-support\">Support</a>\n<a href=\"./scheduling/healthcare\">Healthcare</a>\n<a href=\"./scheduling/telehealth\">Telehealth</a>\n<a href=\"./scheduling/marketing\">Marketing</a>\n<a href=\"./ai\">Try Cal.ai now!Supercharged scheduling with AI-powered calls</a>\n<a href=\"https://cal.com/docs\">Developer DocumentationDocumentation for the Cal.com platform</a>\n<a href=\"https://cal.com/docs/api-reference/v2\">APIBuild your own integrations with our public API</a>\n<a href=\"https://cal.com/docs/atoms/introduction\">Scheduling ComponentsUse our react atoms to add scheduling to your app</a>\n<a href=\"https://cal.com/docs/api-reference/v2/oauth\">Create OAuth ClientIntegrate Cal.com using OAuth</a>\n<a href=\"./font\">Font: Cal Sans UI &amp; TextOur own variable typeface for user interface design</a>\n<a href=\"https://app.cal.com/apps\">App StoreIntegrate with your favorite apps</a>\n<a href=\"./features/collective-events\">Collective EventsSchedule events with multiple participants</a>\n<a href=\"https://cal.com/help\">Help DocsNeed to learn more about our system? Check the help docs</a>\n<a href=\"./embed\">EmbedEmbed Cal.com into your website</a>\n<a href=\"./features/ooo\">Out Of OfficeSchedule time off with ease</a>\n<a href=\"./features/payments\">PaymentsAccept payments for bookings</a>\n<a href=\"./workflows\">WorkflowsAutomate scheduling and reminders</a>\n<a href=\"./blog/category/all-categories\">BlogStay up to date with the latest news and updates</a>\n<a href=\"./features/instant-meetings\">Instant MeetingsMeet with clients in minutes</a>\n<a href=\"./features/dynamic-group-links\">Dynamic Group LinksSeamlessly book meetings with multiple people</a>\n<a href=\"https://cal.com/docs/developing/guides/automation/webhooks\">WebhooksGet notified when something happens</a>\n<a href=\"https://app.cal.com/auth/sso/google\">Sign up with Google</a>\n<a href=\"https://app.cal.com/signup\">Sign up with email</a>\n<a href=\"./talk-to-sales\">Book a demo</a>\n<a href=\"https://app.cal.com/apps\">Explore apps</a>\n<a href=\"./talk-to-sales\">Talk to sales</a>\n<a href=\"./custom-domain-email-waitlist\">waitlist</a>\n<a href=\"https://cal.com/security\"></a>"
+      }
+    },
+    "GET https://docs.cal.com/": {
+      "result": {
+        "url": "https://docs.cal.com/",
+        "status": 301,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 18:01:26 GMT"],
+          ["content-length", "0"],
+          ["connection", "keep-alive"],
+          ["location", "https://cal.com/docs/"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45617839a9a0daa-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://console.cal.com/": {
+      "result": {
+        "url": "https://console.cal.com/",
+        "status": 403,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 18:01:26 GMT"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "private, no-store, max-age=0"],
+          ["server", "cloudflare"],
+          ["x-vercel-id", "arn1::4hkgq-1791136886381-c50a3785d6d6"],
+          ["x-vercel-mitigated", "deny"],
+          ["cf-cache-status", "DYNAMIC"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45617837c49569c-OSL"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"theme-color\" content=\"#0a0a0a\" media=\"(prefers-color-scheme: dark)\">\n<meta name=\"theme-color\" content=\"#ffffff\" media=\"(prefers-color-scheme: light)\">"
+      }
+    },
+    "GET https://cal.com/docs/": {
+      "result": {
+        "url": "https://cal.com/docs/",
+        "status": 308,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 18:01:26 GMT"],
+          ["content-type", "text/html"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["location", "/docs"],
+          ["cf-ray", "a4561784396c5a0f-OSL"],
+          ["cf-cache-status", "DYNAMIC"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["refresh", "0;url=/docs"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-vercel-id", "arn1::46hn4-1791136886457-bb8fac7350f5"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "<a href=\"/docs\">here</a>"
+      }
+    },
+    "GET https://cal.com/docs": {
+      "result": {
+        "url": "https://cal.com/docs",
+        "status": 308,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 18:01:26 GMT"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["content-length", "102518"],
+          ["connection", "keep-alive"],
+          ["location", "/docs/api-reference/v2/introduction"],
+          ["cf-ray", "a45617849aae5a0f-OSL"],
+          ["cf-cache-status", "DYNAMIC"],
+          ["age", "4805"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["etag", "\"42ry3sr2lk273q\""],
+          [
+            "link",
+            "</docs/llms.txt>; rel=\"llms-txt\", </docs/llms-full.txt>; rel=\"llms-full-txt\", </docs/.well-known/api-catalog>; rel=\"api-catalog\", </docs/.well-known/mcp/server-card.json>; rel=\"mcp-server-card\", </docs/.well-known/agent-card.json>; rel=\"agent-card\", </docs/.well-known/agent-skills/index.json>; rel=\"agent-skills\""
+          ],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000; includeSubDomains; preload"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          [
+            "content-security-policy",
+            "worker-src 'self' blob:; object-src 'none'; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self'; default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:;"
+          ],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:; worker-src 'self' blob:; object-src 'none'; report-uri /docs/_mintlify/api/csp-report; report-to mintlify-csp;"
+          ],
+          ["reporting-endpoints", "mintlify-csp=\"/docs/_mintlify/api/csp-report\""],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-llms-txt", "/docs/llms.txt"],
+          ["x-matched-path", "/_sites/[subdomain]/[[...slug]]"],
+          ["x-mintlify-client-version", "0.0.3774"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "60"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::iad1::p4cc2-1791136886509-f4dbb6e61a54"],
+          ["x-vercel-project-id", "prj_ekSYngkqMLMUb1wdarxNSixTj2nj"],
+          ["x-version", "dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/docs/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\">\n<script src=\"/docs/_next/static/chunks/44795504c795ca32.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/bacb7e0d52e4b451.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/b730549587248be7.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/d24f46ac0d244a3f.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/turbopack-176ad69d069e4080.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" nomodule=\"\"></script>\n<script src=\"/docs/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://cal.com/docs/api-reference/v2/introduction": {
+      "result": {
+        "url": "https://cal.com/docs/api-reference/v2/introduction",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 18:01:26 GMT"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a4561784d82156c6-OSL"],
+          ["cf-cache-status", "DYNAMIC"],
+          ["age", "4804"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          ["etag", "W/\"x03fae5gjcbelv\""],
+          [
+            "link",
+            "</docs/llms.txt>; rel=\"llms-txt\", </docs/llms-full.txt>; rel=\"llms-full-txt\", </docs/.well-known/api-catalog>; rel=\"api-catalog\", </docs/.well-known/mcp/server-card.json>; rel=\"mcp-server-card\", </docs/.well-known/agent-card.json>; rel=\"agent-card\", </docs/.well-known/agent-skills/index.json>; rel=\"agent-skills\""
+          ],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000; includeSubDomains; preload"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding"
+          ],
+          [
+            "content-security-policy",
+            "worker-src 'self' blob:; object-src 'none'; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self'; default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:;"
+          ],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:; worker-src 'self' blob:; object-src 'none'; report-uri /docs/_mintlify/api/csp-report; report-to mintlify-csp;"
+          ],
+          ["reporting-endpoints", "mintlify-csp=\"/docs/_mintlify/api/csp-report\""],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-llms-txt", "/docs/llms.txt"],
+          ["x-matched-path", "/_sites/[subdomain]/[[...slug]]"],
+          ["x-mintlify-client-version", "0.0.3774"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "60"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::iad1::qsqnx-1791136886589-00d330e86fd6"],
+          ["x-vercel-project-id", "prj_ekSYngkqMLMUb1wdarxNSixTj2nj"],
+          ["x-version", "dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" href=\"/docs/_next/static/media/83afe278b6a6bb3c.p.3a6ba036.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/docs/_next/static/media/PaperMono_Variable.p.aa32f7a0.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/docs/_next/static/media/f67ad414ed34149c.p.84166d94.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" as=\"image\" href=\"https://cal.com/calcom-docs.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://cal.com/calcom-docs-light.svg\">\n<link rel=\"stylesheet\" href=\"/docs/_next/static/chunks/462bacc63bed9960.css?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/docs/_next/static/chunks/be2d2a9922fde67d.css?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/docs/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\">\n<script src=\"/docs/_next/static/chunks/44795504c795ca32.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/bacb7e0d52e4b451.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/b730549587248be7.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/d24f46ac0d244a3f.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/turbopack-176ad69d069e4080.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/6da4d41f9a3f1e56.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/c50d793b8f34b10b.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/9b51ed6445f8c728.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/8d0901e40ed4b058.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/343f3c7f568a2e5d.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/ccee8d9b3189ccd9.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/3b847e5370bd724e.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/4fa3ca58dfaaeff8.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/468295ca52ed5c09.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/4655c61fa7aba124.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/da953b59c0c41f06.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/f0ef0acaeece4a23.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/7538d80a516400fa.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/8a19ec8c194a3b47.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/589b24301b3a37b4.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/d2fedac44d815262.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/c3a3ab2374198660.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/de5d31edef447a03.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/3a30a2353087aade.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/f19aa31a2b13eef7.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/ff9b0d3d29045006.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/57ef37c03eb76089.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/44b0178948143b4f.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/41c8239ff6030cd1.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/e452a5c043e34035.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/fde44643dbef1bcd.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/c58283ba69dd38df.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/e5dcdb55f621f74a.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/1a0bf1d33a977db0.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/0d29cfad69957710.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<link rel=\"preload\" href=\"/docs/_next/static/chunks/5917258e888b4dff.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" as=\"script\" fetchpriority=\"low\">\n<link rel=\"preload\" href=\"/docs/_next/static/chunks/c18d87551163d4f9.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" as=\"script\" fetchpriority=\"low\">\n<meta name=\"description\" content=\"Introduction to Cal.com API v2 endpoints\">\n<meta name=\"application-name\" content=\"Cal.com Docs\">\n<meta name=\"generator\" content=\"Mintlify\">\n<meta name=\"msapplication-config\" content=\"/docs/_mintlify/favicons/calcom/w8uh8B7zoK1nnmIG/_generated/favicon/browserconfig.xml\">\n<meta name=\"apple-mobile-web-app-title\" content=\"Cal.com Docs\">\n<meta name=\"msapplication-TileColor\" content=\"#111827\">\n<meta name=\"google-site-verification\" content=\"lygHp_XQ3N6du7_NQFDk4zIzuKPNAe_M1T_egzmWbsw\">\n<link rel=\"canonical\" href=\"https://cal.com/docs/api-reference/v2/introduction\">\n<link rel=\"alternate\" type=\"application/xml\" href=\"/docs/sitemap.xml\">\n<link rel=\"alternate\" type=\"text/markdown\" href=\"/docs/api-reference/v2/introduction.md\">\n<meta property=\"og:title\" content=\"Introduction to API v2 - Cal.com Docs\">\n<meta property=\"og:description\" content=\"Introduction to Cal.com API v2 endpoints\">\n<meta property=\"og:url\" content=\"https://cal.com/docs/api-reference/v2/introduction\">\n<meta property=\"og:site_name\" content=\"Cal.com Docs\">\n<meta property=\"og:image\" content=\"https://calcom.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGetting%2BStarted%26title%3DIntroduction%2Bto%2BAPI%2Bv2%26description%3DIntroduction%2Bto%2BCal.com%2BAPI%2Bv2%2Bendpoints%26theme%3D9477faea4b413701a9cfa2a8&amp;w=1200&amp;q=100\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Introduction to API v2 - Cal.com Docs\">\n<meta name=\"twitter:description\" content=\"Introduction to Cal.com API v2 endpoints\">\n<meta name=\"twitter:image\" content=\"https://calcom.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGetting%2BStarted%26title%3DIntroduction%2Bto%2BAPI%2Bv2%26description%3DIntroduction%2Bto%2BCal.com%2BAPI%2Bv2%2Bendpoints%26theme%3D9477faea4b413701a9cfa2a8&amp;w=1200&amp;q=100\">\n<meta name=\"twitter:image:width\" content=\"1200\">\n<meta name=\"twitter:image:height\" content=\"630\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/calcom/w8uh8B7zoK1nnmIG/_generated/favicon/android-chrome-192x192.png\" type=\"image/png\" sizes=\"192x192\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"apple-touch-icon\" href=\"/docs/_mintlify/favicons/calcom/w8uh8B7zoK1nnmIG/_generated/favicon/apple-touch-icon.png\" type=\"image/png\" sizes=\"180x180\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/calcom/w8uh8B7zoK1nnmIG/_generated/favicon/favicon-16x16.png\" type=\"image/png\" sizes=\"16x16\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/calcom/w8uh8B7zoK1nnmIG/_generated/favicon/favicon-32x32.png\" type=\"image/png\" sizes=\"32x32\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"shortcut icon\" href=\"/docs/_mintlify/favicons/calcom/w8uh8B7zoK1nnmIG/_generated/favicon/favicon.ico\" type=\"image/x-icon\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/calcom/w8uh8B7zoK1nnmIG/_generated/favicon-dark/android-chrome-192x192.png\" type=\"image/png\" sizes=\"192x192\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/calcom/w8uh8B7zoK1nnmIG/_generated/favicon-dark/favicon-16x16.png\" type=\"image/png\" sizes=\"16x16\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/calcom/w8uh8B7zoK1nnmIG/_generated/favicon-dark/favicon-32x32.png\" type=\"image/png\" sizes=\"32x32\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"shortcut icon\" href=\"/docs/_mintlify/favicons/calcom/w8uh8B7zoK1nnmIG/_generated/favicon-dark/favicon.ico\" type=\"image/x-icon\" media=\"(prefers-color-scheme: dark)\">\n<script src=\"/docs/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" nomodule=\"\"></script>\n<a href=\"/docs/llms.txt\">/docs/llms.txt</a>\n<a href=\"#content-area\">Skip to main content</a>\n<a href=\"/docs\">Cal.com Docs home page</a>\n<a href=\"https://go.cal.com/support\">Support</a>\n<a href=\"https://app.cal.com\">Dashboard</a>\n<a href=\"/docs/api-reference/v2/introduction\">API v2 Reference</a>\n<a href=\"/docs/atoms/introduction\">Atoms</a>\n<a href=\"/docs/developing/local-development\">Developing</a>\n<a href=\"/docs/api-reference/v2/introduction\">Introduction to API v2</a>\n<a href=\"/docs/api-reference/v2/oauth\">OAuth</a>\n<a href=\"/docs/api-reference/v2/access-control\">Access Control</a>\n<a href=\"/docs/api-reference/v2/v1-v2-differences\">Migrating from API v1 to v2</a>\n<a href=\"/docs/mcp-server\">MCP server</a>\n<a href=\"/docs/api-reference/v2/user-booking-limits\">User booking limits</a>\n<a href=\"/docs/agents\">AI agents</a>\n<a href=\"#authentication\">Authentication</a>\n<a href=\"#1-create-an-oauth-client-and-%E2%80%9Ccontinue-with-cal-com%E2%80%9D\">1. Create an OAuth client and “Continue with Cal.com”</a>\n<a href=\"#2-api-key\">2. API key</a>\n<a href=\"#teams-endpoints\">Teams endpoints</a>\n<a href=\"#organizations-endpoints\">Organizations endpoints</a>\n<a href=\"#rate-limits\">Rate limits</a>\n<a href=\"#deprecated-%26-maintenance-for-existing-users-only\">Deprecated &amp; Maintenance for existing users only</a>\n<a href=\"#2-platform-oauth-client-credentials\">2. Platform OAuth client credentials</a>\n<a href=\"#3-platform-managed-user-access-token\">3. Platform Managed user access token</a>\n<a href=\"#platform-endpoints\">Platform endpoints</a>\n<a href=\"#authentication\">​</a>\n<a href=\"#1-create-an-oauth-client-and-“continue-with-cal-com”\">​</a>\n<a href=\"https://cal.com/docs/api-reference/v2/oauth\">https://cal.com/docs/api-reference/v2/oauth</a>\n<a href=\"#2-api-key\">​</a>\n<a href=\"#teams-endpoints\">​</a>\n<a href=\"#organizations-endpoints\">​</a>\n<a href=\"#rate-limits\">​</a>\n<a href=\"#deprecated-&amp;-maintenance-for-existing-users-only\">​</a>\n<a href=\"#2-platform-oauth-client-credentials\">​</a>\n<a href=\"https://cal.com/docs/api-reference/v2/platform-managed-users/create-a-managed-user\">API reference</a>\n<a href=\"https://cal.com/docs/api-reference/v2/platform-webhooks/create-a-webhook\">API reference</a>\n<a href=\"https://cal.com/docs/api-reference/v2/platform-managed-users/refresh-managed-user-tokens\">API reference</a>\n<a href=\"https://cal.com/docs/api-reference/v2/orgs-teams/create-a-team\">API reference</a>\n<a href=\"https://cal.com/docs/api-reference/v2/orgs-teams-memberships/create-a-membership\">API reference</a>\n<a href=\"https://cal.com/docs/api-reference/v2/orgs-event-types/create-an-event-type\">API reference</a>\n<a href=\"https://app.cal.com/settings/platform\">https://app.cal.com/settings/platform</a>\n<a href=\"#3-platform-managed-user-access-token\">​</a>\n<a href=\"https://cal.com/docs/api-reference/v2/schedules/create-a-schedule\">API reference</a>\n<a href=\"https://cal.com/docs/api-reference/v2/event-types/create-an-event-type\">API reference</a>\n<a href=\"https://cal.com/docs/api-reference/v2/bookings/get-all-bookings\">API reference</a>\n<a href=\"https://cal.com/docs/api-reference/v2/oauth/post-v2oauth-refresh\">API reference</a>\n<a href=\"https://cal.com/docs/api-reference/v2/platform-managed-users/force-refresh-tokens\">API reference</a>\n<a href=\"#platform-endpoints\">​</a>\n<a href=\"https://x.com/calcom\">x</a>\n<a href=\"https://github.com/calcom\">github</a>\n<a href=\"https://www.linkedin.com/company/cal-com\">linkedin</a>\n<a href=\"https://www.mintlify.com?utm_campaign=poweredBy&amp;utm_medium=referral&amp;utm_source=calcom\">Powered byThis documentation is built and hosted on Mintlify, a developer documentation platform</a>\n<script src=\"/docs/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://cal.com/help": {
+      "result": {
+        "url": "https://cal.com/help",
+        "status": 308,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 18:01:26 GMT"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["content-length", "94985"],
+          ["connection", "keep-alive"],
+          ["location", "/help/welcome"],
+          ["cf-ray", "a45617839d71712e-OSL"],
+          ["cf-cache-status", "DYNAMIC"],
+          ["cache-control", "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"],
+          ["etag", "\"w3hqfnyedx21ah\""],
+          ["expires", "0"],
+          [
+            "link",
+            "</help/llms.txt>; rel=\"llms-txt\", </help/llms-full.txt>; rel=\"llms-full-txt\", </help/.well-known/api-catalog>; rel=\"api-catalog\", </help/.well-known/mcp/server-card.json>; rel=\"mcp-server-card\", </help/.well-known/agent-card.json>; rel=\"agent-card\", </help/.well-known/agent-skills/index.json>; rel=\"agent-skills\""
+          ],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "rsc, accept-encoding, Accept, User-Agent"],
+          ["pragma", "no-cache"],
+          [
+            "content-security-policy",
+            "worker-src 'self' blob:; object-src 'none'; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self'; default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:;"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-llms-txt", "/help/llms.txt"],
+          ["x-matched-path", "/_sites/[subdomain]/[[...slug]]"],
+          ["x-mint-proxy-version", "1.0.0-prod"],
+          ["x-mintlify-client-version", "0.0.3774"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "60"],
+          ["x-served-version", "dpl_CidATrbWDPa4UMToTw4J3sb6iBRV"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1:sin1:iad1::iad1::m4kb2-1791136886495-52777ca99d4f"],
+          ["x-vercel-project-id", "prj_nYAAwcSbrAQJ95TwXJnizpcA8x8t"],
+          ["x-version", "dpl_CidATrbWDPa4UMToTw4J3sb6iBRV"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/help/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\">\n<script src=\"/help/_next/static/chunks/44795504c795ca32.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/30aec5c7e84bb82c.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/b730549587248be7.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/03563924c7449267.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/turbopack-8b302361067849bf.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" nomodule=\"\"></script>\n<script src=\"/help/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://api.cal.com/": {
+      "result": {
+        "url": "https://api.cal.com/",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 18:01:26 GMT"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["content-length", "2"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45617837f612efa-OSL"],
+          ["cf-cache-status", "DYNAMIC"],
+          ["access-control-allow-origin", "*"],
+          ["age", "0"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["etag", "W/\"2-nOO9QiTIwXgNtWtBJezz8kv3SLc\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains"],
+          [
+            "content-security-policy",
+            "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+          ],
+          ["cross-origin-opener-policy", "same-origin"],
+          ["cross-origin-resource-policy", "same-origin"],
+          ["origin-agent-cluster", "?1"],
+          ["referrer-policy", "no-referrer"],
+          ["x-content-type-options", "nosniff"],
+          ["x-dns-prefetch-control", "off"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-permitted-cross-domain-policies", "none"],
+          ["x-ratelimit-limit-default", "500"],
+          ["x-ratelimit-remaining-default", "498"],
+          ["x-ratelimit-reset-default", "15"],
+          ["x-request-id", "arn1::mfrvd-1791136886690-db870ad68628"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::cle1::mfrvd-1791136886690-db870ad68628"],
+          ["x-xss-protection", "0"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://cal.com/help/welcome": {
+      "result": {
+        "url": "https://cal.com/help/welcome",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 18:01:26 GMT"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a4561786ec46712e-OSL"],
+          ["cf-cache-status", "DYNAMIC"],
+          ["age", "84754"],
+          ["cache-control", "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"],
+          ["content-encoding", "br"],
+          ["etag", "W/\"3yjg16gufv5tdo\""],
+          ["expires", "0"],
+          [
+            "link",
+            "</help/llms.txt>; rel=\"llms-txt\", </help/llms-full.txt>; rel=\"llms-full-txt\", </help/.well-known/api-catalog>; rel=\"api-catalog\", </help/.well-known/mcp/server-card.json>; rel=\"mcp-server-card\", </help/.well-known/agent-card.json>; rel=\"agent-card\", </help/.well-known/agent-skills/index.json>; rel=\"agent-skills\""
+          ],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "rsc, accept-encoding, Accept, User-Agent"],
+          ["pragma", "no-cache"],
+          [
+            "content-security-policy",
+            "worker-src 'self' blob:; object-src 'none'; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self'; default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:;"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-llms-txt", "/help/llms.txt"],
+          ["x-matched-path", "/_sites/[subdomain]/[[...slug]]"],
+          ["x-mint-proxy-version", "1.0.0-prod"],
+          ["x-mintlify-client-version", "0.0.3774"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "60"],
+          ["x-served-version", "dpl_CidATrbWDPa4UMToTw4J3sb6iBRV"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1:iad1::iad1::qwn54-1791136886910-d3b6f1743e35"],
+          ["x-vercel-project-id", "prj_nYAAwcSbrAQJ95TwXJnizpcA8x8t"],
+          ["x-version", "dpl_CidATrbWDPa4UMToTw4J3sb6iBRV"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" href=\"/help/_next/static/media/83afe278b6a6bb3c.p.3a6ba036.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/help/_next/static/media/PaperMono_Variable.p.aa32f7a0.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/help/_next/static/media/f67ad414ed34149c.p.84166d94.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" as=\"image\" href=\"https://cal.com/calcom-help.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://cal.com/calcom-help-light.svg\">\n<link rel=\"stylesheet\" href=\"/help/_next/static/chunks/462bacc63bed9960.css?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/help/_next/static/chunks/be2d2a9922fde67d.css?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/help/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\">\n<script src=\"/help/_next/static/chunks/44795504c795ca32.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/30aec5c7e84bb82c.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/b730549587248be7.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/03563924c7449267.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/turbopack-8b302361067849bf.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/e425633eb3a7cf41.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/c50d793b8f34b10b.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/e91d52eca322fb63.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/8d0901e40ed4b058.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/343f3c7f568a2e5d.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/ccee8d9b3189ccd9.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/3b847e5370bd724e.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/4fa3ca58dfaaeff8.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/468295ca52ed5c09.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/4655c61fa7aba124.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/da953b59c0c41f06.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/f0ef0acaeece4a23.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/7538d80a516400fa.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/8a19ec8c194a3b47.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/589b24301b3a37b4.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/d2fedac44d815262.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/c3a3ab2374198660.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/de5d31edef447a03.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/3a30a2353087aade.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/38eeedaeb109843a.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/8bd1128ca6d40029.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/0b9deff6b131f22a.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/44b0178948143b4f.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/41c8239ff6030cd1.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/e452a5c043e34035.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/fde44643dbef1bcd.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/c58283ba69dd38df.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/e5dcdb55f621f74a.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/1a0bf1d33a977db0.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<script src=\"/help/_next/static/chunks/0d29cfad69957710.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" async=\"\"></script>\n<link rel=\"preload\" href=\"/help/_next/static/chunks/5917258e888b4dff.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" as=\"script\" fetchpriority=\"low\">\n<link rel=\"preload\" href=\"/help/_next/static/chunks/c18d87551163d4f9.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" as=\"script\" fetchpriority=\"low\">\n<meta name=\"description\" content=\"Welcome to the official Cal.com Help Desk. To help get you started, we've put together a few resources to help you learn about how to use Cal.com.\">\n<meta name=\"application-name\" content=\"Cal.com Help\">\n<meta name=\"generator\" content=\"Mintlify\">\n<meta name=\"msapplication-config\" content=\"/help/_mintlify/favicons/calcomhelp/u3nw7xBo-tQdXoOr/_generated/favicon/browserconfig.xml\">\n<meta name=\"apple-mobile-web-app-title\" content=\"Cal.com Help\">\n<meta name=\"msapplication-TileColor\" content=\"#111827\">\n<link rel=\"canonical\" href=\"https://cal.com/help/welcome\">\n<link rel=\"alternate\" type=\"application/xml\" href=\"/help/sitemap.xml\">\n<link rel=\"alternate\" type=\"text/markdown\" href=\"/help/welcome.md\">\n<meta property=\"og:title\" content=\"Help Desk - Cal.com Help\">\n<meta property=\"og:description\" content=\"Welcome to the official Cal.com Help Desk. To help get you started, we've put together a few resources to help you learn about how to use Cal.com.\">\n<meta property=\"og:url\" content=\"https://cal.com/help/welcome\">\n<meta property=\"og:site_name\" content=\"Cal.com Help\">\n<meta property=\"og:image\" content=\"https://calcomhelp.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DDocumentation%26title%3DHelp%2BDesk%26description%3DWelcome%2Bto%2Bthe%2Bofficial%2BCal.com%2BHelp%2BDesk.%2BTo%2Bhelp%2Bget%2Byou%2Bstarted%252C%2Bwe%2527ve%2Bput%2Btogether%2Ba%2Bfew%2Bresources%2Bto%2Bhelp%2Byou%2Blearn%2Babout%2Bhow%2Bto%2Buse%2BCal.com.%2B%26theme%3Dfafe502984485ef58e085128&amp;w=1200&amp;q=100\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Help Desk - Cal.com Help\">\n<meta name=\"twitter:description\" content=\"Welcome to the official Cal.com Help Desk. To help get you started, we've put together a few resources to help you learn about how to use Cal.com.\">\n<meta name=\"twitter:image\" content=\"https://calcomhelp.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DDocumentation%26title%3DHelp%2BDesk%26description%3DWelcome%2Bto%2Bthe%2Bofficial%2BCal.com%2BHelp%2BDesk.%2BTo%2Bhelp%2Bget%2Byou%2Bstarted%252C%2Bwe%2527ve%2Bput%2Btogether%2Ba%2Bfew%2Bresources%2Bto%2Bhelp%2Byou%2Blearn%2Babout%2Bhow%2Bto%2Buse%2BCal.com.%2B%26theme%3Dfafe502984485ef58e085128&amp;w=1200&amp;q=100\">\n<meta name=\"twitter:image:width\" content=\"1200\">\n<meta name=\"twitter:image:height\" content=\"630\">\n<link rel=\"icon\" href=\"/help/_mintlify/favicons/calcomhelp/u3nw7xBo-tQdXoOr/_generated/favicon/android-chrome-192x192.png\" type=\"image/png\" sizes=\"192x192\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"apple-touch-icon\" href=\"/help/_mintlify/favicons/calcomhelp/u3nw7xBo-tQdXoOr/_generated/favicon/apple-touch-icon.png\" type=\"image/png\" sizes=\"180x180\">\n<link rel=\"icon\" href=\"/help/_mintlify/favicons/calcomhelp/u3nw7xBo-tQdXoOr/_generated/favicon/favicon-16x16.png\" type=\"image/png\" sizes=\"16x16\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/help/_mintlify/favicons/calcomhelp/u3nw7xBo-tQdXoOr/_generated/favicon/favicon-32x32.png\" type=\"image/png\" sizes=\"32x32\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"shortcut icon\" href=\"/help/_mintlify/favicons/calcomhelp/u3nw7xBo-tQdXoOr/_generated/favicon/favicon.ico\" type=\"image/x-icon\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/help/_mintlify/favicons/calcomhelp/u3nw7xBo-tQdXoOr/_generated/favicon-dark/android-chrome-192x192.png\" type=\"image/png\" sizes=\"192x192\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"icon\" href=\"/help/_mintlify/favicons/calcomhelp/u3nw7xBo-tQdXoOr/_generated/favicon-dark/favicon-16x16.png\" type=\"image/png\" sizes=\"16x16\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"icon\" href=\"/help/_mintlify/favicons/calcomhelp/u3nw7xBo-tQdXoOr/_generated/favicon-dark/favicon-32x32.png\" type=\"image/png\" sizes=\"32x32\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"shortcut icon\" href=\"/help/_mintlify/favicons/calcomhelp/u3nw7xBo-tQdXoOr/_generated/favicon-dark/favicon.ico\" type=\"image/x-icon\" media=\"(prefers-color-scheme: dark)\">\n<script src=\"/help/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" nomodule=\"\"></script>\n<a href=\"/help/llms.txt\">/help/llms.txt</a>\n<a href=\"#content-area\">Skip to main content</a>\n<a href=\"/help\">Cal.com Help home page</a>\n<a href=\"https://go.cal.com/support\">Support</a>\n<a href=\"https://app.cal.com\">Dashboard</a>\n<a href=\"/help/welcome\">Documentation</a>\n<a href=\"https://cal.com/docs\">Developer</a>\n<a href=\"https://github.com/calcom/cal.com\">GitHub</a>\n<a href=\"https://cal.com/blog\">Blog</a>\n<a href=\"/help/welcome\">Welcome</a>\n<a href=\"https://cal.com/docs\">cal.com/docs</a>\n<a href=\"https://go.cal.com/support\">go.cal.com/support</a>\n<a href=\"mailto:support@cal.com\">support@cal.com</a>\n<a href=\"#just-getting-started\">​</a>\n<a href=\"#you-can-also-follow-us-on-social-media\">​</a>\n<a href=\"/help/quick-start/create-account\">Create your account</a>\n<a href=\"https://x.com/calcom\">x</a>\n<a href=\"https://github.com/calcom\">github</a>\n<a href=\"https://www.linkedin.com/company/cal-com\">linkedin</a>\n<a href=\"https://www.mintlify.com?utm_campaign=poweredBy&amp;utm_medium=referral&amp;utm_source=calcomhelp\">Powered byThis documentation is built and hosted on Mintlify, a developer documentation platform</a>\n<script src=\"/help/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_CidATrbWDPa4UMToTw4J3sb6iBRV\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://app.cal.com/auth/login": {
+      "result": {
+        "url": "https://app.cal.com/auth/login",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 18:01:26 GMT"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["age", "0"],
+          ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          [
+            "content-security-policy",
+            "default-src 'self' ; script-src 'nonce-W4ZsWJcG+L0+8qVG4W8TAw==' 'strict-dynamic' 'self' 'unsafe-inline' https:; object-src 'none'; base-uri 'none'; frame-src www.youtube.com https://js.whop.cloud; child-src app.cal.com; style-src 'self' 'unsafe-inline' app.cal.com; font-src 'self'; img-src 'self' https://app.cal.com https://img.youtube.com https://eu.ui-avatars.com/api/ data:; connect-src 'self'"
+          ],
+          ["cross-origin-opener-policy", "same-origin-allow-popups"],
+          [
+            "link",
+            "</_next/static/media/CalSansVF-s.p.2rgkxu5r5bnqz.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"; type=\"font/woff2\", </_next/static/media/CalSansVF_Italic-s.p.1chx0yk-x7uu1.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"; type=\"font/woff2\", </_next/static/chunks/25zhmyxow6dbi.css>; rel=preload; as=\"style\"; nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\", </_next/static/chunks/0_hrvgoevl2o9.css>; rel=preload; as=\"style\"; nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\", </_next/static/chunks/0f8zx88n2mcd5.css>; rel=preload; as=\"style\"; nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\""
+          ],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["vary", "accept-encoding"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/auth/login"],
+          ["x-powered-by", "Next.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::cle1::plkqb-1791136886324-438e849beffa"],
+          ["cf-cache-status", "DYNAMIC"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a4561783686db1b8-OSL"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover\">\n<link rel=\"preload\" as=\"image\" href=\"/google-icon-colored.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/microsoft-logo.svg\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/25zhmyxow6dbi.css\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0_hrvgoevl2o9.css\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0f8zx88n2mcd5.css\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\" href=\"/_next/static/chunks/2n-tzeusxj9a8.js\">\n<script src=\"/_next/static/chunks/06i-jz32s-bg8.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/2r1nd404mqgat.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/1ega6ntky4e9k.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/3286zil4wt2cy.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/32u9gnf08m_yw.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/2y3z951bqjl_j.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/turbopack-1cw97n_026suc.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/44pep-cnghx00.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/31d6j93mdd7o0.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/05cw0hu657i38.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/1251jp3d0lzi6.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/05mvgrb06o78t.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/3pmz_70tew54e.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/1p0u99kefqtyp.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/13ijgh3wm0o50.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/15z4zli9lgtgc.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/1w0r159sihzie.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/2j7ya6ihbnnbc.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/0g4m-q3unk_7z.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/03fs8o7u5md22.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/06b52qzx1j8_8.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/3cyoy3mok75oi.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/10wo0ioc2sm35.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/1c3kpo9k72bv4.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/24xun0daafdys.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/201tirqy-5u0s.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/16yhrkqykmpb5.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/0grdm3yvihh_8.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/0w1p-fyen5cs_.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/0ehqqkdfrx804.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/0-1k-oh6qvu_i.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/3frkyr3oeoe7g.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/100_1aalqkfo-.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/0w7dogmrrt3bl.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/25p6-usb08i5t.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/3_fcsf8yn516o.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/1lrr4vu3hcd-w.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/1s0e_i3doyzlw.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/0ud5owlhxnd_7.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/1eaao0o7ik3zf.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/3_q6tl0-sofvg.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/12nwfbdnzvw8f.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/0ume8d10_2oh7.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/0l0i-2dc6wmwd.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/22dhhi_e1tj84.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/2ybxaa4pmhqom.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/2z_bpbvvm1uov.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/17ocqnwrf1bt4.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/3sx8taod2kxza.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/3zm7nmtipnaax.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/30sxvjwyef5lv.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/0rtxag47l7vj6.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/3lauqha71bnna.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/3bcxsy_q5ho8z.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/0kq3u5o7wyrtr.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/2w_pl_qd1anap.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/29o6vimf-78gm.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/245-bac5me-uq.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/1jvrcd--4lm5z.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/12f_abqi3dymn.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/1la9ve7qmet33.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/3bp0_kqa9wjga.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/27o8_9h3ik3ar.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/1xr5b9fvtlt-5.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/3aiivxlip0bef.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/3f2v7ao_-eu1d.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/3u2x8w7n_kvg1.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/3s9xjnlnrdou_.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/2l6v-h_nm-yit.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<script src=\"/_next/static/chunks/3yfew8o__zg_v.js\" async=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<link rel=\"preload\" href=\"/_next/static/chunks/2dsge4hlf9mjq.js\" as=\"script\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\" fetchpriority=\"low\">\n<link rel=\"preload\" href=\"/_next/static/chunks/2t5g3au46_twu.js\" as=\"script\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\" fetchpriority=\"low\">\n<meta name=\"theme-color\" content=\"#f9fafb\" media=\"(prefers-color-scheme: light)\">\n<meta name=\"theme-color\" content=\"#1C1C1C\" media=\"(prefers-color-scheme: dark)\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"description\" content=\"Login\">\n<link rel=\"manifest\" href=\"/site.webmanifest\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta name=\"application-TileColor\" content=\"#ff0000\">\n<link rel=\"canonical\" href=\"https://cal.com/auth/login\">\n<meta property=\"og:title\" content=\"Login | Cal.com\">\n<meta property=\"og:description\" content=\"Login\">\n<meta property=\"og:url\" content=\"https://cal.com/auth/login\">\n<meta property=\"og:site_name\" content=\"Cal.com\">\n<meta property=\"og:image\" content=\"https://cal.com/api/social/og/image?type=generic&amp;title=Login+%7C+Cal.com&amp;description=Login&amp;v=09218e81\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:site\" content=\"@calcom\">\n<meta name=\"twitter:creator\" content=\"@calcom\">\n<meta name=\"twitter:title\" content=\"Login | Cal.com\">\n<meta name=\"twitter:description\" content=\"Login\">\n<meta name=\"twitter:image\" content=\"https://cal.com/api/social/og/image?type=generic&amp;title=Login+%7C+Cal.com&amp;description=Login&amp;v=09218e81\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.1q-0a3fwhvvec.ico\" sizes=\"48x48\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/api/logo?type=favicon-32\">\n<link rel=\"apple-touch-icon\" href=\"/api/logo?type=apple-touch-icon\">\n<link rel=\"icon-mask\" href=\"/safari-pinned-tab.svg\" color=\"#000000\">\n<link rel=\"icon\" href=\"/api/logo?type=favicon-16\" sizes=\"16x16\" type=\"image/png\">\n<link rel=\"icon\" href=\"/api/logo?type=favicon-32\" sizes=\"32x32\" type=\"image/png\">\n<script src=\"/_next/static/chunks/0c0hxoamwjsbw.js\" nomodule=\"\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\"></script>\n<a href=\"/auth/forgot-password\">Forgot?</a>\n<a href=\"https://cal.com/signup?redirect=https%3A%2F%2Fapp.cal.com%2F\">Create account</a>\n<script src=\"/_next/static/chunks/2n-tzeusxj9a8.js\" nonce=\"W4ZsWJcG+L0+8qVG4W8TAw==\" id=\"_R_\" async=\"\"></script>"
+      }
+    }
+  },
+  "dns": {
+    "NS cal.com": {
+      "result": {
+        "name": "cal.com",
+        "type": "NS",
+        "records": ["linda.ns.cloudflare.com", "carter.ns.cloudflare.com"]
+      }
+    },
+    "AAAA cal.com": {
+      "result": {
+        "name": "cal.com",
+        "type": "AAAA",
+        "records": ["2606:4700::6812:13e", "2606:4700::6812:3e"]
+      }
+    },
+    "A cal.com": {
+      "result": {
+        "name": "cal.com",
+        "type": "A",
+        "records": ["104.18.1.62", "104.18.0.62"]
+      }
+    },
+    "CNAME cal.com": {
+      "result": {
+        "name": "cal.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "TXT 62.0.18.104.origin.asn.cymru.com": {
+      "result": {
+        "name": "62.0.18.104.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | 104.18.0.0/20 | US | arin | 2014-03-28"]
+      }
+    },
+    "TXT as13335.asn.cymru.com": {
+      "result": {
+        "name": "AS13335.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | US | arin | 2010-07-14 | CLOUDFLARENET - Cloudflare, Inc., US"]
+      }
+    },
+    "A stackprobe-wildcard-check.cal.com": {
+      "result": {
+        "name": "stackprobe-wildcard-check.cal.com",
+        "type": "A",
+        "records": []
+      }
+    },
+    "CNAME stackprobe-wildcard-check.cal.com": {
+      "result": {
+        "name": "stackprobe-wildcard-check.cal.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A console.cal.com": {
+      "result": {
+        "name": "console.cal.com",
+        "type": "A",
+        "records": ["104.18.0.62", "104.18.1.62"]
+      }
+    },
+    "CNAME dashboard.cal.com": {
+      "result": {
+        "name": "dashboard.cal.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A api.cal.com": {
+      "result": {
+        "name": "api.cal.com",
+        "type": "A",
+        "records": ["104.18.1.62", "104.18.0.62"]
+      }
+    },
+    "CNAME status.cal.com": {
+      "result": {
+        "name": "status.cal.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A status.cal.com": {
+      "result": {
+        "name": "status.cal.com",
+        "type": "A",
+        "records": ["104.18.1.62", "104.18.0.62"]
+      }
+    },
+    "CNAME portal.cal.com": {
+      "result": {
+        "name": "portal.cal.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A docs.cal.com": {
+      "result": {
+        "name": "docs.cal.com",
+        "type": "A",
+        "records": ["104.18.0.62", "104.18.1.62"]
+      }
+    },
+    "CNAME console.cal.com": {
+      "result": {
+        "name": "console.cal.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A dashboard.cal.com": {
+      "result": {
+        "name": "dashboard.cal.com",
+        "type": "A",
+        "records": []
+      }
+    },
+    "A portal.cal.com": {
+      "result": {
+        "name": "portal.cal.com",
+        "type": "A",
+        "records": []
+      }
+    },
+    "CNAME api.cal.com": {
+      "result": {
+        "name": "api.cal.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "CNAME docs.cal.com": {
+      "result": {
+        "name": "docs.cal.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A app.cal.com": {
+      "result": {
+        "name": "app.cal.com",
+        "type": "A",
+        "records": ["104.18.0.62", "104.18.1.62"]
+      }
+    },
+    "NS api.cal.com": {
+      "result": {
+        "name": "api.cal.com",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "AAAA api.cal.com": {
+      "result": {
+        "name": "api.cal.com",
+        "type": "AAAA",
+        "records": ["2606:4700::6812:13e", "2606:4700::6812:3e"]
+      }
+    },
+    "AAAA console.cal.com": {
+      "result": {
+        "name": "console.cal.com",
+        "type": "AAAA",
+        "records": ["2606:4700::6812:13e", "2606:4700::6812:3e"]
+      }
+    },
+    "AAAA app.cal.com": {
+      "result": {
+        "name": "app.cal.com",
+        "type": "AAAA",
+        "records": ["2606:4700::6812:3e", "2606:4700::6812:13e"]
+      }
+    },
+    "NS console.cal.com": {
+      "result": {
+        "name": "console.cal.com",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "NS app.cal.com": {
+      "result": {
+        "name": "app.cal.com",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "CNAME app.cal.com": {
+      "result": {
+        "name": "app.cal.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "AAAA docs.cal.com": {
+      "result": {
+        "name": "docs.cal.com",
+        "type": "AAAA",
+        "records": ["2606:4700::6812:3e", "2606:4700::6812:13e"]
+      }
+    },
+    "NS docs.cal.com": {
+      "result": {
+        "name": "docs.cal.com",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "TXT 62.1.18.104.origin.asn.cymru.com": {
+      "result": {
+        "name": "62.1.18.104.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | 104.18.0.0/20 | US | arin | 2014-03-28"]
+      }
+    }
+  },
+  "tls": {
+    "cal.com:443": {
+      "result": {
+        "host": "cal.com",
+        "ip": "104.18.0.62",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "subjectAltNames": ["cal.com", "external.cal.com"],
+        "validFrom": "Aug 14 15:05:58 2026 GMT",
+        "validTo": "Nov 12 16:05:53 2026 GMT"
+      }
+    },
+    "app.cal.com:443": {
+      "result": {
+        "host": "app.cal.com",
+        "ip": "104.18.0.62",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "subjectAltNames": ["cal.com", "*.cal.com"],
+        "validFrom": "Aug 19 15:10:04 2026 GMT",
+        "validTo": "Nov 17 16:09:56 2026 GMT"
+      }
+    },
+    "console.cal.com:443": {
+      "result": {
+        "host": "console.cal.com",
+        "ip": "104.18.0.62",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "subjectAltNames": ["cal.com", "*.cal.com"],
+        "validFrom": "Aug 19 15:10:04 2026 GMT",
+        "validTo": "Nov 17 16:09:56 2026 GMT"
+      }
+    },
+    "api.cal.com:443": {
+      "result": {
+        "host": "api.cal.com",
+        "ip": "104.18.1.62",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "subjectAltNames": ["cal.com", "*.cal.com"],
+        "validFrom": "Aug 19 15:10:04 2026 GMT",
+        "validTo": "Nov 17 16:09:56 2026 GMT"
+      }
+    },
+    "docs.cal.com:443": {
+      "result": {
+        "host": "docs.cal.com",
+        "ip": "104.18.1.62",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "subjectAltNames": ["cal.com", "*.cal.com"],
+        "validFrom": "Aug 19 15:10:04 2026 GMT",
+        "validTo": "Nov 17 16:09:56 2026 GMT"
+      }
+    }
+  }
+}

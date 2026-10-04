@@ -45,6 +45,35 @@
               }
             ]
           },
+          "foundBy": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "const": "link"
+                  },
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": ["kind"],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "const": "subdomain"
+                  }
+                },
+                "required": ["kind"],
+                "additionalProperties": false
+              }
+            ]
+          },
           "detections": {
             "type": "array",
             "items": {

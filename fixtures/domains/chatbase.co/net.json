@@ -1,0 +1,644 @@
+{
+  "url": "https://chatbase.co/",
+  "recordedAt": "2026-10-04T18:01:26.843Z",
+  "http": {
+    "GET https://chatbase.co/": {
+      "result": {
+        "url": "https://chatbase.co/",
+        "status": 308,
+        "headers": [
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-type", "text/html"],
+          ["date", "Sun, 04 Oct 2026 18:01:26 GMT"],
+          ["location", "https://www.chatbase.co/"],
+          ["refresh", "0;url=https://www.chatbase.co/"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-vercel-id", "arn1::2rvjf-1791136886929-d4bd9d80dd33"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<a href=\"https://www.chatbase.co/\">here</a>"
+      }
+    },
+    "GET https://www.chatbase.co/": {
+      "result": {
+        "url": "https://www.chatbase.co/",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "6764"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:27 GMT"],
+          ["etag", "W/\"4fc0fa3a5a92c27a950590c0ac3b6e63\""],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "300"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::x46fj-1791136887032-793d1a908c6c"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preload\" href=\"/__cb/_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/__cb/_next/static/immutable/media/caa3a2e1cccd8315-s.p.0zr6hhvz-h9nw.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/fonts/ProzaDisplay-SemiBoldItalic.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/fonts/ProzaDisplay-BoldItalic.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" as=\"image\" href=\"https://img.youtube.com/vi/Ifkqr_9sZwI/maxresdefault.jpg\">\n<link rel=\"preload\" as=\"image\" href=\"https://img.youtube.com/vi/wUW8i-8POnM/maxresdefault.jpg\">\n<link rel=\"preload\" as=\"image\" href=\"https://img.youtube.com/vi/W-zq6g9lM7A/maxresdefault.jpg\">\n<link rel=\"preload\" as=\"image\" href=\"/__cb/_next/static/immutable/media/grain.2yo71lp6k8fnp.webp\">\n<link rel=\"preload\" as=\"image\" href=\"/__cb/_next/static/immutable/media/hero-bg.098jdqowb0l1f.webp\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/0pd517pxh6vcm.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/2-5wzhu8qppjo.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/1t4cxi75rdbk2.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/3u2p097r6uft5.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/33s0tsyfwpoob.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/__cb/_next/static/immutable/chunks/0c3qvn961npnn.js\">\n<script src=\"/__cb/_next/static/immutable/chunks/1191lj8_x8otc.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2nwa74aoyrwy0.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/030_x03l9ly56.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0ux-h5uvcuc89.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/turbopack-22-c1oqq6f7zu.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0x-9rc1bm-510.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2qdblmd4je3nh.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/4519rpd7jxu8x.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0x767289iclnm.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1ciksvojfipik.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/26520i_dqg323.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3l6-c6vc89ks3.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3th-44uczva1s.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0lpzvm68p_5b7.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0yre_ngvk4fsm.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3vgtzkidybmkg.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3t1g0gue_7_2e.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/33n4ouh7f3_9s.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1imv5lnii1thd.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/22mnbgxpw3eje.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1-0y7-7nhhxm1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/10h9wya-h4zph.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/26v9vzy95by3x.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/30_ukc6_fhn_b.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3uzfp5gpfy5yl.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/05i21-8v2mk_f.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2loevn1b5-7nz.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0-wjlyk8qsae_.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0k8_f9q3v7zje.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/265b_qfa8ll22.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/19djz-ikoqxob.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0jg6-d7a0s4rq.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2ycgcwwyw6cyk.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1jwucibl33i5t.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/01xh-j2cgpdcr.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0scfqueeumc-n.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3a7e1c69cq9lj.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2ru58m5-p8iqz.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3e91pmucx-ehy.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0xkyrvepjetfk.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0b8ps6pzkqs3t.js\" async=\"\" crossorigin=\"\"></script>\n<meta name=\"next-size-adjust\" content=\"\">\n<link rel=\"preload\" href=\"/fonts/ProzaDisplay-SemiBoldItalic.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/fonts/ProzaDisplay-BoldItalic.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<meta name=\"description\" content=\"Chatbase is the AI customer experience platform. Its AI agents resolve complex queries and reduce ticket volume in every channel for over 10,000 businesses.\">\n<meta name=\"application-name\" content=\"Chatbase: The Leading AI Customer Support Agent Platform\">\n<meta name=\"author\" content=\"Chatbase\">\n<meta name=\"keywords\" content=\"AI customer service,conversational AI platform,customer experience AI,AI customer support,AI customer support platform,customer service automation,customer support AI agents,customer support automation,AI support agents,AI chatbot for customer service,customer service AI agents,AI customer experience platform,intelligent customer support,enterprise AI agents,omnichannel customer support,helpdesk automation,chatbot,chatbot api,chatbot platform,chatbot builder,chatGPT,chatGPT api\">\n<meta name=\"robots\" content=\"index, follow\">\n<link rel=\"canonical\" href=\"https://www.chatbase.co\">\n<meta property=\"og:title\" content=\"AI Agents for Customer Experience &amp; Support | Chatbase\">\n<meta property=\"og:description\" content=\"Chatbase is the AI customer experience platform. Its AI agents resolve complex queries and reduce ticket volume in every channel for over 10,000 businesses.\">\n<meta property=\"og:url\" content=\"https://www.chatbase.co\">\n<meta property=\"og:image\" content=\"https://www.chatbase.co/og-home.jpg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"675\">\n<meta property=\"og:image:alt\" content=\"Chatbase - Build AI Agents for customer support\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:site\" content=\"@chatbase\">\n<meta name=\"twitter:creator\" content=\"@chatbase\">\n<meta name=\"twitter:title\" content=\"AI Agents for Customer Experience &amp; Support | Chatbase\">\n<meta name=\"twitter:description\" content=\"Chatbase is the AI customer experience platform. Its AI agents resolve complex queries and reduce ticket volume in every channel for over 10,000 businesses.\">\n<meta name=\"twitter:image\" content=\"https://www.chatbase.co/og-home.jpg\">\n<meta name=\"twitter:image:alt\" content=\"Chatbase - Build AI Agents for customer support\">\n<meta name=\"twitter:image:width\" content=\"1200\">\n<meta name=\"twitter:image:height\" content=\"675\">\n<link rel=\"icon\" href=\"/favicon.ico\">\n<script src=\"/__cb/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"/\">Chatbase</a>\n<a href=\"/customers\">Customers</a>\n<a href=\"/enterprise\">Enterprise</a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"/dashboard?next=create-new-chatbot\">Start free trial</a>\n<a href=\"/enterprise\">Get a demo</a>\n<a href=\"/customers/opal\">Expandable</a>\n<a href=\"/customers/thotis-media\">Expandable</a>\n<a href=\"/customers/aplazo\">Expandable</a>\n<a href=\"/customers/jumia\">Expandable</a>\n<a href=\"/dashboard?next=create-new-chatbot\">Create Agent</a>\n<a href=\"/customers/aplazo\">Learn more</a>\n<a href=\"/customers/opal\">Read customer story</a>\n<a href=\"/customers/testicular-cancer-foundation\">Read customer story</a>\n<a href=\"/customers/thotis-media\">Read customer story</a>\n<a href=\"/industry/retail\">Retail &amp; E-commerce</a>\n<a href=\"/industry/tech\">Technology</a>\n<a href=\"/industry/travel\">Travel &amp; Hospitality</a>\n<a href=\"/industry/financial-services\">Financial Services</a>\n<a href=\"/industry/retail\">AI AgentRetail &amp; E-commerceShoppers want sizing, shipping, and returns answered instantly. AI agents</a>\n<a href=\"/industry/tech\">AI AgentTechnologyYour users want help inside the product, not a ticket queue. Embed an identity-ver</a>\n<a href=\"/industry/travel\">AI AgentTravel &amp; HospitalityGuests ask about availability, rates, and check-in at every hour. AI age</a>\n<a href=\"/industry/financial-services\">AI AgentFinancial ServicesLost cards, disputed charges, and account changes cannot wait on hold. AI </a>\n<a href=\"/dashboard?next=create-new-chatbot\">Create agent</a>\n<a href=\"https://x.com/chatbase\"></a>\n<a href=\"https://www.linkedin.com/company/chatbase-co/\"></a>\n<a href=\"https://www.instagram.com/chatbase_co/\"></a>\n<a href=\"https://www.youtube.com/@chatbase_\"></a>\n<a href=\"/security\">Security</a>\n<a href=\"/experts\">Chatbase Experts</a>\n<a href=\"/experts/hire\">Hire an Expert</a>\n<a href=\"https://partners.dub.co/chatbase\">Affiliates</a>\n<a href=\"/features/product-overview\">Product overview</a>\n<a href=\"/features/widgets\">Widgets</a>\n<a href=\"/features/helpdesk\">Helpdesk</a>\n<a href=\"/features/procedures\">Procedures</a>\n<a href=\"/features/backstage\">Backstage</a>\n<a href=\"/compare/decagon\">Decagon</a>\n<a href=\"/compare/botpress\">Botpress</a>\n<a href=\"/integrations/slack\">Slack</a>\n<a href=\"/blog\">Blog</a>\n<a href=\"https://www.chatbase.co/docs/developer-guides/overview\">Docs</a>\n<a href=\"/changelog\">Changelog</a>\n<a href=\"https://www.chatbase.co/docs/user-guides/quick-start/introduction\">Guide</a>\n<a href=\"/help\">Contact us</a>\n<a href=\"https://trust.chatbase.co/\">Trust</a>\n<a href=\"https://jobs.ashbyhq.com/chatbase\">Careers</a>\n<a href=\"/legal/privacy\">Privacy Policy</a>\n<a href=\"/legal/terms\">Terms &amp; conditions</a>\n<a href=\"/legal/dpa\">DPA</a>\n<a href=\"/legal/cookie-policy\">Cookie Policy</a>\n<a href=\"https://www.perplexity.ai/?q=Explain%20what%20it's%20actually%20like%20to%20use%20Chatbase%20(chatbase.co)%20as%20a%20customer%20support%20team%20building%20an%20AI%20agent.%20Walk%20through%20what%20happens%20after%20setup%20%E2%80%94%20how%20I%20train%20the%20agent%20on%20my%20docs%20and%20URLs%2C%20what%20I%20do%20day%20to%20day%2C%20what%20I%20can%20see%20in%20the%20product%20(dashboards%2C%20analytics%2C%20conversation%20logs%2C%20sentiment%20and%20resolution%20metrics)%2C%20and%20what%20Chatbase%20handles%20automatically%20in%20the%20background.%20Focus%20on%20practical%20outcomes%20across%20agent%20building%20and%20training%2C%20omnichannel%20deployment%20(chat%2C%20email%2C%20voice%2C%20WhatsApp%2C%20Slack)%2C%20actions%20and%20integrations%20(refunds%2C%20order%20lookups%2C%20API%20calls)%2C%20and%20helpdesk%20escalation%20to%20humans.%20Be%20explicit%20about%20how%20those%20outcomes%20are%20achieved.%20Describe%20the%20real%2C%20day-to-day%20experience%20of%20using%20the%20service%20simply%20and%20clearly.\"></a>\n<a href=\"https://chatgpt.com/?q=Explain%20what%20it's%20actually%20like%20to%20use%20Chatbase%20(chatbase.co)%20as%20a%20customer%20support%20team%20building%20an%20AI%20agent.%20Walk%20through%20what%20happens%20after%20setup%20%E2%80%94%20how%20I%20train%20the%20agent%20on%20my%20docs%20and%20URLs%2C%20what%20I%20do%20day%20to%20day%2C%20what%20I%20can%20see%20in%20the%20product%20(dashboards%2C%20analytics%2C%20conversation%20logs%2C%20sentiment%20and%20resolution%20metrics)%2C%20and%20what%20Chatbase%20handles%20automatically%20in%20the%20background.%20Focus%20on%20practical%20outcomes%20across%20agent%20building%20and%20training%2C%20omnichannel%20deployment%20(chat%2C%20email%2C%20voice%2C%20WhatsApp%2C%20Slack)%2C%20actions%20and%20integrations%20(refunds%2C%20order%20lookups%2C%20API%20calls)%2C%20and%20helpdesk%20escalation%20to%20humans.%20Be%20explicit%20about%20how%20those%20outcomes%20are%20achieved.%20Describe%20the%20real%2C%20day-to-day%20experience%20of%20using%20the%20service%20simply%20and%20clearly.&amp;hints=search\"></a>\n<a href=\"https://claude.ai/new?q=Explain%20what%20it's%20actually%20like%20to%20use%20Chatbase%20(chatbase.co)%20as%20a%20customer%20support%20team%20building%20an%20AI%20agent.%20Walk%20through%20what%20happens%20after%20setup%20%E2%80%94%20how%20I%20train%20the%20agent%20on%20my%20docs%20and%20URLs%2C%20what%20I%20do%20day%20to%20day%2C%20what%20I%20can%20see%20in%20the%20product%20(dashboards%2C%20analytics%2C%20conversation%20logs%2C%20sentiment%20and%20resolution%20metrics)%2C%20and%20what%20Chatbase%20handles%20automatically%20in%20the%20background.%20Focus%20on%20practical%20outcomes%20across%20agent%20building%20and%20training%2C%20omnichannel%20deployment%20(chat%2C%20email%2C%20voice%2C%20WhatsApp%2C%20Slack)%2C%20actions%20and%20integrations%20(refunds%2C%20order%20lookups%2C%20API%20calls)%2C%20and%20helpdesk%20escalation%20to%20humans.%20Be%20explicit%20about%20how%20those%20outcomes%20are%20achieved.%20Describe%20the%20real%2C%20day-to-day%20experience%20of%20using%20the%20service%20simply%20and%20clearly.\"></a>\n<a href=\"/llm-info\">Hey AI, learn about us</a>\n<script src=\"/__cb/_next/static/immutable/chunks/0c3qvn961npnn.js\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://www.chatbase.co/dashboard": {
+      "result": {
+        "url": "https://www.chatbase.co/dashboard",
+        "status": 307,
+        "headers": [
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "text/html"],
+          ["date", "Sun, 04 Oct 2026 18:01:27 GMT"],
+          ["location", "/auth/signin?next=%2Fdashboard"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-id", "arn1::bfqcw-1791136887222-66aefdd48fd9"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<a href=\"/auth/signin?next=%252Fdashboard\">here</a>"
+      }
+    },
+    "GET https://docs.chatbase.co/": {
+      "result": {
+        "url": "https://docs.chatbase.co/",
+        "status": 308,
+        "headers": [
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "text/html"],
+          ["date", "Sun, 04 Oct 2026 18:01:27 GMT"],
+          ["location", "https://www.chatbase.co/docs/"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["refresh", "0;url=https://www.chatbase.co/docs/"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-id", "arn1::9wfpx-1791136887281-83d30794d555"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<a href=\"https://www.chatbase.co/docs/\">here</a>"
+      }
+    },
+    "GET https://api.chatbase.co/": {
+      "result": {
+        "url": "https://api.chatbase.co/",
+        "status": 404,
+        "headers": [
+          ["access-control-expose-headers", "Retry-After"],
+          ["content-security-policy", "default-src 'none'"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:27 GMT"],
+          ["server", "railway-hikari"],
+          ["vary", "Origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-powered-by", "Express"],
+          ["x-railway-request-id", "WiRbGbFiRRqNKKxtBT7zVQ"],
+          ["content-length", "139"],
+          ["x-hikari-trace", "osl1.sq22"],
+          ["x-railway-edge", "osl1"],
+          ["connection", "keep-alive"]
+        ],
+        "body": "<meta charset=\"utf-8\">"
+      }
+    },
+    "GET https://www.chatbase.co/auth/signin?next=%2Fdashboard": {
+      "result": {
+        "url": "https://www.chatbase.co/auth/signin?next=%2Fdashboard",
+        "status": 200,
+        "headers": [
+          ["age", "0"],
+          ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:27 GMT"],
+          [
+            "link",
+            "</__cb/_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </__cb/_next/static/immutable/media/caa3a2e1cccd8315-s.p.0zr6hhvz-h9nw.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </fonts/ProzaDisplay-SemiBoldItalic.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </fonts/ProzaDisplay-BoldItalic.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\""
+          ],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/auth/signin"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::iad1::bfqcw-1791136887281-a85a7d006294"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/0pd517pxh6vcm.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/2-5wzhu8qppjo.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/1t4cxi75rdbk2.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/3u2p097r6uft5.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/__cb/_next/static/immutable/chunks/0c3qvn961npnn.js\">\n<script src=\"/__cb/_next/static/immutable/chunks/1191lj8_x8otc.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2nwa74aoyrwy0.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/030_x03l9ly56.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0ux-h5uvcuc89.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/turbopack-22-c1oqq6f7zu.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0x-9rc1bm-510.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2qdblmd4je3nh.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/4519rpd7jxu8x.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0x767289iclnm.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1ciksvojfipik.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/26520i_dqg323.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3l6-c6vc89ks3.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3th-44uczva1s.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0lpzvm68p_5b7.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0yre_ngvk4fsm.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3vgtzkidybmkg.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3t1g0gue_7_2e.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/33n4ouh7f3_9s.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1imv5lnii1thd.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/22mnbgxpw3eje.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1-0y7-7nhhxm1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/10h9wya-h4zph.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/26v9vzy95by3x.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/30_ukc6_fhn_b.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3uzfp5gpfy5yl.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/05i21-8v2mk_f.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2loevn1b5-7nz.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0-wjlyk8qsae_.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0k8_f9q3v7zje.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/00pjbka6tgacw.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1zii8055jnmqm.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0b8ps6pzkqs3t.js\" async=\"\" crossorigin=\"\"></script>\n<meta name=\"description\" content=\"Sign in to your account\">\n<meta name=\"robots\" content=\"noindex, nofollow\">\n<link rel=\"canonical\" href=\"https://www.chatbase.co/auth/signin\">\n<meta name=\"next-size-adjust\" content=\"\">\n<link rel=\"preload\" href=\"/fonts/ProzaDisplay-SemiBoldItalic.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/fonts/ProzaDisplay-BoldItalic.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<script src=\"/__cb/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"/\">Chatbase</a>\n<a href=\"/auth/signup?next=%2Fdashboard\">Create a new account</a>\n<a href=\"/auth/sso\">Sign in with SSO</a>\n<a href=\"/legal/terms\">Terms</a>\n<a href=\"/legal/privacy\">Privacy</a>\n<script src=\"/__cb/_next/static/immutable/chunks/0c3qvn961npnn.js\" id=\"_R_\" async=\"\"></script>\n<a href=\"/auth/password-reset?next=%2Fdashboard\">Forgot password?</a>"
+      }
+    },
+    "GET https://www.chatbase.co/docs/developer-guides/overview": {
+      "result": {
+        "url": "https://www.chatbase.co/docs/developer-guides/overview",
+        "status": 200,
+        "headers": [
+          ["age", "8726"],
+          ["cache-control", "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"],
+          ["cf-cache-status", "HIT"],
+          ["cf-ray", "a456178a4ebbaab2-ARN"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "worker-src 'self' blob:; object-src 'none'; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self'; default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:;"
+          ],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:27 GMT"],
+          ["etag", "W/\"l80wvkx22y6h6l\""],
+          ["expires", "0"],
+          [
+            "link",
+            "</docs/llms.txt>; rel=\"llms-txt\", </docs/llms-full.txt>; rel=\"llms-full-txt\", </docs/.well-known/api-catalog>; rel=\"api-catalog\", </docs/.well-known/mcp/server-card.json>; rel=\"mcp-server-card\", </docs/.well-known/agent-card.json>; rel=\"agent-card\", </docs/.well-known/agent-skills/index.json>; rel=\"agent-skills\""
+          ],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["pragma", "no-cache"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["reporting-endpoints", "mintlify-csp=\"/docs/_mintlify/api/csp-report\""],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "rsc, accept-encoding, Accept, User-Agent"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-llms-txt", "/docs/llms.txt"],
+          ["x-matched-path", "/_sites/[subdomain]/[[...slug]]"],
+          ["x-mint-proxy-version", "1.0.0-prod"],
+          ["x-mintlify-client-version", "0.0.3774"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "60"],
+          ["x-served-version", "dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ"],
+          ["x-vercel-cache", "REVALIDATED"],
+          ["x-vercel-id", "arn1:arn1:iad1::iad1::pmln5-1791136887280-dfa4a9177d2a"],
+          ["x-vercel-project-id", "prj_ekSYngkqMLMUb1wdarxNSixTj2nj"],
+          ["x-version", "dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" href=\"/docs/_next/static/media/83afe278b6a6bb3c.p.3a6ba036.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/docs/_next/static/media/PaperMono_Variable.p.aa32f7a0.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/docs/_next/static/media/f67ad414ed34149c.p.84166d94.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" as=\"image\" href=\"https://mintcdn.com/chatbase/8k6_6eFSz4sj8EO0/logo/light.png?fit=max&amp;auto=format&amp;n=8k6_6eFSz4sj8EO0&amp;q=85&amp;s=5b4a30b626e13464183de1440bcee6a2\">\n<link rel=\"preload\" as=\"image\" href=\"https://mintcdn.com/chatbase/8k6_6eFSz4sj8EO0/logo/dark.svg?fit=max&amp;auto=format&amp;n=8k6_6eFSz4sj8EO0&amp;q=85&amp;s=c0c106d2f92f6a87f872a2be66706041\">\n<link rel=\"preload\" as=\"image\" href=\"https://mintlify.s3.us-west-1.amazonaws.com/chatbase/logo/light.svg\">\n<link rel=\"stylesheet\" href=\"/docs/_next/static/chunks/462bacc63bed9960.css?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/docs/_next/static/chunks/be2d2a9922fde67d.css?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/docs/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\">\n<script src=\"/docs/_next/static/chunks/44795504c795ca32.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/bacb7e0d52e4b451.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/b730549587248be7.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/d24f46ac0d244a3f.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/turbopack-176ad69d069e4080.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/6da4d41f9a3f1e56.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/c50d793b8f34b10b.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/9b51ed6445f8c728.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/8d0901e40ed4b058.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/343f3c7f568a2e5d.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/ccee8d9b3189ccd9.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/3b847e5370bd724e.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/4fa3ca58dfaaeff8.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/468295ca52ed5c09.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/4655c61fa7aba124.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/da953b59c0c41f06.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/f0ef0acaeece4a23.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/7538d80a516400fa.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/8a19ec8c194a3b47.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/589b24301b3a37b4.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/d2fedac44d815262.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/c3a3ab2374198660.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/de5d31edef447a03.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/3a30a2353087aade.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/f19aa31a2b13eef7.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/ff9b0d3d29045006.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/57ef37c03eb76089.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/44b0178948143b4f.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/41c8239ff6030cd1.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/e452a5c043e34035.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/fde44643dbef1bcd.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/c58283ba69dd38df.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/e5dcdb55f621f74a.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/1a0bf1d33a977db0.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/0d29cfad69957710.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<link rel=\"preload\" href=\"/docs/_next/static/chunks/ed45ca9fc4fad2f8.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" as=\"script\" fetchpriority=\"low\">\n<link rel=\"preload\" href=\"/docs/_next/static/chunks/5917258e888b4dff.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" as=\"script\" fetchpriority=\"low\">\n<link rel=\"preload\" href=\"/docs/_next/static/chunks/c18d87551163d4f9.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" as=\"script\" fetchpriority=\"low\">\n<meta name=\"description\" content=\"Welcome to the Chatbase Developer Guide! Whether you're embedding a simple chat widget or building complex integrations, this guide will help you implement AI-powered conversations in your application.\">\n<meta name=\"application-name\" content=\"Chatbase\">\n<meta name=\"generator\" content=\"Mintlify\">\n<meta name=\"msapplication-config\" content=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon/browserconfig.xml\">\n<meta name=\"apple-mobile-web-app-title\" content=\"Chatbase\">\n<meta name=\"msapplication-TileColor\" content=\"#18181b\">\n<link rel=\"canonical\" href=\"https://www.chatbase.co/docs/developer-guides/overview\">\n<link rel=\"alternate\" type=\"application/xml\" href=\"/docs/sitemap.xml\">\n<link rel=\"alternate\" type=\"text/markdown\" href=\"/docs/developer-guides/overview.md\">\n<meta property=\"og:title\" content=\"Developer Overview - Chatbase\">\n<meta property=\"og:description\" content=\"Welcome to the Chatbase Developer Guide! Whether you're embedding a simple chat widget or building complex integrations, this guide will help you implement AI-powered conversations in your application.\">\n<meta property=\"og:url\" content=\"https://www.chatbase.co/docs/developer-guides/overview\">\n<meta property=\"og:site_name\" content=\"Chatbase\">\n<meta property=\"og:image\" content=\"https://chatbase.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGetting%2BStarted%26title%3DDeveloper%2BOverview%26description%3DWelcome%2Bto%2Bthe%2BChatbase%2BDeveloper%2BGuide%2521%2BWhether%2Byou%2527re%2Bembedding%2Ba%2Bsimple%2Bchat%2Bwidget%2Bor%2Bbuilding%2Bcomplex%2Bintegrations%252C%2Bthis%2Bguide%2Bwill%2Bhelp%2Byou%2Bimplement%2BAI-p%26theme%3D009f8b20aa16a94d5a19be9b&amp;w=1200&amp;q=100\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Developer Overview - Chatbase\">\n<meta name=\"twitter:description\" content=\"Welcome to the Chatbase Developer Guide! Whether you're embedding a simple chat widget or building complex integrations, this guide will help you implement AI-powered conversations in your application.\">\n<meta name=\"twitter:image\" content=\"https://chatbase.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGetting%2BStarted%26title%3DDeveloper%2BOverview%26description%3DWelcome%2Bto%2Bthe%2BChatbase%2BDeveloper%2BGuide%2521%2BWhether%2Byou%2527re%2Bembedding%2Ba%2Bsimple%2Bchat%2Bwidget%2Bor%2Bbuilding%2Bcomplex%2Bintegrations%252C%2Bthis%2Bguide%2Bwill%2Bhelp%2Byou%2Bimplement%2BAI-p%26theme%3D009f8b20aa16a94d5a19be9b&amp;w=1200&amp;q=100\">\n<meta name=\"twitter:image:width\" content=\"1200\">\n<meta name=\"twitter:image:height\" content=\"630\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon/android-chrome-192x192.png\" type=\"image/png\" sizes=\"192x192\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"apple-touch-icon\" href=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon/apple-touch-icon.png\" type=\"image/png\" sizes=\"180x180\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon/favicon-16x16.png\" type=\"image/png\" sizes=\"16x16\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon/favicon-32x32.png\" type=\"image/png\" sizes=\"32x32\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"shortcut icon\" href=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon/favicon.ico\" type=\"image/x-icon\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon-dark/android-chrome-192x192.png\" type=\"image/png\" sizes=\"192x192\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon-dark/favicon-16x16.png\" type=\"image/png\" sizes=\"16x16\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon-dark/favicon-32x32.png\" type=\"image/png\" sizes=\"32x32\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"shortcut icon\" href=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon-dark/favicon.ico\" type=\"image/x-icon\" media=\"(prefers-color-scheme: dark)\">\n<script src=\"/docs/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" nomodule=\"\"></script>\n<a href=\"/docs/llms.txt\">/docs/llms.txt</a>\n<a href=\"#content-area\">Skip to main content</a>\n<a href=\"https://chatbase.co\">Chatbase home page</a>\n<a href=\"https://chatbase.co/help\">Support</a>\n<a href=\"https://www.chatbase.co/dashboard\">Dashboard</a>\n<a href=\"/docs/user-guides/quick-start/introduction\">User Guide</a>\n<a href=\"/docs/developer-guides/overview\">Developer Guide</a>\n<a href=\"/docs/api-v2/overview\">API v2 Reference</a>\n<a href=\"/docs/cli/overview\">CLI</a>\n<a href=\"/docs/android-sdk/overview\">Android SDK</a>\n<a href=\"/docs/ios-sdk/overview\">iOS SDK</a>\n<a href=\"/docs/faq/faq\">Help &amp; Support</a>\n<a href=\"/docs/developer-guides/overview\">Developer Overview</a>\n<a href=\"/docs/developer-guides/javascript-embed\">JavaScript Embed Script</a>\n<a href=\"/docs/developer-guides/api-integration\">REST API Integration</a>\n<a href=\"/docs/developer-guides/identity-verification\">Identity Verification</a>\n<a href=\"/docs/developer-guides/utm-tracking\">UTM Tracking</a>\n<a href=\"/docs/developer-guides/client-side-custom-actions\">Client-Side Custom Actions</a>\n<a href=\"/docs/developer-guides/client-side-custom-forms\">Client-Side Custom Forms</a>\n<a href=\"/docs/developer-guides/chat-bubble-control\">Chat bubble Control</a>\n<a href=\"/docs/developer-guides/chatbot-event-listeners\">Event Listeners</a>\n<a href=\"/docs/developer-guides/custom-initial-messages\">Custom Initial Messages</a>\n<a href=\"/docs/developer-guides/floating-initial-messages\">Floating Initial Messages</a>\n<a href=\"/docs/developer-guides/mcp\">MCP Server</a>\n<a href=\"/docs/developer-guides/help-page-proxy\">Help Page Proxy</a>\n<a href=\"/docs/developer-guides/custom-domains\">Custom Domains</a>\n<a href=\"/docs/developer-guides/webhooks\">Webhook API Guide</a>\n<a href=\"/docs/developer-guides/hipaa-webhooks\">HIPAA Conversation Webhook</a>\n<a href=\"/docs/developer-guides/widgets/overview\">Widgets Overview</a>\n<a href=\"/docs/developer-guides/widgets/ai-widget-builder\">AI Widget Builder</a>\n<a href=\"/docs/developer-guides/widgets/code-editor\">Code Editor</a>\n<a href=\"/docs/developer-guides/widgets/functions\">Functions</a>\n<a href=\"/docs/developer-guides/widgets/states\">States</a>\n<a href=\"/docs/developer-guides/widgets/file-uploads\">File Uploads</a>\n<a href=\"#choose-your-integration-path\">Choose Your Integration Path</a>\n<a href=\"#javascript-embed-integration\">JavaScript Embed Integration</a>\n<a href=\"#rest-api-integration\">REST API Integration</a>\n<a href=\"#common-integration-patterns\">Common Integration Patterns</a>\n<a href=\"#choose-your-integration-path\">​</a>\n<a href=\"#javascript-embed-integration\">​</a>\n<a href=\"#rest-api-integration\">​</a>\n<a href=\"#common-integration-patterns\">​</a>\n<a href=\"https://x.com/chatbase_co\">x</a>\n<a href=\"https://linkedin.com/company/chatbase-co\">linkedin</a>\n<a href=\"https://www.youtube.com/@chatbase_\">youtube</a>\n<a href=\"https://www.mintlify.com?utm_campaign=poweredBy&amp;utm_medium=referral&amp;utm_source=chatbase\">Powered byThis documentation is built and hosted on Mintlify, a developer documentation platform</a>\n<script src=\"/docs/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://www.chatbase.co/docs/": {
+      "result": {
+        "url": "https://www.chatbase.co/docs/",
+        "status": 308,
+        "headers": [
+          ["cache-control", "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"],
+          ["cf-cache-status", "REVALIDATED"],
+          ["cf-ray", "a456178a7a19b9db-ARN"],
+          ["content-length", "102852"],
+          [
+            "content-security-policy",
+            "worker-src 'self' blob:; object-src 'none'; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self'; default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:;"
+          ],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:27 GMT"],
+          ["etag", "\"jjz1l3x4vb27d0\""],
+          ["expires", "0"],
+          [
+            "link",
+            "</docs/llms.txt>; rel=\"llms-txt\", </docs/llms-full.txt>; rel=\"llms-full-txt\", </docs/.well-known/api-catalog>; rel=\"api-catalog\", </docs/.well-known/mcp/server-card.json>; rel=\"mcp-server-card\", </docs/.well-known/agent-card.json>; rel=\"agent-card\", </docs/.well-known/agent-skills/index.json>; rel=\"agent-skills\""
+          ],
+          ["location", "/docs/user-guides/quick-start/introduction"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["pragma", "no-cache"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["reporting-endpoints", "mintlify-csp=\"/docs/_mintlify/api/csp-report\""],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "rsc, accept-encoding, Accept, User-Agent"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-llms-txt", "/docs/llms.txt"],
+          ["x-matched-path", "/_sites/[subdomain]/[[...slug]]"],
+          ["x-mint-proxy-version", "1.0.0-prod"],
+          ["x-mintlify-client-version", "0.0.3774"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "60"],
+          ["x-served-version", "dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ"],
+          ["x-vercel-cache", "REVALIDATED"],
+          ["x-vercel-id", "arn1:arn1:iad1:iad1:iad1::iad1::p4cc2-1791136887394-0ce48176e75b"],
+          ["x-vercel-project-id", "prj_ekSYngkqMLMUb1wdarxNSixTj2nj"],
+          ["x-version", "dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/docs/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\">\n<script src=\"/docs/_next/static/chunks/44795504c795ca32.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/bacb7e0d52e4b451.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/b730549587248be7.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/d24f46ac0d244a3f.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/turbopack-176ad69d069e4080.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" nomodule=\"\"></script>\n<script src=\"/docs/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://status.chatbase.co/": {
+      "error": {
+        "code": "TLS_HANDSHAKE",
+        "message": "certificate has expired"
+      }
+    },
+    "GET https://www.chatbase.co/docs/user-guides/quick-start/introduction": {
+      "result": {
+        "url": "https://www.chatbase.co/docs/user-guides/quick-start/introduction",
+        "status": 200,
+        "headers": [
+          ["age", "8726"],
+          ["cache-control", "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"],
+          ["cf-cache-status", "HIT"],
+          ["cf-ray", "a456178c8fd5aab2-ARN"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "worker-src 'self' blob:; object-src 'none'; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self'; default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:;"
+          ],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:27 GMT"],
+          ["etag", "W/\"g2y4ax8nub73zc\""],
+          ["expires", "0"],
+          [
+            "link",
+            "</docs/llms.txt>; rel=\"llms-txt\", </docs/llms-full.txt>; rel=\"llms-full-txt\", </docs/.well-known/api-catalog>; rel=\"api-catalog\", </docs/.well-known/mcp/server-card.json>; rel=\"mcp-server-card\", </docs/.well-known/agent-card.json>; rel=\"agent-card\", </docs/.well-known/agent-skills/index.json>; rel=\"agent-skills\""
+          ],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["pragma", "no-cache"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["reporting-endpoints", "mintlify-csp=\"/docs/_mintlify/api/csp-report\""],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "rsc, accept-encoding, Accept, User-Agent"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-llms-txt", "/docs/llms.txt"],
+          ["x-matched-path", "/_sites/[subdomain]/[[...slug]]"],
+          ["x-mint-proxy-version", "1.0.0-prod"],
+          ["x-mintlify-client-version", "0.0.3774"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "60"],
+          ["x-served-version", "dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ"],
+          ["x-vercel-cache", "REVALIDATED"],
+          ["x-vercel-id", "arn1:arn1:iad1::iad1::nxg2x-1791136887720-feae4aec81e9"],
+          ["x-vercel-project-id", "prj_ekSYngkqMLMUb1wdarxNSixTj2nj"],
+          ["x-version", "dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" href=\"/docs/_next/static/media/83afe278b6a6bb3c.p.3a6ba036.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/docs/_next/static/media/PaperMono_Variable.p.aa32f7a0.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/docs/_next/static/media/f67ad414ed34149c.p.84166d94.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" as=\"image\" href=\"https://mintcdn.com/chatbase/8k6_6eFSz4sj8EO0/logo/light.png?fit=max&amp;auto=format&amp;n=8k6_6eFSz4sj8EO0&amp;q=85&amp;s=5b4a30b626e13464183de1440bcee6a2\">\n<link rel=\"preload\" as=\"image\" href=\"https://mintcdn.com/chatbase/8k6_6eFSz4sj8EO0/logo/dark.svg?fit=max&amp;auto=format&amp;n=8k6_6eFSz4sj8EO0&amp;q=85&amp;s=c0c106d2f92f6a87f872a2be66706041\">\n<link rel=\"stylesheet\" href=\"/docs/_next/static/chunks/462bacc63bed9960.css?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/docs/_next/static/chunks/be2d2a9922fde67d.css?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/docs/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\">\n<script src=\"/docs/_next/static/chunks/44795504c795ca32.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/bacb7e0d52e4b451.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/b730549587248be7.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/d24f46ac0d244a3f.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/turbopack-176ad69d069e4080.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/6da4d41f9a3f1e56.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/c50d793b8f34b10b.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/9b51ed6445f8c728.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/8d0901e40ed4b058.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/343f3c7f568a2e5d.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/ccee8d9b3189ccd9.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/3b847e5370bd724e.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/4fa3ca58dfaaeff8.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/468295ca52ed5c09.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/4655c61fa7aba124.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/da953b59c0c41f06.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/f0ef0acaeece4a23.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/7538d80a516400fa.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/8a19ec8c194a3b47.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/589b24301b3a37b4.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/d2fedac44d815262.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/c3a3ab2374198660.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/de5d31edef447a03.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/3a30a2353087aade.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/f19aa31a2b13eef7.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/ff9b0d3d29045006.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/57ef37c03eb76089.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/44b0178948143b4f.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/41c8239ff6030cd1.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/e452a5c043e34035.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/fde44643dbef1bcd.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/c58283ba69dd38df.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/e5dcdb55f621f74a.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/1a0bf1d33a977db0.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<script src=\"/docs/_next/static/chunks/0d29cfad69957710.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" async=\"\"></script>\n<link rel=\"preload\" href=\"/docs/_next/static/chunks/ed45ca9fc4fad2f8.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" as=\"script\" fetchpriority=\"low\">\n<link rel=\"preload\" href=\"/docs/_next/static/chunks/5917258e888b4dff.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" as=\"script\" fetchpriority=\"low\">\n<link rel=\"preload\" href=\"/docs/_next/static/chunks/c18d87551163d4f9.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" as=\"script\" fetchpriority=\"low\">\n<meta name=\"description\" content=\"Build an AI agent trained on your own business data, and deploy it everywhere your customers already are\">\n<meta name=\"application-name\" content=\"Chatbase\">\n<meta name=\"generator\" content=\"Mintlify\">\n<meta name=\"msapplication-config\" content=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon/browserconfig.xml\">\n<meta name=\"apple-mobile-web-app-title\" content=\"Chatbase\">\n<meta name=\"msapplication-TileColor\" content=\"#18181b\">\n<link rel=\"canonical\" href=\"https://www.chatbase.co/docs/user-guides/quick-start/introduction\">\n<link rel=\"alternate\" type=\"application/xml\" href=\"/docs/sitemap.xml\">\n<link rel=\"alternate\" type=\"text/markdown\" href=\"/docs/user-guides/quick-start/introduction.md\">\n<meta property=\"og:title\" content=\"Welcome to Chatbase - Chatbase\">\n<meta property=\"og:description\" content=\"Build an AI agent trained on your own business data, and deploy it everywhere your customers already are\">\n<meta property=\"og:url\" content=\"https://www.chatbase.co/docs/user-guides/quick-start/introduction\">\n<meta property=\"og:site_name\" content=\"Chatbase\">\n<meta property=\"og:image\" content=\"https://chatbase.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DQuick%2BStart%26title%3DWelcome%2Bto%2BChatbase%26description%3DBuild%2Ban%2BAI%2Bagent%2Btrained%2Bon%2Byour%2Bown%2Bbusiness%2Bdata%252C%2Band%2Bdeploy%2Bit%2Beverywhere%2Byour%2Bcustomers%2Balready%2Bare%26theme%3D009f8b20aa16a94d5a19be9b&amp;w=1200&amp;q=100\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Welcome to Chatbase - Chatbase\">\n<meta name=\"twitter:description\" content=\"Build an AI agent trained on your own business data, and deploy it everywhere your customers already are\">\n<meta name=\"twitter:image\" content=\"https://chatbase.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DQuick%2BStart%26title%3DWelcome%2Bto%2BChatbase%26description%3DBuild%2Ban%2BAI%2Bagent%2Btrained%2Bon%2Byour%2Bown%2Bbusiness%2Bdata%252C%2Band%2Bdeploy%2Bit%2Beverywhere%2Byour%2Bcustomers%2Balready%2Bare%26theme%3D009f8b20aa16a94d5a19be9b&amp;w=1200&amp;q=100\">\n<meta name=\"twitter:image:width\" content=\"1200\">\n<meta name=\"twitter:image:height\" content=\"630\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon/android-chrome-192x192.png\" type=\"image/png\" sizes=\"192x192\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"apple-touch-icon\" href=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon/apple-touch-icon.png\" type=\"image/png\" sizes=\"180x180\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon/favicon-16x16.png\" type=\"image/png\" sizes=\"16x16\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon/favicon-32x32.png\" type=\"image/png\" sizes=\"32x32\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"shortcut icon\" href=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon/favicon.ico\" type=\"image/x-icon\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon-dark/android-chrome-192x192.png\" type=\"image/png\" sizes=\"192x192\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon-dark/favicon-16x16.png\" type=\"image/png\" sizes=\"16x16\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"icon\" href=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon-dark/favicon-32x32.png\" type=\"image/png\" sizes=\"32x32\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"shortcut icon\" href=\"/docs/_mintlify/favicons/chatbase/sZYcuOsK-Dv6V9lc/_generated/favicon-dark/favicon.ico\" type=\"image/x-icon\" media=\"(prefers-color-scheme: dark)\">\n<script src=\"/docs/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" nomodule=\"\"></script>\n<a href=\"/docs/llms.txt\">/docs/llms.txt</a>\n<a href=\"#content-area\">Skip to main content</a>\n<a href=\"https://chatbase.co\">Chatbase home page</a>\n<a href=\"https://chatbase.co/help\">Support</a>\n<a href=\"https://www.chatbase.co/dashboard\">Dashboard</a>\n<a href=\"/docs/user-guides/quick-start/introduction\">User Guide</a>\n<a href=\"/docs/developer-guides/overview\">Developer Guide</a>\n<a href=\"/docs/api-v2/overview\">API v2 Reference</a>\n<a href=\"/docs/cli/overview\">CLI</a>\n<a href=\"/docs/android-sdk/overview\">Android SDK</a>\n<a href=\"/docs/ios-sdk/overview\">iOS SDK</a>\n<a href=\"/docs/faq/faq\">Help &amp; Support</a>\n<a href=\"/docs/user-guides/quick-start/introduction\">Welcome to Chatbase</a>\n<a href=\"/docs/user-guides/quick-start/your-first-agent\">Build Your First AI Agent</a>\n<a href=\"/docs/user-guides/quick-start/best-practices\">Best Practices</a>\n<a href=\"/docs/user-guides/chatbot/backstage\">Backstage</a>\n<a href=\"/docs/user-guides/chatbot/playground\">Playground</a>\n<a href=\"/docs/user-guides/chatbot/build\">Build</a>\n<a href=\"/docs/user-guides/chatbot/data-sources\">Data sources</a>\n<a href=\"/docs/user-guides/chatbot/channels\">Channels</a>\n<a href=\"/docs/user-guides/chatbot/guardrails\">Guardrails</a>\n<a href=\"/docs/user-guides/chatbot/settings\">Settings</a>\n<a href=\"/docs/user-guides/chatbot/email-settings\">Email settings</a>\n<a href=\"/docs/user-guides/chatbot/activity\">Activity</a>\n<a href=\"/docs/user-guides/chatbot/analytics\">Analytics</a>\n<a href=\"/docs/user-guides/chatbot/outbound-campaigns\">Outbound Campaigns</a>\n<a href=\"/docs/user-guides/chatbot/outbound-whatsapp\">WhatsApp Campaigns</a>\n<a href=\"/docs/user-guides/workspace/manage\">Manage</a>\n<a href=\"/docs/user-guides/workspace/usage\">Usage</a>\n<a href=\"/docs/user-guides/workspace/settings\">Workspace settings</a>\n<a href=\"/docs/user-guides/workspace/two-factor-auth\">Two-factor authentication (2FA)</a>\n<a href=\"/docs/user-guides/workspace/hipaa-compliance\">HIPAA compliance</a>\n<a href=\"/docs/user-guides/integrations/integrations-overview\">Overview</a>\n<a href=\"/docs/user-guides/chatbot/tests\">Tests</a>\n<a href=\"/docs/user-guides/chatbot/models-comparison\">Models Comparison</a>\n<a href=\"/docs/user-guides/chatbot/help-desk/help-desk-overview\">Helpdesk Overview</a>\n<a href=\"/docs/user-guides/chatbot/help-desk/filters\">Filters</a>\n<a href=\"/docs/user-guides/chatbot/help-desk/saved-views\">Saved Views</a>\n<a href=\"/docs/user-guides/chatbot/help-desk/priority\">Priority</a>\n<a href=\"/docs/user-guides/chatbot/help-desk/tags\">Tags</a>\n<a href=\"/docs/user-guides/chatbot/help-desk/email-settings\">Email Settings</a>\n<a href=\"/docs/user-guides/chatbot/help-desk/teams\">Teams</a>\n<a href=\"/docs/user-guides/chatbot/help-desk/assignment-algorithm\">Ticket Assignment</a>\n<a href=\"/docs/user-guides/chatbot/help-desk/scheduling\">Scheduling</a>\n<a href=\"/docs/user-guides/chatbot/help-desk/triggers\">Triggers</a>\n<a href=\"/docs/user-guides/chatbot/help-desk/custom-fields\">Custom Fields</a>\n<a href=\"/docs/user-guides/chatbot/help-desk/translation\">Translation</a>\n<a href=\"/docs/user-guides/chatbot/help-desk/ai-draft-replies\">AI Draft Replies</a>\n<a href=\"/docs/user-guides/chatbot/help-desk/macros\">Macros</a>\n<a href=\"/docs/user-guides/chatbot/help-desk/satisfaction-surveys\">CSAT surveys</a>\n<a href=\"/docs/user-guides/chatbot/help-desk/takeover\">Takeover</a>\n<a href=\"/docs/user-guides/chatbot/help-desk/team-routing\">Team RoutingDeprecated</a>\n<a href=\"/docs/user-guides/chatbase-experts/experts-program\">Chatbase Experts Program</a>\n<a href=\"#overview\">Overview</a>\n<a href=\"#why-choose-chatbase\">Why choose Chatbase?</a>\n<a href=\"#next-steps\">Next steps</a>\n<a href=\"#overview\">​</a>\n<a href=\"#why-choose-chatbase\">​</a>\n<a href=\"#next-steps\">​</a>\n<a href=\"https://x.com/chatbase_co\">x</a>\n<a href=\"https://linkedin.com/company/chatbase-co\">linkedin</a>\n<a href=\"https://www.youtube.com/@chatbase_\">youtube</a>\n<a href=\"https://www.mintlify.com?utm_campaign=poweredBy&amp;utm_medium=referral&amp;utm_source=chatbase\">Powered byThis documentation is built and hosted on Mintlify, a developer documentation platform</a>\n<script src=\"/docs/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_G2V2ecyQiE2VPjSZgHNz4JvwMtzJ\" id=\"_R_\" async=\"\"></script>"
+      }
+    }
+  },
+  "dns": {
+    "A chatbase.co": {
+      "result": {
+        "name": "chatbase.co",
+        "type": "A",
+        "records": ["76.76.21.21"]
+      }
+    },
+    "AAAA chatbase.co": {
+      "result": {
+        "name": "chatbase.co",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "NS chatbase.co": {
+      "result": {
+        "name": "chatbase.co",
+        "type": "NS",
+        "records": ["dns2.registrar-servers.com", "dns1.registrar-servers.com"]
+      }
+    },
+    "CNAME chatbase.co": {
+      "result": {
+        "name": "chatbase.co",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "TXT 21.21.76.76.origin.asn.cymru.com": {
+      "result": {
+        "name": "21.21.76.76.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 76.76.21.0/24 | US | arin | 2020-05-08"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    },
+    "A stackprobe-wildcard-check.chatbase.co": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND stackprobe-wildcard-check.chatbase.co"
+      }
+    },
+    "CNAME stackprobe-wildcard-check.chatbase.co": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND stackprobe-wildcard-check.chatbase.co"
+      }
+    },
+    "CNAME console.chatbase.co": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND console.chatbase.co"
+      }
+    },
+    "CNAME app.chatbase.co": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND app.chatbase.co"
+      }
+    },
+    "CNAME docs.chatbase.co": {
+      "result": {
+        "name": "docs.chatbase.co",
+        "type": "CNAME",
+        "records": ["cname.vercel-dns.com"]
+      }
+    },
+    "A app.chatbase.co": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND app.chatbase.co"
+      }
+    },
+    "CNAME status.chatbase.co": {
+      "result": {
+        "name": "status.chatbase.co",
+        "type": "CNAME",
+        "records": ["cname.instatus.com"]
+      }
+    },
+    "A portal.chatbase.co": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND portal.chatbase.co"
+      }
+    },
+    "A api.chatbase.co": {
+      "result": {
+        "name": "api.chatbase.co",
+        "type": "A",
+        "records": ["69.46.46.2"]
+      }
+    },
+    "CNAME portal.chatbase.co": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND portal.chatbase.co"
+      }
+    },
+    "A dashboard.chatbase.co": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND dashboard.chatbase.co"
+      }
+    },
+    "CNAME api.chatbase.co": {
+      "result": {
+        "name": "api.chatbase.co",
+        "type": "CNAME",
+        "records": ["5l7a9pd6.up.railway.app"]
+      }
+    },
+    "A docs.chatbase.co": {
+      "result": {
+        "name": "docs.chatbase.co",
+        "type": "A",
+        "records": ["66.33.60.129", "76.76.21.22"]
+      }
+    },
+    "A status.chatbase.co": {
+      "result": {
+        "name": "status.chatbase.co",
+        "type": "A",
+        "records": ["66.33.60.129", "66.33.60.194"]
+      }
+    },
+    "A console.chatbase.co": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND console.chatbase.co"
+      }
+    },
+    "CNAME dashboard.chatbase.co": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND dashboard.chatbase.co"
+      }
+    },
+    "A www.chatbase.co": {
+      "result": {
+        "name": "www.chatbase.co",
+        "type": "A",
+        "records": ["66.33.60.194", "76.76.21.93"]
+      }
+    },
+    "CNAME www.chatbase.co": {
+      "result": {
+        "name": "www.chatbase.co",
+        "type": "CNAME",
+        "records": ["cname.vercel-dns.com"]
+      }
+    },
+    "AAAA www.chatbase.co": {
+      "result": {
+        "name": "www.chatbase.co",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "NS docs.chatbase.co": {
+      "result": {
+        "name": "docs.chatbase.co",
+        "type": "NS",
+        "records": [
+          "ns3.vercel-dns-3.com",
+          "ns1.vercel-dns-3.com",
+          "ns2.vercel-dns-3.com",
+          "ns4.vercel-dns-3.com"
+        ]
+      }
+    },
+    "AAAA docs.chatbase.co": {
+      "result": {
+        "name": "docs.chatbase.co",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "AAAA status.chatbase.co": {
+      "result": {
+        "name": "status.chatbase.co",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "CNAME cname.vercel-dns.com": {
+      "result": {
+        "name": "cname.vercel-dns.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "NS www.chatbase.co": {
+      "result": {
+        "name": "www.chatbase.co",
+        "type": "NS",
+        "records": [
+          "ns3.vercel-dns-3.com",
+          "ns2.vercel-dns-3.com",
+          "ns1.vercel-dns-3.com",
+          "ns4.vercel-dns-3.com"
+        ]
+      }
+    },
+    "NS api.chatbase.co": {
+      "result": {
+        "name": "api.chatbase.co",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "AAAA api.chatbase.co": {
+      "result": {
+        "name": "api.chatbase.co",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "NS status.chatbase.co": {
+      "result": {
+        "name": "status.chatbase.co",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "CNAME cname.instatus.com": {
+      "result": {
+        "name": "cname.instatus.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "TXT 22.21.76.76.origin.asn.cymru.com": {
+      "result": {
+        "name": "22.21.76.76.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 76.76.21.0/24 | US | arin | 2020-05-08"]
+      }
+    },
+    "CNAME 5l7a9pd6.up.railway.app": {
+      "result": {
+        "name": "5l7a9pd6.up.railway.app",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "TXT 2.46.46.69.origin.asn.cymru.com": {
+      "result": {
+        "name": "2.46.46.69.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["400940 | 69.46.46.0/24 | US | arin | 2026-01-22"]
+      }
+    },
+    "TXT as400940.asn.cymru.com": {
+      "result": {
+        "name": "AS400940.asn.cymru.com",
+        "type": "TXT",
+        "records": ["400940 | US | arin | 2024-02-17 | RAILWAY - Railway, US"]
+      }
+    }
+  },
+  "tls": {
+    "chatbase.co:443": {
+      "result": {
+        "host": "chatbase.co",
+        "ip": "76.76.21.21",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR1",
+        "subjectAltNames": ["chatbase.co"],
+        "validFrom": "Aug 17 05:21:31 2026 GMT",
+        "validTo": "Nov 15 05:21:30 2026 GMT"
+      }
+    },
+    "api.chatbase.co:443": {
+      "result": {
+        "host": "api.chatbase.co",
+        "ip": "69.46.46.2",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR1",
+        "subjectAltNames": ["api.chatbase.co"],
+        "validFrom": "Aug 22 14:51:01 2026 GMT",
+        "validTo": "Nov 20 14:51:00 2026 GMT"
+      }
+    },
+    "www.chatbase.co:443": {
+      "result": {
+        "host": "www.chatbase.co",
+        "ip": "76.76.21.22",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR1",
+        "subjectAltNames": ["www.chatbase.co"],
+        "validFrom": "Aug 21 15:34:15 2026 GMT",
+        "validTo": "Nov 19 15:34:14 2026 GMT"
+      }
+    },
+    "docs.chatbase.co:443": {
+      "result": {
+        "host": "docs.chatbase.co",
+        "ip": "76.76.21.22",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+        "subjectAltNames": ["docs.chatbase.co"],
+        "validFrom": "Sep  2 00:44:14 2026 GMT",
+        "validTo": "Dec  1 00:44:13 2026 GMT"
+      }
+    },
+    "status.chatbase.co:443": {
+      "error": {
+        "code": "TLS_HANDSHAKE",
+        "message": "certificate has expired"
+      }
+    }
+  }
+}

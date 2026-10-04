@@ -62,3 +62,10 @@ export function recordingName(surfaceUrl: string): string {
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '');
 }
+
+// Companies with a product app in the ground truth: scanning their homepage should find it.
+export function discoveryDomains(rows: GroundTruthRow[]): string[] {
+  return [
+    ...new Set(rows.filter((row) => row.surfaceKind === 'app').map((row) => row.domain)),
+  ].sort();
+}

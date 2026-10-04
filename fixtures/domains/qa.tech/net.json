@@ -1,0 +1,455 @@
+{
+  "url": "https://qa.tech/",
+  "recordedAt": "2026-10-04T18:01:29.823Z",
+  "http": {
+    "GET https://qa.tech/": {
+      "result": {
+        "url": "https://qa.tech/",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "212911"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline"],
+          ["content-encoding", "br"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:29 GMT"],
+          ["etag", "W/\"94b91a2674060e14d1ec7419d3162991\""],
+          ["last-modified", "Fri, 02 Oct 2026 06:52:58 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/markdown\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </robots.txt>; rel=\"robots\"; type=\"text/plain\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", <https://docs.qa.tech/api-reference/introduction>; rel=\"service-doc\"; type=\"text/html\", <https://docs.qa.tech/api-reference/api.json>; rel=\"service-desc\"; type=\"application/vnd.oai.openapi+json\", </.well-known/mcp/server-card.json>; rel=\"mcp-server-card\"; type=\"application/json\", </.well-known/agent-skills.json>; rel=\"agent-skills\"; type=\"application/json\", </.well-known/auth.md>; rel=\"auth-doc\"; type=\"text/markdown\", </developers>; rel=\"developer-hub\"; type=\"text/html\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Accept"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::plkqb-1791136889916-319c35ec4896"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"UTF-8\">\n<link rel=\"dns-prefetch\" href=\"https://web.cmp.usercentrics.eu\">\n<link rel=\"dns-prefetch\" href=\"https://www.googletagmanager.com\">\n<link rel=\"dns-prefetch\" href=\"https://www.googletagmanager.com\">\n<script src=\"/qa-tech-tracking-bootstrap.js\" defer=\"\"></script>\n<link rel=\"icon\" href=\"/favicon.ico\" sizes=\"any\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16.png\">\n<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\">\n<link rel=\"canonical\" href=\"https://qa.tech/\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta name=\"description\" content=\"QA.tech is the AI QA testing platform: autonomous QA agents run end-to-end, regression, exploratory and PR tests on web and native mobile from plain-language goals. No scripts, no selectors.\">\n<meta name=\"author\" content=\"QA.tech\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"QA.tech\">\n<meta property=\"og:image\" content=\"https://qa.tech/og/home.png\">\n<meta property=\"og:image:secure_url\" content=\"https://qa.tech/og/home.png\">\n<meta property=\"og:image:type\" content=\"image/png\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"Dynamic Testing on Every PR – AI QA Testing Tool for Web &amp; Mobile\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:image\" content=\"https://qa.tech/og/home.png\">\n<meta name=\"twitter:image:alt\" content=\"Dynamic Testing on Every PR – AI QA Testing Tool for Web &amp; Mobile\">\n<link rel=\"preload\" href=\"/fonts/geist-variable.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"preload\" href=\"/fonts/geist-mono-variable.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<meta property=\"og:title\" content=\"Dynamic Testing on Every PR – AI QA Testing Tool for Web &amp; Mobile\">\n<meta name=\"twitter:title\" content=\"Dynamic Testing on Every PR – AI QA Testing Tool for Web &amp; Mobile\">\n<meta property=\"og:description\" content=\"QA.tech is the AI QA testing platform: autonomous QA agents run end-to-end, regression, exploratory and PR tests on web and native mobile from plain-language goals. No scripts, no selectors.\">\n<meta name=\"twitter:description\" content=\"QA.tech is the AI QA testing platform: autonomous QA agents run end-to-end, regression, exploratory and PR tests on web and native mobile from plain-language goals. No scripts, no selectors.\">\n<script type=\"module\" crossorigin=\"\" src=\"/assets/index-Dgb1Qo9H.js\"></script>\n<link rel=\"alternate stylesheet preload\" crossorigin=\"\" href=\"/assets/index-sHrWpVnj.css\" title=\"styles\" as=\"style\" onload=\"this.title='';this.rel='stylesheet'\">\n<link rel=\"stylesheet\" crossorigin=\"\" href=\"/assets/index-sHrWpVnj.css\">\n<meta property=\"og:url\" content=\"https://qa.tech/\">\n<link data-seo-link=\"1\" rel=\"alternate\" type=\"text/markdown\" href=\"https://qa.tech/index.md\">\n<link rel=\"preload\" href=\"/hero-film-pr-poster.webp\" as=\"image\" fetchpriority=\"high\">\n<a href=\"/\">QA.tech</a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"/case-studies\">Case Studies</a>\n<a href=\"https://docs.qa.tech/\">Docs</a>\n<a href=\"/partnerships\">Partner Program</a>\n<a href=\"https://app.qa.tech/auth/sign-in\">Log in</a>\n<a href=\"/demo\">Get a demo</a>\n<a href=\"/case-studies/how-pricer-transform-qa-with-qa-tech\">Case study</a>\n<a href=\"/case-studies/how-upsales-replaced-320h-of-manual-testing-with-agents\">Case study</a>\n<a href=\"/demo\">Talk to us</a>\n<a href=\"/use-cases/end-to-end-testing\">E2E UI testing</a>\n<a href=\"/use-cases/pr-cicd-testing\">PR testing</a>\n<a href=\"/use-cases/ui-change-resilient-testing\">Dynamic testing</a>\n<a href=\"/use-cases/mobile-app-testing\">Mobile native testing</a>\n<a href=\"/use-cases/multi-environment-testing\">Cross-device testing</a>\n<a href=\"/use-cases/automated-regression-testing\">Regression testing</a>\n<a href=\"/use-cases/api-regression-testing\">API testing</a>\n<a href=\"/use-cases/speech-to-text-testing\">Voice testing</a>\n<a href=\"/use-cases/notifications-testing\">Email testing</a>\n<a href=\"/use-cases/notifications-testing\">SMS testing</a>\n<a href=\"/use-cases\">Browse the most common use cases for AI QA testing →</a>\n<a href=\"/case-studies/how-upsales-replaced-320h-of-manual-testing-with-agents\">Read their story →</a>\n<a href=\"/case-studies/how-pricer-transform-qa-with-qa-tech\">Read their story →</a>\n<a href=\"https://trust.qa.tech/\">SOC 2 Type 2 compliant</a>\n<a href=\"/product/api-testing\">API Testing</a>\n<a href=\"/product/mcp\">MCP</a>\n<a href=\"/product/mobile-testing\">Mobile Testing</a>\n<a href=\"/product/pr-testing\">PR Testing</a>\n<a href=\"/product/voice-testing\">Voice Testing</a>\n<a href=\"/product/web-testing\">Web Testing</a>\n<a href=\"/ai-qa-testing\">AI QA testing guide</a>\n<a href=\"/changelog\">Changelog</a>\n<a href=\"/product/integrations\">Integrations</a>\n<a href=\"/product\">Platform overview</a>\n<a href=\"/use-cases\">Use cases</a>\n<a href=\"/compare/qa-tech-vs-cypress\">QA.tech vs Cypress</a>\n<a href=\"/compare/qa-tech-vs-mabl\">QA.tech vs Mabl</a>\n<a href=\"/compare/qa-tech-vs-playwright\">QA.tech vs Playwright</a>\n<a href=\"/compare/qa-tech-vs-qa-wolf\">QA.tech vs QA Wolf</a>\n<a href=\"/saas\">B2B SaaS testing</a>\n<a href=\"/industries/ecommerce\">Ecommerce testing</a>\n<a href=\"/solutions/ctos\">For CTOs</a>\n<a href=\"/solutions/qa-testers\">For QA teams</a>\n<a href=\"/blog\">Blog</a>\n<a href=\"/events\">Events</a>\n<a href=\"/about-us\">About</a>\n<a href=\"/partnerships\">Partnerships</a>\n<a href=\"/press\">Press</a>\n<a href=\"https://qa.tech/contact\">Contact Us</a>\n<a href=\"/privacy-policy\">Privacy Policy</a>\n<a href=\"https://trust.qa.tech/resources?s=mb9w4yjb03i3t8bjsq4jx3&amp;name=main-agreement.pdf\">Terms of Service</a>\n<a href=\"https://trust.qa.tech/\">Trust Center: Security &amp; Compliance</a>\n<a href=\"https://www.linkedin.com/company/qa-tech-ai/\"></a>\n<a href=\"https://x.com/getqatech\"></a>\n<a href=\"https://www.instagram.com/getqatech/\"></a>"
+      }
+    },
+    "GET https://api.qa.tech/": {
+      "result": {
+        "url": "https://api.qa.tech/",
+        "status": 200,
+        "headers": [
+          ["age", "0"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          ["content-type", "text/plain;charset=UTF-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::arn1::x2zzk-1791136890376-1cf0b1d9b4f6"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://docs.qa.tech/": {
+      "result": {
+        "url": "https://docs.qa.tech/",
+        "status": 308,
+        "headers": [
+          ["age", "85416"],
+          ["cache-control", "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"],
+          ["cf-cache-status", "HIT"],
+          ["cf-ray", "a456179d2c4a588e-ARN"],
+          ["content-length", "109006"],
+          [
+            "content-security-policy",
+            "worker-src 'self' blob:; object-src 'none'; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self'; default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:;"
+          ],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:; worker-src 'self' blob:; object-src 'none'; report-uri /_mintlify/api/csp-report; report-to mintlify-csp;"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
+          ["etag", "\"hc8r5mns2a2c3y\""],
+          ["expires", "0"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\", </llms-full.txt>; rel=\"llms-full-txt\", </.well-known/api-catalog>; rel=\"api-catalog\", </.well-known/mcp/server-card.json>; rel=\"mcp-server-card\", </.well-known/agent-card.json>; rel=\"agent-card\", </.well-known/agent-skills/index.json>; rel=\"agent-skills\""
+          ],
+          ["location", "/core-concepts/ai-agent-testing"],
+          ["pragma", "no-cache"],
+          ["reporting-endpoints", "mintlify-csp=\"/_mintlify/api/csp-report\""],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "rsc, accept-encoding, Accept, User-Agent"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-llms-txt", "/llms.txt"],
+          ["x-matched-path", "/_sites/[subdomain]/[[...slug]]"],
+          ["x-mint-proxy-version", "1.0.0-prod"],
+          ["x-mintlify-client-version", "0.0.3774"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "60"],
+          ["x-served-version", "dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1:sin1:iad1::iad1::qqkqh-1791136890404-cfb3941c2cc2"],
+          ["x-vercel-project-id", "prj_NdMUpHpUIb41Po1H8c6hrChv2bgr"],
+          ["x-version", "dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/mintlify-assets/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\">\n<script src=\"/mintlify-assets/_next/static/chunks/44795504c795ca32.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/ed91aaff0f65128b.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/b730549587248be7.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/0eebbc1236b980a0.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/turbopack-5e6ee6ede9d02121.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" nomodule=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://app.qa.tech/auth/sign-in": {
+      "result": {
+        "url": "https://app.qa.tech/auth/sign-in",
+        "status": 200,
+        "headers": [
+          ["age", "0"],
+          ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
+          [
+            "link",
+            "</_next/static/media/83afe278b6a6bb3c.p.2bn3s6zvc0dyp.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\""
+          ],
+          ["server", "Vercel"],
+          ["set-cookie", "anonymousId=<redacted>"],
+          ["set-cookie", "x-analytics-enabled=<redacted>"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-analytics-enabled", "true"],
+          ["x-anonymous-id", "e0019560-2b2a-4348-ab90-7124ebd3a74e"],
+          ["x-current-path", "/auth/sign-in"],
+          ["x-current-url", "https://app.qa.tech/auth/sign-in"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/auth/sign-in"],
+          ["x-powered-by", "Next.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::arn1::s7l4h-1791136890401-0c18b7df987e"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/1oqp1ik8giur4.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/2qv5_t2-2f_1_.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0-wnuvpaes179.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/3jeehj7aajegz.js\">\n<script src=\"/_next/static/chunks/29w9qy1qurka_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/23asetxkgwioy.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/27pruof2q2dnb.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1sub44l8ckr2g.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/17mx-6zbovyoe.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2pu2h9-4wb3jt.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/127c519dj1dwb.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2hh9fxtrsml4z.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3wmkucd_ufm03.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3htcc6efw8oyi.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-0-79e1o2th-ka.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2tdonm4juflgg.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2gsprul1ol8ef.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1aluoawgl01l_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/02t4f1i_f6etf.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0dlue9lrzea_p.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1x3jopfg10i-3.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2tjxkj4am06ni.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0nngx_pew-88h.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0r2wsp7-8mffp.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1xjonk-a-umu8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2je20u2txntu8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1v_q95021t7su.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3-3n_eez2vcgm.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/19sct5revbkjz.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1bewvuqiwmuir.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/17tzqj49ap8de.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://www.googletagmanager.com/gtm.js?id=GTM-5QNHTFMX\" as=\"script\">\n<meta name=\"theme-color\" content=\"#ffffff\" media=\"(prefers-color-scheme: light)\">\n<meta name=\"theme-color\" content=\"#0a0a0a\" media=\"(prefers-color-scheme: dark)\">\n<meta name=\"description\" content=\"Stop writing tests. Focus on productivity.\">\n<meta name=\"robots\" content=\"noindex\">\n<meta property=\"og:title\" content=\"Sign In\">\n<meta property=\"og:description\" content=\"Stop writing tests. Focus on productivity.\">\n<meta property=\"og:url\" content=\"https://app.qa.tech\">\n<meta property=\"og:site_name\" content=\"QA.tech\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"QA.tech\">\n<meta name=\"twitter:description\" content=\"Stop writing tests. Focus on productivity.\">\n<link rel=\"icon\" href=\"/assets/images/favicon/favicon.ico\">\n<link rel=\"apple-touch-icon\" href=\"/assets/images/favicon/apple-touch-icon.png\">\n<meta name=\"sentry-trace\" content=\"d57600c476e726e03e205b3b61ce7c52-64df4a7fd3a3cafb-0\">\n<meta name=\"baggage\" content=\"sentry-environment=live,sentry-release=417b26c8009010ce579b6b6046ff94ff3a418f0f,sentry-public_key=a9086fa6da567836bc537588bd156272,sentry-trace_id=d57600c476e726e03e205b3b61ce7c52,sentry-org_id=4505800178008064,sentry-sampled=false,sentry-sample_rand=0.5572156688643242,sentry-sample_rate=0.05\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/chunks/3jeehj7aajegz.js\" id=\"_R_\" async=\"\"></script>\n<a href=\"/\"></a>\n<a href=\"/auth/password-reset\">Forgot password?</a>\n<a href=\"https://qa.tech/demo\">book a demo.</a>"
+      }
+    },
+    "GET https://docs.qa.tech/core-concepts/ai-agent-testing": {
+      "result": {
+        "url": "https://docs.qa.tech/core-concepts/ai-agent-testing",
+        "status": 200,
+        "headers": [
+          ["age", "85646"],
+          ["cache-control", "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"],
+          ["cf-cache-status", "HIT"],
+          ["cf-ray", "a456179de9639900-ARN"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "worker-src 'self' blob:; object-src 'none'; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self'; default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:;"
+          ],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:; worker-src 'self' blob:; object-src 'none'; report-uri /_mintlify/api/csp-report; report-to mintlify-csp;"
+          ],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
+          ["etag", "W/\"yxcf4q3n2i5vmv\""],
+          ["expires", "0"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\", </llms-full.txt>; rel=\"llms-full-txt\", </.well-known/api-catalog>; rel=\"api-catalog\", </.well-known/mcp/server-card.json>; rel=\"mcp-server-card\", </.well-known/agent-card.json>; rel=\"agent-card\", </.well-known/agent-skills/index.json>; rel=\"agent-skills\""
+          ],
+          ["pragma", "no-cache"],
+          ["reporting-endpoints", "mintlify-csp=\"/_mintlify/api/csp-report\""],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "rsc, accept-encoding, Accept, User-Agent"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-llms-txt", "/llms.txt"],
+          ["x-matched-path", "/_sites/[subdomain]/[[...slug]]"],
+          ["x-mint-proxy-version", "1.0.0-prod"],
+          ["x-mintlify-client-version", "0.0.3774"],
+          ["x-nextjs-prerender", "1"],
+          ["x-nextjs-stale-time", "60"],
+          ["x-served-version", "dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1:iad1::iad1::qqkqh-1791136890511-c41b1469bc54"],
+          ["x-vercel-project-id", "prj_NdMUpHpUIb41Po1H8c6hrChv2bgr"],
+          ["x-version", "dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" href=\"/mintlify-assets/_next/static/media/83afe278b6a6bb3c.p.3a6ba036.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/mintlify-assets/_next/static/media/PaperMono_Variable.p.aa32f7a0.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/mintlify-assets/_next/static/media/f67ad414ed34149c.p.84166d94.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" as=\"image\" href=\"https://mintcdn.com/qatech/tn7srSYA67gRWgfI/logo/logo.svg?fit=max&amp;auto=format&amp;n=tn7srSYA67gRWgfI&amp;q=85&amp;s=2f0e3745a8079e74e66e0a904232888f\">\n<link rel=\"preload\" as=\"image\" href=\"https://mintcdn.com/qatech/tn7srSYA67gRWgfI/logo/dark.svg?fit=max&amp;auto=format&amp;n=tn7srSYA67gRWgfI&amp;q=85&amp;s=8c39f071bcebaa8ec3c9b73c4e34faac\">\n<link rel=\"stylesheet\" href=\"/mintlify-assets/_next/static/chunks/462bacc63bed9960.css?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/mintlify-assets/_next/static/chunks/be2d2a9922fde67d.css?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/mintlify-assets/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\">\n<script src=\"/mintlify-assets/_next/static/chunks/44795504c795ca32.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/ed91aaff0f65128b.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/b730549587248be7.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/0eebbc1236b980a0.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/turbopack-5e6ee6ede9d02121.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/60d43a4e7f1afab5.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/c50d793b8f34b10b.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/2b24f11e21272c96.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/8d0901e40ed4b058.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/343f3c7f568a2e5d.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/ccee8d9b3189ccd9.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/3b847e5370bd724e.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/4fa3ca58dfaaeff8.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/468295ca52ed5c09.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/4655c61fa7aba124.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/da953b59c0c41f06.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/f0ef0acaeece4a23.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/7538d80a516400fa.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/8a19ec8c194a3b47.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/589b24301b3a37b4.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/d2fedac44d815262.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/c3a3ab2374198660.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/de5d31edef447a03.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/3a30a2353087aade.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/997ca1c8e6e53ba2.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/e6fe3ee8c95993d2.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/c62a0957d8c50522.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/44b0178948143b4f.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/41c8239ff6030cd1.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/e452a5c043e34035.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/fde44643dbef1bcd.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/c58283ba69dd38df.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/e5dcdb55f621f74a.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/1a0bf1d33a977db0.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/0d29cfad69957710.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<meta name=\"description\" content=\"Autonomous AI testing\">\n<meta name=\"application-name\" content=\"QA.tech Docs\">\n<meta name=\"generator\" content=\"Mintlify\">\n<meta name=\"msapplication-config\" content=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon/browserconfig.xml\">\n<meta name=\"apple-mobile-web-app-title\" content=\"QA.tech Docs\">\n<meta name=\"msapplication-TileColor\" content=\"#4F46E5\">\n<link rel=\"canonical\" href=\"https://docs.qa.tech/core-concepts/ai-agent-testing\">\n<link rel=\"alternate\" type=\"application/xml\" href=\"/sitemap.xml\">\n<link rel=\"alternate\" type=\"text/markdown\" href=\"/core-concepts/ai-agent-testing.md\">\n<meta property=\"og:title\" content=\"AI Agents - QA.tech Docs\">\n<meta property=\"og:description\" content=\"Autonomous AI testing\">\n<meta property=\"og:url\" content=\"https://docs.qa.tech/core-concepts/ai-agent-testing\">\n<meta property=\"og:site_name\" content=\"QA.tech Docs\">\n<meta property=\"og:image\" content=\"https://qatech.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGet%2BStarted%26title%3DAI%2BAgents%26description%3DAutonomous%2BAI%2Btesting%26theme%3Dfd743797448dd4d6788516d0&amp;w=1200&amp;q=100\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"AI Agents - QA.tech Docs\">\n<meta name=\"twitter:description\" content=\"Autonomous AI testing\">\n<meta name=\"twitter:image\" content=\"https://qatech.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGet%2BStarted%26title%3DAI%2BAgents%26description%3DAutonomous%2BAI%2Btesting%26theme%3Dfd743797448dd4d6788516d0&amp;w=1200&amp;q=100\">\n<meta name=\"twitter:image:width\" content=\"1200\">\n<meta name=\"twitter:image:height\" content=\"630\">\n<link rel=\"icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon/android-chrome-192x192.png\" type=\"image/png\" sizes=\"192x192\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"apple-touch-icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon/apple-touch-icon.png\" type=\"image/png\" sizes=\"180x180\">\n<link rel=\"icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon/favicon-16x16.png\" type=\"image/png\" sizes=\"16x16\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon/favicon-32x32.png\" type=\"image/png\" sizes=\"32x32\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"shortcut icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon/favicon.ico\" type=\"image/x-icon\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon-dark/android-chrome-192x192.png\" type=\"image/png\" sizes=\"192x192\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon-dark/favicon-16x16.png\" type=\"image/png\" sizes=\"16x16\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon-dark/favicon-32x32.png\" type=\"image/png\" sizes=\"32x32\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"shortcut icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon-dark/favicon.ico\" type=\"image/x-icon\" media=\"(prefers-color-scheme: dark)\">\n<script src=\"/mintlify-assets/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" nomodule=\"\"></script>\n<a href=\"/llms.txt\">/llms.txt</a>\n<a href=\"#content-area\">Skip to main content</a>\n<a href=\"https://docs.qa.tech\">QA.tech Docs home page</a>\n<a href=\"https://qa.tech/contact\">Support</a>\n<a href=\"https://qa.tech/demo\">Get Started</a>\n<a href=\"/core-concepts/ai-agent-testing\">Get Started</a>\n<a href=\"/core-concepts/ai-chat-assistant\">AI Assistant</a>\n<a href=\"/best-practices/creating-tests\">Build Tests</a>\n<a href=\"/pr-testing/overview\">PR Testing</a>\n<a href=\"/regression-testing/overview\">Regression Testing</a>\n<a href=\"/configuration/github-app\">Integrations</a>\n<a href=\"/api-reference/introduction\">API and CLI</a>\n<a href=\"https://qa.tech/blog/\">Blog</a>\n<a href=\"/core-concepts/ai-agent-testing\">Introduction</a>\n<a href=\"/getting-started/poc-setup-checklist\">POC Setup Checklist</a>\n<a href=\"/getting-started/poc-mobile-setup-checklist\">POC Mobile Setup Checklist</a>\n<a href=\"/getting-started/faq\">FAQ</a>\n<a href=\"/core-concepts/projects\">Projects</a>\n<a href=\"/core-concepts/applications-and-environments\">Applications &amp; Environments</a>\n<a href=\"/core-concepts/test-data\">Test Data</a>\n<a href=\"/core-concepts/dependencies\">Test Dependencies</a>\n<a href=\"/core-concepts/output-state-optimization\">Dependency Output States</a>\n<a href=\"/configuration/environment-access\">Overview</a>\n<a href=\"/bot\">QA.tech Bot</a>\n<a href=\"/configuration/ip-access-control\">IP Access</a>\n<a href=\"/configuration/vercel-firewall\">Vercel Firewall</a>\n<a href=\"/configuration/vercel-preview-protection\">Vercel Preview</a>\n<a href=\"/configuration/cloudflare-waf-turnstile\">Cloudflare WAF &amp; Turnstile</a>\n<a href=\"/configuration/ssh-tunnel\">SSH Tunnel Proxy</a>\n<a href=\"/configuration/organization-access\">Organization Access</a>\n<a href=\"/core-concepts/roles-and-permissions\">Roles and Permissions</a>\n<a href=\"/configuration/authentication\">Sign-in and MFA</a>\n<a href=\"#get-started\">Get Started</a>\n<a href=\"#our-ai-agent-system\">Our AI Agent System</a>\n<a href=\"#agents-that-run-a-test\">Agents that run a test</a>\n<a href=\"#get-started\">​</a>\n<a href=\"#our-ai-agent-system\">​</a>\n<a href=\"/core-concepts/ai-chat-assistant\">AI Chat Assistant</a>\n<a href=\"#agents-that-run-a-test\">​</a>\n<a href=\"/build-tests/agents\">Agents</a>\n<a href=\"https://x.com/getqatech\">x</a>\n<a href=\"https://github.com/qAdottech\">github</a>\n<a href=\"https://www.linkedin.com/company/qa-tech-ai\">linkedin</a>\n<a href=\"https://www.mintlify.com?utm_campaign=poweredBy&amp;utm_medium=referral&amp;utm_source=qatech\">Powered byThis documentation is built and hosted on Mintlify, a developer documentation platform</a>\n<script src=\"/mintlify-assets/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" id=\"_R_\" async=\"\"></script>"
+      }
+    }
+  },
+  "dns": {
+    "NS qa.tech": {
+      "result": {
+        "name": "qa.tech",
+        "type": "NS",
+        "records": ["uriah.ns.cloudflare.com", "ligia.ns.cloudflare.com"]
+      }
+    },
+    "CNAME qa.tech": {
+      "result": {
+        "name": "qa.tech",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "AAAA qa.tech": {
+      "result": {
+        "name": "qa.tech",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "A qa.tech": {
+      "result": {
+        "name": "qa.tech",
+        "type": "A",
+        "records": ["216.150.1.193", "216.150.16.193"]
+      }
+    },
+    "TXT 1.1.150.216.origin.asn.cymru.com": {
+      "result": {
+        "name": "1.1.150.216.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 216.150.1.0/24 | US | arin | 2024-07-24"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    },
+    "A stackprobe-wildcard-check.qa.tech": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND stackprobe-wildcard-check.qa.tech"
+      }
+    },
+    "CNAME stackprobe-wildcard-check.qa.tech": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND stackprobe-wildcard-check.qa.tech"
+      }
+    },
+    "A console.qa.tech": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND console.qa.tech"
+      }
+    },
+    "CNAME dashboard.qa.tech": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND dashboard.qa.tech"
+      }
+    },
+    "A portal.qa.tech": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND portal.qa.tech"
+      }
+    },
+    "CNAME api.qa.tech": {
+      "result": {
+        "name": "api.qa.tech",
+        "type": "CNAME",
+        "records": ["113a33c42e50d902.vercel-dns-016.com"]
+      }
+    },
+    "A dashboard.qa.tech": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND dashboard.qa.tech"
+      }
+    },
+    "CNAME status.qa.tech": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND status.qa.tech"
+      }
+    },
+    "A status.qa.tech": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND status.qa.tech"
+      }
+    },
+    "CNAME console.qa.tech": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND console.qa.tech"
+      }
+    },
+    "A api.qa.tech": {
+      "result": {
+        "name": "api.qa.tech",
+        "type": "A",
+        "records": ["216.150.16.65", "216.150.1.65"]
+      }
+    },
+    "CNAME portal.qa.tech": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND portal.qa.tech"
+      }
+    },
+    "NS app.qa.tech": {
+      "result": {
+        "name": "app.qa.tech",
+        "type": "NS",
+        "records": [
+          "ns4.vercel-dns-3.com",
+          "ns3.vercel-dns-3.com",
+          "ns1.vercel-dns-3.com",
+          "ns2.vercel-dns-3.com"
+        ]
+      }
+    },
+    "AAAA app.qa.tech": {
+      "result": {
+        "name": "app.qa.tech",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "CNAME docs.qa.tech": {
+      "result": {
+        "name": "docs.qa.tech",
+        "type": "CNAME",
+        "records": ["cname.vercel-dns.com"]
+      }
+    },
+    "A docs.qa.tech": {
+      "result": {
+        "name": "docs.qa.tech",
+        "type": "A",
+        "records": ["66.33.60.194", "76.76.21.93"]
+      }
+    },
+    "NS docs.qa.tech": {
+      "result": {
+        "name": "docs.qa.tech",
+        "type": "NS",
+        "records": [
+          "ns3.vercel-dns-3.com",
+          "ns2.vercel-dns-3.com",
+          "ns1.vercel-dns-3.com",
+          "ns4.vercel-dns-3.com"
+        ]
+      }
+    },
+    "NS api.qa.tech": {
+      "result": {
+        "name": "api.qa.tech",
+        "type": "NS",
+        "records": []
+      }
+    },
+    "AAAA api.qa.tech": {
+      "result": {
+        "name": "api.qa.tech",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "A app.qa.tech": {
+      "result": {
+        "name": "app.qa.tech",
+        "type": "A",
+        "records": ["66.33.60.129", "76.76.21.22"]
+      }
+    },
+    "CNAME app.qa.tech": {
+      "result": {
+        "name": "app.qa.tech",
+        "type": "CNAME",
+        "records": ["cname.vercel-dns.com"]
+      }
+    },
+    "CNAME cname.vercel-dns.com": {
+      "result": {
+        "name": "cname.vercel-dns.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "AAAA docs.qa.tech": {
+      "result": {
+        "name": "docs.qa.tech",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "CNAME 113a33c42e50d902.vercel-dns-016.com": {
+      "result": {
+        "name": "113a33c42e50d902.vercel-dns-016.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "TXT 67.60.33.66.origin.asn.cymru.com": {
+      "result": {
+        "name": "67.60.33.66.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 66.33.60.0/24 | US | arin | 2024-03-21"]
+      }
+    },
+    "TXT 65.16.150.216.origin.asn.cymru.com": {
+      "result": {
+        "name": "65.16.150.216.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 216.150.16.0/24 | US | arin | 2024-07-24"]
+      }
+    }
+  },
+  "tls": {
+    "qa.tech:443": {
+      "result": {
+        "host": "qa.tech",
+        "ip": "216.150.1.1",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+        "subjectAltNames": ["qa.tech"],
+        "validFrom": "Aug 29 00:57:51 2026 GMT",
+        "validTo": "Nov 27 00:57:50 2026 GMT"
+      }
+    },
+    "docs.qa.tech:443": {
+      "result": {
+        "host": "docs.qa.tech",
+        "ip": "66.33.60.67",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+        "subjectAltNames": ["docs.qa.tech"],
+        "validFrom": "Aug  9 06:01:09 2026 GMT",
+        "validTo": "Nov  7 06:01:08 2026 GMT"
+      }
+    },
+    "app.qa.tech:443": {
+      "result": {
+        "host": "app.qa.tech",
+        "ip": "66.33.60.67",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR1",
+        "subjectAltNames": ["app.qa.tech"],
+        "validFrom": "Sep 20 02:27:55 2026 GMT",
+        "validTo": "Dec 19 02:27:54 2026 GMT"
+      }
+    },
+    "api.qa.tech:443": {
+      "result": {
+        "host": "api.qa.tech",
+        "ip": "216.150.16.65",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+        "subjectAltNames": ["api.qa.tech"],
+        "validFrom": "Aug 13 10:06:42 2026 GMT",
+        "validTo": "Nov 11 10:06:41 2026 GMT"
+      }
+    }
+  }
+}

@@ -1,28 +1,38 @@
 import {
   buildReport,
   DEFAULT_LAYERS,
+  discoverSurfaces,
   type LayerId,
   type LayerResult,
+  layersForSurfaces,
   runLayer,
   ScanFinishedError,
   ScanNotFoundError,
   type ScanStatus,
+  type SurfaceResults,
+  type SurfaceTarget,
   surfaceTarget,
 } from '@drippa/stackprobe-core';
 import { FatalError } from 'workflow';
 import { getNet, getStore } from '../lib/services.ts';
 
-// Runs one layer on the scanned URL and saves its raw result, so the scan keeps what it found
+// The surface the user asked for. A step because workflow code can't load core.
+export async function rootSurfaceStep(url: string): Promise<SurfaceTarget> {
+  'use step';
+  return surfaceTarget(url);
+}
+
+// Runs one layer on one surface and saves its raw result, so the scan keeps what it found
 // even if a later step fails. runLayer never throws; only saving can, and then the step retries.
 export async function runLayerStep(
   scanId: string,
-  url: string,
+  surface: SurfaceTarget,
   layerId: LayerId,
 ): Promise<LayerResult> {
   'use step';
   const layer = DEFAULT_LAYERS.find((candidate) => candidate.id === layerId);
   if (!layer) throw new FatalError(`Unknown layer ${layerId}`);
-  const result = await runLayer(layer, surfaceTarget(url), { net: getNet() });
+  const result = await runLayer(layer, surface, { net: getNet() });
   try {
     await getStore().saveLayerResult(scanId, result);
   } catch (error) {
@@ -31,19 +41,42 @@ export async function runLayerStep(
   return result;
 }
 
-// Builds the report from every layer's result and marks the scan done or partial.
+export interface PlannedSurface {
+  surface: SurfaceTarget;
+  layers: LayerId[];
+}
+
+// Finds the other surfaces the scanned page leads to, and which layers each one needs.
+export async function discoverStep(
+  root: SurfaceTarget,
+  rootResults: LayerResult[],
+): Promise<PlannedSurface[]> {
+  'use step';
+  const found = await discoverSurfaces(
+    root,
+    rootResults.flatMap((result) => result.signals),
+    { net: getNet() },
+  );
+  const plan = layersForSurfaces(found, DEFAULT_LAYERS, [root.host]);
+  return found.map((surface) => ({
+    surface,
+    layers: (plan.get(surface.id) ?? []).map((layer) => layer.id),
+  }));
+}
+
+// Builds the report from every surface's results and marks the scan done or partial.
 export async function finishScanStep(
   scanId: string,
-  url: string,
   scannedAt: string,
-  results: LayerResult[],
+  surfaces: SurfaceResults[],
 ): Promise<ScanStatus> {
   'use step';
-  const target = surfaceTarget(url);
+  const [root] = surfaces;
+  if (!root) throw new FatalError('A scan needs at least one surface');
   const report = buildReport({
-    domain: target.host,
+    domain: root.target.host,
     scannedAt: new Date(scannedAt),
-    surfaces: [{ target, results }],
+    surfaces,
   });
   const store = getStore();
   try {

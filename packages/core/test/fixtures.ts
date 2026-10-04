@@ -23,6 +23,9 @@ export const FIXTURES_DIR = new URL('../../../fixtures/sites/', import.meta.url)
 // Recordings of the ground-truth surfaces (fixtures/ground-truth.csv). They have no
 // expected.json: the CSV says what each one should detect.
 export const RECORDINGS_DIR = new URL('../../../fixtures/recordings/', import.meta.url);
+// Full scans, discovery included, of the homepage of each company with an app in the ground
+// truth. They measure whether a scan of the domain finds the app.
+export const DOMAINS_DIR = new URL('../../../fixtures/domains/', import.meta.url);
 
 type Recorded<T> = { result: T } | { error: { code: LayerErrorCode; message: string } };
 

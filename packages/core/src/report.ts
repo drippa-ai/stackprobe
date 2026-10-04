@@ -36,11 +36,21 @@ export const Detection = z.object({
 });
 export type Detection = z.infer<typeof Detection>;
 
+// How a scan found a surface besides the one it was asked to scan: a link on that page (with
+// the link's text), or a common subdomain that exists.
+export const SurfaceFoundBy = z.discriminatedUnion('kind', [
+  z.object({ kind: z.literal('link'), text: z.string().optional() }),
+  z.object({ kind: z.literal('subdomain') }),
+]);
+export type SurfaceFoundBy = z.infer<typeof SurfaceFoundBy>;
+
 export const Surface = z.object({
   id: z.string(),
   url: z.url(),
   kind: SurfaceKind,
   kindConfidence: Confidence.nullable(),
+  // Absent for the surface the scan was asked for.
+  foundBy: SurfaceFoundBy.optional(),
   detections: z.array(Detection),
 });
 export type Surface = z.infer<typeof Surface>;
