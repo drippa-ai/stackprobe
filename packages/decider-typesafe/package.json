@@ -1,0 +1,29 @@
+{
+  "name": "@drippa/stackprobe-decider-typesafe",
+  "version": "0.0.0",
+  "description": "Lets stackprobe ask TypeSafe's Jev model what a surface is, when its rules can't tell.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "publishConfig": {
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@drippa/stackprobe-core": "workspace:*",
+    "zod": "^4.6.5"
+  }
+}

@@ -17,7 +17,8 @@
     "record-fixture": "node packages/core/scripts/record-fixture.ts",
     "db:migrate": "node --env-file-if-exists=.env.local packages/store-postgres/scripts/migrate.ts",
     "record-ground-truth": "node packages/core/scripts/record-ground-truth.ts",
-    "accuracy": "node packages/core/scripts/accuracy.ts"
+    "accuracy": "node packages/core/scripts/accuracy.ts",
+    "record-decisions": "node --env-file-if-exists=.env.local packages/core/scripts/record-decisions.ts"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.15",

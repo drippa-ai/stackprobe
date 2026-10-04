@@ -54,3 +54,9 @@ When a recording contradicts its source, fix the CSV by removing the claim and s
 `domains/<domain>/net.json` holds a full scan, discovery included, of the homepage of each
 company that has a product app in the CSV. `accuracy.md` uses them to show whether scanning the
 homepage finds that app, and how (a "Log in" link, a subdomain check).
+
+`decisions.json` holds the answers the decision model (Jev) gave once for the surfaces the rules
+could not classify, keyed by a hash of the exact question. Tests and `accuracy.md` replay them
+and never call a live model. Re-record with `pnpm record-decisions` (needs `TYPESAFE_API_KEY`)
+after changing the question or the page facts it is given; `accuracy.md` lists any question
+without a recorded answer.

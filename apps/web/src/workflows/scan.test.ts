@@ -16,6 +16,7 @@ const services = vi.hoisted(() => ({
 vi.mock('../lib/services.ts', () => ({
   getStore: () => services.store,
   getNet: () => services.net,
+  getDecider: () => undefined,
 }));
 
 const { SCAN_LAYERS, scanWorkflow } = await import('./scan.ts');

@@ -1,6 +1,7 @@
 import { existsSync } from 'node:fs';
 import { builtinFingerprints, FINGERPRINTS_VERSION } from '../src/fingerprints/index.ts';
 import { scan } from '../src/scan.ts';
+import { ReplayDecider } from './decisions.ts';
 import { DOMAINS_DIR, loadRecording, RECORDINGS_DIR, ReplayNet } from './fixtures.ts';
 import type { GroundTruthRow } from './ground-truth.ts';
 
@@ -27,7 +28,11 @@ export interface KindScore {
 
 export interface Accuracy {
   techs: TechScore[];
+  // By rules only, and with the decision model's recorded answers.
   kinds: KindScore[];
+  kindsWithModel: KindScore[];
+  // Questions the model would be asked that have no recorded answer: re-record them.
+  decisionMisses: string[];
   // Detected, but the ground truth says nothing either way.
   unverified: { recording: string; tech: string }[];
   // Surfaces left out of the scores, and why.
@@ -39,8 +44,8 @@ export interface Accuracy {
 
 // Whether scanning a company's homepage finds the product app the ground truth names.
 export interface Discovery {
-  // `kind` is what classification called the surface that matched the app.
-  found: { app: string; via: string; kind: string }[];
+  // What classification called the surface that matched the app: rules only, and with the model.
+  found: { app: string; via: string; kind: string; kindWithModel: string }[];
   // With the surfaces the scan did find, to show what it saw instead.
   missed: { app: string; surfaces: string[] }[];
   notRecorded: string[];
@@ -58,7 +63,10 @@ export function sameSurface(app: string, surface: string): boolean {
   return section(a) === '' || section(a) === section(b);
 }
 
-export async function measureDiscovery(rows: GroundTruthRow[]): Promise<Discovery> {
+export async function measureDiscovery(
+  rows: GroundTruthRow[],
+  decider: ReplayDecider,
+): Promise<Discovery> {
   const discovery: Discovery = { found: [], missed: [], notRecorded: [] };
   for (const row of rows.filter((r) => r.surfaceKind === 'app')) {
     if (!existsSync(new URL(`${row.domain}/net.json`, DOMAINS_DIR))) {
@@ -66,18 +74,23 @@ export async function measureDiscovery(rows: GroundTruthRow[]): Promise<Discover
       continue;
     }
     const recording = loadRecording(row.domain, DOMAINS_DIR);
-    const report = await scan(recording.url, {
-      net: new ReplayNet(recording),
-      now: () => new Date(recording.recordedAt),
-    });
+    const options = { net: new ReplayNet(recording), now: () => new Date(recording.recordedAt) };
+    const report = await scan(recording.url, options);
+    const withModel = await scan(recording.url, { ...options, decider });
     const match = report.surfaces.find((surface) => sameSurface(row.surfaceUrl, surface.url));
+    const matchWithModel = withModel.surfaces.find((s) => s.id === match?.id);
     if (match) {
       const via = !match.foundBy
         ? 'the homepage itself'
         : match.foundBy.kind === 'subdomain'
           ? 'subdomain check'
           : `link "${match.foundBy.text ?? ''}"`;
-      discovery.found.push({ app: row.surfaceUrl, via, kind: match.kind });
+      discovery.found.push({
+        app: row.surfaceUrl,
+        via,
+        kind: match.kind,
+        kindWithModel: matchWithModel?.kind ?? 'unclassified',
+      });
     } else {
       discovery.missed.push({ app: row.surfaceUrl, surfaces: report.surfaces.map((s) => s.url) });
     }
@@ -101,14 +114,19 @@ export async function measureAccuracy(rows: GroundTruthRow[]): Promise<Accuracy>
     return entry;
   };
   const kinds = new Map<string, KindScore>();
-  const kindScore = (kind: string) => {
-    let entry = kinds.get(kind);
+  const kindsWithModel = new Map<string, KindScore>();
+  const scoreKind = (into: Map<string, KindScore>, row: GroundTruthRow, got: string) => {
+    if (row.surfaceKind === 'unclear') return;
+    let entry = into.get(row.surfaceKind);
     if (!entry) {
-      entry = { kind, correct: [], wrong: [], unclassified: [] };
-      kinds.set(kind, entry);
+      entry = { kind: row.surfaceKind, correct: [], wrong: [], unclassified: [] };
+      into.set(row.surfaceKind, entry);
     }
-    return entry;
+    if (got === row.surfaceKind) entry.correct.push(row.recording);
+    else if (got === 'unclassified') entry.unclassified.push(row.recording);
+    else entry.wrong.push({ recording: row.recording, as: got });
   };
+  const decider = new ReplayDecider();
   const unverified: Accuracy['unverified'] = [];
   const notScored: Accuracy['notScored'] = [];
 
@@ -143,13 +161,14 @@ export async function measureAccuracy(rows: GroundTruthRow[]): Promise<Accuracy>
       continue;
     }
 
-    const kind = report.surfaces[0]?.kind ?? 'unclassified';
-    if (row.surfaceKind !== 'unclear') {
-      const entry = kindScore(row.surfaceKind);
-      if (kind === row.surfaceKind) entry.correct.push(row.recording);
-      else if (kind === 'unclassified') entry.unclassified.push(row.recording);
-      else entry.wrong.push({ recording: row.recording, as: kind });
-    }
+    scoreKind(kinds, row, report.surfaces[0]?.kind ?? 'unclassified');
+    const withModel = await scan(row.surfaceUrl, {
+      discover: false,
+      decider,
+      net: new ReplayNet(recording),
+      now: () => new Date(recording.recordedAt),
+    });
+    scoreKind(kindsWithModel, row, withModel.surfaces[0]?.kind ?? 'unclassified');
 
     const detected = new Set(report.surfaces.flatMap((s) => s.detections.map((d) => d.tech)));
     for (const tech of row.present) {
@@ -173,13 +192,15 @@ export async function measureAccuracy(rows: GroundTruthRow[]): Promise<Accuracy>
   return {
     techs,
     kinds: [...kinds.values()].sort((a, b) => a.kind.localeCompare(b.kind)),
+    kindsWithModel: [...kindsWithModel.values()].sort((a, b) => a.kind.localeCompare(b.kind)),
     unverified: unverified.sort(
       (a, b) => a.tech.localeCompare(b.tech) || a.recording.localeCompare(b.recording),
     ),
     notScored: notScored.sort((a, b) => a.recording.localeCompare(b.recording)),
     scored: rows.length - notScored.length,
     total: rows.length,
-    discovery: await measureDiscovery(rows),
+    discovery: await measureDiscovery(rows, decider),
+    decisionMisses: [...new Set(decider.misses)].sort(),
   };
 }
 
@@ -219,47 +240,91 @@ export function formatAccuracy(accuracy: Accuracy): string {
     ),
   ];
 
-  const kindTotals = accuracy.kinds.reduce(
-    (sum, k) => ({
-      correct: sum.correct + k.correct.length,
-      all: sum.all + k.correct.length + k.wrong.length + k.unclassified.length,
-      wrong: sum.wrong + k.wrong.length,
-    }),
-    { correct: 0, all: 0, wrong: 0 },
+  const totals = (scores: KindScore[]) =>
+    scores.reduce(
+      (sum, k) => ({
+        right: sum.right + k.correct.length,
+        all: sum.all + k.correct.length + k.wrong.length + k.unclassified.length,
+        wrong: sum.wrong + k.wrong.length,
+      }),
+      { right: 0, all: 0, wrong: 0 },
+    );
+  const rules = totals(accuracy.kinds);
+  const model = totals(accuracy.kindsWithModel);
+  const cells = (k: KindScore | undefined) =>
+    k ? `${k.correct.length} | ${k.wrong.length} | ${k.unclassified.length}` : '0 | 0 | 0';
+  // Per surface: what each way called it, for every surface either got wrong or left open.
+  const got = (scores: KindScore[], recording: string) => {
+    for (const k of scores) {
+      if (k.correct.includes(recording)) return k.kind;
+      const wrong = k.wrong.find((w) => w.recording === recording);
+      if (wrong) return wrong.as;
+      if (k.unclassified.includes(recording)) return 'unclassified';
+    }
+    return 'not scored';
+  };
+  const notRight = accuracy.kinds.flatMap((k) =>
+    [...k.wrong.map((w) => w.recording), ...k.unclassified].map((recording) => ({
+      kind: k.kind,
+      recording,
+    })),
   );
+  const modelWrong = accuracy.kindsWithModel.flatMap((k) =>
+    k.wrong.map((w) => ({ kind: k.kind, recording: w.recording })),
+  );
+  const openKinds = [...notRight, ...modelWrong]
+    .filter((x, i, all) => all.findIndex((y) => y.recording === x.recording) === i)
+    .sort((a, b) => a.kind.localeCompare(b.kind) || a.recording.localeCompare(b.recording));
   lines.push(
     '',
     '## Surface kinds',
     '',
-    `**Kind right for ${kindTotals.correct} of ${kindTotals.all} surfaces ` +
-      `(${percent(kindTotals.correct, kindTotals.all)}). Wrong: ${kindTotals.wrong}; the rest ` +
-      'were left unclassified.** Each surface scanned on its own, by rules only.',
+    `**Rules only: kind right for ${rules.right} of ${rules.all} surfaces ` +
+      `(${percent(rules.right, rules.all)}), wrong ${rules.wrong}, the rest left unclassified. ` +
+      `With the decision model (Jev, recorded answers): right for ${model.right} of ${model.all} ` +
+      `(${percent(model.right, model.all)}), wrong ${model.wrong}.** Each surface scanned on its own.`,
     '',
-    '| Kind | Right | Wrong | Unclassified |',
-    '| --- | --- | --- | --- |',
+    '| Kind | Rules: right | wrong | unclassified | With Jev: right | wrong | unclassified |',
+    '| --- | --- | --- | --- | --- | --- | --- |',
     ...accuracy.kinds.map(
-      (k) => `| ${k.kind} | ${k.correct.length} | ${k.wrong.length} | ${k.unclassified.length} |`,
+      (k) =>
+        `| ${k.kind} | ${cells(k)} | ${cells(accuracy.kindsWithModel.find((m) => m.kind === k.kind))} |`,
     ),
     '',
-    ...accuracy.kinds.flatMap((k) => [
-      ...k.wrong.map((w) => `- ${k.kind} **${w.recording}**: called ${w.as}`),
-      ...k.unclassified.map((u) => `- ${k.kind} ${u}: unclassified`),
-    ]),
+    ...openKinds.map(
+      ({ kind, recording }) =>
+        `- ${kind} ${recording}: rules ${got(accuracy.kinds, recording)}, with Jev ` +
+        `${got(accuracy.kindsWithModel, recording)}`,
+    ),
   );
+  if (accuracy.decisionMisses.length) {
+    lines.push(
+      '',
+      `**${accuracy.decisionMisses.length} decisions have no recorded answer; run ` +
+        '`pnpm record-decisions`:** ' +
+        accuracy.decisionMisses.join(', '),
+    );
+  }
 
   const { discovery } = accuracy;
   const apps = discovery.found.length + discovery.missed.length;
   const calledApp = discovery.found.filter((f) => f.kind === 'app').length;
+  const calledAppWithModel = discovery.found.filter((f) => f.kindWithModel === 'app').length;
   lines.push(
     '',
     '## Finding the app',
     '',
     `**Scanning the company's homepage found ${discovery.found.length} of ${apps} product apps ` +
-      `(${percent(discovery.found.length, apps)}), and called ${calledApp} of them the product ` +
-      `app (${percent(calledApp, apps)}).** Each app in the ground truth, how the scan reached ` +
-      'it, and what it called it:',
+      `(${percent(discovery.found.length, apps)}). It called ${calledApp} of them the product app ` +
+      `by rules only (${percent(calledApp, apps)}), and ${calledAppWithModel} with Jev ` +
+      `(${percent(calledAppWithModel, apps)}).** Each app in the ground truth, how the scan ` +
+      'reached it, and what it called it:',
     '',
-    ...discovery.found.map((f) => `- ${f.app}: ${f.via}; called ${f.kind}`),
+    ...discovery.found.map(
+      (f) =>
+        `- ${f.app}: ${f.via}; called ${f.kind}` +
+        (f.kindWithModel !== f.kind ? `, with Jev ${f.kindWithModel}` : ''),
+    ),
     ...discovery.missed.map((m) => `- ${m.app}: **missed** (scanned ${m.surfaces.join(', ')})`),
     ...discovery.notRecorded.map((app) => `- ${app}: homepage not recorded yet`),
   );

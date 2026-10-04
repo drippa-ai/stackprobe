@@ -26,6 +26,9 @@ importers:
       '@drippa/stackprobe-core':
         specifier: workspace:*
         version: link:../../packages/core
+      '@drippa/stackprobe-decider-typesafe':
+        specifier: workspace:*
+        version: link:../../packages/decider-typesafe
       '@drippa/stackprobe-store-postgres':
         specifier: workspace:*
         version: link:../../packages/store-postgres
@@ -62,11 +65,23 @@ importers:
         specifier: ^2.9.1
         version: 2.9.1
 
+  packages/decider-typesafe:
+    dependencies:
+      '@drippa/stackprobe-core':
+        specifier: workspace:*
+        version: link:../core
+      zod:
+        specifier: ^4.6.5
+        version: 4.6.5
+
   packages/mcp:
     dependencies:
       '@drippa/stackprobe-core':
         specifier: workspace:*
         version: link:../core
+      '@drippa/stackprobe-decider-typesafe':
+        specifier: workspace:*
+        version: link:../decider-typesafe
       '@drippa/stackprobe-store-sqlite':
         specifier: workspace:*
         version: link:../store-sqlite

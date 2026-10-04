@@ -4,6 +4,7 @@ import net from 'node:net';
 import { describe, expect, test } from 'vitest';
 import { LayerError } from '../src/layer.ts';
 import type { Net } from '../src/net.ts';
+import { DECISIONS_FILE } from './decisions.ts';
 import {
   DOMAINS_DIR,
   FIXTURES_DIR,
@@ -146,5 +147,8 @@ test('committed fixtures are complete and contain no secrets', () => {
       const text = readFileSync(new URL(`${recording.name}/net.json`, dir), 'utf8');
       expect(findSecrets(text), `${dir.pathname} ${recording.name}`).toEqual([]);
     }
+  }
+  if (existsSync(DECISIONS_FILE)) {
+    expect(findSecrets(readFileSync(DECISIONS_FILE, 'utf8')), 'decisions.json').toEqual([]);
   }
 });

@@ -8,7 +8,11 @@ if (existsSync(rootEnv)) process.loadEnvFile(rootEnv);
 
 const nextConfig: NextConfig = {
   // The workspace packages ship TypeScript source, so Next compiles them like app code.
-  transpilePackages: ['@drippa/stackprobe-core', '@drippa/stackprobe-store-postgres'],
+  transpilePackages: [
+    '@drippa/stackprobe-core',
+    '@drippa/stackprobe-decider-typesafe',
+    '@drippa/stackprobe-store-postgres',
+  ],
 };
 
 export default withWorkflow(nextConfig);

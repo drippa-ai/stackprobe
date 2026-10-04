@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "@drippa/stackprobe-core": "workspace:*",
+    "@drippa/stackprobe-decider-typesafe": "workspace:*",
     "@drippa/stackprobe-store-sqlite": "workspace:*",
     "@modelcontextprotocol/sdk": "^1.32.0",
     "zod": "^4.6.5"

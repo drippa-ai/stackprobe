@@ -7,7 +7,9 @@ export type {
 export {
   classifyByRules,
   classifySurfaces,
+  DECIDER_MINIMUM,
   KIND_DESCRIPTIONS,
+  kindQuestion,
   RULES_MINIMUM,
   RULES_SETTLE,
   ruleVotes,
