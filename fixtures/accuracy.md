@@ -26,31 +26,57 @@ Fingerprints version `84c9355fa9ff`. 46 of 49 surfaces scored.
 | vercel | yes | 13 | 0 | 0 | 100% |
 | webflow | yes | 4 | 0 | 0 | 100% |
 
+## Surface kinds
+
+**Kind right for 27 of 42 surfaces (64%). Wrong: 0; the rest were left unclassified.** Each surface scanned on its own, by rules only.
+
+| Kind | Right | Wrong | Unclassified |
+| --- | --- | --- | --- |
+| app | 17 | 0 | 3 |
+| docs | 2 | 0 | 0 |
+| marketing | 8 | 0 | 12 |
+
+- app www-openevidence-com: unclassified
+- app www-udio-com: unclassified
+- app thehouse-id: unclassified
+- marketing www-notion-com: unclassified
+- marketing ramp-com: unclassified
+- marketing www-chatbase-co: unclassified
+- marketing metamask-io: unclassified
+- marketing tray-ai: unclassified
+- marketing speechify-com: unclassified
+- marketing navan-com: unclassified
+- marketing www-leagueoflegends-com: unclassified
+- marketing superthread-com: unclassified
+- marketing engineering-intility-com: unclassified
+- marketing bizee-com: unclassified
+- marketing payloadcms-com: unclassified
+
 ## Finding the app
 
-**Scanning the company's homepage found 21 of 22 product apps (95%).** Each app in the ground truth, and how the scan reached it:
+**Scanning the company's homepage found 21 of 22 product apps (95%), and called 18 of them the product app (82%).** Each app in the ground truth, how the scan reached it, and what it called it:
 
-- https://app.ayrshare.com/: link "Log in"
-- https://app.cal.com/: link "Sign in"
-- https://app.drippa.ai/: subdomain check
-- https://app.goodtape.io/auth/login: link "Login"
-- https://app.humata.ai/: link "Log in"
-- https://app.inngest.com/: link "Sign in"
-- https://app.leonardo.ai/: subdomain check
-- https://app.openstatus.dev/: link "Dashboard"
-- https://app.qa.tech/: link "Log in"
-- https://app.shortwave.com/: link "Sign in"
-- https://app.turso.tech/: link "Try Cloud free"
-- https://dashboard.buildwithfern.com/: link "Sign in"
-- https://dashboard.meter.com/: link "Dashboard"
-- https://getcircular.ai/login: link "Log in"
-- https://resend.com/login: link "Log in"
-- https://thehouse.id/: the homepage itself
-- https://us.hub.indykite.com/login: link "Sandbox"
-- https://www.bydagny.com/sign-in: link "Log in"
-- https://www.chatbase.co/dashboard: link "Start free trial"
-- https://www.openevidence.com/: the homepage itself
-- https://www.udio.com/: the homepage itself
+- https://app.ayrshare.com/: link "Log in"; called app
+- https://app.cal.com/: link "Sign in"; called app
+- https://app.drippa.ai/: subdomain check; called app
+- https://app.goodtape.io/auth/login: link "Login"; called app
+- https://app.humata.ai/: link "Log in"; called app
+- https://app.inngest.com/: link "Sign in"; called app
+- https://app.leonardo.ai/: subdomain check; called app
+- https://app.openstatus.dev/: link "Dashboard"; called app
+- https://app.qa.tech/: link "Log in"; called app
+- https://app.shortwave.com/: link "Sign in"; called app
+- https://app.turso.tech/: link "Try Cloud free"; called app
+- https://dashboard.buildwithfern.com/: link "Sign in"; called app
+- https://dashboard.meter.com/: link "Dashboard"; called app
+- https://getcircular.ai/login: link "Log in"; called app
+- https://resend.com/login: link "Log in"; called app
+- https://thehouse.id/: the homepage itself; called unclassified
+- https://us.hub.indykite.com/login: link "Sandbox"; called app
+- https://www.bydagny.com/sign-in: link "Log in"; called app
+- https://www.chatbase.co/dashboard: link "Start free trial"; called app
+- https://www.openevidence.com/: the homepage itself; called unclassified
+- https://www.udio.com/: the homepage itself; called unclassified
 - https://stackoverflow.com/questions: **missed** (scanned https://stackoverflow.com/, https://api.stackoverflow.com/)
 
 ## Missed

@@ -1,3 +1,19 @@
+export type {
+  Classification,
+  ClassifiedKind,
+  ClassifyOptions,
+  Decider,
+} from './classify.ts';
+export {
+  classifyByRules,
+  classifySurfaces,
+  KIND_DESCRIPTIONS,
+  RULES_MINIMUM,
+  RULES_SETTLE,
+  ruleVotes,
+  surfaceState,
+  surfacesByRole,
+} from './classify.ts';
 export type { DetectOptions } from './detect.ts';
 export { DEFAULT_MIN_CONFIDENCE, detect, MAX_CONFIDENCE } from './detect.ts';
 export type { DetectionChange, DetectionState, ReportDiff, SurfaceDiff } from './diff.ts';

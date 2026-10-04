@@ -1,3 +1,4 @@
+import { type Classification, classifySurfaces, type Decider } from './classify.ts';
 import { detect } from './detect.ts';
 import { discoverSurfaces } from './discover.ts';
 import type { CompiledFingerprint } from './fingerprint.ts';
@@ -18,6 +19,8 @@ export interface SurfaceResults {
 }
 
 export interface BuildReportInput {
+  // From classifySurfaces, by surface id. Surfaces without one stay as their target says.
+  classifications?: Record<string, Classification>;
   domain: string;
   scannedAt: Date;
   surfaces: SurfaceResults[];
@@ -37,8 +40,11 @@ export function buildReport(input: BuildReportInput): Report {
     surfaces: input.surfaces.map(({ target, results }) => ({
       id: target.id,
       url: target.url,
-      kind: target.kind,
-      kindConfidence: null,
+      kind: input.classifications?.[target.id]?.kind ?? target.kind,
+      kindConfidence: input.classifications?.[target.id]?.confidence ?? null,
+      ...(input.classifications?.[target.id]?.reasons.length
+        ? { kindReasons: input.classifications[target.id]?.reasons }
+        : {}),
       ...(target.foundBy ? { foundBy: target.foundBy } : {}),
       detections: detect(
         results.flatMap((result) => result.signals),
@@ -67,6 +73,8 @@ export interface ScanOptions {
   onLayerResult?: (result: LayerResult) => void | Promise<void>;
   // Look for the domain's other surfaces (links, common subdomains). On by default.
   discover?: boolean;
+  // Settles what kind a surface is when the rules can't. Without one, rules only.
+  decider?: Decider;
 }
 
 // The layers to run on each surface: everything on the first surface of each host, and only the
@@ -118,5 +126,10 @@ export async function scan(input: string, options: ScanOptions): Promise<Report>
   const others = await Promise.all(
     found.map((surface) => run(surface, plan.get(surface.id) ?? [])),
   );
-  return buildReport({ domain: target.host, scannedAt, surfaces: [root, ...others] });
+  const surfaces = [root, ...others];
+  const classifications = await classifySurfaces(
+    surfaces,
+    options.decider ? { decider: options.decider } : {},
+  );
+  return buildReport({ domain: target.host, scannedAt, surfaces, classifications });
 }

@@ -49,6 +49,8 @@ export const Surface = z.object({
   url: z.url(),
   kind: SurfaceKind,
   kindConfidence: Confidence.nullable(),
+  // The clues behind the kind, e.g. "app. subdomain", "built with framer".
+  kindReasons: z.array(z.string()).optional(),
   // Absent for the surface the scan was asked for.
   foundBy: SurfaceFoundBy.optional(),
   detections: z.array(Detection),
