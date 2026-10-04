@@ -1,3 +1,4 @@
+import { type Browser, browserLayer } from './browser.ts';
 import { type Classification, classifySurfaces, type Decider } from './classify.ts';
 import { detect } from './detect.ts';
 import { discoverSurfaces } from './discover.ts';
@@ -75,6 +76,32 @@ export interface ScanOptions {
   discover?: boolean;
   // Settles what kind a surface is when the rules can't. Without one, rules only.
   decider?: Decider;
+  // Loads the product app (and an unclassified homepage) in a real browser. Without one, the
+  // browser layer is skipped.
+  browser?: Browser;
+}
+
+// At most this many browser loads per scan: one careful visitor, not a crawler.
+export const MAX_BROWSER_SURFACES = 3;
+
+// The surfaces worth a browser load: the product app first (at most 2, most certain first), then
+// the homepage when it could not be classified, since a product may live right there.
+export function browserTargets(
+  surfaces: { target: SurfaceTarget }[],
+  classifications: Record<string, Classification>,
+): SurfaceTarget[] {
+  const apps = surfaces
+    .filter(({ target }) => classifications[target.id]?.kind === 'app')
+    .sort(
+      (a, b) =>
+        (classifications[b.target.id]?.confidence ?? 0) -
+        (classifications[a.target.id]?.confidence ?? 0),
+    )
+    .slice(0, 2)
+    .map(({ target }) => target);
+  const root = surfaces[0]?.target;
+  const rootOpen = root && (classifications[root.id]?.kind ?? 'unclassified') === 'unclassified';
+  return [...apps, ...(rootOpen ? [root] : [])].slice(0, MAX_BROWSER_SURFACES);
 }
 
 // The layers to run on each surface: everything on the first surface of each host, and only the
@@ -131,5 +158,15 @@ export async function scan(input: string, options: ScanOptions): Promise<Report>
     surfaces,
     options.decider ? { decider: options.decider } : {},
   );
+  if (options.browser) {
+    const layer = browserLayer(options.browser);
+    await Promise.all(
+      browserTargets(surfaces, classifications).map(async (surface) => {
+        const results = await runLayers([layer], surface, runOptions);
+        for (const result of results) await options.onLayerResult?.(result);
+        surfaces.find((s) => s.target.id === surface.id)?.results.push(...results);
+      }),
+    );
+  }
   return buildReport({ domain: target.host, scannedAt, surfaces, classifications });
 }
