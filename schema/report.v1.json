@@ -111,7 +111,7 @@
                       },
                       "layer": {
                         "type": "string",
-                        "enum": ["http", "dns", "tls", "browser"]
+                        "enum": ["http", "dns", "tls", "browser", "bundle"]
                       },
                       "ruleId": {
                         "type": "string"
@@ -146,7 +146,7 @@
         "properties": {
           "layer": {
             "type": "string",
-            "enum": ["http", "dns", "tls", "browser"]
+            "enum": ["http", "dns", "tls", "browser", "bundle"]
           },
           "surfaceId": {
             "type": "string"

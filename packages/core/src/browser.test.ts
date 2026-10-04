@@ -11,7 +11,7 @@ import { detect } from './detect.ts';
 import { builtinFingerprints } from './fingerprints/index.ts';
 import type { Net } from './net.ts';
 import { Report } from './report.ts';
-import { browserTargets, scan } from './scan.ts';
+import { deepTargets, scan } from './scan.ts';
 import { surfaceTarget } from './surface.ts';
 
 const project = 'abcdefghijklmnopqrst';
@@ -136,7 +136,7 @@ describe('ownCapture', () => {
   });
 });
 
-describe('browserTargets', () => {
+describe('deepTargets', () => {
   const s = (url: string, id: string) => ({ target: surfaceTarget(url, id) });
   const k = (kind: Classification['kind'], confidence: number | null): Classification => ({
     kind,
@@ -153,7 +153,7 @@ describe('browserTargets', () => {
       s('https://acme.test/login', 'login'),
       s('https://docs.acme.test/', 'docs'),
     ];
-    const picked = browserTargets(surfaces, {
+    const picked = deepTargets(surfaces, {
       root: k('unclassified', null),
       signup: k('app', 0.6),
       app: k('app', 0.96),
@@ -164,9 +164,9 @@ describe('browserTargets', () => {
   });
 
   test('leaves a marketing homepage alone', () => {
-    expect(
-      browserTargets([s('https://acme.test/', 'root')], { root: k('marketing', 0.9) }),
-    ).toEqual([]);
+    expect(deepTargets([s('https://acme.test/', 'root')], { root: k('marketing', 0.9) })).toEqual(
+      [],
+    );
   });
 });
 

@@ -1,5 +1,5 @@
 // Generated from fingerprints/*.yaml by `pnpm fingerprints`. Do not edit.
-export const FINGERPRINTS_VERSION = '84c9355fa9ff';
+export const FINGERPRINTS_VERSION = '252e34859e3a';
 export const FINGERPRINT_DEFINITIONS: unknown[] = [
   {
     "id": "auth0",
@@ -57,6 +57,27 @@ export const FINGERPRINT_DEFINITIONS: unknown[] = [
         },
         "weight": 0.9,
         "detail": "auth0-spa-js session cookie"
+      },
+      {
+        "id": "bundle-tenant",
+        "layer": "bundle",
+        "signal": "bundle-url",
+        "match": {
+          "regex": "^https://(?!cdn\\.|www\\.)[a-z0-9-]+(?:\\.[a-z]{2})?\\.auth0\\.com$"
+        },
+        "weight": 0.85,
+        "detail": "Auth0 tenant address in the page's own JavaScript"
+      },
+      {
+        "id": "bundle-spa-sdk",
+        "layer": "bundle",
+        "signal": "bundle-sdk",
+        "match": {
+          "regex": "^auth0-spa-js/(\\d+\\.\\d+\\.\\d+)"
+        },
+        "version": "$1",
+        "weight": 0.9,
+        "detail": "auth0-spa-js bundled with the page"
       }
     ]
   },
@@ -128,6 +149,26 @@ export const FINGERPRINT_DEFINITIONS: unknown[] = [
         },
         "weight": 0.9,
         "detail": "Request to Clerk's frontend API"
+      },
+      {
+        "id": "bundle-sdk-hosts",
+        "layer": "bundle",
+        "signal": "bundle-url",
+        "match": {
+          "regex": "^https://(?:api\\.clerk\\.com|clerk-telemetry\\.com)$"
+        },
+        "weight": 0.85,
+        "detail": "Clerk SDK in the page's own JavaScript"
+      },
+      {
+        "id": "bundle-dev-instance",
+        "layer": "bundle",
+        "signal": "bundle-url",
+        "match": {
+          "regex": "\\.clerk\\.accounts\\.dev$"
+        },
+        "weight": 0.9,
+        "detail": "Clerk frontend API in the page's own JavaScript"
       }
     ]
   },
@@ -271,6 +312,36 @@ export const FINGERPRINT_DEFINITIONS: unknown[] = [
         },
         "weight": 0.9,
         "detail": "Firebase Realtime Database connection"
+      },
+      {
+        "id": "bundle-database-url",
+        "layer": "bundle",
+        "signal": "bundle-url",
+        "match": {
+          "regex": "\\.firebaseio\\.com$"
+        },
+        "weight": 0.9,
+        "detail": "Firebase Realtime Database URL in the page's own JavaScript"
+      },
+      {
+        "id": "bundle-auth-domain",
+        "layer": "bundle",
+        "signal": "bundle-url",
+        "match": {
+          "regex": "\\.firebaseapp\\.com$"
+        },
+        "weight": 0.85,
+        "detail": "Firebase auth domain in the page's own JavaScript"
+      },
+      {
+        "id": "bundle-api",
+        "layer": "bundle",
+        "signal": "bundle-url",
+        "match": {
+          "regex": "^https://(?:identitytoolkit|securetoken|firestore|firebaseinstallations)\\.googleapis\\.com$"
+        },
+        "weight": 0.85,
+        "detail": "Firebase API address in the page's own JavaScript"
       }
     ]
   },
@@ -621,6 +692,47 @@ export const FINGERPRINT_DEFINITIONS: unknown[] = [
         },
         "weight": 0.6,
         "detail": "CNAME to Supabase"
+      },
+      {
+        "id": "bundle-project-url",
+        "layer": "bundle",
+        "signal": "bundle-url",
+        "match": {
+          "regex": "^https://[a-z0-9]{20}\\.supabase\\.co$"
+        },
+        "weight": 0.9,
+        "detail": "Supabase project URL in the page's own JavaScript"
+      },
+      {
+        "id": "bundle-supabase-js",
+        "layer": "bundle",
+        "signal": "bundle-sdk",
+        "match": {
+          "regex": "^supabase-js/(\\d+\\.\\d+\\.\\d+)"
+        },
+        "version": "$1",
+        "weight": 0.9,
+        "detail": "supabase-js bundled with the page"
+      },
+      {
+        "id": "bundle-supabase-ssr",
+        "layer": "bundle",
+        "signal": "bundle-sdk",
+        "match": {
+          "regex": "^supabase-ssr/"
+        },
+        "weight": 0.85,
+        "detail": "@supabase/ssr bundled with the page"
+      },
+      {
+        "id": "bundle-custom-domain",
+        "layer": "bundle",
+        "signal": "bundle-url",
+        "match": {
+          "regex": "^https://supabase\\.[a-z0-9.-]+$"
+        },
+        "weight": 0.6,
+        "detail": "Address named supabase in the page's own JavaScript"
       }
     ]
   },

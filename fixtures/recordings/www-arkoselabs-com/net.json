@@ -1,20 +1,20 @@
 {
   "url": "https://www.arkoselabs.com/",
-  "recordedAt": "2026-10-04T17:53:08.971Z",
+  "recordedAt": "2026-10-04T20:16:51.520Z",
   "http": {
     "GET https://www.arkoselabs.com/": {
       "result": {
         "url": "https://www.arkoselabs.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 17:53:09 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
           ["set-cookie", "_cfuvid=<redacted>"],
-          ["cf-ray", "a4560b5fd8e149c5-OSL"],
+          ["cf-ray", "a456dde2cc4a8be6-OSL"],
           ["cf-cache-status", "HIT"],
-          ["age", "329445"],
+          ["age", "338068"],
           ["content-encoding", "gzip"],
           ["last-modified", "Thu, 01 Oct 2026 23:24:48 GMT"],
           [
@@ -42,13 +42,6 @@
     }
   },
   "dns": {
-    "A www.arkoselabs.com": {
-      "result": {
-        "name": "www.arkoselabs.com",
-        "type": "A",
-        "records": ["198.202.211.1"]
-      }
-    },
     "CNAME www.arkoselabs.com": {
       "result": {
         "name": "www.arkoselabs.com",
@@ -61,6 +54,13 @@
         "name": "www.arkoselabs.com",
         "type": "NS",
         "records": ["lamar.ns.cloudflare.com", "journey.ns.cloudflare.com"]
+      }
+    },
+    "A www.arkoselabs.com": {
+      "result": {
+        "name": "www.arkoselabs.com",
+        "type": "A",
+        "records": ["198.202.211.1"]
       }
     },
     "AAAA www.arkoselabs.com": {

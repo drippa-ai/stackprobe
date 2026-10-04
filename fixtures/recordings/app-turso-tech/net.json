@@ -1,6 +1,6 @@
 {
   "url": "https://app.turso.tech/",
-  "recordedAt": "2026-10-04T17:53:06.130Z",
+  "recordedAt": "2026-10-04T20:16:48.547Z",
   "http": {
     "GET https://app.turso.tech/": {
       "result": {
@@ -10,7 +10,7 @@
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-security-policy", "frame-ancestors 'none'"],
           ["content-type", "text/html"],
-          ["date", "Sun, 04 Oct 2026 17:53:06 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
           ["location", "/login?redirect_url=https%3A%2F%2Fapp.turso.tech%2F"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
@@ -18,7 +18,7 @@
           ["x-clerk-auth-status", "signed-out"],
           ["x-clerk-redirect-to", "true"],
           ["x-frame-options", "DENY"],
-          ["x-vercel-id", "arn1::9wfpx-1791136386250-21164d68c91b"],
+          ["x-vercel-id", "arn1::8bclp-1791145008624-01dc0be8b164"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<a href=\"/login?redirect_url=https%253A%252F%252Fapp.turso.tech%252F\">here</a>"
@@ -34,7 +34,7 @@
           ["content-encoding", "br"],
           ["content-security-policy", "frame-ancestors 'none'"],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 17:53:06 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
           [
             "link",
             "</_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\""
@@ -51,31 +51,674 @@
           ["x-matched-path", "/login/[[...login]]"],
           ["x-powered-by", "Next.js"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::iad1::69cfb-1791136386313-1328acb63ef9"],
+          ["x-vercel-id", "arn1::iad1::whl54-1791145009682-e68a07f275c5"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/44yq3g03e8hdl.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/0jyqdz0-9vvic.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/43_4b2odbj_vg.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/0rnts1su1q3d9.js\">\n<script src=\"/_next/static/immutable/chunks/0ywfqrpkr7nyq.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/008ao_2vvmmmh.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0svkai00pv8ct.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3ufznw_w897kn.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-1ksb84fvyv6ok.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2kkhd5-i2fm8m.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1wg83mkl1-cpo.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0x_pc84sc5h8j.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0pq0svdwnula3.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/337ulb_6jmkph.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3vxerzb4mjra3.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0vcb8f2xqctju.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0pxsszfavsfwt.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2i9ht_v4o5t9x.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2lsm02he3at9p.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3etj4nruigd6f.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/39iq-j-m5q5vs.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/165vwox4v_ehg.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/03497l03eiv4p.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/31ch_9q9233lz.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3gq9-svdzw_6u.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0l-nh-n9sqnt7.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"https://clerk.turso.tech/npm/@clerk/clerk-js@5/dist/clerk.browser.js\" data-clerk-js-script=\"true\" async=\"\" crossorigin=\"anonymous\" data-clerk-publishable-key=\"pk_live_<redacted>\"></script>\n<link rel=\"preload\" href=\"https://www.googletagmanager.com/gtm.js?id=GTM-WW757Q5\" as=\"script\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.3dzu3z6cywbjb.ico\" sizes=\"48x48\" type=\"image/x-icon\">\n<meta name=\"next-size-adjust\" content=\"\">\n<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\">\n<meta name=\"sentry-trace\" content=\"85c45e720d1971ea433e0f97be720be0-c136a4997d80bb12-1\">\n<meta name=\"baggage\" content=\"sentry-environment=vercel-production,sentry-release=6bb000ca17fb26bdfa74b546e04ac38b961b18c8,sentry-public_key=518d5d280bad51530472318711eb7814,sentry-trace_id=85c45e720d1971ea433e0f97be720be0,sentry-org_id=4505630238310400,sentry-transaction=GET%20%2Flogin,sentry-sampled=true,sentry-sample_rand=0.6093322516849766,sentry-sample_rate=1\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0rnts1su1q3d9.js\" id=\"_R_\" async=\"\"></script>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/44yq3g03e8hdl.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/0jyqdz0-9vvic.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/43_4b2odbj_vg.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/0rnts1su1q3d9.js\">\n<script src=\"/_next/static/immutable/chunks/0ywfqrpkr7nyq.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/008ao_2vvmmmh.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0svkai00pv8ct.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3ufznw_w897kn.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-1ksb84fvyv6ok.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2kkhd5-i2fm8m.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1wg83mkl1-cpo.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0x_pc84sc5h8j.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0pq0svdwnula3.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/337ulb_6jmkph.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3vxerzb4mjra3.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0vcb8f2xqctju.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0pxsszfavsfwt.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2i9ht_v4o5t9x.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2lsm02he3at9p.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3etj4nruigd6f.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/39iq-j-m5q5vs.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/165vwox4v_ehg.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/03497l03eiv4p.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/31ch_9q9233lz.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3gq9-svdzw_6u.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0l-nh-n9sqnt7.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"https://clerk.turso.tech/npm/@clerk/clerk-js@5/dist/clerk.browser.js\" data-clerk-js-script=\"true\" async=\"\" crossorigin=\"anonymous\" data-clerk-publishable-key=\"pk_live_<redacted>\"></script>\n<link rel=\"preload\" href=\"https://www.googletagmanager.com/gtm.js?id=GTM-WW757Q5\" as=\"script\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.3dzu3z6cywbjb.ico\" sizes=\"48x48\" type=\"image/x-icon\">\n<meta name=\"next-size-adjust\" content=\"\">\n<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\">\n<meta name=\"sentry-trace\" content=\"f1becac31458877d314d42c26a6e9a64-cb20d7965b7f85fd-1\">\n<meta name=\"baggage\" content=\"sentry-environment=vercel-production,sentry-release=6bb000ca17fb26bdfa74b546e04ac38b961b18c8,sentry-public_key=518d5d280bad51530472318711eb7814,sentry-trace_id=f1becac31458877d314d42c26a6e9a64,sentry-org_id=4505630238310400,sentry-transaction=GET%20%2Flogin,sentry-sampled=true,sentry-sample_rand=0.8426777779137509,sentry-sample_rate=1\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0rnts1su1q3d9.js\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/0ywfqrpkr7nyq.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/0ywfqrpkr7nyq.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "366064"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0ywfqrpkr7nyq.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0ywfqrpkr7nyq.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:35:45 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0ywfqrpkr7nyq.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::97x49-1791145010064-6c51fd9c1c52"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/2i9ht_v4o5t9x.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/2i9ht_v4o5t9x.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "364612"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2i9ht_v4o5t9x.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/2i9ht_v4o5t9x.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:59:57 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2i9ht_v4o5t9x.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::97x49-1791145010133-390320e95de3"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/3ufznw_w897kn.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/3ufznw_w897kn.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "364944"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3ufznw_w897kn.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3ufznw_w897kn.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:54:25 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3ufznw_w897kn.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::6s9x9-1791145010129-1cbef937ba6f"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/turbopack-1ksb84fvyv6ok.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/turbopack-1ksb84fvyv6ok.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "238982"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"turbopack-1ksb84fvyv6ok.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/turbopack-1ksb84fvyv6ok.js\""],
+          ["last-modified", "Fri, 02 Oct 2026 01:53:47 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/turbopack-1ksb84fvyv6ok.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5wlkr-1791145010128-de9a7c61e9b0"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/2kkhd5-i2fm8m.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/2kkhd5-i2fm8m.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "366064"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2kkhd5-i2fm8m.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/2kkhd5-i2fm8m.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:35:45 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2kkhd5-i2fm8m.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9ttlx-1791145010132-7f8c4b5013f3"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/0x_pc84sc5h8j.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/0x_pc84sc5h8j.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "6182"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0x_pc84sc5h8j.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0x_pc84sc5h8j.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 18:33:47 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0x_pc84sc5h8j.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::c6bts-1791145010132-4c2855b5f371"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://api.clerk.com/\"\n\"https://api.clerkstage.dev/\"\n\"https://api.lclclerk.com/\"\n\"https://dashboard.clerk.com/\""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/1wg83mkl1-cpo.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/1wg83mkl1-cpo.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "364769"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1wg83mkl1-cpo.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/1wg83mkl1-cpo.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:57:20 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1wg83mkl1-cpo.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::2xsj4-1791145010133-5f670dcc0352"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/0pq0svdwnula3.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/0pq0svdwnula3.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "364944"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0pq0svdwnula3.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0pq0svdwnula3.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:54:25 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0pq0svdwnula3.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::6s9x9-1791145010132-7e5da14d41ce"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://static.reo.dev/\"\n\"https://va.vercel-scripts.com/\"\n\"https://vercel.com/\"\n\"https://www.googletagmanager.com/\""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/3vxerzb4mjra3.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/3vxerzb4mjra3.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "6182"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3vxerzb4mjra3.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3vxerzb4mjra3.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 18:33:47 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3vxerzb4mjra3.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::whl54-1791145010134-444f660d6417"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://clerk.com/\""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/0svkai00pv8ct.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/0svkai00pv8ct.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "364769"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0svkai00pv8ct.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0svkai00pv8ct.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:57:20 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0svkai00pv8ct.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mj5zg-1791145010132-f2c3ae9eb0c8"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/165vwox4v_ehg.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/165vwox4v_ehg.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "34077"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"165vwox4v_ehg.js\""],
+          ["content-length", "730"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "\"_next/static/immutable/chunks/165vwox4v_ehg.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 10:48:52 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/165vwox4v_ehg.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::r6nks-1791145010136-05b3ed469a5a"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/03497l03eiv4p.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/03497l03eiv4p.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "34757"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"03497l03eiv4p.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/03497l03eiv4p.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 10:37:32 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/03497l03eiv4p.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::2xsj4-1791145010140-b6723cb998b3"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://status.turso.tech/\""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/3gq9-svdzw_6u.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/3gq9-svdzw_6u.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "6182"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3gq9-svdzw_6u.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3gq9-svdzw_6u.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 18:33:47 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3gq9-svdzw_6u.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::fwn2k-1791145010140-0f1d0283cfa7"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/0rnts1su1q3d9.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/0rnts1su1q3d9.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "364944"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0rnts1su1q3d9.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0rnts1su1q3d9.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:54:25 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0rnts1su1q3d9.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::6s9x9-1791145010140-4d1b0e174817"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/0pxsszfavsfwt.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/0pxsszfavsfwt.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "364944"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0pxsszfavsfwt.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0pxsszfavsfwt.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:54:25 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0pxsszfavsfwt.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mgw6r-1791145010134-b25e0c019f02"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://clerk-telemetry.com/\"\n\"https://clerk.com/\"\n\"https://dashboard.clerk.com/\"\n\"https://stripe.com/\""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/0l-nh-n9sqnt7.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/0l-nh-n9sqnt7.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "366064"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0l-nh-n9sqnt7.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0l-nh-n9sqnt7.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:35:45 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0l-nh-n9sqnt7.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::fr745-1791145010140-1490528afc48"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://clerk.turso.tech/npm/@clerk/clerk-js@5/dist/clerk.browser.js": {
+      "result": {
+        "url": "https://clerk.turso.tech/npm/@clerk/clerk-js@5/dist/clerk.browser.js",
+        "status": 307,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["content-length", "0"],
+          ["connection", "keep-alive"],
+          [
+            "location",
+            "https://clerk.turso.tech/npm/@clerk/clerk-js@5.128.0/dist/clerk.browser.js"
+          ],
+          ["access-control-allow-origin", "*"],
+          [
+            "cache-control",
+            "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+          ],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Gh5UXoM5deXY2%2BivgxhcaAef0%2F%2Fczoe1argNxhn%2Fqynm%2BLXV45AkCYkXJm3DUuXdKO4TdaElhEyKdwkPXBn5CCSKjwg1O92QFrXtvz%2FPoeTPzGAn%2FicRohRyg4kXpbqWWEY%3D\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=63072000;"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddd96bb73181-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/0vcb8f2xqctju.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/0vcb8f2xqctju.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "366064"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0vcb8f2xqctju.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0vcb8f2xqctju.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:35:45 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0vcb8f2xqctju.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::r8w7l-1791145010136-e4fd57812d4c"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://radix-ui.com/\""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/39iq-j-m5q5vs.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/39iq-j-m5q5vs.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "364944"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"39iq-j-m5q5vs.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/39iq-j-m5q5vs.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:54:25 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/39iq-j-m5q5vs.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::xq95k-1791145010136-a696617ab1e9"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/2lsm02he3at9p.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/2lsm02he3at9p.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "8146"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2lsm02he3at9p.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/2lsm02he3at9p.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 18:01:03 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2lsm02he3at9p.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::6pnxj-1791145010140-9f3ae6c53ae9"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/31ch_9q9233lz.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/31ch_9q9233lz.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "363649"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"31ch_9q9233lz.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/31ch_9q9233lz.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 15:16:00 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/31ch_9q9233lz.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::q86rg-1791145010136-631e335767e9"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/3etj4nruigd6f.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/3etj4nruigd6f.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "364944"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3etj4nruigd6f.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3etj4nruigd6f.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:54:25 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3etj4nruigd6f.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::8pg5t-1791145010136-f1581f664d56"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/0c0hxoamwjsbw.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "306914"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0c0hxoamwjsbw.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0c0hxoamwjsbw.js\""],
+          ["last-modified", "Thu, 01 Oct 2026 07:01:35 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0c0hxoamwjsbw.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::xcgnc-1791145010140-9fb735360c27"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/337ulb_6jmkph.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/337ulb_6jmkph.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "363650"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"337ulb_6jmkph.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/337ulb_6jmkph.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 15:16:00 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/337ulb_6jmkph.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::8dqhn-1791145010132-9bca646186ed"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://yandex.com/\"\n\"https://app.posthog.com/\"\n\"https://posthog.com/\"\n\"https://sentry.io/\"\n\"https://us.i.posthog.com/\"\n\"https://us.posthog.com/\""
+      }
+    },
+    "GET https://app.turso.tech/_next/static/immutable/chunks/008ao_2vvmmmh.js": {
+      "result": {
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/008ao_2vvmmmh.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "238982"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"008ao_2vvmmmh.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'none'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/008ao_2vvmmmh.js\""],
+          ["last-modified", "Fri, 02 Oct 2026 01:53:47 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/immutable/chunks/008ao_2vvmmmh.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::kn59q-1791145010132-8f5f15ae30d6"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://vercel.live/\""
       }
     }
   },
   "dns": {
-    "A app.turso.tech": {
+    "CNAME app.turso.tech": {
       "result": {
         "name": "app.turso.tech",
-        "type": "A",
-        "records": ["76.76.21.61", "66.33.60.130"]
-      }
-    },
-    "NS app.turso.tech": {
-      "result": {
-        "name": "app.turso.tech",
-        "type": "NS",
-        "records": [
-          "ns4.vercel-dns-3.com",
-          "ns1.vercel-dns-3.com",
-          "ns2.vercel-dns-3.com",
-          "ns3.vercel-dns-3.com"
-        ]
+        "type": "CNAME",
+        "records": ["cname.vercel-dns.com"]
       }
     },
     "AAAA app.turso.tech": {
@@ -85,11 +728,16 @@
         "records": []
       }
     },
-    "CNAME app.turso.tech": {
+    "NS app.turso.tech": {
       "result": {
         "name": "app.turso.tech",
-        "type": "CNAME",
-        "records": ["cname.vercel-dns.com"]
+        "type": "NS",
+        "records": [
+          "ns1.vercel-dns-3.com",
+          "ns3.vercel-dns-3.com",
+          "ns2.vercel-dns-3.com",
+          "ns4.vercel-dns-3.com"
+        ]
       }
     },
     "CNAME cname.vercel-dns.com": {
@@ -99,9 +747,16 @@
         "records": []
       }
     },
-    "TXT 93.21.76.76.origin.asn.cymru.com": {
+    "A app.turso.tech": {
       "result": {
-        "name": "93.21.76.76.origin.asn.cymru.com",
+        "name": "app.turso.tech",
+        "type": "A",
+        "records": ["76.76.21.61", "66.33.60.130"]
+      }
+    },
+    "TXT 61.21.76.76.origin.asn.cymru.com": {
+      "result": {
+        "name": "61.21.76.76.origin.asn.cymru.com",
         "type": "TXT",
         "records": ["16509 | 76.76.21.0/24 | US | arin | 2020-05-08"]
       }
@@ -118,7 +773,7 @@
     "app.turso.tech:443": {
       "result": {
         "host": "app.turso.tech",
-        "ip": "76.76.21.93",
+        "ip": "76.76.21.61",
         "issuer": "C=US, O=Let's Encrypt, CN=YR2",
         "subjectAltNames": ["app.turso.tech"],
         "validFrom": "Sep  2 07:38:05 2026 GMT",

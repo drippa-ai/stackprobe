@@ -1,13 +1,13 @@
 {
   "url": "https://lingo.dev/",
-  "recordedAt": "2026-10-04T17:53:10.370Z",
+  "recordedAt": "2026-10-04T20:16:53.148Z",
   "http": {
     "GET https://lingo.dev/": {
       "result": {
         "url": "https://lingo.dev/",
         "status": 302,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 17:53:11 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
           ["content-length", "0"],
           ["connection", "keep-alive"],
           ["location", "/en"],
@@ -15,11 +15,11 @@
           ["strict-transport-security", "max-age=31536000"],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=u0%2BBC%2F1Y1YsXqGll%2Bb1GBOctDqt56295JL6hHNJkF1i3SJLYDqHh8Hs99rmWOiH4VqobfCwxbfz3gf5TmS046ewVShqdMhfZ824kle79axwTUA%2BQrZumLqQ0lA%3D%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=rHFnebZa7m6mU3y2lmljBB5Q5u3Y%2B4Po%2FTIBJw94bppHI%2BKSK1dfW2BpIdZCf1e1bXgGGPjSP0XsiECt7YTdoqbOietjjvGS6C%2B330dcAZ9XKLABJHZODThu6w%3D%3D\"}]}"
           ],
           ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
           ["server", "cloudflare"],
-          ["cf-ray", "a4560b68ef7032fa-OSL"]
+          ["cf-ray", "a456ddf04d920daa-OSL"]
         ],
         "body": ""
       }
@@ -29,7 +29,7 @@
         "url": "https://lingo.dev/en",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 17:53:12 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:55 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -41,14 +41,39 @@
           ["strict-transport-security", "max-age=31536000"],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=BXBdDbO%2FiX6svKHjFHI9IFTiI2JSa5eMreS%2Bh2%2FFK0ihnXRWF%2B0vkhfJE%2FQiRb%2BoiCEHrc7hg7ilmX1Eyfn30a%2B%2BczGsNgEA21A3veg%2BiJQ%2BmiAPekvIxwaAcQ%3D%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=KmHlXkjJ1mcyzZgIEVmXLXbi0thjwJPbYFe5GnRUhs2KhfVkiNyAREPiAI4v0gGwTjK2qLeNNgxKb2xLorZVL4CqTk5ZvJklzJ99J2z%2FLd3hmmgRNMJSOW4SXQ%3D%3D\"}]}"
           ],
           ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
           ["content-encoding", "br"],
           ["server", "cloudflare"],
-          ["cf-ray", "a4560b7139a032fa-OSL"]
+          ["cf-ray", "a456ddf7be890daa-OSL"]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/mistral-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/mistral-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/solana-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/solana-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/calcom-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/calcom-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/freenet-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/freenet-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/sosafe-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/sosafe-light.svg\">\n<link rel=\"stylesheet\" href=\"/assets/tailwind-CxZTQlfx.css\" data-precedence=\"default\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/maze-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/maze-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/formbricks-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/formbricks-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/opus-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/opus-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/scribe-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/scribe-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/papermark-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/papermark-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/tulip-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/tulip-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/imagen-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/imagen-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/testimonials/annika-palm.webp\">\n<link rel=\"preload\" as=\"image\" href=\"/testimonials/keith-williams.webp\">\n<link rel=\"preload\" as=\"image\" href=\"/testimonials/quentin-jarvi.webp\">\n<link rel=\"preload\" as=\"image\" href=\"/testimonials/sebastiaan-truely.webp\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/truely-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/truely-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/badges/yc.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/badges/initialized-capital.png\">\n<meta name=\"color-scheme\" content=\"light dark\">\n<meta name=\"description\" content=\"On Lingo.dev, teams configure localization engines with glossaries, brand voice, and per-locale model chains, called from code, CLI, CI/CD, or MCP.\">\n<meta property=\"og:title\" content=\"Localization engineering platform · Lingo.dev\">\n<meta property=\"og:description\" content=\"On Lingo.dev, teams configure localization engines with glossaries, brand voice, and per-locale model chains, called from code, CLI, CI/CD, or MCP.\">\n<meta property=\"og:image\" content=\"https://lingo.dev/og.png?title=Localization%20engineering%20platform\">\n<meta property=\"og:image:type\" content=\"image/png\">\n<meta property=\"og:image:width\" content=\"2400\">\n<meta property=\"og:image:height\" content=\"1260\">\n<meta property=\"og:image:alt\" content=\"Lingo.dev — Localization engineering platform\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Lingo.dev\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:site\" content=\"@LingoDotDev\">\n<meta name=\"twitter:creator\" content=\"@LingoDotDev\">\n<meta property=\"og:url\" content=\"https://lingo.dev/en\">\n<meta property=\"og:locale\" content=\"en_US\">\n<link rel=\"modulepreload\" href=\"/assets/index-BOLA5nXd.js\">\n<link rel=\"modulepreload\" href=\"/assets/rolldown-runtime-B0Z9INg1.js\">\n<link rel=\"modulepreload\" href=\"/assets/createServerFn-Dv00mAfv.js\">\n<link rel=\"modulepreload\" href=\"/assets/useStore-DUHwZ7a7.js\">\n<link rel=\"modulepreload\" href=\"/assets/link--oyf_28X.js\">\n<link rel=\"modulepreload\" href=\"/assets/not-found-i5RsCZif.js\">\n<link rel=\"modulepreload\" href=\"/assets/load-client-BvVWSrrb.js\">\n<link rel=\"modulepreload\" href=\"/assets/root-DLTE-HSj.js\">\n<link rel=\"modulepreload\" href=\"/assets/redirect-Bys5cUY-.js\">\n<link rel=\"modulepreload\" href=\"/assets/lazyRouteComponent-BuHI9vwl.js\">\n<link rel=\"modulepreload\" href=\"/assets/jsx-runtime-DpJIb57s.js\">\n<link rel=\"modulepreload\" href=\"/assets/Match-C99LyOzE.js\">\n<link rel=\"modulepreload\" href=\"/assets/ClientOnly-BG2BpGST.js\">\n<link rel=\"modulepreload\" href=\"/assets/useRouter-BSc4n-e1.js\">\n<link rel=\"modulepreload\" href=\"/assets/matchContext-BCtYa-OQ.js\">\n<link rel=\"modulepreload\" href=\"/assets/useMatch-B_NgPUvD.js\">\n<link rel=\"modulepreload\" href=\"/assets/useLoaderData-Csj1BJdE.js\">\n<link rel=\"modulepreload\" href=\"/assets/useSearch-BVmgaBHH.js\">\n<link rel=\"modulepreload\" href=\"/assets/useNavigate-BLGvq7Da.js\">\n<link rel=\"modulepreload\" href=\"/assets/useRouteContext-Cco4Vv_p.js\">\n<link rel=\"modulepreload\" href=\"/assets/useLocation-BnYVF7tu.js\">\n<link rel=\"modulepreload\" href=\"/assets/back-link-BmcljcLI.js\">\n<link rel=\"modulepreload\" href=\"/assets/lingo-ta_cp-Xz.js\">\n<link rel=\"modulepreload\" href=\"/assets/provider-CjgrKxbK.js\">\n<link rel=\"modulepreload\" href=\"/assets/get-lingo-4a9TVlbr.js\">\n<link rel=\"modulepreload\" href=\"/assets/QueryClientProvider-Cbgnf2qQ.js\">\n<link rel=\"modulepreload\" href=\"/assets/removable-CzMLznaP.js\">\n<link rel=\"modulepreload\" href=\"/assets/loaders-Bm-IBGUG.js\">\n<link rel=\"modulepreload\" href=\"/assets/infiniteQueryObserver-BmNrNN4s.js\">\n<link rel=\"modulepreload\" href=\"/assets/useMutation-DyxuNRn0.js\">\n<link rel=\"modulepreload\" href=\"/assets/queryOptions-Dfvzj6n2.js\">\n<link rel=\"modulepreload\" href=\"/assets/mutationOptions-Dfvzj6n2.js\">\n<link rel=\"modulepreload\" href=\"/assets/ArrowLeft.es-CYFtbR6m.js\">\n<link rel=\"modulepreload\" href=\"/assets/ArrowRight.es-Ctydi2xN.js\">\n<link rel=\"modulepreload\" href=\"/assets/-jsonld-DF89oa64.js\">\n<link rel=\"modulepreload\" href=\"/assets/share-links-B4dCszHn.js\">\n<link rel=\"modulepreload\" href=\"/assets/CheckCircle.es-ZXKz_yXY.js\">\n<link rel=\"modulepreload\" href=\"/assets/button-DffOmskQ.js\">\n<link rel=\"modulepreload\" href=\"/assets/ClockCounterClockwise.es-FWJTcIhl.js\">\n<link rel=\"modulepreload\" href=\"/assets/Compass.es-BI4pEp6X.js\">\n<link rel=\"modulepreload\" href=\"/assets/error-view-X7K5AoP6.js\">\n<link rel=\"modulepreload\" href=\"/assets/-from-api-6v7HHOIP.js\">\n<link rel=\"modulepreload\" href=\"/assets/Plug.es-Dkb8BWS6.js\">\n<link rel=\"modulepreload\" href=\"/assets/Terminal.es-OFaIpmDy.js\">\n<link rel=\"modulepreload\" href=\"/assets/IconBase.es-Bm0Sjnqm.js\">\n<link rel=\"modulepreload\" href=\"/assets/empty-state-CvOprNEZ.js\">\n<link rel=\"modulepreload\" href=\"/assets/Schema-7ZGLqBCM.js\">\n<link rel=\"modulepreload\" href=\"/assets/platform-Cqngzsvl.js\">\n<link rel=\"modulepreload\" href=\"/assets/model-DVjcdJ9i.js\">\n<link rel=\"modulepreload\" href=\"/assets/src-D9g_Uz_h.js\">\n<link rel=\"modulepreload\" href=\"/assets/locales-BXOZotzx.js\">\n<link rel=\"modulepreload\" href=\"/assets/preload-helper-Czpn1I53.js\">\n<link rel=\"modulepreload\" href=\"/assets/head-D0bw5IzJ.js\">\n<link rel=\"modulepreload\" href=\"/assets/public-url-VIQp167L.js\">\n<link rel=\"modulepreload\" href=\"/assets/client-BxcCjCbJ.js\">\n<link rel=\"modulepreload\" href=\"/assets/visitor-Bp62UXWb.js\">\n<link rel=\"modulepreload\" href=\"/assets/auth-Do5OdZ9I.js\">\n<link rel=\"modulepreload\" href=\"/assets/run-B4azDdqs.js\">\n<link rel=\"modulepreload\" href=\"/assets/react-dom-gdz8HrnR.js\">\n<link rel=\"modulepreload\" href=\"/assets/utils-C51mBvCt.js\">\n<link rel=\"modulepreload\" href=\"/assets/control-DsOK9i6R.js\">\n<link rel=\"modulepreload\" href=\"/assets/byline-DE_dQsvr.js\">\n<link rel=\"modulepreload\" href=\"/assets/consent-fields-D7WHtfYq.js\">\n<link rel=\"modulepreload\" href=\"/assets/-leaf-link-Cja3Iori.js\">\n<link rel=\"modulepreload\" href=\"/assets/use-locale-D2YtS0Wn.js\">\n<link rel=\"modulepreload\" href=\"/assets/period-CF95uFPA.js\">\n<link rel=\"modulepreload\" href=\"/assets/day-C-xukuxE.js\">\n<link rel=\"modulepreload\" href=\"/assets/content-Db_qx0vh.js\">\n<link rel=\"modulepreload\" href=\"/assets/-stories-CptEK2dS.js\">\n<link rel=\"modulepreload\" href=\"/assets/page-not-found-BLQM3CXj.js\">\n<link rel=\"modulepreload\" href=\"/assets/-copy-BECRabZk.js\">\n<link rel=\"modulepreload\" href=\"/assets/legacy-wCrtOIz-.js\">\n<link rel=\"modulepreload\" href=\"/assets/queue-K-mEy836.js\">\n<link rel=\"modulepreload\" href=\"/assets/-cli-release-DqH7PXsN.js\">\n<link rel=\"modulepreload\" href=\"/assets/tab-strip-i5PIyyub.js\">\n<link rel=\"modulepreload\" href=\"/assets/tab-search-BkR6pp5G.js\">\n<link rel=\"modulepreload\" href=\"/assets/-review-filter-Bps77jVm.js\">\n<link rel=\"modulepreload\" href=\"/assets/-scope-mdMycE1E.js\">\n<link rel=\"modulepreload\" href=\"/assets/-event-filter-DgIZfuh2.js\">\n<link rel=\"modulepreload\" href=\"/assets/explore-back-link-Zh56sOID.js\">\n<link rel=\"modulepreload\" href=\"/assets/-mock-BKW_KxIL.js\">\n<link rel=\"modulepreload\" href=\"/assets/-copy-CdrQ4QYa.js\">\n<link rel=\"modulepreload\" href=\"/assets/-copy-CXQOIdTm.js\">\n<link rel=\"modulepreload\" href=\"/assets/-opened-from-Cd1HUv-r.js\">\n<link rel=\"modulepreload\" href=\"/assets/-run-labels-DY-jZTOR.js\">\n<link rel=\"modulepreload\" href=\"/assets/-builtin-copy-BUNCSw7-.js\">\n<link rel=\"modulepreload\" href=\"/assets/role-picker-Cal_G3ja.js\">\n<link rel=\"modulepreload\" href=\"/assets/invites-W5d4DprS.js\">\n<link rel=\"modulepreload\" href=\"/assets/record-page-oVxrUzxs.js\">\n<link rel=\"modulepreload\" href=\"/assets/eyebrow-DdmblAsT.js\">\n<link rel=\"modulepreload\" href=\"/assets/-connect-draft-Bi_nFrex.js\">\n<link rel=\"modulepreload\" href=\"/assets/-provider-catalog-CyQ6LW1m.js\">\n<link rel=\"modulepreload\" href=\"/assets/route-DinHYkIm.js\">\n<link rel=\"modulepreload\" href=\"/assets/language-switcher-B5V6R5We.js\">\n<link rel=\"modulepreload\" href=\"/assets/Sun.es-9EDRr45U.js\">\n<link rel=\"modulepreload\" href=\"/assets/GithubLogo.es-g0DdtE-z.js\">\n<link rel=\"modulepreload\" href=\"/assets/XLogo.es-Hp533wd3.js\">\n<link rel=\"modulepreload\" href=\"/assets/active-tab-CeUyj7zJ.js\">\n<link rel=\"modulepreload\" href=\"/assets/wordmark-BQ62zVRo.js\">\n<link rel=\"modulepreload\" href=\"/assets/nav-cta-CG_L9kdt.js\">\n<link rel=\"modulepreload\" href=\"/assets/-legal-Bn0AUb49.js\">\n<link rel=\"modulepreload\" href=\"/assets/route-ClVfwnDB.js\">\n<link rel=\"modulepreload\" href=\"/assets/home-DMhTxhWj.js\">\n<link rel=\"modulepreload\" href=\"/assets/session-gate-CLuhGt-s.js\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"/favicon-96x96.png\">\n<link rel=\"icon\" sizes=\"48x48\" href=\"/favicon.ico\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">\n<link rel=\"manifest\" href=\"/site.webmanifest\">\n<link rel=\"canonical\" href=\"https://lingo.dev/en\">\n<link rel=\"alternate\" hreflang=\"cs\" href=\"https://lingo.dev/cs\">\n<link rel=\"alternate\" hreflang=\"de\" href=\"https://lingo.dev/de\">\n<link rel=\"alternate\" hreflang=\"en\" href=\"https://lingo.dev/en\">\n<link rel=\"alternate\" hreflang=\"es-419\" href=\"https://lingo.dev/es\">\n<link rel=\"alternate\" hreflang=\"es-ES\" href=\"https://lingo.dev/es-es\">\n<link rel=\"alternate\" hreflang=\"fr\" href=\"https://lingo.dev/fr\">\n<link rel=\"alternate\" hreflang=\"ja\" href=\"https://lingo.dev/ja\">\n<link rel=\"alternate\" hreflang=\"ko\" href=\"https://lingo.dev/ko\">\n<link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://lingo.dev/pt\">\n<link rel=\"alternate\" hreflang=\"pt-PT\" href=\"https://lingo.dev/pt-pt\">\n<link rel=\"alternate\" hreflang=\"ru\" href=\"https://lingo.dev/ru\">\n<link rel=\"alternate\" hreflang=\"zh\" href=\"https://lingo.dev/zh\">\n<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://lingo.dev/en\">\n<a href=\"/en/orgs/~\"></a>\n<a href=\"/en\"></a>\n<a href=\"/en/docs/platform\">Docs</a>\n<a href=\"/en/customers\">Customers</a>\n<a href=\"/en/pricing\">Pricing</a>\n<a href=\"https://cal.com/team/lingodotdev/talk\">Enterprise</a>\n<a href=\"/en/careers\">CareersHiring!</a>\n<a href=\"/en/orgs/~\">Platform</a>\n<a href=\"https://cal.com/team/lingodotdev/talk\">Talk to sales</a>\n<a href=\"/en/auth/signin\">Sign in</a>\n<a href=\"/en/auth/signup\">Create an account</a>\n<a href=\"/en/changelog/2026-w39\">Oct 1W39 – Infrastructure, where you configure localization engines</a>\n<a href=\"/en/auth/signup\">Set up Lingo.dev</a>\n<a href=\"/en/docs/platform/ai-reviewers\">Read how AI reviewers score translations</a>\n<a href=\"/en/customers/sosafe\">Read the SoSafe story</a>\n<a href=\"/en/research/retrieval-augmented-localization\">How retrieval augmented localization cuts terminology errors</a>\n<a href=\"/en/customers/cal-com\">Read the Cal.com story</a>\n<a href=\"/en/docs/workflows\">See how continuous localization works</a>\n<a href=\"/en/customers/jarvi\">Read the Jarvi story</a>\n<a href=\"/en/docs/api/pipeline/human-review\">How the human review step runs in the pipeline</a>\n<a href=\"/en/customers/truely\">Read the Truely story</a>\n<a href=\"/en/docs/api\">Localization API</a>\n<a href=\"/en/docs/platform\">Localization engines</a>\n<a href=\"/en/docs/mcp\">Platform MCP</a>\n<a href=\"/en/docs/cli\">CLI</a>\n<a href=\"/en/docs/workflows\">Workflows</a>\n<a href=\"/en/docs/platform\">Documentation</a>\n<a href=\"/en/guides\">Guides</a>\n<a href=\"/en/labs\">Labs</a>\n<a href=\"/en/changelog\">Changelog</a>\n<a href=\"/en/customers\">Customer stories</a>\n<a href=\"/en/blog\">Blog</a>\n<a href=\"/en/research\">Research</a>\n<a href=\"/en/careers\">Careers</a>\n<a href=\"/en/legal\">Legal</a>\n<a href=\"/humans.txt\">humans.txt</a>\n<a href=\"https://github.com/lingodotdev/lingo.dev\">GitHub</a>\n<a href=\"https://discord.gg/rJ8zGYJQj5\">Discord</a>\n<a href=\"https://x.com/lingodotdev\">X</a>\n<a href=\"https://www.linkedin.com/company/lingodotdev\">LinkedIn</a>\n<a href=\"https://www.ycombinator.com\">Y CombinatorY Combinator</a>\n<a href=\"https://initialized.com\">Initialized CapitalInitialized Capital</a>\n<a href=\"/en/legal/privacy\">Privacy</a>\n<a href=\"/en/legal/terms\">Terms</a>\n<a href=\"/en/legal/cookies\">Cookies</a>\n<a href=\"/.well-known/security.txt\">security.txt</a>\n<a href=\"https://status.lingo.dev/\">All systems normal</a>\n<script type=\"module\" async=\"\" src=\"/assets/index-BOLA5nXd.js\"></script>"
+      }
+    },
+    "GET https://lingo.dev/assets/index-BOLA5nXd.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/index-BOLA5nXd.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:55 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=9rWivZuqxd2MKUeBmA1BtlxhFlWK%2FeMnTxjIrgZ%2BR2JFfFQkxNx8WNl30Z2K1XaGz3INcMF%2FkgorxeForeBp3oBoT6roB12qnT45grNGFAgWhpuhHcZcd9hvwQ%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"1f64403bf495047fbbdaf06b5f23c980\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddfc0c730daa-OSL"]
+        ],
+        "body": "\"https://eu.posthog.com/\""
       }
     }
   },
@@ -57,14 +82,7 @@
       "result": {
         "name": "lingo.dev",
         "type": "NS",
-        "records": ["ian.ns.cloudflare.com", "maeve.ns.cloudflare.com"]
-      }
-    },
-    "A lingo.dev": {
-      "result": {
-        "name": "lingo.dev",
-        "type": "A",
-        "records": ["104.26.7.146", "104.26.6.146", "172.67.72.90"]
+        "records": ["maeve.ns.cloudflare.com", "ian.ns.cloudflare.com"]
       }
     },
     "CNAME lingo.dev": {
@@ -72,6 +90,13 @@
         "name": "lingo.dev",
         "type": "CNAME",
         "records": []
+      }
+    },
+    "A lingo.dev": {
+      "result": {
+        "name": "lingo.dev",
+        "type": "A",
+        "records": ["172.67.72.90", "104.26.7.146", "104.26.6.146"]
       }
     },
     "AAAA lingo.dev": {

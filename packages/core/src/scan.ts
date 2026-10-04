@@ -5,6 +5,7 @@ import { discoverSurfaces } from './discover.ts';
 import type { CompiledFingerprint } from './fingerprint.ts';
 import { builtinFingerprints, FINGERPRINTS_VERSION } from './fingerprints/index.ts';
 import type { Layer, Signal, SurfaceTarget } from './layer.ts';
+import { bundleLayer, firstPartyScripts } from './layers/bundle.ts';
 import { DEFAULT_LAYERS } from './layers/index.ts';
 import type { Net } from './net.ts';
 import type { Report } from './report.ts';
@@ -81,12 +82,12 @@ export interface ScanOptions {
   browser?: Browser;
 }
 
-// At most this many browser loads per scan: one careful visitor, not a crawler.
-export const MAX_BROWSER_SURFACES = 3;
+// At most this many surfaces get the deep layers (scripts, browser) per scan.
+export const MAX_DEEP_SURFACES = 3;
 
-// The surfaces worth a browser load: the product app first (at most 2, most certain first), then
+// The surfaces worth the deep layers: the product app first (at most 2, most certain first), then
 // the homepage when it could not be classified, since a product may live right there.
-export function browserTargets(
+export function deepTargets(
   surfaces: { target: SurfaceTarget }[],
   classifications: Record<string, Classification>,
 ): SurfaceTarget[] {
@@ -101,7 +102,7 @@ export function browserTargets(
     .map(({ target }) => target);
   const root = surfaces[0]?.target;
   const rootOpen = root && (classifications[root.id]?.kind ?? 'unclassified') === 'unclassified';
-  return [...apps, ...(rootOpen ? [root] : [])].slice(0, MAX_BROWSER_SURFACES);
+  return [...apps, ...(rootOpen ? [root] : [])].slice(0, MAX_DEEP_SURFACES);
 }
 
 // The layers to run on each surface: everything on the first surface of each host, and only the
@@ -158,15 +159,20 @@ export async function scan(input: string, options: ScanOptions): Promise<Report>
     surfaces,
     options.decider ? { decider: options.decider } : {},
   );
-  if (options.browser) {
-    const layer = browserLayer(options.browser);
-    await Promise.all(
-      browserTargets(surfaces, classifications).map(async (surface) => {
-        const results = await runLayers([layer], surface, runOptions);
-        for (const result of results) await options.onLayerResult?.(result);
-        surfaces.find((s) => s.target.id === surface.id)?.results.push(...results);
-      }),
-    );
-  }
+  // The deep layers, only where the product may be: its own scripts, and a real browser.
+  await Promise.all(
+    deepTargets(surfaces, classifications).map(async (surface) => {
+      const own = surfaces.find((s) => s.target.id === surface.id);
+      if (!own) return;
+      const signals = own.results.flatMap((result) => result.signals);
+      const deep = [
+        bundleLayer(firstPartyScripts(signals, surface.url)),
+        ...(options.browser ? [browserLayer(options.browser)] : []),
+      ];
+      const results = await runLayers(deep, surface, runOptions);
+      for (const result of results) await options.onLayerResult?.(result);
+      own.results.push(...results);
+    }),
+  );
   return buildReport({ domain: target.host, scannedAt, surfaces, classifications });
 }

@@ -21,6 +21,9 @@ export const SIGNAL_KINDS = [
   'request-header',
   'websocket-url',
   'window-global',
+  // From the page's own JavaScript: an origin it mentions, and an SDK name with its version.
+  'bundle-url',
+  'bundle-sdk',
 ] as const;
 
 export type SignalKind = (typeof SIGNAL_KINDS)[number];

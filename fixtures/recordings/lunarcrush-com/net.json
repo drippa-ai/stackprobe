@@ -1,13 +1,13 @@
 {
   "url": "https://lunarcrush.com/",
-  "recordedAt": "2026-10-04T17:53:06.976Z",
+  "recordedAt": "2026-10-04T20:16:49.996Z",
   "http": {
     "GET https://lunarcrush.com/": {
       "result": {
         "url": "https://lunarcrush.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 17:53:07 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -21,40 +21,71 @@
           ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=5iB1yYTkNWoyWGg0h5frC%2BMvrMViUQHf%2FiF8KX3GjqhcNjfQYAdFjPQ8W7PeloUAVDWTbbFcw62kodw%2BNkTxQ77XtlHTOb0Ytc%2BvCOZ4DPL4GysJ6q9K2fs0X2TsbnkgGESDCgMdPx6ycAK6XCDZVYL0DP7yHm7lDWv4wCg6B8ZHxxo%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2BQ3Cx2%2FS77PpX4XPnyo3IuR%2Foe9uCxQ7XnoXrc27d5namuXztmDBobtm%2FDblaATHXUpvMKEcZVrJlfLaSPPJd4qBHOEYguHvD9WsongjJ2T0NKVq1NwscwdYizshpkNEfwstNqcHAzlEefTFhs6Xe1tom17lsFSfLk7KYjQrjE%2BTdTQ%3D\"}]}"
           ],
           ["permissions-policy", "camera=(), microphone=(self), geolocation=()"],
           ["vary", "accept-encoding"],
           ["server-timing", "cfCacheStatus;desc=\"DYNAMIC\""],
-          ["server-timing", "cfEdge;dur=25,cfOrigin;dur=285"],
+          ["server-timing", "cfEdge;dur=21,cfOrigin;dur=501"],
           ["cf-cache-status", "DYNAMIC"],
           ["content-encoding", "br"],
-          ["cf-ray", "a4560b538c660883-OSL"]
+          ["cf-ray", "a456ddd90da05699-OSL"]
         ],
-        "body": "<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\">\n<link rel=\"preconnect\" href=\"https://wsrv.nl\" crossorigin=\"\">\n<link rel=\"dns-prefetch\" href=\"https://wsrv.nl\">\n<link rel=\"preconnect\" href=\"https://cdn.lunarcrush.com\" crossorigin=\"\">\n<link rel=\"preconnect\" href=\"https://lunarcrush.com\" crossorigin=\"\">\n<link rel=\"icon\" type=\"image/png\" href=\"/landing-assets/favicon.png\">\n<link rel=\"preload\" href=\"/landing-assets/PlusJakartaSans-Variable.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\">\n<script type=\"module\" crossorigin=\"\" src=\"/landing-assets/assets/index-DsdiNfp8.js\"></script>\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/landing-assets/assets/vendor-react-Dh9LqfKY.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/landing-assets/assets/vendor-ds-BBGBs0Ze.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/landing-assets/assets/HomePage-Jg1ZM_0y.js\">\n<link rel=\"stylesheet\" href=\"/landing-assets/assets/style-DK1gGa6_.css\" media=\"print\" onload=\"this.media='all'; this.onload=null;\">\n<meta name=\"description\" content=\"Real-time sentiment and social volume across 40+ categories — crypto, stocks, sports, brands, and more — sourced from X, Reddit, YouTube, and TikTok.\">\n<link rel=\"canonical\" href=\"https://lunarcrush.com/\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:title\" content=\"LunarCrush: The Social Media Sentiment Layer\">\n<meta property=\"og:description\" content=\"Real-time sentiment and social volume across 40+ categories — crypto, stocks, sports, brands, and more — sourced from X, Reddit, YouTube, and TikTok.\">\n<meta property=\"og:url\" content=\"https://lunarcrush.com/\">\n<meta property=\"og:image\" content=\"https://lunarcrush.com/og/dynamic/home.png\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"LunarCrush: The Social Media Sentiment Layer\">\n<meta property=\"og:site_name\" content=\"LunarCrush\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:site\" content=\"@LunarCrush\">\n<meta name=\"twitter:title\" content=\"LunarCrush: The Social Media Sentiment Layer\">\n<meta name=\"twitter:description\" content=\"Real-time sentiment and social volume across 40+ categories — crypto, stocks, sports, brands, and more — sourced from X, Reddit, YouTube, and TikTok.\">\n<meta name=\"twitter:image\" content=\"https://lunarcrush.com/og/dynamic/home.png\">\n<meta name=\"twitter:image:alt\" content=\"LunarCrush: The Social Media Sentiment Layer\">\n<a href=\"/en/login\">GET STARTED</a>\n<a href=\"/en/categories/crypto\">Crypto</a>\n<a href=\"/en/topic/bitcoin-btc\">Bitcoin</a>\n<a href=\"/en/creator/x:mkbhd\">Marques Brownlee</a>\n<a href=\"/en/categories/ai\">AI</a>\n<a href=\"/en/topic/youtube\">YouTube</a>\n<a href=\"/en/creator/x:mrbeast\">MrBeast</a>\n<a href=\"/en/topic/solana-sol\">Solana</a>\n<a href=\"/en/categories/stocks\">Stocks</a>\n<a href=\"/pricing\">See full pricing details</a>\n<script id=\"gtag-js\" async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-QWXNXSLZZ8\"></script>\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495\" integrity=\"sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;3bc2232921a647539758d12ee5fb08c0&quot;,&quot;spa&quot;:2}\" crossorigin=\"anonymous\"></script>"
+        "body": "<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\">\n<link rel=\"preconnect\" href=\"https://wsrv.nl\" crossorigin=\"\">\n<link rel=\"dns-prefetch\" href=\"https://wsrv.nl\">\n<link rel=\"preconnect\" href=\"https://cdn.lunarcrush.com\" crossorigin=\"\">\n<link rel=\"preconnect\" href=\"https://lunarcrush.com\" crossorigin=\"\">\n<link rel=\"icon\" type=\"image/png\" href=\"/landing-assets/favicon.png\">\n<link rel=\"preload\" href=\"/landing-assets/PlusJakartaSans-Variable.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\">\n<script type=\"module\" crossorigin=\"\" src=\"/landing-assets/assets/index-BBgBuW3H.js\"></script>\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/landing-assets/assets/vendor-react-Dh9LqfKY.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/landing-assets/assets/vendor-ds-BBGBs0Ze.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/landing-assets/assets/HomePage-B_G0Cp7Q.js\">\n<link rel=\"stylesheet\" href=\"/landing-assets/assets/style-RgS1w064.css\" media=\"print\" onload=\"this.media='all'; this.onload=null;\">\n<meta name=\"description\" content=\"Real-time sentiment and social volume across 40+ categories — crypto, stocks, sports, brands, and more — sourced from X, Reddit, YouTube, and TikTok.\">\n<link rel=\"canonical\" href=\"https://lunarcrush.com/\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:title\" content=\"LunarCrush: The Social Media Sentiment Layer\">\n<meta property=\"og:description\" content=\"Real-time sentiment and social volume across 40+ categories — crypto, stocks, sports, brands, and more — sourced from X, Reddit, YouTube, and TikTok.\">\n<meta property=\"og:url\" content=\"https://lunarcrush.com/\">\n<meta property=\"og:image\" content=\"https://lunarcrush.com/og/dynamic/home.png\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"LunarCrush: The Social Media Sentiment Layer\">\n<meta property=\"og:site_name\" content=\"LunarCrush\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:site\" content=\"@LunarCrush\">\n<meta name=\"twitter:title\" content=\"LunarCrush: The Social Media Sentiment Layer\">\n<meta name=\"twitter:description\" content=\"Real-time sentiment and social volume across 40+ categories — crypto, stocks, sports, brands, and more — sourced from X, Reddit, YouTube, and TikTok.\">\n<meta name=\"twitter:image\" content=\"https://lunarcrush.com/og/dynamic/home.png\">\n<meta name=\"twitter:image:alt\" content=\"LunarCrush: The Social Media Sentiment Layer\">\n<a href=\"/en/login\">GET STARTED</a>\n<a href=\"/en/categories/crypto\">Crypto</a>\n<a href=\"/en/topic/bitcoin-btc\">Bitcoin</a>\n<a href=\"/en/creator/x:mkbhd\">Marques Brownlee</a>\n<a href=\"/en/categories/ai\">AI</a>\n<a href=\"/en/topic/youtube\">YouTube</a>\n<a href=\"/en/creator/x:mrbeast\">MrBeast</a>\n<a href=\"/en/topic/solana-sol\">Solana</a>\n<a href=\"/en/categories/stocks\">Stocks</a>\n<a href=\"/pricing\">See full pricing details</a>\n<script id=\"gtag-js\" async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-QWXNXSLZZ8\"></script>\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495\" integrity=\"sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;3bc2232921a647539758d12ee5fb08c0&quot;,&quot;spa&quot;:2}\" crossorigin=\"anonymous\"></script>"
+      }
+    },
+    "GET https://lunarcrush.com/landing-assets/assets/index-BBgBuW3H.js": {
+      "result": {
+        "url": "https://lunarcrush.com/landing-assets/assets/index-BBgBuW3H.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["permissions-policy", "camera=(), microphone=(self), geolocation=()"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=YcRVlNVt80yVEs0%2F7ahxglkKnBI2h%2BxqWaVe8QcZE%2F685AGbHGI6YRvwtq2xlKEGS0eWgbReT3cKHwrJJR3S0WRJ5RiMC4w40AyNrSb28ea3Zl%2FuP55uGIbAsyyaxRNfI10efbhkFFqJtLDCwB3d9zfQYurd%2FrudF3ZSPYURRWFjstc%3D\"}]}"
+          ],
+          ["etag", "W/\"19c854438c6322f02cd29877e949502d\""],
+          ["content-encoding", "br"],
+          ["vary", "accept-encoding"],
+          ["cf-cache-status", "MISS"],
+          ["cf-ray", "a456dddc79c85699-OSL"]
+        ],
+        "body": "\"https://beacon-ebon-nu.vercel.app/\"\n\"https://cdn.lunarcrush.com/\"\n\"https://chat.openai.com/\"\n\"https://claude.ai/\"\n\"https://claude.com/\"\n\"https://lunarcrush.ai/\"\n\"https://lunarcrush.com/\"\n\"https://mcp.lunarcrush.com/\"\n\"https://shop.lunarcrush.com/\"\n\"https://t.me/\"\n\"https://us.i.posthog.com/\"\n\"https://www.google.com/\"\n\"https://www.instagram.com/\"\n\"https://www.perplexity.ai/\"\n\"https://www.tradingview.com/\"\n\"https://www.youtube.com/\"\n\"https://x.com/\""
       }
     }
   },
   "dns": {
-    "NS lunarcrush.com": {
+    "A lunarcrush.com": {
       "result": {
         "name": "lunarcrush.com",
-        "type": "NS",
-        "records": ["dakota.ns.cloudflare.com", "dell.ns.cloudflare.com"]
+        "type": "A",
+        "records": ["172.67.74.50", "104.26.11.168", "104.26.10.168"]
       }
     },
     "AAAA lunarcrush.com": {
       "result": {
         "name": "lunarcrush.com",
         "type": "AAAA",
-        "records": ["2606:4700:20::ac43:4a32", "2606:4700:20::681a:ba8", "2606:4700:20::681a:aa8"]
+        "records": ["2606:4700:20::ac43:4a32", "2606:4700:20::681a:aa8", "2606:4700:20::681a:ba8"]
       }
     },
-    "A lunarcrush.com": {
+    "NS lunarcrush.com": {
       "result": {
         "name": "lunarcrush.com",
-        "type": "A",
-        "records": ["172.67.74.50", "104.26.10.168", "104.26.11.168"]
+        "type": "NS",
+        "records": ["dell.ns.cloudflare.com", "dakota.ns.cloudflare.com"]
       }
     },
     "CNAME lunarcrush.com": {

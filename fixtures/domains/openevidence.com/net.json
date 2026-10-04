@@ -1,6 +1,6 @@
 {
   "url": "https://openevidence.com/",
-  "recordedAt": "2026-10-04T18:01:29.026Z",
+  "recordedAt": "2026-10-04T20:17:03.311Z",
   "http": {
     "GET https://openevidence.com/": {
       "result": {
@@ -9,12 +9,12 @@
         "headers": [
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-type", "text/html"],
-          ["date", "Sun, 04 Oct 2026 18:01:29 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
           ["location", "https://www.openevidence.com/"],
           ["refresh", "0;url=https://www.openevidence.com/"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
-          ["x-vercel-id", "arn1::n8d4l-1791136889098-5c59da53f14f"],
+          ["x-vercel-id", "arn1::d9br7-1791145023466-601e9b75a93e"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<a href=\"https://www.openevidence.com/\">here</a>"
@@ -29,7 +29,7 @@
           ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
           ["content-encoding", "br"],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 18:01:29 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
           [
             "link",
             "</_next/static/media/5c0c2bcbaa4149ca-s.p.woff2?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/91601dd83defba07-s.p.woff2?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/css/350dbc27f33bf780.css?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9>; rel=preload; as=\"style\", </_next/static/css/64c9a88dc9a69abf.css?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9>; rel=preload; as=\"style\""
@@ -43,45 +43,24 @@
           ["x-matched-path", "/unavailable"],
           ["x-powered-by", "Next.js"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::cle1::s7g6f-1791136889207-1df481012c23"],
+          ["x-vercel-id", "arn1::cle1::jbnw7-1791145023570-ffc91c9101a8"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/350dbc27f33bf780.css?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/64c9a88dc9a69abf.css?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/webpack-32da39b1ba91750f.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\">\n<script src=\"/_next/static/chunks/e994a86a-f96c43937d54eeaa.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/vendors-s4y-7866d41c69a040a7.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/27097-15030205861331e6.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/main-app-2c234fc6e8d79f3a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/global-error-eab32bdc85f10ddc.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/x-u2l-f7800900d64dd66a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/x-o31y-ce2429ad6b75270a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/x-a1i-4ce9c8ce8b3d7d1d.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/x-c16n-0a34d03a2444b091.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/46106-ca9957cea2048f42.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/48622-2545e261318af246.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/73017-f9ae13084ada32bf.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/13135-192d1995dfe27b3c.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/65983-b8dc5397813a00c2.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/49678-3a2bd665e6b08e1d.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/31092-e220ae802ebd2246.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/18815-05ff0e6b639db1ca.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/93373-85e56100fa4cfc27.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/(no-layout)/unavailable/page-aaa0586f419d1b43.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<link rel=\"preload\" href=\"/tags.js\" as=\"script\">\n<meta name=\"description\" content=\"America’s Official Medical Knowledge Platform. OpenEvidence is the leading medical platform for healthcare professionals, featuring answers grounded in peer-reviewed research from NEJM, JAMA, Nature, NCCN, Cochrane, and more.\">\n<meta name=\"robots\" content=\"noindex\">\n<meta name=\"google-adsense-account\" content=\"ca-pub-4444906927329691\">\n<meta name=\"p:domain_verify\" content=\"80c096b313537cd8940efb8badcbf849\">\n<meta name=\"apple-itunes-app\" content=\"app-id=6612007783\">\n<meta property=\"og:title\" content=\"Unavailable | OpenEvidence\">\n<meta property=\"og:description\" content=\"America’s Official Medical Knowledge Platform. OpenEvidence is the leading medical platform for healthcare professionals, featuring answers grounded in peer-reviewed research from NEJM, JAMA, Nature, NCCN, Cochrane, and more.\">\n<meta property=\"og:site_name\" content=\"OpenEvidence\">\n<meta property=\"og:locale\" content=\"en-US\">\n<meta property=\"og:image\" content=\"https://www.openevidence.com/open-evidence-logo.jpg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"OpenEvidence logo\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary\">\n<meta name=\"twitter:site\" content=\"@OpenEvidence\">\n<meta name=\"twitter:title\" content=\"Unavailable | OpenEvidence\">\n<meta name=\"twitter:description\" content=\"America’s Official Medical Knowledge Platform. OpenEvidence is the leading medical platform for healthcare professionals, featuring answers grounded in peer-reviewed research from NEJM, JAMA, Nature, NCCN, Cochrane, and more.\">\n<meta name=\"twitter:image\" content=\"https://www.openevidence.com/open-evidence-logo.jpg\">\n<meta name=\"twitter:image:alt\" content=\"OpenEvidence logo\">\n<meta name=\"twitter:image:width\" content=\"1200\">\n<meta name=\"twitter:image:height\" content=\"630\">\n<link rel=\"shortcut icon\" href=\"/favicon.ico\">\n<link rel=\"icon\" href=\"/favicon-16x16.png\" sizes=\"16x16\" type=\"image/png\">\n<link rel=\"icon\" href=\"/favicon-32x32.png\" sizes=\"32x32\" type=\"image/png\">\n<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"emotion-insertion-point\" content=\"\">\n<meta name=\"sentry-trace\" content=\"d37ac1b14d19f8efae128c608448bece-e27b7a6ee9fb7c20-0\">\n<meta name=\"baggage\" content=\"sentry-environment=vercel-production,sentry-release=92addece7ad995dd609d8b3e1acbe33abe69535e,sentry-public_key=8af4c07ca27c4ea48c8bfd4d9db76235,sentry-trace_id=d37ac1b14d19f8efae128c608448bece,sentry-org_id=4504572680667136,sentry-sampled=false,sentry-sample_rand=0.6364074389889445,sentry-sample_rate=0.005\">\n<script src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" nomodule=\"\"></script>\n<script src=\"https://cdn-cookieyes.com/client_data/d1785f07c35aeed00758cbf7/script.js\"></script>\n<a href=\"/policies/transfer-restriction-notice\">Transfer Restriction Notice</a>\n<script src=\"/_next/static/chunks/webpack-32da39b1ba91750f.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" id=\"_R_\" async=\"\"></script>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/350dbc27f33bf780.css?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/64c9a88dc9a69abf.css?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/webpack-32da39b1ba91750f.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\">\n<script src=\"/_next/static/chunks/e994a86a-f96c43937d54eeaa.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/vendors-s4y-7866d41c69a040a7.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/27097-15030205861331e6.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/main-app-2c234fc6e8d79f3a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/global-error-eab32bdc85f10ddc.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/x-u2l-f7800900d64dd66a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/x-o31y-ce2429ad6b75270a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/x-a1i-4ce9c8ce8b3d7d1d.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/x-c16n-0a34d03a2444b091.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/46106-ca9957cea2048f42.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/48622-2545e261318af246.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/73017-f9ae13084ada32bf.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/13135-192d1995dfe27b3c.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/65983-b8dc5397813a00c2.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/49678-3a2bd665e6b08e1d.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/31092-e220ae802ebd2246.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/18815-05ff0e6b639db1ca.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/93373-85e56100fa4cfc27.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/(no-layout)/unavailable/page-aaa0586f419d1b43.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" async=\"\"></script>\n<link rel=\"preload\" href=\"/tags.js\" as=\"script\">\n<meta name=\"description\" content=\"America’s Official Medical Knowledge Platform. OpenEvidence is the leading medical platform for healthcare professionals, featuring answers grounded in peer-reviewed research from NEJM, JAMA, Nature, NCCN, Cochrane, and more.\">\n<meta name=\"robots\" content=\"noindex\">\n<meta name=\"google-adsense-account\" content=\"ca-pub-4444906927329691\">\n<meta name=\"p:domain_verify\" content=\"80c096b313537cd8940efb8badcbf849\">\n<meta name=\"apple-itunes-app\" content=\"app-id=6612007783\">\n<meta property=\"og:title\" content=\"Unavailable | OpenEvidence\">\n<meta property=\"og:description\" content=\"America’s Official Medical Knowledge Platform. OpenEvidence is the leading medical platform for healthcare professionals, featuring answers grounded in peer-reviewed research from NEJM, JAMA, Nature, NCCN, Cochrane, and more.\">\n<meta property=\"og:site_name\" content=\"OpenEvidence\">\n<meta property=\"og:locale\" content=\"en-US\">\n<meta property=\"og:image\" content=\"https://www.openevidence.com/open-evidence-logo.jpg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"OpenEvidence logo\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary\">\n<meta name=\"twitter:site\" content=\"@OpenEvidence\">\n<meta name=\"twitter:title\" content=\"Unavailable | OpenEvidence\">\n<meta name=\"twitter:description\" content=\"America’s Official Medical Knowledge Platform. OpenEvidence is the leading medical platform for healthcare professionals, featuring answers grounded in peer-reviewed research from NEJM, JAMA, Nature, NCCN, Cochrane, and more.\">\n<meta name=\"twitter:image\" content=\"https://www.openevidence.com/open-evidence-logo.jpg\">\n<meta name=\"twitter:image:alt\" content=\"OpenEvidence logo\">\n<meta name=\"twitter:image:width\" content=\"1200\">\n<meta name=\"twitter:image:height\" content=\"630\">\n<link rel=\"shortcut icon\" href=\"/favicon.ico\">\n<link rel=\"icon\" href=\"/favicon-16x16.png\" sizes=\"16x16\" type=\"image/png\">\n<link rel=\"icon\" href=\"/favicon-32x32.png\" sizes=\"32x32\" type=\"image/png\">\n<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"emotion-insertion-point\" content=\"\">\n<meta name=\"sentry-trace\" content=\"e790f64641b1e3c7326019280c69e8ff-8170d31d45b6f126-0\">\n<meta name=\"baggage\" content=\"sentry-environment=vercel-production,sentry-release=92addece7ad995dd609d8b3e1acbe33abe69535e,sentry-public_key=8af4c07ca27c4ea48c8bfd4d9db76235,sentry-trace_id=e790f64641b1e3c7326019280c69e8ff,sentry-org_id=4504572680667136,sentry-sampled=false,sentry-sample_rand=0.9559871902210748,sentry-sample_rate=0.005\">\n<script src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" nomodule=\"\"></script>\n<script src=\"https://cdn-cookieyes.com/client_data/d1785f07c35aeed00758cbf7/script.js\"></script>\n<a href=\"/policies/transfer-restriction-notice\">Transfer Restriction Notice</a>\n<script src=\"/_next/static/chunks/webpack-32da39b1ba91750f.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9\" id=\"_R_\" async=\"\"></script>"
       }
     },
-    "GET https://docs.openevidence.com/": {
+    "GET https://api.openevidence.com/": {
       "result": {
-        "url": "https://docs.openevidence.com/",
-        "status": 302,
+        "url": "https://api.openevidence.com/",
+        "status": 403,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 18:01:29 GMT"],
-          ["content-type", "text/html; charset=utf-8"],
-          ["content-length", "0"],
-          ["connection", "keep-alive"],
-          ["location", "https://docs.openevidence.com/en/latest/"],
-          ["cf-ray", "a4561799a9e5723c-OSL"],
-          ["cf-cache-status", "HIT"],
-          ["age", "41"],
-          ["cache-control", "max-age=1200"],
-          ["content-language", "en"],
-          ["server", "cloudflare"],
-          ["vary", "Accept-Language"],
-          ["cdn-cache-control", "public, max-age=1200"],
-          ["cross-origin-opener-policy", "same-origin"],
-          ["referrer-policy", "no-referrer-when-downgrade"],
-          ["x-backend", "web-i-0e9d266aeca6be8e4"],
-          ["x-content-type-options", "nosniff"],
-          ["x-rtd-domain", "docs.openevidence.com"],
-          ["x-rtd-force-addons", "true"],
-          ["x-rtd-project", "xyla-api"],
-          ["x-rtd-project-method", "custom_domain"],
-          ["x-rtd-redirect", "system"],
-          ["x-rtd-version-method", "path"],
-          ["x-served", "Django-Proxito"],
-          ["set-cookie", "__cf_bm=<redacted>"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
+          ["content-type", "text/html; charset=UTF-8"],
+          ["content-length", "134"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"]
         ],
-        "body": ""
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
       }
     },
     "GET https://status.openevidence.com/": {
@@ -98,7 +77,7 @@
             "default-src 'self' https: data: blob: 'unsafe-inline' 'unsafe-eval'; upgrade-insecure-requests"
           ],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 18:01:29 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
           [
             "permissions-policy",
             "geolocation=(),midi=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()"
@@ -106,14 +85,14 @@
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["set-cookie", "XSRF-TOKEN=<redacted>"],
           ["set-cookie", "psp_session=<redacted>"],
-          ["set-cookie", "rFjaXKI6MW8lbs4iWaU0VwcvxJM7zM5pMzT1rnSY=<redacted>"],
+          ["set-cookie", "he3ePx6pOZwSABxZuAFUCrhdjTUdq3Hy35Upc4id=<redacted>"],
           ["strict-transport-security", "max-age=31536000; preload"],
           ["vary", "Accept-Encoding"],
           ["via", "0.0 Caddy"],
           ["x-content-type-options", "nosniff"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"csrf-token\" content=\"C7A1vWDVF47uuZDyxSV6kJ9Ke0RVMxVqxZaG1Uah\">\n<meta name=\"robots\" content=\"noindex\">\n<link rel=\"icon\" type=\"image/x-icon\" href=\"https://psp-logos.uptimerobot.com/favicons/2195217-382212-icon.png\">\n<link rel=\"canonical\" href=\"https://status.openevidence.com/\">\n<link rel=\"preload\" as=\"style\" href=\"https://status.openevidence.com/build/assets/app-BkePHquV.css\">\n<link rel=\"stylesheet\" href=\"https://status.openevidence.com/build/assets/app-BkePHquV.css\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/vendor/cookie-consent/css/cookie-consent.css\">\n<link rel=\"dns-prefetch\" href=\"https://fonts.gstatic.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"anonymous\">\n<link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap\" rel=\"stylesheet\">\n<a href=\"https://www.openevidence.com/\"></a>\n<a href=\"#\">Calendar</a>\n<a href=\"#\">Status update history</a>\n<a href=\"https://uptimerobot.com/privacy\">Privacy policy</a>\n<a href=\"https://uptimerobot.com/terms\">Terms of Service</a>\n<script src=\"/assets/js/lib/jquery-3.7.1.min.js\"></script>\n<script src=\"/assets/js/lib/uikit.min.js\"></script>\n<script src=\"/assets/js/lib/favico.min.js\"></script>\n<link rel=\"modulepreload\" as=\"script\" href=\"https://status.openevidence.com/build/assets/common-DKv4yUVn.js\">\n<link rel=\"modulepreload\" as=\"script\" href=\"https://status.openevidence.com/build/assets/purify.es-DAl6zSZw.js\">\n<script type=\"module\" src=\"https://status.openevidence.com/build/assets/common-DKv4yUVn.js\"></script>\n<link rel=\"modulepreload\" as=\"script\" href=\"https://status.openevidence.com/build/assets/home-DfV_UE_Z.js\">\n<link rel=\"modulepreload\" as=\"script\" href=\"https://status.openevidence.com/build/assets/purify.es-DAl6zSZw.js\">\n<script type=\"module\" src=\"https://status.openevidence.com/build/assets/home-DfV_UE_Z.js\"></script>\n<a href=\"#\">Reload the page</a>\n<script type=\"text/javascript\" src=\"/vendor/cookie-consent/js/remove-inert.js\"></script>\n<script type=\"text/javascript\" src=\"/vendor/cookie-consent/js/cookie-consent.js\"></script>"
+        "body": "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"csrf-token\" content=\"0FvFeU55eKPv7W5X1r3VVmPPzmAgJcSZacLDruQA\">\n<meta name=\"robots\" content=\"noindex\">\n<link rel=\"icon\" type=\"image/x-icon\" href=\"https://psp-logos.uptimerobot.com/favicons/2195217-382212-icon.png\">\n<link rel=\"canonical\" href=\"https://status.openevidence.com/\">\n<link rel=\"preload\" as=\"style\" href=\"https://status.openevidence.com/build/assets/app-BkePHquV.css\">\n<link rel=\"stylesheet\" href=\"https://status.openevidence.com/build/assets/app-BkePHquV.css\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/vendor/cookie-consent/css/cookie-consent.css\">\n<link rel=\"dns-prefetch\" href=\"https://fonts.gstatic.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"anonymous\">\n<link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap\" rel=\"stylesheet\">\n<a href=\"https://www.openevidence.com/\"></a>\n<a href=\"#\">Calendar</a>\n<a href=\"#\">Status update history</a>\n<a href=\"https://uptimerobot.com/privacy\">Privacy policy</a>\n<a href=\"https://uptimerobot.com/terms\">Terms of Service</a>\n<script src=\"/assets/js/lib/jquery-3.7.1.min.js\"></script>\n<script src=\"/assets/js/lib/uikit.min.js\"></script>\n<script src=\"/assets/js/lib/favico.min.js\"></script>\n<link rel=\"modulepreload\" as=\"script\" href=\"https://status.openevidence.com/build/assets/common-DKv4yUVn.js\">\n<link rel=\"modulepreload\" as=\"script\" href=\"https://status.openevidence.com/build/assets/purify.es-DAl6zSZw.js\">\n<script type=\"module\" src=\"https://status.openevidence.com/build/assets/common-DKv4yUVn.js\"></script>\n<link rel=\"modulepreload\" as=\"script\" href=\"https://status.openevidence.com/build/assets/home-DfV_UE_Z.js\">\n<link rel=\"modulepreload\" as=\"script\" href=\"https://status.openevidence.com/build/assets/purify.es-DAl6zSZw.js\">\n<script type=\"module\" src=\"https://status.openevidence.com/build/assets/home-DfV_UE_Z.js\"></script>\n<a href=\"#\">Reload the page</a>\n<script type=\"text/javascript\" src=\"/vendor/cookie-consent/js/remove-inert.js\"></script>\n<script type=\"text/javascript\" src=\"/vendor/cookie-consent/js/cookie-consent.js\"></script>"
       }
     },
     "GET https://portal.openevidence.com/": {
@@ -122,13 +101,13 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "1553"],
+          ["age", "0"],
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-disposition", "inline"],
           ["content-encoding", "br"],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
-          ["etag", "W/\"cecbaffec5a0d42cc58dee1b2c07abc8\""],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"c7236c4c4a581d4859dee861fe9d37b1\""],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
           [
@@ -138,25 +117,46 @@
           ["x-matched-path", "/"],
           ["x-nextjs-prerender", "1"],
           ["x-nextjs-stale-time", "300"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::n7mrj-1791136889894-fd2140e808bb"],
+          ["x-vercel-cache", "PRERENDER"],
+          ["x-vercel-id", "arn1::hdjq2-1791145024276-26bd77b992c8"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/Lora_VariableFont_wght-s.p.1yt9u72hcxj91.ttf\" as=\"font\" crossorigin=\"\" type=\"font/ttf\">\n<link rel=\"preload\" href=\"/_next/static/immutable/media/SchibstedGrotesk_VariableFont_wght-s.p.006zlst2azpqv.ttf\" as=\"font\" crossorigin=\"\" type=\"font/ttf\">\n<link rel=\"preload\" as=\"image\" href=\"https://storage.googleapis.com/openevidence-static-files-prod/announcements/oo%20large.png\">\n<link rel=\"preload\" as=\"image\" href=\"https://storage.googleapis.com/openevidence-static-files-prod/announcements/Boston%20Children%20Hospital%20large%202.png\">\n<link rel=\"preload\" as=\"image\" href=\"https://storage.googleapis.com/openevidence-static-files-prod/announcements/nyp_thumbnail.png\">\n<link rel=\"preload\" as=\"image\" href=\"https://storage.googleapis.com/openevidence-static-files-prod/announcements/oe%20x%20cedar%2013.png\">\n<link rel=\"preload\" as=\"image\" href=\"https://storage.googleapis.com/openevidence-static-files-prod/announcements/sinai%20x%20OE%20large.png\">\n<link rel=\"preload\" as=\"image\" href=\"https://storage.googleapis.com/openevidence-static-files-prod/announcements/sutter_thumbnail.png\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/3vgk10h_28tt-.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/36wtx-azz1xu8.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/3v18123w809ul.js\">\n<script src=\"/_next/static/immutable/chunks/2fkk8ze_3-n02.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3qhys8np6hiz-.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1wc-a-y_b4i7a.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-27f0vlv8i7f5y.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1n6h2xl2ga-6b.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/368uynw_42kg3.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3kkb3oxj43y4-.js\" async=\"\"></script>\n<meta name=\"description\" content=\"Secure institutional access to OpenEvidence for health systems and provider groups.\">\n<meta name=\"next-size-adjust\" content=\"\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"#content\">Skip to content</a>\n<a href=\"/\"></a>\n<a href=\"/api/auth/login?returnTo=%2Fsetup\">Partner sign in</a>\n<a href=\"/setup\">Get Started</a>\n<a href=\"https://www.openevidence.com/announcements/oneoncology-and-openevidence-partner-to-improve-cancer-care-nationwide\">OneOncologyPartnering to improve cancer care nationwideRead announcement</a>\n<a href=\"https://www.openevidence.com/announcements/boston-childrens-hospital-and-openevidence-collaborate-to-advance-ai-powered-analysis-of-clinical-practice-patterns\">Boston Children’s HospitalAdvancing AI-powered analysis of clinical practice patternsRead announceme</a>\n<a href=\"https://www.openevidence.com/announcements/openevidence-and-newyork-presbyterian-columbia-university-and-weill-cornell-medicine-expand-clinical-ai-tools-across-new-york-city-and-westchester\">NewYork-PresbyterianExpanding clinical AI across New York City and WestchesterRead announcement</a>\n<a href=\"https://www.openevidence.com/announcements/openevidence-partners-with-cedars-sinai-to-create-patient-aware-clinical-intelligence-with-agentic-clinical-ai\">Cedars-SinaiEnhancing clinical decision-making with OpenEvidenceRead announcement</a>\n<a href=\"https://www.openevidence.com/announcements/mount-sinai-health-system-collaborates-with-openevidence-to-provide-evidence-based-knowledge-within-electronic-medical-record\">Mount Sinai Health SystemBringing evidence-based knowledge into the medical recordRead announcement</a>\n<a href=\"https://www.openevidence.com/announcements/sutter-health-collaborates-with-openevidence-to-bring-evidence-based-ai-powered-insights-into-physician-workflows\">Sutter HealthBringing evidence-based insights into physician workflowsRead announcement</a>\n<a href=\"https://blogs.nejm.org/hiv-id-observations/index.php/when-ai-gets-the-medical-advice-wrong-and-right/2025/11/18/\">Read more</a>\n<a href=\"https://trust.openevidence.com/\">Visit the Trust Center</a>\n<a href=\"https://trust.openevidence.com/\">Trust Center</a>\n<a href=\"mailto:?subject=Bring%20OpenEvidence%20Enterprise%20to%20our%20organization&amp;body=I%27d%20like%20to%20share%20OpenEvidence%20Enterprise%20for%20our%20organization%3A%20https%3A%2F%2Fportal.openevidence.com\">Share with your organization</a>\n<a href=\"mailto:enterprise@openevidence.com?subject=OpenEvidence%20Enterprise\">Contact team</a>\n<script src=\"/_next/static/immutable/chunks/3v18123w809ul.js\" id=\"_R_\" async=\"\"></script>"
       }
     },
-    "GET https://api.openevidence.com/": {
+    "GET https://docs.openevidence.com/": {
       "result": {
-        "url": "https://api.openevidence.com/",
-        "status": 403,
+        "url": "https://docs.openevidence.com/",
+        "status": 302,
         "headers": [
-          ["content-type", "text/html; charset=UTF-8"],
-          ["content-length", "134"],
-          ["via", "1.1 google"],
-          ["date", "Sun, 04 Oct 2026 18:01:29 GMT"],
-          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"]
+          ["date", "Sun, 04 Oct 2026 20:17:05 GMT"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["content-length", "0"],
+          ["connection", "keep-alive"],
+          ["location", "https://docs.openevidence.com/en/latest/"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["set-cookie", "_cfuvid=<redacted>"],
+          ["cf-ray", "a456de3228d27131-OSL"],
+          ["cf-cache-status", "EXPIRED"],
+          ["cache-control", "max-age=1200"],
+          ["content-language", "en"],
+          ["server", "cloudflare"],
+          ["x-served", "Django-Proxito"],
+          ["vary", "Accept-Language"],
+          ["cdn-cache-control", "public, max-age=1200"],
+          ["cross-origin-opener-policy", "same-origin"],
+          ["referrer-policy", "no-referrer-when-downgrade"],
+          ["x-backend", "web-i-04234387ba33df215"],
+          ["x-content-type-options", "nosniff"],
+          ["x-rtd-domain", "docs.openevidence.com"],
+          ["x-rtd-force-addons", "true"],
+          ["x-rtd-project", "xyla-api"],
+          ["x-rtd-project-method", "custom_domain"],
+          ["x-rtd-redirect", "system"],
+          ["x-rtd-version-method", "path"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+        "body": ""
       }
     },
     "GET https://docs.openevidence.com/en/latest/": {
@@ -164,7 +164,7 @@
         "url": "https://docs.openevidence.com/en/latest/",
         "status": 302,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:17:05 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["content-length", "0"],
           ["connection", "keep-alive"],
@@ -174,7 +174,7 @@
           ],
           ["set-cookie", "__cf_bm=<redacted>"],
           ["set-cookie", "_cfuvid=<redacted>"],
-          ["cf-ray", "a456179a0b61723c-OSL"],
+          ["cf-ray", "a456de367e387131-OSL"],
           ["cf-cache-status", "BYPASS"],
           ["content-language", "en"],
           ["server", "cloudflare"],
@@ -183,7 +183,7 @@
           ["cdn-cache-control", "private"],
           ["cross-origin-opener-policy", "same-origin"],
           ["referrer-policy", "no-referrer-when-downgrade"],
-          ["x-backend", "web-i-0e259e1325395f669"],
+          ["x-backend", "web-i-0e9d266aeca6be8e4"],
           ["x-content-type-options", "nosniff"],
           ["x-rtd-domain", "docs.openevidence.com"],
           ["x-rtd-force-addons", "true"],
@@ -202,7 +202,7 @@
         "url": "https://app.readthedocs.com/cas/login?service=https%3A%2F%2Fdocs.openevidence.com%2F_%2Faccounts%2Flogin%2F%3Fnext%3Dhttps%253A%252F%252Fdocs.openevidence.com%252Fen%252Flatest%252F",
         "status": 302,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["content-length", "0"],
           ["connection", "keep-alive"],
@@ -213,7 +213,7 @@
           ],
           [
             "content-security-policy",
-            "frame-src https://js.stripe.com/; default-src 'none'; base-uri 'self'; img-src 'self' data: https:; script-src 'self' 'unsafe-eval' https://kit.fontawesome.com https://js.stripe.com/ https://app-assets.readthedocs.com/; form-action 'self' https://github.com https://gitlab.com https://bitbucket.org https://id.atlassian.com https://accounts.google.com https://billing.stripe.com https://checkout.stripe.com https://webhook.frontapp.com/forms/036c4169294f3b04abaa/c3uWzxHNoKk6iELl6ucY4-EZfg_0fPsgywFbeJLwf6ZpkGaTb8gTcpaA0QfYhlO7g8ozPgXl5Yk14JAE_AKXlQ41XPzcvIsQzrjLRNqWxABSDTQKxdC0VlE5Jys; connect-src 'self' https://*.ingest.us.sentry.io https://ka-p.fontawesome.com https://kit.fontawesome.com https://plausible.io/api/event ws://app.readthedocs.com:10001/ws; style-src 'self' 'unsafe-inline' https://app-assets.readthedocs.com/; frame-ancestors 'none'; font-src 'self' data: https://ka-p.fontawesome.com https://app-assets.readthedocs.com/; report-uri https://o40776.ingest.us.sentry.io/api/161479/security/?sentry_key=9c457471fc3c4ce0a248b295ec84cb32"
+            "frame-src https://js.stripe.com/; script-src 'self' 'unsafe-eval' https://kit.fontawesome.com https://js.stripe.com/ https://app-assets.readthedocs.com/; frame-ancestors 'none'; style-src 'self' 'unsafe-inline' https://app-assets.readthedocs.com/; default-src 'none'; form-action 'self' https://github.com https://gitlab.com https://bitbucket.org https://id.atlassian.com https://accounts.google.com https://billing.stripe.com https://checkout.stripe.com https://webhook.frontapp.com/forms/036c4169294f3b04abaa/c3uWzxHNoKk6iELl6ucY4-EZfg_0fPsgywFbeJLwf6ZpkGaTb8gTcpaA0QfYhlO7g8ozPgXl5Yk14JAE_AKXlQ41XPzcvIsQzrjLRNqWxABSDTQKxdC0VlE5Jys; connect-src 'self' https://*.ingest.us.sentry.io https://ka-p.fontawesome.com https://kit.fontawesome.com https://plausible.io/api/event ws://app.readthedocs.com:10001/ws; font-src 'self' data: https://ka-p.fontawesome.com https://app-assets.readthedocs.com/; base-uri 'self'; img-src 'self' data: https:; report-uri https://o40776.ingest.us.sentry.io/api/161479/security/?sentry_key=9c457471fc3c4ce0a248b295ec84cb32"
           ],
           ["x-frame-options", "DENY"],
           ["x-content-type-options", "nosniff"],
@@ -222,10 +222,10 @@
           ["vary", "Accept-Language, Cookie"],
           ["content-language", "en"],
           ["strict-transport-security", "max-age=31536000;"],
-          ["x-backend", "web-i-04234387ba33df215"],
+          ["x-backend", "web-i-0e259e1325395f669"],
           ["cf-cache-status", "DYNAMIC"],
           ["set-cookie", "_cfuvid=<redacted>"],
-          ["cf-ray", "a456179c4981b521-OSL"],
+          ["cf-ray", "a456de3baeaa1a30-OSL"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
         "body": ""
@@ -236,18 +236,18 @@
         "url": "https://app.readthedocs.com/accounts/login/?next=/cas/login%3Fservice%3Dhttps%253A%252F%252Fdocs.openevidence.com%252F_%252Faccounts%252Flogin%252F%253Fnext%253Dhttps%25253A%25252F%25252Fdocs.openevidence.com%25252Fen%25252Flatest%25252F",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 18:01:31 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
           ["server", "cloudflare"],
           ["vary", "Accept-Encoding"],
           ["vary", "Cookie, Accept-Language"],
-          ["expires", "Sun, 04 Oct 2026 18:01:31 GMT"],
+          ["expires", "Sun, 04 Oct 2026 20:17:06 GMT"],
           ["cache-control", "max-age=0, no-cache, no-store, must-revalidate, private"],
           [
             "content-security-policy",
-            "frame-src https://js.stripe.com/; script-src 'self' 'unsafe-eval' https://kit.fontawesome.com https://js.stripe.com/ https://app-assets.readthedocs.com/; frame-ancestors 'none'; style-src 'self' 'unsafe-inline' https://app-assets.readthedocs.com/; default-src 'none'; form-action 'self' https://github.com https://gitlab.com https://bitbucket.org https://id.atlassian.com https://accounts.google.com https://billing.stripe.com https://checkout.stripe.com https://webhook.frontapp.com/forms/036c4169294f3b04abaa/c3uWzxHNoKk6iELl6ucY4-EZfg_0fPsgywFbeJLwf6ZpkGaTb8gTcpaA0QfYhlO7g8ozPgXl5Yk14JAE_AKXlQ41XPzcvIsQzrjLRNqWxABSDTQKxdC0VlE5Jys https:; connect-src 'self' https://*.ingest.us.sentry.io https://ka-p.fontawesome.com https://kit.fontawesome.com https://plausible.io/api/event ws://app.readthedocs.com:10001/ws; font-src 'self' data: https://ka-p.fontawesome.com https://app-assets.readthedocs.com/; base-uri 'self'; img-src 'self' data: https:; report-uri https://o40776.ingest.us.sentry.io/api/161479/security/?sentry_key=9c457471fc3c4ce0a248b295ec84cb32"
+            "base-uri 'self'; img-src 'self' data: https:; connect-src 'self' https://*.ingest.us.sentry.io https://ka-p.fontawesome.com https://kit.fontawesome.com https://plausible.io/api/event ws://app.readthedocs.com:10001/ws; script-src 'self' 'unsafe-eval' https://kit.fontawesome.com https://js.stripe.com/ https://app-assets.readthedocs.com/; style-src 'self' 'unsafe-inline' https://app-assets.readthedocs.com/; form-action 'self' https://github.com https://gitlab.com https://bitbucket.org https://id.atlassian.com https://accounts.google.com https://billing.stripe.com https://checkout.stripe.com https://webhook.frontapp.com/forms/036c4169294f3b04abaa/c3uWzxHNoKk6iELl6ucY4-EZfg_0fPsgywFbeJLwf6ZpkGaTb8gTcpaA0QfYhlO7g8ozPgXl5Yk14JAE_AKXlQ41XPzcvIsQzrjLRNqWxABSDTQKxdC0VlE5Jys https:; frame-src https://js.stripe.com/; font-src 'self' data: https://ka-p.fontawesome.com https://app-assets.readthedocs.com/; default-src 'none'; frame-ancestors 'none'; report-uri https://o40776.ingest.us.sentry.io/api/161479/security/?sentry_key=9c457471fc3c4ce0a248b295ec84cb32"
           ],
           ["x-frame-options", "DENY"],
           ["x-content-type-options", "nosniff"],
@@ -255,19 +255,754 @@
           ["cross-origin-opener-policy", "same-origin"],
           ["content-language", "en"],
           ["strict-transport-security", "max-age=31536000;"],
-          ["x-backend", "web-i-0e259e1325395f669"],
+          ["x-backend", "web-i-0e9d266aeca6be8e4"],
           ["cf-cache-status", "DYNAMIC"],
           ["set-cookie", "csrftoken=<redacted>"],
           ["set-cookie", "_cfuvid=<redacted>"],
           ["content-encoding", "gzip"],
-          ["cf-ray", "a45617a05f41b521-OSL"],
+          ["cf-ray", "a456de3f4c851a30-OSL"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
         "body": "<link rel=\"icon\" type=\"image/png\" href=\"https://app-assets.readthedocs.com/images/favicon.f231b6609d0b.png\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"https://app-assets.readthedocs.com/readthedocsext/theme/css/site.115425a40ba0.css\" media=\"all\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"https://app-assets.readthedocs.com/readthedocsext/theme/css/dark.c8c0feaf47c2.css\" media=\"(prefers-color-scheme: dark)\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<meta name=\"viewport\" content=\"width=device-width\">\n<script src=\"https://kit.fontawesome.com/66c8860b51.js\" crossorigin=\"anonymous\"></script>\n<a href=\"https://docs.openevidence.com/_/sharing/password/?next=https%3A%2F%2Fdocs.openevidence.com%2Fen%2Flatest%2F\">Password</a>\n<a href=\"https://docs.readthedocs.com/platform/stable/reference/git-integration.html#github-app\">read our documentation</a>\n<a href=\"/accounts/signup/?next=%2Fcas%2Flogin%3Fservice%3Dhttps%253A%252F%252Fdocs.openevidence.com%252F_%252Faccounts%252Flogin%252F%253Fnext%253Dhttps%25253A%25252F%25252Fdocs.openevidence.com%25252Fen%25252Flatest%25252F#/email\">Sign up</a>\n<a href=\"/accounts/password/reset/\">Forgot your password?</a>\n<a href=\"/accounts/saml/login/?next=/cas/login?service=https%3A%2F%2Fdocs.openevidence.com%2F_%2Faccounts%2Flogin%2F%3Fnext%3Dhttps%253A%252F%252Fdocs.openevidence.com%252Fen%252Flatest%252F\">Log in using single sign-on</a>\n<a href=\"//app.readthedocs.com/\"></a>\n<script type=\"text/javascript\" src=\"https://app-assets.readthedocs.com/readthedocsext/theme/js/runtime~site.4a3064f68836.js\"></script>\n<script type=\"text/javascript\" src=\"https://app-assets.readthedocs.com/readthedocsext/theme/js/vendor.99cb2a88ccb3.js\"></script>\n<script type=\"text/javascript\" src=\"https://app-assets.readthedocs.com/readthedocsext/theme/js/site.ea8791ace95c.js\"></script>"
       }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/e994a86a-f96c43937d54eeaa.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/e994a86a-f96c43937d54eeaa.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "173003"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"e994a86a-f96c43937d54eeaa.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"30da5766393a7b2db4d5ecbf409bad78\""],
+          ["last-modified", "Fri, 02 Oct 2026 20:13:43 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/e994a86a-f96c43937d54eeaa.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::xn2c5-1791145026802-21ec9666bb17"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/app/global-error-eab32bdc85f10ddc.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/app/global-error-eab32bdc85f10ddc.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "173002"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"global-error-eab32bdc85f10ddc.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"8d5aef2b507932dec4409a3cb4b78343\""],
+          ["last-modified", "Fri, 02 Oct 2026 20:13:44 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/app/global-error-eab32bdc85f10ddc.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::htzw4-1791145026900-3ecf38d6a8f2"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://storage.googleapis.com/\""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/webpack-32da39b1ba91750f.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/webpack-32da39b1ba91750f.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "6113"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"webpack-32da39b1ba91750f.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"b6369c29cf79947b727db6a70e5d13e9\""],
+          ["last-modified", "Sun, 04 Oct 2026 18:35:13 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/webpack-32da39b1ba91750f.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::8dqhn-1791145026900-ae85151da8ec"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/13135-192d1995dfe27b3c.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/13135-192d1995dfe27b3c.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "35010"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"13135-192d1995dfe27b3c.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"41417b5f0aef583ea9fbce739f6f93e1\""],
+          ["last-modified", "Sun, 04 Oct 2026 10:33:36 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/13135-192d1995dfe27b3c.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::57zgf-1791145026900-3bb3f3f19844"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/93373-85e56100fa4cfc27.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/93373-85e56100fa4cfc27.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "172380"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"93373-85e56100fa4cfc27.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"c993b85c5b88fb23338cdc9fdc6a3357\""],
+          ["last-modified", "Fri, 02 Oct 2026 20:24:06 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/93373-85e56100fa4cfc27.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::kh6cl-1791145026900-9d8b075f1581"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/x-u2l-f7800900d64dd66a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/x-u2l-f7800900d64dd66a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "173002"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"x-u2l-f7800900d64dd66a.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"88db335cbdee7bbc58ccce4682a43402\""],
+          ["last-modified", "Fri, 02 Oct 2026 20:13:44 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/x-u2l-f7800900d64dd66a.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9v6bk-1791145026896-32c13bf23eef"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://www.googletagservices.com/\"\n\"https://www3.doubleclick.net/\""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/main-app-2c234fc6e8d79f3a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/main-app-2c234fc6e8d79f3a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "173002"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"main-app-2c234fc6e8d79f3a.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"a5c4bc60fb03ecf1b818c0d4cd207bd6\""],
+          ["last-modified", "Fri, 02 Oct 2026 20:13:43 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/main-app-2c234fc6e8d79f3a.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::jbzxn-1791145026901-928c90ac6bbd"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://vercel.live/\""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/49678-3a2bd665e6b08e1d.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/49678-3a2bd665e6b08e1d.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "163570"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"49678-3a2bd665e6b08e1d.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"88137ffb118a7b6d9c85bd14ca6b26b6\""],
+          ["last-modified", "Fri, 02 Oct 2026 22:50:56 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/49678-3a2bd665e6b08e1d.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::rg9ks-1791145026900-af266035527c"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/app/(no-layout)/unavailable/page-aaa0586f419d1b43.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/app/(no-layout)/unavailable/page-aaa0586f419d1b43.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "172379"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"page-aaa0586f419d1b43.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"97e74c3a585a50ea585b9b9f91c28055\""],
+          ["last-modified", "Fri, 02 Oct 2026 20:24:07 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "x-matched-path",
+            "/_next/static/chunks/app/(no-layout)/unavailable/page-aaa0586f419d1b43.js"
+          ],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::f8899-1791145026910-dd6166c6a122"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://artificialintelligenceact.eu/\""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/18815-05ff0e6b639db1ca.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/18815-05ff0e6b639db1ca.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "173000"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"18815-05ff0e6b639db1ca.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"e7b46a21ca390d32e24c1d4bc62f4f9e\""],
+          ["last-modified", "Fri, 02 Oct 2026 20:13:46 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/18815-05ff0e6b639db1ca.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::6psv2-1791145026910-262017fe7602"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/31092-e220ae802ebd2246.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/31092-e220ae802ebd2246.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "163569"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"31092-e220ae802ebd2246.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"81434c1ca97cd287f1aff2e72b01e19c\""],
+          ["last-modified", "Fri, 02 Oct 2026 22:50:57 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/31092-e220ae802ebd2246.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::qzqx9-1791145026910-f839f1b5e2c0"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/73017-f9ae13084ada32bf.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/73017-f9ae13084ada32bf.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "163570"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"73017-f9ae13084ada32bf.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"265d2c4ccb75bb96dd256848050ea20a\""],
+          ["last-modified", "Fri, 02 Oct 2026 22:50:56 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/73017-f9ae13084ada32bf.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::l6ptz-1791145026910-86ab334ada0b"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/x-c16n-0a34d03a2444b091.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/x-c16n-0a34d03a2444b091.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "10630"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"x-c16n-0a34d03a2444b091.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"985ad0d0203784c11f8824e78bcf181b\""],
+          ["last-modified", "Sun, 04 Oct 2026 17:19:56 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/x-c16n-0a34d03a2444b091.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::jfj88-1791145026910-b92909555f42"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://api.xyla.com/\""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/48622-2545e261318af246.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/48622-2545e261318af246.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "173001"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"48622-2545e261318af246.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"2759f9946d278911da4cfef5ac62fef0\""],
+          ["last-modified", "Fri, 02 Oct 2026 20:13:45 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/48622-2545e261318af246.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::97x49-1791145026917-3f5b19709866"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/65983-b8dc5397813a00c2.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/65983-b8dc5397813a00c2.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "173000"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"65983-b8dc5397813a00c2.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"4264a8cf7bb3443067c5dac16a0c9d8c\""],
+          ["last-modified", "Fri, 02 Oct 2026 20:13:46 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/65983-b8dc5397813a00c2.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::fz5tv-1791145026911-29b6c0f63a32"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://mui.com/\""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/x-a1i-4ce9c8ce8b3d7d1d.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/x-a1i-4ce9c8ce8b3d7d1d.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "5966"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"x-a1i-4ce9c8ce8b3d7d1d.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"7484fcee10cc929bf115c4e23490fbb8\""],
+          ["last-modified", "Sun, 04 Oct 2026 18:37:40 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/x-a1i-4ce9c8ce8b3d7d1d.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9xpq9-1791145026914-f2642c99e22b"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://api.xyla.com/\""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "159173"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"polyfills-42372ed130431b0a.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"846118c33b2c0e922d7b3a7676f81f6f\""],
+          ["last-modified", "Sat, 03 Oct 2026 00:04:13 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/polyfills-42372ed130431b0a.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::8bclp-1791145026910-83eec3ab52f6"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/27097-15030205861331e6.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/27097-15030205861331e6.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "173003"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"27097-15030205861331e6.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"a9eb9491926c3b575dd343dacaee7e70\""],
+          ["last-modified", "Fri, 02 Oct 2026 20:13:43 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/27097-15030205861331e6.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::vx4x6-1791145026896-316e97775f91"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/46106-ca9957cea2048f42.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/46106-ca9957cea2048f42.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "173001"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"46106-ca9957cea2048f42.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"a0a56462eb3b6066bb61075e0da4c8bb\""],
+          ["last-modified", "Fri, 02 Oct 2026 20:13:45 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/46106-ca9957cea2048f42.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::6pnxj-1791145026900-6f9fbc70ca35"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/x-o31y-ce2429ad6b75270a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/x-o31y-ce2429ad6b75270a.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "173001"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"x-o31y-ce2429ad6b75270a.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"a81a4cf2322df20815b28f77a83a6853\""],
+          ["last-modified", "Fri, 02 Oct 2026 20:13:44 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/x-o31y-ce2429ad6b75270a.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9f6b6-1791145026900-90d3abc98184"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://portal.physiciansapply.ca/\"\n\"https://accme.org/\"\n\"https://acforum.org/\"\n\"https://acsjournals.onlinelibrary.wiley.com/\"\n\"https://api.xyla.com/\"\n\"https://apps.apple.com/\"\n\"https://clinicaltrials.gov/\"\n\"https://diabetes.org/\"\n\"https://gastro.org/\"\n\"https://ginasthma.org/\"\n\"https://gut.bmj.com/\"\n\"https://jamanetwork.com/\"\n\"https://journal.chestnet.org/\"\n\"https://journals.sagepub.com/\"\n\"https://mcc.ca/\"\n\"https://openevidence.com/\"\n\"https://osu.edu/\"\n\"https://play.google.com/\"\n\"https://plos.org/\"\n\"https://pubs.rsna.org/\"\n\"https://rheumatology.org/\"\n\"https://storage.googleapis.com/\"\n\"https://www.aafp.org/\"\n\"https://www.aao.org/\"\n\"https://www.aaos.org/\"\n\"https://www.aap.org/\"\n\"https://www.acc.org/\"\n\"https://www.acep.org/\"\n\"https://www.acpjournals.org/\"\n\"https://www.ahajournals.org/\"\n\"https://www.ajog.org/\"\n\"https://www.asahq.org/\"\n\"https://www.asco.org/\"\n\"https://www.asn-online.org/\"\n\"https://www.atsjournals.org/\"\n\"https://www.bmj.com/\"\n\"https://www.cell.com/\"\n\"https://www.cms.gov/\"\n\"https://www.cochrane.org/\"\n\"https://www.entnet.org/\"\n\"https://www.facs.org/\"\n\"https://www.fda.gov/\"\n\"https://www.google.com/\"\n\"https://www.heart.org/\"\n\"https://www.hematology.org/\"\n\"https://www.idsociety.org/\"\n\"https://www.jbjs.org/\"\n\"https://www.nature.com/\"\n\"https://www.nccn.org/\"\n\"https://www.nejm.org/\"\n\"https://www.neurology.org/\"\n\"https://www.oncokb.org/\"\n\"https://www.oneoncology.com/\"\n\"https://www.openevidence.com/\"\n\"https://www.psychiatry.org/\"\n\"https://www.science.org/\"\n\"https://www.sts.org/\"\n\"https://www.theaba.org/\"\n\"https://www.thelancet.com/\"\n\"https://www.thoracic.org/\"\n\"https://www.va.gov/\""
+      }
+    },
+    "GET https://www.openevidence.com/_next/static/chunks/vendors-s4y-7866d41c69a040a7.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9": {
+      "result": {
+        "url": "https://www.openevidence.com/_next/static/chunks/vendors-s4y-7866d41c69a040a7.js?dpl=dpl_DosaTqdqotG3HXN28cRRYNYBoff9",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "10633"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"vendors-s4y-7866d41c69a040a7.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:06 GMT"],
+          ["etag", "W/\"9fd6946cd56e834e52b30b2a36ff22dd\""],
+          ["last-modified", "Sun, 04 Oct 2026 17:19:53 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/vendors-s4y-7866d41c69a040a7.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::sn569-1791145026901-0c888969221a"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://s.io/\"\n\"https://browser.sentry-cdn.com/\"\n\"https://docs.sentry.io/\"\n\"https://o447951.ingest.sentry.io/\"\n\"https://sentry.io/\"\n\"https://spotlightjs.com/\""
+      }
+    },
+    "GET https://portal.openevidence.com/_next/static/immutable/chunks/turbopack-27f0vlv8i7f5y.js": {
+      "result": {
+        "url": "https://portal.openevidence.com/_next/static/immutable/chunks/turbopack-27f0vlv8i7f5y.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "0"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"turbopack-27f0vlv8i7f5y.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:07 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/turbopack-27f0vlv8i7f5y.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 20:17:07 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/turbopack-27f0vlv8i7f5y.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::cdpft-1791145026896-fa47da9494c5"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://portal.openevidence.com/_next/static/immutable/chunks/2fkk8ze_3-n02.js": {
+      "result": {
+        "url": "https://portal.openevidence.com/_next/static/immutable/chunks/2fkk8ze_3-n02.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "0"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2fkk8ze_3-n02.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:07 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/2fkk8ze_3-n02.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 20:17:07 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2fkk8ze_3-n02.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::2xsj4-1791145026802-27b2f4fcc81e"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://portal.openevidence.com/_next/static/immutable/chunks/3v18123w809ul.js": {
+      "result": {
+        "url": "https://portal.openevidence.com/_next/static/immutable/chunks/3v18123w809ul.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "0"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3v18123w809ul.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:07 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3v18123w809ul.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 20:17:07 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3v18123w809ul.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::5zs6c-1791145026974-b95f51ed0811"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://portal.openevidence.com/_next/static/immutable/chunks/1n6h2xl2ga-6b.js": {
+      "result": {
+        "url": "https://portal.openevidence.com/_next/static/immutable/chunks/1n6h2xl2ga-6b.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "0"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1n6h2xl2ga-6b.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:07 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/1n6h2xl2ga-6b.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 20:17:07 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1n6h2xl2ga-6b.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::jfj88-1791145026974-64b95e4c3617"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://portal.openevidence.com/_next/static/immutable/chunks/368uynw_42kg3.js": {
+      "result": {
+        "url": "https://portal.openevidence.com/_next/static/immutable/chunks/368uynw_42kg3.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "0"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"368uynw_42kg3.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:07 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/368uynw_42kg3.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 20:17:07 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/368uynw_42kg3.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::qb2pv-1791145026900-ae18c59a8221"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://blogs.nejm.org/\"\n\"https://media.jamanetwork.com/\"\n\"https://storage.googleapis.com/\"\n\"https://trust.openevidence.com/\"\n\"https://www.cedars-sinai.org/\"\n\"https://www.mountsinai.org/\"\n\"https://www.openevidence.com/\""
+      }
+    },
+    "GET https://portal.openevidence.com/_next/static/immutable/chunks/1wc-a-y_b4i7a.js": {
+      "result": {
+        "url": "https://portal.openevidence.com/_next/static/immutable/chunks/1wc-a-y_b4i7a.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "0"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1wc-a-y_b4i7a.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:07 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/1wc-a-y_b4i7a.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 20:17:07 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1wc-a-y_b4i7a.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::c6bts-1791145026976-b9e660330771"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://portal.openevidence.com/_next/static/immutable/chunks/3qhys8np6hiz-.js": {
+      "result": {
+        "url": "https://portal.openevidence.com/_next/static/immutable/chunks/3qhys8np6hiz-.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "0"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3qhys8np6hiz-.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:07 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3qhys8np6hiz-.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 20:17:07 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3qhys8np6hiz-.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::pk5rl-1791145026976-d931dfacb806"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://vercel.live/\""
+      }
+    },
+    "GET https://portal.openevidence.com/_next/static/immutable/chunks/3kkb3oxj43y4-.js": {
+      "result": {
+        "url": "https://portal.openevidence.com/_next/static/immutable/chunks/3kkb3oxj43y4-.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "0"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3kkb3oxj43y4-.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:07 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3kkb3oxj43y4-.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 20:17:07 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3kkb3oxj43y4-.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::sn569-1791145026900-0a8b06dfe8e3"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://portal.openevidence.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js": {
+      "result": {
+        "url": "https://portal.openevidence.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "0"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0c0hxoamwjsbw.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:07 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0c0hxoamwjsbw.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 20:17:07 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0c0hxoamwjsbw.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::4xnxj-1791145026909-57fe54e1e0ea"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
     }
   },
   "dns": {
+    "NS openevidence.com": {
+      "result": {
+        "name": "openevidence.com",
+        "type": "NS",
+        "records": [
+          "ns-cloud-e3.googledomains.com",
+          "ns-cloud-e1.googledomains.com",
+          "ns-cloud-e2.googledomains.com",
+          "ns-cloud-e4.googledomains.com"
+        ]
+      }
+    },
     "A openevidence.com": {
       "result": {
         "name": "openevidence.com",
@@ -275,29 +1010,17 @@
         "records": ["76.76.21.21"]
       }
     },
-    "AAAA openevidence.com": {
-      "result": {
-        "name": "openevidence.com",
-        "type": "AAAA",
-        "records": []
-      }
-    },
-    "NS openevidence.com": {
-      "result": {
-        "name": "openevidence.com",
-        "type": "NS",
-        "records": [
-          "ns-cloud-e1.googledomains.com",
-          "ns-cloud-e2.googledomains.com",
-          "ns-cloud-e3.googledomains.com",
-          "ns-cloud-e4.googledomains.com"
-        ]
-      }
-    },
     "CNAME openevidence.com": {
       "result": {
         "name": "openevidence.com",
         "type": "CNAME",
+        "records": []
+      }
+    },
+    "AAAA openevidence.com": {
+      "result": {
+        "name": "openevidence.com",
+        "type": "AAAA",
         "records": []
       }
     },
@@ -327,23 +1050,22 @@
         "message": "queryCname ENOTFOUND stackprobe-wildcard-check.openevidence.com"
       }
     },
-    "CNAME dashboard.openevidence.com": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryCname ENOTFOUND dashboard.openevidence.com"
-      }
-    },
     "CNAME app.openevidence.com": {
       "error": {
         "code": "DNS_NXDOMAIN",
         "message": "queryCname ENOTFOUND app.openevidence.com"
       }
     },
-    "A api.openevidence.com": {
-      "result": {
-        "name": "api.openevidence.com",
-        "type": "A",
-        "records": ["34.49.139.133"]
+    "CNAME dashboard.openevidence.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND dashboard.openevidence.com"
+      }
+    },
+    "A app.openevidence.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND app.openevidence.com"
       }
     },
     "A portal.openevidence.com": {
@@ -353,13 +1075,6 @@
         "records": ["76.76.21.21"]
       }
     },
-    "CNAME api.openevidence.com": {
-      "result": {
-        "name": "api.openevidence.com",
-        "type": "CNAME",
-        "records": []
-      }
-    },
     "CNAME status.openevidence.com": {
       "result": {
         "name": "status.openevidence.com",
@@ -367,10 +1082,24 @@
         "records": ["stats.uptimerobot.com"]
       }
     },
-    "A app.openevidence.com": {
+    "A console.openevidence.com": {
       "error": {
         "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND app.openevidence.com"
+        "message": "queryA ENOTFOUND console.openevidence.com"
+      }
+    },
+    "CNAME portal.openevidence.com": {
+      "result": {
+        "name": "portal.openevidence.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "CNAME docs.openevidence.com": {
+      "result": {
+        "name": "docs.openevidence.com",
+        "type": "CNAME",
+        "records": ["318d6673.domains.readthedocs.com"]
       }
     },
     "CNAME console.openevidence.com": {
@@ -385,11 +1114,11 @@
         "message": "queryA ENOTFOUND dashboard.openevidence.com"
       }
     },
-    "CNAME portal.openevidence.com": {
+    "A docs.openevidence.com": {
       "result": {
-        "name": "portal.openevidence.com",
-        "type": "CNAME",
-        "records": []
+        "name": "docs.openevidence.com",
+        "type": "A",
+        "records": ["104.18.1.163", "104.18.0.163"]
       }
     },
     "A status.openevidence.com": {
@@ -399,29 +1128,23 @@
         "records": ["142.132.149.97"]
       }
     },
-    "A console.openevidence.com": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND console.openevidence.com"
-      }
-    },
-    "CNAME docs.openevidence.com": {
-      "result": {
-        "name": "docs.openevidence.com",
-        "type": "CNAME",
-        "records": ["318d6673.domains.readthedocs.com"]
-      }
-    },
-    "A docs.openevidence.com": {
-      "result": {
-        "name": "docs.openevidence.com",
-        "type": "A",
-        "records": ["104.18.1.163", "104.18.0.163"]
-      }
-    },
-    "AAAA api.openevidence.com": {
+    "A api.openevidence.com": {
       "result": {
         "name": "api.openevidence.com",
+        "type": "A",
+        "records": ["34.49.139.133"]
+      }
+    },
+    "CNAME api.openevidence.com": {
+      "result": {
+        "name": "api.openevidence.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "AAAA portal.openevidence.com": {
+      "result": {
+        "name": "portal.openevidence.com",
         "type": "AAAA",
         "records": []
       }
@@ -433,23 +1156,11 @@
         "records": []
       }
     },
-    "NS api.openevidence.com": {
+    "CNAME stats.uptimerobot.com": {
       "result": {
-        "name": "api.openevidence.com",
-        "type": "NS",
-        "records": [
-          "ns-cloud-a2.googledomains.com",
-          "ns-cloud-a4.googledomains.com",
-          "ns-cloud-a1.googledomains.com",
-          "ns-cloud-a3.googledomains.com"
-        ]
-      }
-    },
-    "AAAA portal.openevidence.com": {
-      "result": {
-        "name": "portal.openevidence.com",
-        "type": "AAAA",
-        "records": []
+        "name": "stats.uptimerobot.com",
+        "type": "CNAME",
+        "records": ["psp-lb2.uptimerobot.com"]
       }
     },
     "NS docs.openevidence.com": {
@@ -466,38 +1177,10 @@
         "records": []
       }
     },
-    "AAAA docs.openevidence.com": {
-      "result": {
-        "name": "docs.openevidence.com",
-        "type": "AAAA",
-        "records": ["2606:4700::6812:a3", "2606:4700::6812:1a3"]
-      }
-    },
     "AAAA status.openevidence.com": {
       "result": {
         "name": "status.openevidence.com",
         "type": "AAAA",
-        "records": []
-      }
-    },
-    "CNAME 318d6673.domains.readthedocs.com": {
-      "result": {
-        "name": "318d6673.domains.readthedocs.com",
-        "type": "CNAME",
-        "records": ["proxy-fallback.readthedocs-hosted.com"]
-      }
-    },
-    "CNAME stats.uptimerobot.com": {
-      "result": {
-        "name": "stats.uptimerobot.com",
-        "type": "CNAME",
-        "records": ["psp-lb2.uptimerobot.com"]
-      }
-    },
-    "CNAME proxy-fallback.readthedocs-hosted.com": {
-      "result": {
-        "name": "proxy-fallback.readthedocs-hosted.com",
-        "type": "CNAME",
         "records": []
       }
     },
@@ -508,11 +1191,44 @@
         "records": []
       }
     },
-    "TXT 163.0.18.104.origin.asn.cymru.com": {
+    "AAAA docs.openevidence.com": {
       "result": {
-        "name": "163.0.18.104.origin.asn.cymru.com",
-        "type": "TXT",
-        "records": ["13335 | 104.18.0.0/20 | US | arin | 2014-03-28"]
+        "name": "docs.openevidence.com",
+        "type": "AAAA",
+        "records": ["2606:4700::6812:1a3", "2606:4700::6812:a3"]
+      }
+    },
+    "NS api.openevidence.com": {
+      "result": {
+        "name": "api.openevidence.com",
+        "type": "NS",
+        "records": [
+          "ns-cloud-a1.googledomains.com",
+          "ns-cloud-a4.googledomains.com",
+          "ns-cloud-a3.googledomains.com",
+          "ns-cloud-a2.googledomains.com"
+        ]
+      }
+    },
+    "CNAME 318d6673.domains.readthedocs.com": {
+      "result": {
+        "name": "318d6673.domains.readthedocs.com",
+        "type": "CNAME",
+        "records": ["proxy-fallback.readthedocs-hosted.com"]
+      }
+    },
+    "AAAA api.openevidence.com": {
+      "result": {
+        "name": "api.openevidence.com",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "CNAME proxy-fallback.readthedocs-hosted.com": {
+      "result": {
+        "name": "proxy-fallback.readthedocs-hosted.com",
+        "type": "CNAME",
+        "records": []
       }
     },
     "TXT 133.139.49.34.origin.asn.cymru.com": {
@@ -522,18 +1238,25 @@
         "records": ["396982 | 34.32.0.0/11 | US | arin | 2022-05-09"]
       }
     },
-    "TXT as13335.asn.cymru.com": {
-      "result": {
-        "name": "AS13335.asn.cymru.com",
-        "type": "TXT",
-        "records": ["13335 | US | arin | 2010-07-14 | CLOUDFLARENET - Cloudflare, Inc., US"]
-      }
-    },
     "TXT as396982.asn.cymru.com": {
       "result": {
         "name": "AS396982.asn.cymru.com",
         "type": "TXT",
         "records": ["396982 | US | arin | 2018-08-15 | GOOGLE-CLOUD-PLATFORM - Google LLC, US"]
+      }
+    },
+    "TXT 163.0.18.104.origin.asn.cymru.com": {
+      "result": {
+        "name": "163.0.18.104.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | 104.18.0.0/20 | US | arin | 2014-03-28"]
+      }
+    },
+    "TXT as13335.asn.cymru.com": {
+      "result": {
+        "name": "AS13335.asn.cymru.com",
+        "type": "TXT",
+        "records": ["13335 | US | arin | 2010-07-14 | CLOUDFLARENET - Cloudflare, Inc., US"]
       }
     },
     "TXT 97.149.132.142.origin.asn.cymru.com": {
@@ -562,14 +1285,14 @@
         "validTo": "Dec  8 02:15:04 2026 GMT"
       }
     },
-    "docs.openevidence.com:443": {
+    "portal.openevidence.com:443": {
       "result": {
-        "host": "docs.openevidence.com",
-        "ip": "104.18.0.163",
-        "issuer": "C=US, O=Let's Encrypt, CN=YE1",
-        "subjectAltNames": ["docs.openevidence.com"],
-        "validFrom": "Sep  7 19:30:06 2026 GMT",
-        "validTo": "Dec  6 19:30:05 2026 GMT"
+        "host": "portal.openevidence.com",
+        "ip": "76.76.21.21",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+        "subjectAltNames": ["portal.openevidence.com"],
+        "validFrom": "Sep 23 01:20:34 2026 GMT",
+        "validTo": "Dec 22 01:20:33 2026 GMT"
       }
     },
     "api.openevidence.com:443": {
@@ -582,6 +1305,16 @@
         "validTo": "Dec 22 16:10:18 2026 GMT"
       }
     },
+    "docs.openevidence.com:443": {
+      "result": {
+        "host": "docs.openevidence.com",
+        "ip": "104.18.0.163",
+        "issuer": "C=US, O=Let's Encrypt, CN=YE1",
+        "subjectAltNames": ["docs.openevidence.com"],
+        "validFrom": "Sep  7 19:30:06 2026 GMT",
+        "validTo": "Dec  6 19:30:05 2026 GMT"
+      }
+    },
     "status.openevidence.com:443": {
       "result": {
         "host": "status.openevidence.com",
@@ -590,16 +1323,6 @@
         "subjectAltNames": ["status.openevidence.com"],
         "validFrom": "Sep 14 01:31:02 2026 GMT",
         "validTo": "Dec 13 01:31:01 2026 GMT"
-      }
-    },
-    "portal.openevidence.com:443": {
-      "result": {
-        "host": "portal.openevidence.com",
-        "ip": "76.76.21.21",
-        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
-        "subjectAltNames": ["portal.openevidence.com"],
-        "validFrom": "Sep 23 01:20:34 2026 GMT",
-        "validTo": "Dec 22 01:20:33 2026 GMT"
       }
     }
   }

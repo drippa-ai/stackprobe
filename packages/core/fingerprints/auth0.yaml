@@ -40,3 +40,19 @@ rules:
     match: { regex: '^auth0\.[A-Za-z0-9]+\.is\.authenticated$' }
     weight: 0.9
     detail: auth0-spa-js session cookie
+
+  # A tenant address in the page's own JavaScript (not Auth0's CDN or its website).
+  - id: bundle-tenant
+    layer: bundle
+    signal: bundle-url
+    match: { regex: '^https://(?!cdn\.|www\.)[a-z0-9-]+(?:\.[a-z]{2})?\.auth0\.com$' }
+    weight: 0.85
+    detail: Auth0 tenant address in the page's own JavaScript
+
+  - id: bundle-spa-sdk
+    layer: bundle
+    signal: bundle-sdk
+    match: { regex: '^auth0-spa-js/(\d+\.\d+\.\d+)' }
+    version: $1
+    weight: 0.9
+    detail: auth0-spa-js bundled with the page

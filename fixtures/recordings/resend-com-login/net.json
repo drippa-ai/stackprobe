@@ -1,6 +1,6 @@
 {
   "url": "https://resend.com/login",
-  "recordedAt": "2026-10-04T17:53:09.853Z",
+  "recordedAt": "2026-10-04T20:16:52.488Z",
   "http": {
     "GET https://resend.com/login": {
       "result": {
@@ -15,7 +15,7 @@
             "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
           ],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 17:53:10 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
           ["document-policy", "js-profiling"],
           [
             "link",
@@ -34,26 +34,977 @@
           ["x-matched-path", "/login"],
           ["x-powered-by", "Next.js"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::iad1::2t98t-1791136389960-2cb2055cc0a9"],
+          ["x-vercel-id", "arn1::iad1::jbzxn-1791145012597-bae47ec0cd4a"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/3v7ju2k_s7gyj.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/05o_glrjf0a_t.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/3wsplgvgy7ts9.js\">\n<script src=\"/_next/static/immutable/chunks/26yaa-tw3zzt9.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0mkndzizltmhl.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1b_urwkv-1ye3.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2hac_pqvvhbtf.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3rzcznqno3l4x.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/42nqg8iofeahh.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-38rbih6w-xpd_.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3rcbc5ykjhl1-.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2j-p05rh4r3ty.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0f1yxz8kjobho.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/09ks-r5e3o51w.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3sbu-uw8fjt54.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/032r24cnetaud.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2q-iizrd467kk.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/18izbvn6b_nzg.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1o4nn6sydr-g8.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/14x6sqdl7pa17.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0eyfh_xo1mp0w.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/09vjtbl_z5fu0.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2phhya21bfw2a.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1j0bwl3-bv9mj.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/163z8rxilesat.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3iaqbimnm7sqg.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2ju74ym-7-e-0.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1x8neaa9c-eq3.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0e-75t5927343.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/009p1sa0hf389.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1wi-x7a2sgcx1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1_kkg_zqk3hjz.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/30jnq-a__0_uo.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0rusv4z4-v_b1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0d4flbou49f4k.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0_j8i5dyn0dm1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2v8ut3qlj7jev.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/20s3vvo-5bjyn.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3g9o907hemtp2.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/000ozyz_qmkfk.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0sb6__ynbmn4u.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/04ozsa_86qfg5.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1ydztcipwy_4l.js\" async=\"\" crossorigin=\"\"></script>\n<meta name=\"theme-color\" content=\"#000000\">\n<meta name=\"color-scheme\" content=\"dark\">\n<link rel=\"author\" href=\"/about\">\n<meta name=\"author\" content=\"Resend\">\n<meta name=\"referrer\" content=\"origin-when-cross-origin\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta name=\"googlebot\" content=\"index, follow\">\n<link rel=\"canonical\" href=\"https://resend.com\">\n<meta property=\"og:title\" content=\"Resend\">\n<meta property=\"og:url\" content=\"https://resend.com\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Resend\">\n<link rel=\"shortcut icon\" href=\"/static/favicons/favicon.ico?v=1\">\n<link rel=\"icon\" href=\"/static/favicons/favicon.ico?v=1\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@57x57.png?v=1\" sizes=\"57x57\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@60x60.png?v=1\" sizes=\"60x60\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@72x72.png?v=1\" sizes=\"72x72\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@76x76.png?v=1\" sizes=\"76x76\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@114x114.png?v=1\" sizes=\"114x114\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@120x120.png?v=1\" sizes=\"120x120\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@144x144.png?v=1\" sizes=\"144x144\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@152x152.png?v=1\" sizes=\"152x152\">\n<link rel=\"apple-touch-icon\" href=\"/static/favicons/favicon@180x180.png?v=1\" sizes=\"180x180\">\n<meta name=\"next-size-adjust\" content=\"\">\n<link crossorigin=\"anonymous\" href=\"https://us.i.posthog.com\" rel=\"preconnect\">\n<link href=\"https://us.i.posthog.com\" rel=\"dns-prefetch\">\n<link rel=\"sitemap\" type=\"application/xml\" title=\"Sitemap\" href=\"/sitemap.xml\">\n<link rel=\"llms-txt\" href=\"/llms.txt\">\n<link rel=\"llms-full-txt\" href=\"/llms-full.txt\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"/home\">Home</a>\n<a href=\"/signup\">Sign up</a>\n<a href=\"/auth/reset-password?email=\">Forgot your password?</a>\n<a href=\"/legal/terms-of-service\">Terms</a>\n<a href=\"/legal/privacy-policy\">Privacy Policy</a>\n<script src=\"/_next/static/immutable/chunks/3wsplgvgy7ts9.js\" id=\"_R_\" async=\"\"></script>"
       }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/2hac_pqvvhbtf.js": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "getaddrinfo ENOTFOUND resend.com"
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/26yaa-tw3zzt9.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/26yaa-tw3zzt9.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "362631"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"26yaa-tw3zzt9.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/26yaa-tw3zzt9.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:38:04 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/26yaa-tw3zzt9.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mgw6r-1791145012810-be015b981d6d"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://yandex.com/\"\n\"https://app.posthog.com/\"\n\"https://posthog.com/\"\n\"https://sentry.io/\"\n\"https://us.i.posthog.com/\"\n\"https://us.posthog.com/\""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/0mkndzizltmhl.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/0mkndzizltmhl.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "19206"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0mkndzizltmhl.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/0mkndzizltmhl.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 14:17:48 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0mkndzizltmhl.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::gxl2g-1791145012869-ee77a4e724e1"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://api.resend.com/\"\n\"https://d27564856iuh93.cloudfront.net/\"\n\"https://resend.com/\""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/09ks-r5e3o51w.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/09ks-r5e3o51w.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "364126"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"09ks-r5e3o51w.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/09ks-r5e3o51w.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:58:56 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/09ks-r5e3o51w.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::hpnzl-1791145012876-026a915eb57e"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://nuqs.dev/\""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/2phhya21bfw2a.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/2phhya21bfw2a.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "185269"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2phhya21bfw2a.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/2phhya21bfw2a.js\""],
+          ["last-modified", "Fri, 02 Oct 2026 16:49:03 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2phhya21bfw2a.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::fz5tv-1791145012880-34727c180fa7"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/turbopack-38rbih6w-xpd_.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/turbopack-38rbih6w-xpd_.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "18021"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"turbopack-38rbih6w-xpd_.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/turbopack-38rbih6w-xpd_.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 14:17:48 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/turbopack-38rbih6w-xpd_.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::dxp7r-1791145012876-8ea94216dcba"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/3rcbc5ykjhl1-.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/3rcbc5ykjhl1-.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "6266"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3rcbc5ykjhl1-.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/3rcbc5ykjhl1-.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 18:32:26 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3rcbc5ykjhl1-.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::xq95k-1791145012876-7963d6bf1b40"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://base-ui.com/\""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/2j-p05rh4r3ty.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/2j-p05rh4r3ty.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "364677"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2j-p05rh4r3ty.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/2j-p05rh4r3ty.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:58:55 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2j-p05rh4r3ty.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::tdvjt-1791145012876-ef3c71452909"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/42nqg8iofeahh.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/42nqg8iofeahh.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "364760"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"42nqg8iofeahh.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/42nqg8iofeahh.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:57:31 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/42nqg8iofeahh.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::hpnzl-1791145012881-fcbabfcef5c3"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/09vjtbl_z5fu0.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/09vjtbl_z5fu0.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "364570"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"09vjtbl_z5fu0.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/09vjtbl_z5fu0.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 15:00:42 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/09vjtbl_z5fu0.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::8zgmg-1791145012880-71117772cbd2"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/3iaqbimnm7sqg.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/3iaqbimnm7sqg.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "361938"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3iaqbimnm7sqg.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/3iaqbimnm7sqg.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 15:02:15 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3iaqbimnm7sqg.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::fct8s-1791145012885-425839755648"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/2ju74ym-7-e-0.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/2ju74ym-7-e-0.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "366142"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2ju74ym-7-e-0.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/2ju74ym-7-e-0.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:34:30 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2ju74ym-7-e-0.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::6d6pd-1791145012880-2024015d8f34"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/0f1yxz8kjobho.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/0f1yxz8kjobho.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "31623"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0f1yxz8kjobho.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/0f1yxz8kjobho.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 10:34:00 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0f1yxz8kjobho.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::fct8s-1791145012880-b78481a5db14"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/1o4nn6sydr-g8.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/1o4nn6sydr-g8.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "10533"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1o4nn6sydr-g8.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/1o4nn6sydr-g8.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 17:21:19 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1o4nn6sydr-g8.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::4cxhz-1791145012877-9ba17f702133"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/1j0bwl3-bv9mj.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/1j0bwl3-bv9mj.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "34959"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1j0bwl3-bv9mj.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/1j0bwl3-bv9mj.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 10:34:13 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1j0bwl3-bv9mj.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::pkv5n-1791145012880-b82e75531c47"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/032r24cnetaud.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/032r24cnetaud.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "3052"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"032r24cnetaud.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/032r24cnetaud.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 18:32:29 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/032r24cnetaud.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::rgm5t-1791145012881-7cff223e8174"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/0eyfh_xo1mp0w.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/0eyfh_xo1mp0w.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "325231"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0eyfh_xo1mp0w.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/0eyfh_xo1mp0w.js\""],
+          ["last-modified", "Thu, 01 Oct 2026 01:56:21 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0eyfh_xo1mp0w.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::lcdxf-1791145012889-df113fae261b"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://resend-status.com/\""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/0e-75t5927343.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/0e-75t5927343.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "184020"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0e-75t5927343.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/0e-75t5927343.js\""],
+          ["last-modified", "Fri, 02 Oct 2026 16:34:59 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0e-75t5927343.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::nqn7q-1791145012880-41e7cda7eaba"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/1wi-x7a2sgcx1.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/1wi-x7a2sgcx1.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "365861"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1wi-x7a2sgcx1.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/1wi-x7a2sgcx1.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:39:11 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1wi-x7a2sgcx1.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::tdvjt-1791145012880-0bc0d870ea56"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://radix-ui.com/\""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/163z8rxilesat.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/163z8rxilesat.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "186957"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"163z8rxilesat.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/163z8rxilesat.js\""],
+          ["last-modified", "Fri, 02 Oct 2026 16:20:55 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/163z8rxilesat.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::w2976-1791145012881-2307213179f3"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://docs.stripe.com/\"\n\"https://js.stripe.com/\""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/009p1sa0hf389.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/009p1sa0hf389.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "365385"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"009p1sa0hf389.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/009p1sa0hf389.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:24:07 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/009p1sa0hf389.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::jbzxn-1791145012880-6eba6cce8942"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/14x6sqdl7pa17.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/14x6sqdl7pa17.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "362012"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"14x6sqdl7pa17.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/14x6sqdl7pa17.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:54:11 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/14x6sqdl7pa17.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::jz9db-1791145012880-c5c69523b102"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/1_kkg_zqk3hjz.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/1_kkg_zqk3hjz.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "364763"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1_kkg_zqk3hjz.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/1_kkg_zqk3hjz.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:57:29 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1_kkg_zqk3hjz.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::pkv5n-1791145012885-17ddf1982be0"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/3sbu-uw8fjt54.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/3sbu-uw8fjt54.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "336056"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3sbu-uw8fjt54.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/3sbu-uw8fjt54.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 22:55:56 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3sbu-uw8fjt54.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::2lmtt-1791145012885-8eeea3879d3f"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://fpnpmcdn.net/\"\n\"spa-sdk/1.3.3\""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/2q-iizrd467kk.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/2q-iizrd467kk.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "365625"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2q-iizrd467kk.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/2q-iizrd467kk.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:43:07 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2q-iizrd467kk.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::cwh7s-1791145012885-0b55c466a083"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/30jnq-a__0_uo.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/30jnq-a__0_uo.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "366347"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"30jnq-a__0_uo.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/30jnq-a__0_uo.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:31:05 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/30jnq-a__0_uo.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::6s9x9-1791145012880-ab997d1cabad"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://bastardkb.com/\"\n\"https://briankerr.co/\"\n\"https://bukinoshita.com/\"\n\"https://cafeirmaspereira.com.br/\"\n\"https://chrispennington.dev/\"\n\"https://christinacodes.dev/\"\n\"https://coffeesupreme.com/\"\n\"https://combi-coffee.com/\"\n\"https://danilowoz.com/\"\n\"https://ergodox-ez.com/\"\n\"https://felipevolpone.medium.com/\"\n\"https://imbibe.ie/\"\n\"https://ineffablecoffee.com/\"\n\"https://jonnilundy.com/\"\n\"https://jopcmelo.com/\"\n\"https://jpvalery.me/\"\n\"https://jpvalery.photo/\"\n\"https://kinesis-ergo.com/\"\n\"https://lacabra.com/\"\n\"https://linkedin.com/\"\n\"https://loja.badentorrefacao.com.br/\"\n\"https://loja.encantosdocafe.com.br/\"\n\"https://medium.com/\"\n\"https://morrowcoffee.com/\"\n\"https://mullirivjeter.al/\"\n\"https://nomadcoffee.es/\"\n\"https://og.jpvalery.me/\"\n\"https://redrabbitcoffee.co.nz/\"\n\"https://rehanvdm.com/\"\n\"https://res.cloudinary.com/\"\n\"https://safety-briefing.com/\"\n\"https://shop.coavacoffee.com/\"\n\"https://store.steampowered.com/\"\n\"https://vcapretz.com/\"\n\"https://veroo.com.br/\"\n\"https://worklouder.cc/\"\n\"https://www.abuelacafes.com.br/\"\n\"https://www.allpressespresso.com/\"\n\"https://www.amazon.com.br/\"\n\"https://www.apple.com/\"\n\"https://www.aprilcoffeeroasters.com/\"\n\"https://www.cafecito.com.br/\"\n\"https://www.doracoffeeroaster.com/\"\n\"https://www.gloriousgaming.com/\"\n\"https://www.goodreads.com/\"\n\"https://www.hpshop.co.za/\"\n\"https://www.jopcmelo.com/\"\n\"https://www.keychron.com/\"\n\"https://www.leagueoflegends.com/\"\n\"https://www.lenhacafe.com.br/\"\n\"https://www.lucasfcosta.com/\"\n\"https://www.matakanacoffee.co.nz/\"\n\"https://www.minecraft.net/\"\n\"https://www.mokaclube.com.br/\"\n\"https://www.nintendo.com/\"\n\"https://www.notion.sosenzucoffee.com/\"\n\"https://www.paulinechin.com/\"\n\"https://www.williamsonscoffee.com/\"\n\"https://www.youtube.com/\"\n\"https://www.zsa.io/\"\n\"https://x.com/\"\n\"https://zenorocha.com/\""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/1x8neaa9c-eq3.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/1x8neaa9c-eq3.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "167345"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1x8neaa9c-eq3.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/1x8neaa9c-eq3.js\""],
+          ["last-modified", "Fri, 02 Oct 2026 21:17:03 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1x8neaa9c-eq3.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::kn59q-1791145012886-392e1ef5e817"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/18izbvn6b_nzg.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/18izbvn6b_nzg.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "365396"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"18izbvn6b_nzg.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/18izbvn6b_nzg.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:46:56 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/18izbvn6b_nzg.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::r8w7l-1791145012885-b1591c6c403f"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/1b_urwkv-1ye3.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/1b_urwkv-1ye3.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "319784"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1b_urwkv-1ye3.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/1b_urwkv-1ye3.js\""],
+          ["last-modified", "Thu, 01 Oct 2026 03:27:07 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1b_urwkv-1ye3.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::gxl2g-1791145012877-00c71ce045ac"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://resend.com/_next/static/immutable/chunks/3rzcznqno3l4x.js": {
+      "result": {
+        "url": "https://resend.com/_next/static/immutable/chunks/3rzcznqno3l4x.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "365533"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3rzcznqno3l4x.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';    connect-src 'self' data: https://api.liveblocks.io wss://api.liveblocks.io/ https://react-tweet.vercel.app https://js.hs-scripts.com https://unpkg.com https://app.posthog.com https://fonts.gstatic.com https://us.i.posthog.com https://browser-intake-us5-datadoghq.com https://*.mintlify.com https://*.mintlifytrieve.com https://resend-status.com https://*.resend.com https://resend.com https://resend-attachments.s3.amazonaws.com https://resend-attachments.s3.us-east-1.amazonaws.com https://cdn.resend.app https://*.resend.app https://vercel.live https://fpjs.io https://*.fpjs.io https://maps.googleapis.com https://img.logo.dev https://rsnd-contact-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-suppression-uploads-961341540729.s3.us-east-1.amazonaws.com https://rsnd-inbox-draft-attachments-961341540729.s3.us-east-1.amazonaws.com;    script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.hs-scripts.com https://js.stripe.com https://cdn.lr-in-prod.com https://*.mintlify.com https://vercel.live https://js.hs-analytics.net https://va.vercel-scripts.com https://us-assets.i.posthog.com https://*.resend.com https://resend.com https://fpjs.io https://*.fpjs.io https://maps.googleapis.com;    worker-src 'self' blob:;    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://*.cloudfront.net;    img-src 'self' blob: data: https://www.gravatar.com https://i2.wp.com https://mintlify.b-cdn.net https://mintlify.s3.us-west-1.amazonaws.com https://*;    font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com https://fonts.cdnfonts.com https://use.typekit.net https://*.cloudfront.net data:;    frame-src 'self' https://www.youtube.com https://js.stripe.com https://vercel.live;    media-src 'self' https://mintlify.s3.us-west-1.amazonaws.com https://mintcdn.com https://cdn.resend.com;    object-src 'none';    base-uri 'self';    form-action 'self' https://github.com https://accounts.google.com https://sb.resend.com;    frame-ancestors 'self';    block-all-mixed-content;    upgrade-insecure-requests;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["document-policy", "js-profiling"],
+          ["etag", "W/\"_next/static/immutable/chunks/3rzcznqno3l4x.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:44:39 GMT"],
+          ["permissions-policy", "autoplay=(self), geolocation=(), microphone=(), camera=()"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3rzcznqno3l4x.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::lhkdx-1791145012876-71224c6fbc05"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://us.posthog.com/\"\n\"https://vercel.live/\""
+      }
     }
   },
   "dns": {
-    "NS resend.com": {
-      "result": {
-        "name": "resend.com",
-        "type": "NS",
-        "records": [
-          "ns-399.awsdns-49.com",
-          "ns-1017.awsdns-63.net",
-          "ns-1047.awsdns-02.org",
-          "ns-1910.awsdns-46.co.uk"
-        ]
-      }
-    },
     "AAAA resend.com": {
       "result": {
         "name": "resend.com",
@@ -61,11 +1012,16 @@
         "records": []
       }
     },
-    "CNAME resend.com": {
+    "NS resend.com": {
       "result": {
         "name": "resend.com",
-        "type": "CNAME",
-        "records": []
+        "type": "NS",
+        "records": [
+          "ns-1910.awsdns-46.co.uk",
+          "ns-399.awsdns-49.com",
+          "ns-1017.awsdns-63.net",
+          "ns-1047.awsdns-02.org"
+        ]
       }
     },
     "A resend.com": {
@@ -73,6 +1029,13 @@
         "name": "resend.com",
         "type": "A",
         "records": ["76.76.21.22"]
+      }
+    },
+    "CNAME resend.com": {
+      "result": {
+        "name": "resend.com",
+        "type": "CNAME",
+        "records": []
       }
     },
     "TXT 22.21.76.76.origin.asn.cymru.com": {

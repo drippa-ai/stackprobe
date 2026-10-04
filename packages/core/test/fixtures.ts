@@ -6,6 +6,7 @@ import {
   sanitizeCapture,
 } from '../src/browser.ts';
 import { LayerError } from '../src/layer.ts';
+import { distillScript, isScript } from '../src/layers/bundle.ts';
 import { distillHtml, isHtml } from '../src/layers/http.ts';
 import type {
   DnsAnswer,
@@ -113,8 +114,13 @@ export class RecordingNet implements Net {
         ...res,
         url: redactText(res.url),
         headers: redactHeaders(res.headers),
-        // Only the tags the HTTP layer reads, plus link text; no other page content goes into the repo.
-        body: isHtml(res) ? redactText(distillHtml(res.body)) : '',
+        // Only what the layers read: HTML tags and link text, or the origins and SDK versions in a
+        // script. No other page content or source code goes into the repo.
+        body: isHtml(res)
+          ? redactText(distillHtml(res.body))
+          : isScript(res.url, headerOf(res, 'content-type'))
+            ? redactText(distillScript(res.body))
+            : '',
       }),
     );
   }
@@ -224,4 +230,8 @@ export function saveBrowserRecording(
   root = RECORDINGS_DIR,
 ): void {
   writeFileSync(new URL(`${name}/browser.json`, root), `${JSON.stringify(recording, null, 2)}\n`);
+}
+
+function headerOf(response: HttpResponse, name: string): string | undefined {
+  return response.headers.find(([key]) => key === name)?.[1];
 }

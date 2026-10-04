@@ -1,13 +1,13 @@
 {
   "url": "https://app.cal.com/",
-  "recordedAt": "2026-10-04T17:53:07.456Z",
+  "recordedAt": "2026-10-04T20:16:50.353Z",
   "http": {
     "GET https://app.cal.com/": {
       "result": {
         "url": "https://app.cal.com/",
         "status": 307,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 17:53:07 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -33,10 +33,10 @@
           ["x-matched-path", "/"],
           ["x-powered-by", "Next.js"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::cle1::5h7j9-1791136387568-58481e2dadc3"],
+          ["x-vercel-id", "arn1::cle1::2rdzq-1791145010503-a97720e01535"],
           ["cf-cache-status", "DYNAMIC"],
           ["set-cookie", "__cf_bm=<redacted>"],
-          ["cf-ray", "a4560b5628bb49c5-OSL"]
+          ["cf-ray", "a456dddb6c3956a2-OSL"]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/2n-tzeusxj9a8.js\">\n<script src=\"/_next/static/chunks/06i-jz32s-bg8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2r1nd404mqgat.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1ega6ntky4e9k.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3286zil4wt2cy.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/32u9gnf08m_yw.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2y3z951bqjl_j.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-1cw97n_026suc.js\" async=\"\"></script>\n<meta name=\"theme-color\" content=\"#f9fafb\" media=\"(prefers-color-scheme: light)\">\n<meta name=\"theme-color\" content=\"#1C1C1C\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"manifest\" href=\"/site.webmanifest\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta name=\"application-TileColor\" content=\"#ff0000\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:site\" content=\"@calcom\">\n<meta name=\"twitter:creator\" content=\"@calcom\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.1q-0a3fwhvvec.ico\" sizes=\"48x48\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/api/logo?type=favicon-32\">\n<link rel=\"apple-touch-icon\" href=\"/api/logo?type=apple-touch-icon\">\n<link rel=\"icon-mask\" href=\"/safari-pinned-tab.svg\" color=\"#000000\">\n<link rel=\"icon\" href=\"/api/logo?type=favicon-16\" sizes=\"16x16\" type=\"image/png\">\n<link rel=\"icon\" href=\"/api/logo?type=favicon-32\" sizes=\"32x32\" type=\"image/png\">\n<script src=\"/_next/static/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/chunks/2n-tzeusxj9a8.js\" id=\"_R_\" async=\"\"></script>"
       }
@@ -46,7 +46,7 @@
         "url": "https://app.cal.com/auth/login",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 17:53:08 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -55,12 +55,12 @@
           ["set-cookie", "__cf_bm=<redacted>"],
           [
             "content-security-policy",
-            "default-src 'self' ; script-src 'nonce-eGT3WjkzvTs4zZOEUT/aQQ==' 'strict-dynamic' 'self' 'unsafe-inline' https:; object-src 'none'; base-uri 'none'; frame-src www.youtube.com https://js.whop.cloud; child-src app.cal.com; style-src 'self' 'unsafe-inline' app.cal.com; font-src 'self'; img-src 'self' https://app.cal.com https://img.youtube.com https://eu.ui-avatars.com/api/ data:; connect-src 'self'"
+            "default-src 'self' ; script-src 'nonce-sN9R21pj/CXzdkFahKr2gA==' 'strict-dynamic' 'self' 'unsafe-inline' https:; object-src 'none'; base-uri 'none'; frame-src www.youtube.com https://js.whop.cloud; child-src app.cal.com; style-src 'self' 'unsafe-inline' app.cal.com; font-src 'self'; img-src 'self' https://app.cal.com https://img.youtube.com https://eu.ui-avatars.com/api/ data:; connect-src 'self'"
           ],
           ["cross-origin-opener-policy", "same-origin-allow-popups"],
           [
             "link",
-            "</_next/static/media/CalSansVF-s.p.2rgkxu5r5bnqz.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"; type=\"font/woff2\", </_next/static/media/CalSansVF_Italic-s.p.1chx0yk-x7uu1.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"; type=\"font/woff2\", </_next/static/chunks/25zhmyxow6dbi.css>; rel=preload; as=\"style\"; nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\", </_next/static/chunks/0_hrvgoevl2o9.css>; rel=preload; as=\"style\"; nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\", </_next/static/chunks/0f8zx88n2mcd5.css>; rel=preload; as=\"style\"; nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\""
+            "</_next/static/media/CalSansVF-s.p.2rgkxu5r5bnqz.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"sN9R21pj/CXzdkFahKr2gA==\"; type=\"font/woff2\", </_next/static/media/CalSansVF_Italic-s.p.1chx0yk-x7uu1.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; nonce=\"sN9R21pj/CXzdkFahKr2gA==\"; type=\"font/woff2\", </_next/static/chunks/25zhmyxow6dbi.css>; rel=preload; as=\"style\"; nonce=\"sN9R21pj/CXzdkFahKr2gA==\", </_next/static/chunks/0_hrvgoevl2o9.css>; rel=preload; as=\"style\"; nonce=\"sN9R21pj/CXzdkFahKr2gA==\", </_next/static/chunks/0f8zx88n2mcd5.css>; rel=preload; as=\"style\"; nonce=\"sN9R21pj/CXzdkFahKr2gA==\""
           ],
           [
             "permissions-policy",
@@ -79,20 +79,1049 @@
           ["x-matched-path", "/auth/login"],
           ["x-powered-by", "Next.js"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::cle1::8wc66-1791136388056-ebecc4cb8960"],
+          ["x-vercel-id", "arn1::cle1::2rdzq-1791145010987-f5ae27863887"],
           ["cf-cache-status", "DYNAMIC"],
           ["content-encoding", "gzip"],
-          ["cf-ray", "a4560b593e3e49c5-OSL"]
+          ["cf-ray", "a456ddde883d56a2-OSL"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover\">\n<link rel=\"preload\" as=\"image\" href=\"/google-icon-colored.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/microsoft-logo.svg\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/25zhmyxow6dbi.css\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0_hrvgoevl2o9.css\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0f8zx88n2mcd5.css\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\" href=\"/_next/static/chunks/2n-tzeusxj9a8.js\">\n<script src=\"/_next/static/chunks/06i-jz32s-bg8.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/2r1nd404mqgat.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/1ega6ntky4e9k.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/3286zil4wt2cy.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/32u9gnf08m_yw.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/2y3z951bqjl_j.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/turbopack-1cw97n_026suc.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/44pep-cnghx00.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/31d6j93mdd7o0.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/05cw0hu657i38.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/1251jp3d0lzi6.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/05mvgrb06o78t.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/3pmz_70tew54e.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/1p0u99kefqtyp.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/13ijgh3wm0o50.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/15z4zli9lgtgc.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/1w0r159sihzie.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/2j7ya6ihbnnbc.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/0g4m-q3unk_7z.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/03fs8o7u5md22.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/06b52qzx1j8_8.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/3cyoy3mok75oi.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/10wo0ioc2sm35.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/1c3kpo9k72bv4.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/24xun0daafdys.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/201tirqy-5u0s.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/16yhrkqykmpb5.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/0grdm3yvihh_8.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/0w1p-fyen5cs_.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/0ehqqkdfrx804.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/0-1k-oh6qvu_i.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/3frkyr3oeoe7g.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/100_1aalqkfo-.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/0w7dogmrrt3bl.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/25p6-usb08i5t.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/3_fcsf8yn516o.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/1lrr4vu3hcd-w.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/1s0e_i3doyzlw.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/0ud5owlhxnd_7.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/1eaao0o7ik3zf.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/3_q6tl0-sofvg.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/12nwfbdnzvw8f.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/0ume8d10_2oh7.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/0l0i-2dc6wmwd.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/22dhhi_e1tj84.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/2ybxaa4pmhqom.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/2z_bpbvvm1uov.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/17ocqnwrf1bt4.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/3sx8taod2kxza.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/3zm7nmtipnaax.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/30sxvjwyef5lv.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/0rtxag47l7vj6.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/3lauqha71bnna.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/3bcxsy_q5ho8z.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/0kq3u5o7wyrtr.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/2w_pl_qd1anap.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/29o6vimf-78gm.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/245-bac5me-uq.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/1jvrcd--4lm5z.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/12f_abqi3dymn.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/1la9ve7qmet33.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/3bp0_kqa9wjga.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/27o8_9h3ik3ar.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/1xr5b9fvtlt-5.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/3aiivxlip0bef.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/3f2v7ao_-eu1d.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/3u2x8w7n_kvg1.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/3s9xjnlnrdou_.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/2l6v-h_nm-yit.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<script src=\"/_next/static/chunks/3yfew8o__zg_v.js\" async=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<link rel=\"preload\" href=\"/_next/static/chunks/2dsge4hlf9mjq.js\" as=\"script\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\" fetchpriority=\"low\">\n<link rel=\"preload\" href=\"/_next/static/chunks/2t5g3au46_twu.js\" as=\"script\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\" fetchpriority=\"low\">\n<meta name=\"theme-color\" content=\"#f9fafb\" media=\"(prefers-color-scheme: light)\">\n<meta name=\"theme-color\" content=\"#1C1C1C\" media=\"(prefers-color-scheme: dark)\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"description\" content=\"Login\">\n<link rel=\"manifest\" href=\"/site.webmanifest\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta name=\"application-TileColor\" content=\"#ff0000\">\n<link rel=\"canonical\" href=\"https://cal.com/auth/login\">\n<meta property=\"og:title\" content=\"Login | Cal.com\">\n<meta property=\"og:description\" content=\"Login\">\n<meta property=\"og:url\" content=\"https://cal.com/auth/login\">\n<meta property=\"og:site_name\" content=\"Cal.com\">\n<meta property=\"og:image\" content=\"https://cal.com/api/social/og/image?type=generic&amp;title=Login+%7C+Cal.com&amp;description=Login&amp;v=09218e81\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:site\" content=\"@calcom\">\n<meta name=\"twitter:creator\" content=\"@calcom\">\n<meta name=\"twitter:title\" content=\"Login | Cal.com\">\n<meta name=\"twitter:description\" content=\"Login\">\n<meta name=\"twitter:image\" content=\"https://cal.com/api/social/og/image?type=generic&amp;title=Login+%7C+Cal.com&amp;description=Login&amp;v=09218e81\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.1q-0a3fwhvvec.ico\" sizes=\"48x48\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/api/logo?type=favicon-32\">\n<link rel=\"apple-touch-icon\" href=\"/api/logo?type=apple-touch-icon\">\n<link rel=\"icon-mask\" href=\"/safari-pinned-tab.svg\" color=\"#000000\">\n<link rel=\"icon\" href=\"/api/logo?type=favicon-16\" sizes=\"16x16\" type=\"image/png\">\n<link rel=\"icon\" href=\"/api/logo?type=favicon-32\" sizes=\"32x32\" type=\"image/png\">\n<script src=\"/_next/static/chunks/0c0hxoamwjsbw.js\" nomodule=\"\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\"></script>\n<a href=\"/auth/forgot-password\">Forgot?</a>\n<a href=\"https://cal.com/signup?redirect=https%3A%2F%2Fapp.cal.com%2F\">Create account</a>\n<script src=\"/_next/static/chunks/2n-tzeusxj9a8.js\" nonce=\"eGT3WjkzvTs4zZOEUT/aQQ==\" id=\"_R_\" async=\"\"></script>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover\">\n<link rel=\"preload\" as=\"image\" href=\"/google-icon-colored.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/microsoft-logo.svg\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/25zhmyxow6dbi.css\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0_hrvgoevl2o9.css\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0f8zx88n2mcd5.css\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\" href=\"/_next/static/chunks/2n-tzeusxj9a8.js\">\n<script src=\"/_next/static/chunks/06i-jz32s-bg8.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/2r1nd404mqgat.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/1ega6ntky4e9k.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/3286zil4wt2cy.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/32u9gnf08m_yw.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/2y3z951bqjl_j.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/turbopack-1cw97n_026suc.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/44pep-cnghx00.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/31d6j93mdd7o0.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/05cw0hu657i38.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/1-xt4vs0inmtu.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/05mvgrb06o78t.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/3pmz_70tew54e.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/1p0u99kefqtyp.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/13ijgh3wm0o50.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/15z4zli9lgtgc.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/1w0r159sihzie.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/2j7ya6ihbnnbc.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/0g4m-q3unk_7z.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/03fs8o7u5md22.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/06b52qzx1j8_8.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/3cyoy3mok75oi.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/10wo0ioc2sm35.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/1c3kpo9k72bv4.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/24xun0daafdys.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/201tirqy-5u0s.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/16yhrkqykmpb5.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/0grdm3yvihh_8.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/0w1p-fyen5cs_.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/0ehqqkdfrx804.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/0-1k-oh6qvu_i.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/3frkyr3oeoe7g.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/100_1aalqkfo-.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/0w7dogmrrt3bl.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/25p6-usb08i5t.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/3_fcsf8yn516o.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/1lrr4vu3hcd-w.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/1s0e_i3doyzlw.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/0ud5owlhxnd_7.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/1eaao0o7ik3zf.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/3_q6tl0-sofvg.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/12nwfbdnzvw8f.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/0ume8d10_2oh7.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/0l0i-2dc6wmwd.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/22dhhi_e1tj84.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/2ybxaa4pmhqom.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/2z_bpbvvm1uov.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/17ocqnwrf1bt4.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/3sx8taod2kxza.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/3zm7nmtipnaax.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/30sxvjwyef5lv.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/0rtxag47l7vj6.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/3lauqha71bnna.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/3bcxsy_q5ho8z.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/0kq3u5o7wyrtr.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/2w_pl_qd1anap.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/29o6vimf-78gm.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/245-bac5me-uq.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/1jvrcd--4lm5z.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/12f_abqi3dymn.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/1la9ve7qmet33.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/3bp0_kqa9wjga.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/27o8_9h3ik3ar.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/1xr5b9fvtlt-5.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/3aiivxlip0bef.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/3f2v7ao_-eu1d.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/3u2x8w7n_kvg1.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/3s9xjnlnrdou_.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/2l6v-h_nm-yit.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<script src=\"/_next/static/chunks/3yfew8o__zg_v.js\" async=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<link rel=\"preload\" href=\"/_next/static/chunks/2dsge4hlf9mjq.js\" as=\"script\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\" fetchpriority=\"low\">\n<link rel=\"preload\" href=\"/_next/static/chunks/2t5g3au46_twu.js\" as=\"script\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\" fetchpriority=\"low\">\n<meta name=\"theme-color\" content=\"#f9fafb\" media=\"(prefers-color-scheme: light)\">\n<meta name=\"theme-color\" content=\"#1C1C1C\" media=\"(prefers-color-scheme: dark)\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"description\" content=\"Login\">\n<link rel=\"manifest\" href=\"/site.webmanifest\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta name=\"application-TileColor\" content=\"#ff0000\">\n<link rel=\"canonical\" href=\"https://cal.com/auth/login\">\n<meta property=\"og:title\" content=\"Login | Cal.com\">\n<meta property=\"og:description\" content=\"Login\">\n<meta property=\"og:url\" content=\"https://cal.com/auth/login\">\n<meta property=\"og:site_name\" content=\"Cal.com\">\n<meta property=\"og:image\" content=\"https://cal.com/api/social/og/image?type=generic&amp;title=Login+%7C+Cal.com&amp;description=Login&amp;v=09218e81\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:site\" content=\"@calcom\">\n<meta name=\"twitter:creator\" content=\"@calcom\">\n<meta name=\"twitter:title\" content=\"Login | Cal.com\">\n<meta name=\"twitter:description\" content=\"Login\">\n<meta name=\"twitter:image\" content=\"https://cal.com/api/social/og/image?type=generic&amp;title=Login+%7C+Cal.com&amp;description=Login&amp;v=09218e81\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.1q-0a3fwhvvec.ico\" sizes=\"48x48\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/api/logo?type=favicon-32\">\n<link rel=\"apple-touch-icon\" href=\"/api/logo?type=apple-touch-icon\">\n<link rel=\"icon-mask\" href=\"/safari-pinned-tab.svg\" color=\"#000000\">\n<link rel=\"icon\" href=\"/api/logo?type=favicon-16\" sizes=\"16x16\" type=\"image/png\">\n<link rel=\"icon\" href=\"/api/logo?type=favicon-32\" sizes=\"32x32\" type=\"image/png\">\n<script src=\"/_next/static/chunks/0c0hxoamwjsbw.js\" nomodule=\"\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\"></script>\n<a href=\"/auth/forgot-password\">Forgot?</a>\n<a href=\"https://cal.com/signup?redirect=https%3A%2F%2Fapp.cal.com%2F\">Create account</a>\n<script src=\"/_next/static/chunks/2n-tzeusxj9a8.js\" nonce=\"sN9R21pj/CXzdkFahKr2gA==\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/06i-jz32s-bg8.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/06i-jz32s-bg8.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde27d0156a2-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "4149792"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"06i-jz32s-bg8.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"bb0df4200d4585b50796e6bf12ce6c78\""],
+          ["last-modified", "Sat, 15 Aug 2026 15:30:23 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/06i-jz32s-bg8.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::xw9cq-1786995219460-15a59c983356"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/3286zil4wt2cy.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/3286zil4wt2cy.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2cf18c759-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "4338300"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3286zil4wt2cy.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"c56eda2e79d7c3d039ad35f18b0cefd3\""],
+          ["last-modified", "Sat, 15 Aug 2026 15:11:51 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/3286zil4wt2cy.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::6rs25-1786806711125-d763bc84d4ef"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/13ijgh3wm0o50.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/13ijgh3wm0o50.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2cef80daa-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "375157"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"13ijgh3wm0o50.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"15a75d87c1db0c03028205ed3ab51d92\""],
+          ["last-modified", "Wed, 30 Sep 2026 12:04:12 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/13ijgh3wm0o50.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::vxf89-1790769854242-098ccf034d37"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/05mvgrb06o78t.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/05mvgrb06o78t.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2c87fc272-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "2021319"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"05mvgrb06o78t.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"36ad8f9ba267c4a25e5f88c4b6ff4127\""],
+          ["last-modified", "Fri, 11 Sep 2026 10:48:03 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/05mvgrb06o78t.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::n6jw7-1789123692519-79c63ffc789f"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/05cw0hu657i38.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/05cw0hu657i38.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2cf25c759-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "21536"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"05cw0hu657i38.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"3b3915fdadb12f4f47392c74fb8c1c7a\""],
+          ["last-modified", "Sun, 04 Oct 2026 14:17:55 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/05cw0hu657i38.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::rcmbr-1791123475430-8f30f3b0789a"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/3pmz_70tew54e.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/3pmz_70tew54e.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2ca4b23eb-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "21536"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3pmz_70tew54e.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"acebd22ecf8d3248abb3675a729a50e7\""],
+          ["last-modified", "Sun, 04 Oct 2026 14:17:50 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/3pmz_70tew54e.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::94rst-1791123475349-df4eab72d236"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/2y3z951bqjl_j.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/2y3z951bqjl_j.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2c879c272-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "3836668"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2y3z951bqjl_j.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"08a23066f8abb85cf10b91018fceec3a\""],
+          ["last-modified", "Fri, 21 Aug 2026 10:32:22 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/2y3z951bqjl_j.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::q8qnn-1787308342604-ff513b8a47c7"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/2r1nd404mqgat.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/2r1nd404mqgat.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2dade783d-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "3836669"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2r1nd404mqgat.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"96e222b757dc93c8a9dd571d588ddafc\""],
+          ["last-modified", "Fri, 21 Aug 2026 10:32:21 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/2r1nd404mqgat.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::nxvn6-1787308341556-675207c483f2"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/1-xt4vs0inmtu.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/1-xt4vs0inmtu.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2cbe1b515-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "5237"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1-xt4vs0inmtu.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"955ed1ef1dfb27f67efe16655a7b3e81\""],
+          ["last-modified", "Sun, 04 Oct 2026 18:49:32 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/1-xt4vs0inmtu.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::b77xx-1791139773706-645d887eb0da"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "\"https://app.cal.com/\"\n\"https://base-ui.com/\"\n\"https://cal-c52mbrg81-cal.vercel.app/\"\n\"https://cal.com/\"\n\"https://console.cal.com/\"\n\"https://console.cal.dev/\"\n\"https://eu.i.posthog.com/\"\n\"https://go.cal.com/\"\n\"https://qr.cal.com/\""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/1w0r159sihzie.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/1w0r159sihzie.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2dca4723c-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "21536"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1w0r159sihzie.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"e20eca3b58f723c305ba3ebfdc513cc9\""],
+          ["last-modified", "Sun, 04 Oct 2026 14:17:52 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/1w0r159sihzie.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::mtr9n-1791123475442-3e73848afa96"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/201tirqy-5u0s.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/201tirqy-5u0s.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2dfd3b28a-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["etag", "W/\"bb0e60919dbeba5360b8980c9754aeb9\""],
+          ["access-control-allow-origin", "*"],
+          ["age", "21536"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"201tirqy-5u0s.js\""],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["last-modified", "Sun, 04 Oct 2026 14:17:50 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/201tirqy-5u0s.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::77w6h-1791123475358-7f9e803e6af2"],
+          ["content-encoding", "gzip"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/2j7ya6ihbnnbc.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/2j7ya6ihbnnbc.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2df7fc759-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "3836670"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2j7ya6ihbnnbc.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"65e99df26d3db9ec76a9a84fee499e83\""],
+          ["last-modified", "Fri, 21 Aug 2026 10:32:21 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/2j7ya6ihbnnbc.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::zmn9p-1787308340804-85889ee5b63f"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/15z4zli9lgtgc.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/15z4zli9lgtgc.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2cfb6568d-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "2264481"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"15z4zli9lgtgc.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"1b27bb44330de5f828192ff03f3ca0b9\""],
+          ["last-modified", "Tue, 08 Sep 2026 15:15:30 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/15z4zli9lgtgc.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::78jbq-1788880530354-2cc82ba691d9"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/44pep-cnghx00.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/44pep-cnghx00.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2ca5fb51d-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "2264481"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"44pep-cnghx00.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"c838c99046fdd8fc4103673a81cef26f\""],
+          ["last-modified", "Tue, 08 Sep 2026 15:15:30 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/44pep-cnghx00.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::znxmg-1788880530350-4fb258d0d7ef"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/0ehqqkdfrx804.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/0ehqqkdfrx804.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2dd311a30-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "21536"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0ehqqkdfrx804.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"f99a6d5128c0e20ff582c4abaf6162e0\""],
+          ["last-modified", "Sun, 04 Oct 2026 14:17:51 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/0ehqqkdfrx804.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::mkcw8-1791123475361-899c33404e9b"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/3cyoy3mok75oi.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/3cyoy3mok75oi.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2ee34568e-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "21536"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3cyoy3mok75oi.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"e9020b734bc2893f58a6f5ac6e15d625\""],
+          ["last-modified", "Sun, 04 Oct 2026 14:17:52 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/3cyoy3mok75oi.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::d6d77-1791123475455-2c2d4048e01c"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/31d6j93mdd7o0.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/31d6j93mdd7o0.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2c86256b9-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "945444"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"31d6j93mdd7o0.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"003308a3727441638b5d4322a0787ddf\""],
+          ["last-modified", "Wed, 23 Sep 2026 21:39:27 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/31d6j93mdd7o0.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::tvj5t-1790199566879-5bc820d06ed8"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/0g4m-q3unk_7z.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/0g4m-q3unk_7z.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2dfd1568d-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "2264481"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0g4m-q3unk_7z.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"bc76e02111fad3e7885b5a55732ae213\""],
+          ["last-modified", "Tue, 08 Sep 2026 15:15:30 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/0g4m-q3unk_7z.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::tds4x-1788880530389-00f071d6cd65"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/03fs8o7u5md22.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/03fs8o7u5md22.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2ed2256b4-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "601341"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"03fs8o7u5md22.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"bdce81deabfef1247502d3fadddc733a\""],
+          ["last-modified", "Sun, 27 Sep 2026 21:14:28 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/03fs8o7u5md22.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::cgcj2-1790543670465-2edebf6fe556"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/1p0u99kefqtyp.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/1p0u99kefqtyp.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2cf95569d-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "601341"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1p0u99kefqtyp.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"eb14ed00a5638a8f245d88820b6ef25d\""],
+          ["last-modified", "Sun, 27 Sep 2026 21:14:29 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/1p0u99kefqtyp.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::jlqgc-1790543670465-a1459919d6b2"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/32u9gnf08m_yw.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/32u9gnf08m_yw.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2cf7676ef-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "21536"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"32u9gnf08m_yw.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"81c893797cc4319351d6ef858d03cde8\""],
+          ["last-modified", "Sun, 04 Oct 2026 14:17:53 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/32u9gnf08m_yw.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::627kn-1791123475424-f4410338f0db"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "\"https://docs.sentry.io/\""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/0w1p-fyen5cs_.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/0w1p-fyen5cs_.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2ef335685-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "2264477"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0w1p-fyen5cs_.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"25cf9d639104bede4919b488457e3e3d\""],
+          ["last-modified", "Tue, 08 Sep 2026 15:15:31 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/0w1p-fyen5cs_.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::94jp2-1788880533721-85a73e795bb3"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/06b52qzx1j8_8.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/06b52qzx1j8_8.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2eb7b56b5-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "2021313"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"06b52qzx1j8_8.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"b28a95e4fa12ea330c1ff07c0f10c34e\""],
+          ["last-modified", "Fri, 11 Sep 2026 10:48:18 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/06b52qzx1j8_8.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::86q7h-1789123697987-5e265a256c03"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/turbopack-1cw97n_026suc.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/turbopack-1cw97n_026suc.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2d9ac5687-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "21536"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"turbopack-1cw97n_026suc.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"288fab02018c3f471c1d0754103aa92f\""],
+          ["last-modified", "Sun, 04 Oct 2026 14:17:51 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/turbopack-1cw97n_026suc.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::fcpjx-1791123475424-21eb09ae244d"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/24xun0daafdys.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/24xun0daafdys.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2dfcc568d-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "21536"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"24xun0daafdys.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"d386e409b388893cafad27ba829d6f3c\""],
+          ["last-modified", "Sun, 04 Oct 2026 14:17:52 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/24xun0daafdys.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::crhpl-1791123475451-e5f5303d0064"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/16yhrkqykmpb5.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/16yhrkqykmpb5.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2ef9b5684-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "21536"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"16yhrkqykmpb5.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"9dd6675618348b6eb641704fa0811dd4\""],
+          ["last-modified", "Sun, 04 Oct 2026 14:17:51 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/16yhrkqykmpb5.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::wrbsd-1791123475356-1673b5ca867c"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "\"https://nuqs.dev/\""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/10wo0ioc2sm35.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/10wo0ioc2sm35.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2e886b521-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "601341"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"10wo0ioc2sm35.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"10d6cde791cd921138b5f55effa9990a\""],
+          ["last-modified", "Sun, 27 Sep 2026 21:14:29 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/10wo0ioc2sm35.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::wpqnf-1790543670470-bf7752ce5d92"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/1c3kpo9k72bv4.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/1c3kpo9k72bv4.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2eae50b69-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "21536"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1c3kpo9k72bv4.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"6a0d7681cafba2f8ba07c397fffe7471\""],
+          ["last-modified", "Sun, 04 Oct 2026 14:17:53 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/1c3kpo9k72bv4.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::hhv6g-1791123475450-b8bf86c2236c"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/0grdm3yvihh_8.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/0grdm3yvihh_8.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2eb8b5693-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "21536"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0grdm3yvihh_8.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"f305b4d0ff18cbfe0b73016a1b23aab2\""],
+          ["last-modified", "Sun, 04 Oct 2026 14:17:51 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/0grdm3yvihh_8.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::l7g7j-1791123475442-d6ac93cfce86"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.cal.com/_next/static/chunks/1ega6ntky4e9k.js": {
+      "result": {
+        "url": "https://app.cal.com/_next/static/chunks/1ega6ntky4e9k.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456dde2ea21b50b-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "2925993"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1ega6ntky4e9k.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"382ff8af884bc3dfb9ddb7a26c869094\""],
+          ["last-modified", "Mon, 31 Aug 2026 23:30:13 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "accept-encoding"],
+          [
+            "permissions-policy",
+            "geolocation=(self), usb=(), serial=(), bluetooth=(), hid=(), midi=(), xr-spatial-tracking=(), idle-detection=(), local-fonts=(), window-management=()"
+          ],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-matched-path", "/_next/static/chunks/1ega6ntky4e9k.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::4l5d5-1788219018613-07953d7515f0"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
       }
     }
   },
   "dns": {
-    "CNAME app.cal.com": {
+    "NS app.cal.com": {
       "result": {
         "name": "app.cal.com",
-        "type": "CNAME",
+        "type": "NS",
         "records": []
       }
     },
@@ -103,17 +1132,10 @@
         "records": ["2606:4700::6812:3e", "2606:4700::6812:13e"]
       }
     },
-    "A app.cal.com": {
+    "CNAME app.cal.com": {
       "result": {
         "name": "app.cal.com",
-        "type": "A",
-        "records": ["104.18.0.62", "104.18.1.62"]
-      }
-    },
-    "NS app.cal.com": {
-      "result": {
-        "name": "app.cal.com",
-        "type": "NS",
+        "type": "CNAME",
         "records": []
       }
     },
@@ -121,12 +1143,19 @@
       "result": {
         "name": "cal.com",
         "type": "NS",
-        "records": ["linda.ns.cloudflare.com", "carter.ns.cloudflare.com"]
+        "records": ["carter.ns.cloudflare.com", "linda.ns.cloudflare.com"]
       }
     },
-    "TXT 62.0.18.104.origin.asn.cymru.com": {
+    "A app.cal.com": {
       "result": {
-        "name": "62.0.18.104.origin.asn.cymru.com",
+        "name": "app.cal.com",
+        "type": "A",
+        "records": ["104.18.0.62", "104.18.1.62"]
+      }
+    },
+    "TXT 62.1.18.104.origin.asn.cymru.com": {
+      "result": {
+        "name": "62.1.18.104.origin.asn.cymru.com",
         "type": "TXT",
         "records": ["13335 | 104.18.0.0/20 | US | arin | 2014-03-28"]
       }
@@ -143,7 +1172,7 @@
     "app.cal.com:443": {
       "result": {
         "host": "app.cal.com",
-        "ip": "104.18.0.62",
+        "ip": "104.18.1.62",
         "issuer": "C=US, O=Google Trust Services, CN=WE1",
         "subjectAltNames": ["cal.com", "*.cal.com"],
         "validFrom": "Aug 19 15:10:04 2026 GMT",

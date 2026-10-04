@@ -1,6 +1,6 @@
 {
   "url": "https://app.inngest.com/",
-  "recordedAt": "2026-10-04T17:53:06.191Z",
+  "recordedAt": "2026-10-04T20:16:48.651Z",
   "http": {
     "GET https://app.inngest.com/": {
       "result": {
@@ -15,7 +15,7 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' https://analytics-cdn.inngest.com https://clerk.inngest.com https://challenges.cloudflare.com https://unpkg.com/@inngest/ https://js.stripe.com/ https://cdn.jsdelivr.net 'wasm-unsafe-eval'; connect-src 'self' data: https://api.inngest.com wss://api.inngest.com https://analytics-cdn.inngest.com https://analytics.inngest.com https://inn.gs inn.gs https://status.inngest.com https://clerk.inngest.com http://localhost:8288 https://clientstream.launchdarkly.com https://events.launchdarkly.com https://app.launchdarkly.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: https://img.clerk.com; font-src 'self' data: https://fonts-cdn.inngest.com https://fonts.gstatic.com https://cdn.jsdelivr.net; frame-src 'self' https://js.stripe.com https://challenges.cloudflare.com; worker-src 'self' blob:; base-uri 'self'; form-action 'self'; report-uri /api/csp-report; report-to csp-endpoint"
           ],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 17:53:06 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["reporting-endpoints", "csp-endpoint=\"/api/csp-report\""],
           ["server", "Vercel"],
@@ -25,10 +25,33 @@
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "DENY"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::fra1::p4cc2-1791136386321-0c1896ef5b3b"],
+          ["x-vercel-id", "arn1::fra1::4xnxj-1791145008764-04873a4d243f"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"modulepreload\" href=\"/assets/index-CxvcQYAV.js\">\n<link rel=\"modulepreload\" href=\"/assets/index-BjZDpde_.js\">\n<link rel=\"modulepreload\" href=\"/assets/environment-context-ysEKH12S.js\">\n<link rel=\"stylesheet\" href=\"/assets/globals-Cuu4n7Mq.css\" precedence=\"default\">\n<link rel=\"stylesheet\" href=\"/assets/fonts-BC5cL9TT.css\" precedence=\"default\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">\n<script type=\"module\" async=\"\" src=\"/assets/index-CxvcQYAV.js\"></script>"
+      }
+    },
+    "GET https://app.inngest.com/assets/index-CxvcQYAV.js": {
+      "result": {
+        "url": "https://app.inngest.com/assets/index-CxvcQYAV.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "10406"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"index-CxvcQYAV.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
+          ["etag", "W/\"bd6913f00dc81fe021d57170bc1f28ad\""],
+          ["last-modified", "Sun, 04 Oct 2026 17:23:22 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::fct8s-1791145009092-059069c1f1ec"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://json-schema.org/\"\n\"https://analytics-cdn.inngest.com/\"\n\"https://api.clerk.com/\"\n\"https://api.inngest.com/\"\n\"https://app.inngest.com/\"\n\"https://app.launchdarkly.com/\"\n\"https://cdn.segment.com/\"\n\"https://cdp.customer.io/\"\n\"https://clerk.com/\"\n\"https://clientstream.launchdarkly.com/\"\n\"https://dashboard.clerk.com/\"\n\"https://docs.launchdarkly.com/\"\n\"https://docs.sentry.io/\"\n\"https://events.launchdarkly.com/\"\n\"https://json-schema.org/\"\n\"https://status.inngest.com/\"\n\"https://support.inngest.com/\"\n\"https://www.inngest.com/\""
       }
     }
   },
@@ -40,18 +63,30 @@
         "records": ["cname.vercel-dns.com"]
       }
     },
-    "A app.inngest.com": {
-      "result": {
-        "name": "app.inngest.com",
-        "type": "A",
-        "records": ["76.76.21.123", "66.33.60.35"]
-      }
-    },
     "AAAA app.inngest.com": {
       "result": {
         "name": "app.inngest.com",
         "type": "AAAA",
         "records": []
+      }
+    },
+    "A app.inngest.com": {
+      "result": {
+        "name": "app.inngest.com",
+        "type": "A",
+        "records": ["76.76.21.241", "66.33.60.193"]
+      }
+    },
+    "NS app.inngest.com": {
+      "result": {
+        "name": "app.inngest.com",
+        "type": "NS",
+        "records": [
+          "ns2.vercel-dns-3.com",
+          "ns3.vercel-dns-3.com",
+          "ns4.vercel-dns-3.com",
+          "ns1.vercel-dns-3.com"
+        ]
       }
     },
     "CNAME cname.vercel-dns.com": {
@@ -61,23 +96,11 @@
         "records": []
       }
     },
-    "NS app.inngest.com": {
+    "TXT 61.21.76.76.origin.asn.cymru.com": {
       "result": {
-        "name": "app.inngest.com",
-        "type": "NS",
-        "records": [
-          "ns2.vercel-dns-3.com",
-          "ns1.vercel-dns-3.com",
-          "ns4.vercel-dns-3.com",
-          "ns3.vercel-dns-3.com"
-        ]
-      }
-    },
-    "TXT 35.60.33.66.origin.asn.cymru.com": {
-      "result": {
-        "name": "35.60.33.66.origin.asn.cymru.com",
+        "name": "61.21.76.76.origin.asn.cymru.com",
         "type": "TXT",
-        "records": ["16509 | 66.33.60.0/24 | US | arin | 2024-03-21"]
+        "records": ["16509 | 76.76.21.0/24 | US | arin | 2020-05-08"]
       }
     },
     "TXT as16509.asn.cymru.com": {
@@ -92,7 +115,7 @@
     "app.inngest.com:443": {
       "result": {
         "host": "app.inngest.com",
-        "ip": "66.33.60.35",
+        "ip": "76.76.21.61",
         "issuer": "C=US, O=Let's Encrypt, CN=YR1",
         "subjectAltNames": ["app.inngest.com"],
         "validFrom": "Aug 17 01:41:51 2026 GMT",

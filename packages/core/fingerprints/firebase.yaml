@@ -47,3 +47,24 @@ rules:
     match: { regex: '\.firebaseio\.com/' }
     weight: 0.9
     detail: Firebase Realtime Database connection
+
+  - id: bundle-database-url
+    layer: bundle
+    signal: bundle-url
+    match: { regex: '\.firebaseio\.com$' }
+    weight: 0.9
+    detail: Firebase Realtime Database URL in the page's own JavaScript
+
+  - id: bundle-auth-domain
+    layer: bundle
+    signal: bundle-url
+    match: { regex: '\.firebaseapp\.com$' }
+    weight: 0.85
+    detail: Firebase auth domain in the page's own JavaScript
+
+  - id: bundle-api
+    layer: bundle
+    signal: bundle-url
+    match: { regex: '^https://(?:identitytoolkit|securetoken|firestore|firebaseinstallations)\.googleapis\.com$' }
+    weight: 0.85
+    detail: Firebase API address in the page's own JavaScript

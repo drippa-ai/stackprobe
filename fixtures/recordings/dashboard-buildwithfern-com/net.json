@@ -1,6 +1,6 @@
 {
   "url": "https://dashboard.buildwithfern.com/",
-  "recordedAt": "2026-10-04T17:53:06.553Z",
+  "recordedAt": "2026-10-04T20:16:49.162Z",
   "http": {
     "GET https://dashboard.buildwithfern.com/": {
       "result": {
@@ -8,7 +8,7 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "170232"],
+          ["age", "178856"],
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-disposition", "inline"],
           ["content-encoding", "br"],
@@ -17,7 +17,7 @@
             "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
           ],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 17:53:06 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
           [
             "link",
             "</_next/static/immutable/media/GT_Planar_Black-s.p.3pvyy57qp7yb_.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/GT_Planar_Bold-s.p.1l7pv_6-mw2cz.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/GT_Planar_Italic_15_Regular-s.p.2s7mujg--pcsn.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/GT_Planar_Light-s.p.09dx1t3_256qy.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/GT_Planar_Medium-s.p.1130q9igrw1-b.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/GT_Planar_Regular-s.p.2daubusjb75l-.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\""
@@ -33,24 +33,663 @@
           ["x-nextjs-prerender", "1"],
           ["x-nextjs-stale-time", "300"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::r5gzk-1791136386689-1670649ed5e1"],
+          ["x-vercel-id", "arn1::vbwzv-1791145009850-e50efc98b9cc"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1mvv076onosjj.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1w-k7go1gbyjg.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/144djskz2ar40.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/3xsvb246nq2rh.js\">\n<script src=\"/_next/static/immutable/chunks/3asc6e5hpq6ue.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0t73n6wzx1ssd.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/02_0sxfqwgdj7.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0yp-xmjsx09bk.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2bsve4cum92rg.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/13i3oxuacqis1.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0q5wl-daxew2y.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-2ebbgw2e5k14o.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3b4da641vter0.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1kg3_i34yk3cm.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0w5hp_wtgodnd.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1m0-kqzw6v21l.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1n0x6celof18f.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/08v6q1jua2_o0.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3cw_dd4uviyfp.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1seqwophq77jh.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1c1wsvm4obv88.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2z_-sp7nzrm0c.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1cqny7iumv03o.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1dam7b7011dbu.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2zrpwgnp_l811.js\" async=\"\"></script>\n<meta name=\"next-size-adjust\" content=\"\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.35zksrfoijlz4.ico\" sizes=\"48x48\" type=\"image/x-icon\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3xsvb246nq2rh.js\" id=\"_R_\" async=\"\"></script>\n<meta id=\"__next-page-redirect\" http-equiv=\"refresh\" content=\"1;url=/login\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>"
       }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/3asc6e5hpq6ue.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/3asc6e5hpq6ue.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "122091"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3asc6e5hpq6ue.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3asc6e5hpq6ue.js\""],
+          ["last-modified", "Sat, 03 Oct 2026 10:21:59 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3asc6e5hpq6ue.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9xpq9-1791145010188-54c0728a6b91"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0t73n6wzx1ssd.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0t73n6wzx1ssd.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "312411"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0t73n6wzx1ssd.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0t73n6wzx1ssd.js\""],
+          ["last-modified", "Thu, 01 Oct 2026 05:29:59 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0t73n6wzx1ssd.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::q86rg-1791145010254-62fc42654f8b"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/02_0sxfqwgdj7.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/02_0sxfqwgdj7.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "122091"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"02_0sxfqwgdj7.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/02_0sxfqwgdj7.js\""],
+          ["last-modified", "Sat, 03 Oct 2026 10:21:59 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/02_0sxfqwgdj7.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::65x27-1791145010254-6a33bec49a8d"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/13i3oxuacqis1.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/13i3oxuacqis1.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "312411"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"13i3oxuacqis1.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/13i3oxuacqis1.js\""],
+          ["last-modified", "Thu, 01 Oct 2026 05:29:59 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/13i3oxuacqis1.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::65x27-1791145010266-b3710dc78f21"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/2bsve4cum92rg.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/2bsve4cum92rg.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "364998"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2bsve4cum92rg.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/2bsve4cum92rg.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:53:31 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2bsve4cum92rg.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::q86rg-1791145010266-12a6e5e5c34f"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1n0x6celof18f.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1n0x6celof18f.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "358946"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1n0x6celof18f.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/1n0x6celof18f.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 16:34:23 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1n0x6celof18f.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::q86rg-1791145010276-feab10f008da"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1kg3_i34yk3cm.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1kg3_i34yk3cm.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "364998"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1kg3_i34yk3cm.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/1kg3_i34yk3cm.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:53:31 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1kg3_i34yk3cm.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9ttlx-1791145010276-a431bcdd78f1"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/3cw_dd4uviyfp.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/3cw_dd4uviyfp.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "358946"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3cw_dd4uviyfp.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3cw_dd4uviyfp.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 16:34:23 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3cw_dd4uviyfp.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9ttlx-1791145010284-e3f7d951634e"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://icons.ferndocs.com/\""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1m0-kqzw6v21l.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1m0-kqzw6v21l.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "358947"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1m0-kqzw6v21l.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/1m0-kqzw6v21l.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 16:34:23 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1m0-kqzw6v21l.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mj5zg-1791145010280-c88a1cefef02"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://icons.ferndocs.com/\""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/turbopack-2ebbgw2e5k14o.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/turbopack-2ebbgw2e5k14o.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "177571"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"turbopack-2ebbgw2e5k14o.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/turbopack-2ebbgw2e5k14o.js\""],
+          ["last-modified", "Fri, 02 Oct 2026 18:57:18 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/turbopack-2ebbgw2e5k14o.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::d9br7-1791145010280-cf23476c8e28"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1c1wsvm4obv88.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1c1wsvm4obv88.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "1108"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1c1wsvm4obv88.js\""],
+          ["content-length", "562"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "\"_next/static/immutable/chunks/1c1wsvm4obv88.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:21 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1c1wsvm4obv88.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::c7lsb-1791145010284-453b46a0da5c"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/3b4da641vter0.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/3b4da641vter0.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "358947"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3b4da641vter0.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3b4da641vter0.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 16:34:23 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3b4da641vter0.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mgw6r-1791145010276-610af19e90cf"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1seqwophq77jh.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1seqwophq77jh.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "358946"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1seqwophq77jh.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/1seqwophq77jh.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 16:34:24 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1seqwophq77jh.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::hhh4n-1791145010284-503d6ce984d2"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://icons.ferndocs.com/\""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1cqny7iumv03o.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1cqny7iumv03o.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "353936"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1cqny7iumv03o.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/1cqny7iumv03o.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 17:57:53 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1cqny7iumv03o.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::fwn2k-1791145010284-c7f73cc8859b"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/3xsvb246nq2rh.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/3xsvb246nq2rh.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "16573"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3xsvb246nq2rh.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3xsvb246nq2rh.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 15:40:36 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3xsvb246nq2rh.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::zxz28-1791145010285-5d34a81c480d"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://us.posthog.com/\""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0w5hp_wtgodnd.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0w5hp_wtgodnd.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "358947"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0w5hp_wtgodnd.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0w5hp_wtgodnd.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 16:34:23 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0w5hp_wtgodnd.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::bx9s5-1791145010284-869924cf05b9"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://va.vercel-scripts.com/\"\n\"https://vercel.com/\"\n\"https://widget.usepylon.com/\""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/2zrpwgnp_l811.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/2zrpwgnp_l811.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "264496"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2zrpwgnp_l811.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/2zrpwgnp_l811.js\""],
+          ["last-modified", "Thu, 01 Oct 2026 18:48:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2zrpwgnp_l811.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::7f6tq-1791145010284-1ce5f12c70c4"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/2z_-sp7nzrm0c.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/2z_-sp7nzrm0c.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "264496"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2z_-sp7nzrm0c.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/2z_-sp7nzrm0c.js\""],
+          ["last-modified", "Thu, 01 Oct 2026 18:48:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2z_-sp7nzrm0c.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::65x27-1791145010288-d9c3b9e9265d"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0yp-xmjsx09bk.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0yp-xmjsx09bk.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "1848"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0yp-xmjsx09bk.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0yp-xmjsx09bk.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:46:01 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0yp-xmjsx09bk.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::fz5tv-1791145010258-99569b06f58a"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://docs.sentry.io/\""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0q5wl-daxew2y.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0q5wl-daxew2y.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "1108"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0q5wl-daxew2y.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0q5wl-daxew2y.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:21 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0q5wl-daxew2y.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::l6ptz-1791145010266-8b4eac9186e5"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://yandex.com/\"\n\"https://app.posthog.com/\"\n\"https://posthog.com/\"\n\"https://sentry.io/\"\n\"https://us.i.posthog.com/\"\n\"https://us.posthog.com/\""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/08v6q1jua2_o0.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/08v6q1jua2_o0.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "348227"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"08v6q1jua2_o0.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/08v6q1jua2_o0.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 19:33:02 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/08v6q1jua2_o0.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mw48w-1791145010293-4e88ac82cdb1"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1dam7b7011dbu.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/1dam7b7011dbu.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "364878"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1dam7b7011dbu.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/1dam7b7011dbu.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:55:31 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1dam7b7011dbu.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mw48w-1791145010292-b801ae9386bf"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js": {
+      "result": {
+        "url": "https://dashboard.buildwithfern.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "81431"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0c0hxoamwjsbw.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' *.usepylon.com *.posthog.com *.pusher.com d3vl36l12sfx26.cloudfront.net cdn.jsdelivr.net va.vercel-scripts.com assets.calendly.com;  worker-src 'self' blob:;  connect-src 'self' * ws:;  style-src 'self' 'unsafe-inline' *;  font-src 'self' *;  img-src 'self' * data: blob:;  frame-src 'self' *;  object-src 'self' *;  media-src 'self' *;"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0c0hxoamwjsbw.js\""],
+          ["last-modified", "Sat, 03 Oct 2026 21:39:38 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0c0hxoamwjsbw.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::hpnzl-1791145010284-f60f56f9df12"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
     }
   },
   "dns": {
-    "NS dashboard.buildwithfern.com": {
+    "AAAA dashboard.buildwithfern.com": {
       "result": {
         "name": "dashboard.buildwithfern.com",
-        "type": "NS",
-        "records": [
-          "ns1.vercel-dns-3.com",
-          "ns2.vercel-dns-3.com",
-          "ns3.vercel-dns-3.com",
-          "ns4.vercel-dns-3.com"
-        ]
+        "type": "AAAA",
+        "records": []
       }
     },
     "CNAME dashboard.buildwithfern.com": {
@@ -60,11 +699,23 @@
         "records": ["cname.vercel-dns.com"]
       }
     },
-    "AAAA dashboard.buildwithfern.com": {
+    "NS dashboard.buildwithfern.com": {
       "result": {
         "name": "dashboard.buildwithfern.com",
-        "type": "AAAA",
-        "records": []
+        "type": "NS",
+        "records": [
+          "ns3.vercel-dns-3.com",
+          "ns4.vercel-dns-3.com",
+          "ns1.vercel-dns-3.com",
+          "ns2.vercel-dns-3.com"
+        ]
+      }
+    },
+    "A dashboard.buildwithfern.com": {
+      "result": {
+        "name": "dashboard.buildwithfern.com",
+        "type": "A",
+        "records": ["66.33.60.129", "76.76.21.22"]
       }
     },
     "CNAME cname.vercel-dns.com": {
@@ -72,13 +723,6 @@
         "name": "cname.vercel-dns.com",
         "type": "CNAME",
         "records": []
-      }
-    },
-    "A dashboard.buildwithfern.com": {
-      "result": {
-        "name": "dashboard.buildwithfern.com",
-        "type": "A",
-        "records": ["76.76.21.93", "66.33.60.194"]
       }
     },
     "TXT 130.60.33.66.origin.asn.cymru.com": {

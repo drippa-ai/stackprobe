@@ -1,24 +1,24 @@
 {
   "url": "https://speechify.com/",
-  "recordedAt": "2026-10-04T17:53:05.432Z",
+  "recordedAt": "2026-10-04T20:16:47.515Z",
   "http": {
     "GET https://speechify.com/": {
       "result": {
         "url": "https://speechify.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 17:53:05 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
           ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
           ["access-control-allow-origin", "*"],
-          ["age", "264008"],
+          ["age", "272630"],
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-disposition", "inline"],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=J1LHQ5AEHjeKsQJAmZ5HmMIu1473%2FnCWpQM5U0zHP5hSLnUkd1n4G9FVGwdcnjvIIT5ovaomSrVgoXStWLC%2FJfTErYmh7Oq7wzfKc9m4RD8QIg9k1fSPkpjvvMYxIQ8%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=T%2Fz5Q1M2068kGKQlvyqQPU36VWbaoAPRypYolbPjIJa3gKywvmO9jQaHtruPn8dL4Uj3D0drtHt4QGq0o7d%2FuX7UQ%2BecJkSRIc86wM02VD2gZQ9rWT0%2F9vEloDRxqXU%3D\"}]}"
           ],
           [
             "content-security-policy-report-only",
@@ -50,48 +50,1391 @@
           ["vary", "accept-encoding"],
           ["x-content-type-options", "nosniff"],
           ["x-download-options", "noopen"],
-          ["x-foyer-ccat", "e5o057af3mah5k2rqu1i4j"],
+          ["x-foyer-ccat", "xflljfblrcjhplwoqpo40l"],
           ["x-foyer-country", "NO"],
           ["x-foyer-region", "02"],
           ["x-foyer-ruri", "https://speechify.com/"],
-          ["x-foyer-skey", "gh57b246b9kv5nphlwg69"],
+          ["x-foyer-skey", "n1sbrvofmphfp1z0slpqwq"],
           ["x-frame-options", "sameorigin"],
           ["x-matched-path", "/en"],
           ["x-nextjs-prerender", "1"],
           ["x-nextjs-stale-time", "300"],
           ["x-powered-by", "Next.js, Payload"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::pdrrs-1791136385540-cf5c59f6e713"],
+          ["x-vercel-id", "arn1::bf226-1791145007817-75436d1be1bf"],
           ["x-xss-protection", "1"],
           ["cf-cache-status", "DYNAMIC"],
           ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
           ["content-encoding", "br"],
-          ["cf-ray", "a4560b498d6cb1b8-OSL"]
+          ["cf-ray", "a456ddcaaa4a783d-OSL"]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/17ocge23pqrtn.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0el2vyznhx9ac.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0c9~lbi-g.y.6.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0erby4d0g~qpa.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/163pc853op6u-.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/09j873d-cpy9e.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/12ac3sicp0rx3.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/12060eogwulrd.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0w24.u0i8ntjh.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0_.f6dh393yae.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/03jrgbf8s5y1u.js\">\n<script src=\"/_next/static/chunks/0q3otlj7usecd.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0zeme7r34q587.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0.sdlas0sqn6x.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-0u1ng3zicmx_4.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/06dbw98t~pswk.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0x9b___uj_7-m.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0yzxb2nv5~5gd.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0.afe-trbju5g.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0fhwz9g_rbl.1.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/107qgtlli7f77.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0mjqk2xx0r1hg.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0snzv0l~8-el~.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0n1c7gk.42v-6.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/01p44qv1rm7s4.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0-_9b.6g_6w22.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/178fghm77ecf..js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0--lbmp~el-~-.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0.o7s4cvhc3c8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/147fhl_cqyrru.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0pyiwdkxif78-.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0slh1nobijc1v.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/160tjnh~yahtd.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0_cvigswhens7.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0gyot_4u8upxe.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0hedd-_q4zn-t.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0.~bt4a2vu7z..js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0i8a_86-g_b21.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/05~6frxa00a0w.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/126uf0e89gm6c.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0vzhnz4iuazh6.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0l_be_0nu_78o.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0xsvq_hky51t3.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/02m75zwd-er.a.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0ib-9vh1kozw~.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0n7mo3_u5-hv9.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0v6rhzb6eba5r.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/14fh8rky8v05g.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0r0k65aa9m-wm.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0p8lcxao5v-__.js\" async=\"\"></script>\n<meta name=\"next-size-adjust\" content=\"\">\n<link rel=\"preconnect\" href=\"https://website.cdn.speechify.com/\" crossorigin=\"anonymous\">\n<meta name=\"theme-color\" content=\"#000000\">\n<meta name=\"msvalidate.01\" content=\"B7ECA44814A638F4F4E459C12A25F9A6\">\n<meta name=\"description\" content=\"Speechify reads anything aloud to you. Listen to books, PDFs, or web pages anytime with natural voices. Try Speechify free.\">\n<meta name=\"created\" content=\"2025-10-07T10:40:03.211Z\">\n<meta name=\"updated\" content=\"2026-09-21T14:21:00.021Z\">\n<link rel=\"canonical\" href=\"https://speechify.com/\">\n<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://speechify.com/\">\n<link rel=\"alternate\" hreflang=\"ar\" href=\"https://speechify.com/ar/\">\n<link rel=\"alternate\" hreflang=\"hu\" href=\"https://speechify.com/hu/\">\n<link rel=\"alternate\" hreflang=\"zh-hans\" href=\"https://speechify.com/zh-hans/\">\n<link rel=\"alternate\" hreflang=\"zh-hant\" href=\"https://speechify.com/zh-hant/\">\n<link rel=\"alternate\" hreflang=\"zh-hans-cn\" href=\"https://speechify.com/zh-hans-cn/\">\n<link rel=\"alternate\" hreflang=\"cs\" href=\"https://speechify.com/cs/\">\n<link rel=\"alternate\" hreflang=\"da\" href=\"https://speechify.com/da/\">\n<link rel=\"alternate\" hreflang=\"nl\" href=\"https://speechify.com/nl/\">\n<link rel=\"alternate\" hreflang=\"en\" href=\"https://speechify.com/\">\n<link rel=\"alternate\" hreflang=\"fr\" href=\"https://speechify.com/fr/\">\n<link rel=\"alternate\" hreflang=\"fi\" href=\"https://speechify.com/fi/\">\n<link rel=\"alternate\" hreflang=\"de\" href=\"https://speechify.com/de/\">\n<link rel=\"alternate\" hreflang=\"hi\" href=\"https://speechify.com/hi/\">\n<link rel=\"alternate\" hreflang=\"it\" href=\"https://speechify.com/it/\">\n<link rel=\"alternate\" hreflang=\"ja\" href=\"https://speechify.com/ja/\">\n<link rel=\"alternate\" hreflang=\"ko\" href=\"https://speechify.com/ko/\">\n<link rel=\"alternate\" hreflang=\"nb\" href=\"https://speechify.com/nb/\">\n<link rel=\"alternate\" hreflang=\"pl\" href=\"https://speechify.com/pl/\">\n<link rel=\"alternate\" hreflang=\"pt-br\" href=\"https://speechify.com/pt-br/\">\n<link rel=\"alternate\" hreflang=\"ru\" href=\"https://speechify.com/ru/\">\n<link rel=\"alternate\" hreflang=\"uk\" href=\"https://speechify.com/uk/\">\n<link rel=\"alternate\" hreflang=\"es\" href=\"https://speechify.com/es/\">\n<link rel=\"alternate\" hreflang=\"es-mx\" href=\"https://speechify.com/es-mx/\">\n<link rel=\"alternate\" hreflang=\"sv\" href=\"https://speechify.com/sv/\">\n<link rel=\"alternate\" hreflang=\"th\" href=\"https://speechify.com/th/\">\n<link rel=\"alternate\" hreflang=\"tr\" href=\"https://speechify.com/tr/\">\n<link rel=\"alternate\" hreflang=\"vi\" href=\"https://speechify.com/vi/\">\n<link rel=\"alternate\" hreflang=\"ro\" href=\"https://speechify.com/ro/\">\n<link rel=\"alternate\" hreflang=\"pt\" href=\"https://speechify.com/pt/\">\n<link rel=\"alternate\" hreflang=\"bg\" href=\"https://speechify.com/bg/\">\n<link rel=\"alternate\" hreflang=\"ka\" href=\"https://speechify.com/ka/\">\n<link rel=\"alternate\" hreflang=\"sk\" href=\"https://speechify.com/sk/\">\n<link rel=\"alternate\" hreflang=\"sl\" href=\"https://speechify.com/sl/\">\n<link rel=\"alternate\" hreflang=\"et\" href=\"https://speechify.com/et/\">\n<link rel=\"alternate\" hreflang=\"hr\" href=\"https://speechify.com/hr/\">\n<link rel=\"alternate\" hreflang=\"el\" href=\"https://speechify.com/el/\">\n<link rel=\"alternate\" hreflang=\"lt\" href=\"https://speechify.com/lt/\">\n<link rel=\"alternate\" hreflang=\"he\" href=\"https://speechify.com/he/\">\n<link rel=\"alternate\" hreflang=\"id\" href=\"https://speechify.com/id/\">\n<link rel=\"alternate\" hreflang=\"bn\" href=\"https://speechify.com/bn/\">\n<link rel=\"alternate\" hreflang=\"ca\" href=\"https://speechify.com/ca/\">\n<link rel=\"alternate\" hreflang=\"ms\" href=\"https://speechify.com/ms/\">\n<link rel=\"alternate\" hreflang=\"ur\" href=\"https://speechify.com/ur/\">\n<meta property=\"og:title\" content=\"Speechify: Text to Speech &amp; Voice Typing AI Assistant | 60M+ Users\">\n<meta property=\"og:description\" content=\"Speechify reads anything aloud to you. Listen to books, PDFs, or web pages anytime with natural voices. Try Speechify free.\">\n<meta property=\"og:url\" content=\"https://speechify.com/\">\n<meta property=\"og:site_name\" content=\"Speechify\">\n<meta property=\"og:locale\" content=\"en_US\">\n<meta property=\"og:image\" content=\"https://website.cdn.speechify.com/speechify-og-image.jpg?quality=95\">\n<meta property=\"og:image:secure_url\" content=\"https://website.cdn.speechify.com/speechify-og-image.jpg?quality=95\">\n<meta property=\"og:image:type\" content=\"image/jpeg\">\n<meta property=\"og:image:width\" content=\"2400\">\n<meta property=\"og:image:height\" content=\"1256\">\n<meta property=\"og:image:alt\" content=\"Speechify interface reading an article aloud on a smartphone screen\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Speechify: Text to Speech &amp; Voice Typing AI Assistant | 60M+ Users\">\n<meta name=\"twitter:description\" content=\"Speechify reads anything aloud to you. Listen to books, PDFs, or web pages anytime with natural voices. Try Speechify free.\">\n<meta name=\"twitter:image\" content=\"https://website.cdn.speechify.com/speechify-og-image.jpg?quality=95\">\n<meta name=\"twitter:image:alt\" content=\"Speechify interface reading an article aloud on a smartphone screen\">\n<meta name=\"twitter:image:secure_url\" content=\"https://website.cdn.speechify.com/speechify-og-image.jpg?quality=95\">\n<meta name=\"twitter:image:type\" content=\"image/jpeg\">\n<meta name=\"twitter:image:width\" content=\"2400\">\n<meta name=\"twitter:image:height\" content=\"1256\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.0~5hdrnag.hno.ico\" sizes=\"128x128\" type=\"image/x-icon\">\n<link rel=\"apple-touch-icon\" href=\"/apple-icon.png?apple-icon.04iq4tvtx2n2e.png\" sizes=\"180x180\" type=\"image/png\">\n<script src=\"/_next/static/chunks/03~yq9q893hmn.js\" nomodule=\"\"></script>\n<a href=\"#main-content\">Skip to main content</a>\n<a href=\"/voice-typing-dictation/\">Speechify is Launching Voice Typing Dictation</a>\n<a href=\"/\"></a>\n<a href=\"/text-to-speech-online/\">Text to Speech</a>\n<a href=\"/ios/\">iPhone &amp; iPad Apps</a>\n<a href=\"/android/\">Android App</a>\n<a href=\"/chrome/\">Chrome Extension</a>\n<a href=\"/edge/\">Edge Extension</a>\n<a href=\"/web/\">Web App</a>\n<a href=\"/mac/\">Mac App</a>\n<a href=\"/windows/\">Windows App</a>\n<a href=\"/ai-voice-generator/\">AI Voice Generator</a>\n<a href=\"/ai-voice-generator/\">Voice Over</a>\n<a href=\"/dubbing/\">Dubbing</a>\n<a href=\"/studio-voices/\">Studio Voices</a>\n<a href=\"/studio-captions/\">Studio Captions</a>\n<a href=\"/work/\">Speechify Work</a>\n<a href=\"/voice-typing-dictation/\">Learn More</a>\n<a href=\"/text-to-speech-online/\">Text to SpeechRead aloud PDFs, docs and more</a>\n<a href=\"/podcasts/\">AI PodcastsTurn anything into shows</a>\n<a href=\"/voice-typing-dictation/\">Voice Typing DictationWrite 5× faster with dictation</a>\n<a href=\"/work/\">Delegate Work to AIGet result in seconds</a>\n<a href=\"/download/\">Download</a>\n<a href=\"https://speechify.ai/\">API</a>\n<a href=\"/about/\">Our Story</a>\n<a href=\"/blog/\">Blog</a>\n<a href=\"/news/\">News</a>\n<a href=\"/contact/\">Contact</a>\n<a href=\"/careers/\">Careers</a>\n<a href=\"https://help.speechify.com/\">Help Center</a>\n<a href=\"/pricing/\">Pricing</a>\n<a href=\"/blog/category/b2c-case-studies/\">User Stories</a>\n<a href=\"/blog/category/b2b-case-studies/\">B2B Case Studies</a>\n<a href=\"/reviews/\">Reviews</a>\n<a href=\"/press/\">Press</a>\n<a href=\"/text-to-speech-chrome-extension/\">Text to Speech Chrome Extension</a>\n<a href=\"/blog/google-docs-read-me/\">Can Google Docs Read to Me</a>\n<a href=\"/blog/pdf-audio-reader/\">How to Read PDF Aloud</a>\n<a href=\"/text-to-speech-online/\">Text to Speech Google</a>\n<a href=\"/blog/pdf-to-audio-converter/\">PDF to Audio Converter</a>\n<a href=\"/blog/text-to-speech-google-docs/\">Read Aloud Google Docs</a>\n<a href=\"/voice-changer/\">AI Voice Changer</a>\n<a href=\"/blog/apps-that-read-out-text/\">Apps that Read Out Text</a>\n<a href=\"/blog/read-to-me/\">Read to Me</a>\n<a href=\"/text-to-speech-online/\">Text to Speech Reader</a>\n<a href=\"/voiceover-studio-contact/\">Speechify for Enterprise &amp; EDU</a>\n<a href=\"/atw/\">Speechify for Access to Work</a>\n<a href=\"/dsa/\">Speechify for DSA</a>\n<a href=\"https://speechify.ai/\">Speechify for Developers</a>\n<a href=\"https://speechify.com/onboarding/nc/general/?source_page=_&amp;source_category=home&amp;source_locale=en\">Try For Free</a>\n<a href=\"https://speechify.com/onboarding/nc/general/?source_page=_&amp;source_category=home&amp;source_locale=en\">Download Now</a>\n<a href=\"/podcasts/\">AI Podcasts</a>\n<a href=\"/voice-typing-dictation/\">Voice Typing Dictation</a>\n<a href=\"/work/\">Delegate Work to AI</a>\n<a href=\"https://apps.apple.com/us/app/speechify-text-to-speech/id1209815023\">Speechify</a>\n<a href=\"/voice-typing-dictation/\">Voice Typing</a>\n<a href=\"/voice-ai/\">Fast Answers</a>\n<a href=\"https://www.trustpilot.com/review/speechify.com\">Speechify</a>\n<a href=\"/read-aloud/\">read it out loud</a>\n<a href=\"/text-to-speech-online/\">text to speech,</a>\n<a href=\"https://www.zdnet.com/article/i-tested-this-new-ai-podcast-tool-to-see-if-it-can-beat-notebooklm-heres-how-it-did/\">podcast</a>\n<a href=\"https://speechify.com/onboarding/quiz/intro/?source_page=_&amp;source_category=home&amp;source_locale=en\">Try For Free</a>\n<a href=\"https://chromewebstore.google.com/detail/speechify-%E2%80%94-voice-ai-assi/ljflmlehinmoeknoonhibbjpldiijjmm?pli=1\">Speechify</a>\n<a href=\"/text-to-speech-chrome-extension/\">Chrome Extension</a>\n<a href=\"/text-to-speech-online/\">text to speech</a>\n<a href=\"/l/speechify-chrome/?source_page=_&amp;source_category=home&amp;source_locale=en\">Add to Chrome</a>\n<a href=\"https://apps.apple.com/us/app/speechify-voice-ai-assistant/id1209815023\">Speechify</a>\n<a href=\"/text-to-speech-ios/\">iOS</a>\n<a href=\"/read-aloud/\">reads</a>\n<a href=\"/text-to-speech-online/\">narrates</a>\n<a href=\"/voice-typing-dictation/\">dictates</a>\n<a href=\"https://www.zdnet.com/article/i-tested-this-new-ai-podcast-tool-to-see-if-it-can-beat-notebooklm-heres-how-it-did/\">podcasts</a>\n<a href=\"https://9to5mac.com/2026/01/12/speechify-launches-voice-ai-assistant-on-ios/\">voice</a>\n<a href=\"/l/speechify-ios/?source_page=_&amp;source_category=home&amp;source_locale=en\"></a>\n<a href=\"/windows/\">Windows</a>\n<a href=\"/l/download-windows/?source_page=_&amp;source_category=home&amp;source_locale=en\">Download for Windows</a>\n<a href=\"https://apple.gadgethacks.com/news/speechify-mac-app-lets-you-write-5x-faster-with-ai-voice/\">Speechify</a>\n<a href=\"/text-to-speech-mac/\">Mac</a>\n<a href=\"/read-aloud/\">reading anything</a>\n<a href=\"/l/download-mac/?source_page=_&amp;source_category=home&amp;source_locale=en\">Download for macOS</a>\n<a href=\"https://www.zdnet.com/article/i-tested-this-new-ai-podcast-tool-to-see-if-it-can-beat-notebooklm-heres-how-it-did/\">create podcasts</a>\n<a href=\"https://play.google.com/store/apps/details?id=com.cliffweitzman.speechify2&amp;hl=en_US\">Speechify Voice AI Assistant</a>\n<a href=\"/text-to-speech-android/\">Android</a>\n<a href=\"/l/speechify-android/?source_page=_&amp;source_category=home&amp;source_locale=en\"></a>\n<a href=\"/ai-voice-generator/\">AI voices</a>\n<a href=\"https://www.linkedin.com/company/speechifyinc\">Speechify</a>\n<a href=\"/l/speechify-edge/?source_page=_&amp;source_category=home&amp;source_locale=en\">Add to Edge</a>\n<a href=\"/voice-ai/\">Voice AI Assistant</a>\n<a href=\"https://en.wikipedia.org/wiki/Speechify\">Speechify</a>\n<a href=\"/blog/text-to-speech-with-emotion-free/\">emotional</a>\n<a href=\"https://speechify.com/onboarding/nc/general/?source_page=_&amp;source_category=home&amp;source_locale=en\">Try for Free</a>\n<a href=\"https://www.news.aakashg.com/p/speechify-aakash-bundle\">Voice AI Assistant</a>\n<a href=\"/voice-ai/\">talk to AI</a>\n<a href=\"/voice-typing-dictation/\">Dictate text</a>\n<a href=\"https://9to5mac.com/2025/12/16/speechify-now-lets-you-write-5-times-faster-on-your-mac-by-using-your-voice/\">5× faster than typing</a>\n<a href=\"https://website.speechify.dev/l/download-speechify-desktop/\">Try for Free</a>\n<a href=\"/podcasts/\">Podcast</a>\n<a href=\"/podcasts/\">create any podcast</a>\n<a href=\"/podcasts/\">podcast</a>\n<a href=\"https://developer.apple.com/design/awards/\">Apple Editorial Team</a>\n<a href=\"/voice-ai/\">Voice AI</a>\n<a href=\"https://www.youtube.com/channel/UCdVAkcFLzG-nAWWASbZb4ZA\">Speechify</a>\n<a href=\"/voice-typing-dictation/\">takes notes</a>\n<a href=\"/text-to-speech-online/\">listening</a>\n<a href=\"/voice-typing-dictation/\">dictating responses</a>\n<a href=\"/podcasts/\">podcasts</a>\n<a href=\"/voice-typing-dictation/\">voice notes</a>\n<a href=\"/text-to-speech-online/\">listening to your favorite content</a>\n<a href=\"/podcasts/\">creating podcasts</a>\n<a href=\"/voice-typing-dictation/\">write with your voice</a>\n<a href=\"/text-to-speech-online/\">listening to text</a>\n<a href=\"/ai-voice-generator/\">adjusting voices</a>\n<a href=\"/reviews/\">Read Reviews</a>\n<a href=\"https://chatgpt.com/?q=tell+me+why+Speechify+is+the+right+choice+for+me\">Ask ChatGPT</a>\n<a href=\"https://claude.ai/new?q=tell+me+why+Speechify+is+the+right+choice+for+me\">Ask Claude</a>\n<a href=\"https://www.perplexity.ai/search/new?q=tell+me+why+Speechify+is+the+right+choice+for+me\">Ask Perplexity</a>\n<a href=\"/blog/\">View All Articles</a>\n<a href=\"/blog/text-to-speech-api-latency/\">Text-to-speech API latency in 2026: time to first audio, measured independentlySeptember 29, 2026</a>\n<a href=\"/blog/speechify-tts-models/\">The Speechify TTS API model lineup explained: pick the right model for the job\" description: \"Speech</a>\n<a href=\"/blog/speechify-tts-model-lineup/\">The Speechify TTS API model lineup explained: pick the right model for the jobAugust 28, 2026</a>\n<a href=\"/\">Voice AI Productivity Assistant</a>\n<a href=\"/voice-typing-dictation/\">voice type</a>\n<a href=\"/podcasts/\">AI podcasts</a>\n<a href=\"/voice-typing-dictation/\">voice typing</a>\n<a href=\"/blog/how-to-use-chatgpt-voice-mode/\">ChatGPT</a>\n<a href=\"/blog/history-of-siri-as-a-voice-assistant/\">Siri</a>\n<a href=\"/blog/history-of-amazon-alexa-voice-assistant/\">Alexa</a>\n<a href=\"/\">AI Assistants</a>\n<a href=\"/\">Voice AI Assistant</a>\n<a href=\"/text-to-speech-online/\">TTS</a>\n<a href=\"/blog/read-aloud-text/?landing_url=https%3A%2F%2Fspeechify.com%2Fvoiceover-new%2F\">read aloud</a>\n<a href=\"/ai-voice-generator/\">AI voice</a>\n<a href=\"/text-to-speech-online/\">Speechify text to speech free</a>\n<a href=\"/text-to-speech-web/\">web app</a>\n<a href=\"/text-to-speech-chrome-extension/\">Chrome</a>\n<a href=\"/edge-text-to-speech-extension/\">Microsoft Edge</a>\n<a href=\"/text-to-speech-online/\">Speechify AI reader</a>\n<a href=\"/text-reader/\">Speechify’s text to speech reader</a>\n<a href=\"/es/text-a-voz-en-linea/\">Spanish</a>\n<a href=\"/pt-br/texto-para-discurso-online/\">Portuguese</a>\n<a href=\"/de/text-in-sprache-online/\">German</a>\n<a href=\"/de/text-in-sprache-online/\">French</a>\n<a href=\"https://console.speechify.ai/signup\">create an account</a>\n<a href=\"/text-to-speech-api/\">Speechify's Text to Speech API</a>\n<a href=\"https://docs.speechify.ai/\">documentation</a>\n<a href=\"/text-to-speech-online/\">AI text to speech</a>\n<a href=\"/edu/\">schools</a>\n<a href=\"/voiceover-studio-contact/\">teams</a>\n<a href=\"/blog/text-to-speech-for-schools/\">school districts</a>\n<a href=\"/blog/speechify-voice-list-and-options/\">60 languages</a>\n<a href=\"/blog/text-to-speech-apps-news-articles/\">articles</a>\n<a href=\"/blog/pdf-audio-reader/\">PDFs</a>\n<a href=\"/blog/read-document-to-me/\">documents</a>\n<a href=\"/blog/how-to-study-better/\">studying</a>\n<a href=\"/blog/text-to-speech-apps-news-articles/\">listening to articles</a>\n<a href=\"/blog/proofreading-software/\">proofreading</a>\n<a href=\"/blog/tts-accessibility/\">accessibility</a>\n<a href=\"/blog/text-to-speech-for-students/\">students</a>\n<a href=\"/text-to-speech-web/\">Web app</a>\n<a href=\"/text-to-speech-android/\">Android apps</a>\n<a href=\"/text-to-speech-mac/\">Mac app</a>\n<a href=\"/text-to-speech-web/\">desktop</a>\n<a href=\"/blog/speechify-voice-list-and-options/\">60+ different languages</a>\n<a href=\"/text-to-speech-web/\">Web App</a>\n<a href=\"/text-to-speech-android/\">Android app</a>\n<a href=\"/blog/text-to-speech-dyslexia/\">dyslexia</a>\n<a href=\"/blog/speechify-voice-list-and-options/\">60+ supported languages</a>\n<a href=\"/text-to-speech-web/\">Web</a>\n<a href=\"/text-to-speech-chrome-extension/\">Speechify Chrome Extension</a>\n<a href=\"https://speechify.com/onboarding/nc/general/?source_page=_&amp;source_category=home&amp;source_locale=en\">free trial</a>\n<a href=\"/voice-typing-dictation/\">dictation</a>\n<a href=\"/voice-ai/\">AI voice dictation</a>\n<a href=\"/voice-typing-dictation/\">Voice typing</a>\n<a href=\"/blog/using-speechify-to-dictate-emails/\">emails</a>\n<a href=\"/blog/how-to-multitask-with-speechify/\">multitasking</a>\n<a href=\"/voice-ai/\">Voice AI assistant</a>\n<a href=\"/voice-ai/\">Speechify Voice AI assistant</a>\n<a href=\"/news/speechify-announces-ai-summaries/\">summaries</a>\n<a href=\"/voice-typing-dictation/\">AI dictation</a>\n<a href=\"/blog/photo-text-to-speech/\">OCR</a>\n<a href=\"/edge/\">Edge Add-on</a>\n<a href=\"/tts-for-business/\">Teams</a>\n<a href=\"/edu/\">Education</a>\n<a href=\"https://docs.speechify.ai/\">Text to Speech API Docs</a>\n<a href=\"/about/\">About</a>\n<a href=\"/affiliates/\">Affiliates</a>\n<a href=\"https://help.speechify.com/en/\">Help</a>\n<a href=\"https://status.speechify.com/\">Status</a>\n<a href=\"/brand-kit/\">Brand Kit</a>\n<a href=\"https://www.instagram.com/speechifyapp/\"></a>\n<a href=\"https://www.facebook.com/getspeechify/\"></a>\n<a href=\"https://twitter.com/SpeechifyAI/\"></a>\n<a href=\"https://www.tiktok.com/@speechifyapp/\"></a>\n<a href=\"https://www.linkedin.com/company/getspeechify/\"></a>\n<a href=\"https://www.youtube.com/channel/UCdVAkcFLzG-nAWWASbZb4ZA/\"></a>\n<a href=\"/voice-typing-dictation/\">Dictation &amp; Voice Typing</a>\n<a href=\"/blog/text-to-speech-desktop-app/\">PDF Text to Speech Android</a>\n<a href=\"/female-voice-generator/\">Female Voice Generator</a>\n<a href=\"/male-voice-generator/\">Male Voice Generator</a>\n<a href=\"/blog/top-dyslexia-reading-programs/\">Top Dyslexia Reading Programs</a>\n<a href=\"/robot-voice-generator/\">Robot Voice Generator</a>\n<a href=\"/blog/text-to-speech-anime/\">Text to Speech Anime</a>\n<a href=\"/blog/pdf-audio-reader/\">PDF Audio Reader</a>\n<a href=\"/text-to-speech-online/hindi/\">Hindi Text to Speech</a>\n<a href=\"/blog/pdf-audio-reader/\">PDF Read Aloud</a>\n<a href=\"/es/text-a-voz-en-linea/\">Texto a Voz</a>\n<a href=\"/pt-br/texto-para-discurso-online/\">Leitor de Texto</a>\n<a href=\"/ar/\">العربية</a>\n<a href=\"/hu/\">Magyar</a>\n<a href=\"/zh-hans/\">中文 (简体)</a>\n<a href=\"/zh-hant/\">中文 (台灣)</a>\n<a href=\"/zh-hans-cn/\">中文 (简体 中国大陆)</a>\n<a href=\"/cs/\">Čeština</a>\n<a href=\"/da/\">Dansk</a>\n<a href=\"/nl/\">Nederlands</a>\n<a href=\"/fr/\">Français</a>\n<a href=\"/fi/\">Suomi</a>\n<a href=\"/de/\">Deutsch</a>\n<a href=\"/hi/\">हिन्दी</a>\n<a href=\"/it/\">Italiano</a>\n<a href=\"/ja/\">日本語</a>\n<a href=\"/ko/\">한국어</a>\n<a href=\"/nb/\">Norsk bokmål</a>\n<a href=\"/pl/\">Polski</a>\n<a href=\"/pt-br/\">Português Brasileiro</a>\n<a href=\"/ru/\">Русский</a>\n<a href=\"/uk/\">Українська</a>\n<a href=\"/es/\">Español</a>\n<a href=\"/es-mx/\">Español (México)</a>\n<a href=\"/sv/\">Svenska</a>\n<a href=\"/th/\">ไทย</a>\n<a href=\"/tr/\">Türkçe</a>\n<a href=\"/vi/\">Tiếng Việt</a>\n<a href=\"/ro/\">Română</a>\n<a href=\"/pt/\">Português</a>\n<a href=\"/bg/\">Български</a>\n<a href=\"/ka/\">ქართული</a>\n<a href=\"/sk/\">Slovenčina</a>\n<a href=\"/sl/\">Slovenščina</a>\n<a href=\"/et/\">Eesti</a>\n<a href=\"/hr/\">Hrvatski</a>\n<a href=\"/el/\">Ελληνικά</a>\n<a href=\"/lt/\">Lietuvių</a>\n<a href=\"/he/\">עברית</a>\n<a href=\"/id/\">Bahasa Indonesia</a>\n<a href=\"/bn/\">বাংলা</a>\n<a href=\"/ca/\">Català</a>\n<a href=\"/ms/\">Bahasa Melayu</a>\n<a href=\"/ur/\">اردو</a>\n<a href=\"/terms/\">Terms of Service</a>\n<a href=\"/privacy/\">Privacy Policy</a>\n<a href=\"/\">© Speechify Inc 2026</a>\n<script src=\"/_next/static/chunks/03jrgbf8s5y1u.js\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0q3otlj7usecd.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0q3otlj7usecd.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"4cf7a61e621fdfd8215f3f7de304db6d\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0q3otlj7usecd.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=oZO%2FILB287rH1MZtBCB36f%2B7q7QtJwHdELo8dgBIo0vvmnrH2Pf1MjubznLeZa2dm5lfD%2BlwxXrXsZnf16DTw3K3SXDQFpz3MtqiZp97nGnCkGaYj6B513K754E72Gw%3D\"}]}"
+          ],
+          ["last-modified", "Thu, 27 Aug 2026 14:45:09 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0q3otlj7usecd.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::bpzxh-1787841909223-08ec9f6df156"],
+          ["x-xss-protection", "1"],
+          ["age", "3303098"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcd5c13783d-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0fhwz9g_rbl.1.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0fhwz9g_rbl.1.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"97ef7b5518f5cd77214e8d9b2f6a30f8\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0fhwz9g_rbl.1.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=l%2BrItFuL0MXDBE%2BzrqBvBk7ZY3BWH80UwFhOrqN0knksM6QwAKPaqmhUrYCVocVsTMRaUXBkk%2Fw%2BPWOMLdbvt2wPtao9GLJGzLFk998%2BJtwk%2B2ltFHpLv04Pi91vVZk%3D\"}]}"
+          ],
+          ["last-modified", "Mon, 14 Sep 2026 11:30:38 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0fhwz9g_rbl.1.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::z2tl4-1789385438599-39fde8e4e7d3"],
+          ["x-xss-protection", "1"],
+          ["age", "1759569"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcdd81e4e4c-OSL"]
+        ],
+        "body": "\"https://speechify.com/\"\n\"https://website.cdn.speechify.com/\""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0yzxb2nv5~5gd.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0yzxb2nv5~5gd.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"1b32af0aadb35cb56e6bd21d4a84a774\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0yzxb2nv5~5gd.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=URUmkcYeeFvoKfgT0ABKe8SHenXvrx27TtdcwmLfbi%2B3qD4GM3feGZq%2B%2FjmwJ1v5R8OeAi7rUoUrndEtYs7kAeeZ8mt7uA7WypBYCHUmHkBVLOxXMz9nlDm3yGZLmzk%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 07 Aug 2026 09:56:54 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0yzxb2nv5~5gd.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "sin1::7jnkj-1786096613810-acd9d67dedff"],
+          ["x-xss-protection", "1"],
+          ["age", "5048394"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcddf0856ab-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0.sdlas0sqn6x.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0.sdlas0sqn6x.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"7d88ffbf23c58e5d67a8b2798b6f48fc\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0.sdlas0sqn6x.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=k0oi7uKYUMwpfIxFX3la1wH0I1Q60kBK4ZZ9v3mbhLqA60m8DSSJ5c%2FQcLi6TXgJ8PkdRaNZZbYQTK77mpkOEIz3MWEIygZRCjBX2feHb1isLipHxEt%2FqVe3GrGpan4%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 22 May 2026 15:46:10 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0.sdlas0sqn6x.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "cle1::wlhlm-1779464770089-4544fc9c168e"],
+          ["x-xss-protection", "1"],
+          ["age", "11680238"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcdcd4932fa-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0zeme7r34q587.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0zeme7r34q587.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"942070a61a8c0a62aa6fe41896650c65\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0zeme7r34q587.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3CY4xyRVQTryIjsgKR64mWWynftgqUsri6opdXuNnqxAP5z1XPXw0EmfuTRa9pNCaxHJ51HbxDIdhdLE6LZQaOQxrR5TAi%2B8D7wjhw7YJ2xx%2BQQQ3MEHC%2BqvtCsQ%2FzI%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 22 May 2026 15:46:10 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0zeme7r34q587.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "cle1::gpgrq-1779464770513-eb0deb6577f3"],
+          ["x-xss-protection", "1"],
+          ["age", "11680237"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcdcb6549c5-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0snzv0l~8-el~.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0snzv0l~8-el~.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"bb717bc478846d9f580d119c65d9a3bd\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0snzv0l~8-el~.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=8CCGCEieh1C%2B%2BPZF40hsmkZve4MnjLMF5QHOJ%2F8gJFReiJMFwrTuFeGuQctRFWlIY%2BCPUnUB4h1udMVaUBWOm%2FGNHfpkyssdN6FKupHusWR%2FX8mv5QCoMWn9Qb5UV2w%3D\"}]}"
+          ],
+          ["last-modified", "Wed, 15 Jul 2026 16:14:26 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0snzv0l~8-el~.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "iad1::qzrkv-1784135479970-b724bcf2f97b"],
+          ["x-xss-protection", "1"],
+          ["age", "7009528"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcdedbb32fa-OSL"]
+        ],
+        "body": "\"https://cdn.growthbook.io/\"\n\"https://growthbook.cdn.speechify.com/\""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0n1c7gk.42v-6.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0n1c7gk.42v-6.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"5cfbe63ac9e10243686451a1535d6d2c\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0n1c7gk.42v-6.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=dQOJ%2BpVrVASF4d7G5lHjS6o8ZBYS3IISXPn9mqqRhtLtJPJ1PgDlMS6j4v%2BH8HKZAxx3gcIgI8xJVd3fzNSZOHvypJQ4v0lNa0tA7Fvra7cZAg1wF8dNWL77OxyhjWw%3D\"}]}"
+          ],
+          ["last-modified", "Thu, 24 Sep 2026 14:47:13 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0n1c7gk.42v-6.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "gru1::lm974-1790261233164-7ac2c02a0148"],
+          ["x-xss-protection", "1"],
+          ["age", "883774"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcdefe81525-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/147fhl_cqyrru.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/147fhl_cqyrru.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"e1151d617c58e8931939a4f712b38b1f\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"147fhl_cqyrru.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=myBUUyoy53VHTC4VXe2iDug4QfV8ZttY89%2F05B2aHRIy5Sr9udJYNw4mr0mU6r7MdIZ4QW%2FDet7bBB%2F8slx0WqulF47u1Flu9x6E7IVKfJVdzjBe0mj7y%2FaVIxPYet0%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 05 May 2026 08:40:30 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/147fhl_cqyrru.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "iad1::lcxn6-1777970430269-b43b030193a8"],
+          ["x-xss-protection", "1"],
+          ["age", "13174578"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcde901dfec-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/178fghm77ecf..js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/178fghm77ecf..js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"12de8cd9fb523c0605cd6f0fda150ee7\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"178fghm77ecf..js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=A8z%2FIpmOFBB9tz%2BFokFCoX%2B9KJQK5XTJ59mb3p8I2ocK8FukFCjNdyp7j%2F4xf9xmKDqDPzjGnn4NMBl6SSftoQDYmvfBiuWhedNIeS1UNFPFC2ascmHtp183rIbFmpU%3D\"}]}"
+          ],
+          ["last-modified", "Wed, 30 Sep 2026 15:50:19 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/178fghm77ecf..js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "cle1::cdgqz-1790783419832-93ccf6505198"],
+          ["x-xss-protection", "1"],
+          ["age", "361588"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcded941a30-OSL"]
+        ],
+        "body": "\"https://cdn.segment.com/\""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0.o7s4cvhc3c8.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0.o7s4cvhc3c8.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"b5ab755e106d2d2667dfdb15fef43be0\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0.o7s4cvhc3c8.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=6rqlR6%2Bnz0XqbuRQcp0UfMmmM8Zpll1ZqN7BqWBD%2BZRIiTokhQn510TjTW0XXVAc5AtPFLYu%2BpaYZT%2BbXtW1lQEGNLnMw0a%2FbdTWNYP1mPw148QGE3AkSG06PzumTcc%3D\"}]}"
+          ],
+          ["last-modified", "Thu, 24 Sep 2026 14:47:16 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0.o7s4cvhc3c8.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::9jjb8-1790261236537-e1665ccc3c65"],
+          ["x-xss-protection", "1"],
+          ["age", "883771"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcdfb48120a-OSL"]
+        ],
+        "body": "\"https://speechify.com/\""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0mjqk2xx0r1hg.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0mjqk2xx0r1hg.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"3bce6a71b2e89c61dcfea1a103b12592\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0mjqk2xx0r1hg.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Kn4WwvQ%2FAZzZTER0oMY3l3vLw2hlaNbxr4zbahBtyqjZPT%2BZq3vytGB%2ByXYxwwQ9Y8qaxpG%2BhRGo4Ni8DZ8mvmDiyD4%2B7WulwMDvvo6XhauC141u76l5WmwKS0aSNWk%3D\"}]}"
+          ],
+          ["last-modified", "Thu, 27 Aug 2026 14:45:09 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0mjqk2xx0r1hg.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::t6mtd-1787841909230-a5333c9ebd8a"],
+          ["x-xss-protection", "1"],
+          ["age", "3303099"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcdecec35a6-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0--lbmp~el-~-.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0--lbmp~el-~-.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"59109fe2cd59f6190eab139b9c78af87\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0--lbmp~el-~-.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=LxZfJ5A93kaeRYezMK8Lgh1tWb8%2FJ4l%2Fx3WGUkynvLe9ozgvt7kTHn%2BRLvyiyfFxb3LIKjkq06dc9dhSqB5MnZmotWIqkS8DfMynBDFO7PcVgg25naR93TQnyiXpp3c%3D\"}]}"
+          ],
+          ["last-modified", "Mon, 14 Sep 2026 11:30:38 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0--lbmp~el-~-.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "cdg1::tcgl5-1789385438437-77ebffb247fd"],
+          ["x-xss-protection", "1"],
+          ["age", "1759569"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcde93376ef-OSL"]
+        ],
+        "body": "\"https://chromewebstore.google.com/\"\n\"https://microsoftedge.microsoft.com/\""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0.afe-trbju5g.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0.afe-trbju5g.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"5c4284ff94f8f17420e45b432253604f\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0.afe-trbju5g.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=LtflBBlWriPF%2BDZFioHnpjx562qpuz3%2BtlxZBMcZHv3HK85HTxrgKwcwNpQqoJ4kMK03ZqTtadswZYdSaL9SWtNSofh11hfMR0sgdOhfTVk7%2BqCypc2UvMeBqBETIFk%3D\"}]}"
+          ],
+          ["last-modified", "Thu, 24 Sep 2026 14:47:12 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0.afe-trbju5g.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "gru1::ltp8d-1790261232774-a0f77907b278"],
+          ["x-xss-protection", "1"],
+          ["age", "883775"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcdceb73181-OSL"]
+        ],
+        "body": "\"https://faro-collector-prod-us-east-0.grafana.net/\"\n\"https://us-central1-faro-cloud-proxy-production.cloudfunctions.net/\""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/01p44qv1rm7s4.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/01p44qv1rm7s4.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"3e741c57a6cb1a29df92db70c971fe2e\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"01p44qv1rm7s4.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=y%2FMSZPM%2F9pZc6GyKKtDWQ9X9PAVSyU3RodWZIYGPezixTZ7CPpJEBQx8binIBF5b70OF2RYGFcD7jY8gRG71o%2BbN9rYEgOOKpxtuhu%2FYTMJRvEF4CEBfgdDTruwr96Q%3D\"}]}"
+          ],
+          ["last-modified", "Mon, 29 Jun 2026 22:00:16 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/01p44qv1rm7s4.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "iad1::pxnz5-1782770416872-f058f490d0ee"],
+          ["x-xss-protection", "1"],
+          ["age", "8374591"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcdf918568d-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/turbopack-0u1ng3zicmx_4.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/turbopack-0u1ng3zicmx_4.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"b1103f72a6d343f2aabc3ef9453e848b\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"turbopack-0u1ng3zicmx_4.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=xrc1E%2F93ePKFbQMlERUzxmWBW3VlfPsVLotSw9%2FSSWOq%2Bmrk2Ei0WRohzRV%2FDMcyiThXOnz2mEoPoecZAC6gn%2FlrmuBSzQjXX1EQ1P5OB5Y8qPdQInrMjLuFxrUKpIw%3D\"}]}"
+          ],
+          ["last-modified", "Thu, 27 Aug 2026 14:45:09 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/turbopack-0u1ng3zicmx_4.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::6xdfg-1787841909953-2dd995b4fdb7"],
+          ["x-xss-protection", "1"],
+          ["age", "3303098"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcddd34b4ed-OSL"]
+        ],
+        "body": "\"https://vercel.live/\""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0_cvigswhens7.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0_cvigswhens7.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"636e3de98b6e2812a8de5657c5e429cb\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0_cvigswhens7.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=6sFsNbyRuZJ8MnPp65cPRM3XA0CWu7FGUWSsHdl6huhgcOlWqG8ohRJIYZ2fYGQFSLL1dRla30z2qm82KX5Z%2FZBYivIxTLnRJwIbFuUVlBX7EdSNd%2BcMAZoe3sN%2Bg48%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 05 May 2026 08:40:29 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0_cvigswhens7.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "syd1::t7cbc-1777970429425-c2776de9dcd0"],
+          ["x-xss-protection", "1"],
+          ["age", "13174578"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcdfb9256a3-OSL"]
+        ],
+        "body": "\"https://storage.googleapis.com/\""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0pyiwdkxif78-.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0pyiwdkxif78-.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"42a2de01b1fcedf935ebc69c80bc41b8\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0pyiwdkxif78-.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=zUn61U8GdnzF8lpP4sXctzbXToSq5lRsyZHMNxDueIu4vFg%2FEMERDpSrY3Yj6fuqwQPEMK8hWAEDmRR0e%2BoOLStK4%2BCKLdZnLn5eiu4qjYVJRtVgbdM8KoA4ifdyJ9Y%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 07 Jul 2026 16:17:36 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0pyiwdkxif78-.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "sfo1::g6hv8-1783441055896-e73e750956a8"],
+          ["x-xss-protection", "1"],
+          ["age", "7703952"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcdecc835a6-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0i8a_86-g_b21.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0i8a_86-g_b21.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"8884f9b1578fedae59709ad919a711ac\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0i8a_86-g_b21.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2FaCzcZEpvi0e%2BzF9rsUo2PttC1yJwYm0n7LkKGrmLj3%2FvHbkC1gDb45CJDJtZXrK36WuqnE4hw7LmitocJpG%2FSJicIJTzzZXM6ItafRzxBS5FQjbeUxbzxuhf%2BWzteg%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 05 May 2026 08:40:29 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0i8a_86-g_b21.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "syd1::gq4gf-1777970429239-cf7db59885ef"],
+          ["x-xss-protection", "1"],
+          ["age", "13174578"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddce0e3832fa-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0vzhnz4iuazh6.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0vzhnz4iuazh6.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"ba6f68cadf89adc34614d5303330d50a\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0vzhnz4iuazh6.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=h%2Bf4I8X9dFFYzldiWbst5hnp8dHZl9sDGIMBDCtEIjct%2FtiAUMFjxKblHdX2WS2UGH7h4NkCtTBVhXbeNMAmQ9zIPsCfSbW5vgily5jkMzUQF602PTV6K245MgQSwp0%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 05 May 2026 08:40:29 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0vzhnz4iuazh6.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "syd1::9qs8m-1777970429479-8ca6e6efeefc"],
+          ["x-xss-protection", "1"],
+          ["age", "13174578"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddce1bc3569c-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/126uf0e89gm6c.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/126uf0e89gm6c.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"54ea0d806bf5568050645614ac97d54f\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"126uf0e89gm6c.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=yDjaKBCsCZEZlnTAALrt2%2Bs7kbmw6QpQ4hKgGgqw9CWtBK1E3Sv3sCuR5BKvshiCpNbtE3uZLLk1oktxoj7JfLeiGja8nSKlSGFPyPC%2Bqg2KquQ5j8nLK2DrPJz2wto%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 12 Jun 2026 18:33:54 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/126uf0e89gm6c.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "iad1::dptqp-1781289234063-b6f8a3406168"],
+          ["x-xss-protection", "1"],
+          ["age", "9855774"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddce1b5a56bb-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0hedd-_q4zn-t.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0hedd-_q4zn-t.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"1edefff5ef4a46e0073c944753d7023e\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0hedd-_q4zn-t.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2B8KFnYptrXIJxURTl0hSAPc44zmUptEtnsD2gGxslWLPgm6aSkUePPgNlYYfBONTP3hIk5AOujPOqsdhntcCqQLX3FWQSUT%2BJGfpBRaJpMAus%2BkEoTkhEwehzfeMEao%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 05 May 2026 08:40:30 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0hedd-_q4zn-t.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "cle1::dkzlc-1777970430343-d47c99fefd0e"],
+          ["x-xss-protection", "1"],
+          ["age", "13174577"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddce0f61c272-OSL"]
+        ],
+        "body": "\"https://apis.google.com/\"\n\"https://www.google.com/\""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/107qgtlli7f77.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/107qgtlli7f77.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"08ea3d6f60fcd4f655f930f493cb9ffa\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"107qgtlli7f77.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=2ykSwEyx4%2FOa5upHwcjJGwFObxvDUjjaHOyPMAY%2Fs7CBn4dN%2FZIIRJR8E7u1%2FjGNJUEVSIo0H8rYPWNNBDcGMW%2Bicz5Rg3qdkVWN6ippxXRsvCCu1SwYzD4LEp5ZVac%3D\"}]}"
+          ],
+          ["last-modified", "Thu, 01 Oct 2026 16:24:26 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/107qgtlli7f77.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "pdx1::2hvgl-1790871866492-11c95f885365"],
+          ["x-xss-protection", "1"],
+          ["age", "273141"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcdfdbc56aa-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0-_9b.6g_6w22.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0-_9b.6g_6w22.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"c08e37d75354b15782c497eb8eceef4f\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0-_9b.6g_6w22.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=tKi5fND%2BLznONuH6vsVdc8g5cTzg%2FIFzi%2FXBLb5xVsHLVjTyVZwj3LSbBJHwbK6V2BTtwEbjAYngHNn%2BssbxxC%2Bdlvi5BN4SkCtpc0q0NM6QhoQz12jxZFTMlHwKSs8%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 05 May 2026 08:40:30 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0-_9b.6g_6w22.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "iad1::sjfn9-1777970430221-86072b844a5c"],
+          ["x-xss-protection", "1"],
+          ["age", "13174578"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcde9b15693-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0x9b___uj_7-m.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0x9b___uj_7-m.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"398ea0f54cbb578b0985beab4e1b2fa3\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0x9b___uj_7-m.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=1fdr8Nxa2UhJ1rvjUMVg0ZyG8X9ysDDzVmFe8qavT1o6e%2F%2FCemIyBSGvGHEac0K1qlz%2F6l8n3cGxyBpAQuiP4Ic2vzHBMuxbw45Ca9H0wyn08B7aHmI2TyXZB8OhdQg%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 22 May 2026 15:46:10 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0x9b___uj_7-m.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "cle1::zspst-1779464770105-cb8e31763e17"],
+          ["x-xss-protection", "1"],
+          ["age", "11680238"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcddf0b0b55-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0.~bt4a2vu7z..js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0.~bt4a2vu7z..js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"659dd345effcb410cddc42ac861f1c73\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0.~bt4a2vu7z..js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=IvK%2BiHPYsLYR4IQC7PsyWaZhxlfIJvRAed1wDCn5WotAodHycczd3WgMlmEnYyxCfgfnds1tzcyDOchl2%2BNwmUrMev9QR8ilRygu1xWh6SJK6XCql3pJjEHKbqjZJuo%3D\"}]}"
+          ],
+          ["last-modified", "Thu, 24 Sep 2026 14:47:13 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0.~bt4a2vu7z..js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "gru1::jl6zv-1790261233762-6032abbe156b"],
+          ["x-xss-protection", "1"],
+          ["age", "883774"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddce1f64b4f3-OSL"]
+        ],
+        "body": "\"https://app.speechify.com/\"\n\"https://bit.ly/\"\n\"https://bzrcdn.openai.com/\"\n\"https://c.albss.com/\"\n\"https://r.wdfl.co/\"\n\"https://s.axon.ai/\"\n\"https://sc-static.net/\"\n\"https://www.clarity.ms/\""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/05~6frxa00a0w.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/05~6frxa00a0w.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"48f5047c599b5ef40d8bd3cf057710f5\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"05~6frxa00a0w.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Rq0GA%2BuU1svdprwAT1ABl59k9GfodclnaNe7RQzidRFu6lHq%2BGTlHAAWE%2FrUZj8k3cB5RgwSxS4N9VmIWz3fdbzyIVbMOS4L4Qo%2BID%2FpP8JqQeY6TKNqFvqo8WUcsYg%3D\"}]}"
+          ],
+          ["last-modified", "Thu, 01 Oct 2026 16:24:55 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/05~6frxa00a0w.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::mzrw8-1790871895044-5fb4ec0132f6"],
+          ["x-xss-protection", "1"],
+          ["age", "273113"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddce0e8bb521-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/160tjnh~yahtd.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/160tjnh~yahtd.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"3aaa9d429e1a70ae31a20000d3b88444\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"160tjnh~yahtd.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=V4z%2B4cvu4%2F1m2QfJRGdQW2Egz366ZAPHiZOo5piv94xfjVYi%2B%2BqHUHdcIL71AT2M5Rqe0jPNK8Rpi6xOllT7SlNexWRABD7BGxXppvstvsoK7rtWivlqcH2nBKfi70A%3D\"}]}"
+          ],
+          ["last-modified", "Wed, 23 Sep 2026 15:11:41 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/160tjnh~yahtd.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "pdx1::qrrqf-1790176301446-0508bcf267a2"],
+          ["x-xss-protection", "1"],
+          ["age", "968706"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcdefff1525-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0slh1nobijc1v.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0slh1nobijc1v.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"c818946d6af8eb7a88c1a65eba3d7ce7\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0slh1nobijc1v.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=890eDBx%2FKOVHeoTKJivxYGCnztsESzv075dPmW7f%2FvGu087uNiNZuKm9LlTs3ybM01dEnOPuutvukwQvX0P6pf8yY0T2QcR%2BlXtlENitrsIfEDZcQ8HPoV2MsO00uLk%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 18 Sep 2026 11:18:26 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0slh1nobijc1v.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "bom1::brdgb-1789730306086-46a2390af65c"],
+          ["x-xss-protection", "1"],
+          ["age", "1414702"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcdfe7d56c3-OSL"]
+        ],
+        "body": "\"http://json-schema.org/\"\n\"https://app.speechify.com/\"\n\"https://attributor.speechify.com/\"\n\"https://audio.api.speechify.com/\"\n\"https://auth.api.speechify.com/\"\n\"https://config.speechify.com/\"\n\"https://faro-collector-prod-us-east-0.grafana.net/\"\n\"https://json-schema.org/\"\n\"https://payment.api.speechify.com/\"\n\"https://speechify.com/\"\n\"https://speechifymobile.firebaseio.com/\"\n\"https://studio.speechify.com/\"\n\"https://teams.api.speechify.com/\"\n\"https://us-central1-faro-cloud-proxy-production.cloudfunctions.net/\"\n\"https://web-payments.speechify.com/\""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/06dbw98t~pswk.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/06dbw98t~pswk.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"0bca31972ab940566376132739daecd1\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"06dbw98t~pswk.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=54EMpTC60j6pcdiKrPPRZxgz%2B9Wl0PrAMXqjOgAaqqfU8jNsHNdnbXTFQmuZxeamYlBgeMkJD9McTs%2BiZOmLd1TMD1s3jLNysXj7y0iGGe0s%2BhJPe8xIMSEsZ0XOqjA%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 22 May 2026 15:46:20 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/06dbw98t~pswk.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "gru1::4s2xv-1779464780316-218700210360"],
+          ["x-xss-protection", "1"],
+          ["age", "11680227"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddcdda1556b7-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://speechify.com/_next/static/chunks/0gyot_4u8upxe.js": {
+      "result": {
+        "url": "https://speechify.com/_next/static/chunks/0gyot_4u8upxe.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["etag", "W/\"726cb336f92be800a0aa70dd1b74412c\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"0gyot_4u8upxe.js\""],
+          [
+            "content-security-policy-report-only",
+            "default-src * data: blob: wss: 'unsafe-eval' 'unsafe-inline'; connect-src * wss:; script-src * 'unsafe-inline' 'unsafe-eval'; script-src-elem * 'unsafe-inline'; style-src * 'unsafe-inline'; img-src * data: blob:; object-src * data:; media-src * data:; frame-src *; font-src * data:; manifest-src *; worker-src * blob:; frame-ancestors 'self' *.speechify.com speechify.com *.speechify.dev; report-uri https://speechify.com/api/csp-reports; report-to speechify"
+          ],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=g04byTy61ePNCbRI7GeKhK%2FPtYzhQAOJP1IL2uZzJati6C6qDUTH5tlfCtlFnLuuGBg%2B0lQX5ErIXEKDj8bV2sxU%2BCcZR762L1K%2FHqB5XDPOT3DO47pDltIVnpelPl4%3D\"}]}"
+          ],
+          ["last-modified", "Thu, 01 Oct 2026 16:24:26 GMT"],
+          ["reporting-endpoints", "speechify=\"https://speechify.com/api/csp-reports\""],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-content-type-options", "nosniff"],
+          ["x-download-options", "noopen"],
+          ["x-frame-options", "sameorigin"],
+          ["x-matched-path", "/_next/static/chunks/0gyot_4u8upxe.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "sfo1::7v7nl-1790871866410-b81aee96255d"],
+          ["x-xss-protection", "1"],
+          ["age", "273141"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456ddce0f65b4fa-OSL"]
+        ],
+        "body": "\"https://analytics.google.com/\"\n\"https://api2.amplitude.com/\"\n\"https://app.configcat.com/\"\n\"https://auth.api.speechify.com/\"\n\"https://auth.api.speechify.dev/\"\n\"https://catalog.api.speechify.com/\"\n\"https://catalog.api.speechify.dev/\"\n\"https://cdn-eu.configcat.com/\"\n\"https://cdn-global.configcat.com/\"\n\"https://configcat.com/\"\n\"https://dev.catalog.api.speechify.dev/\"\n\"https://developers.google.com/\"\n\"https://payment.api.speechify.com/\"\n\"https://payment.api.speechify.dev/\"\n\"https://speechify.app.link/\"\n\"https://teams.api.speechify.com/\"\n\"https://us-central1-speechifydev.cloudfunctions.net/\"\n\"https://us-central1-speechifymobile.cloudfunctions.net/\"\n\"https://web-payments.speechify.com/\"\n\"https://web-payments.speechify.dev/\"\n\"https://www.google.com/\"\n\"https://www.googletagmanager.com/\""
       }
     }
   },
   "dns": {
-    "NS speechify.com": {
+    "A speechify.com": {
       "result": {
         "name": "speechify.com",
-        "type": "NS",
-        "records": ["christian.ns.cloudflare.com", "irena.ns.cloudflare.com"]
+        "type": "A",
+        "records": ["172.67.68.119", "104.26.0.186", "104.26.1.186"]
       }
     },
     "AAAA speechify.com": {
       "result": {
         "name": "speechify.com",
         "type": "AAAA",
-        "records": ["2606:4700:20::681a:1ba", "2606:4700:20::ac43:4477", "2606:4700:20::681a:ba"]
-      }
-    },
-    "A speechify.com": {
-      "result": {
-        "name": "speechify.com",
-        "type": "A",
-        "records": ["172.67.68.119", "104.26.1.186", "104.26.0.186"]
+        "records": ["2606:4700:20::ac43:4477", "2606:4700:20::681a:1ba", "2606:4700:20::681a:ba"]
       }
     },
     "CNAME speechify.com": {
@@ -101,11 +1444,18 @@
         "records": []
       }
     },
-    "TXT 186.1.26.104.origin.asn.cymru.com": {
+    "NS speechify.com": {
       "result": {
-        "name": "186.1.26.104.origin.asn.cymru.com",
+        "name": "speechify.com",
+        "type": "NS",
+        "records": ["irena.ns.cloudflare.com", "christian.ns.cloudflare.com"]
+      }
+    },
+    "TXT 119.68.67.172.origin.asn.cymru.com": {
+      "result": {
+        "name": "119.68.67.172.origin.asn.cymru.com",
         "type": "TXT",
-        "records": ["13335 | 104.26.0.0/20 | US | arin | 2014-03-28"]
+        "records": ["13335 | 172.67.64.0/20 | US | arin | 2015-02-25"]
       }
     },
     "TXT as13335.asn.cymru.com": {
@@ -120,7 +1470,7 @@
     "speechify.com:443": {
       "result": {
         "host": "speechify.com",
-        "ip": "104.26.1.186",
+        "ip": "172.67.68.119",
         "issuer": "C=US, O=Let's Encrypt, CN=YE1",
         "subjectAltNames": ["abtestworker.speechify.com", "speechify.com"],
         "validFrom": "Aug 28 08:02:30 2026 GMT",

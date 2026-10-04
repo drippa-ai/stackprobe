@@ -1,17 +1,17 @@
 {
   "url": "https://cal.com/",
-  "recordedAt": "2026-10-04T17:53:06.995Z",
+  "recordedAt": "2026-10-04T20:16:50.198Z",
   "http": {
     "GET https://cal.com/": {
       "result": {
         "url": "https://cal.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 17:53:07 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
           ["content-type", "text/html"],
           ["content-length", "141939"],
           ["connection", "keep-alive"],
-          ["cf-ray", "a4560b53983a0b65-OSL"],
+          ["cf-ray", "a456ddda7cf17127-OSL"],
           ["cf-cache-status", "DYNAMIC"],
           ["cache-control", "private, max-age=0, must-revalidate"],
           ["content-encoding", "br"],
@@ -27,7 +27,7 @@
           ["framer-site-id", "bc7227767b20f032f6b0c5eca6d5f196207f19e615b861e2b14cd0579a235b43"],
           [
             "server-timing",
-            "region;desc=\"eu-central-1\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"26fa766\", instance;desc=\"08dd45b\", route;dur=1;desc=\"id=v7M7xdOQx&locale=default\", abtests;dur=1;desc=\"Yoe_8Npvc=aF_KZyC6r\", country;desc=\"NO\", ss-only-routes"
+            "region;desc=\"eu-central-1\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"26fa766\", instance;desc=\"d1b043a\", route;dur=1;desc=\"id=v7M7xdOQx&locale=default\", abtests;dur=1;desc=\"Yoe_8Npvc=aF_KZyC6r\", country;desc=\"NO\", ss-only-routes"
           ],
           ["x-content-type-options", "nosniff"],
           ["set-cookie", "__cf_bm=<redacted>"]
@@ -44,18 +44,18 @@
         "records": ["104.18.0.62", "104.18.1.62"]
       }
     },
-    "NS cal.com": {
-      "result": {
-        "name": "cal.com",
-        "type": "NS",
-        "records": ["linda.ns.cloudflare.com", "carter.ns.cloudflare.com"]
-      }
-    },
     "AAAA cal.com": {
       "result": {
         "name": "cal.com",
         "type": "AAAA",
         "records": ["2606:4700::6812:3e", "2606:4700::6812:13e"]
+      }
+    },
+    "NS cal.com": {
+      "result": {
+        "name": "cal.com",
+        "type": "NS",
+        "records": ["carter.ns.cloudflare.com", "linda.ns.cloudflare.com"]
       }
     },
     "CNAME cal.com": {
@@ -65,9 +65,9 @@
         "records": []
       }
     },
-    "TXT 62.1.18.104.origin.asn.cymru.com": {
+    "TXT 62.0.18.104.origin.asn.cymru.com": {
       "result": {
-        "name": "62.1.18.104.origin.asn.cymru.com",
+        "name": "62.0.18.104.origin.asn.cymru.com",
         "type": "TXT",
         "records": ["13335 | 104.18.0.0/20 | US | arin | 2014-03-28"]
       }
@@ -84,7 +84,7 @@
     "cal.com:443": {
       "result": {
         "host": "cal.com",
-        "ip": "104.18.1.62",
+        "ip": "104.18.0.62",
         "issuer": "C=US, O=Google Trust Services, CN=WE1",
         "subjectAltNames": ["cal.com", "external.cal.com"],
         "validFrom": "Aug 14 15:05:58 2026 GMT",

@@ -1,6 +1,6 @@
 {
   "url": "https://mixpanel.com/",
-  "recordedAt": "2026-10-04T17:53:08.717Z",
+  "recordedAt": "2026-10-04T20:16:51.226Z",
   "http": {
     "GET https://mixpanel.com/": {
       "result": {
@@ -8,7 +8,7 @@
         "status": 308,
         "headers": [
           ["server", "nginx"],
-          ["date", "Sun, 04 Oct 2026 17:53:09 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["content-length", "42"],
           ["alt-svc", "h3=\":443\"; ma=2592000"],
@@ -37,7 +37,7 @@
         "status": 200,
         "headers": [
           ["server", "nginx"],
-          ["date", "Sun, 04 Oct 2026 17:53:09 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
           ["content-type", "text/html"],
           ["content-length", "117239"],
           ["alt-svc", "h3=\":443\"; ma=2592000"],
@@ -52,7 +52,7 @@
           ],
           [
             "server-timing",
-            "region;desc=\"us-east-1\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"26fa766\", instance;desc=\"59d8874\", route;dur=1;desc=\"id=qhhWFMlP1&locale=default\", country;desc=\"NO\", ss-only-routes"
+            "region;desc=\"us-east-1\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"26fa766\", instance;desc=\"45c8a15\", route;dur=1;desc=\"id=qhhWFMlP1&locale=default\", country;desc=\"NO\", ss-only-routes"
           ],
           ["vary", "Accept-Encoding, Accept"],
           ["x-content-type-options", "nosniff"],
@@ -79,16 +79,16 @@
         "type": "NS",
         "records": [
           "ns-cloud-a1.googledomains.com",
-          "ns-cloud-a4.googledomains.com",
           "ns-cloud-a3.googledomains.com",
-          "ns-cloud-a2.googledomains.com"
+          "ns-cloud-a2.googledomains.com",
+          "ns-cloud-a4.googledomains.com"
         ]
       }
     },
-    "CNAME mixpanel.com": {
+    "AAAA mixpanel.com": {
       "result": {
         "name": "mixpanel.com",
-        "type": "CNAME",
+        "type": "AAAA",
         "records": []
       }
     },
@@ -99,10 +99,10 @@
         "records": ["34.117.152.135"]
       }
     },
-    "AAAA mixpanel.com": {
+    "CNAME mixpanel.com": {
       "result": {
         "name": "mixpanel.com",
-        "type": "AAAA",
+        "type": "CNAME",
         "records": []
       }
     },

@@ -1,20 +1,20 @@
 {
   "url": "https://www.greenhouse.com/",
-  "recordedAt": "2026-10-04T17:53:09.048Z",
+  "recordedAt": "2026-10-04T20:16:51.701Z",
   "http": {
     "GET https://www.greenhouse.com/": {
       "result": {
         "url": "https://www.greenhouse.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 17:53:09 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
           ["set-cookie", "_cfuvid=<redacted>"],
-          ["cf-ray", "a4560b602f17dfec-OSL"],
+          ["cf-ray", "a456dde3cd9eb4f4-OSL"],
           ["cf-cache-status", "HIT"],
-          ["age", "331028"],
+          ["age", "339651"],
           ["content-encoding", "gzip"],
           ["last-modified", "Thu, 01 Oct 2026 07:41:46 GMT"],
           [
@@ -38,11 +38,11 @@
     }
   },
   "dns": {
-    "A www.greenhouse.com": {
+    "NS www.greenhouse.com": {
       "result": {
         "name": "www.greenhouse.com",
-        "type": "A",
-        "records": ["198.202.211.1"]
+        "type": "NS",
+        "records": ["lamar.ns.cloudflare.com", "journey.ns.cloudflare.com"]
       }
     },
     "CNAME www.greenhouse.com": {
@@ -52,18 +52,18 @@
         "records": ["cdn.webflow.com"]
       }
     },
+    "A www.greenhouse.com": {
+      "result": {
+        "name": "www.greenhouse.com",
+        "type": "A",
+        "records": ["198.202.211.1"]
+      }
+    },
     "AAAA www.greenhouse.com": {
       "result": {
         "name": "www.greenhouse.com",
         "type": "AAAA",
         "records": ["2620:cb:2000::1"]
-      }
-    },
-    "NS www.greenhouse.com": {
-      "result": {
-        "name": "www.greenhouse.com",
-        "type": "NS",
-        "records": ["journey.ns.cloudflare.com", "lamar.ns.cloudflare.com"]
       }
     },
     "CNAME cdn.webflow.com": {

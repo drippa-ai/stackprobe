@@ -1,6 +1,6 @@
 {
   "url": "https://whereby.com/",
-  "recordedAt": "2026-10-04T17:53:08.225Z",
+  "recordedAt": "2026-10-04T20:16:50.947Z",
   "http": {
     "GET https://whereby.com/": {
       "result": {
@@ -11,7 +11,7 @@
           ["content-encoding", "br"],
           ["content-length", "44766"],
           ["content-type", "text/html"],
-          ["date", "Sun, 04 Oct 2026 17:53:08 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
           ["etag", "\"d1f46c815bbc209131d8def1f254cd87\""],
           ["framer-site-id", "7356e3a0763581fd950f62ec7c680d6bc4dce232a4ea99d68d314d4d7a9096c0"],
           ["last-modified", "Wed, 30 Sep 2026 09:03:30 GMT"],
@@ -22,7 +22,7 @@
           ["server", "Framer/26fa766"],
           [
             "server-timing",
-            "region;desc=\"eu-west-1\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"26fa766\", instance;desc=\"99b1be1\", route;dur=1;desc=\"id=EAl_0P7Mg&locale=default\", country;desc=\"GB\", ss-only-routes"
+            "region;desc=\"eu-west-1\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"26fa766\", instance;desc=\"4fec50b\", route;dur=1;desc=\"id=EAl_0P7Mg&locale=default\", country;desc=\"GB\", ss-only-routes"
           ],
           ["strict-transport-security", "max-age=31536000"],
           ["vary", "Accept-Encoding, Accept"],
@@ -37,6 +37,25 @@
     }
   },
   "dns": {
+    "NS whereby.com": {
+      "result": {
+        "name": "whereby.com",
+        "type": "NS",
+        "records": [
+          "ns-1411.awsdns-48.org",
+          "ns-525.awsdns-01.net",
+          "ns-42.awsdns-05.com",
+          "ns-1933.awsdns-49.co.uk"
+        ]
+      }
+    },
+    "A whereby.com": {
+      "result": {
+        "name": "whereby.com",
+        "type": "A",
+        "records": ["99.83.164.242", "75.2.8.149"]
+      }
+    },
     "AAAA whereby.com": {
       "result": {
         "name": "whereby.com",
@@ -49,25 +68,6 @@
         "name": "whereby.com",
         "type": "CNAME",
         "records": []
-      }
-    },
-    "A whereby.com": {
-      "result": {
-        "name": "whereby.com",
-        "type": "A",
-        "records": ["75.2.8.149", "99.83.164.242"]
-      }
-    },
-    "NS whereby.com": {
-      "result": {
-        "name": "whereby.com",
-        "type": "NS",
-        "records": [
-          "ns-1411.awsdns-48.org",
-          "ns-42.awsdns-05.com",
-          "ns-525.awsdns-01.net",
-          "ns-1933.awsdns-49.co.uk"
-        ]
       }
     },
     "TXT 242.164.83.99.origin.asn.cymru.com": {

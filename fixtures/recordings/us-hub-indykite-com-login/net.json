@@ -1,6 +1,6 @@
 {
   "url": "https://us.hub.indykite.com/login",
-  "recordedAt": "2026-10-04T17:53:03.493Z",
+  "recordedAt": "2026-10-04T20:16:45.138Z",
   "http": {
     "GET https://us.hub.indykite.com/login": {
       "result": {
@@ -16,20 +16,418 @@
           ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
           ["content-type", "text/html; charset=utf-8"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 17:53:04 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
           ["x-envoy-upstream-service-time", "12"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/3b7kfjtog_fjj.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/3k60lfaskn_5x.js\">\n<script src=\"/_next/static/chunks/3x7padtx7vwmd.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3hftvx7_a8px1.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2lzp3c-jpnq5g.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0ujt_loomz70a.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-27tvvjualgy-h.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2hbl2__da5s92.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/13_r20cne5rt_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2x2eof9zuqnrz.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0_5jy3c5m3s9y.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1p95wlip_dutu.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3fn-r1lv-etho.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0fwtvez9zmx2u.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/130x3fcu5p3te.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/144uk2ksl9gms.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1ltmxcws50his.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0ywvu048cgs-5.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0kuzqsci12ij_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3l_lrp8-13xc8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/22xlfele-mnpf.js\" async=\"\"></script>\n<meta name=\"google-site-verification\" content=\"OGCgPW_lWoS2Vpv6Kbhjah9U839PeHR5NTrLJ6Fd1pM\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.3ell48jefmzh_.ico\" sizes=\"32x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.svg?icon.1hw01ngtei__6.svg\" sizes=\"any\" type=\"image/svg+xml\">\n<meta name=\"sentry-trace\" content=\"f6b4bc3e0b9a48959717e111b172daa8-afd88e5d7e1b177b-1\">\n<meta name=\"baggage\" content=\"sentry-environment=prod-us,sentry-release=d134711eb13c50e9b01ad2c701bebd8b534d5306,sentry-public_key=5a4eb57bb1b3b769fc750ad0f26c2007,sentry-trace_id=f6b4bc3e0b9a48959717e111b172daa8,sentry-org_id=4511264058441728,sentry-transaction=%2Flogin,sentry-sampled=true,sentry-sample_rand=0.4403849631649932,sentry-sample_rate=1\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/chunks/3k60lfaskn_5x.js\" id=\"_R_\" async=\"\"></script>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/3b7kfjtog_fjj.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/3k60lfaskn_5x.js\">\n<script src=\"/_next/static/chunks/3x7padtx7vwmd.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3hftvx7_a8px1.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2lzp3c-jpnq5g.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0ujt_loomz70a.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-27tvvjualgy-h.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2hbl2__da5s92.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/13_r20cne5rt_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2x2eof9zuqnrz.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0_5jy3c5m3s9y.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1p95wlip_dutu.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3fn-r1lv-etho.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0fwtvez9zmx2u.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/130x3fcu5p3te.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/144uk2ksl9gms.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1ltmxcws50his.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0ywvu048cgs-5.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0kuzqsci12ij_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3l_lrp8-13xc8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/22xlfele-mnpf.js\" async=\"\"></script>\n<meta name=\"google-site-verification\" content=\"OGCgPW_lWoS2Vpv6Kbhjah9U839PeHR5NTrLJ6Fd1pM\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.3ell48jefmzh_.ico\" sizes=\"32x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.svg?icon.1hw01ngtei__6.svg\" sizes=\"any\" type=\"image/svg+xml\">\n<meta name=\"sentry-trace\" content=\"a57c8a8f70e94293b8d3201401686c73-82d2fee88e777af1-1\">\n<meta name=\"baggage\" content=\"sentry-environment=prod-us,sentry-release=d134711eb13c50e9b01ad2c701bebd8b534d5306,sentry-public_key=5a4eb57bb1b3b769fc750ad0f26c2007,sentry-trace_id=a57c8a8f70e94293b8d3201401686c73,sentry-org_id=4511264058441728,sentry-transaction=%2Flogin,sentry-sampled=true,sentry-sample_rand=0.6197236625607347,sentry-sample_rate=1\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/chunks/3k60lfaskn_5x.js\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/3x7padtx7vwmd.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/3x7padtx7vwmd.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"7e63-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["x-envoy-upstream-service-time", "4"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/turbopack-27tvvjualgy-h.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/turbopack-27tvvjualgy-h.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"276a-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "5"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/2hbl2__da5s92.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/2hbl2__da5s92.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"396a-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "11"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/2x2eof9zuqnrz.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/2x2eof9zuqnrz.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"51e3-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "11"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/3fn-r1lv-etho.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/3fn-r1lv-etho.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"29609-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "11"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/13_r20cne5rt_.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/13_r20cne5rt_.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"5629-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "14"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://go.apollo.dev/\""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/22xlfele-mnpf.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/22xlfele-mnpf.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"259-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "601"],
+          ["vary", "Accept-Encoding"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "13"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/3l_lrp8-13xc8.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/3l_lrp8-13xc8.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"88c-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "16"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/3k60lfaskn_5x.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/3k60lfaskn_5x.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"1f24-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "12"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/144uk2ksl9gms.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/144uk2ksl9gms.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"98f-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "19"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/1p95wlip_dutu.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/1p95wlip_dutu.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"9b1e-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "19"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://dev.apollodata.com/\"\n\"https://yarnpkg.com/\""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/0ywvu048cgs-5.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/0ywvu048cgs-5.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"700f-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "17"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/1ltmxcws50his.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/1ltmxcws50his.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"7078-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "14"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/0ujt_loomz70a.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/0ujt_loomz70a.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"9e94-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "11"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/0fwtvez9zmx2u.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/0fwtvez9zmx2u.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"f5a3-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "8"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://bit.ly/\"\n\"https://stalniy.github.io/\""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/0_5jy3c5m3s9y.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/0_5jy3c5m3s9y.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"c221-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "12"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/0cz1d0mv5g_q7.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:35 GMT"],
+          ["etag", "W/\"1b7d2-1a0f1563978\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "11"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/2lzp3c-jpnq5g.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/2lzp3c-jpnq5g.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"260a1-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "7"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/130x3fcu5p3te.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/130x3fcu5p3te.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"21d51-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "14"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://chrome.google.com/\""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/0kuzqsci12ij_.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/0kuzqsci12ij_.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"2da14-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "14"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/3hftvx7_a8px1.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/3hftvx7_a8px1.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"7950e-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["x-envoy-upstream-service-time", "13"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://docs.sentry.io/\""
       }
     }
   },
   "dns": {
-    "NS us.hub.indykite.com": {
+    "A us.hub.indykite.com": {
       "result": {
         "name": "us.hub.indykite.com",
-        "type": "NS",
-        "records": []
+        "type": "A",
+        "records": ["34.26.82.238"]
       }
     },
     "AAAA us.hub.indykite.com": {
@@ -46,11 +444,11 @@
         "records": []
       }
     },
-    "A us.hub.indykite.com": {
+    "NS us.hub.indykite.com": {
       "result": {
         "name": "us.hub.indykite.com",
-        "type": "A",
-        "records": ["34.26.82.238"]
+        "type": "NS",
+        "records": []
       }
     },
     "NS hub.indykite.com": {

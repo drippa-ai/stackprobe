@@ -1,13 +1,13 @@
 {
   "url": "https://getcircular.ai/login",
-  "recordedAt": "2026-10-04T17:53:03.489Z",
+  "recordedAt": "2026-10-04T20:16:45.134Z",
   "http": {
     "GET https://getcircular.ai/login": {
       "result": {
         "url": "https://getcircular.ai/login",
         "status": 200,
         "headers": [
-          ["age", "1981"],
+          ["age", "1122"],
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-encoding", "br"],
           ["content-type", "text/html; charset=utf-8"],
@@ -24,14 +24,741 @@
           ["x-nextjs-stale-time", "300"],
           ["x-powered-by", "Next.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::iad1::sjdzn-1791136383833-d3c711511728"],
+          ["x-vercel-id", "arn1::iad1::jbzxn-1791145005334-c60088483f58"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" href=\"/_next/static/media/4473ecc91f70f139-s.p.woff\" as=\"font\" crossorigin=\"\" type=\"font/woff\">\n<link rel=\"preload\" href=\"/_next/static/media/463dafcda517f24f-s.p.woff\" as=\"font\" crossorigin=\"\" type=\"font/woff\">\n<link rel=\"preload\" href=\"/_next/static/media/b1edc04b1a551a15-s.p.woff\" as=\"font\" crossorigin=\"\" type=\"font/woff\">\n<link rel=\"preload\" as=\"image\" href=\"/api/gradient?width=250&amp;height=325&amp;seed=auth-layout\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/6eef696d342ace66.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/3fac3464f0551057.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/webpack-0c70e006b1645aa9.js\">\n<script src=\"/_next/static/chunks/ab71fe2e-86ffc8fe8760e451.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/37206-ca7da75fe76959db.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/main-app-fd1784bf577e444e.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0d813d77-d3b4b989ffa96258.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/44964-28ea2b6bdbfb8a99.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/29598-53194e1804e5b088.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/8347-51dc413e3302c28f.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/77197-686fdd59b41d6746.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/40936-af88b39a8df7bb05.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/layout-7a0e19c7bedfd572.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/47324-02a7e0eee5669ad9.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/59453-6d92f42e4f657550.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/37975-ad3b4d61f80fa5a7.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/(site)/layout-2d23632d8c9f3d35.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/08ffd5a1-9dedab42a7562aa0.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/6317-d178cb7bfb30b409.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/71863-289aa582025445b7.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/20196-aaca0586678b6c44.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/19727-5e14e3ed9c945c3f.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/92011-fac43d5b52e514a6.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/25423-243c0bd114bab282.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/97208-828a51a2437f5d9f.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/65588-53718a6fcb7ccbd9.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/72983-089b8cd8f264044c.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/69172-75b11cc963cb5cd1.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/82576-df6953936c430004.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/(site)/page-a140ab77eceaa07d.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/35652-e212ee14758cc48a.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/8640-d2481b90d02f6254.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/83504-eec607a5c43b5993.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/95312-62b6c7856b674c45.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/94059-a1c72fe907389f48.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/(site)/login/page-0c17093a1e561bf1.js\" async=\"\"></script>\n<link rel=\"canonical\" href=\"https://getcircular.ai\">\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Circular News\" href=\"https://getcircular.ai/rss.xml\">\n<link rel=\"llms-txt\" type=\"text/plain\" href=\"https://getcircular.ai/llms.txt\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"description\" content=\"Log in to your Circular account to manage your consignment store, inventory, and sellers.\">\n<meta name=\"author\" content=\"Circular Resale\">\n<meta name=\"keywords\" content=\"resale software,AI powered resale software,inventory management,consignment inventory management,branded resale,AI resale,consignment software\">\n<meta name=\"creator\" content=\"Circular Resale\">\n<meta name=\"publisher\" content=\"Circular Resale\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta name=\"googlebot\" content=\"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1\">\n<link rel=\"canonical\" href=\"https://getcircular.ai\">\n<meta property=\"og:title\" content=\"Circular Resale | Software for Consignment, Thrift &amp; Brands\">\n<meta property=\"og:description\" content=\"Circular Resale is the operating system for resale. 15x faster intake, AI pricing, and inventory management for consignment, thrift, and brands.\">\n<meta property=\"og:url\" content=\"https://getcircular.ai\">\n<meta property=\"og:site_name\" content=\"Circular Resale\">\n<meta property=\"og:locale\" content=\"en_US\">\n<meta property=\"og:image\" content=\"https://getcircular.ai/Circular-OG-image.jpg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"Circular Resale - The operating system for resale\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:creator\" content=\"@circularresale\">\n<meta name=\"twitter:title\" content=\"Circular Resale | Software for Consignment, Thrift &amp; Brands\">\n<meta name=\"twitter:description\" content=\"Circular Resale is the operating system for resale. 15x faster intake, AI pricing, and inventory management for consignment, thrift, and brands.\">\n<meta name=\"twitter:image\" content=\"https://getcircular.ai/Circular-OG-image.jpg\">\n<link rel=\"shortcut icon\" href=\"https://getcircular.ai/logo-new-9.svg\">\n<link rel=\"icon\" href=\"/favicon.ico\" type=\"image/x-icon\" sizes=\"48x48\">\n<link rel=\"icon\" href=\"https://getcircular.ai/logo-new-9.svg\">\n<link rel=\"apple-touch-icon\" href=\"https://getcircular.ai/logo-new-9.svg\">\n<script src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\" nomodule=\"\"></script>\n<a href=\"/\"></a>\n<a href=\"/product\">Product</a>\n<a href=\"/news\">News</a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"/how-it-works\">How It Works</a>\n<a href=\"/login\">Log in</a>\n<a href=\"/demo\">Demo</a>\n<a href=\"/onboarding\">Join</a>\n<a href=\"/features\">Features</a>\n<a href=\"/charities\">Charities</a>\n<a href=\"/business-models\">Business models</a>\n<a href=\"/about\">About</a>\n<a href=\"/resources\">Resources</a>\n<script src=\"/_next/static/chunks/webpack-0c70e006b1645aa9.js\" id=\"_R_\" async=\"\"></script>"
       }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/ab71fe2e-86ffc8fe8760e451.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/ab71fe2e-86ffc8fe8760e451.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"ab71fe2e-86ffc8fe8760e451.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"c5a5e6ce2f184ef29271db8633233112\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/ab71fe2e-86ffc8fe8760e451.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mmn2m-1791145005876-c7cc65249f6a"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/main-app-fd1784bf577e444e.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/main-app-fd1784bf577e444e.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"main-app-fd1784bf577e444e.js\""],
+          ["content-length", "575"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "\"192632bce977218763a71f70ff95359d\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/main-app-fd1784bf577e444e.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::sk9k4-1791145005948-69e4be9387f6"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/app/layout-7a0e19c7bedfd572.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/app/layout-7a0e19c7bedfd572.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"layout-7a0e19c7bedfd572.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"552ab45aa58402d9ea21a32c285f3f1a\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/app/layout-7a0e19c7bedfd572.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::99cpq-1791145005948-bf2b8eb3afbf"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://api-eu.mixpanel.com/\"\n\"https://kqjbkahnjlekdvqrzunc.supabase.co/\"\n\"https://ndoyjyehjpocvtgvafym.supabase.co/\"\n\"https://www.clarity.ms/\"\n\"https://www.googletagmanager.com/\""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/44964-28ea2b6bdbfb8a99.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/44964-28ea2b6bdbfb8a99.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"44964-28ea2b6bdbfb8a99.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"3b6ce99eb0f612eea7f83a3c31924ea5\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/44964-28ea2b6bdbfb8a99.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9v6bk-1791145005948-bfbedf137d27"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/47324-02a7e0eee5669ad9.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/47324-02a7e0eee5669ad9.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"47324-02a7e0eee5669ad9.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"89731dabf060142d8e0eb87cc8898826\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/47324-02a7e0eee5669ad9.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::lz6t2-1791145005944-9d3d291790c3"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/08ffd5a1-9dedab42a7562aa0.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/08ffd5a1-9dedab42a7562aa0.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "6079"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"08ffd5a1-9dedab42a7562aa0.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"5fdb093eb67df7c20872df7241e27650\""],
+          ["last-modified", "Sun, 04 Oct 2026 18:35:26 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/08ffd5a1-9dedab42a7562aa0.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::jfj88-1791145005944-6d8821526ff1"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/77197-686fdd59b41d6746.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/77197-686fdd59b41d6746.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"77197-686fdd59b41d6746.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"1cad922ac40c61caafbe20448bf6351f\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/77197-686fdd59b41d6746.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::57zgf-1791145005944-94bb878c47ae"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://in.logs.betterstack.com/\""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/6317-d178cb7bfb30b409.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/6317-d178cb7bfb30b409.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"6317-d178cb7bfb30b409.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"93aea6ad25e8e2ca7f3466ed304244aa\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/6317-d178cb7bfb30b409.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::97x49-1791145005956-f683d9e1a6bd"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/71863-289aa582025445b7.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/71863-289aa582025445b7.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "34553"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"71863-289aa582025445b7.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"adff3144c125be79d8d0de99236dbe4a\""],
+          ["last-modified", "Sun, 04 Oct 2026 10:40:51 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/71863-289aa582025445b7.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::lhkdx-1791145005955-dfa818d2301b"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/app/(site)/layout-2d23632d8c9f3d35.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/app/(site)/layout-2d23632d8c9f3d35.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"layout-2d23632d8c9f3d35.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"6309bad3a1f4070333e50be98bb0ce71\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/app/(site)/layout-2d23632d8c9f3d35.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::hvzgm-1791145005953-4649652bf37f"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://kqjbkahnjlekdvqrzunc.supabase.co/\""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/72983-089b8cd8f264044c.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/72983-089b8cd8f264044c.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "1122"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"72983-089b8cd8f264044c.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"8e310b8c7a78b682374479fb221da21c\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:03 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/72983-089b8cd8f264044c.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::sk9k4-1791145005960-17f6208f5242"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/82576-df6953936c430004.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/82576-df6953936c430004.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "217819"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"82576-df6953936c430004.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"4a721f0a9b6fe579102837218f84c1f3\""],
+          ["last-modified", "Fri, 02 Oct 2026 07:46:26 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/82576-df6953936c430004.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::jfj88-1791145005960-634baddf551b"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://www.linkedin.com/\""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/37975-ad3b4d61f80fa5a7.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/37975-ad3b4d61f80fa5a7.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "6079"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"37975-ad3b4d61f80fa5a7.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"f94b5b75453b3473a8179f7380d1624c\""],
+          ["last-modified", "Sun, 04 Oct 2026 18:35:26 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/37975-ad3b4d61f80fa5a7.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::66pt2-1791145005953-cca5b2045341"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://heyo.so/\"\n\"https://va.vercel-scripts.com/\"\n\"https://vercel.com/\""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/20196-aaca0586678b6c44.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/20196-aaca0586678b6c44.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"20196-aaca0586678b6c44.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"54a6d845baec140408902cc6536739cb\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/20196-aaca0586678b6c44.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9ttlx-1791145005960-f76fbe00c690"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/65588-53718a6fcb7ccbd9.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/65588-53718a6fcb7ccbd9.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "140692"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"65588-53718a6fcb7ccbd9.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"3335299e967291652ae327693c68fb44\""],
+          ["last-modified", "Sat, 03 Oct 2026 05:11:53 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/65588-53718a6fcb7ccbd9.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9v6bk-1791145005965-0d681acfe8d3"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://api.sanity.io/\"\n\"https://cdn.sanity.io/\""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/97208-828a51a2437f5d9f.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/97208-828a51a2437f5d9f.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "217819"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"97208-828a51a2437f5d9f.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"880fd1babbecc96ff06897dbed924569\""],
+          ["last-modified", "Fri, 02 Oct 2026 07:46:26 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/97208-828a51a2437f5d9f.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9ttlx-1791145005965-444a9d87225f"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/29598-53194e1804e5b088.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/29598-53194e1804e5b088.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"29598-53194e1804e5b088.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"34ed9f096acd84e3db5ea153d5e439ef\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/29598-53194e1804e5b088.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::bcth8-1791145005953-ef45c970f8ca"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/59453-6d92f42e4f657550.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/59453-6d92f42e4f657550.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"59453-6d92f42e4f657550.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"3688150bfde6372ba9863467b6003a3a\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/59453-6d92f42e4f657550.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::rg9ks-1791145005953-7ecbdf57c2db"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/35652-e212ee14758cc48a.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/35652-e212ee14758cc48a.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"35652-e212ee14758cc48a.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"b5909e5288a25a1f14d57f15c66f36b2\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/35652-e212ee14758cc48a.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::w2976-1791145005965-84ca3cd38de5"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/8640-d2481b90d02f6254.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/8640-d2481b90d02f6254.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"8640-d2481b90d02f6254.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"e5d8837a17a81ddf3eb5f87ea8ba112d\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/8640-d2481b90d02f6254.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::97x49-1791145005969-047be33dcd42"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/19727-5e14e3ed9c945c3f.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/19727-5e14e3ed9c945c3f.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"19727-5e14e3ed9c945c3f.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"b8defd394eb74573b44483bd90f700c9\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/19727-5e14e3ed9c945c3f.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::kn59q-1791145005964-37ef47009db0"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/app/(site)/page-a140ab77eceaa07d.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/app/(site)/page-a140ab77eceaa07d.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "217819"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"page-a140ab77eceaa07d.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"afc507c303fc995d86612820f06f6414\""],
+          ["last-modified", "Fri, 02 Oct 2026 07:46:26 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/app/(site)/page-a140ab77eceaa07d.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::hdjq2-1791145005965-46b65d24b8c6"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://chatgpt.com/\"\n\"https://claude.ai/\"\n\"https://getcircular.ai/\"\n\"https://kqjbkahnjlekdvqrzunc.supabase.co/\"\n\"https://www.perplexity.ai/\""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/69172-75b11cc963cb5cd1.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/69172-75b11cc963cb5cd1.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "140692"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"69172-75b11cc963cb5cd1.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"db9d27515df81778d6f7fbc2e4484cba\""],
+          ["last-modified", "Sat, 03 Oct 2026 05:11:53 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/69172-75b11cc963cb5cd1.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::6psv2-1791145005965-eb922a85288a"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://radix-ui.com/\""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/25423-243c0bd114bab282.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/25423-243c0bd114bab282.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "1122"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"25423-243c0bd114bab282.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"13fa5386aec240cfd4d3682a018f792e\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:03 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/25423-243c0bd114bab282.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9xpq9-1791145005965-0c24d32bce17"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/92011-fac43d5b52e514a6.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/92011-fac43d5b52e514a6.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "140692"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"92011-fac43d5b52e514a6.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"16ce3024e2060545266e4d25afc17ddd\""],
+          ["last-modified", "Sat, 03 Oct 2026 05:11:53 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/92011-fac43d5b52e514a6.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::gd27n-1791145005964-b6f8e1ab5546"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://acme.com/\"\n\"https://api.sanity.io/\"\n\"https://sanity.io/\"\n\"https://www.sanity.io/\""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/8347-51dc413e3302c28f.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/8347-51dc413e3302c28f.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"8347-51dc413e3302c28f.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"46e0de73eae64be069e71c64b13fbd6f\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/8347-51dc413e3302c28f.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9ttlx-1791145005948-ac190e4b993a"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://supabase.com/\"\n\"realtime-js/2.15.5\"\n\"storage-js/2.12.1\"\n\"supabase-ssr/0.5.2\""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/37206-ca7da75fe76959db.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/37206-ca7da75fe76959db.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"37206-ca7da75fe76959db.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"a1a6c5234d704dd9f3b1913c21f43a45\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/37206-ca7da75fe76959db.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::lcdxf-1791145005952-ca8ad13a929d"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/40936-af88b39a8df7bb05.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/40936-af88b39a8df7bb05.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"40936-af88b39a8df7bb05.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"ddd216beb3eaa9e40d8dbed90ef9407b\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/40936-af88b39a8df7bb05.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::zxz28-1791145005953-c8a76e3cd71f"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://err.47ng.com/\"\n\"https://va.vercel-scripts.com/\"\n\"https://vercel.com/\"\n\"https://www.googletagmanager.com/\""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/0d813d77-d3b4b989ffa96258.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/0d813d77-d3b4b989ffa96258.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0d813d77-d3b4b989ffa96258.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["etag", "W/\"fe12515e2a8392df529772f4eedb07e0\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/0d813d77-d3b4b989ffa96258.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::rgm5t-1791145005949-834f2fa7591f"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://api-js.mixpanel.com/\"\n\"https://cdn.mxpnl.com/\"\n\"https://mixpanel.com/\""
+      }
+    },
+    "GET https://getcircular.ai/_next/static/chunks/83504-eec607a5c43b5993.js": {
+      "result": {
+        "url": "https://getcircular.ai/_next/static/chunks/83504-eec607a5c43b5993.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "225236"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"83504-eec607a5c43b5993.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["etag", "W/\"c863e8532664361b5e1e2154c599ba68\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:42:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/83504-eec607a5c43b5993.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::d9br7-1791145005993-b3718c228f63"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
     }
   },
   "dns": {
+    "A getcircular.ai": {
+      "result": {
+        "name": "getcircular.ai",
+        "type": "A",
+        "records": ["216.150.1.129", "216.150.1.65"]
+      }
+    },
     "AAAA getcircular.ai": {
       "result": {
         "name": "getcircular.ai",
@@ -39,18 +766,11 @@
         "records": []
       }
     },
-    "A getcircular.ai": {
-      "result": {
-        "name": "getcircular.ai",
-        "type": "A",
-        "records": ["216.150.16.1", "216.150.1.129"]
-      }
-    },
     "NS getcircular.ai": {
       "result": {
         "name": "getcircular.ai",
         "type": "NS",
-        "records": ["ns2.vercel-dns.com", "ns1.vercel-dns.com"]
+        "records": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"]
       }
     },
     "CNAME getcircular.ai": {
@@ -60,9 +780,9 @@
         "records": []
       }
     },
-    "TXT 65.16.150.216.origin.asn.cymru.com": {
+    "TXT 129.16.150.216.origin.asn.cymru.com": {
       "result": {
-        "name": "65.16.150.216.origin.asn.cymru.com",
+        "name": "129.16.150.216.origin.asn.cymru.com",
         "type": "TXT",
         "records": ["16509 | 216.150.16.0/24 | US | arin | 2024-07-24"]
       }
@@ -79,7 +799,7 @@
     "getcircular.ai:443": {
       "result": {
         "host": "getcircular.ai",
-        "ip": "216.150.16.65",
+        "ip": "216.150.16.129",
         "issuer": "C=US, O=Let's Encrypt, CN=YR2",
         "subjectAltNames": ["getcircular.ai"],
         "validFrom": "Sep 14 15:53:55 2026 GMT",

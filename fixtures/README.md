@@ -65,3 +65,6 @@ without a recorded answer.
 values or header values beyond a short allowlist) that a scan of that surface makes: its app
 pages, or an unclassified homepage. Record them with `pnpm record-browser`, which needs Chromium
 (`pnpm --filter @drippa/stackprobe-browser-playwright install-chromium`).
+
+Recordings of a surface also hold its own scripts, distilled to the strings the bundle layer
+reads: the origins they mention and `name/1.2.3` SDK versions. No source code is kept.

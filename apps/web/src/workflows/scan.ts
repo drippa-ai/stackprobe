@@ -3,7 +3,9 @@ import {
   classifyStep,
   discoverStep,
   finishScanStep,
+  planDeepStep,
   rootSurfaceStep,
+  runBundleStep,
   runLayerStep,
 } from './scan-steps.ts';
 
@@ -32,5 +34,17 @@ export async function scanWorkflow(
   );
   const surfaces = [{ target: root, results: rootResults }, ...others];
   const classifications = await classifyStep(surfaces);
-  return finishScanStep(scanId, scannedAt, surfaces, classifications);
+  // The deep layers where the product may be. The browser layer joins here once it runs hosted.
+  const plans = await planDeepStep(surfaces, classifications);
+  const deep = await Promise.all(
+    plans.map(async ({ surface, scripts }) => ({
+      id: surface.id,
+      result: await runBundleStep(scanId, surface, scripts),
+    })),
+  );
+  const withDeep = surfaces.map((s) => ({
+    target: s.target,
+    results: [...s.results, ...deep.filter((d) => d.id === s.target.id).map((d) => d.result)],
+  }));
+  return finishScanStep(scanId, scannedAt, withDeep, classifications);
 }

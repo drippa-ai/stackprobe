@@ -46,6 +46,8 @@ describe('scan', () => {
     expect(report.layersRun.map((r) => [r.layer, r.status])).toEqual([
       ['http', 'ok'],
       ['dns', 'failed'],
+      // An unclassified homepage gets the deep layers; with no scripts, bundle has nothing to read.
+      ['bundle', 'skipped'],
     ]);
     expect(reportStatus(report)).toBe('partial');
   });
@@ -97,9 +99,12 @@ describe('scan with discovery', () => {
     expect(report.surfaces.every((s) => s.detections[0]?.tech === 'vercel')).toBe(true);
     expect(ranOn.sort()).toEqual(['app-acme-test', 'root']);
     expect(saved.sort()).toEqual([
+      'acme-test-login bundle',
       'acme-test-login http',
+      'app-acme-test bundle',
       'app-acme-test dns',
       'app-acme-test http',
+      'root bundle',
       'root dns',
       'root http',
     ]);
