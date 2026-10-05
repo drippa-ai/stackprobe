@@ -1,20 +1,25 @@
-import {
-  type Detection,
-  detectionsWithFolded,
-  type Folded,
-  type Report,
-  type ScanRecord,
-  type Surface,
-  surfacesByRole,
-} from '@drippa/stackprobe-core';
+import type { Report, ScanRecord } from '@drippa/stackprobe-core';
 import type { Metadata } from 'next';
+import {
+  foundByText,
+  layersThatRan,
+  type SurfaceTab,
+  scanDuration,
+  surfaceTabs,
+  techLabel,
+  techName,
+  verdict,
+} from '../../../lib/report-view.ts';
 import { getStore } from '../../../lib/services.ts';
 import { rescanAction } from '../../actions.ts';
 import { ScanForm } from '../../scan-form.tsx';
+import { SiteHeader } from '../../site-chrome.tsx';
 import { AutoRefresh } from './auto-refresh.tsx';
+import { CopyLink } from './copy-link.tsx';
 
 interface Props {
   params: Promise<{ domain: string }>;
+  searchParams: Promise<{ surface?: string }>;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -22,167 +27,207 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return { title: `${decodeURIComponent(domain)} · stackprobe` };
 }
 
-export default async function ScanPage({ params }: Props) {
+export default async function ScanPage({ params, searchParams }: Props) {
   const domain = decodeURIComponent((await params).domain).toLowerCase();
+  const { surface } = await searchParams;
   const scan = await getStore().latestScan(domain);
 
-  if (!scan) {
-    return (
-      <>
-        <h1>{domain}</h1>
-        <p className="muted">Not scanned yet.</p>
-        <ScanForm defaultValue={domain} />
-      </>
-    );
-  }
-
   return (
     <>
-      <h1>{scan.domain}</h1>
-      <ScanStatusLine scan={scan} />
-      {scan.status === 'running' ? <AutoRefresh /> : null}
-      {scan.report ? <ReportView report={scan.report} /> : null}
-    </>
-  );
-}
-
-function ScanStatusLine({ scan }: { scan: ScanRecord }) {
-  if (scan.status === 'running') {
-    return <p className="muted">Scanning {scan.url} …</p>;
-  }
-  return (
-    <>
-      <p className="muted">
-        Scanned {scan.url} on {formatDate(scan.finishedAt ?? scan.createdAt)}.
-        {scan.status === 'partial' ? (
-          <span className="warn"> Some checks failed, so this result may be incomplete.</span>
-        ) : null}
-      </p>
-      <form action={rescanAction} className="scan">
-        <input type="hidden" name="url" value={scan.url} />
-        <button type="submit">Scan again</button>
-      </form>
-    </>
-  );
-}
-
-// Product first: marketing findings never stand in for the product's stack.
-function ReportView({ report }: { report: Report }) {
-  const { product, marketing, other, folded } = surfacesByRole(report);
-  return (
-    <>
-      <section>
-        <h2>Product</h2>
-        {product.length > 0 ? null : marketing.length > 0 ? (
-          <p className="warn">No product app found; showing the marketing site only.</p>
+      <SiteHeader>
+        <ScanForm variant="compact" />
+      </SiteHeader>
+      <main className="page report">
+        {!scan ? (
+          <NotScanned domain={domain} />
+        ) : scan.report ? (
+          <ReportView scan={scan} report={scan.report} selected={surface} />
         ) : (
-          <p className="warn">
-            Couldn't tell which of these is the product app, so nothing is shown as the product.
-          </p>
+          <Running scan={scan} />
         )}
-      </section>
-      {[...product, ...marketing, ...other].map((surface) => (
-        <SurfaceView key={surface.id} surface={surface} folded={folded[surface.id] ?? []} />
-      ))}
-      <section>
-        <h2>Checks run</h2>
-        <ul>
-          {report.layersRun.map((run) => (
-            <li key={`${run.surfaceId} ${run.layer}`}>
-              {run.layer.toUpperCase()}: {run.status}
-              {run.error ? <span className="muted"> ({run.error.message})</span> : null}
-            </li>
-          ))}
-        </ul>
-        <p className="muted">Fingerprints version {report.fingerprintsVersion}.</p>
-      </section>
+      </main>
     </>
   );
 }
 
-const SURFACE_LABELS: Record<Surface['kind'], string> = {
-  unclassified: 'Not sure what this is',
-  marketing: 'Marketing site',
-  app: 'Product app',
-  api: 'API',
-  docs: 'Docs',
-  status: 'Status page',
-  auth: 'Sign-in',
-  other: 'Other',
-};
-
-const FOUND_BY = (foundBy: NonNullable<Surface['foundBy']>) =>
-  foundBy.kind === 'subdomain'
-    ? 'Found as a subdomain.'
-    : foundBy.text
-      ? `Found via the “${foundBy.text}” link.`
-      : 'Found via a link.';
-
-function SurfaceView({ surface, folded }: { surface: Surface; folded: Folded[] }) {
-  const detections = detectionsWithFolded(surface, folded);
+function NotScanned({ domain }: { domain: string }) {
   return (
-    <section>
-      <h2>
-        <code>{surface.url}</code>
-      </h2>
-      <p className="muted">
-        <strong>{SURFACE_LABELS[surface.kind]}</strong>
-        {surface.kindConfidence !== null ? ` (${Math.round(surface.kindConfidence * 100)}%)` : ''}
-        {surface.kindReasons?.length ? `: ${surface.kindReasons.join(', ')}.` : '.'}
-        {surface.foundBy ? ` ${FOUND_BY(surface.foundBy)}` : ''}
-      </p>
-      {folded.length > 0 ? (
-        <p className="muted">
-          Also:{' '}
-          {folded
-            .map(({ surface: s, reason }) =>
-              reason === 'redirect' ? `${s.url} redirects here` : `${s.url} (same app)`,
-            )
-            .join('; ')}
-          .
-        </p>
-      ) : null}
-      {detections.length === 0 ? (
-        <p>Nothing detected here yet.</p>
-      ) : (
-        <ul className="detections">
-          {detections.map((detection) => (
-            <DetectionView key={detection.tech} detection={detection} />
-          ))}
-        </ul>
-      )}
+    <section className="report-head">
+      <div>
+        <h1>{domain}</h1>
+        <p className="verdict">Not scanned yet.</p>
+      </div>
+      <ScanForm defaultValue={domain} variant="compact" />
     </section>
   );
 }
 
-function DetectionView({ detection }: { detection: Detection }) {
+function Running({ scan }: { scan: ScanRecord }) {
   return (
-    <li>
-      <div className="detection-head">
-        <strong>
-          {detection.tech}
-          {detection.version ? ` ${detection.version}` : ''}
-        </strong>
-        <span title="Confidence">{Math.round(detection.confidence * 100)}%</span>
+    <section className="report-head">
+      <div>
+        <h1>{scan.domain}</h1>
+        <p className="verdict" role="status">
+          Scanning {scan.url}. This takes about half a minute.
+        </p>
       </div>
-      <div className="muted">{detection.category}</div>
-      <details>
-        <summary>Evidence ({detection.evidence.length})</summary>
-        <ul>
-          {detection.evidence.map((evidence) => (
-            <li key={`${evidence.ruleId} ${evidence.detail}`}>
-              <code>{evidence.detail}</code>{' '}
-              <span className="muted">
-                {evidence.type} by {evidence.layer.toUpperCase()}
-              </span>
-            </li>
-          ))}
-        </ul>
-      </details>
-    </li>
+      <AutoRefresh />
+    </section>
   );
 }
 
+function ReportView({
+  scan,
+  report,
+  selected,
+}: {
+  scan: ScanRecord;
+  report: Report;
+  selected: string | undefined;
+}) {
+  const tabs = surfaceTabs(report);
+  const current = tabs.find((t) => t.surface.id === selected) ?? tabs[0];
+  const duration = scanDuration(scan.createdAt, scan.finishedAt);
+  return (
+    <>
+      <section className="report-head">
+        <div>
+          <h1>{scan.domain}</h1>
+          <p className="verdict">{verdict(report)}</p>
+        </div>
+        <dl className="facts">
+          <dt>Scanned</dt>
+          <dd>{formatDate(scan.finishedAt ?? scan.createdAt)}</dd>
+          <dt>Surfaces</dt>
+          <dd>{report.surfaces.length}</dd>
+          <dt>Took</dt>
+          <dd>{duration ?? '–'}</dd>
+        </dl>
+      </section>
+
+      <section>
+        <nav className="tabs" aria-label="Surfaces">
+          {tabs.map((tab) => (
+            <a
+              key={tab.surface.id}
+              href={`?surface=${encodeURIComponent(tab.surface.id)}`}
+              aria-current={tab === current ? 'page' : undefined}
+            >
+              {tab.label}
+            </a>
+          ))}
+        </nav>
+        {current ? <SurfacePanel tab={current} /> : null}
+        <p className="muted" style={{ margin: '14px 0 0', fontSize: 14 }}>
+          Backends and databases aren't visible from outside. Checks that ran:{' '}
+          {layersThatRan(report)}.
+          {scan.status === 'partial' ? (
+            <span className="warn"> Some checks failed, so this result may be incomplete.</span>
+          ) : null}
+        </p>
+      </section>
+
+      <section className="report-foot">
+        <span className="muted">Fingerprints {report.fingerprintsVersion}</span>
+        <span className="actions">
+          <CopyLink />
+          <form action={rescanAction}>
+            <input type="hidden" name="url" value={scan.url} />
+            <button type="submit" className="link-button">
+              Scan again
+            </button>
+          </form>
+        </span>
+      </section>
+    </>
+  );
+}
+
+function SurfacePanel({ tab }: { tab: SurfaceTab }) {
+  const { surface, folded, detections } = tab;
+  const sure =
+    surface.kindConfidence !== null ? `, ${Math.round(surface.kindConfidence * 100)}% sure` : '';
+  const notes = [
+    foundByText(surface),
+    surface.kind === 'unclassified' && surface.kindReasons?.length
+      ? surface.kindReasons.join(', ')
+      : null,
+    ...folded.map(({ surface: s, reason }) =>
+      reason === 'redirect'
+        ? `${shortUrl(s.url)} redirects here`
+        : `${shortUrl(s.url)} is the same app`,
+    ),
+  ].filter(Boolean);
+  return (
+    <>
+      <div className="surface-line">
+        <span>
+          <span className="mono">{shortUrl(surface.url)}</span>{' '}
+          <span className="muted">
+            · {tab.label.split(' · ')[0]?.toLowerCase()}
+            {sure}
+          </span>
+        </span>
+        {notes.length ? <span className="muted">{notes.join(' · ')}</span> : null}
+      </div>
+      {detections.length === 0 ? (
+        <p>Nothing detected here.</p>
+      ) : (
+        <div className="techs">
+          <div className="tech-head" aria-hidden="true">
+            <span>Technology</span>
+            <span className="num">Clues</span>
+            <span className="num">Confidence</span>
+          </div>
+          {detections.map((detection) => (
+            <details key={detection.tech}>
+              <summary className="tech-row">
+                <span
+                  className="bar"
+                  style={{ width: `${Math.round(detection.confidence * 100)}%` }}
+                />
+                <span>
+                  <strong>{techName(detection.tech)}</strong>
+                  {detection.version ? <span className="mono"> {detection.version}</span> : null}{' '}
+                  <span className="muted">· {detection.category}</span>
+                  <span className="visually-hidden">
+                    {` ${techLabel(detection)}: ${detection.evidence.length} clues, ${Math.round(detection.confidence * 100)}% confidence`}
+                  </span>
+                </span>
+                <span className="num" aria-hidden="true">
+                  {detection.evidence.length}
+                </span>
+                <span className="num" aria-hidden="true">
+                  {Math.round(detection.confidence * 100)}%
+                </span>
+              </summary>
+              <ul className="evidence">
+                {detection.evidence.map((e) => (
+                  <li key={`${e.ruleId} ${e.detail}`}>
+                    <span>{e.layer}</span>
+                    <span>{e.detail}</span>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          ))}
+        </div>
+      )}
+    </>
+  );
+}
+
+function shortUrl(url: string): string {
+  const u = new URL(url);
+  return `${u.hostname}${u.pathname === '/' ? '' : u.pathname}`;
+}
+
 function formatDate(iso: string): string {
-  return new Date(iso).toUTCString();
+  return new Date(iso).toLocaleString('en-GB', {
+    day: 'numeric',
+    month: 'short',
+    hour: '2-digit',
+    minute: '2-digit',
+    timeZone: 'UTC',
+  });
 }

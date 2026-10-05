@@ -1,6 +1,11 @@
 import type { Metadata } from 'next';
+import { Bricolage_Grotesque, JetBrains_Mono } from 'next/font/google';
 import type { ReactNode } from 'react';
+import { SiteFooter } from './site-chrome.tsx';
 import './globals.css';
+
+const sans = Bricolage_Grotesque({ subsets: ['latin'], variable: '--font-sans' });
+const mono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mono' });
 
 export const metadata: Metadata = {
   title: 'stackprobe',
@@ -9,14 +14,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${sans.variable} ${mono.variable}`}>
       <body>
-        <main>
-          <a href="/" className="brand">
-            stackprobe
-          </a>
-          {children}
-        </main>
+        {children}
+        <SiteFooter />
       </body>
     </html>
   );
