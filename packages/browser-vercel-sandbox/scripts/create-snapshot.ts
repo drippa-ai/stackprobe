@@ -1,7 +1,8 @@
 // Creates the sandbox snapshot the hosted app's browser layer starts from: Node 24, the pinned
 // playwright-core and Chromium with its system libraries, in fra1, never expiring.
 //   pnpm --filter @drippa/stackprobe-browser-vercel-sandbox create-snapshot
-// Needs Vercel credentials for the project: VERCEL_OIDC_TOKEN (from `vercel env pull`) or
+// Needs Vercel credentials for the project: VERCEL_OIDC_TOKEN in .env.local (from `vercel link`
+// or `vercel env pull`) or
 // VERCEL_TOKEN + VERCEL_TEAM_ID + VERCEL_PROJECT_ID. Prints the snapshot id to set as
 // STACKPROBE_SANDBOX_SNAPSHOT. Re-run only when playwright-core is upgraded.
 import { Sandbox } from '@vercel/sandbox';

@@ -22,7 +22,7 @@
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit",
     "build-source": "node scripts/build-source.ts",
-    "create-snapshot": "node --env-file-if-exists=../../.env.vercel scripts/create-snapshot.ts"
+    "create-snapshot": "node --env-file-if-exists=../../.env.local scripts/create-snapshot.ts"
   },
   "dependencies": {
     "@drippa/stackprobe-core": "workspace:*",

@@ -9,11 +9,11 @@ Not on Vercel? Use `@drippa/stackprobe-browser-playwright` with a local Chromium
 
 ## One-time setup
 
-1. Link the repo to the Vercel project and pull a development token (valid 12 hours):
+1. Link the repo to the Vercel project. This writes a development token (valid 12 hours) as
+   `VERCEL_OIDC_TOKEN` to `.env.local`; `vercel env pull` refreshes it later:
 
    ```sh
    vercel link --scope <team> --project <project>
-   vercel env pull .env.vercel
    ```
 
 2. Create the snapshot (Node 24, playwright-core and Chromium; it never expires):
