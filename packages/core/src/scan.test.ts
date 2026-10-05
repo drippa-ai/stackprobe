@@ -2,6 +2,7 @@ import { describe, expect, test } from 'vitest';
 import type { Layer } from './layer.ts';
 import type { Net } from './net.ts';
 import { Report } from './report.ts';
+import type { LayerResult } from './runner.ts';
 import { buildReport, layersForSurfaces, reportStatus, scan } from './scan.ts';
 import { surfaceTarget } from './surface.ts';
 
@@ -124,6 +125,29 @@ describe('scan with discovery', () => {
     expect(plan.get('a')?.map((l) => l.id)).toEqual(['http']);
     expect(plan.get('b')?.map((l) => l.id)).toEqual(['http', 'dns']);
   });
+});
+
+test('a surface that ends up on another host says where', () => {
+  const page = (url: string): LayerResult => ({
+    run: { layer: 'http', surfaceId: 'x', status: 'ok', durationMs: 1 },
+    signals: [{ layer: 'http', kind: 'http-status', value: '200', source: url }],
+  });
+  const report = buildReport({
+    domain: 'acme.test',
+    scannedAt: new Date('2026-10-05T12:00:00Z'),
+    surfaces: [
+      {
+        target: surfaceTarget('https://acme.test/signin', 'a'),
+        results: [page('https://app.acme.test/login')],
+      },
+      {
+        target: surfaceTarget('https://acme.test/', 'b'),
+        results: [page('https://www.acme.test/')],
+      },
+    ],
+  });
+  expect(report.surfaces[0]?.redirectsTo).toBe('https://app.acme.test/login');
+  expect(report.surfaces[1]?.redirectsTo).toBeUndefined();
 });
 
 describe('reportStatus', () => {

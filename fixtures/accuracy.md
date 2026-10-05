@@ -54,29 +54,29 @@ Fingerprints version `252e34859e3a`. 46 of 49 surfaces scored, 38 of them with r
 
 ## Finding the app
 
-**Scanning the company's homepage found 21 of 22 product apps (95%). It called 18 of them the product app by rules only (82%), and 18 with Jev (82%).** Each app in the ground truth, how the scan reached it, and what it called it:
+**Scanning the company's homepage found 21 of 22 product apps (95%). It called 17 of them the product app by rules only (77%), and 17 with Jev (77%). The report shows exactly one product app, the right one, for 16 (73%).** Each app in the ground truth, how the scan reached it, what it called it, and what the report shows as the product:
 
-- https://app.ayrshare.com/: link "Log in"; called app
-- https://app.cal.com/: link "Sign in"; called app
-- https://app.drippa.ai/: subdomain check; called app
-- https://app.goodtape.io/auth/login: link "Login"; called app
-- https://app.humata.ai/: link "Log in"; called app
-- https://app.inngest.com/: link "Sign in"; called app
-- https://app.leonardo.ai/: subdomain check; called app
-- https://app.openstatus.dev/: link "Dashboard"; called app
-- https://app.qa.tech/: link "Log in"; called app
-- https://app.shortwave.com/: link "Sign in"; called app
-- https://app.turso.tech/: link "Try Cloud free"; called app
-- https://dashboard.buildwithfern.com/: link "Sign in"; called app
-- https://dashboard.meter.com/: link "Dashboard"; called app
-- https://getcircular.ai/login: link "Log in"; called app
-- https://resend.com/login: link "Log in"; called app
-- https://thehouse.id/: the homepage itself; called unclassified
-- https://us.hub.indykite.com/login: link "Sandbox"; called app
-- https://www.bydagny.com/sign-in: link "Log in"; called app
-- https://www.chatbase.co/dashboard: link "Start free trial"; called app
-- https://www.openevidence.com/: the homepage itself; called unclassified
-- https://www.udio.com/: the homepage itself; called unclassified
+- https://app.ayrshare.com/: link "Log in"; called app; product shown: https://app.ayrshare.com/login
+- https://app.cal.com/: link "Sign in"; called app; product shown: https://app.cal.com/auth/login
+- https://app.drippa.ai/: subdomain check; called app; product shown: https://app.drippa.ai/
+- https://app.goodtape.io/auth/login: link "Login"; called app; product shown: https://app.goodtape.io/auth/login
+- https://app.humata.ai/: link "Log in"; called app; product shown: https://app.humata.ai/signin
+- https://app.inngest.com/: link "Sign in"; called app; product shown: https://app.inngest.com/
+- https://app.leonardo.ai/: subdomain check; called unclassified; product shown: none
+- https://app.openstatus.dev/: link "Dashboard"; called app; product shown: https://app.openstatus.dev/login
+- https://app.qa.tech/: link "Log in"; called app; product shown: https://app.qa.tech/auth/sign-in
+- https://app.shortwave.com/: link "Sign in"; called app; product shown: https://app.shortwave.com/login
+- https://app.turso.tech/: link "Try Cloud free"; called app; product shown: https://app.turso.tech/signup
+- https://dashboard.buildwithfern.com/: link "Sign in"; called app; product shown: https://dashboard.buildwithfern.com/
+- https://dashboard.meter.com/: link "Dashboard"; called app; product shown: https://dashboard.meter.com/, https://portal.meter.com/
+- https://getcircular.ai/login: link "Log in"; called app; product shown: https://getcircular.ai/login
+- https://resend.com/login: link "Log in"; called app; product shown: https://resend.com/login
+- https://thehouse.id/: the homepage itself; called unclassified; product shown: none
+- https://us.hub.indykite.com/login: link "Sandbox"; called app; product shown: https://us.hub.indykite.com/login
+- https://www.bydagny.com/sign-in: link "Log in"; called app; product shown: https://www.bydagny.com/sign-in
+- https://www.chatbase.co/dashboard: link "Start free trial"; called app; product shown: https://www.chatbase.co/dashboard
+- https://www.openevidence.com/: the homepage itself; called unclassified; product shown: https://portal.openevidence.com/
+- https://www.udio.com/: the homepage itself; called unclassified; product shown: https://app.udio.com/
 - https://stackoverflow.com/questions: **missed** (scanned https://stackoverflow.com/, https://api.stackoverflow.com/)
 
 ## Missed

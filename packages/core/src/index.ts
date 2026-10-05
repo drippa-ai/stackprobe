@@ -12,11 +12,14 @@ export type {
   ClassifiedKind,
   ClassifyOptions,
   Decider,
+  Folded,
+  SurfaceRoles,
 } from './classify.ts';
 export {
   classifyByRules,
   classifySurfaces,
   DECIDER_MINIMUM,
+  detectionsWithFolded,
   KIND_DESCRIPTIONS,
   kindQuestion,
   RULES_MINIMUM,

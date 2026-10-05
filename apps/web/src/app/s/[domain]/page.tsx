@@ -1,5 +1,7 @@
 import {
   type Detection,
+  detectionsWithFolded,
+  type Folded,
   type Report,
   type ScanRecord,
   type Surface,
@@ -66,7 +68,7 @@ function ScanStatusLine({ scan }: { scan: ScanRecord }) {
 
 // Product first: marketing findings never stand in for the product's stack.
 function ReportView({ report }: { report: Report }) {
-  const { product, marketing, other } = surfacesByRole(report);
+  const { product, marketing, other, folded } = surfacesByRole(report);
   return (
     <>
       <section>
@@ -80,7 +82,7 @@ function ReportView({ report }: { report: Report }) {
         )}
       </section>
       {[...product, ...marketing, ...other].map((surface) => (
-        <SurfaceView key={surface.id} surface={surface} />
+        <SurfaceView key={surface.id} surface={surface} folded={folded[surface.id] ?? []} />
       ))}
       <section>
         <h2>Checks run</h2>
@@ -116,7 +118,8 @@ const FOUND_BY = (foundBy: NonNullable<Surface['foundBy']>) =>
       ? `Found via the “${foundBy.text}” link.`
       : 'Found via a link.';
 
-function SurfaceView({ surface }: { surface: Surface }) {
+function SurfaceView({ surface, folded }: { surface: Surface; folded: Folded[] }) {
+  const detections = detectionsWithFolded(surface, folded);
   return (
     <section>
       <h2>
@@ -128,11 +131,22 @@ function SurfaceView({ surface }: { surface: Surface }) {
         {surface.kindReasons?.length ? `: ${surface.kindReasons.join(', ')}.` : '.'}
         {surface.foundBy ? ` ${FOUND_BY(surface.foundBy)}` : ''}
       </p>
-      {surface.detections.length === 0 ? (
+      {folded.length > 0 ? (
+        <p className="muted">
+          Also:{' '}
+          {folded
+            .map(({ surface: s, reason }) =>
+              reason === 'redirect' ? `${s.url} redirects here` : `${s.url} (same app)`,
+            )
+            .join('; ')}
+          .
+        </p>
+      ) : null}
+      {detections.length === 0 ? (
         <p>Nothing detected here yet.</p>
       ) : (
         <ul className="detections">
-          {surface.detections.map((detection) => (
+          {detections.map((detection) => (
             <DetectionView key={detection.tech} detection={detection} />
           ))}
         </ul>

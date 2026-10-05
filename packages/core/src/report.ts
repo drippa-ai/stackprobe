@@ -53,6 +53,9 @@ export const Surface = z.object({
   kindReasons: z.array(z.string()).optional(),
   // Absent for the surface the scan was asked for.
   foundBy: SurfaceFoundBy.optional(),
+  // Where the surface ended up when that is another host, e.g. a sign-in link that redirects
+  // into the app. Its findings then describe that destination.
+  redirectsTo: z.url().optional(),
   detections: z.array(Detection),
 });
 export type Surface = z.infer<typeof Surface>;
