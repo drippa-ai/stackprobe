@@ -1,6 +1,6 @@
 {
   "url": "https://qa.tech/",
-  "recordedAt": "2026-10-04T18:01:29.823Z",
+  "recordedAt": "2026-10-04T20:17:03.602Z",
   "http": {
     "GET https://qa.tech/": {
       "result": {
@@ -8,12 +8,12 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "212911"],
+          ["age", "221045"],
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-disposition", "inline"],
           ["content-encoding", "br"],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 18:01:29 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
           ["etag", "W/\"94b91a2674060e14d1ec7419d3162991\""],
           ["last-modified", "Fri, 02 Oct 2026 06:52:58 GMT"],
           [
@@ -24,10 +24,46 @@
           ["strict-transport-security", "max-age=63072000"],
           ["vary", "Accept"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::plkqb-1791136889916-319c35ec4896"],
+          ["x-vercel-id", "arn1::f8899-1791145023734-0a98aa25abe0"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<meta charset=\"UTF-8\">\n<link rel=\"dns-prefetch\" href=\"https://web.cmp.usercentrics.eu\">\n<link rel=\"dns-prefetch\" href=\"https://www.googletagmanager.com\">\n<link rel=\"dns-prefetch\" href=\"https://www.googletagmanager.com\">\n<script src=\"/qa-tech-tracking-bootstrap.js\" defer=\"\"></script>\n<link rel=\"icon\" href=\"/favicon.ico\" sizes=\"any\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16.png\">\n<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\">\n<link rel=\"canonical\" href=\"https://qa.tech/\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta name=\"description\" content=\"QA.tech is the AI QA testing platform: autonomous QA agents run end-to-end, regression, exploratory and PR tests on web and native mobile from plain-language goals. No scripts, no selectors.\">\n<meta name=\"author\" content=\"QA.tech\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"QA.tech\">\n<meta property=\"og:image\" content=\"https://qa.tech/og/home.png\">\n<meta property=\"og:image:secure_url\" content=\"https://qa.tech/og/home.png\">\n<meta property=\"og:image:type\" content=\"image/png\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"Dynamic Testing on Every PR – AI QA Testing Tool for Web &amp; Mobile\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:image\" content=\"https://qa.tech/og/home.png\">\n<meta name=\"twitter:image:alt\" content=\"Dynamic Testing on Every PR – AI QA Testing Tool for Web &amp; Mobile\">\n<link rel=\"preload\" href=\"/fonts/geist-variable.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"preload\" href=\"/fonts/geist-mono-variable.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<meta property=\"og:title\" content=\"Dynamic Testing on Every PR – AI QA Testing Tool for Web &amp; Mobile\">\n<meta name=\"twitter:title\" content=\"Dynamic Testing on Every PR – AI QA Testing Tool for Web &amp; Mobile\">\n<meta property=\"og:description\" content=\"QA.tech is the AI QA testing platform: autonomous QA agents run end-to-end, regression, exploratory and PR tests on web and native mobile from plain-language goals. No scripts, no selectors.\">\n<meta name=\"twitter:description\" content=\"QA.tech is the AI QA testing platform: autonomous QA agents run end-to-end, regression, exploratory and PR tests on web and native mobile from plain-language goals. No scripts, no selectors.\">\n<script type=\"module\" crossorigin=\"\" src=\"/assets/index-Dgb1Qo9H.js\"></script>\n<link rel=\"alternate stylesheet preload\" crossorigin=\"\" href=\"/assets/index-sHrWpVnj.css\" title=\"styles\" as=\"style\" onload=\"this.title='';this.rel='stylesheet'\">\n<link rel=\"stylesheet\" crossorigin=\"\" href=\"/assets/index-sHrWpVnj.css\">\n<meta property=\"og:url\" content=\"https://qa.tech/\">\n<link data-seo-link=\"1\" rel=\"alternate\" type=\"text/markdown\" href=\"https://qa.tech/index.md\">\n<link rel=\"preload\" href=\"/hero-film-pr-poster.webp\" as=\"image\" fetchpriority=\"high\">\n<a href=\"/\">QA.tech</a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"/case-studies\">Case Studies</a>\n<a href=\"https://docs.qa.tech/\">Docs</a>\n<a href=\"/partnerships\">Partner Program</a>\n<a href=\"https://app.qa.tech/auth/sign-in\">Log in</a>\n<a href=\"/demo\">Get a demo</a>\n<a href=\"/case-studies/how-pricer-transform-qa-with-qa-tech\">Case study</a>\n<a href=\"/case-studies/how-upsales-replaced-320h-of-manual-testing-with-agents\">Case study</a>\n<a href=\"/demo\">Talk to us</a>\n<a href=\"/use-cases/end-to-end-testing\">E2E UI testing</a>\n<a href=\"/use-cases/pr-cicd-testing\">PR testing</a>\n<a href=\"/use-cases/ui-change-resilient-testing\">Dynamic testing</a>\n<a href=\"/use-cases/mobile-app-testing\">Mobile native testing</a>\n<a href=\"/use-cases/multi-environment-testing\">Cross-device testing</a>\n<a href=\"/use-cases/automated-regression-testing\">Regression testing</a>\n<a href=\"/use-cases/api-regression-testing\">API testing</a>\n<a href=\"/use-cases/speech-to-text-testing\">Voice testing</a>\n<a href=\"/use-cases/notifications-testing\">Email testing</a>\n<a href=\"/use-cases/notifications-testing\">SMS testing</a>\n<a href=\"/use-cases\">Browse the most common use cases for AI QA testing →</a>\n<a href=\"/case-studies/how-upsales-replaced-320h-of-manual-testing-with-agents\">Read their story →</a>\n<a href=\"/case-studies/how-pricer-transform-qa-with-qa-tech\">Read their story →</a>\n<a href=\"https://trust.qa.tech/\">SOC 2 Type 2 compliant</a>\n<a href=\"/product/api-testing\">API Testing</a>\n<a href=\"/product/mcp\">MCP</a>\n<a href=\"/product/mobile-testing\">Mobile Testing</a>\n<a href=\"/product/pr-testing\">PR Testing</a>\n<a href=\"/product/voice-testing\">Voice Testing</a>\n<a href=\"/product/web-testing\">Web Testing</a>\n<a href=\"/ai-qa-testing\">AI QA testing guide</a>\n<a href=\"/changelog\">Changelog</a>\n<a href=\"/product/integrations\">Integrations</a>\n<a href=\"/product\">Platform overview</a>\n<a href=\"/use-cases\">Use cases</a>\n<a href=\"/compare/qa-tech-vs-cypress\">QA.tech vs Cypress</a>\n<a href=\"/compare/qa-tech-vs-mabl\">QA.tech vs Mabl</a>\n<a href=\"/compare/qa-tech-vs-playwright\">QA.tech vs Playwright</a>\n<a href=\"/compare/qa-tech-vs-qa-wolf\">QA.tech vs QA Wolf</a>\n<a href=\"/saas\">B2B SaaS testing</a>\n<a href=\"/industries/ecommerce\">Ecommerce testing</a>\n<a href=\"/solutions/ctos\">For CTOs</a>\n<a href=\"/solutions/qa-testers\">For QA teams</a>\n<a href=\"/blog\">Blog</a>\n<a href=\"/events\">Events</a>\n<a href=\"/about-us\">About</a>\n<a href=\"/partnerships\">Partnerships</a>\n<a href=\"/press\">Press</a>\n<a href=\"https://qa.tech/contact\">Contact Us</a>\n<a href=\"/privacy-policy\">Privacy Policy</a>\n<a href=\"https://trust.qa.tech/resources?s=mb9w4yjb03i3t8bjsq4jx3&amp;name=main-agreement.pdf\">Terms of Service</a>\n<a href=\"https://trust.qa.tech/\">Trust Center: Security &amp; Compliance</a>\n<a href=\"https://www.linkedin.com/company/qa-tech-ai/\"></a>\n<a href=\"https://x.com/getqatech\"></a>\n<a href=\"https://www.instagram.com/getqatech/\"></a>"
+      }
+    },
+    "GET https://app.qa.tech/auth/sign-in": {
+      "result": {
+        "url": "https://app.qa.tech/auth/sign-in",
+        "status": 200,
+        "headers": [
+          ["age", "0"],
+          ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
+          ["content-encoding", "br"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          [
+            "link",
+            "</_next/static/media/83afe278b6a6bb3c.p.2bn3s6zvc0dyp.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\""
+          ],
+          ["server", "Vercel"],
+          ["set-cookie", "anonymousId=<redacted>"],
+          ["set-cookie", "x-analytics-enabled=<redacted>"],
+          ["strict-transport-security", "max-age=63072000"],
+          [
+            "vary",
+            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+          ],
+          ["x-analytics-enabled", "true"],
+          ["x-anonymous-id", "53280697-6e29-4aab-a7d1-39e6be47f12f"],
+          ["x-current-path", "/auth/sign-in"],
+          ["x-current-url", "https://app.qa.tech/auth/sign-in"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/auth/sign-in"],
+          ["x-powered-by", "Next.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::arn1::nslqd-1791145024048-66de93e5932a"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/1oqp1ik8giur4.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/2qv5_t2-2f_1_.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0-wnuvpaes179.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/3jeehj7aajegz.js\">\n<script src=\"/_next/static/chunks/29w9qy1qurka_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/23asetxkgwioy.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/27pruof2q2dnb.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1sub44l8ckr2g.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/17mx-6zbovyoe.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2pu2h9-4wb3jt.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/127c519dj1dwb.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2hh9fxtrsml4z.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3wmkucd_ufm03.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3htcc6efw8oyi.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-0-79e1o2th-ka.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2tdonm4juflgg.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2gsprul1ol8ef.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1aluoawgl01l_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/02t4f1i_f6etf.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0dlue9lrzea_p.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1x3jopfg10i-3.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2tjxkj4am06ni.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0nngx_pew-88h.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0r2wsp7-8mffp.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1xjonk-a-umu8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2je20u2txntu8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1v_q95021t7su.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3-3n_eez2vcgm.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/19sct5revbkjz.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1bewvuqiwmuir.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/17tzqj49ap8de.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://www.googletagmanager.com/gtm.js?id=GTM-5QNHTFMX\" as=\"script\">\n<meta name=\"theme-color\" content=\"#ffffff\" media=\"(prefers-color-scheme: light)\">\n<meta name=\"theme-color\" content=\"#0a0a0a\" media=\"(prefers-color-scheme: dark)\">\n<meta name=\"description\" content=\"Stop writing tests. Focus on productivity.\">\n<meta name=\"robots\" content=\"noindex\">\n<meta property=\"og:title\" content=\"Sign In\">\n<meta property=\"og:description\" content=\"Stop writing tests. Focus on productivity.\">\n<meta property=\"og:url\" content=\"https://app.qa.tech\">\n<meta property=\"og:site_name\" content=\"QA.tech\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"QA.tech\">\n<meta name=\"twitter:description\" content=\"Stop writing tests. Focus on productivity.\">\n<link rel=\"icon\" href=\"/assets/images/favicon/favicon.ico\">\n<link rel=\"apple-touch-icon\" href=\"/assets/images/favicon/apple-touch-icon.png\">\n<meta name=\"sentry-trace\" content=\"5432d74909fb48102162eaf99d74136b-a52fed19559ed71b-0\">\n<meta name=\"baggage\" content=\"sentry-environment=live,sentry-release=417b26c8009010ce579b6b6046ff94ff3a418f0f,sentry-public_key=a9086fa6da567836bc537588bd156272,sentry-trace_id=5432d74909fb48102162eaf99d74136b,sentry-org_id=4505800178008064,sentry-sampled=false,sentry-sample_rand=0.7732346625490669,sentry-sample_rate=0.05\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/chunks/3jeehj7aajegz.js\" id=\"_R_\" async=\"\"></script>\n<a href=\"/\"></a>\n<a href=\"/auth/password-reset\">Forgot password?</a>\n<a href=\"https://qa.tech/demo\">book a demo.</a>"
       }
     },
     "GET https://api.qa.tech/": {
@@ -39,11 +75,11 @@
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-encoding", "br"],
           ["content-type", "text/plain;charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::arn1::x2zzk-1791136890376-1cf0b1d9b4f6"],
+          ["x-vercel-id", "arn1::arn1::6d6pd-1791145024108-6554c7fee4c2"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -54,11 +90,11 @@
         "url": "https://docs.qa.tech/",
         "status": 308,
         "headers": [
-          ["age", "85416"],
+          ["age", "5295"],
           ["cache-control", "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"],
           ["cf-cache-status", "HIT"],
-          ["cf-ray", "a456179d2c4a588e-ARN"],
-          ["content-length", "109006"],
+          ["cf-ray", "a456de31294ac6a0-ARN"],
+          ["content-length", "109125"],
           [
             "content-security-policy",
             "worker-src 'self' blob:; object-src 'none'; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self'; default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:;"
@@ -68,8 +104,8 @@
             "default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:; worker-src 'self' blob:; object-src 'none'; report-uri /_mintlify/api/csp-report; report-to mintlify-csp;"
           ],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
-          ["etag", "\"hc8r5mns2a2c3y\""],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "\"6jbtczl4ni2c79\""],
           ["expires", "0"],
           [
             "link",
@@ -86,52 +122,16 @@
           ["x-llms-txt", "/llms.txt"],
           ["x-matched-path", "/_sites/[subdomain]/[[...slug]]"],
           ["x-mint-proxy-version", "1.0.0-prod"],
-          ["x-mintlify-client-version", "0.0.3774"],
+          ["x-mintlify-client-version", "0.0.3777"],
           ["x-nextjs-prerender", "1"],
           ["x-nextjs-stale-time", "60"],
-          ["x-served-version", "dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC"],
+          ["x-served-version", "dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1:sin1:iad1::iad1::qqkqh-1791136890404-cfb3941c2cc2"],
+          ["x-vercel-id", "arn1:iad1:iad1::iad1::646r4-1791145024147-f179617de320"],
           ["x-vercel-project-id", "prj_NdMUpHpUIb41Po1H8c6hrChv2bgr"],
-          ["x-version", "dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC"]
+          ["x-version", "dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/mintlify-assets/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\">\n<script src=\"/mintlify-assets/_next/static/chunks/44795504c795ca32.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/ed91aaff0f65128b.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/b730549587248be7.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/0eebbc1236b980a0.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/turbopack-5e6ee6ede9d02121.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" nomodule=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" id=\"_R_\" async=\"\"></script>"
-      }
-    },
-    "GET https://app.qa.tech/auth/sign-in": {
-      "result": {
-        "url": "https://app.qa.tech/auth/sign-in",
-        "status": 200,
-        "headers": [
-          ["age", "0"],
-          ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
-          ["content-encoding", "br"],
-          ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
-          [
-            "link",
-            "</_next/static/media/83afe278b6a6bb3c.p.2bn3s6zvc0dyp.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\""
-          ],
-          ["server", "Vercel"],
-          ["set-cookie", "anonymousId=<redacted>"],
-          ["set-cookie", "x-analytics-enabled=<redacted>"],
-          ["strict-transport-security", "max-age=63072000"],
-          [
-            "vary",
-            "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
-          ],
-          ["x-analytics-enabled", "true"],
-          ["x-anonymous-id", "e0019560-2b2a-4348-ab90-7124ebd3a74e"],
-          ["x-current-path", "/auth/sign-in"],
-          ["x-current-url", "https://app.qa.tech/auth/sign-in"],
-          ["x-frame-options", "DENY"],
-          ["x-matched-path", "/auth/sign-in"],
-          ["x-powered-by", "Next.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::arn1::s7l4h-1791136890401-0c18b7df987e"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/1oqp1ik8giur4.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/2qv5_t2-2f_1_.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0-wnuvpaes179.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/3jeehj7aajegz.js\">\n<script src=\"/_next/static/chunks/29w9qy1qurka_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/23asetxkgwioy.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/27pruof2q2dnb.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1sub44l8ckr2g.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/17mx-6zbovyoe.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2pu2h9-4wb3jt.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/127c519dj1dwb.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2hh9fxtrsml4z.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3wmkucd_ufm03.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3htcc6efw8oyi.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-0-79e1o2th-ka.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2tdonm4juflgg.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2gsprul1ol8ef.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1aluoawgl01l_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/02t4f1i_f6etf.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0dlue9lrzea_p.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1x3jopfg10i-3.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2tjxkj4am06ni.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0nngx_pew-88h.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0r2wsp7-8mffp.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1xjonk-a-umu8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2je20u2txntu8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1v_q95021t7su.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3-3n_eez2vcgm.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/19sct5revbkjz.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1bewvuqiwmuir.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/17tzqj49ap8de.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://www.googletagmanager.com/gtm.js?id=GTM-5QNHTFMX\" as=\"script\">\n<meta name=\"theme-color\" content=\"#ffffff\" media=\"(prefers-color-scheme: light)\">\n<meta name=\"theme-color\" content=\"#0a0a0a\" media=\"(prefers-color-scheme: dark)\">\n<meta name=\"description\" content=\"Stop writing tests. Focus on productivity.\">\n<meta name=\"robots\" content=\"noindex\">\n<meta property=\"og:title\" content=\"Sign In\">\n<meta property=\"og:description\" content=\"Stop writing tests. Focus on productivity.\">\n<meta property=\"og:url\" content=\"https://app.qa.tech\">\n<meta property=\"og:site_name\" content=\"QA.tech\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"QA.tech\">\n<meta name=\"twitter:description\" content=\"Stop writing tests. Focus on productivity.\">\n<link rel=\"icon\" href=\"/assets/images/favicon/favicon.ico\">\n<link rel=\"apple-touch-icon\" href=\"/assets/images/favicon/apple-touch-icon.png\">\n<meta name=\"sentry-trace\" content=\"d57600c476e726e03e205b3b61ce7c52-64df4a7fd3a3cafb-0\">\n<meta name=\"baggage\" content=\"sentry-environment=live,sentry-release=417b26c8009010ce579b6b6046ff94ff3a418f0f,sentry-public_key=a9086fa6da567836bc537588bd156272,sentry-trace_id=d57600c476e726e03e205b3b61ce7c52,sentry-org_id=4505800178008064,sentry-sampled=false,sentry-sample_rand=0.5572156688643242,sentry-sample_rate=0.05\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/chunks/3jeehj7aajegz.js\" id=\"_R_\" async=\"\"></script>\n<a href=\"/\"></a>\n<a href=\"/auth/password-reset\">Forgot password?</a>\n<a href=\"https://qa.tech/demo\">book a demo.</a>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/mintlify-assets/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\">\n<script src=\"/mintlify-assets/_next/static/chunks/44795504c795ca32.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/08fc2fe36d1848dc.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/b730549587248be7.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/b58a9209ed7b832e.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/turbopack-9a419d41706b051f.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" nomodule=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" id=\"_R_\" async=\"\"></script>"
       }
     },
     "GET https://docs.qa.tech/core-concepts/ai-agent-testing": {
@@ -139,10 +139,10 @@
         "url": "https://docs.qa.tech/core-concepts/ai-agent-testing",
         "status": 200,
         "headers": [
-          ["age", "85646"],
+          ["age", "7193"],
           ["cache-control", "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"],
           ["cf-cache-status", "HIT"],
-          ["cf-ray", "a456179de9639900-ARN"],
+          ["cf-ray", "a456de32ee67c6a0-ARN"],
           ["content-encoding", "br"],
           [
             "content-security-policy",
@@ -153,8 +153,8 @@
             "default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:; worker-src 'self' blob:; object-src 'none'; report-uri /_mintlify/api/csp-report; report-to mintlify-csp;"
           ],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 18:01:30 GMT"],
-          ["etag", "W/\"yxcf4q3n2i5vmv\""],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"4rlu7m5fvo5vrd\""],
           ["expires", "0"],
           [
             "link",
@@ -170,21 +170,814 @@
           ["x-llms-txt", "/llms.txt"],
           ["x-matched-path", "/_sites/[subdomain]/[[...slug]]"],
           ["x-mint-proxy-version", "1.0.0-prod"],
-          ["x-mintlify-client-version", "0.0.3774"],
+          ["x-mintlify-client-version", "0.0.3777"],
           ["x-nextjs-prerender", "1"],
           ["x-nextjs-stale-time", "60"],
-          ["x-served-version", "dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC"],
+          ["x-served-version", "dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1:iad1::iad1::qqkqh-1791136890511-c41b1469bc54"],
+          ["x-vercel-id", "arn1:iad1::iad1::rddrp-1791145024433-7db9a088fe26"],
           ["x-vercel-project-id", "prj_NdMUpHpUIb41Po1H8c6hrChv2bgr"],
-          ["x-version", "dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC"],
+          ["x-version", "dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" href=\"/mintlify-assets/_next/static/media/83afe278b6a6bb3c.p.3a6ba036.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/mintlify-assets/_next/static/media/PaperMono_Variable.p.aa32f7a0.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/mintlify-assets/_next/static/media/f67ad414ed34149c.p.84166d94.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" as=\"image\" href=\"https://mintcdn.com/qatech/tn7srSYA67gRWgfI/logo/logo.svg?fit=max&amp;auto=format&amp;n=tn7srSYA67gRWgfI&amp;q=85&amp;s=2f0e3745a8079e74e66e0a904232888f\">\n<link rel=\"preload\" as=\"image\" href=\"https://mintcdn.com/qatech/tn7srSYA67gRWgfI/logo/dark.svg?fit=max&amp;auto=format&amp;n=tn7srSYA67gRWgfI&amp;q=85&amp;s=8c39f071bcebaa8ec3c9b73c4e34faac\">\n<link rel=\"stylesheet\" href=\"/mintlify-assets/_next/static/chunks/462bacc63bed9960.css?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/mintlify-assets/_next/static/chunks/be2d2a9922fde67d.css?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/mintlify-assets/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\">\n<script src=\"/mintlify-assets/_next/static/chunks/44795504c795ca32.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/ed91aaff0f65128b.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/b730549587248be7.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/0eebbc1236b980a0.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/turbopack-5e6ee6ede9d02121.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/60d43a4e7f1afab5.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/c50d793b8f34b10b.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/2b24f11e21272c96.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/8d0901e40ed4b058.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/343f3c7f568a2e5d.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/ccee8d9b3189ccd9.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/3b847e5370bd724e.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/4fa3ca58dfaaeff8.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/468295ca52ed5c09.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/4655c61fa7aba124.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/da953b59c0c41f06.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/f0ef0acaeece4a23.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/7538d80a516400fa.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/8a19ec8c194a3b47.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/589b24301b3a37b4.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/d2fedac44d815262.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/c3a3ab2374198660.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/de5d31edef447a03.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/3a30a2353087aade.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/997ca1c8e6e53ba2.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/e6fe3ee8c95993d2.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/c62a0957d8c50522.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/44b0178948143b4f.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/41c8239ff6030cd1.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/e452a5c043e34035.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/fde44643dbef1bcd.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/c58283ba69dd38df.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/e5dcdb55f621f74a.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/1a0bf1d33a977db0.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/0d29cfad69957710.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" async=\"\"></script>\n<meta name=\"description\" content=\"Autonomous AI testing\">\n<meta name=\"application-name\" content=\"QA.tech Docs\">\n<meta name=\"generator\" content=\"Mintlify\">\n<meta name=\"msapplication-config\" content=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon/browserconfig.xml\">\n<meta name=\"apple-mobile-web-app-title\" content=\"QA.tech Docs\">\n<meta name=\"msapplication-TileColor\" content=\"#4F46E5\">\n<link rel=\"canonical\" href=\"https://docs.qa.tech/core-concepts/ai-agent-testing\">\n<link rel=\"alternate\" type=\"application/xml\" href=\"/sitemap.xml\">\n<link rel=\"alternate\" type=\"text/markdown\" href=\"/core-concepts/ai-agent-testing.md\">\n<meta property=\"og:title\" content=\"AI Agents - QA.tech Docs\">\n<meta property=\"og:description\" content=\"Autonomous AI testing\">\n<meta property=\"og:url\" content=\"https://docs.qa.tech/core-concepts/ai-agent-testing\">\n<meta property=\"og:site_name\" content=\"QA.tech Docs\">\n<meta property=\"og:image\" content=\"https://qatech.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGet%2BStarted%26title%3DAI%2BAgents%26description%3DAutonomous%2BAI%2Btesting%26theme%3Dfd743797448dd4d6788516d0&amp;w=1200&amp;q=100\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"AI Agents - QA.tech Docs\">\n<meta name=\"twitter:description\" content=\"Autonomous AI testing\">\n<meta name=\"twitter:image\" content=\"https://qatech.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGet%2BStarted%26title%3DAI%2BAgents%26description%3DAutonomous%2BAI%2Btesting%26theme%3Dfd743797448dd4d6788516d0&amp;w=1200&amp;q=100\">\n<meta name=\"twitter:image:width\" content=\"1200\">\n<meta name=\"twitter:image:height\" content=\"630\">\n<link rel=\"icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon/android-chrome-192x192.png\" type=\"image/png\" sizes=\"192x192\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"apple-touch-icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon/apple-touch-icon.png\" type=\"image/png\" sizes=\"180x180\">\n<link rel=\"icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon/favicon-16x16.png\" type=\"image/png\" sizes=\"16x16\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon/favicon-32x32.png\" type=\"image/png\" sizes=\"32x32\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"shortcut icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon/favicon.ico\" type=\"image/x-icon\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon-dark/android-chrome-192x192.png\" type=\"image/png\" sizes=\"192x192\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon-dark/favicon-16x16.png\" type=\"image/png\" sizes=\"16x16\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon-dark/favicon-32x32.png\" type=\"image/png\" sizes=\"32x32\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"shortcut icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon-dark/favicon.ico\" type=\"image/x-icon\" media=\"(prefers-color-scheme: dark)\">\n<script src=\"/mintlify-assets/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" nomodule=\"\"></script>\n<a href=\"/llms.txt\">/llms.txt</a>\n<a href=\"#content-area\">Skip to main content</a>\n<a href=\"https://docs.qa.tech\">QA.tech Docs home page</a>\n<a href=\"https://qa.tech/contact\">Support</a>\n<a href=\"https://qa.tech/demo\">Get Started</a>\n<a href=\"/core-concepts/ai-agent-testing\">Get Started</a>\n<a href=\"/core-concepts/ai-chat-assistant\">AI Assistant</a>\n<a href=\"/best-practices/creating-tests\">Build Tests</a>\n<a href=\"/pr-testing/overview\">PR Testing</a>\n<a href=\"/regression-testing/overview\">Regression Testing</a>\n<a href=\"/configuration/github-app\">Integrations</a>\n<a href=\"/api-reference/introduction\">API and CLI</a>\n<a href=\"https://qa.tech/blog/\">Blog</a>\n<a href=\"/core-concepts/ai-agent-testing\">Introduction</a>\n<a href=\"/getting-started/poc-setup-checklist\">POC Setup Checklist</a>\n<a href=\"/getting-started/poc-mobile-setup-checklist\">POC Mobile Setup Checklist</a>\n<a href=\"/getting-started/faq\">FAQ</a>\n<a href=\"/core-concepts/projects\">Projects</a>\n<a href=\"/core-concepts/applications-and-environments\">Applications &amp; Environments</a>\n<a href=\"/core-concepts/test-data\">Test Data</a>\n<a href=\"/core-concepts/dependencies\">Test Dependencies</a>\n<a href=\"/core-concepts/output-state-optimization\">Dependency Output States</a>\n<a href=\"/configuration/environment-access\">Overview</a>\n<a href=\"/bot\">QA.tech Bot</a>\n<a href=\"/configuration/ip-access-control\">IP Access</a>\n<a href=\"/configuration/vercel-firewall\">Vercel Firewall</a>\n<a href=\"/configuration/vercel-preview-protection\">Vercel Preview</a>\n<a href=\"/configuration/cloudflare-waf-turnstile\">Cloudflare WAF &amp; Turnstile</a>\n<a href=\"/configuration/ssh-tunnel\">SSH Tunnel Proxy</a>\n<a href=\"/configuration/organization-access\">Organization Access</a>\n<a href=\"/core-concepts/roles-and-permissions\">Roles and Permissions</a>\n<a href=\"/configuration/authentication\">Sign-in and MFA</a>\n<a href=\"#get-started\">Get Started</a>\n<a href=\"#our-ai-agent-system\">Our AI Agent System</a>\n<a href=\"#agents-that-run-a-test\">Agents that run a test</a>\n<a href=\"#get-started\">​</a>\n<a href=\"#our-ai-agent-system\">​</a>\n<a href=\"/core-concepts/ai-chat-assistant\">AI Chat Assistant</a>\n<a href=\"#agents-that-run-a-test\">​</a>\n<a href=\"/build-tests/agents\">Agents</a>\n<a href=\"https://x.com/getqatech\">x</a>\n<a href=\"https://github.com/qAdottech\">github</a>\n<a href=\"https://www.linkedin.com/company/qa-tech-ai\">linkedin</a>\n<a href=\"https://www.mintlify.com?utm_campaign=poweredBy&amp;utm_medium=referral&amp;utm_source=qatech\">Powered byThis documentation is built and hosted on Mintlify, a developer documentation platform</a>\n<script src=\"/mintlify-assets/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_GVtXmXHpaP6SrfeCHtJggY5XmUiC\" id=\"_R_\" async=\"\"></script>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" href=\"/mintlify-assets/_next/static/media/83afe278b6a6bb3c.p.3a6ba036.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/mintlify-assets/_next/static/media/PaperMono_Variable.p.aa32f7a0.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/mintlify-assets/_next/static/media/f67ad414ed34149c.p.84166d94.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" as=\"image\" href=\"https://mintcdn.com/qatech/tn7srSYA67gRWgfI/logo/logo.svg?fit=max&amp;auto=format&amp;n=tn7srSYA67gRWgfI&amp;q=85&amp;s=2f0e3745a8079e74e66e0a904232888f\">\n<link rel=\"preload\" as=\"image\" href=\"https://mintcdn.com/qatech/tn7srSYA67gRWgfI/logo/dark.svg?fit=max&amp;auto=format&amp;n=tn7srSYA67gRWgfI&amp;q=85&amp;s=8c39f071bcebaa8ec3c9b73c4e34faac\">\n<link rel=\"stylesheet\" href=\"/mintlify-assets/_next/static/chunks/462bacc63bed9960.css?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/mintlify-assets/_next/static/chunks/663a923474cdb1e6.css?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/mintlify-assets/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\">\n<script src=\"/mintlify-assets/_next/static/chunks/44795504c795ca32.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/08fc2fe36d1848dc.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/b730549587248be7.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/b58a9209ed7b832e.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/turbopack-9a419d41706b051f.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/607c8643ad3fc16c.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/1e7a188add93a653.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/8da4eea58a747cb5.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/c50d793b8f34b10b.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/54f6583600c307fa.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/8d0901e40ed4b058.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/343f3c7f568a2e5d.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/ccee8d9b3189ccd9.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/3b847e5370bd724e.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/4fa3ca58dfaaeff8.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/468295ca52ed5c09.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/3f8f2653ff1ad14e.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/da953b59c0c41f06.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/f0ef0acaeece4a23.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/7538d80a516400fa.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/8a19ec8c194a3b47.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/589b24301b3a37b4.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/d2fedac44d815262.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/c3a3ab2374198660.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/de5d31edef447a03.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/6fb38247c19b3981.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/8176871b020d7070.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/c8150bdcfb731039.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/8972ae3ec1dd1025.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/9db9880c49eded60.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/41c8239ff6030cd1.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/e452a5c043e34035.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/fde44643dbef1bcd.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/c58283ba69dd38df.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/e5dcdb55f621f74a.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/1a0bf1d33a977db0.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<script src=\"/mintlify-assets/_next/static/chunks/6cb3e8b7f002b825.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" async=\"\"></script>\n<meta name=\"description\" content=\"Autonomous AI testing\">\n<meta name=\"application-name\" content=\"QA.tech Docs\">\n<meta name=\"generator\" content=\"Mintlify\">\n<meta name=\"msapplication-config\" content=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon/browserconfig.xml\">\n<meta name=\"apple-mobile-web-app-title\" content=\"QA.tech Docs\">\n<meta name=\"msapplication-TileColor\" content=\"#4F46E5\">\n<link rel=\"canonical\" href=\"https://docs.qa.tech/core-concepts/ai-agent-testing\">\n<link rel=\"alternate\" type=\"application/xml\" href=\"/sitemap.xml\">\n<link rel=\"alternate\" type=\"text/markdown\" href=\"/core-concepts/ai-agent-testing.md\">\n<meta property=\"og:title\" content=\"AI Agents - QA.tech Docs\">\n<meta property=\"og:description\" content=\"Autonomous AI testing\">\n<meta property=\"og:url\" content=\"https://docs.qa.tech/core-concepts/ai-agent-testing\">\n<meta property=\"og:site_name\" content=\"QA.tech Docs\">\n<meta property=\"og:image\" content=\"https://qatech.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGet%2BStarted%26title%3DAI%2BAgents%26description%3DAutonomous%2BAI%2Btesting%26theme%3Dfd743797448dd4d6788516d0&amp;w=1200&amp;q=100\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"AI Agents - QA.tech Docs\">\n<meta name=\"twitter:description\" content=\"Autonomous AI testing\">\n<meta name=\"twitter:image\" content=\"https://qatech.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGet%2BStarted%26title%3DAI%2BAgents%26description%3DAutonomous%2BAI%2Btesting%26theme%3Dfd743797448dd4d6788516d0&amp;w=1200&amp;q=100\">\n<meta name=\"twitter:image:width\" content=\"1200\">\n<meta name=\"twitter:image:height\" content=\"630\">\n<link rel=\"icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon/android-chrome-192x192.png\" type=\"image/png\" sizes=\"192x192\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"apple-touch-icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon/apple-touch-icon.png\" type=\"image/png\" sizes=\"180x180\">\n<link rel=\"icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon/favicon-16x16.png\" type=\"image/png\" sizes=\"16x16\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon/favicon-32x32.png\" type=\"image/png\" sizes=\"32x32\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"shortcut icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon/favicon.ico\" type=\"image/x-icon\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon-dark/android-chrome-192x192.png\" type=\"image/png\" sizes=\"192x192\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon-dark/favicon-16x16.png\" type=\"image/png\" sizes=\"16x16\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon-dark/favicon-32x32.png\" type=\"image/png\" sizes=\"32x32\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"shortcut icon\" href=\"/mintlify-assets/_mintlify/favicons/qatech/iMlZaRlMvi7xyIQO/_generated/favicon-dark/favicon.ico\" type=\"image/x-icon\" media=\"(prefers-color-scheme: dark)\">\n<script src=\"/mintlify-assets/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" nomodule=\"\"></script>\n<a href=\"/llms.txt\">/llms.txt</a>\n<a href=\"#content-area\">Skip to main content</a>\n<a href=\"https://docs.qa.tech\">QA.tech Docs home page</a>\n<a href=\"https://qa.tech/contact\">Support</a>\n<a href=\"https://qa.tech/demo\">Get Started</a>\n<a href=\"/core-concepts/ai-agent-testing\">Get Started</a>\n<a href=\"/core-concepts/ai-chat-assistant\">AI Assistant</a>\n<a href=\"/best-practices/creating-tests\">Build Tests</a>\n<a href=\"/pr-testing/overview\">PR Testing</a>\n<a href=\"/regression-testing/overview\">Regression Testing</a>\n<a href=\"/configuration/github-app\">Integrations</a>\n<a href=\"/api-reference/introduction\">API and CLI</a>\n<a href=\"https://qa.tech/blog/\">Blog</a>\n<a href=\"/core-concepts/ai-agent-testing\">Introduction</a>\n<a href=\"/getting-started/poc-setup-checklist\">POC Setup Checklist</a>\n<a href=\"/getting-started/poc-mobile-setup-checklist\">POC Mobile Setup Checklist</a>\n<a href=\"/getting-started/faq\">FAQ</a>\n<a href=\"/core-concepts/projects\">Projects</a>\n<a href=\"/core-concepts/applications-and-environments\">Applications &amp; Environments</a>\n<a href=\"/core-concepts/test-data\">Test Data</a>\n<a href=\"/core-concepts/dependencies\">Test Dependencies</a>\n<a href=\"/core-concepts/output-state-optimization\">Dependency Output States</a>\n<a href=\"/configuration/environment-access\">Overview</a>\n<a href=\"/bot\">QA.tech Bot</a>\n<a href=\"/configuration/ip-access-control\">IP Access</a>\n<a href=\"/configuration/vercel-firewall\">Vercel Firewall</a>\n<a href=\"/configuration/vercel-preview-protection\">Vercel Preview</a>\n<a href=\"/configuration/cloudflare-waf-turnstile\">Cloudflare WAF &amp; Turnstile</a>\n<a href=\"/configuration/ssh-tunnel\">SSH Tunnel Proxy</a>\n<a href=\"/configuration/organization-access\">Organization Access</a>\n<a href=\"/core-concepts/roles-and-permissions\">Roles and Permissions</a>\n<a href=\"/configuration/authentication\">Sign-in and MFA</a>\n<a href=\"#get-started\">Get Started</a>\n<a href=\"#our-ai-agent-system\">Our AI Agent System</a>\n<a href=\"#agents-that-run-a-test\">Agents that run a test</a>\n<a href=\"#get-started\">​</a>\n<a href=\"#our-ai-agent-system\">​</a>\n<a href=\"/core-concepts/ai-chat-assistant\">AI Chat Assistant</a>\n<a href=\"#agents-that-run-a-test\">​</a>\n<a href=\"/build-tests/agents\">Agents</a>\n<a href=\"https://x.com/getqatech\">x</a>\n<a href=\"https://github.com/qAdottech\">github</a>\n<a href=\"https://www.linkedin.com/company/qa-tech-ai\">linkedin</a>\n<a href=\"https://www.mintlify.com?utm_campaign=poweredBy&amp;utm_medium=referral&amp;utm_source=qatech\">Powered byThis documentation is built and hosted on Mintlify, a developer documentation platform</a>\n<script src=\"/mintlify-assets/_next/static/chunks/3fcb76f539c93820.js?dpl=dpl_AdgF69PdgrU7nYyZAbxVCHc36KNP\" id=\"_R_\" async=\"\"></script>"
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/29w9qy1qurka_.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/29w9qy1qurka_.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118289"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"29w9qy1qurka_.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"2c014a6a51655a997f6c18de749fc2a9\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/29w9qy1qurka_.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::bf226-1791145024560-74c10dfc1b1b"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://qa.tech/qa-tech-tracking-bootstrap.js": {
+      "result": {
+        "url": "https://qa.tech/qa-tech-tracking-bootstrap.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "221007"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"qa-tech-tracking-bootstrap.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"9373bd1be21f8749924fec662c4b6747\""],
+          ["last-modified", "Fri, 02 Oct 2026 06:53:37 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/markdown\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </robots.txt>; rel=\"robots\"; type=\"text/plain\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", <https://docs.qa.tech/api-reference/introduction>; rel=\"service-doc\"; type=\"text/html\", <https://docs.qa.tech/api-reference/api.json>; rel=\"service-desc\"; type=\"application/vnd.oai.openapi+json\", </.well-known/mcp/server-card.json>; rel=\"mcp-server-card\"; type=\"application/json\", </.well-known/agent-skills.json>; rel=\"agent-skills\"; type=\"application/json\", </.well-known/auth.md>; rel=\"auth-doc\"; type=\"text/markdown\", </developers>; rel=\"developer-hub\"; type=\"text/html\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::2rdzq-1791145024561-df49cfcac7e8"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://www.googletagmanager.com/\""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/3htcc6efw8oyi.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/3htcc6efw8oyi.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "17538"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3htcc6efw8oyi.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"4d2585c773696013d31482a6d54ae8b2\""],
+          ["last-modified", "Sun, 04 Oct 2026 15:24:45 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/3htcc6efw8oyi.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::hhh4n-1791145024628-0851cd2fe814"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/0dlue9lrzea_p.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/0dlue9lrzea_p.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118289"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0dlue9lrzea_p.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"ddda10322bab99221910f306a54c56f1\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/0dlue9lrzea_p.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::qz2vj-1791145024628-354d9a50f616"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/23asetxkgwioy.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/23asetxkgwioy.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118289"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"23asetxkgwioy.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"4b2869b5923c8d318ad218a840641aef\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/23asetxkgwioy.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mw48w-1791145024627-e667ece17278"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/1aluoawgl01l_.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/1aluoawgl01l_.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118289"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1aluoawgl01l_.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"828f123bd600c6a64db79e84bd718836\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/1aluoawgl01l_.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::rnjzl-1791145024629-b90e34026adc"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/0r2wsp7-8mffp.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/0r2wsp7-8mffp.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "76824"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0r2wsp7-8mffp.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"e45f5043e7d18b644ea3148ab8232f87\""],
+          ["last-modified", "Sat, 03 Oct 2026 22:56:40 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/0r2wsp7-8mffp.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::tdvjt-1791145024630-cd729754d602"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://local.invalid/\""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/1x3jopfg10i-3.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/1x3jopfg10i-3.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "1105"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1x3jopfg10i-3.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"8971c88796c79856fe8456dbe53868e8\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:39 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/1x3jopfg10i-3.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::twqzn-1791145024628-0b53574a1e07"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/2tjxkj4am06ni.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/2tjxkj4am06ni.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118289"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2tjxkj4am06ni.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"fa1b1296a742d920bae8d725a63162cc\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/2tjxkj4am06ni.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::jbzxn-1791145024631-348b6c42bef5"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://docs.qa.tech/\"\n\"https://meetings-eu1.hubspot.com/\"\n\"https://nuqs.dev/\"\n\"https://qa-tech-ab.sentry.io/\"\n\"https://qa.tech/\"\n\"https://vercel.com/\"\n\"https://www.googletagmanager.com/\""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/02t4f1i_f6etf.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/02t4f1i_f6etf.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "1105"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"02t4f1i_f6etf.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"6af78cddf3745150f626c5b8ba1dc091\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:39 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/02t4f1i_f6etf.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::pkb8p-1791145024631-6837ad503bb1"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/27pruof2q2dnb.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/27pruof2q2dnb.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118289"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"27pruof2q2dnb.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"5fa20e61eee7dc772d09303d2967d5a5\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/27pruof2q2dnb.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::hhh4n-1791145024624-c754579af5ea"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/2gsprul1ol8ef.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/2gsprul1ol8ef.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "1105"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2gsprul1ol8ef.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"9db4181772ab38c43a112e3353af4020\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:39 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/2gsprul1ol8ef.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::kn59q-1791145024630-388910a5689e"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/0nngx_pew-88h.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/0nngx_pew-88h.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "17538"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0nngx_pew-88h.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"3732e294bd59669c742ca9cfd9aecd20\""],
+          ["last-modified", "Sun, 04 Oct 2026 15:24:45 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/0nngx_pew-88h.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::hvzgm-1791145024632-5539ff60bf93"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/1sub44l8ckr2g.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/1sub44l8ckr2g.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118289"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1sub44l8ckr2g.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"4ebe8de860119c99ded2e2ba171bf95e\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/1sub44l8ckr2g.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::q8szj-1791145024629-88318a687de7"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://app.qa.tech/\""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/turbopack-0-79e1o2th-ka.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/turbopack-0-79e1o2th-ka.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "199784"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"turbopack-0-79e1o2th-ka.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"a241c804ee5f87187d8fb33f5ea7de06\""],
+          ["last-modified", "Fri, 02 Oct 2026 12:47:19 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/turbopack-0-79e1o2th-ka.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::xq95k-1791145024636-b7681a51de8e"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://vercel.live/\""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/3-3n_eez2vcgm.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/3-3n_eez2vcgm.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118289"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3-3n_eez2vcgm.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"473880b8fafdc9af666714bbefa43d1b\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/3-3n_eez2vcgm.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::2xsj4-1791145024639-ff0c68dc8071"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/1v_q95021t7su.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/1v_q95021t7su.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "76823"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1v_q95021t7su.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"7107653f3de33524ea7afd0eed7d6ff2\""],
+          ["last-modified", "Sat, 03 Oct 2026 22:56:40 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/1v_q95021t7su.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mw48w-1791145024641-c63806a80ac8"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/19sct5revbkjz.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/19sct5revbkjz.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118289"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"19sct5revbkjz.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"338aeac7ec33e01a9269e780fda18082\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/19sct5revbkjz.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mm4v9-1791145024634-73cc472d2231"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/3jeehj7aajegz.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/3jeehj7aajegz.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118289"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3jeehj7aajegz.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"f419d52881390be0c776de2b196c4e8a\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/3jeehj7aajegz.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::2jlhk-1791145024640-b033a4a48385"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/1xjonk-a-umu8.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/1xjonk-a-umu8.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "76824"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1xjonk-a-umu8.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"656ed989facd46d96a9b8b7e49f03133\""],
+          ["last-modified", "Sat, 03 Oct 2026 22:56:40 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/1xjonk-a-umu8.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::d5jhn-1791145024638-6b2d3b555426"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://gkcoevrpxbysmtgfpshb.supabase.co/\"\n\"https://supabase.com/\"\n\"supabase-ssr/0.10.3\""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/2hh9fxtrsml4z.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/2hh9fxtrsml4z.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118289"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2hh9fxtrsml4z.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"b8e4852202a3b3f840cfab92bb152428\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/2hh9fxtrsml4z.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::xq95k-1791145024633-2be631d5ce8a"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/17tzqj49ap8de.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/17tzqj49ap8de.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "17538"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"17tzqj49ap8de.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"de4c001205c0dec44f146cc5d33ca5c4\""],
+          ["last-modified", "Sun, 04 Oct 2026 15:24:45 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/17tzqj49ap8de.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::66pt2-1791145024638-f06f7b7240b9"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/2tdonm4juflgg.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/2tdonm4juflgg.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118289"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2tdonm4juflgg.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"5aa807f52d6dbb016e60337e2b1b0b04\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/2tdonm4juflgg.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::rgm5t-1791145024636-18651a76f482"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/2pu2h9-4wb3jt.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/2pu2h9-4wb3jt.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118289"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2pu2h9-4wb3jt.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"d8a86539e78776d7081702ccb7c026e9\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/2pu2h9-4wb3jt.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::rgm5t-1791145024624-7bd6ab61ecd5"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/0cz1d0mv5g_q7.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "10"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0cz1d0mv5g_q7.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"846118c33b2c0e922d7b3a7676f81f6f\""],
+          ["last-modified", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/0cz1d0mv5g_q7.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::hhh4n-1791145024638-a5955390a331"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/1bewvuqiwmuir.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/1bewvuqiwmuir.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "199789"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1bewvuqiwmuir.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"35616315b8b8af4018fbd762147f8cfd\""],
+          ["last-modified", "Fri, 02 Oct 2026 12:47:14 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/1bewvuqiwmuir.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::vx4x6-1791145024640-656cabb33031"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://gkcoevrpxbysmtgfpshb.supabase.co/\"\n\"https://supabase.com/\"\n\"supabase-ssr/0.10.3\""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/17mx-6zbovyoe.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/17mx-6zbovyoe.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118289"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"17mx-6zbovyoe.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"ebd5642ebb78ef6fdfc5abfc6e8e20aa\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/17mx-6zbovyoe.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mw48w-1791145024629-7a75b5e64a4e"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"realtime-js/2.104.1\"\n\"storage-js/2.104.1\""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/3wmkucd_ufm03.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/3wmkucd_ufm03.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118289"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3wmkucd_ufm03.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"df693b920c130d762ba27433fd0ff063\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/3wmkucd_ufm03.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::r8w7l-1791145024633-77c60bfd0f6a"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://yandex.com/\"\n\"https://app.posthog.com/\"\n\"https://posthog.com/\"\n\"https://sentry.io/\"\n\"https://us.i.posthog.com/\"\n\"https://us.posthog.com/\""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/2je20u2txntu8.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/2je20u2txntu8.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "76824"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2je20u2txntu8.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"dc6ad42e4c163e9fbae2f50e39e3a555\""],
+          ["last-modified", "Sat, 03 Oct 2026 22:56:40 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/2je20u2txntu8.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::g2sj7-1791145024639-a5136d188bef"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/127c519dj1dwb.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/127c519dj1dwb.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "1105"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"127c519dj1dwb.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"56cb3626322150490ec01c5b763b81ce\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:39 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/127c519dj1dwb.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::57zgf-1791145024629-fb0fa6f90aee"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://s.io/\"\n\"https://browser.sentry-cdn.com/\"\n\"https://docs.sentry.io/\"\n\"https://eu.i.posthog.com/\"\n\"https://o447951.ingest.sentry.io/\"\n\"https://sentry.io/\"\n\"https://spotlightjs.com/\""
+      }
+    },
+    "GET https://qa.tech/assets/index-Dgb1Qo9H.js": {
+      "result": {
+        "url": "https://qa.tech/assets/index-Dgb1Qo9H.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "221045"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"index-Dgb1Qo9H.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:17:04 GMT"],
+          ["etag", "W/\"e58cbfa1e1eab85622c5d1b42ef2db74\""],
+          ["last-modified", "Fri, 02 Oct 2026 06:52:59 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/markdown\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </robots.txt>; rel=\"robots\"; type=\"text/plain\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", <https://docs.qa.tech/api-reference/introduction>; rel=\"service-doc\"; type=\"text/html\", <https://docs.qa.tech/api-reference/api.json>; rel=\"service-desc\"; type=\"application/vnd.oai.openapi+json\", </.well-known/mcp/server-card.json>; rel=\"mcp-server-card\"; type=\"application/json\", </.well-known/agent-skills.json>; rel=\"agent-skills\"; type=\"application/json\", </.well-known/auth.md>; rel=\"auth-doc\"; type=\"text/markdown\", </developers>; rel=\"developer-hub\"; type=\"text/html\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::97x49-1791145024638-8765d9890a8b"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://yandex.com/\"\n\"https://app.posthog.com/\"\n\"https://app.qa.tech/\"\n\"https://app.storylane.io/\"\n\"https://docs.qa.tech/\"\n\"https://eu.i.posthog.com/\"\n\"https://posthog.com/\"\n\"https://qa.tech/\"\n\"https://radix-ui.com/\"\n\"https://sentry.io/\"\n\"https://trust.qa.tech/\"\n\"https://us.i.posthog.com/\"\n\"https://us.posthog.com/\"\n\"https://www.instagram.com/\"\n\"https://www.linkedin.com/\"\n\"https://x.com/\""
       }
     }
   },
   "dns": {
+    "AAAA qa.tech": {
+      "result": {
+        "name": "qa.tech",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "A qa.tech": {
+      "result": {
+        "name": "qa.tech",
+        "type": "A",
+        "records": ["216.150.16.65", "216.150.1.65"]
+      }
+    },
     "NS qa.tech": {
       "result": {
         "name": "qa.tech",
@@ -199,23 +992,9 @@
         "records": []
       }
     },
-    "AAAA qa.tech": {
+    "TXT 129.1.150.216.origin.asn.cymru.com": {
       "result": {
-        "name": "qa.tech",
-        "type": "AAAA",
-        "records": []
-      }
-    },
-    "A qa.tech": {
-      "result": {
-        "name": "qa.tech",
-        "type": "A",
-        "records": ["216.150.1.193", "216.150.16.193"]
-      }
-    },
-    "TXT 1.1.150.216.origin.asn.cymru.com": {
-      "result": {
-        "name": "1.1.150.216.origin.asn.cymru.com",
+        "name": "129.1.150.216.origin.asn.cymru.com",
         "type": "TXT",
         "records": ["16509 | 216.150.1.0/24 | US | arin | 2024-07-24"]
       }
@@ -227,22 +1006,22 @@
         "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
       }
     },
-    "A stackprobe-wildcard-check.qa.tech": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND stackprobe-wildcard-check.qa.tech"
-      }
-    },
     "CNAME stackprobe-wildcard-check.qa.tech": {
       "error": {
         "code": "DNS_NXDOMAIN",
         "message": "queryCname ENOTFOUND stackprobe-wildcard-check.qa.tech"
       }
     },
-    "A console.qa.tech": {
+    "A stackprobe-wildcard-check.qa.tech": {
       "error": {
         "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND console.qa.tech"
+        "message": "queryA ENOTFOUND stackprobe-wildcard-check.qa.tech"
+      }
+    },
+    "A dashboard.qa.tech": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND dashboard.qa.tech"
       }
     },
     "CNAME dashboard.qa.tech": {
@@ -251,10 +1030,22 @@
         "message": "queryCname ENOTFOUND dashboard.qa.tech"
       }
     },
-    "A portal.qa.tech": {
+    "A console.qa.tech": {
       "error": {
         "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND portal.qa.tech"
+        "message": "queryA ENOTFOUND console.qa.tech"
+      }
+    },
+    "CNAME status.qa.tech": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND status.qa.tech"
+      }
+    },
+    "CNAME portal.qa.tech": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND portal.qa.tech"
       }
     },
     "CNAME api.qa.tech": {
@@ -264,16 +1055,11 @@
         "records": ["113a33c42e50d902.vercel-dns-016.com"]
       }
     },
-    "A dashboard.qa.tech": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND dashboard.qa.tech"
-      }
-    },
-    "CNAME status.qa.tech": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryCname ENOTFOUND status.qa.tech"
+    "A api.qa.tech": {
+      "result": {
+        "name": "api.qa.tech",
+        "type": "A",
+        "records": ["216.150.1.129", "216.150.16.129"]
       }
     },
     "A status.qa.tech": {
@@ -288,17 +1074,10 @@
         "message": "queryCname ENOTFOUND console.qa.tech"
       }
     },
-    "A api.qa.tech": {
-      "result": {
-        "name": "api.qa.tech",
-        "type": "A",
-        "records": ["216.150.16.65", "216.150.1.65"]
-      }
-    },
-    "CNAME portal.qa.tech": {
+    "A portal.qa.tech": {
       "error": {
         "code": "DNS_NXDOMAIN",
-        "message": "queryCname ENOTFOUND portal.qa.tech"
+        "message": "queryA ENOTFOUND portal.qa.tech"
       }
     },
     "NS app.qa.tech": {
@@ -307,15 +1086,22 @@
         "type": "NS",
         "records": [
           "ns4.vercel-dns-3.com",
-          "ns3.vercel-dns-3.com",
           "ns1.vercel-dns-3.com",
-          "ns2.vercel-dns-3.com"
+          "ns2.vercel-dns-3.com",
+          "ns3.vercel-dns-3.com"
         ]
       }
     },
-    "AAAA app.qa.tech": {
+    "CNAME app.qa.tech": {
       "result": {
         "name": "app.qa.tech",
+        "type": "CNAME",
+        "records": ["cname.vercel-dns.com"]
+      }
+    },
+    "AAAA docs.qa.tech": {
+      "result": {
+        "name": "docs.qa.tech",
         "type": "AAAA",
         "records": []
       }
@@ -327,11 +1113,25 @@
         "records": ["cname.vercel-dns.com"]
       }
     },
-    "A docs.qa.tech": {
+    "A app.qa.tech": {
       "result": {
-        "name": "docs.qa.tech",
+        "name": "app.qa.tech",
         "type": "A",
-        "records": ["66.33.60.194", "76.76.21.93"]
+        "records": ["66.33.60.130", "76.76.21.61"]
+      }
+    },
+    "AAAA app.qa.tech": {
+      "result": {
+        "name": "app.qa.tech",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "CNAME cname.vercel-dns.com": {
+      "result": {
+        "name": "cname.vercel-dns.com",
+        "type": "CNAME",
+        "records": []
       }
     },
     "NS docs.qa.tech": {
@@ -346,11 +1146,11 @@
         ]
       }
     },
-    "NS api.qa.tech": {
+    "A docs.qa.tech": {
       "result": {
-        "name": "api.qa.tech",
-        "type": "NS",
-        "records": []
+        "name": "docs.qa.tech",
+        "type": "A",
+        "records": ["66.33.60.129", "76.76.21.22"]
       }
     },
     "AAAA api.qa.tech": {
@@ -360,31 +1160,10 @@
         "records": []
       }
     },
-    "A app.qa.tech": {
+    "NS api.qa.tech": {
       "result": {
-        "name": "app.qa.tech",
-        "type": "A",
-        "records": ["66.33.60.129", "76.76.21.22"]
-      }
-    },
-    "CNAME app.qa.tech": {
-      "result": {
-        "name": "app.qa.tech",
-        "type": "CNAME",
-        "records": ["cname.vercel-dns.com"]
-      }
-    },
-    "CNAME cname.vercel-dns.com": {
-      "result": {
-        "name": "cname.vercel-dns.com",
-        "type": "CNAME",
-        "records": []
-      }
-    },
-    "AAAA docs.qa.tech": {
-      "result": {
-        "name": "docs.qa.tech",
-        "type": "AAAA",
+        "name": "api.qa.tech",
+        "type": "NS",
         "records": []
       }
     },
@@ -395,18 +1174,25 @@
         "records": []
       }
     },
-    "TXT 67.60.33.66.origin.asn.cymru.com": {
+    "TXT 130.60.33.66.origin.asn.cymru.com": {
       "result": {
-        "name": "67.60.33.66.origin.asn.cymru.com",
+        "name": "130.60.33.66.origin.asn.cymru.com",
         "type": "TXT",
         "records": ["16509 | 66.33.60.0/24 | US | arin | 2024-03-21"]
       }
     },
-    "TXT 65.16.150.216.origin.asn.cymru.com": {
+    "TXT 193.1.150.216.origin.asn.cymru.com": {
       "result": {
-        "name": "65.16.150.216.origin.asn.cymru.com",
+        "name": "193.1.150.216.origin.asn.cymru.com",
         "type": "TXT",
-        "records": ["16509 | 216.150.16.0/24 | US | arin | 2024-07-24"]
+        "records": ["16509 | 216.150.1.0/24 | US | arin | 2024-07-24"]
+      }
+    },
+    "TXT 129.60.33.66.origin.asn.cymru.com": {
+      "result": {
+        "name": "129.60.33.66.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 66.33.60.0/24 | US | arin | 2024-03-21"]
       }
     }
   },
@@ -414,27 +1200,17 @@
     "qa.tech:443": {
       "result": {
         "host": "qa.tech",
-        "ip": "216.150.1.1",
+        "ip": "216.150.1.129",
         "issuer": "C=US, O=Let's Encrypt, CN=YR2",
         "subjectAltNames": ["qa.tech"],
         "validFrom": "Aug 29 00:57:51 2026 GMT",
         "validTo": "Nov 27 00:57:50 2026 GMT"
       }
     },
-    "docs.qa.tech:443": {
-      "result": {
-        "host": "docs.qa.tech",
-        "ip": "66.33.60.67",
-        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
-        "subjectAltNames": ["docs.qa.tech"],
-        "validFrom": "Aug  9 06:01:09 2026 GMT",
-        "validTo": "Nov  7 06:01:08 2026 GMT"
-      }
-    },
     "app.qa.tech:443": {
       "result": {
         "host": "app.qa.tech",
-        "ip": "66.33.60.67",
+        "ip": "66.33.60.130",
         "issuer": "C=US, O=Let's Encrypt, CN=YR1",
         "subjectAltNames": ["app.qa.tech"],
         "validFrom": "Sep 20 02:27:55 2026 GMT",
@@ -444,11 +1220,21 @@
     "api.qa.tech:443": {
       "result": {
         "host": "api.qa.tech",
-        "ip": "216.150.16.65",
+        "ip": "216.150.1.193",
         "issuer": "C=US, O=Let's Encrypt, CN=YR2",
         "subjectAltNames": ["api.qa.tech"],
         "validFrom": "Aug 13 10:06:42 2026 GMT",
         "validTo": "Nov 11 10:06:41 2026 GMT"
+      }
+    },
+    "docs.qa.tech:443": {
+      "result": {
+        "host": "docs.qa.tech",
+        "ip": "66.33.60.129",
+        "issuer": "C=US, O=Let's Encrypt, CN=YR2",
+        "subjectAltNames": ["docs.qa.tech"],
+        "validFrom": "Aug  9 06:01:09 2026 GMT",
+        "validTo": "Nov  7 06:01:08 2026 GMT"
       }
     }
   }

@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-export const LayerId = z.enum(['http', 'dns', 'tls', 'browser']);
+export const LayerId = z.enum(['http', 'dns', 'tls', 'browser', 'bundle']);
 export type LayerId = z.infer<typeof LayerId>;
 
 // 'unclassified' until surface discovery exists: the scanned URL is not claimed to be the product app.

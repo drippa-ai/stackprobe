@@ -1,35 +1,57 @@
 {
   "url": "https://example.com/",
-  "recordedAt": "2026-10-04T18:01:22.198Z",
+  "recordedAt": "2026-10-04T20:18:35.769Z",
   "http": {
     "GET https://example.com/": {
       "result": {
         "url": "https://example.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 18:01:22 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:18:35 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
           ["server", "cloudflare"],
           ["last-modified", "Fri, 02 Oct 2026 16:11:02 GMT"],
           ["allow", "GET, HEAD"],
-          ["age", "6570"],
+          ["age", "403"],
           ["cf-cache-status", "HIT"],
           ["content-encoding", "br"],
-          ["cf-ray", "a456176a3a2a1ae6-OSL"],
+          ["cf-ray", "a456e06e2d78b28a-OSL"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
         "body": "<meta charset=\"utf-8\">\n<link rel=\"icon\" href=\"data:,\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<script src=\"/s.js\"></script>"
       }
+    },
+    "GET https://example.com/s.js": {
+      "result": {
+        "url": "https://example.com/s.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:18:36 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["server", "cloudflare"],
+          ["last-modified", "Sun, 04 Oct 2026 07:03:47 GMT"],
+          ["allow", "GET, HEAD"],
+          ["etag", "W/\"6ac1fa53-7ab\""],
+          ["age", "154"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a456e070de76b28a-OSL"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://iana.org/\""
+      }
     }
   },
   "dns": {
-    "AAAA example.com": {
+    "A example.com": {
       "result": {
         "name": "example.com",
-        "type": "AAAA",
-        "records": ["2606:4700:10::6814:179a", "2606:4700:10::ac42:93f3"]
+        "type": "A",
+        "records": ["172.66.147.243", "104.20.23.154"]
       }
     },
     "CNAME example.com": {
@@ -39,18 +61,18 @@
         "records": []
       }
     },
-    "A example.com": {
-      "result": {
-        "name": "example.com",
-        "type": "A",
-        "records": ["104.20.23.154", "172.66.147.243"]
-      }
-    },
     "NS example.com": {
       "result": {
         "name": "example.com",
         "type": "NS",
         "records": ["elliott.ns.cloudflare.com", "hera.ns.cloudflare.com"]
+      }
+    },
+    "AAAA example.com": {
+      "result": {
+        "name": "example.com",
+        "type": "AAAA",
+        "records": ["2606:4700:10::6814:179a", "2606:4700:10::ac42:93f3"]
       }
     },
     "TXT 243.147.66.172.origin.asn.cymru.com": {
@@ -81,27 +103,6 @@
         "records": []
       }
     },
-    "A dashboard.example.com": {
-      "result": {
-        "name": "dashboard.example.com",
-        "type": "A",
-        "records": []
-      }
-    },
-    "A app.example.com": {
-      "result": {
-        "name": "app.example.com",
-        "type": "A",
-        "records": []
-      }
-    },
-    "A console.example.com": {
-      "result": {
-        "name": "console.example.com",
-        "type": "A",
-        "records": []
-      }
-    },
     "CNAME app.example.com": {
       "result": {
         "name": "app.example.com",
@@ -109,16 +110,9 @@
         "records": []
       }
     },
-    "CNAME portal.example.com": {
+    "A app.example.com": {
       "result": {
-        "name": "portal.example.com",
-        "type": "CNAME",
-        "records": []
-      }
-    },
-    "A docs.example.com": {
-      "result": {
-        "name": "docs.example.com",
+        "name": "app.example.com",
         "type": "A",
         "records": []
       }
@@ -130,30 +124,16 @@
         "records": []
       }
     },
-    "CNAME dashboard.example.com": {
+    "CNAME portal.example.com": {
       "result": {
-        "name": "dashboard.example.com",
+        "name": "portal.example.com",
         "type": "CNAME",
         "records": []
       }
     },
-    "CNAME docs.example.com": {
-      "result": {
-        "name": "docs.example.com",
-        "type": "CNAME",
-        "records": []
-      }
-    },
-    "CNAME status.example.com": {
+    "A status.example.com": {
       "result": {
         "name": "status.example.com",
-        "type": "CNAME",
-        "records": []
-      }
-    },
-    "A api.example.com": {
-      "result": {
-        "name": "api.example.com",
         "type": "A",
         "records": []
       }
@@ -165,10 +145,52 @@
         "records": []
       }
     },
-    "A status.example.com": {
+    "A console.example.com": {
+      "result": {
+        "name": "console.example.com",
+        "type": "A",
+        "records": []
+      }
+    },
+    "CNAME dashboard.example.com": {
+      "result": {
+        "name": "dashboard.example.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A docs.example.com": {
+      "result": {
+        "name": "docs.example.com",
+        "type": "A",
+        "records": []
+      }
+    },
+    "A dashboard.example.com": {
+      "result": {
+        "name": "dashboard.example.com",
+        "type": "A",
+        "records": []
+      }
+    },
+    "CNAME docs.example.com": {
+      "result": {
+        "name": "docs.example.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A api.example.com": {
+      "result": {
+        "name": "api.example.com",
+        "type": "A",
+        "records": []
+      }
+    },
+    "CNAME status.example.com": {
       "result": {
         "name": "status.example.com",
-        "type": "A",
+        "type": "CNAME",
         "records": []
       }
     },

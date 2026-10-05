@@ -1,23 +1,23 @@
 {
   "url": "https://www.notion.com/",
-  "recordedAt": "2026-10-04T17:53:04.074Z",
+  "recordedAt": "2026-10-04T20:16:45.886Z",
   "http": {
     "GET https://www.notion.com/": {
       "result": {
         "url": "https://www.notion.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 17:53:04 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
-          ["cf-ray", "a4560b410e100731-OSL"],
+          ["cf-ray", "a456ddbf7a1e0883-OSL"],
           ["cf-cache-status", "DYNAMIC"],
-          ["age", "2575"],
+          ["age", "3995"],
           ["cache-control", "public, max-age=0"],
           ["content-language", "en-US"],
           ["server", "cloudflare"],
-          ["x-vercel-id", "arn1::pdx1::856x5-1791136384185-3defa61b125d"],
+          ["x-vercel-id", "arn1::pdx1::vbwzv-1791145006033-aa1669b09636"],
           ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
           ["vary", "accept-encoding"],
           [
@@ -36,28 +36,891 @@
         ],
         "body": "<meta charset=\"utf-8\" data-next-head=\"\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" data-next-head=\"\">\n<meta name=\"description\" content=\"Build Custom Agents, search across all your apps, and automate busywork. The AI workspace where teams get more done, faster.\" data-next-head=\"\">\n<meta name=\"twitter:card\" content=\"summary_large_image\" data-next-head=\"\">\n<meta name=\"twitter:site\" content=\"@NotionHQ\" data-next-head=\"\">\n<meta name=\"twitter:title\" content=\"The AI workspace that works for you. | Notion\" data-next-head=\"\">\n<meta name=\"twitter:description\" content=\"Build Custom Agents, search across all your apps, and automate busywork. The AI workspace where teams get more done, faster.\" data-next-head=\"\">\n<meta name=\"twitter:url\" content=\"/\" data-next-head=\"\">\n<meta name=\"twitter:image\" content=\"https://www.notion.com/front-static/meta/teams-and-agents.jpg\" data-next-head=\"\">\n<meta property=\"og:url\" content=\"https://www.notion.com/\" data-next-head=\"\">\n<meta property=\"og:title\" content=\"The AI workspace that works for you. | Notion\" data-next-head=\"\">\n<meta property=\"og:description\" content=\"Build Custom Agents, search across all your apps, and automate busywork. The AI workspace where teams get more done, faster.\" data-next-head=\"\">\n<meta property=\"og:image\" content=\"https://www.notion.com/front-static/meta/teams-and-agents.jpg\" data-next-head=\"\">\n<meta property=\"og:locale\" content=\"en-US\" data-next-head=\"\">\n<meta property=\"og:site_name\" content=\"Notion\" data-next-head=\"\">\n<meta property=\"og:type\" content=\"website\" data-next-head=\"\">\n<link rel=\"icon\" href=\"/front-static/favicon.ico\" data-next-head=\"\">\n<link rel=\"apple-touch-icon\" href=\"/front-static/logo-ios.png\" data-next-head=\"\">\n<meta name=\"mobile-web-app-capable\" content=\"yes\" data-next-head=\"\">\n<meta name=\"apple-itunes-app\" content=\"1232780281\" data-next-head=\"\">\n<meta name=\"referrer\" content=\"strict-origin\" data-next-head=\"\">\n<meta name=\"naver-site-verification\" content=\"ad5c9c7e4607a86395226000f5fe1e4223ce3348\" data-next-head=\"\">\n<link rel=\"canonical\" href=\"https://www.notion.com/\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"en\" href=\"https://www.notion.com/\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"ko\" href=\"https://www.notion.com/ko\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"ja\" href=\"https://www.notion.com/ja\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"fr\" href=\"https://www.notion.com/fr\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"de\" href=\"https://www.notion.com/de\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"es-es\" href=\"https://www.notion.com/es-es\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"es\" href=\"https://www.notion.com/es\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"pt\" href=\"https://www.notion.com/pt\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"fi\" href=\"https://www.notion.com/fi\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"da\" href=\"https://www.notion.com/da\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"nl\" href=\"https://www.notion.com/nl\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"nb\" href=\"https://www.notion.com/nb\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"sv\" href=\"https://www.notion.com/sv\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"zh\" href=\"https://www.notion.com/zh-cn\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"zh-tw\" href=\"https://www.notion.com/zh-tw\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"en-gb\" href=\"https://www.notion.com/en-gb\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"id\" href=\"https://www.notion.com/id\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"vi\" href=\"https://www.notion.com/vi\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"th\" href=\"https://www.notion.com/th\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"he\" href=\"https://www.notion.com/he\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"ar\" href=\"https://www.notion.com/ar\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"it\" href=\"https://www.notion.com/it\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"en-au\" href=\"https://www.notion.com/en-gb\" data-next-head=\"\">\n<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://www.notion.com/\" data-next-head=\"\">\n<link rel=\"preload\" href=\"/front-static/fonts/NotionInter-Regular.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\">\n<link rel=\"preload\" href=\"/front-static/fonts/NotionInter-Medium.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\">\n<link rel=\"preload\" href=\"/front-static/fonts/NotionInter-Bold.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\">\n<link rel=\"preconnect\" href=\"https://images.ctfassets.net\">\n<link rel=\"preconnect\" href=\"https://videos.ctfassets.net\">\n<link data-next-font=\"\" rel=\"preconnect\" href=\"/\" crossorigin=\"anonymous\">\n<link rel=\"preload\" href=\"/_next/static/chunks/3zylqqao77gji.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/chunks/25ytp5cuoqnet.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/chunks/1vs0p52-goh9a.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/chunks/3suwd3stara0h.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/chunks/3iunjgjmrq2-n.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/chunks/1dvkjbpbi165u.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/chunks/1o_1d5ufn9tlk.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/chunks/1208jux1kjsyv.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/chunks/01fcie8l1zeef.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/chunks/0zzlzywe1-2pu.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/chunks/3vxml_vsbp7pl.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/chunks/1mt0ahfv865f_.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/chunks/0j7ga--b_2fmk.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/chunks/0gukrbfew1whv.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/chunks/3inl3-vmttoxj.css\" as=\"style\">\n<meta id=\"__I18N_DATA__\" itemprop=\"messages\" content=\"{&quot;frontProductPage.logoSection.title&quot;:&quot;Trusted by teams at&quot;}\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/3zylqqao77gji.css\" data-n-g=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/25ytp5cuoqnet.css\" data-n-g=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/1vs0p52-goh9a.css\" data-n-p=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/3suwd3stara0h.css\" data-n-p=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/3iunjgjmrq2-n.css\" data-n-p=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/1dvkjbpbi165u.css\" data-n-p=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/1o_1d5ufn9tlk.css\" data-n-p=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/1208jux1kjsyv.css\" data-n-p=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/01fcie8l1zeef.css\" data-n-p=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0zzlzywe1-2pu.css\" data-n-p=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/3vxml_vsbp7pl.css\" data-n-p=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/1mt0ahfv865f_.css\" data-n-p=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0j7ga--b_2fmk.css\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0gukrbfew1whv.css\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/3inl3-vmttoxj.css\">\n<script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/0cz1d0mv5g_q7.js\"></script>\n<script defer=\"\" src=\"/_next/static/chunks/07hobc8nlh77_.js\"></script>\n<script defer=\"\" src=\"/_next/static/chunks/15_zuu0-jsrva.js\"></script>\n<script defer=\"\" src=\"/_next/static/chunks/1-22n6em_uvc3.js\"></script>\n<script src=\"/_next/static/chunks/3dm2hc-c6bsfa.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/0uzjcq-2r7x4-.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/06gjc9ox0cjrw.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/1djnam1co8dym.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/2k32qf_xvg6xi.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/24fachih0rx_q.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/12iy3u7j92inq.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/1r6xduhdw22zn.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/3m22659-07tim.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/2jr4ayg4flqk3.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/38oh8nhmbdzge.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/10x8di9xapcd5.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/2ch1t5b_c-uiu.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/1ps81oalk5d6q.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/2l5imyi02awlc.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/3-il5hfwqlb9j.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/16umb_i68h_fs.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/1qot0_lx6v6_g.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/16iiu6mhhbix1.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/17p1lv1v9vvma.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/2bhxrwq016hyh.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/3vap4zi4jk833.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/0sagkwg1t_lvi.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-0f01cg8by8wx8.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/1c2-e8pn49b4a.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/0r2m6255g0vus.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/3nh5wwkfk8kgz.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/3-n27de5mkncy.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/267kp7rq7wk_0.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/3_d148g9_fcek.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/3k8r8mr9kbac6.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/3o6zbmak28zv5.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/1txowkgctsg92.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/25b619z2fw_hk.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/3bwdy0efa0nfn.js\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-1-bi4kd9uwou_.js\" defer=\"\"></script>\n<script src=\"/_next/static/a15e8763408b7fdaf5411423747b07f0cd2e68f7/_buildManifest.js\" defer=\"\"></script>\n<script src=\"/_next/static/a15e8763408b7fdaf5411423747b07f0cd2e68f7/_ssgManifest.js\" defer=\"\"></script>\n<script src=\"/_next/static/a15e8763408b7fdaf5411423747b07f0cd2e68f7/_clientMiddlewareManifest.js\" defer=\"\"></script>\n<link rel=\"preload\" as=\"image\" href=\"/front-static/accent-illustrations/agentTop.png?v=2\">\n<link rel=\"preload\" as=\"image\" href=\"/front-static/accent-illustrations/personPeekLeft2.png?v=1\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/6gu2Rybt4VdhS2GEEA99PO/ac0fedd553b2f541fde79cdda05271cc/OpenAI.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/4aacFfCek6OBBghMJHaBSk/9cb5eb86db70a11dbb6bc62b6535293b/a24-mono.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/6T4QxYfpIzIbZgWUSa5Rb1/8c6cb40bbf2304f8486222d777314b83/Figma_Wordmark__Black_.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/1WOBygtnWVcfsk5EfcSJVM/99b994e046e92fee4878075877a9441c/FedEx.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/4KBpzIRuWO9Bkoho07RwHW/7e608b80b697431b92ffb144e545cf3c/Ramp.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/5zvQQUAMUwmWaGbC9qhXpK/633c8d40bbbb2b42faec7ea3339788ff/cursor-logo-mono.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/6ZbZcPA6g5hFrPMbOPfraR/ef4bc2c92ed55a60c9609900717d3755/substack-wordmark-mono.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/27zUO0UMDpEBMwPKUUilFH/daba398de4e970fcda7a138ff09d480a/Nvidia.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/75O9653Z83boVzSMBMSY2D/4b36e928296e00612213aff4bdd369f2/toyota-black.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/4ljglPuQFOp4jC8kIacMa1/73c44685b85c73a717baac0329633d59/clay-mono-black.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/2Srehy5L0uv68kHfd341sB/b486900e403e6bd0b4cd29bca21d79b4/lamborghini-script-mono.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/5PYK3Lg8UW2Pk5pjMSo0oo/386446de76c143e694ec9790807eff7e/david-zwirner-mono.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/6NEhbP27yAbhvWdLKPHTFV/6978b1603c567d69f5fe7b4895b1d30f/Vercel.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/2lvHXS3UJ5sJscJTW8GTpc/c22ac415979069ab3be881b2749e0d77/Faire_logo_-_black.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/5noP5n1Gp9wULYfUEzujKv/49d56f55c09d72488606d57671e7d8c4/full-logo--black.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/6mSBovk8ZRupLUOZtSu9vp/2bc7912e143755ee406413ab0b9e0b68/goop-mono.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/7hER3ka9QgDiTjLh5Fh3ZZ/acda79bc2449edf5d964a3fc89e19623/Discord-Logo-Black.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/28h89MWosNZz4BozEZgayf/92843d67b2b141281b53f4ec1ab6bc0f/dolby-wordmark-mono.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/kelAN094ZCNSM1hzESs2C/71fdfc39756f757c95f984aa78fc1e82/1Password.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/nyxHXSMqMnFKE3RD3tteN/fa4e6ab45c999ace2a528a45c5bfb812/Loreal-k.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/1TZBxOqNgDNBTJUEkD9Rn2/95219318a8bc7198d69e3fe0190ea94c/Volvo_Spread_Word_Mark_2025_bl.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/14SNuPmXDPWdGE0I8TMeNL/6070db21d1b9f0e95c91e9ceb8b225e1/Remote-black.svg\">\n<link rel=\"preload\" as=\"image\" href=\"https://images.ctfassets.net/spoqsaf9291f/29FPcEW8k9owCOzkg5toXL/2e9fb3201f80820a7779e7675d4e927e/patreon-wordmark-mono.svg\">\n<a href=\"/product\"></a>\n<a href=\"/product/ai\">Notion AIAI tools for work</a>\n<a href=\"/product/agents\">AgentsAutomate busywork</a>\n<a href=\"/product/ai-meeting-notes\">AI Meeting NotesPerfectly written by AI</a>\n<a href=\"/product/enterprise-search\">Enterprise SearchFind answers instantly</a>\n<a href=\"/product/wikis\">Knowledge BaseCentralize your knowledge</a>\n<a href=\"/product/docs\">DocsSimple and powerful</a>\n<a href=\"/product/projects\">ProjectsManage any project</a>\n<a href=\"/connections\">ConnectionsConnect your apps</a>\n<a href=\"/security\">SecuritySafe and scalable</a>\n<a href=\"/product/calendar\">Notion CalendarIt's time</a>\n<a href=\"/releases\">See what’s new→</a>\n<a href=\"/download\">Notion App→</a>\n<a href=\"/product/ai/use-cases?type=work\">For work</a>\n<a href=\"/product/ai/use-cases?type=life\">For life</a>\n<a href=\"/enterprise\">Enterprise</a>\n<a href=\"/teams\">Small businesses</a>\n<a href=\"/startups\">Startups</a>\n<a href=\"/product/dev\">Developers</a>\n<a href=\"/releases\">What's New</a>\n<a href=\"/customers\">Customer stories</a>\n<a href=\"/webinars\">Webinars</a>\n<a href=\"/templates\">Templates</a>\n<a href=\"/explore-consultants\">Consultants</a>\n<a href=\"https://academy.notion.com\">Academy</a>\n<a href=\"/product/demos\">Product tours</a>\n<a href=\"/help\">Help Center</a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"/contact-sales\">Request a demo</a>\n<a href=\"/login\">Log in</a>\n<a href=\"/signup\">Get Notion free</a>\n<a href=\"/customers/openai\"></a>\n<a href=\"/customers/figma\"></a>\n<a href=\"/customers/ramp\"></a>\n<a href=\"/customers/cursor\"></a>\n<a href=\"/customers/toyota\"></a>\n<a href=\"/customers/clay\"></a>\n<a href=\"/customers/vercel\"></a>\n<a href=\"/customers/faire\"></a>\n<a href=\"/customers/remote\"></a>\n<a href=\"/product/features#capture\"></a>\n<a href=\"/product/features#find\"></a>\n<a href=\"/product/features#automate\"></a>\n<a href=\"/product/ai/use-cases/triage-product-feedback\"></a>\n<a href=\"/product/ai/use-cases/resolve-support-tickets-in-slack\"></a>\n<a href=\"/product/ai/use-cases/respond-to-security-alerts-faster\"></a>\n<a href=\"/product/ai/use-cases/automate-weekly-reporting\"></a>\n<a href=\"/product/dev\"></a>\n<a href=\"/customers/cursor\">Using the most AI-native tools like Notion is an important competitive advantage for us to stay smal</a>\n<a href=\"/customers/faire\">Notion’s thoughtful design speeds up collaboration and decisions so we can deliver impact to our cus</a>\n<a href=\"/customers/ramp\">Notion Custom Agents help our team go beyond doing work with AI to building AI tools that do the wor</a>\n<a href=\"/product/features\">Features</a>\n<a href=\"/product/ai\">Notion AI</a>\n<a href=\"/download\">Download</a>\n<a href=\"/explore\">Explore more→</a>\n<a href=\"/connections\">Connections</a>\n<a href=\"/templates\">Marketplace</a>\n<a href=\"/community\">Community</a>\n<a href=\"/about\">About us</a>\n<a href=\"/careers\">Careers</a>\n<a href=\"/security\">Security</a>\n<a href=\"https://www.notion-status.com\">Status</a>\n<a href=\"https://www.notion.so/28ffdd083dc3473e9c2da6ec011b58ac\">Terms &amp; privacy</a>\n<a href=\"https://www.notion.com/trust/privacy-policy#california\">Your privacy rights</a>\n<a href=\"https://developers.notion.com\">Developers</a>\n<a href=\"/en-US\">English (US)</a>\n<a href=\"/id\">Bahasa Indonesia</a>\n<a href=\"/da\">Dansk</a>\n<a href=\"/de\">Deutsch</a>\n<a href=\"/en-GB\">English (UK)</a>\n<a href=\"/es-ES\">Español (España)</a>\n<a href=\"/es\">Español (Latinoamérica)</a>\n<a href=\"/fr\">Français (France)</a>\n<a href=\"/it\">Italiano</a>\n<a href=\"/nl\">Nederlands</a>\n<a href=\"/nb\">Norsk</a>\n<a href=\"/pt\">Português (Brasil)</a>\n<a href=\"/fi\">Suomi</a>\n<a href=\"/sv\">Svenska</a>\n<a href=\"/vi\">Tiếng Việt</a>\n<a href=\"/he\">עברית</a>\n<a href=\"/ar\">العربية</a>\n<a href=\"/th\">ภาษาไทย</a>\n<a href=\"/ko\">한국어</a>\n<a href=\"/ja\">日本語</a>\n<a href=\"/zh-CN\">简体中文</a>\n<a href=\"/zh-TW\">繁體中文</a>"
       }
+    },
+    "GET https://www.notion.com/_next/static/chunks/0cz1d0mv5g_q7.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc2ce6b0883-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "3962923"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0cz1d0mv5g_q7.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"846118c33b2c0e922d7b3a7676f81f6f\""],
+          ["last-modified", "Wed, 19 Aug 2026 23:28:02 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/0cz1d0mv5g_q7.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::d88f2-1787182082482-9f51fbf0f695"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/07hobc8nlh77_.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/07hobc8nlh77_.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc308981525-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "432265"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"07hobc8nlh77_.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"e869cd58eb48757ce5cb42b6de5ab1a7\""],
+          ["last-modified", "Tue, 29 Sep 2026 20:12:21 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/07hobc8nlh77_.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::xqbcd-1790712740884-0911841b0592"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/2ch1t5b_c-uiu.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/2ch1t5b_c-uiu.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32a3e5a0f-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "507986"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2ch1t5b_c-uiu.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"8c631a0411e112ef130cdbac5e588458\""],
+          ["last-modified", "Mon, 28 Sep 2026 23:10:20 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/2ch1t5b_c-uiu.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::cc6sn-1790637020094-4bd45467e35f"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/15_zuu0-jsrva.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/15_zuu0-jsrva.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc3296176ef-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "432265"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"15_zuu0-jsrva.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"33393c3ea8fed736e7dfbf30ba5e6aea\""],
+          ["last-modified", "Tue, 29 Sep 2026 20:12:21 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/15_zuu0-jsrva.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::zgsss-1790712740880-140af36b82e6"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/3-il5hfwqlb9j.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/3-il5hfwqlb9j.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32c0b23eb-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "259509"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3-il5hfwqlb9j.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"7071f3af0fe9a5349a118c47c666cf6c\""],
+          ["last-modified", "Thu, 01 Oct 2026 20:11:36 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/3-il5hfwqlb9j.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::m6pwg-1790885496625-abe793a93599"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/3dm2hc-c6bsfa.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/3dm2hc-c6bsfa.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc3290a1525-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "162435"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3dm2hc-c6bsfa.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"526c0c8bf6ac78f01d10d0d73ba9175d\""],
+          ["last-modified", "Fri, 02 Oct 2026 23:09:30 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/3dm2hc-c6bsfa.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::p9flp-1790982570611-ab273395dbb8"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/1r6xduhdw22zn.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/1r6xduhdw22zn.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32a6fdfec-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "345874"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1r6xduhdw22zn.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"8815f66d577b18f1be050bd698871b89\""],
+          ["last-modified", "Wed, 30 Sep 2026 20:12:12 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/1r6xduhdw22zn.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::d9qfl-1790799131827-d011f2e4dca2"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/12iy3u7j92inq.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/12iy3u7j92inq.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc3296276ef-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "173147"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"12iy3u7j92inq.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"0a114f02a2b2d51133ac398e74a8f45c\""],
+          ["last-modified", "Fri, 02 Oct 2026 20:10:59 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/12iy3u7j92inq.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::fvzgl-1790971858884-a8c7bf070f19"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "\"https://academy.notion.com/\"\n\"https://app.ripplematch.com/\"\n\"https://apps.apple.com/\"\n\"https://chrome.google.com/\"\n\"https://dev.notion.so/\"\n\"https://developers.notion.com/\"\n\"https://mail.notion.so/\"\n\"https://notion.dev/\"\n\"https://notion.notion.site/\"\n\"https://play.google.com/\"\n\"https://startupshub.notion.site/\"\n\"https://twitter.com/\"\n\"https://www.facebook.com/\"\n\"https://www.instagram.com/\"\n\"https://www.linkedin.com/\"\n\"https://www.notion-status.com/\"\n\"https://www.notion.com/\"\n\"https://www.notion.so/\"\n\"https://www.youtube.com/\""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/16iiu6mhhbix1.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/16iiu6mhhbix1.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32e3956af-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "450876"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"16iiu6mhhbix1.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"c6116edf499b1782e4d6987fdc96b2c9\""],
+          ["last-modified", "Tue, 29 Sep 2026 15:02:10 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/16iiu6mhhbix1.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::b9wvf-1790694129746-71a5d7de9f7b"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/1qot0_lx6v6_g.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/1qot0_lx6v6_g.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32c1ba0f0-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "421585"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1qot0_lx6v6_g.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"18ddbce2a38b381212815aca8b7d9466\""],
+          ["last-modified", "Tue, 29 Sep 2026 23:10:17 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/1qot0_lx6v6_g.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::lhqhg-1790723421536-308ec5931108"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/1-22n6em_uvc3.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/1-22n6em_uvc3.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32ff75ebd-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "421584"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1-22n6em_uvc3.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"96f99b1bcfdd57f2049cf511d913fe11\""],
+          ["last-modified", "Tue, 29 Sep 2026 23:10:21 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/1-22n6em_uvc3.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::qdt6s-1790723421540-7035cbf0a758"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/2l5imyi02awlc.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/2l5imyi02awlc.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32cca723c-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "162435"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2l5imyi02awlc.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"573b24e28f6c3a961f4a54b1bb3f20ef\""],
+          ["last-modified", "Fri, 02 Oct 2026 23:09:30 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/2l5imyi02awlc.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::wc89d-1790982570708-a6965192b51e"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "\"https://api.statsigcdn.com/\"\n\"https://cloudflare-dns.com/\"\n\"https://docs.statsig.com/\"\n\"https://featureassets.org/\"\n\"https://prodregistryv2.org/\"\n\"https://statsigapi.net/\""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/1djnam1co8dym.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/1djnam1co8dym.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc3291dc272-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "162435"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1djnam1co8dym.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"aa0668cc713cd991c411f406be332f2f\""],
+          ["last-modified", "Fri, 02 Oct 2026 23:09:30 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/1djnam1co8dym.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::vvmk7-1790982570658-9315168317b7"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "\"https://http-inputs-notion.splunkcloud.com/\"\n\"https://saml-url-redaction.invalid/\""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/1c2-e8pn49b4a.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/1c2-e8pn49b4a.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32c84b518-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "184003"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1c2-e8pn49b4a.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"647ac3f8cdf038f5406e7ee08adaac9a\""],
+          ["last-modified", "Fri, 02 Oct 2026 17:10:03 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/1c2-e8pn49b4a.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::t95fc-1790961002945-1b187a5b92c2"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/2k32qf_xvg6xi.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/2k32qf_xvg6xi.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32cdb56bb-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "173147"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2k32qf_xvg6xi.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"ce9809809f2a9ad84ab8e61d966d1b91\""],
+          ["last-modified", "Fri, 02 Oct 2026 20:10:59 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/2k32qf_xvg6xi.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::mn2pf-1790971858877-83530eb267ac"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/2jr4ayg4flqk3.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/2jr4ayg4flqk3.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32c1d56c0-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "162435"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2jr4ayg4flqk3.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"33556947be36ce9d37466c7629169d8d\""],
+          ["last-modified", "Fri, 02 Oct 2026 23:09:30 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/2jr4ayg4flqk3.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::fk46w-1790982570714-e48167f342ad"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/3m22659-07tim.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/3m22659-07tim.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32ed4b4ee-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "450876"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3m22659-07tim.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"cb603258037bd194ba968c133d1ae724\""],
+          ["last-modified", "Tue, 29 Sep 2026 15:02:07 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/3m22659-07tim.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::zgj8h-1790694129750-2a0768bc2547"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "\"http://stg.dummy.net/\"\n\"https://app.dev.notion.com/\"\n\"https://app.notion.com/\"\n\"https://app.stg.notion.com/\"\n\"https://dev.notion.com/\"\n\"https://git.new/\"\n\"https://stg.notion.com/\"\n\"https://www.notion.com/\""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/06gjc9ox0cjrw.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/06gjc9ox0cjrw.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32c935690-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "529580"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"06gjc9ox0cjrw.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"e52794ea9b6432ba2ed8ff24a2ab442b\""],
+          ["last-modified", "Mon, 28 Sep 2026 17:10:26 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/06gjc9ox0cjrw.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::6gn8v-1790615426099-39fefe8fd203"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/24fachih0rx_q.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/24fachih0rx_q.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32f550731-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "162435"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"24fachih0rx_q.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"990ae2ac8b7cd9b305bc9c3ece5563ef\""],
+          ["last-modified", "Fri, 02 Oct 2026 23:09:30 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/24fachih0rx_q.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::cvd8x-1790982570660-f32b8aa82278"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "\"https://app.contentful.com/\"\n\"https://exp.notion.com/\"\n\"https://exp.notion.so/\"\n\"https://va.vercel-scripts.com/\"\n\"https://www.googletagmanager.com/\""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/38oh8nhmbdzge.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/38oh8nhmbdzge.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc328905694-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "184003"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"38oh8nhmbdzge.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"d1f63b3c8d50186fd2210bdfd42514c4\""],
+          ["last-modified", "Fri, 02 Oct 2026 17:10:02 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/38oh8nhmbdzge.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::nnrxp-1790961002326-770eed99c7cc"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "\"https://www.notion.so/\""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/17p1lv1v9vvma.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/17p1lv1v9vvma.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32eb90b69-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "162435"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"17p1lv1v9vvma.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"f7e9661188c6403ee017ca34d039b3f7\""],
+          ["last-modified", "Fri, 02 Oct 2026 23:09:30 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/17p1lv1v9vvma.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::fpwjc-1790982570707-f88ea8de3414"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/3vap4zi4jk833.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/3vap4zi4jk833.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32daeb505-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "162435"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3vap4zi4jk833.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"2eda84673c8ba0be6e8e72ae459faa48\""],
+          ["last-modified", "Fri, 02 Oct 2026 23:09:30 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/3vap4zi4jk833.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::8vnlz-1790982570712-54c1f94932ae"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/turbopack-0f01cg8by8wx8.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/turbopack-0f01cg8by8wx8.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc33acd56ab-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "162435"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"turbopack-0f01cg8by8wx8.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"a1ecf48523f79ed5d54363ad5a7ed148\""],
+          ["last-modified", "Fri, 02 Oct 2026 23:09:30 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/turbopack-0f01cg8by8wx8.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::2tp5l-1790982570711-1f94d320f4ed"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/0sagkwg1t_lvi.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/0sagkwg1t_lvi.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc33e0bb517-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "184003"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0sagkwg1t_lvi.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"dcf5fe325ae84924ac7b1d413a398a2e\""],
+          ["last-modified", "Fri, 02 Oct 2026 17:10:03 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/0sagkwg1t_lvi.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::gr7g9-1790961003071-65ca7e08993f"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "\"https://app.contentful.com/\"\n\"https://app.eu.contentful.com/\"\n\"https://formatjs.io/\""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/1ps81oalk5d6q.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/1ps81oalk5d6q.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32e8e3181-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "432265"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1ps81oalk5d6q.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"db31c73f50ae25d8d4183a5262fe1357\""],
+          ["last-modified", "Tue, 29 Sep 2026 20:12:21 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/1ps81oalk5d6q.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::skxkp-1790712740896-f9dd4aa89704"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/16umb_i68h_fs.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/16umb_i68h_fs.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32a3c568d-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "450876"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"16umb_i68h_fs.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"55cf9f785474728d5d331eab2a9caed4\""],
+          ["last-modified", "Tue, 29 Sep 2026 15:02:09 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/16umb_i68h_fs.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::fr5rx-1790694129747-d7ab824896be"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/10x8di9xapcd5.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/10x8di9xapcd5.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32f710b31-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "3445562"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"10x8di9xapcd5.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"bab30aee934b9fe7efaf5ac75b58fa93\""],
+          ["last-modified", "Tue, 25 Aug 2026 23:10:44 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/10x8di9xapcd5.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::5bltk-1787699444316-ffd947485e22"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "\"https://transcend-cdn.com/\""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/0r2m6255g0vus.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/0r2m6255g0vus.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32ac756ab-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "345874"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0r2m6255g0vus.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"335c829a75a79f52d21a0d4fd9897364\""],
+          ["last-modified", "Wed, 30 Sep 2026 20:12:11 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/0r2m6255g0vus.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::pd2gj-1790799131817-8ba2254ea6cd"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/0uzjcq-2r7x4-.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/0uzjcq-2r7x4-.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc33a365696-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "162435"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0uzjcq-2r7x4-.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"3d9b13a363d4b2fc0d62d87e0442198e\""],
+          ["last-modified", "Fri, 02 Oct 2026 23:09:30 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/0uzjcq-2r7x4-.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::8hcmg-1790982570656-47433180fc56"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "\"https://example.invalid/\""
+      }
+    },
+    "GET https://www.notion.com/_next/static/chunks/2bhxrwq016hyh.js": {
+      "result": {
+        "url": "https://www.notion.com/_next/static/chunks/2bhxrwq016hyh.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a456ddc32ab88deb-OSL"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "162435"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2bhxrwq016hyh.js\""],
+          ["content-encoding", "gzip"],
+          ["etag", "W/\"6d8430604b3c6c7285c3499a77a3ce10\""],
+          ["last-modified", "Fri, 02 Oct 2026 23:09:30 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["x-matched-path", "/_next/static/chunks/2bhxrwq016hyh.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::6wx5z-1790982570711-bcf0bd4844d0"],
+          ["set-cookie", "__cf_bm=<redacted>"]
+        ],
+        "body": "\"notion-experimental/0.0.1\""
+      }
     }
   },
   "dns": {
-    "CNAME www.notion.com": {
+    "AAAA www.notion.com": {
       "result": {
         "name": "www.notion.com",
-        "type": "CNAME",
-        "records": []
+        "type": "AAAA",
+        "records": ["2602:f79a:0:1::1", "2602:f79a:0:1::2", "2602:f79a::1", "2602:f79a::2"]
       }
     },
     "A www.notion.com": {
       "result": {
         "name": "www.notion.com",
         "type": "A",
-        "records": ["208.103.161.2", "208.103.161.1", "208.103.161.17", "208.103.161.16"]
-      }
-    },
-    "AAAA www.notion.com": {
-      "result": {
-        "name": "www.notion.com",
-        "type": "AAAA",
-        "records": ["2602:f79a::2", "2602:f79a:0:1::1", "2602:f79a:0:1::2", "2602:f79a::1"]
+        "records": ["208.103.161.1", "208.103.161.2", "208.103.161.16", "208.103.161.17"]
       }
     },
     "NS www.notion.com": {
@@ -71,7 +934,14 @@
       "result": {
         "name": "notion.com",
         "type": "NS",
-        "records": ["dana.ns.cloudflare.com", "woz.ns.cloudflare.com"]
+        "records": ["woz.ns.cloudflare.com", "dana.ns.cloudflare.com"]
+      }
+    },
+    "CNAME www.notion.com": {
+      "result": {
+        "name": "www.notion.com",
+        "type": "CNAME",
+        "records": []
       }
     },
     "TXT 17.161.103.208.origin.asn.cymru.com": {

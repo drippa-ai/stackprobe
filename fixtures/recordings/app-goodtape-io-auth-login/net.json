@@ -1,13 +1,13 @@
 {
   "url": "https://app.goodtape.io/auth/login",
-  "recordedAt": "2026-10-04T17:53:09.946Z",
+  "recordedAt": "2026-10-04T20:16:52.563Z",
   "http": {
     "GET https://app.goodtape.io/auth/login": {
       "result": {
         "url": "https://app.goodtape.io/auth/login",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 17:53:10 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -20,7 +20,7 @@
           ["x-xss-protection", "1; mode=block"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
-          ["x-forwarded-host", "web-deploy-6c59c868fd-hcq68"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-9d4fw"],
           ["vary", "Origin, Accept-Encoding"],
           ["set-cookie", "gt_ph_auth_uid=<redacted>"],
           ["content-encoding", "br"],
@@ -38,6 +38,13 @@
         "records": []
       }
     },
+    "CNAME app.goodtape.io": {
+      "result": {
+        "name": "app.goodtape.io",
+        "type": "CNAME",
+        "records": []
+      }
+    },
     "NS app.goodtape.io": {
       "result": {
         "name": "app.goodtape.io",
@@ -50,13 +57,6 @@
         "name": "app.goodtape.io",
         "type": "A",
         "records": ["51.158.56.81"]
-      }
-    },
-    "CNAME app.goodtape.io": {
-      "result": {
-        "name": "app.goodtape.io",
-        "type": "CNAME",
-        "records": []
       }
     },
     "NS goodtape.io": {

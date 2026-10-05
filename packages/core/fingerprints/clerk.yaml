@@ -49,3 +49,18 @@ rules:
     match: { regex: '^https://(?:clerk\.[a-z0-9.-]+|[a-z0-9-]+\.clerk\.accounts\.dev)/v1/' }
     weight: 0.9
     detail: Request to Clerk's frontend API
+
+  # The Clerk SDK, bundled with the page, names its own services.
+  - id: bundle-sdk-hosts
+    layer: bundle
+    signal: bundle-url
+    match: { regex: '^https://(?:api\.clerk\.com|clerk-telemetry\.com)$' }
+    weight: 0.85
+    detail: Clerk SDK in the page's own JavaScript
+
+  - id: bundle-dev-instance
+    layer: bundle
+    signal: bundle-url
+    match: { regex: '\.clerk\.accounts\.dev$' }
+    weight: 0.9
+    detail: Clerk frontend API in the page's own JavaScript

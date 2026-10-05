@@ -42,11 +42,17 @@ export type {
 } from './layer.ts';
 export { LayerError, SIGNAL_KINDS } from './layer.ts';
 export {
+  bundleLayer,
   DEFAULT_LAYERS,
   distillHtml,
+  distillScript,
   dnsLayer,
+  extractBundleStrings,
+  firstPartyScripts,
   httpLayer,
+  isScript,
   lookupAsn,
+  MAX_SCRIPTS,
   tlsLayer,
 } from './layers/index.ts';
 export type { DnsAnswer, DnsRecordType, HttpRequest, HttpResponse, Net, TlsInfo } from './net.ts';
@@ -68,10 +74,10 @@ export type { LayerResult, RunOptions } from './runner.ts';
 export { runLayer, runLayers } from './runner.ts';
 export type { BuildReportInput, ScanOptions, SurfaceResults } from './scan.ts';
 export {
-  browserTargets,
   buildReport,
+  deepTargets,
   layersForSurfaces,
-  MAX_BROWSER_SURFACES,
+  MAX_DEEP_SURFACES,
   reportStatus,
   SCAN_BUDGET_MS,
   scan,

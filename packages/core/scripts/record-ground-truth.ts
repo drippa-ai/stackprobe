@@ -5,11 +5,8 @@
 // Also records a full scan (discovery included) of the homepage of every company with an app
 // in the ground truth, into fixtures/domains/. Never run in CI. Then run `pnpm accuracy`.
 import { existsSync } from 'node:fs';
-import { DEFAULT_LAYERS } from '../src/layers/index.ts';
 import { NodeNet } from '../src/node/net.ts';
-import { runLayers } from '../src/runner.ts';
 import { scan } from '../src/scan.ts';
-import { surfaceTarget } from '../src/surface.ts';
 import { DOMAINS_DIR, RECORDINGS_DIR, RecordingNet, saveRecording } from '../test/fixtures.ts';
 import { discoveryDomains, loadGroundTruth } from '../test/ground-truth.ts';
 
@@ -29,10 +26,12 @@ const queue = [...rows];
 await Promise.all(
   Array.from({ length: CONCURRENCY }, async () => {
     for (let row = queue.shift(); row; row = queue.shift()) {
+      // A scan of just this surface (rules only, no browser), so the recording holds exactly the
+      // requests the accuracy report's replay makes, scripts for the bundle layer included.
       const net = new RecordingNet(new NodeNet(), row.surfaceUrl);
-      const results = await runLayers(DEFAULT_LAYERS, surfaceTarget(row.surfaceUrl), { net });
+      const report = await scan(row.surfaceUrl, { net, discover: false });
       saveRecording(row.recording, net.recording, RECORDINGS_DIR);
-      const layers = results.map(({ run }) =>
+      const layers = report.layersRun.map((run) =>
         run.error ? `${run.layer} ${run.status} (${run.error.code})` : `${run.layer} ${run.status}`,
       );
       console.log(`${row.recording}: ${layers.join(', ')}`);

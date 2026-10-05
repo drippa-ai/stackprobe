@@ -1,20 +1,20 @@
 {
   "url": "https://www.oysterhr.com/",
-  "recordedAt": "2026-10-04T17:53:09.122Z",
+  "recordedAt": "2026-10-04T20:16:51.738Z",
   "http": {
     "GET https://www.oysterhr.com/": {
       "result": {
         "url": "https://www.oysterhr.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 17:53:09 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
           ["set-cookie", "_cfuvid=<redacted>"],
-          ["cf-ray", "a4560b609d035695-OSL"],
+          ["cf-ray", "a456dde3fa4fb4ed-OSL"],
           ["cf-cache-status", "HIT"],
-          ["age", "180536"],
+          ["age", "189159"],
           ["content-encoding", "gzip"],
           ["last-modified", "Sun, 04 Oct 2026 00:27:32 GMT"],
           [
@@ -41,18 +41,18 @@
     }
   },
   "dns": {
-    "A www.oysterhr.com": {
-      "result": {
-        "name": "www.oysterhr.com",
-        "type": "A",
-        "records": ["198.202.211.1"]
-      }
-    },
     "CNAME www.oysterhr.com": {
       "result": {
         "name": "www.oysterhr.com",
         "type": "CNAME",
         "records": ["cdn.webflow.com"]
+      }
+    },
+    "NS www.oysterhr.com": {
+      "result": {
+        "name": "www.oysterhr.com",
+        "type": "NS",
+        "records": ["journey.ns.cloudflare.com", "lamar.ns.cloudflare.com"]
       }
     },
     "CNAME cdn.webflow.com": {
@@ -62,18 +62,18 @@
         "records": []
       }
     },
-    "NS www.oysterhr.com": {
-      "result": {
-        "name": "www.oysterhr.com",
-        "type": "NS",
-        "records": ["lamar.ns.cloudflare.com", "journey.ns.cloudflare.com"]
-      }
-    },
     "AAAA www.oysterhr.com": {
       "result": {
         "name": "www.oysterhr.com",
         "type": "AAAA",
         "records": ["2620:cb:2000::1"]
+      }
+    },
+    "A www.oysterhr.com": {
+      "result": {
+        "name": "www.oysterhr.com",
+        "type": "A",
+        "records": ["198.202.211.1"]
       }
     },
     "TXT 1.211.202.198.origin.asn.cymru.com": {

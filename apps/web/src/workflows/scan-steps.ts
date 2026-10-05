@@ -1,9 +1,12 @@
 import {
   buildReport,
+  bundleLayer,
   type Classification,
   classifySurfaces,
   DEFAULT_LAYERS,
+  deepTargets,
   discoverSurfaces,
+  firstPartyScripts,
   type LayerId,
   type LayerResult,
   layersForSurfaces,
@@ -64,6 +67,41 @@ export async function discoverStep(
     surface,
     layers: (plan.get(surface.id) ?? []).map((layer) => layer.id),
   }));
+}
+
+export interface DeepPlan {
+  surface: SurfaceTarget;
+  scripts: string[];
+}
+
+// Which surfaces get the deep layers (the product app, an unclassified homepage), and the
+// page's own scripts for each.
+export async function planDeepStep(
+  surfaces: SurfaceResults[],
+  classifications: Record<string, Classification>,
+): Promise<DeepPlan[]> {
+  'use step';
+  return deepTargets(surfaces, classifications).map((surface) => {
+    const own = surfaces.find((s) => s.target.id === surface.id);
+    const signals = own?.results.flatMap((result) => result.signals) ?? [];
+    return { surface, scripts: firstPartyScripts(signals, surface.url) };
+  });
+}
+
+// Reads one surface's own scripts for the services and SDKs they mention, and saves the result.
+export async function runBundleStep(
+  scanId: string,
+  surface: SurfaceTarget,
+  scripts: string[],
+): Promise<LayerResult> {
+  'use step';
+  const result = await runLayer(bundleLayer(scripts), surface, { net: getNet() });
+  try {
+    await getStore().saveLayerResult(scanId, result);
+  } catch (error) {
+    throw noRetryIfFinished(error);
+  }
+  return result;
 }
 
 // Decides what kind each surface is: rules first, a decision model when one is configured.

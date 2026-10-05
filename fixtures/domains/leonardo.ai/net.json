@@ -1,13 +1,13 @@
 {
   "url": "https://leonardo.ai/",
-  "recordedAt": "2026-10-04T18:01:28.603Z",
+  "recordedAt": "2026-10-04T20:17:01.301Z",
   "http": {
     "GET https://leonardo.ai/": {
       "result": {
         "url": "https://leonardo.ai/",
         "status": 403,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 18:01:28 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:17:01 GMT"],
           ["content-type", "text/html; charset=UTF-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "close"],
@@ -18,7 +18,7 @@
           ["cf-mitigated", "challenge"],
           [
             "content-security-policy",
-            "default-src 'none'; script-src 'nonce-FVMArfEJum90z71o46kT7W' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'"
+            "default-src 'none'; script-src 'nonce-9azGxEyACqilzfKNMvZY9N' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'"
           ],
           ["server", "cloudflare"],
           [
@@ -34,15 +34,15 @@
             "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*"
           ],
           ["referrer-policy", "same-origin"],
-          ["server-timing", "chlray;desc=\"a45617922a8b783d\""],
+          ["server-timing", "chlray;desc=\"a456de1fee590daa\""],
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "SAMEORIGIN"],
           ["vary", "accept-encoding"],
           ["set-cookie", "__cf_bm=<redacted>"],
           ["content-encoding", "gzip"],
-          ["cf-ray", "a45617922a8b783d-OSL"]
+          ["cf-ray", "a456de1fee590daa-OSL"]
         ],
-        "body": "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\n<meta name=\"robots\" content=\"noindex,nofollow\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"content-security-policy\" content=\"default-src 'none'; script-src 'nonce-FVMArfEJum90z71o46kT7W' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'\">\n<meta http-equiv=\"refresh\" content=\"360\">"
+        "body": "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\n<meta name=\"robots\" content=\"noindex,nofollow\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"content-security-policy\" content=\"default-src 'none'; script-src 'nonce-9azGxEyACqilzfKNMvZY9N' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'\">\n<meta http-equiv=\"refresh\" content=\"360\">"
       }
     },
     "GET https://app.leonardo.ai/": {
@@ -55,11 +55,11 @@
           ["server", "Vercel"],
           [
             "x-vercel-challenge-token",
-            "2.1791136889.60.NGY4NWE5YzA0MGNmNmE1YTgwZjgzMzRlMDY1ZmY5ZDc7MzVmNWM5YTM7MDNhYjljYTgyZTBkZGM5NWNiZjZhMzQzMjI3NTIxZDM5ZDJhNDY5ZjszO8YSsmESpa8sc7Jh7jhWGspZhaHBg05DkjeqhTh1BpPQW8npvnLJdx4x7Usm56k=.2ad18a1744c68ffc2b29f72a61901240"
+            "2.1791145022.60.NGY4NWE5YzA0MGNmNmE1YTgwZjgzMzRlMDY1ZmY5ZDc7YjdhYjgyMjY7ZjkxZWZlNjE0NWUxMTZlOWUwZDYzN2NkMGYzNTJhYzYzNDU0NTJiZDszO7JfNs+g+53DAnm7oYf2Xs9mn9D7b64oL+o5Yu09fnRTi6mhglC5E5zh8ICL3EI=.9fc97dc805f9250f5b0d83427c6cba94"
           ],
-          ["x-vercel-id", "arn1::1791136889-qcEYQYQ5v6bs3EwVnzJJ8eomDhxjTFqS"],
+          ["x-vercel-id", "arn1::1791145022-JSP2vcssOUVb1UikWAlZ2EvYSTroyp2U"],
           ["x-vercel-mitigated", "challenge"],
-          ["date", "Sun, 04 Oct 2026 18:01:29 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:17:02 GMT"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"theme-color\" content=\"#000\">\n<a href=\"https://vercel.link/security-checkpoint\">Website owner? Click here to fix</a>"
@@ -70,20 +70,20 @@
         "url": "https://api.leonardo.ai/",
         "status": 404,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 18:01:29 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:17:02 GMT"],
           ["content-type", "application/json; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
           ["x-xss-protection", "0"],
+          ["x-frame-options", "SAMEORIGIN"],
           ["cf-cache-status", "DYNAMIC"],
           ["content-security-policy", "upgrade-insecure-requests"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["strict-transport-security", "max-age=31536000; includeSubDomains"],
           ["x-content-type-options", "nosniff"],
-          ["x-frame-options", "SAMEORIGIN"],
           ["content-encoding", "gzip"],
           ["server", "cloudflare"],
-          ["cf-ray", "a4561794fa5eb4f3-OSL"]
+          ["cf-ray", "a456de23ec8549c5-OSL"]
         ],
         "body": ""
       }
@@ -99,7 +99,7 @@
         "url": "https://docs.leonardo.ai/",
         "status": 302,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 18:01:29 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:17:02 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -110,7 +110,7 @@
             "<https://docs.leonardo.ai/.well-known/api-catalog>; rel=\"api-catalog\", <https://docs.leonardo.ai>; rel=\"service-doc\", <https://docs.leonardo.ai/.well-known/agent-skills/index.json>; rel=\"agent-skills\""
           ],
           ["location", "/docs"],
-          ["rndr-id", "eb42ed22-c9d0-4a9c"],
+          ["rndr-id", "c455d9df-7b20-4a32"],
           ["server", "cloudflare"],
           ["strict-transport-security", "max-age=31536000"],
           ["vary", "Accept, Accept-Encoding"],
@@ -121,12 +121,12 @@
           ["x-frame-options", "Deny"],
           ["x-ratelimit-limit", "100"],
           ["x-ratelimit-remaining", "99"],
-          ["x-ratelimit-reset", "1791136891"],
+          ["x-ratelimit-reset", "1791145024"],
           ["x-render-origin-server", "Render"],
           ["x-xss-protection", "1; mode=block"],
           ["set-cookie", "__cf_bm=<redacted>"],
           ["cf-cache-status", "BYPASS"],
-          ["cf-ray", "a4561794fc8bc272-OSL"],
+          ["cf-ray", "a456de2418fb4c11-OSL"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
         "body": ""
@@ -137,7 +137,7 @@
         "url": "https://docs.leonardo.ai/docs",
         "status": 301,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 18:01:29 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:17:02 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -148,7 +148,7 @@
             "<https://docs.leonardo.ai/.well-known/api-catalog>; rel=\"api-catalog\", <https://docs.leonardo.ai>; rel=\"service-doc\", <https://docs.leonardo.ai/.well-known/agent-skills/index.json>; rel=\"agent-skills\""
           ],
           ["location", "/docs/getting-started"],
-          ["rndr-id", "826bede8-f04c-4244"],
+          ["rndr-id", "5afb1ebc-277b-4d88"],
           ["server", "cloudflare"],
           ["strict-transport-security", "max-age=31536000"],
           ["vary", "Accept, Accept-Encoding"],
@@ -159,13 +159,13 @@
           ["x-frame-options", "Deny"],
           ["x-ratelimit-limit", "100"],
           ["x-ratelimit-remaining", "98"],
-          ["x-ratelimit-reset", "1791135520"],
+          ["x-ratelimit-reset", "1791143274"],
           ["x-render-origin-server", "Render"],
           ["x-xss-protection", "1; mode=block"],
           ["set-cookie", "__cf_bm=<redacted>"],
-          ["age", "1370"],
+          ["age", "1749"],
           ["cf-cache-status", "HIT"],
-          ["cf-ray", "a4561796ab81c272-OSL"],
+          ["cf-ray", "a456de2608144c11-OSL"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
         "body": ""
@@ -176,7 +176,7 @@
         "url": "https://docs.leonardo.ai/docs/getting-started",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 18:01:29 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -186,9 +186,9 @@
             "link",
             "<https://docs.leonardo.ai/.well-known/api-catalog>; rel=\"api-catalog\", <https://docs.leonardo.ai>; rel=\"service-doc\", <https://docs.leonardo.ai/.well-known/agent-skills/index.json>; rel=\"agent-skills\", </docs/getting-started.md>; rel=\"alternate\"; type=\"text/markdown\", <https://cdn.readme.io>; rel=preconnect, <https://cdn.readme.io>; rel=dns-prefetch, <https://cdn.readme.io/public/hub/web/main.ad99764220b32ef741c7.css>; rel=preload; as=style, <https://cdn.readme.io/public/hub/web/Containers-EndUserContainer.8f6dfebd66e7ce6dca76.css>; rel=preload; as=style, <https://cdn.readme.io/public/hub/web/ui-styles.d94b555f429ba76ba9c5.css>; rel=preload; as=style, <https://cdn.readme.io/public/hub/web/Header.b0da985a5b2effd2ad0a.css>; rel=preload; as=style, <https://cdn.readme.io/public/hub/web/Doc.f3d5f8eea2a1ed9379a5.css>; rel=preload; as=style, <https://cdn.readme.io/public/hub/web/2985.07d8154a4f956a2e17c1.css>; rel=preload; as=style, <https://cdn.readme.io/public/hub/web/RMDXISH.159422ed8463cae8cb3f.css>; rel=preload; as=style, <https://cdn.readme.io/public/hub/web/components-AIDropdown.99bc192bac06a6bceec5.css>; rel=preload; as=style, <https://cdn.readme.io/public/hub/web/Footer.769aa3e9fc194cc963d9.css>; rel=preload; as=style"
           ],
-          ["rndr-id", "44387db8-9551-4465"],
+          ["rndr-id", "a81b72e5-b2ca-4f30"],
           ["server", "cloudflare"],
-          ["server-timing", "mdx-render;dur=263.1;desc=\"renderMarkdown (no cache)\""],
+          ["server-timing", "mdx-render;dur=286.9;desc=\"renderMarkdown (no cache)\""],
           ["strict-transport-security", "max-age=31536000"],
           ["vary", "Accept, Accept-Encoding"],
           ["x-content-type-options", "nosniff"],
@@ -196,41 +196,21 @@
           ["x-download-options", "noopen"],
           ["x-frame-options", "Deny"],
           ["x-ratelimit-limit", "100"],
-          ["x-ratelimit-remaining", "97"],
-          ["x-ratelimit-reset", "1791135520"],
+          ["x-ratelimit-remaining", "98"],
+          ["x-ratelimit-reset", "1791145024"],
           ["x-render-origin-server", "Render"],
           ["x-xss-protection", "1; mode=block"],
           ["set-cookie", "__cf_bm=<redacted>"],
-          ["age", "1370"],
-          ["cf-cache-status", "HIT"],
+          ["cf-cache-status", "EXPIRED"],
           ["content-encoding", "br"],
-          ["cf-ray", "a45617971d4dc272-OSL"],
+          ["cf-ray", "a456de26ba664c11-OSL"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<link rel=\"preconnect\" href=\"https://cdn.readme.io\">\n<link rel=\"preconnect\" href=\"https://cdn.readme.io\" crossorigin=\"\">\n<meta name=\"readme-deploy\" content=\"5.909.0\">\n<meta name=\"readme-subdomain\" content=\"leonardoai\">\n<meta name=\"readme-repo\" content=\"leonardoai-25ba78ce5fc3\">\n<meta name=\"readme-project-flags\" content=\"+xHiHpCgvuETb9ZPJnVG6g==:gKzMC5urlZW0iY4+zdAdt/gQHWnd1JdpOHZJM7KiuJUfKYUG3P6e00Z3P5dnzyh+UbC1VOC/OwKXmOIWYfRms7fhZiI211/LiefsaAlWP80dPXBJaJVEn7uD7cJ2ae8c\">\n<meta name=\"readme-version\" content=\"2.0\">\n<meta name=\"description\" content=\"Welcome! This guide helps you get started with the Leonardo.Ai API, from creating an API key to generating your first images.\" data-rh=\"true\">\n<meta property=\"og:title\" content=\"Quick Start Guide\" data-rh=\"true\">\n<meta property=\"og:description\" content=\"Welcome! This guide helps you get started with the Leonardo.Ai API, from creating an API key to generating your first images.\" data-rh=\"true\">\n<meta property=\"og:site_name\" content=\"Leonardo.Ai\">\n<meta name=\"twitter:title\" content=\"Quick Start Guide\" data-rh=\"true\">\n<meta name=\"twitter:description\" content=\"Welcome! This guide helps you get started with the Leonardo.Ai API, from creating an API key to generating your first images.\" data-rh=\"true\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta property=\"og:image\" content=\"https://cdn.readme.io/og-image/create?type=docs&amp;title=Quick%20Start%20Guide&amp;projectTitle=Leonardo.Ai&amp;description=Welcome!%20This%20guide%20helps%20you%20get%20started%20with%20the%20Leonardo.Ai%20API%2C%20from%20creating%20an%20API%20key%20to%20generating%20your%20first%20images.&amp;logoUrl=https%3A%2F%2Ffiles.readme.io%2Fee0c3494e112bcdbb489cb500d5a74930b1f6ee7463b75aca1ed72567ffac716-Leonardo_Wordmark_Canvas_White.png&amp;color=%236e60ee&amp;variant=light\" data-rh=\"true\">\n<meta name=\"twitter:image\" content=\"https://cdn.readme.io/og-image/create?type=docs&amp;title=Quick%20Start%20Guide&amp;projectTitle=Leonardo.Ai&amp;description=Welcome!%20This%20guide%20helps%20you%20get%20started%20with%20the%20Leonardo.Ai%20API%2C%20from%20creating%20an%20API%20key%20to%20generating%20your%20first%20images.&amp;logoUrl=https%3A%2F%2Ffiles.readme.io%2Fee0c3494e112bcdbb489cb500d5a74930b1f6ee7463b75aca1ed72567ffac716-Leonardo_Wordmark_Canvas_White.png&amp;color=%236e60ee&amp;variant=light\" data-rh=\"true\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta name=\"dateModified\" content=\"2026-06-26T05:09:13.000Z\" data-rh=\"true\">\n<meta property=\"article:modified_time\" content=\"2026-06-26T05:09:13.000Z\" data-rh=\"true\">\n<meta property=\"og:updated_time\" content=\"2026-06-26T05:09:13.000Z\" data-rh=\"true\">\n<link id=\"favicon\" rel=\"shortcut icon\" href=\"https://files.readme.io/e6fd24fe6d94d90d5c885217bfc7e206f382cccef4e950586465ac1a3750f90d-Leonardo_Icon_ElectricPurple_1.png\" type=\"image/png\">\n<link rel=\"canonical\" href=\"https://docs.leonardo.ai/docs/getting-started\">\n<script src=\"https://cdn.readme.io/public/js/cash-dom.min.js?1790955328262\"></script>\n<link data-chunk=\"Footer\" rel=\"preload\" as=\"style\" href=\"https://cdn.readme.io/public/hub/web/Footer.769aa3e9fc194cc963d9.css\">\n<link data-chunk=\"components-AIDropdown\" rel=\"preload\" as=\"style\" href=\"https://cdn.readme.io/public/hub/web/components-AIDropdown.99bc192bac06a6bceec5.css\">\n<link data-chunk=\"RMDXISH\" rel=\"preload\" as=\"style\" href=\"https://cdn.readme.io/public/hub/web/RMDXISH.159422ed8463cae8cb3f.css\">\n<link data-chunk=\"RMDXISH\" rel=\"preload\" as=\"style\" href=\"https://cdn.readme.io/public/hub/web/2985.07d8154a4f956a2e17c1.css\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"style\" href=\"https://cdn.readme.io/public/hub/web/Doc.f3d5f8eea2a1ed9379a5.css\">\n<link data-chunk=\"Header\" rel=\"preload\" as=\"style\" href=\"https://cdn.readme.io/public/hub/web/Header.b0da985a5b2effd2ad0a.css\">\n<link data-chunk=\"Header\" rel=\"preload\" as=\"style\" href=\"https://cdn.readme.io/public/hub/web/ui-styles.d94b555f429ba76ba9c5.css\">\n<link data-chunk=\"Containers-EndUserContainer\" rel=\"preload\" as=\"style\" href=\"https://cdn.readme.io/public/hub/web/Containers-EndUserContainer.8f6dfebd66e7ce6dca76.css\">\n<link data-chunk=\"main\" rel=\"preload\" as=\"style\" href=\"https://cdn.readme.io/public/hub/web/main.ad99764220b32ef741c7.css\">\n<link data-chunk=\"main\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/main.89b373a078b1c215e875.js\">\n<link data-chunk=\"routes-SuperHub\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/routes-SuperHub.cb412157f45e597a4425.js\">\n<link data-chunk=\"Containers-EndUserContainer\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/Containers-EndUserContainer.90a514a4055ca7d90385.js\">\n<link data-chunk=\"Header\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/4011.ea80785c49392e38609c.js\">\n<link data-chunk=\"Header\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/6269.a4ec51ee755a4d46acb3.js\">\n<link data-chunk=\"Header\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/444.e60d8adb20ffc4fd64ff.js\">\n<link data-chunk=\"Header\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/4148.f995b8b73ad1a8218dd5.js\">\n<link data-chunk=\"Header\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/Header.c1ed1768eda123e99d6d.js\">\n<link data-chunk=\"routes-SuperHub-Routes\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/routes-SuperHub-Routes.84560f9b86c01c2607d0.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/7137.6d393781d59245222014.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/9977.a933c2a0ee96169ffef7.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/6146.e0750bc6839fd326854d.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/441.0bca8969b4854384884a.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/1347.6265ddeff9b9202723b8.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/8836.278c0fa83edd766823b0.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/5446.66a863132dae0648c54c.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/1306.50782c5e797f388d05de.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/2966.d80212751366d02e6f8e.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/3183.8c27815dfa34f5f049e2.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/1913.1d5c4687dc666153eb67.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/9654.759ae99914b53d759ddb.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/7358.2d5937fa87893f7889fd.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/8490.b0dbe9c27f5481960b55.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/9127.d25c7939603369388c65.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/Doc.2931c1cadacb52ad6149.js\">\n<link data-chunk=\"ConnectMetadata\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/ConnectMetadata.2d6f49b2cb0315a7ccd6.js\">\n<link data-chunk=\"RMDXISH\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/2712.4cdafc1e56a745cc323d.js\">\n<link data-chunk=\"RMDXISH\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/4683.d51d276619f8a3e43f84.js\">\n<link data-chunk=\"RMDXISH\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/3299.7cd65e88fba83257e48f.js\">\n<link data-chunk=\"RMDXISH\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/2985.b3b2ef602f6403b3d3ae.js\">\n<link data-chunk=\"RMDXISH\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/5078.44033880381cc8301c62.js\">\n<link data-chunk=\"RMDXISH\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/RMDXISH.11c17503bfaa19962d73.js\">\n<link data-chunk=\"components-AIDropdown\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/4818.6527b50cddd71e4f39a3.js\">\n<link data-chunk=\"components-AIDropdown\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/components-AIDropdown.88def46aeefbfb1f9434.js\">\n<link data-chunk=\"Footer\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/Footer.fb5aa36c9d47e74072b1.js\">\n<link data-chunk=\"main\" rel=\"stylesheet\" href=\"https://cdn.readme.io/public/hub/web/main.ad99764220b32ef741c7.css\">\n<link data-chunk=\"Containers-EndUserContainer\" rel=\"stylesheet\" href=\"https://cdn.readme.io/public/hub/web/Containers-EndUserContainer.8f6dfebd66e7ce6dca76.css\">\n<link data-chunk=\"Header\" rel=\"stylesheet\" href=\"https://cdn.readme.io/public/hub/web/ui-styles.d94b555f429ba76ba9c5.css\">\n<link data-chunk=\"Header\" rel=\"stylesheet\" href=\"https://cdn.readme.io/public/hub/web/Header.b0da985a5b2effd2ad0a.css\">\n<link data-chunk=\"Doc\" rel=\"stylesheet\" href=\"https://cdn.readme.io/public/hub/web/Doc.f3d5f8eea2a1ed9379a5.css\">\n<link data-chunk=\"RMDXISH\" rel=\"stylesheet\" href=\"https://cdn.readme.io/public/hub/web/2985.07d8154a4f956a2e17c1.css\">\n<link data-chunk=\"RMDXISH\" rel=\"stylesheet\" href=\"https://cdn.readme.io/public/hub/web/RMDXISH.159422ed8463cae8cb3f.css\">\n<link data-chunk=\"components-AIDropdown\" rel=\"stylesheet\" href=\"https://cdn.readme.io/public/hub/web/components-AIDropdown.99bc192bac06a6bceec5.css\">\n<link data-chunk=\"Footer\" rel=\"stylesheet\" href=\"https://cdn.readme.io/public/hub/web/Footer.769aa3e9fc194cc963d9.css\">\n<meta name=\"loadedProject\" content=\"leonardoai\">\n<a href=\"#content\">Jump to Content</a>\n<a href=\"/docs\"></a>\n<a href=\"/docs\">Guides</a>\n<a href=\"/recipes\">Recipes</a>\n<a href=\"/reference\">API Reference</a>\n<a href=\"/docs/getting-started\">Quick Start Guide</a>\n<a href=\"/docs/music-v1\">Audio Generation</a>\n<a href=\"/docs/music-v1\">Music v1</a>\n<a href=\"/docs/sound-effects-v2\">Sound Effects v2</a>\n<a href=\"/docs/dialogue-v3\">Dialogue v3</a>\n<a href=\"/docs/seed-audio-10\">Seed Audio 1.0</a>\n<a href=\"/docs/remove-bg\">Remove Background</a>\n<a href=\"/docs/remove-bg\">Remove bg</a>\n<a href=\"/docs/which-photos-work-best-for-high-quality-background-removal\">Which photos work best for high-quality background removal?</a>\n<a href=\"/docs/migrate-from-the-removebg-api-to-leonardoai\">Migrate from the remove.bg API to Leonardo.Ai</a>\n<a href=\"/docs/flux-dev\">Image Generation</a>\n<a href=\"/docs/flux-dev\">FLUX Dev</a>\n<a href=\"/docs/flux-schnell\">FLUX Schnell</a>\n<a href=\"/docs/flux-1-kontext-pro\">FLUX.1 Kontext [pro]</a>\n<a href=\"/docs/flux1-kontext-max\">FLUX.1 Kontext Max</a>\n<a href=\"/docs/flux-2-pro\">FLUX.2 Pro</a>\n<a href=\"/docs/gpt-image-1-5\">GPT Image-1.5</a>\n<a href=\"/docs/gpt-image-2\">GPT Image 2</a>\n<a href=\"/docs/gpt-image-25-flare\">GPT Image 2.5 Flare</a>\n<a href=\"/docs/gpt-image-25-sunburst\">GPT Image 2.5 Sunburst</a>\n<a href=\"/docs/ideogram-30\">Ideogram 3.0</a>\n<a href=\"/docs/p-image-ideogram\">P-Image-Ideogram</a>\n<a href=\"/docs/krea-2-turbo\">Krea 2 Turbo</a>\n<a href=\"/docs/lucid-origin\">Lucid Origin</a>\n<a href=\"/docs/lucid-realism\">Lucid Realism</a>\n<a href=\"/docs/nano-banana\">Nano Banana</a>\n<a href=\"/docs/nano-banana-pro\">Nano Banana Pro</a>\n<a href=\"/docs/nano-banana-2\">Nano Banana 2</a>\n<a href=\"/docs/nano-banana-2-lite\">Nano Banana 2 Lite</a>\n<a href=\"/docs/phoenix\">Phoenix</a>\n<a href=\"/docs/seedream-4-0\">Seedream 4.0</a>\n<a href=\"/docs/seedream-4-5\">Seedream 4.5</a>\n<a href=\"/docs/seedream-50-pro\">Seedream 5.0 Pro</a>\n<a href=\"/docs/flux-3-video\">Video Generation</a>\n<a href=\"/docs/flux-3-video\">FLUX 3 Video</a>\n<a href=\"/docs/grok-imagine-15\">Grok Imagine 1.5</a>\n<a href=\"/docs/happy-horse-11\">Happy Horse 1.1</a>\n<a href=\"/docs/gemini-omni-flash\">Gemini Omni Flash</a>\n<a href=\"/docs/gemini-omni-11-flash\">Gemini Omni 1.1 Flash</a>\n<a href=\"/docs/kling-2-1-pro\">Kling 2.1 Pro</a>\n<a href=\"/docs/kling-2-5-turbo\">Kling 2.5 Turbo</a>\n<a href=\"/docs/kling-26\">Kling 2.6</a>\n<a href=\"/docs/kling-30\">Kling 3.0</a>\n<a href=\"/docs/kling-30-turbo\">Kling 3.0 Turbo</a>\n<a href=\"/docs/kling-o1\">Kling O1</a>\n<a href=\"/docs/kling-o3\">Kling O3</a>\n<a href=\"/docs/minimax-hailuo-03\">MiniMax Hailuo 03</a>\n<a href=\"/docs/motion-20\">Motion 2.0</a>\n<a href=\"/docs/motion-20-fast\">Motion 2.0 Fast</a>\n<a href=\"/docs/seedance-1-0-pro\">Seedance 1.0 Pro</a>\n<a href=\"/docs/seedance-20\">Seedance 2.0</a>\n<a href=\"/docs/seedance-20-fast\">Seedance 2.0 Fast</a>\n<a href=\"/docs/seedance-20-mini\">Seedance 2.0 Mini</a>\n<a href=\"/docs/seedance-25\">Seedance 2.5</a>\n<a href=\"/docs/veo-31\">Veo 3.1</a>\n<a href=\"/docs/wan-26\">Wan 2.6</a>\n<a href=\"/docs/wan-27\">Wan 2.7</a>\n<a href=\"/docs/wan-30\">Wan 3.0</a>\n<a href=\"/docs/rodin-v2\">3D Generation</a>\n<a href=\"/docs/rodin-v2\">Rodin V2</a>\n<a href=\"/docs/blueprints-guide\">Blueprint Generation</a>\n<a href=\"/docs/blueprints-guide\">Blueprints Guide</a>\n<a href=\"/docs/get-api-code\">Best Practices</a>\n<a href=\"/docs/get-api-code\">Guide to Get API Code</a>\n<a href=\"/docs/guide-to-the-webhook-callback-feature\">Guide to the Webhook Callback Feature</a>\n<a href=\"/docs/guide-to-handling-not-safe-for-work-image-generation-nsfw\">Guide to Handling Not Safe for Work Image Generation (NSFW)</a>\n<a href=\"/docs/guide-to-concurrency-queue-and-rate-limit\">Guide to Concurrency, Queue, and Rate Limit</a>\n<a href=\"/docs/payg-guide\">Usage and Cost</a>\n<a href=\"/docs/payg-guide\">Pay-As-You-Go (PAYG) Guide</a>\n<a href=\"/docs/plan-with-the-pricing-calculator\">Plan with the Pricing Calculator</a>\n<a href=\"/docs/pro-upscaler-precise\">Upscale Generation</a>\n<a href=\"/docs/pro-upscaler-precise\">Pro Upscaler Precise</a>\n<a href=\"/docs/pro-upscaler-creative\">Pro Upscaler Creative</a>\n<a href=\"/docs/api-faq\">Frequently Asked Questions</a>\n<a href=\"/docs/api-faq\">General FAQs</a>\n<a href=\"/docs/legacy-faq\">Legacy FAQs</a>\n<a href=\"/docs/pricing-and-plans-faq\">Pricing &amp; Plans FAQs</a>\n<a href=\"/docs/api-error-messages\">API Error Messages</a>\n<a href=\"/docs/how-to-upload-an-image-using-a-presigned-url\">Special Topics</a>\n<a href=\"/docs/how-to-upload-an-image-using-a-presigned-url\">How to upload an image using a presigned URL</a>\n<a href=\"/docs/leonardoai-official-sdks\">Leonardo.Ai Official SDKs</a>\n<a href=\"/docs/need-more-support\">Need More Support?</a>\n<a href=\"/docs/connect-to-leonardoai-mcp\">⚙️Connect to Leonardo.Ai with the MCP Server</a>\n<a href=\"/docs/deprecations-changes\">Deprecations &amp; Changes</a>\n<a href=\"https://readme.com?ref_src=hub&amp;project=leonardoai\"></a>\n<a href=\"#prerequisites\"></a>\n<a href=\"https://app.leonardo.ai/\">Leonardo.Ai web app</a>\n<a href=\"#step-1-subscribe--get-your-api-key\"></a>\n<a href=\"https://app.leonardo.ai/api-access\">API Access</a>\n<a href=\"#step-2-generate-your-first-images\"></a>\n<a href=\"#example-curl-request\"></a>\n<a href=\"/docs/get-api-code\">Get API Code</a>\n<a href=\"#tips--next-steps\"></a>\n<a href=\"#improve-workflow\"></a>\n<a href=\"https://docs.leonardo.ai/v1.0_relaunch/update/docs/guide-to-the-webhook-callback-feature\">Webhooks</a>\n<a href=\"https://docs.leonardo.ai/v1.0_relaunch/update/docs/guide-to-concurrency-queue-and-rate-limit\">Rate Limits</a>\n<a href=\"/docs/audio-generation\">Audio Generation</a>\n<a href=\"#prerequisites\">Prerequisites</a>\n<a href=\"#step-1-subscribe--get-your-api-key\">Step 1: Subscribe &amp; Get Your API Key</a>\n<a href=\"#step-2-generate-your-first-images\">Step 2: Generate Your First Images</a>\n<a href=\"#example-curl-request\">Example cURL Request</a>\n<a href=\"#tips--next-steps\">Tips &amp; Next Steps</a>\n<a href=\"#improve-workflow\">Improve Workflow</a>\n<script async=\"\" data-chunk=\"main\" src=\"https://cdn.readme.io/public/hub/web/main.89b373a078b1c215e875.js\"></script>\n<script async=\"\" data-chunk=\"routes-SuperHub\" src=\"https://cdn.readme.io/public/hub/web/routes-SuperHub.cb412157f45e597a4425.js\"></script>\n<script async=\"\" data-chunk=\"Containers-EndUserContainer\" src=\"https://cdn.readme.io/public/hub/web/Containers-EndUserContainer.90a514a4055ca7d90385.js\"></script>\n<script async=\"\" data-chunk=\"Header\" src=\"https://cdn.readme.io/public/hub/web/4011.ea80785c49392e38609c.js\"></script>\n<script async=\"\" data-chunk=\"Header\" src=\"https://cdn.readme.io/public/hub/web/6269.a4ec51ee755a4d46acb3.js\"></script>\n<script async=\"\" data-chunk=\"Header\" src=\"https://cdn.readme.io/public/hub/web/444.e60d8adb20ffc4fd64ff.js\"></script>\n<script async=\"\" data-chunk=\"Header\" src=\"https://cdn.readme.io/public/hub/web/4148.f995b8b73ad1a8218dd5.js\"></script>\n<script async=\"\" data-chunk=\"Header\" src=\"https://cdn.readme.io/public/hub/web/Header.c1ed1768eda123e99d6d.js\"></script>\n<script async=\"\" data-chunk=\"routes-SuperHub-Routes\" src=\"https://cdn.readme.io/public/hub/web/routes-SuperHub-Routes.84560f9b86c01c2607d0.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/7137.6d393781d59245222014.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/9977.a933c2a0ee96169ffef7.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/6146.e0750bc6839fd326854d.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/441.0bca8969b4854384884a.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/1347.6265ddeff9b9202723b8.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/8836.278c0fa83edd766823b0.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/5446.66a863132dae0648c54c.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/1306.50782c5e797f388d05de.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/2966.d80212751366d02e6f8e.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/3183.8c27815dfa34f5f049e2.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/1913.1d5c4687dc666153eb67.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/9654.759ae99914b53d759ddb.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/7358.2d5937fa87893f7889fd.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/8490.b0dbe9c27f5481960b55.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/9127.d25c7939603369388c65.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/Doc.2931c1cadacb52ad6149.js\"></script>\n<script async=\"\" data-chunk=\"ConnectMetadata\" src=\"https://cdn.readme.io/public/hub/web/ConnectMetadata.2d6f49b2cb0315a7ccd6.js\"></script>\n<script async=\"\" data-chunk=\"RMDXISH\" src=\"https://cdn.readme.io/public/hub/web/2712.4cdafc1e56a745cc323d.js\"></script>\n<script async=\"\" data-chunk=\"RMDXISH\" src=\"https://cdn.readme.io/public/hub/web/4683.d51d276619f8a3e43f84.js\"></script>\n<script async=\"\" data-chunk=\"RMDXISH\" src=\"https://cdn.readme.io/public/hub/web/3299.7cd65e88fba83257e48f.js\"></script>\n<script async=\"\" data-chunk=\"RMDXISH\" src=\"https://cdn.readme.io/public/hub/web/2985.b3b2ef602f6403b3d3ae.js\"></script>\n<script async=\"\" data-chunk=\"RMDXISH\" src=\"https://cdn.readme.io/public/hub/web/5078.44033880381cc8301c62.js\"></script>\n<script async=\"\" data-chunk=\"RMDXISH\" src=\"https://cdn.readme.io/public/hub/web/RMDXISH.11c17503bfaa19962d73.js\"></script>\n<script async=\"\" data-chunk=\"components-AIDropdown\" src=\"https://cdn.readme.io/public/hub/web/4818.6527b50cddd71e4f39a3.js\"></script>\n<script async=\"\" data-chunk=\"components-AIDropdown\" src=\"https://cdn.readme.io/public/hub/web/components-AIDropdown.88def46aeefbfb1f9434.js\"></script>\n<script async=\"\" data-chunk=\"Footer\" src=\"https://cdn.readme.io/public/hub/web/Footer.fb5aa36c9d47e74072b1.js\"></script>"
+        "body": "<meta charset=\"utf-8\">\n<link rel=\"preconnect\" href=\"https://cdn.readme.io\">\n<link rel=\"preconnect\" href=\"https://cdn.readme.io\" crossorigin=\"\">\n<meta name=\"readme-deploy\" content=\"5.909.0\">\n<meta name=\"readme-subdomain\" content=\"leonardoai\">\n<meta name=\"readme-repo\" content=\"leonardoai-25ba78ce5fc3\">\n<meta name=\"readme-project-flags\" content=\"q0YwOAaFdAvbD3rwOMHuDQ==:TWxEzmv9QjnrAKuokt6Z9Rmhg7LbzriEsQMG+y0Uy30M78A4L+GTN9yNRbuMV2/CHdBfCSdXY7+Ks+d+2XYUMrPcTDrjGicKao5bQSdV7ohvvwWzmtG1d9nEw1WsBfB8\">\n<meta name=\"readme-version\" content=\"2.0\">\n<meta name=\"description\" content=\"Welcome! This guide helps you get started with the Leonardo.Ai API, from creating an API key to generating your first images.\" data-rh=\"true\">\n<meta property=\"og:title\" content=\"Quick Start Guide\" data-rh=\"true\">\n<meta property=\"og:description\" content=\"Welcome! This guide helps you get started with the Leonardo.Ai API, from creating an API key to generating your first images.\" data-rh=\"true\">\n<meta property=\"og:site_name\" content=\"Leonardo.Ai\">\n<meta name=\"twitter:title\" content=\"Quick Start Guide\" data-rh=\"true\">\n<meta name=\"twitter:description\" content=\"Welcome! This guide helps you get started with the Leonardo.Ai API, from creating an API key to generating your first images.\" data-rh=\"true\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta property=\"og:image\" content=\"https://cdn.readme.io/og-image/create?type=docs&amp;title=Quick%20Start%20Guide&amp;projectTitle=Leonardo.Ai&amp;description=Welcome!%20This%20guide%20helps%20you%20get%20started%20with%20the%20Leonardo.Ai%20API%2C%20from%20creating%20an%20API%20key%20to%20generating%20your%20first%20images.&amp;logoUrl=https%3A%2F%2Ffiles.readme.io%2Fee0c3494e112bcdbb489cb500d5a74930b1f6ee7463b75aca1ed72567ffac716-Leonardo_Wordmark_Canvas_White.png&amp;color=%236e60ee&amp;variant=light\" data-rh=\"true\">\n<meta name=\"twitter:image\" content=\"https://cdn.readme.io/og-image/create?type=docs&amp;title=Quick%20Start%20Guide&amp;projectTitle=Leonardo.Ai&amp;description=Welcome!%20This%20guide%20helps%20you%20get%20started%20with%20the%20Leonardo.Ai%20API%2C%20from%20creating%20an%20API%20key%20to%20generating%20your%20first%20images.&amp;logoUrl=https%3A%2F%2Ffiles.readme.io%2Fee0c3494e112bcdbb489cb500d5a74930b1f6ee7463b75aca1ed72567ffac716-Leonardo_Wordmark_Canvas_White.png&amp;color=%236e60ee&amp;variant=light\" data-rh=\"true\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta name=\"dateModified\" content=\"2026-06-26T05:09:13.000Z\" data-rh=\"true\">\n<meta property=\"article:modified_time\" content=\"2026-06-26T05:09:13.000Z\" data-rh=\"true\">\n<meta property=\"og:updated_time\" content=\"2026-06-26T05:09:13.000Z\" data-rh=\"true\">\n<link id=\"favicon\" rel=\"shortcut icon\" href=\"https://files.readme.io/e6fd24fe6d94d90d5c885217bfc7e206f382cccef4e950586465ac1a3750f90d-Leonardo_Icon_ElectricPurple_1.png\" type=\"image/png\">\n<link rel=\"canonical\" href=\"https://docs.leonardo.ai/docs/getting-started\">\n<script src=\"https://cdn.readme.io/public/js/cash-dom.min.js?1790955328262\"></script>\n<link data-chunk=\"Footer\" rel=\"preload\" as=\"style\" href=\"https://cdn.readme.io/public/hub/web/Footer.769aa3e9fc194cc963d9.css\">\n<link data-chunk=\"components-AIDropdown\" rel=\"preload\" as=\"style\" href=\"https://cdn.readme.io/public/hub/web/components-AIDropdown.99bc192bac06a6bceec5.css\">\n<link data-chunk=\"RMDXISH\" rel=\"preload\" as=\"style\" href=\"https://cdn.readme.io/public/hub/web/RMDXISH.159422ed8463cae8cb3f.css\">\n<link data-chunk=\"RMDXISH\" rel=\"preload\" as=\"style\" href=\"https://cdn.readme.io/public/hub/web/2985.07d8154a4f956a2e17c1.css\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"style\" href=\"https://cdn.readme.io/public/hub/web/Doc.f3d5f8eea2a1ed9379a5.css\">\n<link data-chunk=\"Header\" rel=\"preload\" as=\"style\" href=\"https://cdn.readme.io/public/hub/web/Header.b0da985a5b2effd2ad0a.css\">\n<link data-chunk=\"Header\" rel=\"preload\" as=\"style\" href=\"https://cdn.readme.io/public/hub/web/ui-styles.d94b555f429ba76ba9c5.css\">\n<link data-chunk=\"Containers-EndUserContainer\" rel=\"preload\" as=\"style\" href=\"https://cdn.readme.io/public/hub/web/Containers-EndUserContainer.8f6dfebd66e7ce6dca76.css\">\n<link data-chunk=\"main\" rel=\"preload\" as=\"style\" href=\"https://cdn.readme.io/public/hub/web/main.ad99764220b32ef741c7.css\">\n<link data-chunk=\"main\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/main.89b373a078b1c215e875.js\">\n<link data-chunk=\"routes-SuperHub\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/routes-SuperHub.cb412157f45e597a4425.js\">\n<link data-chunk=\"Containers-EndUserContainer\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/Containers-EndUserContainer.90a514a4055ca7d90385.js\">\n<link data-chunk=\"Header\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/4011.ea80785c49392e38609c.js\">\n<link data-chunk=\"Header\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/6269.a4ec51ee755a4d46acb3.js\">\n<link data-chunk=\"Header\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/444.e60d8adb20ffc4fd64ff.js\">\n<link data-chunk=\"Header\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/4148.f995b8b73ad1a8218dd5.js\">\n<link data-chunk=\"Header\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/Header.c1ed1768eda123e99d6d.js\">\n<link data-chunk=\"routes-SuperHub-Routes\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/routes-SuperHub-Routes.84560f9b86c01c2607d0.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/7137.6d393781d59245222014.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/9977.a933c2a0ee96169ffef7.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/6146.e0750bc6839fd326854d.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/441.0bca8969b4854384884a.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/1347.6265ddeff9b9202723b8.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/8836.278c0fa83edd766823b0.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/5446.66a863132dae0648c54c.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/1306.50782c5e797f388d05de.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/2966.d80212751366d02e6f8e.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/3183.8c27815dfa34f5f049e2.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/1913.1d5c4687dc666153eb67.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/9654.759ae99914b53d759ddb.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/7358.2d5937fa87893f7889fd.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/8490.b0dbe9c27f5481960b55.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/9127.d25c7939603369388c65.js\">\n<link data-chunk=\"Doc\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/Doc.2931c1cadacb52ad6149.js\">\n<link data-chunk=\"ConnectMetadata\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/ConnectMetadata.2d6f49b2cb0315a7ccd6.js\">\n<link data-chunk=\"RMDXISH\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/2712.4cdafc1e56a745cc323d.js\">\n<link data-chunk=\"RMDXISH\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/4683.d51d276619f8a3e43f84.js\">\n<link data-chunk=\"RMDXISH\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/3299.7cd65e88fba83257e48f.js\">\n<link data-chunk=\"RMDXISH\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/2985.b3b2ef602f6403b3d3ae.js\">\n<link data-chunk=\"RMDXISH\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/5078.44033880381cc8301c62.js\">\n<link data-chunk=\"RMDXISH\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/RMDXISH.11c17503bfaa19962d73.js\">\n<link data-chunk=\"components-AIDropdown\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/4818.6527b50cddd71e4f39a3.js\">\n<link data-chunk=\"components-AIDropdown\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/components-AIDropdown.88def46aeefbfb1f9434.js\">\n<link data-chunk=\"Footer\" rel=\"preload\" as=\"script\" href=\"https://cdn.readme.io/public/hub/web/Footer.fb5aa36c9d47e74072b1.js\">\n<link data-chunk=\"main\" rel=\"stylesheet\" href=\"https://cdn.readme.io/public/hub/web/main.ad99764220b32ef741c7.css\">\n<link data-chunk=\"Containers-EndUserContainer\" rel=\"stylesheet\" href=\"https://cdn.readme.io/public/hub/web/Containers-EndUserContainer.8f6dfebd66e7ce6dca76.css\">\n<link data-chunk=\"Header\" rel=\"stylesheet\" href=\"https://cdn.readme.io/public/hub/web/ui-styles.d94b555f429ba76ba9c5.css\">\n<link data-chunk=\"Header\" rel=\"stylesheet\" href=\"https://cdn.readme.io/public/hub/web/Header.b0da985a5b2effd2ad0a.css\">\n<link data-chunk=\"Doc\" rel=\"stylesheet\" href=\"https://cdn.readme.io/public/hub/web/Doc.f3d5f8eea2a1ed9379a5.css\">\n<link data-chunk=\"RMDXISH\" rel=\"stylesheet\" href=\"https://cdn.readme.io/public/hub/web/2985.07d8154a4f956a2e17c1.css\">\n<link data-chunk=\"RMDXISH\" rel=\"stylesheet\" href=\"https://cdn.readme.io/public/hub/web/RMDXISH.159422ed8463cae8cb3f.css\">\n<link data-chunk=\"components-AIDropdown\" rel=\"stylesheet\" href=\"https://cdn.readme.io/public/hub/web/components-AIDropdown.99bc192bac06a6bceec5.css\">\n<link data-chunk=\"Footer\" rel=\"stylesheet\" href=\"https://cdn.readme.io/public/hub/web/Footer.769aa3e9fc194cc963d9.css\">\n<meta name=\"loadedProject\" content=\"leonardoai\">\n<a href=\"#content\">Jump to Content</a>\n<a href=\"/docs\"></a>\n<a href=\"/docs\">Guides</a>\n<a href=\"/recipes\">Recipes</a>\n<a href=\"/reference\">API Reference</a>\n<a href=\"/docs/getting-started\">Quick Start Guide</a>\n<a href=\"/docs/music-v1\">Audio Generation</a>\n<a href=\"/docs/music-v1\">Music v1</a>\n<a href=\"/docs/sound-effects-v2\">Sound Effects v2</a>\n<a href=\"/docs/dialogue-v3\">Dialogue v3</a>\n<a href=\"/docs/seed-audio-10\">Seed Audio 1.0</a>\n<a href=\"/docs/remove-bg\">Remove Background</a>\n<a href=\"/docs/remove-bg\">Remove bg</a>\n<a href=\"/docs/which-photos-work-best-for-high-quality-background-removal\">Which photos work best for high-quality background removal?</a>\n<a href=\"/docs/migrate-from-the-removebg-api-to-leonardoai\">Migrate from the remove.bg API to Leonardo.Ai</a>\n<a href=\"/docs/flux-dev\">Image Generation</a>\n<a href=\"/docs/flux-dev\">FLUX Dev</a>\n<a href=\"/docs/flux-schnell\">FLUX Schnell</a>\n<a href=\"/docs/flux-1-kontext-pro\">FLUX.1 Kontext [pro]</a>\n<a href=\"/docs/flux1-kontext-max\">FLUX.1 Kontext Max</a>\n<a href=\"/docs/flux-2-pro\">FLUX.2 Pro</a>\n<a href=\"/docs/gpt-image-1-5\">GPT Image-1.5</a>\n<a href=\"/docs/gpt-image-2\">GPT Image 2</a>\n<a href=\"/docs/gpt-image-25-flare\">GPT Image 2.5 Flare</a>\n<a href=\"/docs/gpt-image-25-sunburst\">GPT Image 2.5 Sunburst</a>\n<a href=\"/docs/ideogram-30\">Ideogram 3.0</a>\n<a href=\"/docs/p-image-ideogram\">P-Image-Ideogram</a>\n<a href=\"/docs/krea-2-turbo\">Krea 2 Turbo</a>\n<a href=\"/docs/lucid-origin\">Lucid Origin</a>\n<a href=\"/docs/lucid-realism\">Lucid Realism</a>\n<a href=\"/docs/nano-banana\">Nano Banana</a>\n<a href=\"/docs/nano-banana-pro\">Nano Banana Pro</a>\n<a href=\"/docs/nano-banana-2\">Nano Banana 2</a>\n<a href=\"/docs/nano-banana-2-lite\">Nano Banana 2 Lite</a>\n<a href=\"/docs/phoenix\">Phoenix</a>\n<a href=\"/docs/seedream-4-0\">Seedream 4.0</a>\n<a href=\"/docs/seedream-4-5\">Seedream 4.5</a>\n<a href=\"/docs/seedream-50-pro\">Seedream 5.0 Pro</a>\n<a href=\"/docs/flux-3-video\">Video Generation</a>\n<a href=\"/docs/flux-3-video\">FLUX 3 Video</a>\n<a href=\"/docs/grok-imagine-15\">Grok Imagine 1.5</a>\n<a href=\"/docs/happy-horse-11\">Happy Horse 1.1</a>\n<a href=\"/docs/gemini-omni-flash\">Gemini Omni Flash</a>\n<a href=\"/docs/gemini-omni-11-flash\">Gemini Omni 1.1 Flash</a>\n<a href=\"/docs/kling-2-1-pro\">Kling 2.1 Pro</a>\n<a href=\"/docs/kling-2-5-turbo\">Kling 2.5 Turbo</a>\n<a href=\"/docs/kling-26\">Kling 2.6</a>\n<a href=\"/docs/kling-30\">Kling 3.0</a>\n<a href=\"/docs/kling-30-turbo\">Kling 3.0 Turbo</a>\n<a href=\"/docs/kling-o1\">Kling O1</a>\n<a href=\"/docs/kling-o3\">Kling O3</a>\n<a href=\"/docs/minimax-hailuo-03\">MiniMax Hailuo 03</a>\n<a href=\"/docs/motion-20\">Motion 2.0</a>\n<a href=\"/docs/motion-20-fast\">Motion 2.0 Fast</a>\n<a href=\"/docs/seedance-1-0-pro\">Seedance 1.0 Pro</a>\n<a href=\"/docs/seedance-20\">Seedance 2.0</a>\n<a href=\"/docs/seedance-20-fast\">Seedance 2.0 Fast</a>\n<a href=\"/docs/seedance-20-mini\">Seedance 2.0 Mini</a>\n<a href=\"/docs/seedance-25\">Seedance 2.5</a>\n<a href=\"/docs/veo-31\">Veo 3.1</a>\n<a href=\"/docs/wan-26\">Wan 2.6</a>\n<a href=\"/docs/wan-27\">Wan 2.7</a>\n<a href=\"/docs/wan-30\">Wan 3.0</a>\n<a href=\"/docs/rodin-v2\">3D Generation</a>\n<a href=\"/docs/rodin-v2\">Rodin V2</a>\n<a href=\"/docs/blueprints-guide\">Blueprint Generation</a>\n<a href=\"/docs/blueprints-guide\">Blueprints Guide</a>\n<a href=\"/docs/get-api-code\">Best Practices</a>\n<a href=\"/docs/get-api-code\">Guide to Get API Code</a>\n<a href=\"/docs/guide-to-the-webhook-callback-feature\">Guide to the Webhook Callback Feature</a>\n<a href=\"/docs/guide-to-handling-not-safe-for-work-image-generation-nsfw\">Guide to Handling Not Safe for Work Image Generation (NSFW)</a>\n<a href=\"/docs/guide-to-concurrency-queue-and-rate-limit\">Guide to Concurrency, Queue, and Rate Limit</a>\n<a href=\"/docs/payg-guide\">Usage and Cost</a>\n<a href=\"/docs/payg-guide\">Pay-As-You-Go (PAYG) Guide</a>\n<a href=\"/docs/plan-with-the-pricing-calculator\">Plan with the Pricing Calculator</a>\n<a href=\"/docs/pro-upscaler-precise\">Upscale Generation</a>\n<a href=\"/docs/pro-upscaler-precise\">Pro Upscaler Precise</a>\n<a href=\"/docs/pro-upscaler-creative\">Pro Upscaler Creative</a>\n<a href=\"/docs/api-faq\">Frequently Asked Questions</a>\n<a href=\"/docs/api-faq\">General FAQs</a>\n<a href=\"/docs/legacy-faq\">Legacy FAQs</a>\n<a href=\"/docs/pricing-and-plans-faq\">Pricing &amp; Plans FAQs</a>\n<a href=\"/docs/api-error-messages\">API Error Messages</a>\n<a href=\"/docs/how-to-upload-an-image-using-a-presigned-url\">Special Topics</a>\n<a href=\"/docs/how-to-upload-an-image-using-a-presigned-url\">How to upload an image using a presigned URL</a>\n<a href=\"/docs/leonardoai-official-sdks\">Leonardo.Ai Official SDKs</a>\n<a href=\"/docs/need-more-support\">Need More Support?</a>\n<a href=\"/docs/connect-to-leonardoai-mcp\">⚙️Connect to Leonardo.Ai with the MCP Server</a>\n<a href=\"/docs/deprecations-changes\">Deprecations &amp; Changes</a>\n<a href=\"https://readme.com?ref_src=hub&amp;project=leonardoai\"></a>\n<a href=\"#prerequisites\"></a>\n<a href=\"https://app.leonardo.ai/\">Leonardo.Ai web app</a>\n<a href=\"#step-1-subscribe--get-your-api-key\"></a>\n<a href=\"https://app.leonardo.ai/api-access\">API Access</a>\n<a href=\"#step-2-generate-your-first-images\"></a>\n<a href=\"#example-curl-request\"></a>\n<a href=\"/docs/get-api-code\">Get API Code</a>\n<a href=\"#tips--next-steps\"></a>\n<a href=\"#improve-workflow\"></a>\n<a href=\"https://docs.leonardo.ai/v1.0_relaunch/update/docs/guide-to-the-webhook-callback-feature\">Webhooks</a>\n<a href=\"https://docs.leonardo.ai/v1.0_relaunch/update/docs/guide-to-concurrency-queue-and-rate-limit\">Rate Limits</a>\n<a href=\"/docs/audio-generation\">Audio Generation</a>\n<a href=\"#prerequisites\">Prerequisites</a>\n<a href=\"#step-1-subscribe--get-your-api-key\">Step 1: Subscribe &amp; Get Your API Key</a>\n<a href=\"#step-2-generate-your-first-images\">Step 2: Generate Your First Images</a>\n<a href=\"#example-curl-request\">Example cURL Request</a>\n<a href=\"#tips--next-steps\">Tips &amp; Next Steps</a>\n<a href=\"#improve-workflow\">Improve Workflow</a>\n<script async=\"\" data-chunk=\"main\" src=\"https://cdn.readme.io/public/hub/web/main.89b373a078b1c215e875.js\"></script>\n<script async=\"\" data-chunk=\"routes-SuperHub\" src=\"https://cdn.readme.io/public/hub/web/routes-SuperHub.cb412157f45e597a4425.js\"></script>\n<script async=\"\" data-chunk=\"Containers-EndUserContainer\" src=\"https://cdn.readme.io/public/hub/web/Containers-EndUserContainer.90a514a4055ca7d90385.js\"></script>\n<script async=\"\" data-chunk=\"Header\" src=\"https://cdn.readme.io/public/hub/web/4011.ea80785c49392e38609c.js\"></script>\n<script async=\"\" data-chunk=\"Header\" src=\"https://cdn.readme.io/public/hub/web/6269.a4ec51ee755a4d46acb3.js\"></script>\n<script async=\"\" data-chunk=\"Header\" src=\"https://cdn.readme.io/public/hub/web/444.e60d8adb20ffc4fd64ff.js\"></script>\n<script async=\"\" data-chunk=\"Header\" src=\"https://cdn.readme.io/public/hub/web/4148.f995b8b73ad1a8218dd5.js\"></script>\n<script async=\"\" data-chunk=\"Header\" src=\"https://cdn.readme.io/public/hub/web/Header.c1ed1768eda123e99d6d.js\"></script>\n<script async=\"\" data-chunk=\"routes-SuperHub-Routes\" src=\"https://cdn.readme.io/public/hub/web/routes-SuperHub-Routes.84560f9b86c01c2607d0.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/7137.6d393781d59245222014.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/9977.a933c2a0ee96169ffef7.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/6146.e0750bc6839fd326854d.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/441.0bca8969b4854384884a.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/1347.6265ddeff9b9202723b8.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/8836.278c0fa83edd766823b0.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/5446.66a863132dae0648c54c.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/1306.50782c5e797f388d05de.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/2966.d80212751366d02e6f8e.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/3183.8c27815dfa34f5f049e2.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/1913.1d5c4687dc666153eb67.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/9654.759ae99914b53d759ddb.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/7358.2d5937fa87893f7889fd.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/8490.b0dbe9c27f5481960b55.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/9127.d25c7939603369388c65.js\"></script>\n<script async=\"\" data-chunk=\"Doc\" src=\"https://cdn.readme.io/public/hub/web/Doc.2931c1cadacb52ad6149.js\"></script>\n<script async=\"\" data-chunk=\"ConnectMetadata\" src=\"https://cdn.readme.io/public/hub/web/ConnectMetadata.2d6f49b2cb0315a7ccd6.js\"></script>\n<script async=\"\" data-chunk=\"RMDXISH\" src=\"https://cdn.readme.io/public/hub/web/2712.4cdafc1e56a745cc323d.js\"></script>\n<script async=\"\" data-chunk=\"RMDXISH\" src=\"https://cdn.readme.io/public/hub/web/4683.d51d276619f8a3e43f84.js\"></script>\n<script async=\"\" data-chunk=\"RMDXISH\" src=\"https://cdn.readme.io/public/hub/web/3299.7cd65e88fba83257e48f.js\"></script>\n<script async=\"\" data-chunk=\"RMDXISH\" src=\"https://cdn.readme.io/public/hub/web/2985.b3b2ef602f6403b3d3ae.js\"></script>\n<script async=\"\" data-chunk=\"RMDXISH\" src=\"https://cdn.readme.io/public/hub/web/5078.44033880381cc8301c62.js\"></script>\n<script async=\"\" data-chunk=\"RMDXISH\" src=\"https://cdn.readme.io/public/hub/web/RMDXISH.11c17503bfaa19962d73.js\"></script>\n<script async=\"\" data-chunk=\"components-AIDropdown\" src=\"https://cdn.readme.io/public/hub/web/4818.6527b50cddd71e4f39a3.js\"></script>\n<script async=\"\" data-chunk=\"components-AIDropdown\" src=\"https://cdn.readme.io/public/hub/web/components-AIDropdown.88def46aeefbfb1f9434.js\"></script>\n<script async=\"\" data-chunk=\"Footer\" src=\"https://cdn.readme.io/public/hub/web/Footer.fb5aa36c9d47e74072b1.js\"></script>"
       }
     }
   },
   "dns": {
-    "NS leonardo.ai": {
-      "result": {
-        "name": "leonardo.ai",
-        "type": "NS",
-        "records": [
-          "ns-782.awsdns-33.net",
-          "ns-304.awsdns-38.com",
-          "ns-1718.awsdns-22.co.uk",
-          "ns-1187.awsdns-20.org"
-        ]
-      }
-    },
-    "CNAME leonardo.ai": {
-      "result": {
-        "name": "leonardo.ai",
-        "type": "CNAME",
-        "records": []
-      }
-    },
     "AAAA leonardo.ai": {
       "result": {
         "name": "leonardo.ai",
@@ -243,6 +223,25 @@
         "name": "leonardo.ai",
         "type": "A",
         "records": ["104.16.13.3", "104.16.12.3"]
+      }
+    },
+    "CNAME leonardo.ai": {
+      "result": {
+        "name": "leonardo.ai",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "NS leonardo.ai": {
+      "result": {
+        "name": "leonardo.ai",
+        "type": "NS",
+        "records": [
+          "ns-1718.awsdns-22.co.uk",
+          "ns-304.awsdns-38.com",
+          "ns-782.awsdns-33.net",
+          "ns-1187.awsdns-20.org"
+        ]
       }
     },
     "TXT 3.13.16.104.origin.asn.cymru.com": {
@@ -259,36 +258,29 @@
         "records": ["13335 | US | arin | 2010-07-14 | CLOUDFLARENET - Cloudflare, Inc., US"]
       }
     },
-    "A stackprobe-wildcard-check.leonardo.ai": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND stackprobe-wildcard-check.leonardo.ai"
-      }
-    },
     "CNAME stackprobe-wildcard-check.leonardo.ai": {
       "error": {
         "code": "DNS_NXDOMAIN",
         "message": "queryCname ENOTFOUND stackprobe-wildcard-check.leonardo.ai"
       }
     },
-    "A dashboard.leonardo.ai": {
+    "A stackprobe-wildcard-check.leonardo.ai": {
       "error": {
         "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND dashboard.leonardo.ai"
+        "message": "queryA ENOTFOUND stackprobe-wildcard-check.leonardo.ai"
+      }
+    },
+    "A console.leonardo.ai": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND console.leonardo.ai"
       }
     },
     "A app.leonardo.ai": {
       "result": {
         "name": "app.leonardo.ai",
         "type": "A",
-        "records": ["66.33.60.67", "76.76.21.98"]
-      }
-    },
-    "A api.leonardo.ai": {
-      "result": {
-        "name": "api.leonardo.ai",
-        "type": "A",
-        "records": ["104.18.19.8", "104.18.18.8"]
+        "records": ["76.76.21.93", "66.33.60.194"]
       }
     },
     "CNAME app.leonardo.ai": {
@@ -298,16 +290,17 @@
         "records": ["cname.vercel-dns.com"]
       }
     },
+    "CNAME api.leonardo.ai": {
+      "result": {
+        "name": "api.leonardo.ai",
+        "type": "CNAME",
+        "records": ["lenient-lacewing-94.hasura.app"]
+      }
+    },
     "CNAME portal.leonardo.ai": {
       "error": {
         "code": "DNS_NXDOMAIN",
         "message": "queryCname ENOTFOUND portal.leonardo.ai"
-      }
-    },
-    "CNAME console.leonardo.ai": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryCname ENOTFOUND console.leonardo.ai"
       }
     },
     "CNAME docs.leonardo.ai": {
@@ -324,17 +317,35 @@
         "records": ["jn8pzpm8kc26.stspg-customer.com"]
       }
     },
-    "CNAME api.leonardo.ai": {
-      "result": {
-        "name": "api.leonardo.ai",
-        "type": "CNAME",
-        "records": ["lenient-lacewing-94.hasura.app"]
-      }
-    },
-    "A console.leonardo.ai": {
+    "A portal.leonardo.ai": {
       "error": {
         "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND console.leonardo.ai"
+        "message": "queryA ENOTFOUND portal.leonardo.ai"
+      }
+    },
+    "CNAME dashboard.leonardo.ai": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND dashboard.leonardo.ai"
+      }
+    },
+    "A dashboard.leonardo.ai": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND dashboard.leonardo.ai"
+      }
+    },
+    "CNAME console.leonardo.ai": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND console.leonardo.ai"
+      }
+    },
+    "A api.leonardo.ai": {
+      "result": {
+        "name": "api.leonardo.ai",
+        "type": "A",
+        "records": ["104.18.18.8", "104.18.19.8"]
       }
     },
     "A docs.leonardo.ai": {
@@ -344,23 +355,11 @@
         "records": ["104.16.241.118", "104.16.242.118"]
       }
     },
-    "A portal.leonardo.ai": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND portal.leonardo.ai"
-      }
-    },
     "A status.leonardo.ai": {
       "result": {
         "name": "status.leonardo.ai",
         "type": "A",
-        "records": ["104.192.142.22", "104.192.142.23", "104.192.142.21"]
-      }
-    },
-    "CNAME dashboard.leonardo.ai": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryCname ENOTFOUND dashboard.leonardo.ai"
+        "records": ["104.192.142.23", "104.192.142.22", "104.192.142.21"]
       }
     },
     "AAAA app.leonardo.ai": {
@@ -375,17 +374,31 @@
         "name": "app.leonardo.ai",
         "type": "NS",
         "records": [
-          "ns2.vercel-dns-3.com",
-          "ns3.vercel-dns-3.com",
           "ns4.vercel-dns-3.com",
-          "ns1.vercel-dns-3.com"
+          "ns3.vercel-dns-3.com",
+          "ns1.vercel-dns-3.com",
+          "ns2.vercel-dns-3.com"
         ]
+      }
+    },
+    "NS api.leonardo.ai": {
+      "result": {
+        "name": "api.leonardo.ai",
+        "type": "NS",
+        "records": []
       }
     },
     "AAAA api.leonardo.ai": {
       "result": {
         "name": "api.leonardo.ai",
         "type": "AAAA",
+        "records": []
+      }
+    },
+    "NS status.leonardo.ai": {
+      "result": {
+        "name": "status.leonardo.ai",
+        "type": "NS",
         "records": []
       }
     },
@@ -396,10 +409,10 @@
         "records": ["2606:4700::6810:f276", "2606:4700::6810:f176"]
       }
     },
-    "AAAA status.leonardo.ai": {
+    "NS docs.leonardo.ai": {
       "result": {
-        "name": "status.leonardo.ai",
-        "type": "AAAA",
+        "name": "docs.leonardo.ai",
+        "type": "NS",
         "records": []
       }
     },
@@ -410,10 +423,17 @@
         "records": []
       }
     },
-    "NS docs.leonardo.ai": {
+    "AAAA status.leonardo.ai": {
       "result": {
-        "name": "docs.leonardo.ai",
-        "type": "NS",
+        "name": "status.leonardo.ai",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "CNAME lenient-lacewing-94.hasura.app": {
+      "result": {
+        "name": "lenient-lacewing-94.hasura.app",
+        "type": "CNAME",
         "records": []
       }
     },
@@ -431,23 +451,9 @@
         "records": []
       }
     },
-    "NS status.leonardo.ai": {
+    "TXT 130.60.33.66.origin.asn.cymru.com": {
       "result": {
-        "name": "status.leonardo.ai",
-        "type": "NS",
-        "records": []
-      }
-    },
-    "CNAME lenient-lacewing-94.hasura.app": {
-      "result": {
-        "name": "lenient-lacewing-94.hasura.app",
-        "type": "CNAME",
-        "records": []
-      }
-    },
-    "TXT 67.60.33.66.origin.asn.cymru.com": {
-      "result": {
-        "name": "67.60.33.66.origin.asn.cymru.com",
+        "name": "130.60.33.66.origin.asn.cymru.com",
         "type": "TXT",
         "records": ["16509 | 66.33.60.0/24 | US | arin | 2024-03-21"]
       }
@@ -459,13 +465,6 @@
         "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
       }
     },
-    "NS api.leonardo.ai": {
-      "result": {
-        "name": "api.leonardo.ai",
-        "type": "NS",
-        "records": []
-      }
-    },
     "TXT 8.18.18.104.origin.asn.cymru.com": {
       "result": {
         "name": "8.18.18.104.origin.asn.cymru.com",
@@ -473,9 +472,9 @@
         "records": ["13335 | 104.18.16.0/20 | US | arin | 2014-03-28"]
       }
     },
-    "TXT 118.241.16.104.origin.asn.cymru.com": {
+    "TXT 118.242.16.104.origin.asn.cymru.com": {
       "result": {
-        "name": "118.241.16.104.origin.asn.cymru.com",
+        "name": "118.242.16.104.origin.asn.cymru.com",
         "type": "TXT",
         "records": ["13335 | 104.16.240.0/20 | US | arin | 2014-03-28"]
       }
@@ -495,7 +494,7 @@
     "app.leonardo.ai:443": {
       "result": {
         "host": "app.leonardo.ai",
-        "ip": "66.33.60.67",
+        "ip": "66.33.60.130",
         "issuer": "C=US, O=Let's Encrypt, CN=YR2",
         "subjectAltNames": ["app.leonardo.ai"],
         "validFrom": "Sep 14 08:10:05 2026 GMT",
@@ -515,7 +514,7 @@
     "docs.leonardo.ai:443": {
       "result": {
         "host": "docs.leonardo.ai",
-        "ip": "104.16.241.118",
+        "ip": "104.16.242.118",
         "issuer": "C=US, O=Google Trust Services, CN=WE1",
         "subjectAltNames": ["docs.leonardo.ai"],
         "validFrom": "Sep  3 10:17:09 2026 GMT",

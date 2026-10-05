@@ -1,20 +1,20 @@
 {
   "url": "https://www.attentive.com/",
-  "recordedAt": "2026-10-04T17:53:09.157Z",
+  "recordedAt": "2026-10-04T20:16:51.767Z",
   "http": {
     "GET https://www.attentive.com/": {
       "result": {
         "url": "https://www.attentive.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 17:53:09 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
           ["set-cookie", "_cfuvid=<redacted>"],
-          ["cf-ray", "a4560b6129011525-OSL"],
+          ["cf-ray", "a456dde45e49b4f4-OSL"],
           ["cf-cache-status", "HIT"],
-          ["age", "165806"],
+          ["age", "174429"],
           ["content-encoding", "gzip"],
           ["last-modified", "Sat, 03 Oct 2026 20:17:31 GMT"],
           [
@@ -40,13 +40,6 @@
     }
   },
   "dns": {
-    "A www.attentive.com": {
-      "result": {
-        "name": "www.attentive.com",
-        "type": "A",
-        "records": ["198.202.211.1"]
-      }
-    },
     "CNAME www.attentive.com": {
       "result": {
         "name": "www.attentive.com",
@@ -72,7 +65,14 @@
       "result": {
         "name": "www.attentive.com",
         "type": "NS",
-        "records": ["journey.ns.cloudflare.com", "lamar.ns.cloudflare.com"]
+        "records": ["lamar.ns.cloudflare.com", "journey.ns.cloudflare.com"]
+      }
+    },
+    "A www.attentive.com": {
+      "result": {
+        "name": "www.attentive.com",
+        "type": "A",
+        "records": ["198.202.211.1"]
       }
     },
     "TXT 1.211.202.198.origin.asn.cymru.com": {

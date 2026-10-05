@@ -1,6 +1,6 @@
 {
   "url": "https://app.qa.tech/",
-  "recordedAt": "2026-10-04T17:53:10.247Z",
+  "recordedAt": "2026-10-04T20:16:52.956Z",
   "http": {
     "GET https://app.qa.tech/": {
       "result": {
@@ -9,12 +9,12 @@
         "headers": [
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-type", "text/html"],
-          ["date", "Sun, 04 Oct 2026 17:53:10 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
           ["location", "/auth/sign-in?redirectTo=%2F"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
           ["x-frame-options", "DENY"],
-          ["x-vercel-id", "arn1::jprzs-1791136390383-4d4cb77eea88"],
+          ["x-vercel-id", "arn1::lz6t2-1791145013170-7abdef208fb7"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<a href=\"/auth/sign-in?redirectTo=%252F\">here</a>"
@@ -29,7 +29,7 @@
           ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
           ["content-encoding", "br"],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 17:53:10 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
           [
             "link",
             "</_next/static/media/83afe278b6a6bb3c.p.2bn3s6zvc0dyp.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\""
@@ -43,37 +43,755 @@
             "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
           ],
           ["x-analytics-enabled", "true"],
-          ["x-anonymous-id", "f2b42efe-f519-4cf4-8d3a-fe134dfd3df7"],
+          ["x-anonymous-id", "12ca59b7-5145-4b71-9b35-79df11ec0924"],
           ["x-current-path", "/auth/sign-in"],
           ["x-current-url", "https://app.qa.tech/auth/sign-in?redirectTo=%2F"],
           ["x-frame-options", "DENY"],
           ["x-matched-path", "/auth/sign-in"],
           ["x-powered-by", "Next.js"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::arn1::jprzs-1791136390571-1a0834cbe2a0"],
+          ["x-vercel-id", "arn1::arn1::lz6t2-1791145013268-50c8d59f50d8"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/1oqp1ik8giur4.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/2qv5_t2-2f_1_.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0-wnuvpaes179.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/3jeehj7aajegz.js\">\n<script src=\"/_next/static/chunks/29w9qy1qurka_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/23asetxkgwioy.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/27pruof2q2dnb.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1sub44l8ckr2g.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/17mx-6zbovyoe.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2pu2h9-4wb3jt.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/127c519dj1dwb.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2hh9fxtrsml4z.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3wmkucd_ufm03.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3htcc6efw8oyi.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-0-79e1o2th-ka.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2tdonm4juflgg.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2gsprul1ol8ef.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1aluoawgl01l_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/02t4f1i_f6etf.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0dlue9lrzea_p.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1x3jopfg10i-3.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2tjxkj4am06ni.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0nngx_pew-88h.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0r2wsp7-8mffp.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1xjonk-a-umu8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2je20u2txntu8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1v_q95021t7su.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3-3n_eez2vcgm.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/19sct5revbkjz.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1bewvuqiwmuir.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/17tzqj49ap8de.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://www.googletagmanager.com/gtm.js?id=GTM-5QNHTFMX\" as=\"script\">\n<meta name=\"theme-color\" content=\"#ffffff\" media=\"(prefers-color-scheme: light)\">\n<meta name=\"theme-color\" content=\"#0a0a0a\" media=\"(prefers-color-scheme: dark)\">\n<meta name=\"description\" content=\"Stop writing tests. Focus on productivity.\">\n<meta name=\"robots\" content=\"noindex\">\n<meta property=\"og:title\" content=\"Sign In\">\n<meta property=\"og:description\" content=\"Stop writing tests. Focus on productivity.\">\n<meta property=\"og:url\" content=\"https://app.qa.tech\">\n<meta property=\"og:site_name\" content=\"QA.tech\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"QA.tech\">\n<meta name=\"twitter:description\" content=\"Stop writing tests. Focus on productivity.\">\n<link rel=\"icon\" href=\"/assets/images/favicon/favicon.ico\">\n<link rel=\"apple-touch-icon\" href=\"/assets/images/favicon/apple-touch-icon.png\">\n<meta name=\"sentry-trace\" content=\"fda2d96ac81f6ba347100ee562cc19db-acaec1fbe47fd62d-0\">\n<meta name=\"baggage\" content=\"sentry-environment=live,sentry-release=417b26c8009010ce579b6b6046ff94ff3a418f0f,sentry-public_key=a9086fa6da567836bc537588bd156272,sentry-trace_id=fda2d96ac81f6ba347100ee562cc19db,sentry-org_id=4505800178008064,sentry-sampled=false,sentry-sample_rand=0.7040200912864301,sentry-sample_rate=0.05\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/chunks/3jeehj7aajegz.js\" id=\"_R_\" async=\"\"></script>\n<a href=\"/\"></a>\n<a href=\"/auth/password-reset\">Forgot password?</a>\n<a href=\"https://qa.tech/demo\">book a demo.</a>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/1oqp1ik8giur4.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/2qv5_t2-2f_1_.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/0-wnuvpaes179.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/3jeehj7aajegz.js\">\n<script src=\"/_next/static/chunks/29w9qy1qurka_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/23asetxkgwioy.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/27pruof2q2dnb.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1sub44l8ckr2g.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/17mx-6zbovyoe.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2pu2h9-4wb3jt.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/127c519dj1dwb.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2hh9fxtrsml4z.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3wmkucd_ufm03.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3htcc6efw8oyi.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-0-79e1o2th-ka.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2tdonm4juflgg.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2gsprul1ol8ef.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1aluoawgl01l_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/02t4f1i_f6etf.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0dlue9lrzea_p.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1x3jopfg10i-3.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2tjxkj4am06ni.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0nngx_pew-88h.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0r2wsp7-8mffp.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1xjonk-a-umu8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2je20u2txntu8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1v_q95021t7su.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3-3n_eez2vcgm.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/19sct5revbkjz.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1bewvuqiwmuir.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/17tzqj49ap8de.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://www.googletagmanager.com/gtm.js?id=GTM-5QNHTFMX\" as=\"script\">\n<meta name=\"theme-color\" content=\"#ffffff\" media=\"(prefers-color-scheme: light)\">\n<meta name=\"theme-color\" content=\"#0a0a0a\" media=\"(prefers-color-scheme: dark)\">\n<meta name=\"description\" content=\"Stop writing tests. Focus on productivity.\">\n<meta name=\"robots\" content=\"noindex\">\n<meta property=\"og:title\" content=\"Sign In\">\n<meta property=\"og:description\" content=\"Stop writing tests. Focus on productivity.\">\n<meta property=\"og:url\" content=\"https://app.qa.tech\">\n<meta property=\"og:site_name\" content=\"QA.tech\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"QA.tech\">\n<meta name=\"twitter:description\" content=\"Stop writing tests. Focus on productivity.\">\n<link rel=\"icon\" href=\"/assets/images/favicon/favicon.ico\">\n<link rel=\"apple-touch-icon\" href=\"/assets/images/favicon/apple-touch-icon.png\">\n<meta name=\"sentry-trace\" content=\"45d806679b2b074da1b9f6fed509b5df-0e07c786787bd414-0\">\n<meta name=\"baggage\" content=\"sentry-environment=live,sentry-release=417b26c8009010ce579b6b6046ff94ff3a418f0f,sentry-public_key=a9086fa6da567836bc537588bd156272,sentry-trace_id=45d806679b2b074da1b9f6fed509b5df,sentry-org_id=4505800178008064,sentry-sampled=false,sentry-sample_rand=0.8419359490387992,sentry-sample_rate=0.05\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/chunks/3jeehj7aajegz.js\" id=\"_R_\" async=\"\"></script>\n<a href=\"/\"></a>\n<a href=\"/auth/password-reset\">Forgot password?</a>\n<a href=\"https://qa.tech/demo\">book a demo.</a>"
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/29w9qy1qurka_.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/29w9qy1qurka_.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118278"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"29w9qy1qurka_.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"2c014a6a51655a997f6c18de749fc2a9\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/29w9qy1qurka_.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::lz6t2-1791145013464-b7beaca5b148"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/turbopack-0-79e1o2th-ka.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/turbopack-0-79e1o2th-ka.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "199773"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"turbopack-0-79e1o2th-ka.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"a241c804ee5f87187d8fb33f5ea7de06\""],
+          ["last-modified", "Fri, 02 Oct 2026 12:47:19 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/turbopack-0-79e1o2th-ka.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::pnr2h-1791145013538-ed66de5df0bb"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://vercel.live/\""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/3htcc6efw8oyi.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/3htcc6efw8oyi.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "17527"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3htcc6efw8oyi.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"4d2585c773696013d31482a6d54ae8b2\""],
+          ["last-modified", "Sun, 04 Oct 2026 15:24:45 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/3htcc6efw8oyi.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::bx9s5-1791145013536-1eaab58d6ef0"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/23asetxkgwioy.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/23asetxkgwioy.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118278"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"23asetxkgwioy.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"4b2869b5923c8d318ad218a840641aef\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/23asetxkgwioy.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::pnr2h-1791145013536-2878766749fd"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/1sub44l8ckr2g.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/1sub44l8ckr2g.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118278"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1sub44l8ckr2g.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"4ebe8de860119c99ded2e2ba171bf95e\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/1sub44l8ckr2g.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::lcdxf-1791145013538-16f633aa43a4"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://app.qa.tech/\""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/27pruof2q2dnb.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/27pruof2q2dnb.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118278"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"27pruof2q2dnb.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"5fa20e61eee7dc772d09303d2967d5a5\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/27pruof2q2dnb.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::2rdzq-1791145013537-3c182a9a0bfd"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/2hh9fxtrsml4z.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/2hh9fxtrsml4z.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118278"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2hh9fxtrsml4z.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"b8e4852202a3b3f840cfab92bb152428\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/2hh9fxtrsml4z.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::2mxv6-1791145013546-3042afda4de9"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/2pu2h9-4wb3jt.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/2pu2h9-4wb3jt.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118278"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2pu2h9-4wb3jt.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"d8a86539e78776d7081702ccb7c026e9\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/2pu2h9-4wb3jt.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::qx46t-1791145013542-0e53b01e2283"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/2gsprul1ol8ef.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/2gsprul1ol8ef.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "1094"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2gsprul1ol8ef.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"9db4181772ab38c43a112e3353af4020\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:39 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/2gsprul1ol8ef.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::hhh4n-1791145013546-73af498581d8"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/1xjonk-a-umu8.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/1xjonk-a-umu8.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "76813"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1xjonk-a-umu8.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"656ed989facd46d96a9b8b7e49f03133\""],
+          ["last-modified", "Sat, 03 Oct 2026 22:56:40 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/1xjonk-a-umu8.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::bx9s5-1791145013564-05f2b3218f32"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://gkcoevrpxbysmtgfpshb.supabase.co/\"\n\"https://supabase.com/\"\n\"supabase-ssr/0.10.3\""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/3jeehj7aajegz.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/3jeehj7aajegz.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118278"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3jeehj7aajegz.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"f419d52881390be0c776de2b196c4e8a\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/3jeehj7aajegz.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::pnr2h-1791145013564-7e6c412eb0ba"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/3-3n_eez2vcgm.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/3-3n_eez2vcgm.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118278"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3-3n_eez2vcgm.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"473880b8fafdc9af666714bbefa43d1b\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/3-3n_eez2vcgm.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::hhh4n-1791145013564-5c89cd80bc0e"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/2tdonm4juflgg.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/2tdonm4juflgg.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118278"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2tdonm4juflgg.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"5aa807f52d6dbb016e60337e2b1b0b04\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/2tdonm4juflgg.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::8zgmg-1791145013565-29520ae9a669"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/17tzqj49ap8de.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/17tzqj49ap8de.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "17527"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"17tzqj49ap8de.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"de4c001205c0dec44f146cc5d33ca5c4\""],
+          ["last-modified", "Sun, 04 Oct 2026 15:24:45 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/17tzqj49ap8de.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::97x49-1791145013564-d54aac08f266"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/1aluoawgl01l_.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/1aluoawgl01l_.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118278"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1aluoawgl01l_.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"828f123bd600c6a64db79e84bd718836\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/1aluoawgl01l_.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::kh6cl-1791145013564-7e77b71c121d"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/0nngx_pew-88h.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/0nngx_pew-88h.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "17527"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0nngx_pew-88h.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"3732e294bd59669c742ca9cfd9aecd20\""],
+          ["last-modified", "Sun, 04 Oct 2026 15:24:45 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/0nngx_pew-88h.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::gd27n-1791145013568-6b4d33769bc3"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/17mx-6zbovyoe.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/17mx-6zbovyoe.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118278"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"17mx-6zbovyoe.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"ebd5642ebb78ef6fdfc5abfc6e8e20aa\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/17mx-6zbovyoe.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::8zgmg-1791145013536-659d5d6e9457"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"realtime-js/2.104.1\"\n\"storage-js/2.104.1\""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/2tjxkj4am06ni.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/2tjxkj4am06ni.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118278"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2tjxkj4am06ni.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"fa1b1296a742d920bae8d725a63162cc\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/2tjxkj4am06ni.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::rddrp-1791145013564-9c50868cd821"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://docs.qa.tech/\"\n\"https://meetings-eu1.hubspot.com/\"\n\"https://nuqs.dev/\"\n\"https://qa-tech-ab.sentry.io/\"\n\"https://qa.tech/\"\n\"https://vercel.com/\"\n\"https://www.googletagmanager.com/\""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/1x3jopfg10i-3.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/1x3jopfg10i-3.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "1094"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1x3jopfg10i-3.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"8971c88796c79856fe8456dbe53868e8\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:39 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/1x3jopfg10i-3.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9r5sw-1791145013572-91e27ade7144"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/0r2wsp7-8mffp.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/0r2wsp7-8mffp.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "76813"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0r2wsp7-8mffp.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"e45f5043e7d18b644ea3148ab8232f87\""],
+          ["last-modified", "Sat, 03 Oct 2026 22:56:40 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/0r2wsp7-8mffp.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::2grvj-1791145013572-9ed9816937a0"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://local.invalid/\""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/19sct5revbkjz.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/19sct5revbkjz.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118278"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"19sct5revbkjz.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"338aeac7ec33e01a9269e780fda18082\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/19sct5revbkjz.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::lpzmg-1791145013572-2480d97ce5b8"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/1v_q95021t7su.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/1v_q95021t7su.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "76812"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1v_q95021t7su.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"7107653f3de33524ea7afd0eed7d6ff2\""],
+          ["last-modified", "Sat, 03 Oct 2026 22:56:40 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/1v_q95021t7su.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::lhkdx-1791145013572-7a6086d41107"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/0dlue9lrzea_p.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/0dlue9lrzea_p.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118278"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0dlue9lrzea_p.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"ddda10322bab99221910f306a54c56f1\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/0dlue9lrzea_p.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::sk9k4-1791145013572-54309305d8b3"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/1bewvuqiwmuir.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/1bewvuqiwmuir.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "199778"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1bewvuqiwmuir.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"35616315b8b8af4018fbd762147f8cfd\""],
+          ["last-modified", "Fri, 02 Oct 2026 12:47:14 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/1bewvuqiwmuir.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::jbnw7-1791145013572-ddafe549af31"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://gkcoevrpxbysmtgfpshb.supabase.co/\"\n\"https://supabase.com/\"\n\"supabase-ssr/0.10.3\""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/02t4f1i_f6etf.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/02t4f1i_f6etf.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "1094"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"02t4f1i_f6etf.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"6af78cddf3745150f626c5b8ba1dc091\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:39 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/02t4f1i_f6etf.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::8zgmg-1791145013572-454366d625a6"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/127c519dj1dwb.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/127c519dj1dwb.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "1094"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"127c519dj1dwb.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"56cb3626322150490ec01c5b763b81ce\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:39 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/127c519dj1dwb.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::h2q7t-1791145013538-877f054191a5"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://s.io/\"\n\"https://browser.sentry-cdn.com/\"\n\"https://docs.sentry.io/\"\n\"https://eu.i.posthog.com/\"\n\"https://o447951.ingest.sentry.io/\"\n\"https://sentry.io/\"\n\"https://spotlightjs.com/\""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/2je20u2txntu8.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/2je20u2txntu8.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "76813"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2je20u2txntu8.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"dc6ad42e4c163e9fbae2f50e39e3a555\""],
+          ["last-modified", "Sat, 03 Oct 2026 22:56:40 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/2je20u2txntu8.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::j5sf6-1791145013572-5898e10064f1"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/3wmkucd_ufm03.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/3wmkucd_ufm03.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "118278"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3wmkucd_ufm03.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"df693b920c130d762ba27433fd0ff063\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:25:34 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/3wmkucd_ufm03.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::d5jhn-1791145013538-bda6e83e9309"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://yandex.com/\"\n\"https://app.posthog.com/\"\n\"https://posthog.com/\"\n\"https://sentry.io/\"\n\"https://us.i.posthog.com/\"\n\"https://us.posthog.com/\""
+      }
+    },
+    "GET https://app.qa.tech/_next/static/chunks/0cz1d0mv5g_q7.js": {
+      "result": {
+        "url": "https://app.qa.tech/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "0"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0cz1d0mv5g_q7.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["etag", "W/\"846118c33b2c0e922d7b3a7676f81f6f\""],
+          ["last-modified", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-frame-options", "DENY"],
+          ["x-matched-path", "/_next/static/chunks/0cz1d0mv5g_q7.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::q86rg-1791145013564-8710f752cc84"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
       }
     }
   },
   "dns": {
-    "AAAA app.qa.tech": {
-      "result": {
-        "name": "app.qa.tech",
-        "type": "AAAA",
-        "records": []
-      }
-    },
     "NS app.qa.tech": {
       "result": {
         "name": "app.qa.tech",
         "type": "NS",
         "records": [
-          "ns1.vercel-dns-3.com",
+          "ns4.vercel-dns-3.com",
           "ns3.vercel-dns-3.com",
-          "ns2.vercel-dns-3.com",
-          "ns4.vercel-dns-3.com"
+          "ns1.vercel-dns-3.com",
+          "ns2.vercel-dns-3.com"
         ]
       }
     },
@@ -81,7 +799,14 @@
       "result": {
         "name": "app.qa.tech",
         "type": "A",
-        "records": ["66.33.60.35", "76.76.21.123"]
+        "records": ["66.33.60.193", "76.76.21.241"]
+      }
+    },
+    "AAAA app.qa.tech": {
+      "result": {
+        "name": "app.qa.tech",
+        "type": "AAAA",
+        "records": []
       }
     },
     "CNAME app.qa.tech": {
@@ -98,11 +823,11 @@
         "records": []
       }
     },
-    "TXT 93.21.76.76.origin.asn.cymru.com": {
+    "TXT 130.60.33.66.origin.asn.cymru.com": {
       "result": {
-        "name": "93.21.76.76.origin.asn.cymru.com",
+        "name": "130.60.33.66.origin.asn.cymru.com",
         "type": "TXT",
-        "records": ["16509 | 76.76.21.0/24 | US | arin | 2020-05-08"]
+        "records": ["16509 | 66.33.60.0/24 | US | arin | 2024-03-21"]
       }
     },
     "TXT as16509.asn.cymru.com": {
@@ -117,7 +842,7 @@
     "app.qa.tech:443": {
       "result": {
         "host": "app.qa.tech",
-        "ip": "76.76.21.93",
+        "ip": "66.33.60.130",
         "issuer": "C=US, O=Let's Encrypt, CN=YR1",
         "subjectAltNames": ["app.qa.tech"],
         "validFrom": "Sep 20 02:27:55 2026 GMT",

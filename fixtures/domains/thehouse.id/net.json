@@ -1,6 +1,6 @@
 {
   "url": "https://thehouse.id/",
-  "recordedAt": "2026-10-04T18:01:31.387Z",
+  "recordedAt": "2026-10-04T20:17:05.918Z",
   "http": {
     "GET https://thehouse.id/": {
       "result": {
@@ -30,11 +30,520 @@
             "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding"
           ],
           ["content-length", "3820"],
-          ["age", "4223"],
+          ["age", "12358"],
           ["cdn-cache-status", "hit"],
           ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/44ce747bfa0cdc14.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/webpack-3a68ca926a023bb8.js\">\n<script src=\"/_next/static/chunks/4bd1b696-b98887138107acd7.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/684-76ac575fe1546a0d.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/main-app-f5531582a8aef103.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/bc9e92e6-ae33bc13ba3d0f54.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/36b4fd63-cb4284f3e3f3863b.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/982-8151d6dff6d7db7a.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/873-2f316d7b4b63687e.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/589-473228c6304fc74d.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/874-d7e83e81932746e2.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/184-0863bc588d5d1902.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/718-cbc62b82af80c4f4.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/759-7b757ecd69add047.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/layout-7084f63fad002d57.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/118-d495de99321a6895.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/page-07fa3bb5a983344d.js\" async=\"\"></script>\n<meta name=\"description\" content=\"Generate unique building facades from faces using AI\">\n<link rel=\"icon\" href=\"/favicon.ico\" type=\"image/x-icon\" sizes=\"16x16\">\n<script src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\" nomodule=\"\"></script>\n<a href=\"/\">HouseID</a>\n<script src=\"/_next/static/chunks/webpack-3a68ca926a023bb8.js\" async=\"\"></script>"
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/4bd1b696-b98887138107acd7.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/4bd1b696-b98887138107acd7.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["server", "envoy"],
+          ["traceparent", "00-9e31c224371c5c127dbabe2dc85e2f9e-b7df7bf7193c9bde-01"],
+          ["x-cloud-trace-context", "9e31c224371c5c127dbabe2dc85e2f9e/13249444929957829598;o=1"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=2029"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["etag", "W/\"29492-49773873e8\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "53341"],
+          ["age", "9"],
+          ["cdn-cache-status", "hit"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/main-app-f5531582a8aef103.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/main-app-f5531582a8aef103.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["server", "envoy"],
+          ["traceparent", "00-879510cc6eafd659c50f79ac213f8d94-3285c47a775e5f1a-00"],
+          ["x-cloud-trace-context", "879510cc6eafd659c50f79ac213f8d94/3640531904066641690"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["content-length", "504"],
+          ["server-timing", "l2gfet4t7; dur=1730"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["etag", "W/\"1f8-49773873e8\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["age", "9"],
+          ["cdn-cache-status", "hit"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/982-8151d6dff6d7db7a.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/982-8151d6dff6d7db7a.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["server", "envoy"],
+          ["traceparent", "00-52a251ac52b7fb41602773ff9fcfe672-3a51f774ce731b41-00"],
+          ["x-cloud-trace-context", "52a251ac52b7fb41602773ff9fcfe672/4202412008365300545"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=1775"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["etag", "W/\"63cd-49773873e8\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "8725"],
+          ["age", "9"],
+          ["cdn-cache-status", "hit"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/874-d7e83e81932746e2.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/874-d7e83e81932746e2.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["server", "envoy"],
+          ["traceparent", "00-a17b928a49a4ab8bcddfcdbf14786cbb-40ecdc1e1f7647be-00"],
+          ["x-cloud-trace-context", "a17b928a49a4ab8bcddfcdbf14786cbb/4678356134866077630"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=1782"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["etag", "W/\"1a28-49773873e8\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "2867"],
+          ["age", "9"],
+          ["cdn-cache-status", "hit"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/app/layout-7084f63fad002d57.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/app/layout-7084f63fad002d57.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["server", "envoy"],
+          ["traceparent", "00-70557edd9ab9bf7b77cc530f18507049-3bb15eb881f761c2-00"],
+          ["x-cloud-trace-context", "70557edd9ab9bf7b77cc530f18507049/4301323265663001026"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=1773"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["etag", "W/\"29ef-49773873e8\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "3196"],
+          ["age", "9"],
+          ["cdn-cache-status", "hit"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/718-cbc62b82af80c4f4.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/718-cbc62b82af80c4f4.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["server", "envoy"],
+          ["traceparent", "00-8bb7addd2e9558c2204404393fb843ee-bca1c11c74c394f7-00"],
+          ["x-cloud-trace-context", "8bb7addd2e9558c2204404393fb843ee/13592357478343087351"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=1771"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["etag", "W/\"2d15-49773873e8\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "4177"],
+          ["age", "9"],
+          ["cdn-cache-status", "hit"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/759-7b757ecd69add047.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/759-7b757ecd69add047.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["server", "envoy"],
+          ["traceparent", "00-c3a4fc16e09cbc9e6085968fa48e53ff-3bc6c0d51d1b63d1-00"],
+          ["x-cloud-trace-context", "c3a4fc16e09cbc9e6085968fa48e53ff/4307342115175359441"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=1779"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["etag", "W/\"258f-49773873e8\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "3587"],
+          ["age", "9"],
+          ["cdn-cache-status", "hit"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/589-473228c6304fc74d.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/589-473228c6304fc74d.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["server", "envoy"],
+          ["traceparent", "00-5aae257903b13bb087d931d4dc11ca66-0c8f3f89e27e0a93-00"],
+          ["x-cloud-trace-context", "5aae257903b13bb087d931d4dc11ca66/905011911567739539"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=1778"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["etag", "W/\"527a-49773873e8\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "7717"],
+          ["age", "9"],
+          ["cdn-cache-status", "hit"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"]
+        ],
+        "body": "\"https://fonts.googleapis.com/\"\n\"https://use.typekit.net/\""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/app/page-07fa3bb5a983344d.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/app/page-07fa3bb5a983344d.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["server", "envoy"],
+          ["traceparent", "00-a23e91197c62b523c37912454622e223-d6e63840a6184eb6-00"],
+          ["x-cloud-trace-context", "a23e91197c62b523c37912454622e223/15485126219075702454"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=1771"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["etag", "W/\"445e-49773873e8\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "5858"],
+          ["age", "9"],
+          ["cdn-cache-status", "hit"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/118-d495de99321a6895.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/118-d495de99321a6895.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["server", "envoy"],
+          ["traceparent", "00-7605606fee5fe5237b0f45c3d849a86f-032cbf17c149cc74-00"],
+          ["x-cloud-trace-context", "7605606fee5fe5237b0f45c3d849a86f/228767789837044852"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=1765"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["etag", "W/\"2121-49773873e8\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "3105"],
+          ["age", "9"],
+          ["cdn-cache-status", "hit"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/webpack-3a68ca926a023bb8.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/webpack-3a68ca926a023bb8.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["server", "envoy"],
+          ["traceparent", "00-f03594b01ed3c8935b234923d4d1443b-259f47b3f598b7c4-00"],
+          ["x-cloud-trace-context", "f03594b01ed3c8935b234923d4d1443b/2710964338945472452"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=1766"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["etag", "W/\"d55-49773873e8\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "1701"],
+          ["age", "9"],
+          ["cdn-cache-status", "hit"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/184-0863bc588d5d1902.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/184-0863bc588d5d1902.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["server", "envoy"],
+          ["traceparent", "00-fe41ff910a797845edf248f6b915aa2c-f15df6e30a5c9669-00"],
+          ["x-cloud-trace-context", "fe41ff910a797845edf248f6b915aa2c/17392328790966572649"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=1776"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["etag", "W/\"10e77-49773873e8\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "22773"],
+          ["age", "9"],
+          ["cdn-cache-status", "hit"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/36b4fd63-cb4284f3e3f3863b.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/36b4fd63-cb4284f3e3f3863b.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["server", "envoy"],
+          ["traceparent", "00-dc119aadd0ded03c596cd35bc40e89b7-e61c6629f36e672e-00"],
+          ["x-cloud-trace-context", "dc119aadd0ded03c596cd35bc40e89b7/16581240258435114798"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=1785"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["etag", "W/\"16df6-49773873e8\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "26865"],
+          ["age", "9"],
+          ["cdn-cache-status", "hit"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"]
+        ],
+        "body": "\"https://apis.google.com/\"\n\"https://www.google.com/\""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/873-2f316d7b4b63687e.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/873-2f316d7b4b63687e.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["server", "envoy"],
+          ["traceparent", "00-e46dcb8def2470b8487d3edc0fb7785f-c85dd5d7ee5446ed-00"],
+          ["x-cloud-trace-context", "e46dcb8def2470b8487d3edc0fb7785f/14437931103812863725"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=1780"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["etag", "W/\"1ab5c-49773873e8\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "36716"],
+          ["age", "9"],
+          ["cdn-cache-status", "hit"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"]
+        ],
+        "body": "\"https://facecade-default-rtdb.firebaseio.com/\"\n\"https://firebase.google.com/\"\n\"https://securetoken.google.com/\""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/polyfills-42372ed130431b0a.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["server", "envoy"],
+          ["traceparent", "00-74732af5bb7ab6a4cc46f0988d387cf3-8f5b5e4a613b6ec6-00"],
+          ["x-cloud-trace-context", "74732af5bb7ab6a4cc46f0988d387cf3/10329953843856240326"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=1781"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["etag", "W/\"1b7d2-49773873e8\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "39627"],
+          ["age", "9"],
+          ["cdn-cache-status", "hit"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/684-76ac575fe1546a0d.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/684-76ac575fe1546a0d.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["server", "envoy"],
+          ["traceparent", "00-4ecb4672ccc04acf5f56ffa802cfa5b0-02c5e6f9b4e7f6c8-00"],
+          ["x-cloud-trace-context", "4ecb4672ccc04acf5f56ffa802cfa5b0/199819718644201160"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=1784"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["etag", "W/\"2a39e-49773873e8\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "45497"],
+          ["age", "9"],
+          ["cdn-cache-status", "hit"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/bc9e92e6-ae33bc13ba3d0f54.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/bc9e92e6-ae33bc13ba3d0f54.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["server", "envoy"],
+          ["traceparent", "00-3c37cdabdb3c70a265363c5a40988e05-b2945473e0eac832-00"],
+          ["x-cloud-trace-context", "3c37cdabdb3c70a265363c5a40988e05/12868002891975804978"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=1762"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["etag", "W/\"3e56d-49773873e8\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "74720"],
+          ["age", "9"],
+          ["cdn-cache-status", "hit"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"]
+        ],
+        "body": "\"https://stackoverflow.com/\""
       }
     }
   },
@@ -44,6 +553,20 @@
         "name": "thehouse.id",
         "type": "AAAA",
         "records": []
+      }
+    },
+    "NS thehouse.id": {
+      "result": {
+        "name": "thehouse.id",
+        "type": "NS",
+        "records": ["ns49.domaincontrol.com", "ns50.domaincontrol.com"]
+      }
+    },
+    "A thehouse.id": {
+      "result": {
+        "name": "thehouse.id",
+        "type": "A",
+        "records": ["35.219.200.9"]
       }
     },
     "CNAME thehouse.id": {
@@ -67,20 +590,6 @@
         "records": ["15169 | US | arin | 2000-03-30 | GOOGLE - Google LLC, US"]
       }
     },
-    "A thehouse.id": {
-      "result": {
-        "name": "thehouse.id",
-        "type": "A",
-        "records": ["35.219.200.9"]
-      }
-    },
-    "NS thehouse.id": {
-      "result": {
-        "name": "thehouse.id",
-        "type": "NS",
-        "records": ["ns50.domaincontrol.com", "ns49.domaincontrol.com"]
-      }
-    },
     "A stackprobe-wildcard-check.thehouse.id": {
       "error": {
         "code": "DNS_NXDOMAIN",
@@ -93,16 +602,46 @@
         "message": "queryCname ENOTFOUND stackprobe-wildcard-check.thehouse.id"
       }
     },
+    "CNAME console.thehouse.id": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND console.thehouse.id"
+      }
+    },
+    "CNAME portal.thehouse.id": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND portal.thehouse.id"
+      }
+    },
+    "CNAME docs.thehouse.id": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND docs.thehouse.id"
+      }
+    },
+    "A docs.thehouse.id": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND docs.thehouse.id"
+      }
+    },
     "A app.thehouse.id": {
       "error": {
         "code": "DNS_NXDOMAIN",
         "message": "queryA ENOTFOUND app.thehouse.id"
       }
     },
-    "CNAME app.thehouse.id": {
+    "A status.thehouse.id": {
       "error": {
         "code": "DNS_NXDOMAIN",
-        "message": "queryCname ENOTFOUND app.thehouse.id"
+        "message": "queryA ENOTFOUND status.thehouse.id"
+      }
+    },
+    "CNAME status.thehouse.id": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND status.thehouse.id"
       }
     },
     "A portal.thehouse.id": {
@@ -117,40 +656,10 @@
         "message": "queryCname ENOTFOUND api.thehouse.id"
       }
     },
-    "CNAME dashboard.thehouse.id": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryCname ENOTFOUND dashboard.thehouse.id"
-      }
-    },
-    "CNAME docs.thehouse.id": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryCname ENOTFOUND docs.thehouse.id"
-      }
-    },
-    "CNAME portal.thehouse.id": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryCname ENOTFOUND portal.thehouse.id"
-      }
-    },
-    "A console.thehouse.id": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND console.thehouse.id"
-      }
-    },
     "A api.thehouse.id": {
       "error": {
         "code": "DNS_NXDOMAIN",
         "message": "queryA ENOTFOUND api.thehouse.id"
-      }
-    },
-    "A status.thehouse.id": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND status.thehouse.id"
       }
     },
     "A dashboard.thehouse.id": {
@@ -159,22 +668,22 @@
         "message": "queryA ENOTFOUND dashboard.thehouse.id"
       }
     },
-    "CNAME status.thehouse.id": {
+    "A console.thehouse.id": {
       "error": {
         "code": "DNS_NXDOMAIN",
-        "message": "queryCname ENOTFOUND status.thehouse.id"
+        "message": "queryA ENOTFOUND console.thehouse.id"
       }
     },
-    "CNAME console.thehouse.id": {
+    "CNAME app.thehouse.id": {
       "error": {
         "code": "DNS_NXDOMAIN",
-        "message": "queryCname ENOTFOUND console.thehouse.id"
+        "message": "queryCname ENOTFOUND app.thehouse.id"
       }
     },
-    "A docs.thehouse.id": {
+    "CNAME dashboard.thehouse.id": {
       "error": {
         "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND docs.thehouse.id"
+        "message": "queryCname ENOTFOUND dashboard.thehouse.id"
       }
     }
   },

@@ -1,24 +1,24 @@
 {
   "url": "https://ramp.com/",
-  "recordedAt": "2026-10-04T17:53:04.306Z",
+  "recordedAt": "2026-10-04T20:16:46.259Z",
   "http": {
     "GET https://ramp.com/": {
       "result": {
         "url": "https://ramp.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 17:53:04 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
           ["content-type", "text/markdown; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
-          ["cf-ray", "a4560b4269d44e4c-OSL"],
+          ["cf-ray", "a456ddc1cc4db517-OSL"],
           ["cf-cache-status", "DYNAMIC"],
           ["age", "0"],
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-encoding", "br"],
           ["content-language", "en-us"],
           ["server", "cloudflare"],
-          ["x-vercel-id", "arn1::iad1::2t98t-1791136384472-2d0c76996082"],
+          ["x-vercel-id", "arn1::iad1::ll4qf-1791145006439-58527f3fd88a"],
           ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
           ["vary", "Accept-Language, accept-encoding"],
           ["x-content-type-options", "nosniff"],
@@ -45,18 +45,25 @@
     }
   },
   "dns": {
+    "A ramp.com": {
+      "result": {
+        "name": "ramp.com",
+        "type": "A",
+        "records": ["172.64.150.34", "104.18.37.222"]
+      }
+    },
+    "NS ramp.com": {
+      "result": {
+        "name": "ramp.com",
+        "type": "NS",
+        "records": ["dawn.ns.cloudflare.com", "joel.ns.cloudflare.com"]
+      }
+    },
     "AAAA ramp.com": {
       "result": {
         "name": "ramp.com",
         "type": "AAAA",
         "records": ["2606:4700:4407::ac40:9622", "2a06:98c1:3100::6812:25de"]
-      }
-    },
-    "A ramp.com": {
-      "result": {
-        "name": "ramp.com",
-        "type": "A",
-        "records": ["104.18.37.222", "172.64.150.34"]
       }
     },
     "CNAME ramp.com": {
@@ -66,18 +73,11 @@
         "records": []
       }
     },
-    "NS ramp.com": {
+    "TXT 222.37.18.104.origin.asn.cymru.com": {
       "result": {
-        "name": "ramp.com",
-        "type": "NS",
-        "records": ["joel.ns.cloudflare.com", "dawn.ns.cloudflare.com"]
-      }
-    },
-    "TXT 34.150.64.172.origin.asn.cymru.com": {
-      "result": {
-        "name": "34.150.64.172.origin.asn.cymru.com",
+        "name": "222.37.18.104.origin.asn.cymru.com",
         "type": "TXT",
-        "records": ["13335 | 172.64.150.0/24 | US | arin | 2015-02-25"]
+        "records": ["13335 | 104.18.37.0/24 | US | arin | 2014-03-28"]
       }
     },
     "TXT as13335.asn.cymru.com": {
@@ -92,7 +92,7 @@
     "ramp.com:443": {
       "result": {
         "host": "ramp.com",
-        "ip": "172.64.150.34",
+        "ip": "104.18.37.222",
         "issuer": "C=US, O=Google Trust Services, CN=WE1",
         "subjectAltNames": ["ramp.com", "pdf.ramp.com"],
         "validFrom": "Sep 28 19:01:45 2026 GMT",

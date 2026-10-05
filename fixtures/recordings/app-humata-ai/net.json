@@ -1,6 +1,6 @@
 {
   "url": "https://app.humata.ai/",
-  "recordedAt": "2026-10-04T17:53:09.901Z",
+  "recordedAt": "2026-10-04T20:16:52.513Z",
   "http": {
     "GET https://app.humata.ai/": {
       "result": {
@@ -14,39 +14,243 @@
           ],
           [
             "content-security-policy",
-            "default-src 'self'; script-src 'self' 'nonce-oQU8xvkinPIMB0dH4jDVVQ==' 'strict-dynamic' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; connect-src 'self' https: wss:; media-src 'self' data: blob: https:; frame-src 'self' https:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https:; upgrade-insecure-requests"
+            "default-src 'self'; script-src 'self' 'nonce-B0WH8UI44JfqVOO66UG53Q==' 'strict-dynamic' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; connect-src 'self' https: wss:; media-src 'self' data: blob: https:; frame-src 'self' https:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https:; upgrade-insecure-requests"
           ],
           ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
           ["x-powered-by", "Next.js"],
-          ["etag", "\"17lyikagpqr2m9\""],
+          ["etag", "\"10iqwigv5kc2m9\""],
           ["content-type", "text/html; charset=utf-8"],
           ["vary", "Accept-Encoding"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 17:53:10 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
           ["server", "Google Frontend"],
           ["via", "1.1 google"],
           ["alt-svc", "h3=\":443\"; ma=2592000"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta charset=\"UTF-8\" data-next-head=\"\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" data-next-head=\"\">\n<link rel=\"stylesheet\" href=\"/fonts/stylesheet.css\">\n<link rel=\"icon\" href=\"/favicon.ico\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">\n<link rel=\"shortcut icon\" href=\"/favicon.ico\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">\n<meta property=\"og:image\" content=\"https://app.humata.ai/og-logo-banner.png\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"600\">\n<meta property=\"og:title\" content=\"Humata: AI meets your knowledge base\">\n<meta property=\"og:description\" content=\"Humata is an AI agent that turns your documents into a fast, intelligent knowledge base for instant analysis, insights, and answers.\">\n<meta property=\"og:image:type\" content=\"image/png\">\n<link data-next-font=\"\" rel=\"preconnect\" href=\"/\" crossorigin=\"anonymous\">\n<link nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" rel=\"preload\" href=\"/_next/static/css/0374ed014e6d1442.css\" as=\"style\">\n<link nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" rel=\"stylesheet\" href=\"/_next/static/css/0374ed014e6d1442.css\" data-n-g=\"\">\n<script defer=\"\" nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script>\n<script src=\"/_next/static/chunks/webpack-6d3ba2b371439074.js\" nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/framework-0c3bd8565bf0b876.js\" nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/main-a6be0cf89893215c.js\" nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/pages/_app-6e155927e37b253b.js\" nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/pages/index-01c7dac1feaa9095.js\" nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" defer=\"\"></script>\n<script src=\"/_next/static/Ziw4EGO2lfvslUvsHbtOO/_buildManifest.js\" nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" defer=\"\"></script>\n<script src=\"/_next/static/Ziw4EGO2lfvslUvsHbtOO/_ssgManifest.js\" nonce=\"oQU8xvkinPIMB0dH4jDVVQ==\" defer=\"\"></script>"
+        "body": "<meta charset=\"UTF-8\" data-next-head=\"\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" data-next-head=\"\">\n<link rel=\"stylesheet\" href=\"/fonts/stylesheet.css\">\n<link rel=\"icon\" href=\"/favicon.ico\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">\n<link rel=\"shortcut icon\" href=\"/favicon.ico\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">\n<meta property=\"og:image\" content=\"https://app.humata.ai/og-logo-banner.png\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"600\">\n<meta property=\"og:title\" content=\"Humata: AI meets your knowledge base\">\n<meta property=\"og:description\" content=\"Humata is an AI agent that turns your documents into a fast, intelligent knowledge base for instant analysis, insights, and answers.\">\n<meta property=\"og:image:type\" content=\"image/png\">\n<link data-next-font=\"\" rel=\"preconnect\" href=\"/\" crossorigin=\"anonymous\">\n<link nonce=\"B0WH8UI44JfqVOO66UG53Q==\" rel=\"preload\" href=\"/_next/static/css/0374ed014e6d1442.css\" as=\"style\">\n<link nonce=\"B0WH8UI44JfqVOO66UG53Q==\" rel=\"stylesheet\" href=\"/_next/static/css/0374ed014e6d1442.css\" data-n-g=\"\">\n<script defer=\"\" nonce=\"B0WH8UI44JfqVOO66UG53Q==\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script>\n<script src=\"/_next/static/chunks/webpack-6d3ba2b371439074.js\" nonce=\"B0WH8UI44JfqVOO66UG53Q==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/framework-0c3bd8565bf0b876.js\" nonce=\"B0WH8UI44JfqVOO66UG53Q==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/main-a6be0cf89893215c.js\" nonce=\"B0WH8UI44JfqVOO66UG53Q==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/pages/_app-6e155927e37b253b.js\" nonce=\"B0WH8UI44JfqVOO66UG53Q==\" defer=\"\"></script>\n<script src=\"/_next/static/chunks/pages/index-01c7dac1feaa9095.js\" nonce=\"B0WH8UI44JfqVOO66UG53Q==\" defer=\"\"></script>\n<script src=\"/_next/static/Ziw4EGO2lfvslUvsHbtOO/_buildManifest.js\" nonce=\"B0WH8UI44JfqVOO66UG53Q==\" defer=\"\"></script>\n<script src=\"/_next/static/Ziw4EGO2lfvslUvsHbtOO/_ssgManifest.js\" nonce=\"B0WH8UI44JfqVOO66UG53Q==\" defer=\"\"></script>"
+      }
+    },
+    "GET https://app.humata.ai/_next/static/chunks/polyfills-42372ed130431b0a.js": {
+      "result": {
+        "url": "https://app.humata.ai/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "status": 200,
+        "headers": [
+          ["referrer-policy", "no-referrer, strict-origin-when-cross-origin"],
+          [
+            "permissions-policy",
+            "accelerometer=(), autoplay=(self), camera=(), display-capture=(), encrypted-media=(self), fullscreen=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(self), midi=(), payment=(), picture-in-picture=(self), publickey-credentials-get=(self), screen-wake-lock=(), serial=(), usb=(), xr-spatial-tracking=(), interest-cohort=(), browsing-topics=()"
+          ],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Sat, 03 Oct 2026 12:23:33 GMT"],
+          ["etag", "W/\"1b7d2-1a101b83988\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["server", "Google Frontend"],
+          ["via", "1.1 google"],
+          ["cache-control", "public,max-age=3600,immutable"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.humata.ai/_next/static/chunks/main-a6be0cf89893215c.js": {
+      "result": {
+        "url": "https://app.humata.ai/_next/static/chunks/main-a6be0cf89893215c.js",
+        "status": 200,
+        "headers": [
+          ["referrer-policy", "no-referrer, strict-origin-when-cross-origin"],
+          [
+            "permissions-policy",
+            "accelerometer=(), autoplay=(self), camera=(), display-capture=(), encrypted-media=(self), fullscreen=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(self), midi=(), payment=(), picture-in-picture=(self), publickey-credentials-get=(self), screen-wake-lock=(), serial=(), usb=(), xr-spatial-tracking=(), interest-cohort=(), browsing-topics=()"
+          ],
+          ["accept-ranges", "bytes"],
+          ["content-encoding", "gzip"],
+          ["server", "Google Frontend"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["last-modified", "Sat, 03 Oct 2026 12:23:33 GMT"],
+          ["etag", "W/\"1ed2b-1a101b83988\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "36519"],
+          ["x-cloud-trace-context", "09a05557f581b58bd67268f14a6487c9"],
+          ["age", "0"],
+          ["cache-control", "public,max-age=3600,immutable"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.humata.ai/_next/static/chunks/framework-0c3bd8565bf0b876.js": {
+      "result": {
+        "url": "https://app.humata.ai/_next/static/chunks/framework-0c3bd8565bf0b876.js",
+        "status": 200,
+        "headers": [
+          ["referrer-policy", "no-referrer, strict-origin-when-cross-origin"],
+          [
+            "permissions-policy",
+            "accelerometer=(), autoplay=(self), camera=(), display-capture=(), encrypted-media=(self), fullscreen=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(self), midi=(), payment=(), picture-in-picture=(self), publickey-credentials-get=(self), screen-wake-lock=(), serial=(), usb=(), xr-spatial-tracking=(), interest-cohort=(), browsing-topics=()"
+          ],
+          ["accept-ranges", "bytes"],
+          ["content-encoding", "gzip"],
+          ["server", "Google Frontend"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["last-modified", "Sat, 03 Oct 2026 12:23:33 GMT"],
+          ["etag", "W/\"2224b-1a101b83988\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "44996"],
+          ["x-cloud-trace-context", "111e2062cca5990d4accedcdfd31da98"],
+          ["age", "0"],
+          ["cache-control", "public,max-age=3600,immutable"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.humata.ai/_next/static/chunks/pages/_app-6e155927e37b253b.js": {
+      "result": {
+        "url": "https://app.humata.ai/_next/static/chunks/pages/_app-6e155927e37b253b.js",
+        "status": 200,
+        "headers": [
+          ["referrer-policy", "no-referrer, strict-origin-when-cross-origin"],
+          [
+            "permissions-policy",
+            "accelerometer=(), autoplay=(self), camera=(), display-capture=(), encrypted-media=(self), fullscreen=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(self), midi=(), payment=(), picture-in-picture=(self), publickey-credentials-get=(self), screen-wake-lock=(), serial=(), usb=(), xr-spatial-tracking=(), interest-cohort=(), browsing-topics=()"
+          ],
+          ["accept-ranges", "bytes"],
+          ["content-encoding", "gzip"],
+          ["server", "Google Frontend"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["last-modified", "Sat, 03 Oct 2026 12:23:33 GMT"],
+          ["etag", "W/\"313986-1a101b83988\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["x-cloud-trace-context", "d810994b9f98c526879bab09300daabf"],
+          ["age", "0"],
+          ["cache-control", "public,max-age=3600,immutable"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://react-dnd.github.io/\"\n\"http://yandex.com/\"\n\"https://app.humata.ai/\"\n\"https://app.posthog.com/\"\n\"https://docs.humata.ai/\"\n\"https://mui.com/\"\n\"https://posthog.com/\"\n\"https://react-dnd.github.io/\"\n\"https://redux.js.org/\"\n\"https://sentry.io/\"\n\"https://supabase.humata.ai/\"\n\"https://us.i.posthog.com/\"\n\"https://us.posthog.com/\"\n\"https://www.humata.ai/\"\n\"https://www.url.com/\"\n\"https://www.youtube.com/\"\n\"https://zatca.humata.ai/\""
+      }
+    },
+    "GET https://app.humata.ai/_next/static/chunks/webpack-6d3ba2b371439074.js": {
+      "result": {
+        "url": "https://app.humata.ai/_next/static/chunks/webpack-6d3ba2b371439074.js",
+        "status": 200,
+        "headers": [
+          ["referrer-policy", "no-referrer, strict-origin-when-cross-origin"],
+          [
+            "permissions-policy",
+            "accelerometer=(), autoplay=(self), camera=(), display-capture=(), encrypted-media=(self), fullscreen=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(self), midi=(), payment=(), picture-in-picture=(self), publickey-credentials-get=(self), screen-wake-lock=(), serial=(), usb=(), xr-spatial-tracking=(), interest-cohort=(), browsing-topics=()"
+          ],
+          ["accept-ranges", "bytes"],
+          ["content-encoding", "gzip"],
+          ["server", "Google Frontend"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["last-modified", "Sat, 03 Oct 2026 12:23:33 GMT"],
+          ["etag", "W/\"1358-1a101b83988\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "2355"],
+          ["x-cloud-trace-context", "2965a9d632ee2f6a7121081f51f9c5cc"],
+          ["age", "0"],
+          ["cache-control", "public,max-age=3600,immutable"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.humata.ai/_next/static/Ziw4EGO2lfvslUvsHbtOO/_ssgManifest.js": {
+      "result": {
+        "url": "https://app.humata.ai/_next/static/Ziw4EGO2lfvslUvsHbtOO/_ssgManifest.js",
+        "status": 200,
+        "headers": [
+          ["referrer-policy", "no-referrer, strict-origin-when-cross-origin"],
+          [
+            "permissions-policy",
+            "accelerometer=(), autoplay=(self), camera=(), display-capture=(), encrypted-media=(self), fullscreen=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(self), midi=(), payment=(), picture-in-picture=(self), publickey-credentials-get=(self), screen-wake-lock=(), serial=(), usb=(), xr-spatial-tracking=(), interest-cohort=(), browsing-topics=()"
+          ],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Sat, 03 Oct 2026 12:25:16 GMT"],
+          ["etag", "W/\"50-1a101b9cbe0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["x-cloud-trace-context", "295a8697bffb4df3abe79eacb8bd2caf"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["server", "Google Frontend"],
+          ["content-length", "80"],
+          ["via", "1.1 google"],
+          ["cache-control", "public,max-age=3600,immutable"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.humata.ai/_next/static/chunks/pages/index-01c7dac1feaa9095.js": {
+      "result": {
+        "url": "https://app.humata.ai/_next/static/chunks/pages/index-01c7dac1feaa9095.js",
+        "status": 200,
+        "headers": [
+          ["referrer-policy", "no-referrer, strict-origin-when-cross-origin"],
+          [
+            "permissions-policy",
+            "accelerometer=(), autoplay=(self), camera=(), display-capture=(), encrypted-media=(self), fullscreen=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(self), midi=(), payment=(), picture-in-picture=(self), publickey-credentials-get=(self), screen-wake-lock=(), serial=(), usb=(), xr-spatial-tracking=(), interest-cohort=(), browsing-topics=()"
+          ],
+          ["accept-ranges", "bytes"],
+          ["content-encoding", "gzip"],
+          ["server", "Google Frontend"],
+          ["via", "1.1 google"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["last-modified", "Sat, 03 Oct 2026 12:23:33 GMT"],
+          ["etag", "W/\"4b8-1a101b83988\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-length", "762"],
+          ["x-cloud-trace-context", "db6b2fa0162a1de308cda09ea95c6eda"],
+          ["age", "0"],
+          ["cache-control", "public,max-age=3600,immutable"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.humata.ai/_next/static/Ziw4EGO2lfvslUvsHbtOO/_buildManifest.js": {
+      "result": {
+        "url": "https://app.humata.ai/_next/static/Ziw4EGO2lfvslUvsHbtOO/_buildManifest.js",
+        "status": 200,
+        "headers": [
+          ["referrer-policy", "no-referrer, strict-origin-when-cross-origin"],
+          [
+            "permissions-policy",
+            "accelerometer=(), autoplay=(self), camera=(), display-capture=(), encrypted-media=(self), fullscreen=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(self), midi=(), payment=(), picture-in-picture=(self), publickey-credentials-get=(self), screen-wake-lock=(), serial=(), usb=(), xr-spatial-tracking=(), interest-cohort=(), browsing-topics=()"
+          ],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Sat, 03 Oct 2026 12:23:33 GMT"],
+          ["etag", "W/\"2194-1a101b83988\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
+          ["server", "Google Frontend"],
+          ["via", "1.1 google"],
+          ["cache-control", "public,max-age=3600,immutable"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
       }
     }
   },
   "dns": {
-    "AAAA app.humata.ai": {
-      "result": {
-        "name": "app.humata.ai",
-        "type": "AAAA",
-        "records": []
-      }
-    },
-    "A app.humata.ai": {
-      "result": {
-        "name": "app.humata.ai",
-        "type": "A",
-        "records": ["8.232.96.226"]
-      }
-    },
     "CNAME app.humata.ai": {
       "result": {
         "name": "app.humata.ai",
@@ -61,15 +265,29 @@
         "records": []
       }
     },
+    "AAAA app.humata.ai": {
+      "result": {
+        "name": "app.humata.ai",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "A app.humata.ai": {
+      "result": {
+        "name": "app.humata.ai",
+        "type": "A",
+        "records": ["8.232.96.226"]
+      }
+    },
     "NS humata.ai": {
       "result": {
         "name": "humata.ai",
         "type": "NS",
         "records": [
-          "ns-cloud-c3.googledomains.com",
+          "ns-cloud-c4.googledomains.com",
           "ns-cloud-c1.googledomains.com",
           "ns-cloud-c2.googledomains.com",
-          "ns-cloud-c4.googledomains.com"
+          "ns-cloud-c3.googledomains.com"
         ]
       }
     },

@@ -55,3 +55,34 @@ rules:
     match: { regex: '\.supabase\.co\.?$' }
     weight: 0.6
     detail: CNAME to Supabase
+
+  # Found in the page's own JavaScript by the bundle layer: what a logged-out page never calls.
+  - id: bundle-project-url
+    layer: bundle
+    signal: bundle-url
+    match: { regex: '^https://[a-z0-9]{20}\.supabase\.co$' }
+    weight: 0.9
+    detail: Supabase project URL in the page's own JavaScript
+
+  - id: bundle-supabase-js
+    layer: bundle
+    signal: bundle-sdk
+    match: { regex: '^supabase-js/(\d+\.\d+\.\d+)' }
+    version: $1
+    weight: 0.9
+    detail: supabase-js bundled with the page
+
+  - id: bundle-supabase-ssr
+    layer: bundle
+    signal: bundle-sdk
+    match: { regex: '^supabase-ssr/' }
+    weight: 0.85
+    detail: "@supabase/ssr bundled with the page"
+
+  # A custom domain for the Supabase API, named after it (supabase.example.com).
+  - id: bundle-custom-domain
+    layer: bundle
+    signal: bundle-url
+    match: { regex: '^https://supabase\.[a-z0-9.-]+$' }
+    weight: 0.6
+    detail: Address named supabase in the page's own JavaScript

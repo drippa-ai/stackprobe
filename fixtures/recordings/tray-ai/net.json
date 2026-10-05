@@ -1,6 +1,6 @@
 {
   "url": "https://tray.ai/",
-  "recordedAt": "2026-10-04T17:53:05.153Z",
+  "recordedAt": "2026-10-04T20:16:47.446Z",
   "http": {
     "GET https://tray.ai/": {
       "result": {
@@ -17,9 +17,9 @@
           ],
           ["content-disposition", "inline"],
           ["content-encoding", "br"],
-          ["date", "Sun, 04 Oct 2026 17:53:05 GMT"],
-          ["etag", "W/\"033f21de853500f9e061a573142fbb05\""],
-          ["last-modified", "Fri, 02 Oct 2026 20:16:09 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
+          ["etag", "W/\"d2ed4d40a50724ded6a55c26db4a2f07\""],
+          ["last-modified", "Sun, 04 Oct 2026 18:43:41 GMT"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["server", "Vercel"],
           ["set-cookie", "geo_requires_consent=<redacted>"],
@@ -28,14 +28,147 @@
           ["x-frame-options", "DENY"],
           ["x-geo-source", "cloudfront"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::qqkqh-1791136385329-af4306ebc054"],
+          ["x-vercel-id", "arn1::fct8s-1791145007775-d0b69d5b7177"],
           ["x-cache", "Miss from cloudfront"],
-          ["via", "1.1 3dd7f27fd8eb06bb81fac5fe5f8c347e.cloudfront.net (CloudFront)"],
+          ["via", "1.1 bc14ea53ab99d5e55750688de84c2010.cloudfront.net (CloudFront)"],
           ["x-amz-cf-pop", "OSL51-P2"],
-          ["x-amz-cf-id", "uBoKz1ZgiFoonIU9SR2PQsam-0DufxCvJt0xNqLIoMFafLUi8gaIQA=="],
-          ["age", "164215"]
+          ["x-amz-cf-id", "BKIXxzbgPFvvpIv-TZqB40ModQ-L18E0CdvLcqLfWQ77fZRN19JPXw=="],
+          ["age", "5586"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"generator\" content=\"Astro v6.2.2\">\n<meta name=\"description\" content=\"Tray.ai is the AI-native enterprise iPaaS for building AI agents, governing Model Context Protocol (MCP), and integrating 700+ apps — orchestration for data…\">\n<link rel=\"canonical\" href=\"https://tray.ai/\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:title\" content=\"Tray.ai — The AI-ready integration and automation platform\">\n<meta property=\"og:description\" content=\"Tray.ai is the AI-native enterprise iPaaS for building AI agents, governing Model Context Protocol (MCP), and integrating 700+ apps — orchestration for data…\">\n<meta property=\"og:url\" content=\"https://tray.ai/\">\n<meta property=\"og:image\" content=\"https://tray.ai/images/og-default.png\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Tray.ai — The AI-ready integration and automation platform\">\n<meta name=\"twitter:description\" content=\"Tray.ai is the AI-native enterprise iPaaS for building AI agents, governing Model Context Protocol (MCP), and integrating 700+ apps — orchestration for data…\">\n<meta name=\"twitter:image\" content=\"https://tray.ai/images/og-default.png\">\n<link rel=\"preload\" href=\"/_astro/poppins-latin-400-normal.cpxAROuN.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"preload\" href=\"/_astro/poppins-latin-500-normal.C8OXljZJ.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"preload\" href=\"/_astro/poppins-latin-600-normal.zEkxB9Mr.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/icons/icon-192.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"512x512\" href=\"/icons/icon-512.png\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-icon.png\">\n<link rel=\"preload\" href=\"/_astro/playfair-display-latin-600-italic.Bvp5b4iR.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<script type=\"module\" src=\"/_astro/page.B0T0_mRX.js\"></script>\n<a href=\"#main-content\">Skip to content</a>\n<a href=\"/blog/tray-cli-sdlc-for-ai-projects/\">Read the announcement→</a>\n<a href=\"/\"></a>\n<a href=\"/connectors/\">Connectors</a>\n<a href=\"/pricing/\">Pricing</a>\n<a href=\"https://app.tray.io/\">Login</a>\n<a href=\"/contact/\">Contact sales</a>\n<a href=\"/request-trial/\">Start free trial</a>\n<script type=\"module\" src=\"/_astro/MeetingBooker.astro_astro_type_script_index_0_lang.BhYMSG8H.js?dpl=dpl_CsuNLp2xFYUSh7y4zVzvcDqFmCDy\"></script>\n<a href=\"#\">Book a meeting</a>\n<a href=\"/platform/\">Explore the platform →</a>\n<a href=\"/platform/merlin-agent-builder/\">↗ Merlin Agent Builder Build AI agents that reason, act, and learn — conversational or autonomous. N</a>\n<a href=\"/platform/agent-gateway/\">↗ Agent Gateway for MCP The MCP Gateway that pays for itself. Managed MCP Servers, any connector as </a>\n<a href=\"/platform/intelligent-ipaas/\">↗ Intelligent Integration Integrate and automate your full stack. Process automation, data integrati</a>\n<a href=\"/platform/governance-trust/\">↗ iPaaS Governance RBAC, audit trails, instrumentation, analytics, security, and compliance — baked </a>\n<a href=\"/platform/ai-development/\">↗ iPaaS Development Code or canvas. Tray Build for visual low-code. Tray Headless for Claude Code, C</a>\n<a href=\"/platform/ipaas/\">Explore Tray iPaaS →</a>\n<a href=\"https://helix.tray.ai/platform/ai-deployment/\">↗ AI Deployment One command takes an app from Claude Code, Codex, or Cursor to production on a manag</a>\n<a href=\"https://helix.tray.ai/platform/ai-visibility/\">↗ AI Visibility One live pane over every app in production: owner, connections, and activity. One pa</a>\n<a href=\"https://helix.tray.ai/platform/app-security/\">↗ App Security Enterprise SSO and identity on every app, managed auth so nothing ships with hardcode</a>\n<a href=\"https://helix.tray.ai/platform/cost-management/\">↗ Cost Management LLM, token, and compute spend attributed per app and team, with budgets and caps.</a>\n<a href=\"https://helix.tray.ai/platform/app-registry/\">↗ App Registry An internal marketplace where builders publish and people find the apps they are clea</a>\n<a href=\"https://helix.tray.ai/\">Explore Tray Helix →</a>\n<a href=\"/customers/zuora/\">Read their story</a>\n<a href=\"/platform/agent-gateway/\">See Agent Gateway</a>\n<script type=\"module\" src=\"/_astro/CustomerVideoHighlight.astro_astro_type_script_index_0_lang.8n-BNr7v.js?dpl=dpl_CsuNLp2xFYUSh7y4zVzvcDqFmCDy\"></script>\n<a href=\"/customers/\">Read the study →</a>\n<a href=\"/customers/\">Read customer stories →</a>\n<a href=\"/blog/gartner-pioneer-no-code-agent-builders-2026/\">Pioneer Emerging Market Quadrant for No-Code Agent Builders (2026)</a>\n<a href=\"/customers/awards/\">See all awards &amp; recognition →</a>\n<a href=\"/pricing/\">See pricing →</a>\n<a href=\"/platform/\">Platform</a>\n<a href=\"/platform/merlin-agent-builder/\">Merlin Agent Builder</a>\n<a href=\"/platform/agent-gateway/\">Agent Gateway for MCP</a>\n<a href=\"/platform/intelligent-ipaas/\">Intelligent Integration</a>\n<a href=\"/platform/governance-trust/\">iPaaS Governance</a>\n<a href=\"/platform/ai-development/\">iPaaS Development</a>\n<a href=\"https://helix.tray.ai/\">Tray Helix</a>\n<a href=\"/solutions/\">Solutions</a>\n<a href=\"/solutions/library/\">Solutions library</a>\n<a href=\"/solutions/by-use-case/ai-agents/\">AI agent deployment</a>\n<a href=\"/solutions/by-use-case/mcp-governance/\">MCP governance</a>\n<a href=\"/solutions/by-use-case/data-integration/\">Data integration</a>\n<a href=\"/solutions/by-use-case/process-automation/\">Process automation</a>\n<a href=\"/solutions/by-use-case/lead-routing/\">Lead routing</a>\n<a href=\"/solutions/by-use-case/it-service-desk/\">IT service desk</a>\n<a href=\"/resources/\">Resources</a>\n<a href=\"/blog/\">Blog</a>\n<a href=\"/guides/\">Guides, reports &amp; ebooks</a>\n<a href=\"/automate/\">How-to guides</a>\n<a href=\"/events/upcoming/\">Upcoming events</a>\n<a href=\"/events/on-demand/\">On-demand webinars</a>\n<a href=\"/videos/\">Videos &amp; podcasts</a>\n<a href=\"/glossary/\">Glossary</a>\n<a href=\"/compare/\">Compare alternatives</a>\n<a href=\"https://tray.ai/documentation\">Developer docs</a>\n<a href=\"/academy/\">Tray Academy</a>\n<a href=\"/community/\">Community</a>\n<a href=\"https://tray.ai/documentation/releases\">Release notes</a>\n<a href=\"/customers/\">Customers</a>\n<a href=\"/customers/\">All customer stories</a>\n<a href=\"/customers/awards/\">Awards &amp; recognition</a>\n<a href=\"/trust/\">Trust center</a>\n<a href=\"/company/about/\">About</a>\n<a href=\"/company/careers/\">Careers</a>\n<a href=\"/company/partners/\">Partners</a>\n<a href=\"/company/news/\">News</a>\n<a href=\"/legal/privacy-policy/\">Privacy</a>\n<a href=\"/legal/cookie-policy/\">Cookies</a>\n<a href=\"/legal/msa/\">MSA</a>\n<a href=\"/legal/dpa/\">DPA</a>\n<a href=\"/legal/sla/\">SLA</a>\n<a href=\"/legal/sub-processors/\">Sub-processors</a>\n<a href=\"https://status.tray.ai\">Status</a>\n<a href=\"https://www.linkedin.com/company/tray-ai\"></a>\n<a href=\"https://x.com/tray\"></a>\n<a href=\"https://www.youtube.com/@trayai\"></a>\n<a href=\"/privacy/\">Privacy policy</a>\n<script type=\"module\" src=\"/_astro/BaseLayout.astro_astro_type_script_index_0_lang.CBkGg4uX.js?dpl=dpl_CsuNLp2xFYUSh7y4zVzvcDqFmCDy\"></script>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"generator\" content=\"Astro v6.2.2\">\n<meta name=\"description\" content=\"Tray.ai is the AI-native enterprise iPaaS for building AI agents, governing Model Context Protocol (MCP), and integrating 700+ apps — orchestration for data…\">\n<link rel=\"canonical\" href=\"https://tray.ai/\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:title\" content=\"Tray.ai — The AI-ready integration and automation platform\">\n<meta property=\"og:description\" content=\"Tray.ai is the AI-native enterprise iPaaS for building AI agents, governing Model Context Protocol (MCP), and integrating 700+ apps — orchestration for data…\">\n<meta property=\"og:url\" content=\"https://tray.ai/\">\n<meta property=\"og:image\" content=\"https://tray.ai/images/og-default.png\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Tray.ai — The AI-ready integration and automation platform\">\n<meta name=\"twitter:description\" content=\"Tray.ai is the AI-native enterprise iPaaS for building AI agents, governing Model Context Protocol (MCP), and integrating 700+ apps — orchestration for data…\">\n<meta name=\"twitter:image\" content=\"https://tray.ai/images/og-default.png\">\n<link rel=\"preload\" href=\"/_astro/poppins-latin-400-normal.cpxAROuN.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"preload\" href=\"/_astro/poppins-latin-500-normal.C8OXljZJ.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"preload\" href=\"/_astro/poppins-latin-600-normal.zEkxB9Mr.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/icons/icon-192.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"512x512\" href=\"/icons/icon-512.png\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-icon.png\">\n<link rel=\"preload\" href=\"/_astro/playfair-display-latin-600-italic.Bvp5b4iR.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<script type=\"module\" src=\"/_astro/page.CHKzzP8A.js\"></script>\n<a href=\"#main-content\">Skip to content</a>\n<a href=\"/blog/tray-cli-sdlc-for-ai-projects/\">Read the announcement→</a>\n<a href=\"/\"></a>\n<a href=\"/connectors/\">Connectors</a>\n<a href=\"/pricing/\">Pricing</a>\n<a href=\"https://app.tray.io/\">Login</a>\n<a href=\"/contact/\">Contact sales</a>\n<a href=\"/request-trial/\">Start free trial</a>\n<script type=\"module\" src=\"/_astro/MeetingBooker.astro_astro_type_script_index_0_lang.BhYMSG8H.js?dpl=dpl_E6mg3H2NPtstayKM7A5VJpxR5yNo\"></script>\n<a href=\"#\">Book a meeting</a>\n<a href=\"/platform/\">Explore the platform →</a>\n<a href=\"/platform/merlin-agent-builder/\">↗ Merlin Agent Builder Build AI agents that reason, act, and learn — conversational or autonomous. N</a>\n<a href=\"/platform/agent-gateway/\">↗ Agent Gateway for MCP The MCP Gateway that pays for itself. Managed MCP Servers, any connector as </a>\n<a href=\"/platform/intelligent-ipaas/\">↗ Intelligent Integration Integrate and automate your full stack. Process automation, data integrati</a>\n<a href=\"/platform/governance-trust/\">↗ iPaaS Governance RBAC, audit trails, instrumentation, analytics, security, and compliance — baked </a>\n<a href=\"/platform/ai-development/\">↗ iPaaS Development Code or canvas. Tray Build for visual low-code. Tray Headless for Claude Code, C</a>\n<a href=\"/platform/ipaas/\">Explore Tray iPaaS →</a>\n<a href=\"https://helix.tray.ai/platform/ai-deployment/\">↗ AI Deployment One command takes an app from Claude Code, Codex, or Cursor to production on a manag</a>\n<a href=\"https://helix.tray.ai/platform/ai-visibility/\">↗ AI Visibility One live pane over every app in production: owner, connections, and activity. One pa</a>\n<a href=\"https://helix.tray.ai/platform/app-security/\">↗ App Security Enterprise SSO and identity on every app, managed auth so nothing ships with hardcode</a>\n<a href=\"https://helix.tray.ai/platform/cost-management/\">↗ Cost Management LLM, token, and compute spend attributed per app and team, with budgets and caps.</a>\n<a href=\"https://helix.tray.ai/platform/app-registry/\">↗ App Registry An internal marketplace where builders publish and people find the apps they are clea</a>\n<a href=\"https://helix.tray.ai/\">Explore Tray Helix →</a>\n<a href=\"/customers/zuora/\">Read their story</a>\n<a href=\"/platform/agent-gateway/\">See Agent Gateway</a>\n<script type=\"module\" src=\"/_astro/CustomerVideoHighlight.astro_astro_type_script_index_0_lang.C7R0b5oh.js?dpl=dpl_E6mg3H2NPtstayKM7A5VJpxR5yNo\"></script>\n<a href=\"/customers/\">Read the study →</a>\n<a href=\"/customers/\">Read customer stories →</a>\n<a href=\"/blog/gartner-pioneer-no-code-agent-builders-2026/\">Pioneer Emerging Market Quadrant for No-Code Agent Builders (2026)</a>\n<a href=\"/customers/awards/\">See all awards &amp; recognition →</a>\n<a href=\"/pricing/\">See pricing →</a>\n<a href=\"/platform/\">Platform</a>\n<a href=\"/platform/merlin-agent-builder/\">Merlin Agent Builder</a>\n<a href=\"/platform/agent-gateway/\">Agent Gateway for MCP</a>\n<a href=\"/platform/intelligent-ipaas/\">Intelligent Integration</a>\n<a href=\"/platform/governance-trust/\">iPaaS Governance</a>\n<a href=\"/platform/ai-development/\">iPaaS Development</a>\n<a href=\"https://helix.tray.ai/\">Tray Helix</a>\n<a href=\"/solutions/\">Solutions</a>\n<a href=\"/solutions/library/\">Solutions library</a>\n<a href=\"/solutions/by-use-case/ai-agents/\">AI agent deployment</a>\n<a href=\"/solutions/by-use-case/mcp-governance/\">MCP governance</a>\n<a href=\"/solutions/by-use-case/data-integration/\">Data integration</a>\n<a href=\"/solutions/by-use-case/process-automation/\">Process automation</a>\n<a href=\"/solutions/by-use-case/lead-routing/\">Lead routing</a>\n<a href=\"/solutions/by-use-case/it-service-desk/\">IT service desk</a>\n<a href=\"/resources/\">Resources</a>\n<a href=\"/blog/\">Blog</a>\n<a href=\"/guides/\">Guides, reports &amp; ebooks</a>\n<a href=\"/automate/\">How-to guides</a>\n<a href=\"/events/upcoming/\">Upcoming events</a>\n<a href=\"/events/on-demand/\">On-demand webinars</a>\n<a href=\"/videos/\">Videos &amp; podcasts</a>\n<a href=\"/glossary/\">Glossary</a>\n<a href=\"/compare/\">Compare alternatives</a>\n<a href=\"https://tray.ai/documentation\">Developer docs</a>\n<a href=\"/academy/\">Tray Academy</a>\n<a href=\"/community/\">Community</a>\n<a href=\"https://tray.ai/documentation/releases\">Release notes</a>\n<a href=\"/customers/\">Customers</a>\n<a href=\"/customers/\">All customer stories</a>\n<a href=\"/customers/awards/\">Awards &amp; recognition</a>\n<a href=\"/trust/\">Trust center</a>\n<a href=\"/company/about/\">About</a>\n<a href=\"/company/careers/\">Careers</a>\n<a href=\"/company/partners/\">Partners</a>\n<a href=\"/company/news/\">News</a>\n<a href=\"/legal/privacy-policy/\">Privacy</a>\n<a href=\"/legal/cookie-policy/\">Cookies</a>\n<a href=\"/legal/msa/\">MSA</a>\n<a href=\"/legal/dpa/\">DPA</a>\n<a href=\"/legal/sla/\">SLA</a>\n<a href=\"/legal/sub-processors/\">Sub-processors</a>\n<a href=\"https://status.tray.ai\">Status</a>\n<a href=\"https://www.linkedin.com/company/tray-ai\"></a>\n<a href=\"https://x.com/tray\"></a>\n<a href=\"https://www.youtube.com/@trayai\"></a>\n<a href=\"/legal/privacy-policy/\">Privacy policy</a>\n<script type=\"module\" src=\"/_astro/BaseLayout.astro_astro_type_script_index_0_lang.keoPEJsN.js?dpl=dpl_E6mg3H2NPtstayKM7A5VJpxR5yNo\"></script>"
+      }
+    },
+    "GET https://tray.ai/_astro/page.CHKzzP8A.js": {
+      "result": {
+        "url": "https://tray.ai/_astro/page.CHKzzP8A.js",
+        "status": 200,
+        "headers": [
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["content-disposition", "inline; filename=\"page.CHKzzP8A.js\""],
+          ["content-encoding", "br"],
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["etag", "W/\"a1b4d2cd7fd7f9f4092c0a3ce26f28e6\""],
+          ["last-modified", "Sun, 04 Oct 2026 18:43:43 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000; includeSubDomains; preload"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::jz9db-1791145008043-0eec2f6ff6a7"],
+          ["x-cache", "Miss from cloudfront"],
+          ["via", "1.1 bc14ea53ab99d5e55750688de84c2010.cloudfront.net (CloudFront)"],
+          ["x-amz-cf-pop", "OSL51-P2"],
+          ["x-amz-cf-id", "bd4vFi2y-gXwyI9xDnBwqfQnlBFKGow-PE-4ifjdC7_YUaDnjVVTLw=="],
+          ["age", "5584"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://tray.ai/_astro/CustomerVideoHighlight.astro_astro_type_script_index_0_lang.C7R0b5oh.js?dpl=dpl_E6mg3H2NPtstayKM7A5VJpxR5yNo": {
+      "result": {
+        "url": "https://tray.ai/_astro/CustomerVideoHighlight.astro_astro_type_script_index_0_lang.C7R0b5oh.js?dpl=dpl_E6mg3H2NPtstayKM7A5VJpxR5yNo",
+        "status": 200,
+        "headers": [
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["content-length", "775"],
+          ["connection", "keep-alive"],
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "content-disposition",
+            "inline; filename=\"CustomerVideoHighlight.astro_astro_type_script_index_0_lang.C7R0b5oh.js\""
+          ],
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["etag", "\"cea867af0431211a0c788cece9f57011\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:12 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000; includeSubDomains; preload"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::jz9db-1791145008077-24e706d60c88"],
+          ["x-cache", "Miss from cloudfront"],
+          ["via", "1.1 604b334f6d424720acc533b66eb5a650.cloudfront.net (CloudFront)"],
+          ["x-amz-cf-pop", "OSL51-P2"],
+          ["x-amz-cf-id", "0tad0-V-RsOVcB6dyShRqtsuhnwZdXrcXYWaUaGbAotuNOSuHO_7nw=="],
+          ["age", "1115"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://tray.ai/_astro/BaseLayout.astro_astro_type_script_index_0_lang.keoPEJsN.js?dpl=dpl_E6mg3H2NPtstayKM7A5VJpxR5yNo": {
+      "result": {
+        "url": "https://tray.ai/_astro/BaseLayout.astro_astro_type_script_index_0_lang.keoPEJsN.js?dpl=dpl_E6mg3H2NPtstayKM7A5VJpxR5yNo",
+        "status": 200,
+        "headers": [
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "content-disposition",
+            "inline; filename=\"BaseLayout.astro_astro_type_script_index_0_lang.keoPEJsN.js\""
+          ],
+          ["content-encoding", "br"],
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["etag", "W/\"eafb88a06aa14cc708e6459db8000ea1\""],
+          ["last-modified", "Sun, 04 Oct 2026 18:43:43 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000; includeSubDomains; preload"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::w2976-1791145008082-0e4f9b28f64d"],
+          ["x-cache", "Miss from cloudfront"],
+          ["via", "1.1 7e23492dd325c5f650150cc222331e78.cloudfront.net (CloudFront)"],
+          ["x-amz-cf-pop", "OSL51-P2"],
+          ["x-amz-cf-id", "y-a-uWC6WzIHBikK8aDgom6iskaacRTgh60yXC_fxZj56GU-J9lUvA=="],
+          ["age", "5584"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://tray.ai/_astro/MeetingBooker.astro_astro_type_script_index_0_lang.BhYMSG8H.js?dpl=dpl_E6mg3H2NPtstayKM7A5VJpxR5yNo": {
+      "result": {
+        "url": "https://tray.ai/_astro/MeetingBooker.astro_astro_type_script_index_0_lang.BhYMSG8H.js?dpl=dpl_E6mg3H2NPtstayKM7A5VJpxR5yNo",
+        "status": 200,
+        "headers": [
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "content-disposition",
+            "inline; filename=\"MeetingBooker.astro_astro_type_script_index_0_lang.BhYMSG8H.js\""
+          ],
+          ["content-encoding", "br"],
+          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["etag", "W/\"29cd37b5a5c6ceabe1d42a352ccc1580\""],
+          ["last-modified", "Sun, 04 Oct 2026 18:43:43 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000; includeSubDomains; preload"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9v6bk-1791145008099-58d381e69d92"],
+          ["x-cache", "Miss from cloudfront"],
+          ["via", "1.1 45c10aa42332bc1636d985b1f68e36ce.cloudfront.net (CloudFront)"],
+          ["x-amz-cf-pop", "OSL51-P2"],
+          ["x-amz-cf-id", "pCHp7anVdM-W6-KAonhGkdlTWteFp1P44tUbMp3SurkWJPag4JshEw=="],
+          ["age", "5584"]
+        ],
+        "body": ""
       }
     }
   },
@@ -47,21 +180,14 @@
         "records": []
       }
     },
-    "A tray.ai": {
-      "result": {
-        "name": "tray.ai",
-        "type": "A",
-        "records": ["13.32.28.78", "13.32.28.34", "13.32.28.38", "13.32.28.112"]
-      }
-    },
     "NS tray.ai": {
       "result": {
         "name": "tray.ai",
         "type": "NS",
         "records": [
           "ns-47.awsdns-05.com",
-          "ns-1159.awsdns-16.org",
           "ns-1002.awsdns-61.net",
+          "ns-1159.awsdns-16.org",
           "ns-1653.awsdns-14.co.uk"
         ]
       }
@@ -71,6 +197,13 @@
         "name": "tray.ai",
         "type": "AAAA",
         "records": []
+      }
+    },
+    "A tray.ai": {
+      "result": {
+        "name": "tray.ai",
+        "type": "A",
+        "records": ["13.32.28.34", "13.32.28.112", "13.32.28.78", "13.32.28.38"]
       }
     },
     "TXT 34.28.32.13.origin.asn.cymru.com": {

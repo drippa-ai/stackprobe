@@ -1,13 +1,13 @@
 {
   "url": "https://app.ayrshare.com/",
-  "recordedAt": "2026-10-04T17:53:10.509Z",
+  "recordedAt": "2026-10-04T20:16:53.529Z",
   "http": {
     "GET https://app.ayrshare.com/": {
       "result": {
         "url": "https://app.ayrshare.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 17:53:10 GMT"],
+          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -15,7 +15,7 @@
           ["speculation-rules", "\"/cdn-cgi/speculation\""],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=EhImb7SvgfLHTFpg61BjAPfwlTJ%2By4IKmVlTF375c5VTcgFFRVwDeVp7%2BPUTVnKRmP%2FE3pTv6bVhya47UIfTfWr7HIbmwoTNfbSWhFmPJGnzIH2UKqMtkwspGsPjR%2BfUunw%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=O5D8Nlt5uGljKE4SuwpnHaV6y25oAOht8OhqU5BOXb6%2BF3poAOYU8YFT1%2BnL1r4qFjsmO5yAmQbeegfPZQhNeTVu0ulGtuJB4iHyoEGkpmjuB2TsOr8DU%2FTs5xGnkuLkmug%3D\"}]}"
           ],
           ["last-modified", "Fri, 02 Oct 2026 16:28:21 GMT"],
           ["strict-transport-security", "max-age=31536000; includeSubDomains"],
@@ -23,42 +23,1013 @@
           ["x-frame-options", "SAMEORIGIN"],
           ["x-xss-protection", "1; mode=block"],
           ["server-timing", "cfCacheStatus;desc=\"DYNAMIC\""],
-          ["server-timing", "cfEdge;dur=39,cfOrigin;dur=35"],
-          ["x-served-by", "cache-bma-essb1270020-BMA"],
+          ["server-timing", "cfEdge;dur=51,cfOrigin;dur=28"],
+          ["x-served-by", "cache-bma-essb1270024-BMA"],
           ["x-cache", "HIT"],
           ["x-cache-hits", "0"],
-          ["x-timer", "S1791136391.692075,VS0,VE3"],
+          ["x-timer", "S1791145014.739420,VS0,VE1"],
           ["vary", "x-fh-requested-host, accept-encoding"],
           ["cf-cache-status", "DYNAMIC"],
           ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
           ["content-encoding", "br"],
           ["server", "cloudflare"],
-          ["cf-ray", "a4560b69685856cb-OSL"]
+          ["cf-ray", "a456ddef6ae25696-OSL"]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preload\" href=\"/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/media/c825fd02acae0153-s.p.1q3-y3vmyf3p6.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/3j_oe1hpzneix.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/3whblwp65mfbj.js\">\n<script src=\"/_next/static/chunks/1ver93wp6g6fn.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1havn6tn5y3f3.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0_yl-0ndn2dug.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/04dhk6r345-e5.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-22ccywoolswdg.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/16715nxz6ddcm.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/30vg0u6c2w5dc.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1ggbayewp1sck.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/06gnzqbap7id_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1qy34a0bhj7-c.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/05g964k-9ztmw.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2lemjrgodcdzl.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2jo8bj3jkhn8y.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2_4otq-940jdc.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3v5u2ufj_h39-.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3d5tca51boszp.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/13zirg5pxl6zy.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0--rfylb-_5tg.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/20soeyw30fqce.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2gnzs_aj_6b_y.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3irgqij6wi8ri.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/38yt8txw62r8y.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1o4y8ia-esgov.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/217lao5xekzy9.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3a7ztx8kjl8sb.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://www.googletagmanager.com/gtag/js?id=AW-601557651\" as=\"script\">\n<link rel=\"icon\" href=\"/icon.svg?icon.1lhaw_u4pxj6e.svg\" sizes=\"any\" type=\"image/svg+xml\">\n<link rel=\"icon\" href=\"/icon.png?icon.182ter_0qya74.png\" sizes=\"512x512\" type=\"image/png\">\n<link rel=\"apple-touch-icon\" href=\"/apple-icon.png?apple-icon.1vaarn7vbss-_.png\" sizes=\"512x512\" type=\"image/png\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"darkreader-lock\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/chunks/3whblwp65mfbj.js\" id=\"_R_\" async=\"\"></script>\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495\" integrity=\"sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;d6368da7d36a4f15870b7239077805b4&quot;,&quot;spa&quot;:2}\" crossorigin=\"anonymous\"></script>"
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/1ver93wp6g6fn.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/1ver93wp6g6fn.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=2T1pebjIoUfHT2d09wiNwgT2z8nRobPXbRYSfyJmd8T7DckIw4IpqwQKKQWvTErW1fWql%2Bue9Yl%2Fp8pyKv8s%2BQQ7vQ997gE4Dp%2F1nMkBGIjBIpiqTrV9mwycFuNe2AZUVi0%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 15:24:18 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"1c38eb559323899f22117a1348a0d4b88b3c77e8002f4313b022e093ea8940de\""],
+          ["x-served-by", "cache-den-kden1300057-DEN"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790695585.738516,VS0,VE153"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "449429"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf15cde5696-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/30vg0u6c2w5dc.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/30vg0u6c2w5dc.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ACr1Che%2BKBXC9YS7LTl8kXGSbLTOgqo3K17WphKIewp989XusHTfFW82MLnRoiUl8jQO4CD2rxtEoSxODThO4%2BSmZU95v6iu9pdzqj4vQgOCUW0DwDnZ5vNJG22mrid%2Bt6Q%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 15:24:18 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"45b508db4fd796f83dc9332232a9a693aa6fdfa07d657168e5b6f7f5bdf48cf0\""],
+          ["x-served-by", "cache-bfi-krnt7300052-BFI"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790695583.346700,VS0,VE181"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "449431"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf64acac272-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/06gnzqbap7id_.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/06gnzqbap7id_.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=CFUa5RNP9H%2B3pI86ReWkdqnUiPGGg0FiVxEs6ftTAcJ7EVpGWEGNAcT4c5pRredMNTDUPuORPZj9Q6%2F%2FofYuziHIU65I0PXY%2FaNe0pf5CxuLtmDFXdULLvTbSqLILdWfx3c%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 02 Oct 2026 16:28:21 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"7e1c04594bdfc4653f4f85e914195ec89125f51a2dc32bc308f75af027094340\""],
+          ["x-served-by", "cache-iad-kiad7000092-IAD"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790958781.248447,VS0,VE241"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "186233"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf64dcdb51b-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/0_yl-0ndn2dug.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/0_yl-0ndn2dug.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=covLvs8a1fWxMwqq9B4A2tBkr11qVH%2BvyD0uIWx8DB8bgHzm02qqTgRiqO43Rmjg2Ip%2BExXQResuvPmGqWxcpb8mkRq3kfXszw7TsWWJLw3GdQ0LQx2ylkjjtCco2JISsgI%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 15:24:18 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"5e987f9cd563c6eb4a160a4434b5ae27cba43bcbf32ab49e5eda01012f8fe191\""],
+          ["x-served-by", "cache-den-kden1300080-DEN"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790695585.570887,VS0,VE168"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "449430"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf63f0f5ebd-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/2_4otq-940jdc.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/2_4otq-940jdc.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=FnALErapd7jDDMIji7tDnzTDTprY9W2vehi1hykiHyBoD3AitiWYHIFza8FZONTOq2U%2FxjA0C4UOYx1yNowbrbN0GnwBR0cDk1Wysu6hf%2FpGPuW%2FGJCx9HfHkAD%2FRF3mwBg%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 15:24:18 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"06877850db8e7d45af36fbe56364c0356559ab378205590b7efadcca3494d70d\""],
+          ["x-served-by", "cache-sjc10077-SJC"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790695583.337488,VS0,VE196"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "449431"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf65f333181-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/0--rfylb-_5tg.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/0--rfylb-_5tg.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2B0CyYFxVU37ESbiRrnAqW2GEy4B%2BE64BfLjMFN7X6HzExHWaeIsXe1XrYq30hvCcpaLLC8EgcQFSz8HzFNq5MqKsb0QAcLKow4zUkHkdyez6jZPWhwIY3sHCgk87HPgEbbw%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 02 Oct 2026 16:28:21 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"858adbd76bb82cca780a83be409a8404933f5023b7887a2fe8aa9e9d39dd9c05\""],
+          ["x-served-by", "cache-lga-kjfk8660078-LGA"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790958781.275759,VS0,VE113"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "186233"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf66a790daa-OSL"]
+        ],
+        "body": "\"https://www.ayrshare.com/\""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/3d5tca51boszp.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/3d5tca51boszp.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=VlgER55F8sRSYbmTViRLWSRA1I0A3D90zy%2FPAkxTd%2FQr0i9C0cIyZmthX%2BZJYcZycCw9rlGubWLzXkrXFtkBrMunNe16HLuAq4uc%2BwGWIN5a%2BvQS%2FoTOGpX6hRR91tdIHLY%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 15:24:18 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"adbac5f07ca15e7e6be58ef33413ed1b8b1bb1eb9748705cb10715ba0b92527b\""],
+          ["x-served-by", "cache-bfi-krnt7300095-BFI"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790695583.343288,VS0,VE202"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "449431"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf65d224e4c-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/1havn6tn5y3f3.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/1havn6tn5y3f3.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=SNgI9UUcHKWAnmvIMotCakPVYR7cLjy4gFhtMvtS32iQLf3dW7EoTTVfkXNTMUY888cvdvm%2B%2B3GUOI6DfTFRfSSnN6Qd3ENsone8%2Bp926jem%2BV75yKkid53MCFTGDy%2F%2B1Ko%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 15:24:18 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"ebecff7cd3e7e251e33b412d5194572800c52a5adf72ed3cacf4360ed2055cd6\""],
+          ["x-served-by", "cache-dfw-kdfw8210072-DFW"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790695585.556307,VS0,VE263"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "449429"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf64c825693-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/turbopack-22ccywoolswdg.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/turbopack-22ccywoolswdg.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Jzv%2F22RgWX2It4Yx9Va1cTmkiQ6nDMZfJccmRTxLrD2ZyN0RCm7wJn0v5wVtFLGjcFrxEleEt4Vdr%2FZW%2BoCJUpc5bjwvjNJTDq76C49gifgGxo8nNuSdxApJeOQ%2BIBvUjoc%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 15:24:18 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"8ec2daadd2cb15552359e20e88860cabc615dcc713fefdf16a30997771731f7e\""],
+          ["x-served-by", "cache-den-kden1300027-DEN"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790695585.942596,VS0,VE175"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "449429"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf64bea56be-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/2gnzs_aj_6b_y.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/2gnzs_aj_6b_y.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=pZG2aJSRfi%2BwUmhQlDjX9cZydBJAEltmaBDou3lhIxC3%2BrNQo1iPdjHkq1thrfMHLnpem9G1jYgvvt7902Q2CYui9tB9z7fdtpZDS2Njk5kmKnTSYdfs0SEHPfDoWJgHM6w%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 15:24:18 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"be3114da397743a48f22f7bb88fc0e520154bca39fbc81c8d86f5aead7aac851\""],
+          ["x-served-by", "cache-bfi-krnt7300060-BFI"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790695583.376790,VS0,VE212"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "449431"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf66c64569b-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/1o4y8ia-esgov.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/1o4y8ia-esgov.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ZBl44h86Lrc0v%2BVbaBelnwIv17GoqBGDs68BnsmR17myOTvsLwsl%2FX7Vg3oR64qqQcBGmUZD22UKPr9OGcTeiBfSurm4YwCw6UakairFNyjGIOgvJn9Rqp9QSyjeSzDIafY%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 15:24:18 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"ddad54cc264338ccea0aeacf0a71b435316b7eeb476599e09ef8ad93ba83747c\""],
+          ["x-served-by", "cache-dfw-kdfw8210022-DFW"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790695583.406693,VS0,VE171"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "449431"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf66bf88deb-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/3whblwp65mfbj.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/3whblwp65mfbj.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=nNPckY%2FUM0Oyntg2v2al646mUW7FKk4REUwK0MUY4wKAdTfNQ2xDBPNcmRXPd8gjBEzwG4rvw9IB5W2f5mtnsRkR7q29zqo8B3A%2BlfnsV1oGVr9GEvrwm%2F4OfCDOlRTsxKM%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 15:24:18 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"da05af29aadf781a714f7ba74e84a186abb2e3bf9d82fc3a8f92e19ee4b4752d\""],
+          ["x-served-by", "cache-lax-kwhp1940051-LAX"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790695585.657399,VS0,VE295"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "449429"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf67c75569b-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/13zirg5pxl6zy.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/13zirg5pxl6zy.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=DaGWMvCYOUzRsSvyCAef5DpoTh%2FY%2B9SsL1iBYY4TryOfFW43RflmshVCxbHWUtO7xMEiVUcdLpapaFMph0v3KIK8WWV5YJH9WTxRxEIeAk1N42Ujk1pf0Hpa53VclQfdZXk%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 02 Oct 2026 16:28:21 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"94f6fc23425dd1335ff177b0274fcd3393d91d0f09a97fd0348cc36e40124fad\""],
+          ["x-served-by", "cache-iad-kiad7000081-IAD"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790958783.994176,VS0,VE143"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "186231"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf66da956b4-OSL"]
+        ],
+        "body": "\"https://www.linkedin.com/\""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/1qy34a0bhj7-c.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/1qy34a0bhj7-c.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=rk4YUZVybRHSFpJlHBxRynuxw4dqE53P9eYGD%2FcCSHM4T%2BMc4Y1GrWwuFDZx7THGAfQX%2FBRBdSs31Lp9ghUXfaz5blEIh0CkCMUQW5Ju%2B6EIdX2Efh37Tt4uM%2BAeuJeoXRA%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 15:24:18 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"24b123b1a8929473f41d25bf7a06a1705326d147bcb82ed86c81f492d4fa95b6\""],
+          ["x-served-by", "cache-sjc1000112-SJC"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790695583.369636,VS0,VE221"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "449431"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf65dcc0afa-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/3v5u2ufj_h39-.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/3v5u2ufj_h39-.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=sWICJV%2BHiRyH0JBDyNT0N3ZX7Mi%2BXEuF4EuqFcV3gmfpM3D4qXHdUrHh9n%2FDd5QWx6cjX%2BI9UVz0T4XM5CrcrKsb8wihookcPZPlT9xqwRiDRLWsl%2FTRmviz95DewIqDMBU%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 15:24:18 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"159d3565c9319d42646285a1e7b6bf2617b16944e4a7e9b9fb02d0313ec7a32e\""],
+          ["x-served-by", "cache-bur-kbur8200022-BUR"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790695583.344739,VS0,VE248"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "449431"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf65802b500-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/2jo8bj3jkhn8y.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/2jo8bj3jkhn8y.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=jtVVrP1XhnsA93pk1l5%2FNAGdqqS31lCFy9vjdC5d%2FVmVAL%2Bz7thCJ97Eby%2BdTTUkp3hyqsFeSfkcMzwqnTzBQ60mafyefNZmjfeJeS0Ai3mSq02jC0b6RaCLKC1i%2F9K96Y8%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 15:24:18 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"2f2a5e2db12dabadb9d86ca75ce5f4adea5fc4c2d5e9f3f09142c14385c4b98d\""],
+          ["x-served-by", "cache-dfw-kdfw8210035-DFW"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790695583.372510,VS0,VE173"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "449431"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf66fb1dfec-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/1ggbayewp1sck.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/1ggbayewp1sck.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=JjeAfH06UsYvxmNYT5HdoIhzwS6z9v%2Fqhzk6T6JO4Ya6A1%2Fl86PPZjCFsXqX8jTQ3D7%2FNO%2BG1%2BSzjxAu9LGopzFvNulMf3KL6lgjh1C6i3QtK6ZawJ5oktafqX%2BYa0RS3vE%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 15:24:18 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"7bc6b2028a060d96783e37cd71662843f1f064ebf61eed3c9bc40335b7a262ea\""],
+          ["x-served-by", "cache-bfi-krnt7300078-BFI"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790695583.365129,VS0,VE179"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "449431"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf658150b51-OSL"]
+        ],
+        "body": "\"https://api-iam.eu.intercom.io/\"\n\"https://api-iam.intercom.io/\"\n\"https://widget.eu.intercom.io/\"\n\"https://widget.intercom.io/\""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/04dhk6r345-e5.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/04dhk6r345-e5.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=X7QOHJ26kUKoEtu1bWMWRgO%2FCzNoSSnZyTzl0q1O5AlI1jykzQPZTJN3wv2HQAR70uVLhfQ9ZclyFQYD%2FpKoMRRflgHOAY%2B1mwjg8lbBwGyxOaK32wFkLBevzD1xDFFWUmU%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 15:24:18 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"c36e656d9bc95c7c23baa3b8256f51a18ece57298854d1d5a58014e8fcf305e1\""],
+          ["x-served-by", "cache-lax-kwhp1940035-LAX"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790695585.999797,VS0,VE223"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "449429"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf6481b56c9-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/2lemjrgodcdzl.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/2lemjrgodcdzl.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=2AYt2izeuUYB%2FuvyVkOvtv8OWSo7LPeMuB6Wf1HTFDvyZr14RXIonPGQgcfTNSqhFfK9pxlGu9LzJm1SkzWlKTgDDNtX%2F0ft5a8KAZuZFtSpa%2BHLa0Z2tfhuaX08e87B5Ms%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 02 Oct 2026 16:28:21 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"ae33cae063463b1015d0cec9f51a6d230307452b66efedc311f52acc8e5b9ead\""],
+          ["x-served-by", "cache-lga-kjfk8660033-LGA"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790958781.298100,VS0,VE170"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "186233"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf65c57569b-OSL"]
+        ],
+        "body": "\"https://nuqs.dev/\""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/05g964k-9ztmw.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/05g964k-9ztmw.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=vkTxEH3myt4jdKviW497CyJTJWhAdJ6JY0ym5D6%2F%2FF%2Fac20Ni3jl8jwcKHseIBZNNza601TB4NGdOt7cXlVpoB0z1s%2FQXOMvTsSuF9L2d%2F1PDgT55KnG96PxkC0wRypv9uk%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 15:24:18 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"b05161f0634a292387aaeb247d32327f738accff6f0e8e38941092e7e4b77ee7\""],
+          ["x-served-by", "cache-bur-kbur8200084-BUR"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790695583.322507,VS0,VE290"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "449431"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf66bb3568f-OSL"]
+        ],
+        "body": "\"https://mui.com/\""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/16715nxz6ddcm.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/16715nxz6ddcm.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Bd7nxnufhocasL%2BSG%2BP%2FQsCljgk44eBollJJEo7gZPmvXU1O96Iie4kaMK%2BycdDllUy4aNOxaN%2B69lY77f0Amyeuhi0maUMoxi%2FuE4SmnqwH%2BfIH1rnVKb4hZWMs%2FiItcmc%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 02 Oct 2026 16:28:21 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"91ca8bd20a087992bff146ff59866a6123bed873792f73a120ef4dcd0dc72140\""],
+          ["x-served-by", "cache-iad-kiad7000211-IAD"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790958781.333214,VS0,VE156"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "186233"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf6595956bb-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/20soeyw30fqce.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/20soeyw30fqce.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ZI3vm7pWJcfMQwDz2c5jQ7c64oEUN8fzIES1gdeAOTSgfMrBsv3nuQKVS3oARluSdiO5Ln%2B69es8P%2FUCuOhjzOtEZb%2BD4pQvQs2M1WwPsmYiiOaixeot7d6zCJcrjhCHaqo%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 02 Oct 2026 16:28:21 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"b33174d0bacf6fa6c7d80cb43924ee025ee7c2eb1523a312a669179644c8b778\""],
+          ["x-served-by", "cache-iad-kiad7000206-IAD"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790958781.242114,VS0,VE159"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "186233"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf66b1956c0-OSL"]
+        ],
+        "body": "\"https://www.ayrshare.com/\""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/38yt8txw62r8y.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/38yt8txw62r8y.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=G6RkpsS0uzLOc9gAvO2U6QAOG4vhcfq2Q3I74gFQvdv59ngArFjA%2BEPLcMvr9Nd3Nkb7RUkM6TtJEEe5m0TIQ3NUhnBUp8ANpTsTDP607btRwUWQpzW3ihLwQCsZCleLdf8%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 02 Oct 2026 16:28:21 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"26c1ca1c564ba5281f29db990eda729d5309e7a4477219c26a84f885f6e50c2f\""],
+          ["x-served-by", "cache-iad-kiad7000125-IAD"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790958781.207327,VS0,VE170"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "186233"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf66ef40b61-OSL"]
+        ],
+        "body": "\"https://api.ipify.org/\"\n\"https://www.ayrshare.com/\""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/3a7ztx8kjl8sb.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/3a7ztx8kjl8sb.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Zhme6nmrZm5fX9aNvbzsFaTedh%2Btb6%2BgHoc8pLg16JJGuQw7Atwf3OpJwNIgmR%2FxyAkUPzfjU7taGfL%2Blw%2FesVXW7CO2Q%2BDGkgl3ZjboucyDzLVU4D81YuO5tJYIpFMX7xk%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 02 Oct 2026 16:28:21 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"c2a49ece6e0db20e8d9330aaf00493a9821e88965cf03d8e52f9588d995816d5\""],
+          ["x-served-by", "cache-iad-kiad7000117-IAD"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790958781.225219,VS0,VE184"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "186233"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf67c95b4f4-OSL"]
+        ],
+        "body": "\"https://www.ayrshare.com/\""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/0cz1d0mv5g_q7.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/0cz1d0mv5g_q7.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=jMPraHf4JQEe2GQBd0SxuzqSGoUXhF%2BfS1lHFoJ61W90IcnRobGck8aEDT0%2Be6TNvuH4kkmVQclYIikaKbVaxw2%2BtGioP8sl%2BR1nP9%2FdXL0HNmtXug5ruff7Ee8nZ52LCS4%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 07 Aug 2026 17:02:52 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"67dee1c02c6a6700d63b5c1898cf2df618101a68a395db469192763d24925a23\""],
+          ["x-served-by", "cache-lga21950-LGA"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1786123993.477617,VS0,VE77"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf66f50c759-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/3irgqij6wi8ri.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/3irgqij6wi8ri.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=0Vx6ULARHgIHBmJReZiXLJGb1u%2FN479LY%2FRWv3ceQ5n3elbSJ5nVj5PEJni88ILAXLOZqn7ojnJn9SufEw8SCqMRnAzadNeKIOk31FgESUDbqzKewYVbTti%2BZhB3Yl9oZK0%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 15:24:18 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"068d78090e9335ac070098822641cca1d41454be04446b7a476968acd8e76621\""],
+          ["x-served-by", "cache-sjc10030-SJC"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790695583.376463,VS0,VE191"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "449431"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf66a01569c-OSL"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.ayrshare.com/_next/static/chunks/217lao5xekzy9.js": {
+      "result": {
+        "url": "https://app.ayrshare.com/_next/static/chunks/217lao5xekzy9.js",
+        "status": 200,
+        "headers": [
+          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=vKCyEbm8R%2FdVCcuULRpLCfPqAcC0BSLS%2F%2BBvjiIdWRxdsJU0b%2F0rsFBeAL83tBFvA74jq1HOJ4VjuxmEA%2BWvNV9jG3tw5MAYx52PCUPNloGxX0xi%2FOIG1nL12hikOMrqs7M%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 15:24:18 GMT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-xss-protection", "1; mode=block"],
+          ["etag", "W/\"acfa19b162fe8cf9247b7976c0d5aa42fa0f6665dbfbde74a9b1dba5ba9768df\""],
+          ["x-served-by", "cache-bur-kbur8200090-BUR"],
+          ["x-cache", "MISS"],
+          ["x-cache-hits", "0"],
+          ["x-timer", "S1790695584.814265,VS0,VE245"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["age", "449430"],
+          ["cf-cache-status", "HIT"],
+          ["speculation-rules", "\"/cdn-cgi/speculation\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a456ddf66fc97130-OSL"]
+        ],
+        "body": ""
       }
     }
   },
   "dns": {
-    "NS app.ayrshare.com": {
-      "result": {
-        "name": "app.ayrshare.com",
-        "type": "NS",
-        "records": []
-      }
-    },
     "AAAA app.ayrshare.com": {
       "result": {
         "name": "app.ayrshare.com",
         "type": "AAAA",
-        "records": ["2606:4700:3108::ac42:286d", "2606:4700:3108::ac42:2b93"]
+        "records": ["2606:4700:3108::ac42:2b93", "2606:4700:3108::ac42:286d"]
       }
     },
     "A app.ayrshare.com": {
       "result": {
         "name": "app.ayrshare.com",
         "type": "A",
-        "records": ["172.66.40.109", "172.66.43.147"]
+        "records": ["172.66.43.147", "172.66.40.109"]
+      }
+    },
+    "NS app.ayrshare.com": {
+      "result": {
+        "name": "app.ayrshare.com",
+        "type": "NS",
+        "records": []
       }
     },
     "CNAME app.ayrshare.com": {
@@ -75,9 +1046,9 @@
         "records": ["mona.ns.cloudflare.com", "donovan.ns.cloudflare.com"]
       }
     },
-    "TXT 109.40.66.172.origin.asn.cymru.com": {
+    "TXT 147.43.66.172.origin.asn.cymru.com": {
       "result": {
-        "name": "109.40.66.172.origin.asn.cymru.com",
+        "name": "147.43.66.172.origin.asn.cymru.com",
         "type": "TXT",
         "records": ["13335 | 172.66.40.0/21 | US | arin | 2015-02-25"]
       }
@@ -94,7 +1065,7 @@
     "app.ayrshare.com:443": {
       "result": {
         "host": "app.ayrshare.com",
-        "ip": "172.66.40.109",
+        "ip": "172.66.43.147",
         "issuer": "C=US, O=Google Trust Services, CN=WE1",
         "subjectAltNames": ["ayrshare.com", "*.ayrshare.com"],
         "validFrom": "Sep  4 19:02:39 2026 GMT",
