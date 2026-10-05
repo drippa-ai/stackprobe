@@ -147,6 +147,17 @@ export async function classifySurfaces(
   await Promise.all(
     surfaces.map(async ({ target, results }) => {
       const signals = results.flatMap((result) => result.signals);
+      // An error page (403, 404, 500…) says nothing about what the surface is.
+      const status = Number(signals.find((s) => s.kind === 'http-status')?.value);
+      if (status >= 400) {
+        out[target.id] = {
+          kind: 'unclassified',
+          confidence: null,
+          reasons: [`page answers ${status}`],
+          decidedBy: 'none',
+        };
+        return;
+      }
       const detections = detect(signals, fingerprints);
       const rules = classifyByRules(ruleVotes(target, signals, detections));
       if ((rules.confidence ?? 0) >= RULES_SETTLE || !options.decider) {
@@ -239,19 +250,74 @@ export function surfaceState(target: SurfaceTarget, signals: Signal[], detection
   };
 }
 
-// The report's surfaces grouped for display: the product first, then marketing, then the rest.
-export function surfacesByRole(report: Report): {
+export interface Folded {
+  surface: Surface;
+  // 'redirect': it sends visitors into the surface it's folded into. 'same-app': another page of
+  // the same product app (same host), e.g. /signup next to /login.
+  reason: 'redirect' | 'same-app';
+}
+
+export interface SurfaceRoles {
+  // One surface per product app, most certain first.
   product: Surface[];
   marketing: Surface[];
   other: Surface[];
-} {
+  // Surfaces shown as part of another one, by the id of the surface they're folded into.
+  folded: Record<string, Folded[]>;
+}
+
+const siteHost = (url: string) => new URL(url).hostname.replace(/^www\./, '');
+
+// The report's surfaces grouped for display: the product first, then marketing, then the rest.
+// A surface that redirects to another surface's host is folded into it (a sign-in link into
+// the app), and product-app pages on one host are one app.
+export function surfacesByRole(report: Report): SurfaceRoles {
   const byConfidence = (a: Surface, b: Surface) =>
     (b.kindConfidence ?? 0) - (a.kindConfidence ?? 0);
-  return {
-    product: report.surfaces.filter((s) => s.kind === 'app').sort(byConfidence),
-    marketing: report.surfaces.filter((s) => s.kind === 'marketing').sort(byConfidence),
-    other: report.surfaces.filter((s) => s.kind !== 'app' && s.kind !== 'marketing'),
+  const folded: Record<string, Folded[]> = {};
+  const fold = (into: Surface, entry: Folded) => {
+    folded[into.id] ??= [];
+    folded[into.id]?.push(entry);
   };
+
+  const shown: Surface[] = [];
+  for (const surface of report.surfaces) {
+    const into =
+      surface.redirectsTo &&
+      report.surfaces.find(
+        (other) =>
+          other !== surface &&
+          !other.redirectsTo &&
+          siteHost(other.url) === siteHost(surface.redirectsTo as string),
+      );
+    if (into) fold(into, { surface, reason: 'redirect' });
+    else shown.push(surface);
+  }
+
+  const apps = shown.filter((s) => s.kind === 'app').sort(byConfidence);
+  const product: Surface[] = [];
+  for (const app of apps) {
+    const lead = product.find((p) => siteHost(p.url) === siteHost(app.url));
+    if (lead) fold(lead, { surface: app, reason: 'same-app' });
+    else product.push(app);
+  }
+  return {
+    product,
+    marketing: shown.filter((s) => s.kind === 'marketing').sort(byConfidence),
+    other: shown.filter((s) => s.kind !== 'app' && s.kind !== 'marketing'),
+    folded,
+  };
+}
+
+// A surface's detections together with those of the surfaces folded into it, so nothing found
+// on a sign-up page or a doorway goes missing. The most certain finding of each technology wins.
+export function detectionsWithFolded(surface: Surface, folded: Folded[] = []): Detection[] {
+  const best = new Map<string, Detection>();
+  for (const detection of [surface, ...folded.map((f) => f.surface)].flatMap((s) => s.detections)) {
+    const current = best.get(detection.tech);
+    if (!current || detection.confidence > current.confidence) best.set(detection.tech, detection);
+  }
+  return [...best.values()].sort((a, b) => b.confidence - a.confidence);
 }
 
 function round(value: number): number {

@@ -2,6 +2,8 @@ import type { Net } from './net.ts';
 import type { LayerErrorCode, LayerId, SurfaceFoundBy, SurfaceKind } from './report.ts';
 
 export const SIGNAL_KINDS = [
+  // The HTTP status of the page's final response, e.g. '200', '404'.
+  'http-status',
   'header',
   'cookie-name',
   'meta',

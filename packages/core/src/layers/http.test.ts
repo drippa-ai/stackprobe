@@ -52,6 +52,7 @@ describe('responseSignals', () => {
       ),
     );
     expect(signals.map(({ source, ...s }) => s)).toEqual([
+      { layer: 'http', kind: 'http-status', value: '200' },
       { layer: 'http', kind: 'header', key: 'server', value: 'Vercel' },
       { layer: 'http', kind: 'cookie-name', value: 'sb-abc-auth-token' },
       { layer: 'http', kind: 'header', key: 'content-type', value: 'text/html; charset=utf-8' },
@@ -103,7 +104,7 @@ describe('responseSignals', () => {
     const signals = responseSignals(
       page('https://acme.test/', [['content-type', 'application/json']], '<script src="/x.js">'),
     );
-    expect(signals.map((s) => s.kind)).toEqual(['header']);
+    expect(signals.map((s) => s.kind)).toEqual(['http-status', 'header']);
   });
 });
 
@@ -142,6 +143,7 @@ describe('httpLayer', () => {
       'https://www.acme.test/en',
     ]);
     expect(result.signals).toEqual([
+      { layer: 'http', kind: 'http-status', value: '200', source: 'https://www.acme.test/en' },
       {
         layer: 'http',
         kind: 'header',

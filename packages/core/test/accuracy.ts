@@ -1,4 +1,5 @@
 import { existsSync } from 'node:fs';
+import { surfacesByRole } from '../src/classify.ts';
 import { builtinFingerprints, FINGERPRINTS_VERSION } from '../src/fingerprints/index.ts';
 import { scan } from '../src/scan.ts';
 import { surfaceTarget } from '../src/surface.ts';
@@ -60,7 +61,7 @@ export interface Accuracy {
 // Whether scanning a company's homepage finds the product app the ground truth names.
 export interface Discovery {
   // What classification called the surface that matched the app: rules only, and with the model.
-  found: { app: string; via: string; kind: string; kindWithModel: string }[];
+  found: { app: string; via: string; kind: string; kindWithModel: string; products: string[] }[];
   // With the surfaces the scan did find, to show what it saw instead.
   missed: { app: string; surfaces: string[] }[];
   notRecorded: string[];
@@ -105,6 +106,8 @@ export async function measureDiscovery(
         via,
         kind: match.kind,
         kindWithModel: matchWithModel?.kind ?? 'unclassified',
+        // What the report shows as the product, after folding doorways and same-app pages.
+        products: surfacesByRole(report).product.map((s) => s.url),
       });
     } else {
       discovery.missed.push({ app: row.surfaceUrl, surfaces: report.surfaces.map((s) => s.url) });
@@ -363,6 +366,10 @@ export function formatAccuracy(accuracy: Accuracy): string {
   const apps = discovery.found.length + discovery.missed.length;
   const calledApp = discovery.found.filter((f) => f.kind === 'app').length;
   const calledAppWithModel = discovery.found.filter((f) => f.kindWithModel === 'app').length;
+  // Exactly one product app, and it is the one the ground truth names.
+  const oneRight = discovery.found.filter(
+    (f) => f.products.length === 1 && sameSurface(f.app, f.products[0] as string),
+  ).length;
   lines.push(
     '',
     '## Finding the app',
@@ -370,13 +377,15 @@ export function formatAccuracy(accuracy: Accuracy): string {
     `**Scanning the company's homepage found ${discovery.found.length} of ${apps} product apps ` +
       `(${percent(discovery.found.length, apps)}). It called ${calledApp} of them the product app ` +
       `by rules only (${percent(calledApp, apps)}), and ${calledAppWithModel} with Jev ` +
-      `(${percent(calledAppWithModel, apps)}).** Each app in the ground truth, how the scan ` +
-      'reached it, and what it called it:',
+      `(${percent(calledAppWithModel, apps)}). The report shows exactly one product app, the ` +
+      `right one, for ${oneRight} (${percent(oneRight, apps)}).** Each app in the ground truth, ` +
+      'how the scan reached it, what it called it, and what the report shows as the product:',
     '',
     ...discovery.found.map(
       (f) =>
         `- ${f.app}: ${f.via}; called ${f.kind}` +
-        (f.kindWithModel !== f.kind ? `, with Jev ${f.kindWithModel}` : ''),
+        (f.kindWithModel !== f.kind ? `, with Jev ${f.kindWithModel}` : '') +
+        `; product shown: ${f.products.join(', ') || 'none'}`,
     ),
     ...discovery.missed.map((m) => `- ${m.app}: **missed** (scanned ${m.surfaces.join(', ')})`),
     ...discovery.notRecorded.map((app) => `- ${app}: homepage not recorded yet`),

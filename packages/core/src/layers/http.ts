@@ -39,8 +39,10 @@ export const httpLayer: Layer = {
 
 // Error pages are reported too: a 404 from a framework says as much as a 200.
 export function responseSignals(response: HttpResponse): Signal[] {
-  const signals: Signal[] = [];
   const source = response.url;
+  const signals: Signal[] = [
+    { layer: 'http', kind: 'http-status', value: String(response.status), source },
+  ];
   for (const [name, value] of response.headers) {
     if (name === 'set-cookie') {
       const cookieName = value.split('=', 1)[0]?.trim();

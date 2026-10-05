@@ -1,5 +1,7 @@
 import {
   type Detection,
+  detectionsWithFolded,
+  type Folded,
   type ReportDiff,
   type ScanRecord,
   type Surface,
@@ -16,6 +18,12 @@ const SURFACE_KINDS: Record<Surface['kind'], string> = {
   auth: 'sign-in',
   other: 'other',
 };
+
+function foldedText({ surface, reason }: Folded): string {
+  return reason === 'redirect'
+    ? `${surface.url} redirects here`
+    : `${surface.url} is another page of this app`;
+}
 
 function foundBy(surface: Surface): string {
   if (!surface.foundBy) return '';
@@ -40,7 +48,7 @@ export function formatScan(scan: ScanRecord): string {
     return lines.join('\n');
   }
   // Product first: marketing findings never stand in for the product's stack.
-  const { product, marketing, other } = surfacesByRole(scan.report);
+  const { product, marketing, other, folded } = surfacesByRole(scan.report);
   if (product.length === 0) {
     lines.push(
       marketing.length > 0
@@ -56,11 +64,10 @@ export function formatScan(scan: ScanRecord): string {
       '',
       `Surface ${surface.url} (${SURFACE_KINDS[surface.kind]}${sure}${why}${foundBy(surface)})`,
     );
-    lines.push(
-      ...(surface.detections.length
-        ? surface.detections.map(detectionLine)
-        : ['- nothing detected']),
-    );
+    const more = folded[surface.id] ?? [];
+    if (more.length) lines.push(`Also: ${more.map(foldedText).join('; ')}`);
+    const detections = detectionsWithFolded(surface, more);
+    lines.push(...(detections.length ? detections.map(detectionLine) : ['- nothing detected']));
   }
   const runs = scan.report.layersRun;
   const failed = runs.filter((run) => run.status === 'failed' || run.status === 'timeout');

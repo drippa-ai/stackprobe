@@ -48,6 +48,7 @@ export function buildReport(input: BuildReportInput): Report {
         ? { kindReasons: input.classifications[target.id]?.reasons }
         : {}),
       ...(target.foundBy ? { foundBy: target.foundBy } : {}),
+      ...redirect(target, results),
       detections: detect(
         results.flatMap((result) => result.signals),
         fingerprints,
@@ -55,6 +56,21 @@ export function buildReport(input: BuildReportInput): Report {
     })),
     layersRun: input.surfaces.flatMap(({ results }) => results.map((result) => result.run)),
   };
+}
+
+// Where a surface ended up, when that is another host: the browser's final page if it loaded
+// one, else the HTTP layer's final response. acme.com and www.acme.com count as one host.
+function redirect(target: SurfaceTarget, results: LayerResult[]): { redirectsTo?: string } {
+  const source = (layer: string) =>
+    results.find((r) => r.run.layer === layer)?.signals.find((s) => s.source)?.source;
+  const landing = source('browser') ?? source('http');
+  if (!landing) return {};
+  const host = (url: string) => new URL(url).hostname.replace(/^www\./, '');
+  try {
+    return host(landing) === host(target.url) ? {} : { redirectsTo: landing };
+  } catch {
+    return {};
+  }
 }
 
 // 'partial' when any layer failed or timed out: the report is still useful, just incomplete.

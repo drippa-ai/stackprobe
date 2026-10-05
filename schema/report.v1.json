@@ -80,6 +80,10 @@
               }
             ]
           },
+          "redirectsTo": {
+            "type": "string",
+            "format": "uri"
+          },
           "detections": {
             "type": "array",
             "items": {
