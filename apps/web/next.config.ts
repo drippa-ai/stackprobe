@@ -8,7 +8,11 @@ if (existsSync(rootEnv)) process.loadEnvFile(rootEnv);
 
 const nextConfig: NextConfig = {
   // The workspace packages ship TypeScript source, so Next compiles them like app code.
+  // Only loaded when self-hosted with Chromium installed; never bundled.
+  serverExternalPackages: ['playwright-core'],
   transpilePackages: [
+    '@drippa/stackprobe-browser-playwright',
+    '@drippa/stackprobe-browser-vercel-sandbox',
     '@drippa/stackprobe-core',
     '@drippa/stackprobe-decider-typesafe',
     '@drippa/stackprobe-store-postgres',

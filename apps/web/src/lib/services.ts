@@ -1,4 +1,5 @@
-import type { Decider, Net, Store } from '@drippa/stackprobe-core';
+import { sandboxBrowserFromEnv } from '@drippa/stackprobe-browser-vercel-sandbox';
+import type { Browser, Decider, Net, Store } from '@drippa/stackprobe-core';
 import { NodeNet } from '@drippa/stackprobe-core/node';
 import { deciderFromEnv } from '@drippa/stackprobe-decider-typesafe';
 import { connectPostgres } from '@drippa/stackprobe-store-postgres';
@@ -18,6 +19,15 @@ export function getStore(): Store {
 // Jev when TYPESAFE_API_KEY is set; without it, classification runs on rules only.
 export function getDecider(): Decider | undefined {
   return deciderFromEnv();
+}
+
+// On Vercel: a Vercel Sandbox, once STACKPROBE_SANDBOX_SNAPSHOT is set. Self-hosted: local
+// Playwright when Chromium is installed. Otherwise none, and scans skip the browser layer.
+export async function getBrowser(): Promise<Browser | undefined> {
+  const sandbox = sandboxBrowserFromEnv();
+  if (sandbox || process.env.VERCEL) return sandbox;
+  const { playwrightIfInstalled } = await import('@drippa/stackprobe-browser-playwright');
+  return playwrightIfInstalled();
 }
 
 export function getNet(): Net {

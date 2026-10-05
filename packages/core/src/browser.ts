@@ -24,6 +24,49 @@ export interface Browser {
   capture(url: string, options: CaptureOptions): Promise<BrowserCapture>;
 }
 
+// A browser that can load several pages at once, e.g. in one sandbox.
+export interface BatchBrowser extends Browser {
+  captureMany(
+    urls: string[],
+    options: Pick<CaptureOptions, 'timeoutMs'>,
+  ): Promise<Record<string, BrowserCapture | { error: string }>>;
+}
+
+// Loads every page, in one batch when the browser supports it. A page that fails gets its error.
+export async function captureAll(
+  browser: Browser,
+  urls: string[],
+  options: CaptureOptions,
+): Promise<Record<string, BrowserCapture | { error: string }>> {
+  if ('captureMany' in browser && typeof browser.captureMany === 'function') {
+    return (browser as BatchBrowser).captureMany(urls, options);
+  }
+  const entries = await Promise.all(
+    urls.map(async (url) => {
+      try {
+        return [url, await browser.capture(url, options)] as const;
+      } catch (error) {
+        return [url, { error: error instanceof Error ? error.message : String(error) }] as const;
+      }
+    }),
+  );
+  return Object.fromEntries(entries);
+}
+
+// A browser that answers from captures made earlier, e.g. by captureAll.
+export function capturedBrowser(
+  captures: Record<string, BrowserCapture | { error: string }>,
+): Browser {
+  return {
+    async capture(url) {
+      const capture = captures[url];
+      if (!capture) throw new Error(`No capture of ${url}`);
+      if ('error' in capture) throw new Error(capture.error);
+      return capture;
+    },
+  };
+}
+
 // Request headers worth keeping: they name an SDK and its version. Values are length-capped.
 const HEADER_ALLOWLIST = new Set([
   'x-client-info',

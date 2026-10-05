@@ -1,7 +1,10 @@
 import {
+  browserLayer,
   buildReport,
   bundleLayer,
   type Classification,
+  captureAll,
+  capturedBrowser,
   classifySurfaces,
   DEFAULT_LAYERS,
   deepTargets,
@@ -14,12 +17,16 @@ import {
   ScanFinishedError,
   ScanNotFoundError,
   type ScanStatus,
+  type Signal,
   type SurfaceResults,
   type SurfaceTarget,
   surfaceTarget,
 } from '@drippa/stackprobe-core';
 import { FatalError } from 'workflow';
-import { getDecider, getNet, getStore } from '../lib/services.ts';
+import { getBrowser, getDecider, getNet, getStore } from '../lib/services.ts';
+
+// One browser load per deep surface, in parallel, within this.
+const BROWSER_BUDGET_MS = 40_000;
 
 // The surface the user asked for. A step because workflow code can't load core.
 export async function rootSurfaceStep(url: string): Promise<SurfaceTarget> {
@@ -71,11 +78,11 @@ export async function discoverStep(
 
 export interface DeepPlan {
   surface: SurfaceTarget;
-  scripts: string[];
+  // What the light layers saw, e.g. its <script src> tags.
+  signals: Signal[];
 }
 
-// Which surfaces get the deep layers (the product app, an unclassified homepage), and the
-// page's own scripts for each.
+// Which surfaces get the deep layers (the product app, an unclassified homepage).
 export async function planDeepStep(
   surfaces: SurfaceResults[],
   classifications: Record<string, Classification>,
@@ -84,17 +91,47 @@ export async function planDeepStep(
   return deepTargets(surfaces, classifications).map((surface) => {
     const own = surfaces.find((s) => s.target.id === surface.id);
     const signals = own?.results.flatMap((result) => result.signals) ?? [];
-    return { surface, scripts: firstPartyScripts(signals, surface.url) };
+    return { surface, signals };
   });
 }
 
-// Reads one surface's own scripts for the services and SDKs they mention, and saves the result.
+// Loads the deep surfaces in a real browser, all in one go (one sandbox when hosted), and saves
+// each surface's result. Without a browser configured, nothing.
+export async function browserStep(
+  scanId: string,
+  plans: DeepPlan[],
+): Promise<Record<string, LayerResult>> {
+  'use step';
+  const browser = await getBrowser();
+  if (!browser || plans.length === 0) return {};
+  const urls = plans.map((plan) => plan.surface.url);
+  const captures = await captureAll(browser, urls, {
+    signal: AbortSignal.timeout(BROWSER_BUDGET_MS),
+    timeoutMs: BROWSER_BUDGET_MS - 5_000,
+  });
+  const layer = browserLayer(capturedBrowser(captures));
+  const results: Record<string, LayerResult> = {};
+  for (const { surface } of plans) {
+    const result = await runLayer(layer, surface, { net: getNet() });
+    try {
+      await getStore().saveLayerResult(scanId, result);
+    } catch (error) {
+      throw noRetryIfFinished(error);
+    }
+    results[surface.id] = result;
+  }
+  return results;
+}
+
+// Reads one surface's own scripts (from its HTML, and those the browser saw it load) for the
+// services and SDKs they mention, and saves the result.
 export async function runBundleStep(
   scanId: string,
   surface: SurfaceTarget,
-  scripts: string[],
+  signals: Signal[],
 ): Promise<LayerResult> {
   'use step';
+  const scripts = firstPartyScripts(signals, surface.url);
   const result = await runLayer(bundleLayer(scripts), surface, { net: getNet() });
   try {
     await getStore().saveLayerResult(scanId, result);

@@ -145,3 +145,6 @@ vite.config.ts.timestamp-*
 
 # others
 .private/
+
+# Vercel CLI link (created by `vercel link`)
+.vercel
