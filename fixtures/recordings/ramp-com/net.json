@@ -1,24 +1,24 @@
 {
   "url": "https://ramp.com/",
-  "recordedAt": "2026-10-04T20:16:46.259Z",
+  "recordedAt": "2026-10-05T07:52:07.025Z",
   "http": {
     "GET https://ramp.com/": {
       "result": {
         "url": "https://ramp.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:07 GMT"],
           ["content-type", "text/markdown; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
-          ["cf-ray", "a456ddc1cc4db517-OSL"],
+          ["cf-ray", "a45ad85489740940-CPH"],
           ["cf-cache-status", "DYNAMIC"],
           ["age", "0"],
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-encoding", "br"],
           ["content-language", "en-us"],
           ["server", "cloudflare"],
-          ["x-vercel-id", "arn1::iad1::ll4qf-1791145006439-58527f3fd88a"],
+          ["x-vercel-id", "arn1::iad1::s6c2p-1791186727185-f01c1939a2ae"],
           ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
           ["vary", "Accept-Language, accept-encoding"],
           ["x-content-type-options", "nosniff"],
@@ -42,28 +42,1989 @@
         ],
         "body": ""
       }
+    },
+    "GET https://privacycenter.ramp.com/fides.js": {
+      "result": {
+        "url": "https://privacycenter.ramp.com/fides.js",
+        "status": 200,
+        "headers": [
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["date", "Mon, 05 Oct 2026 07:52:09 GMT"],
+          ["content-encoding", "gzip"],
+          ["access-control-allow-origin", "*"],
+          ["access-control-allow-headers", "*"],
+          [
+            "cache-control",
+            "max-age=3600, stale-while-revalidate=86400, stale-if-error=86400, public"
+          ],
+          ["etag", "\"4q33y7excp44pa\""],
+          ["vary", "cloudfront-viewer-country,cloudfront-viewer-country-region,Accept-Encoding"],
+          ["x-cache", "Hit from cloudfront"],
+          ["via", "1.1 1052525f0d15ecb6749de58fe7a481c8.cloudfront.net (CloudFront)"],
+          ["x-amz-cf-pop", "OSL50-P3"],
+          ["x-amz-cf-id", "I2DLGNwycOiqY2Vs0UGx1EqxFGNIZgBfu50X4-56Rv_9TdNO6F93-A=="],
+          ["age", "4"]
+        ],
+        "body": "\"https://ethyca.com/\"\n\"https://fides.prod.ramp.engineering/\"\n\"https://privacycenter.ramp.com/\"\n\"https://www.ethyca.com/\""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/3nkb43maincl3.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/3nkb43maincl3.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a4dc0abf5-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "4810555"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"3nkb43maincl3.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/3nkb43maincl3.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Mon, 10 Aug 2026 15:36:17 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3nkb43maincl3.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::nm69x-1786376177522-0996c7c39d7b"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/1blm6r0-z571s.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/1blm6r0-z571s.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a5b2bd8d5-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "4810334"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"1blm6r0-z571s.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/1blm6r0-z571s.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Mon, 10 Aug 2026 15:36:17 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1blm6r0-z571s.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::v6fwn-1786376398840-daf4e81b85f5"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/turbopack-1b0j4wddr7isb.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/turbopack-1b0j4wddr7isb.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a5f533796-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "1076237"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"turbopack-1b0j4wddr7isb.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/turbopack-1b0j4wddr7isb.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Tue, 22 Sep 2026 20:54:55 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/turbopack-1b0j4wddr7isb.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::vqlx4-1790110495364-df322d5e9ddf"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/390q5fx0l6p4_.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/390q5fx0l6p4_.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a58174935-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "924307"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"390q5fx0l6p4_.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/390q5fx0l6p4_.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Thu, 24 Sep 2026 15:06:02 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/390q5fx0l6p4_.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::t5gqw-1790262426016-ca7eae0a2f92"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/3de1rkq8q5euz.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/3de1rkq8q5euz.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a5cea6c90-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "1075700"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"3de1rkq8q5euz.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/3de1rkq8q5euz.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Tue, 22 Sep 2026 20:54:55 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3de1rkq8q5euz.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::rcwmc-1790111032954-1edd1be58052"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/2avz4-1hv6z4b.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/2avz4-1hv6z4b.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a582b25cf-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "306681"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"2avz4-1hv6z4b.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/2avz4-1hv6z4b.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Thu, 01 Oct 2026 18:37:10 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2avz4-1hv6z4b.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::h2dhd-1790880051208-9dbea26a3f77"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/11fq255z5jj5d.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/11fq255z5jj5d.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a5f583796-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "567902"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"11fq255z5jj5d.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/11fq255z5jj5d.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Mon, 28 Sep 2026 18:07:10 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/11fq255z5jj5d.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::pc6t2-1790618830094-25b3891909ce"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://sgmnt-a.ramp.com/\""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/0ytxt6v6p9q5g.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/0ytxt6v6p9q5g.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a5d0ffea1-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "4810555"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"0ytxt6v6p9q5g.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/0ytxt6v6p9q5g.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Mon, 10 Aug 2026 15:36:17 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0ytxt6v6p9q5g.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::xbvrl-1786376177520-126dfdedaedb"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/1-sk8ppe0z6ak.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/1-sk8ppe0z6ak.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a5cfda0c9-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "4033377"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"1-sk8ppe0z6ak.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/1-sk8ppe0z6ak.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Wed, 19 Aug 2026 15:22:12 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1-sk8ppe0z6ak.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::lds8q-1787153355573-9345c2d7ba33"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/2zh934zzr1nwd.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/2zh934zzr1nwd.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a5f1ecd9c-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "292967"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"2zh934zzr1nwd.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/2zh934zzr1nwd.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Thu, 01 Oct 2026 22:29:25 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2zh934zzr1nwd.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::z7w5g-1790893765531-473f94cb8231"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://next.ramp.com/\""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/42a2dz37qcu-d.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/42a2dz37qcu-d.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a59c3b354-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "1076237"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"42a2dz37qcu-d.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/42a2dz37qcu-d.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Tue, 22 Sep 2026 20:54:55 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/42a2dz37qcu-d.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::smfcs-1790110495383-b59aa8743fd2"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/3-wbz5coiso7d.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/3-wbz5coiso7d.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a5b80d054-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "428979"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"3-wbz5coiso7d.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/3-wbz5coiso7d.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Mon, 28 Sep 2026 09:04:19 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3-wbz5coiso7d.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::fcpsm-1790757753438-b4a3f995e464"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/050_uaml6asbb.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/050_uaml6asbb.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a5e2b53db-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "4101941"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"050_uaml6asbb.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/050_uaml6asbb.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Tue, 18 Aug 2026 20:26:31 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/050_uaml6asbb.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::sgrgk-1787084791836-dd06b1904b16"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/0hmnr2e_cs3s5.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/0hmnr2e_cs3s5.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a4b141255-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "1076237"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"0hmnr2e_cs3s5.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/0hmnr2e_cs3s5.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Tue, 22 Sep 2026 20:54:55 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0hmnr2e_cs3s5.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::nfxzc-1790110495342-1e838da4ef74"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://vercel.live/\""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/3e11ffp-sxz8u.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/3e11ffp-sxz8u.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a5b3b3ca8-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "4810338"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"3e11ffp-sxz8u.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/3e11ffp-sxz8u.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Mon, 10 Aug 2026 15:36:17 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3e11ffp-sxz8u.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::rk7dp-1786376394277-f5217da6cc14"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/0g9zvfh5969j8.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/0g9zvfh5969j8.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a68a4ad29-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "231395"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"0g9zvfh5969j8.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/0g9zvfh5969j8.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Fri, 02 Oct 2026 15:35:37 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0g9zvfh5969j8.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::rwfmf-1790955337778-ce7ea1458c57"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/1qhqq2e3e8pm8.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/1qhqq2e3e8pm8.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a68a5ad29-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "222335"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"1qhqq2e3e8pm8.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/1qhqq2e3e8pm8.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Fri, 02 Oct 2026 18:06:37 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1qhqq2e3e8pm8.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::fk2cn-1790964397288-b51700258cc5"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://virtual.ramp.com/\""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/0lyfc0baahz7j.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/0lyfc0baahz7j.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a594432d7-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "2219624"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"0lyfc0baahz7j.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/0lyfc0baahz7j.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Wed, 09 Sep 2026 15:18:28 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0lyfc0baahz7j.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::xwmvc-1788967108343-1f98b3b397a9"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://radix-ui.com/\""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/2omfnsdaf8bz2.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/2omfnsdaf8bz2.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a594632d7-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "4033816"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"2omfnsdaf8bz2.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/2omfnsdaf8bz2.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Wed, 19 Aug 2026 15:21:56 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2omfnsdaf8bz2.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::4k7k9-1787152916729-cc4e37970ad5"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://cdn.segment.com/\""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/1h212s6d7f9mx.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/1h212s6d7f9mx.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a58950839-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "292967"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"1h212s6d7f9mx.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/1h212s6d7f9mx.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Thu, 01 Oct 2026 22:25:13 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1h212s6d7f9mx.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::dnblx-1790893765493-df262adb6db7"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/0nl330cfy9rgt.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/0nl330cfy9rgt.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a5885ebdd-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "205718"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"0nl330cfy9rgt.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/0nl330cfy9rgt.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Fri, 02 Oct 2026 22:43:35 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0nl330cfy9rgt.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::8h4mj-1790981014891-0dbe9b0abc6c"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://api.gtx.dev/\"\n\"https://cdn.gtx.dev/\"\n\"https://nuqs.dev/\"\n\"https://ramp-com.chilipiper.com/\"\n\"https://ramp.com/\"\n\"https://va.vercel-scripts.com/\"\n\"https://vercel.live/\"\n\"https://www.googletagmanager.com/\""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/44-0u3ethagnq.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/44-0u3ethagnq.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a5e9a0523-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "1076237"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"44-0u3ethagnq.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/44-0u3ethagnq.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Tue, 22 Sep 2026 20:54:55 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/44-0u3ethagnq.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::pzmjl-1790110495353-860faee616c5"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/21gsckgnu1rbn.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/21gsckgnu1rbn.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a7e10db77-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "4810553"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"21gsckgnu1rbn.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/21gsckgnu1rbn.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Mon, 10 Aug 2026 15:36:20 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/21gsckgnu1rbn.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::mxl2q-1786376179935-44a5545017df"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/2ikehb47m42w2.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/2ikehb47m42w2.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a788811e7-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "3921938"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"2ikehb47m42w2.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/2ikehb47m42w2.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Tue, 11 Aug 2026 08:22:45 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2ikehb47m42w2.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::82n2v-1787264794793-7ebb20e80d5b"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/1nq9if4_48qhh.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/1nq9if4_48qhh.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a6cb68453-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "306902"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"1nq9if4_48qhh.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/1nq9if4_48qhh.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Thu, 01 Oct 2026 18:37:10 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1nq9if4_48qhh.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::ltd9m-1790879830165-f8bc63129763"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/0ognb6c2x30gr.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/0ognb6c2x30gr.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a6df5db77-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "292987"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"0ognb6c2x30gr.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/0ognb6c2x30gr.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Thu, 01 Oct 2026 22:25:13 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0ognb6c2x30gr.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::qmdtz-1790893745214-c452cc8960d4"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://app.ramp.com/\"\n\"https://assets.ramp.com/\""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/2kb5n4a4wvt4r.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/2kb5n4a4wvt4r.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a7858dd0e-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "4033799"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"2kb5n4a4wvt4r.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/2kb5n4a4wvt4r.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Wed, 19 Aug 2026 15:22:13 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2kb5n4a4wvt4r.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::kl4rr-1787152933096-721f41781c43"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_vercel/speed-insights/script.js": {
+      "result": {
+        "url": "https://ramp.com/_vercel/speed-insights/script.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a6af9a264-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "2118889"],
+          ["cache-control", "public, max-age=2678400"],
+          ["content-disposition", "inline; filename=\"script.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"0e7c215a9775d8de91b65e4ed9224d36\""],
+          ["expires", "Thu, 05 Nov 2026 07:52:13 GMT"],
+          ["last-modified", "Mon, 10 Aug 2026 19:00:22 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1:fra1:fra1::h2gkg-1786389414655-15b7281280ed"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://vitals.vercel-insights.com/\""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/2jk47zde_9415.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/2jk47zde_9415.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a5b2d6cc3-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "221379"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"2jk47zde_9415.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/2jk47zde_9415.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Fri, 02 Oct 2026 18:22:33 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2jk47zde_9415.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::4vbg7-1790965353107-9a74754b4dda"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/31w-1xo58nt2r.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/31w-1xo58nt2r.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a5c5a5b4a-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "2992886"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"31w-1xo58nt2r.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/31w-1xo58nt2r.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Mon, 31 Aug 2026 16:17:05 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/31w-1xo58nt2r.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::c7tmt-1788193846157-622c02b4e2c2"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://sgmnt-a.ramp.com/next-integrations/actions/3962/1faa179dfb20d0a3f5a0.js": {
+      "result": {
+        "url": "https://sgmnt-a.ramp.com/next-integrations/actions/3962/1faa179dfb20d0a3f5a0.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["access-control-allow-origin", "*"],
+          ["access-control-allow-methods", "GET, HEAD"],
+          ["access-control-max-age", "3000"],
+          ["last-modified", "Thu, 16 Apr 2026 12:46:09 GMT"],
+          ["content-encoding", "br"],
+          ["x-amz-server-side-encryption", "AES256"],
+          ["x-amz-version-id", "WsZa4ueqZyJh3ztuC7YUA110ldnQc.iu"],
+          ["server", "cloudflare"],
+          ["etag", "W/\"d62a26ebeea3ff9815b378e0b18741e6\""],
+          ["vary", "Accept-Encoding"],
+          ["x-cache", "Hit from cloudfront"],
+          ["via", "1.1 a12b8f6e2d61226feef831467360e54a.cloudfront.net (CloudFront)"],
+          ["x-amz-cf-pop", "ARN53-P3"],
+          ["x-amz-cf-id", "73n75xgofJGwG3Jp1Oepa8icf0jNjjaX3RnGIHsQ5jGQSpQwoItXFw=="],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["age", "1806"],
+          ["expires", "Mon, 05 Oct 2026 11:52:13 GMT"],
+          ["cache-control", "public, max-age=14400"],
+          ["cf-cache-status", "HIT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["x-content-type-options", "nosniff"],
+          ["cf-ray", "a45ad87a7f984d24-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/1i8p01uzdb2ag.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/1i8p01uzdb2ag.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a5ad0a264-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "4810543"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"1i8p01uzdb2ag.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/1i8p01uzdb2ag.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Mon, 10 Aug 2026 15:36:29 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1i8p01uzdb2ag.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::x7nqb-1786376189303-266cabf638de"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/0p41iaoj_27xn.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/0p41iaoj_27xn.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a6adb5330-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "2645703"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"0p41iaoj_27xn.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/0p41iaoj_27xn.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Fri, 04 Sep 2026 16:54:51 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0p41iaoj_27xn.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::67jvc-1788541029733-1ad5f40dfa1b"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/3bpr2j54wfx1x.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/3bpr2j54wfx1x.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a7b527da8-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "898045"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"3bpr2j54wfx1x.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/3bpr2j54wfx1x.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Thu, 24 Sep 2026 22:15:26 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3bpr2j54wfx1x.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::kcglv-1790288687672-aeeddf5e9b10"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/0x32mrgsr1no7.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/0x32mrgsr1no7.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a6f34d0c3-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "2118003"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"0x32mrgsr1no7.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/0x32mrgsr1no7.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Thu, 10 Sep 2026 19:32:09 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0x32mrgsr1no7.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::wkcm8-1789068729131-1e2d48349f7a"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://air-prod.imgix.net/\"\n\"https://assets.ramp.com/\"\n\"https://cdn.air.inc/\"\n\"https://ramp.com/\""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/176rpa3phub4q.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/176rpa3phub4q.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a7fd175f0-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "898585"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"176rpa3phub4q.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/176rpa3phub4q.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Thu, 24 Sep 2026 22:15:29 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/176rpa3phub4q.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::k8f54-1790288147927-26bef8ee12b4"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/3cfl7_lbwc0rg.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/3cfl7_lbwc0rg.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a7b507da8-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "231736"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"3cfl7_lbwc0rg.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/3cfl7_lbwc0rg.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Fri, 02 Oct 2026 15:29:56 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3cfl7_lbwc0rg.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::gqt2l-1790954996172-17699dd33d6f"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/0gu-ptudqjqun.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/0gu-ptudqjqun.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a7a47c011-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "2046895"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"0gu-ptudqjqun.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/0gu-ptudqjqun.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Fri, 11 Sep 2026 15:13:36 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0gu-ptudqjqun.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::52c8d-1789139838176-a88989cb10e8"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/29rg25-ij_kjo.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/29rg25-ij_kjo.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a7916a8b6-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "292987"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"29rg25-ij_kjo.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/29rg25-ij_kjo.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Thu, 01 Oct 2026 22:29:05 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/29rg25-ij_kjo.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9j45j-1790893745230-7e164ec3851b"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/2ha3fag763ddj.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/2ha3fag763ddj.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a78e6042d-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "4810554"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"2ha3fag763ddj.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/2ha3fag763ddj.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Mon, 10 Aug 2026 15:36:18 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2ha3fag763ddj.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::smpbl-1786376178681-6f0c40fd18e8"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/1nurrs-das_eb.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/1nurrs-das_eb.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a6f68d8e8-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "2813293"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"1nurrs-das_eb.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/1nurrs-das_eb.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Wed, 02 Sep 2026 17:10:15 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1nurrs-das_eb.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::8zqp4-1788373439470-caaf97736e5e"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/1ox87b97mkwdt.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/1ox87b97mkwdt.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a5c1a6e6e-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "3321894"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"1ox87b97mkwdt.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/1ox87b97mkwdt.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Thu, 27 Aug 2026 20:55:55 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1ox87b97mkwdt.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::68bl8-1787864838783-d16a6752ad70"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/2b74ve-afhahx.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/2b74ve-afhahx.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a788a11e7-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "231395"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"2b74ve-afhahx.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/2b74ve-afhahx.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Fri, 02 Oct 2026 15:30:11 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2b74ve-afhahx.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::tb4hq-1790955337792-188cd79c1918"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/0tt6jyxndv-q4.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/0tt6jyxndv-q4.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a7b7f2fcc-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "292987"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"0tt6jyxndv-q4.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/0tt6jyxndv-q4.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Thu, 01 Oct 2026 22:29:05 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0tt6jyxndv-q4.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::56fjn-1790893745234-53a0297c03fe"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/0olnnj-l1rzfx.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/0olnnj-l1rzfx.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a5906868c-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "1076237"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"0olnnj-l1rzfx.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/0olnnj-l1rzfx.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Tue, 22 Sep 2026 20:54:55 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0olnnj-l1rzfx.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::4jlnv-1790110495346-58e334d888a3"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"http://json-schema.org/\"\n\"https://json-schema.org/\""
+      }
+    },
+    "GET https://sgmnt-a.ramp.com/next-integrations/actions/hubspot-web/7fd8e29317f37d09b333.js": {
+      "result": {
+        "url": "https://sgmnt-a.ramp.com/next-integrations/actions/hubspot-web/7fd8e29317f37d09b333.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["server", "cloudflare"],
+          ["access-control-allow-origin", "*"],
+          ["access-control-allow-methods", "GET, HEAD"],
+          ["access-control-max-age", "3000"],
+          ["last-modified", "Thu, 16 Apr 2026 12:46:12 GMT"],
+          ["x-amz-server-side-encryption", "AES256"],
+          ["x-amz-version-id", "snWCh.dDQR_GZUcGtTh9FEFX5fnsq1Or"],
+          ["content-encoding", "br"],
+          ["etag", "W/\"459364d70ffd559cf350d646da616f51\""],
+          ["vary", "Accept-Encoding"],
+          ["x-cache", "Hit from cloudfront"],
+          ["via", "1.1 61fc49e1e80578044a885d20767ef3da.cloudfront.net (CloudFront)"],
+          ["x-amz-cf-pop", "ARN53-P3"],
+          ["x-amz-cf-id", "sG3zPSn6m5hys6mqeADz2dX06MFJUvqNJ8tsutYhLGpaDgDFenYSDQ=="],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["age", "6216"],
+          ["expires", "Mon, 05 Oct 2026 11:52:13 GMT"],
+          ["cache-control", "public, max-age=14400"],
+          ["cf-cache-status", "HIT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["x-content-type-options", "nosniff"],
+          ["cf-ray", "a45ad87a7d576c90-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"http://json-schema.org/\"\n\"https://js-eu1.hs-scripts.com/\"\n\"https://js-eu1.hsforms.net/\"\n\"https://js.hs-scripts.com/\"\n\"https://js.hsforms.net/\"\n\"https://knowledge.hubspot.com/\"\n\"https://raw.githubusercontent.com/\""
+      }
+    },
+    "GET https://sgmnt-a.ramp.com/next-integrations/actions/google-analytics-4-web/aeadee7d142fb4d69ca8.js": {
+      "result": {
+        "url": "https://sgmnt-a.ramp.com/next-integrations/actions/google-analytics-4-web/aeadee7d142fb4d69ca8.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["access-control-allow-origin", "*"],
+          ["access-control-allow-methods", "GET, HEAD"],
+          ["access-control-max-age", "3000"],
+          ["last-modified", "Thu, 16 Apr 2026 12:46:12 GMT"],
+          ["content-encoding", "br"],
+          ["x-amz-server-side-encryption", "AES256"],
+          ["x-amz-version-id", "YOZj7NM7NdNWOG90VSjmCn.fxVbThkFH"],
+          ["server", "cloudflare"],
+          ["etag", "W/\"b591f4bfef562ce2219727b0cf21ac4d\""],
+          ["vary", "Accept-Encoding"],
+          ["x-cache", "Hit from cloudfront"],
+          ["via", "1.1 118086882d9f17e10877e0653a055586.cloudfront.net (CloudFront)"],
+          ["x-amz-cf-pop", "ARN53-P3"],
+          ["x-amz-cf-id", "-yGOTLwcLDc17FPF_MvBvpqe_xr0WFe5-GWVBDoWNkI7RD3bEJvkrA=="],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["age", "5584"],
+          ["expires", "Mon, 05 Oct 2026 11:52:13 GMT"],
+          ["cache-control", "public, max-age=14400"],
+          ["cf-cache-status", "HIT"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["x-content-type-options", "nosniff"],
+          ["cf-ray", "a45ad87a7fbc2658-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"http://json-schema.org/\"\n\"https://developers.google.com/\"\n\"https://raw.githubusercontent.com/\"\n\"https://support.google.com/\""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/1t__k2dhdjg4r.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/1t__k2dhdjg4r.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a795a7c56-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "4810554"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"1t__k2dhdjg4r.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/1t__k2dhdjg4r.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Mon, 10 Aug 2026 15:36:18 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1t__k2dhdjg4r.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::5vq4g-1786376178564-11f463802fea"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://ramp.com/_next/static/immutable/chunks/3kd5yu-dmt93d.js": {
+      "result": {
+        "url": "https://ramp.com/_next/static/immutable/chunks/3kd5yu-dmt93d.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-ray", "a45ad87a6b3c4e50-CPH"],
+          ["cf-cache-status", "HIT"],
+          ["access-control-allow-origin", "*"],
+          ["age", "3588312"],
+          ["cache-control", "public, max-age=31536000"],
+          ["content-disposition", "inline; filename=\"3kd5yu-dmt93d.js\""],
+          ["content-encoding", "br"],
+          ["etag", "W/\"_next/static/immutable/chunks/3kd5yu-dmt93d.js\""],
+          ["expires", "Tue, 05 Oct 2027 07:52:13 GMT"],
+          ["last-modified", "Sun, 23 Aug 2026 01:48:46 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
+          ["vary", "accept-encoding"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          [
+            "content-security-policy",
+            "upgrade-insecure-requests; frame-ancestors 'self' https://app.ramp.com; report-uri https://ramp.report-uri.com/r/d/csp/enforce"
+          ],
+          ["ramp-worker-name", "prod-app-worker"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3kd5yu-dmt93d.js"],
+          ["x-ramp-body-source", "next"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "fra1::dch78-1787598420396-fe6f9654d130"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
     }
   },
   "dns": {
-    "A ramp.com": {
-      "result": {
-        "name": "ramp.com",
-        "type": "A",
-        "records": ["172.64.150.34", "104.18.37.222"]
-      }
-    },
     "NS ramp.com": {
       "result": {
         "name": "ramp.com",
         "type": "NS",
-        "records": ["dawn.ns.cloudflare.com", "joel.ns.cloudflare.com"]
-      }
-    },
-    "AAAA ramp.com": {
-      "result": {
-        "name": "ramp.com",
-        "type": "AAAA",
-        "records": ["2606:4700:4407::ac40:9622", "2a06:98c1:3100::6812:25de"]
+        "records": ["joel.ns.cloudflare.com", "dawn.ns.cloudflare.com"]
       }
     },
     "CNAME ramp.com": {
@@ -73,11 +2034,25 @@
         "records": []
       }
     },
-    "TXT 222.37.18.104.origin.asn.cymru.com": {
+    "A ramp.com": {
       "result": {
-        "name": "222.37.18.104.origin.asn.cymru.com",
+        "name": "ramp.com",
+        "type": "A",
+        "records": ["172.64.150.34", "104.18.37.222"]
+      }
+    },
+    "AAAA ramp.com": {
+      "result": {
+        "name": "ramp.com",
+        "type": "AAAA",
+        "records": ["2a06:98c1:3100::6812:25de", "2606:4700:4407::ac40:9622"]
+      }
+    },
+    "TXT 34.150.64.172.origin.asn.cymru.com": {
+      "result": {
+        "name": "34.150.64.172.origin.asn.cymru.com",
         "type": "TXT",
-        "records": ["13335 | 104.18.37.0/24 | US | arin | 2014-03-28"]
+        "records": ["13335 | 172.64.150.0/24 | US | arin | 2015-02-25"]
       }
     },
     "TXT as13335.asn.cymru.com": {
@@ -92,7 +2067,7 @@
     "ramp.com:443": {
       "result": {
         "host": "ramp.com",
-        "ip": "104.18.37.222",
+        "ip": "172.64.150.34",
         "issuer": "C=US, O=Google Trust Services, CN=WE1",
         "subjectAltNames": ["ramp.com", "pdf.ramp.com"],
         "validFrom": "Sep 28 19:01:45 2026 GMT",

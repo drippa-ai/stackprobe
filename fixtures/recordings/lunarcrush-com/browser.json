@@ -22,6 +22,12 @@
         "headers": {}
       },
       {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
         "url": "https://lunarcrush.com/landing-assets/assets/vendor-react-Dh9LqfKY.js",
         "method": "GET",
         "type": "script",
@@ -40,12 +46,6 @@
         "headers": {}
       },
       {
-        "url": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
         "url": "https://www.googletagmanager.com/gtag/js",
         "method": "GET",
         "type": "script",
@@ -55,12 +55,6 @@
         "url": "https://lunarcrush.com/landing-assets/assets/style-RgS1w064.css",
         "method": "GET",
         "type": "stylesheet",
-        "headers": {}
-      },
-      {
-        "url": "https://lunarcrush.com/landing-assets/PlusJakartaSans-Variable.woff2",
-        "method": "GET",
-        "type": "font",
         "headers": {}
       },
       {
@@ -91,6 +85,12 @@
         "url": "https://www.google.no/ads/ga-audiences",
         "method": "GET",
         "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://lunarcrush.com/landing-assets/PlusJakartaSans-Variable.woff2",
+        "method": "GET",
+        "type": "font",
         "headers": {}
       },
       {

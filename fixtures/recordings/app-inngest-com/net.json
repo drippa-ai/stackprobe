@@ -1,6 +1,6 @@
 {
   "url": "https://app.inngest.com/",
-  "recordedAt": "2026-10-04T20:16:48.651Z",
+  "recordedAt": "2026-10-05T07:52:20.406Z",
   "http": {
     "GET https://app.inngest.com/": {
       "result": {
@@ -15,7 +15,7 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' https://analytics-cdn.inngest.com https://clerk.inngest.com https://challenges.cloudflare.com https://unpkg.com/@inngest/ https://js.stripe.com/ https://cdn.jsdelivr.net 'wasm-unsafe-eval'; connect-src 'self' data: https://api.inngest.com wss://api.inngest.com https://analytics-cdn.inngest.com https://analytics.inngest.com https://inn.gs inn.gs https://status.inngest.com https://clerk.inngest.com http://localhost:8288 https://clientstream.launchdarkly.com https://events.launchdarkly.com https://app.launchdarkly.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: https://img.clerk.com; font-src 'self' data: https://fonts-cdn.inngest.com https://fonts.gstatic.com https://cdn.jsdelivr.net; frame-src 'self' https://js.stripe.com https://challenges.cloudflare.com; worker-src 'self' blob:; base-uri 'self'; form-action 'self'; report-uri /api/csp-report; report-to csp-endpoint"
           ],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["reporting-endpoints", "csp-endpoint=\"/api/csp-report\""],
           ["server", "Vercel"],
@@ -25,10 +25,120 @@
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "DENY"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::fra1::4xnxj-1791145008764-04873a4d243f"],
+          ["x-vercel-id", "arn1::fra1::dr7wz-1791186740551-d288b6cd98f9"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"modulepreload\" href=\"/assets/index-CxvcQYAV.js\">\n<link rel=\"modulepreload\" href=\"/assets/index-BjZDpde_.js\">\n<link rel=\"modulepreload\" href=\"/assets/environment-context-ysEKH12S.js\">\n<link rel=\"stylesheet\" href=\"/assets/globals-Cuu4n7Mq.css\" precedence=\"default\">\n<link rel=\"stylesheet\" href=\"/assets/fonts-BC5cL9TT.css\" precedence=\"default\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">\n<script type=\"module\" async=\"\" src=\"/assets/index-CxvcQYAV.js\"></script>"
+      }
+    },
+    "GET https://analytics-cdn.inngest.com/next-integrations/actions/amplitude-plugins/f12a4347e1080fb88155.js": {
+      "result": {
+        "url": "https://analytics-cdn.inngest.com/next-integrations/actions/amplitude-plugins/f12a4347e1080fb88155.js",
+        "status": 200,
+        "headers": [
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-amz-cf-pop", "FRA60-P12"],
+          ["server", "AmazonS3"],
+          ["access-control-allow-origin", "*"],
+          ["access-control-allow-methods", "GET, HEAD"],
+          ["access-control-max-age", "3000"],
+          ["last-modified", "Thu, 16 Apr 2026 12:46:10 GMT"],
+          ["x-amz-server-side-encryption", "AES256"],
+          ["x-amz-version-id", "i4mVYmtZAX.s42U9XnSiWXU07gzrngYE"],
+          ["content-encoding", "gzip"],
+          [
+            "via",
+            "1.1 edeee55acaf119bab76272bf57b28cc4.cloudfront.net (CloudFront), 1.1 6a7eeeb375db56eafe74d447721ccbb8.cloudfront.net (CloudFront)"
+          ],
+          ["date", "Mon, 05 Oct 2026 06:55:37 GMT"],
+          ["etag", "W/\"54f6abec46fd309ab598b959e2208e0f\""],
+          ["vary", "Accept-Encoding"],
+          ["x-cache", "Hit from cloudfront"],
+          ["x-amz-cf-pop", "OSL50-P3"],
+          ["x-amz-cf-id", "QJZEa_ddChY1kd8sYdLQgRdT1COmgwtL_aK4osAlpjMzsBljK0EuHQ=="],
+          ["age", "103983"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://analytics-cdn.inngest.com/next-integrations/actions/3962/1faa179dfb20d0a3f5a0.js": {
+      "result": {
+        "url": "https://analytics-cdn.inngest.com/next-integrations/actions/3962/1faa179dfb20d0a3f5a0.js",
+        "status": 200,
+        "headers": [
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-amz-cf-pop", "FRA60-P12"],
+          ["access-control-allow-origin", "*"],
+          ["access-control-allow-methods", "GET, HEAD"],
+          ["access-control-max-age", "3000"],
+          ["last-modified", "Thu, 16 Apr 2026 12:46:09 GMT"],
+          ["content-encoding", "gzip"],
+          ["x-amz-server-side-encryption", "AES256"],
+          ["x-amz-version-id", "WsZa4ueqZyJh3ztuC7YUA110ldnQc.iu"],
+          ["server", "AmazonS3"],
+          [
+            "via",
+            "1.1 c882e22548530d40265eb261348d86d0.cloudfront.net (CloudFront), 1.1 5f042aad530968241af9b660cec6b106.cloudfront.net (CloudFront)"
+          ],
+          ["date", "Mon, 05 Oct 2026 06:55:38 GMT"],
+          ["etag", "W/\"d62a26ebeea3ff9815b378e0b18741e6\""],
+          ["vary", "Accept-Encoding"],
+          ["x-cache", "Hit from cloudfront"],
+          ["x-amz-cf-pop", "OSL50-P3"],
+          ["x-amz-cf-id", "_J4Uf03nbjH3yzMyGwuZj-lGA8UN-ObWKTdSkndJCxht1H4mOF0xag=="],
+          ["age", "11587"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.inngest.com/assets/index-BjZDpde_.js": {
+      "result": {
+        "url": "https://app.inngest.com/assets/index-BjZDpde_.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "53307"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"index-BjZDpde_.js\""],
+          ["content-length", "435"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["etag", "\"269f76ab7b1ea098f716b059b4b3b67d\""],
+          ["last-modified", "Sun, 04 Oct 2026 17:03:57 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::k4b6k-1791186745102-218d626c84c7"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.inngest.com/assets/environment-context-ysEKH12S.js": {
+      "result": {
+        "url": "https://app.inngest.com/assets/environment-context-ysEKH12S.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "59800"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"environment-context-ysEKH12S.js\""],
+          ["content-length", "312"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["etag", "\"a70651cb102f93c895e0645a058ebe43\""],
+          ["last-modified", "Sun, 04 Oct 2026 15:15:44 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::7rkc2-1791186745102-080108a09515"]
+        ],
+        "body": ""
       }
     },
     "GET https://app.inngest.com/assets/index-CxvcQYAV.js": {
@@ -37,21 +147,309 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "10406"],
+          ["age", "59800"],
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-disposition", "inline; filename=\"index-CxvcQYAV.js\""],
           ["content-encoding", "br"],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
           ["etag", "W/\"bd6913f00dc81fe021d57170bc1f28ad\""],
-          ["last-modified", "Sun, 04 Oct 2026 17:23:22 GMT"],
+          ["last-modified", "Sun, 04 Oct 2026 15:15:44 GMT"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::fct8s-1791145009092-059069c1f1ec"],
+          ["x-vercel-id", "arn1::k4b6k-1791186745071-1f114a6085ef"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "\"http://json-schema.org/\"\n\"https://analytics-cdn.inngest.com/\"\n\"https://api.clerk.com/\"\n\"https://api.inngest.com/\"\n\"https://app.inngest.com/\"\n\"https://app.launchdarkly.com/\"\n\"https://cdn.segment.com/\"\n\"https://cdp.customer.io/\"\n\"https://clerk.com/\"\n\"https://clientstream.launchdarkly.com/\"\n\"https://dashboard.clerk.com/\"\n\"https://docs.launchdarkly.com/\"\n\"https://docs.sentry.io/\"\n\"https://events.launchdarkly.com/\"\n\"https://json-schema.org/\"\n\"https://status.inngest.com/\"\n\"https://support.inngest.com/\"\n\"https://www.inngest.com/\""
+      }
+    },
+    "GET https://clerk.inngest.com/npm/@clerk/clerk-js@5/dist/clerk.browser.js": {
+      "result": {
+        "url": "https://clerk.inngest.com/npm/@clerk/clerk-js@5/dist/clerk.browser.js",
+        "status": 307,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["content-length", "0"],
+          ["connection", "keep-alive"],
+          [
+            "location",
+            "https://clerk.inngest.com/npm/@clerk/clerk-js@5.128.0/dist/clerk.browser.js"
+          ],
+          ["access-control-allow-origin", "*"],
+          [
+            "cache-control",
+            "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+          ],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=9U2HW8o3J4tmtdMTCQUQOQZmCpL0xFCjIxg4A70c2uP3qMsrj5jYdUsSVS6LzBGjfWum7BtF795iJK%2Fdm7oCkMe2sj%2FCtyViHyMJW4nMlI3O7R7pA17dlKlBtcI%2FzU29laz%2F\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=63072000;"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad8c4eb015330-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.inngest.com/assets/is-plan-event-enabled-DeNtQvA5.js": {
+      "result": {
+        "url": "https://app.inngest.com/assets/is-plan-event-enabled-DeNtQvA5.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "1427"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"is-plan-event-enabled-DeNtQvA5.js\""],
+          ["content-length", "167"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["etag", "\"c6d295e14150edd68a870e00f7c9c545\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:28:37 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::vnlfd-1791186745121-4a139941340a"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.inngest.com/assets/PageViewTracker-Dqt7dAt_.js": {
+      "result": {
+        "url": "https://app.inngest.com/assets/PageViewTracker-Dqt7dAt_.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "3741"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"PageViewTracker-Dqt7dAt_.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["etag", "W/\"fa28523a57f4db323ff45ebb26d18fbb\""],
+          ["last-modified", "Mon, 05 Oct 2026 06:50:04 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5m9cs-1791186745110-926d8c00d158"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.inngest.com/assets/index-BFhlFiDr.js": {
+      "result": {
+        "url": "https://app.inngest.com/assets/index-BFhlFiDr.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "59799"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"index-BFhlFiDr.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["etag", "W/\"d71d9006c881b6e4930786667055a3b0\""],
+          ["last-modified", "Sun, 04 Oct 2026 15:15:45 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::dff5r-1791186745122-09c15559691f"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.inngest.com/assets/index-CNF69W-q.js": {
+      "result": {
+        "url": "https://app.inngest.com/assets/index-CNF69W-q.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "59799"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"index-CNF69W-q.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["etag", "W/\"414e3f3528afe646e4250b7414b3d784\""],
+          ["last-modified", "Sun, 04 Oct 2026 15:15:45 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::7rkc2-1791186745110-ed222772b2e9"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://clerk.inngest.com/npm/@clerk/clerk-js@5.128.0/dist/framework_clerk.browser_70f75e_5.128.0.js": {
+      "result": {
+        "url": "https://clerk.inngest.com/npm/@clerk/clerk-js@5.128.0/dist/framework_clerk.browser_70f75e_5.128.0.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["content-length", "43350"],
+          ["connection", "keep-alive"],
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=31536000, s-maxage=31536000, immutable"],
+          ["content-encoding", "br"],
+          ["etag", "W/\"2071d-VJX8GifjxnDenUKPene81SSgECo\""],
+          ["vary", "Accept-Encoding"],
+          ["access-control-expose-headers", "*"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["timing-allow-origin", "*"],
+          ["x-jsd-version", "5.128.0"],
+          ["x-jsd-version-type", "version"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2BouSetatmQqW9AgLvhDgnoc%2F0DS1h8nWRoKbSAj%2Fe7Ezqk7MWsO2Q2P5aFWhUXNGmgnCMVS7myNsvaTy2paIxeSOhSEA2h%2BxW3TSvW%2FfqIojxFq2FuG23cTD78xV8feTBpbC\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=63072000;"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad8c508f3350a-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://clerk.inngest.com/npm/@clerk/clerk-js@5.128.0/dist/clerk.browser.js": {
+      "result": {
+        "url": "https://clerk.inngest.com/npm/@clerk/clerk-js@5.128.0/dist/clerk.browser.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["content-length", "90553"],
+          ["connection", "keep-alive"],
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=31536000, s-maxage=31536000, immutable"],
+          ["content-encoding", "br"],
+          ["etag", "W/\"50807-PFRew13273Uj9Bm8sxhcHA4f66I\""],
+          ["vary", "Accept-Encoding"],
+          ["access-control-expose-headers", "*"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["timing-allow-origin", "*"],
+          ["x-jsd-version", "5.128.0"],
+          ["x-jsd-version-type", "version"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=wWQZa%2FE9wuTuxVzgYUfxq%2FCg1fzIifd2%2F%2F301rCXAf5nHZMFjBEFaKqbE0%2B0h2bThyz4Qr1FAwXsCMHlMHNjf33g63%2Fczk6SR4BtFOUD3ocMynNYeS3eA2E0PQH25zYv1ced\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=63072000;"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad8c50f248715-CPH"]
+        ],
+        "body": "\"https://challenges.cloudflare.com/\"\n\"https://clerk-telemetry.com/\"\n\"https://clerk.com/\"\n\"https://dashboard.clerk.com/\"\n\"https://img.clerk.com/\""
+      }
+    },
+    "GET https://clerk.inngest.com/npm/@clerk/clerk-js@5.128.0/dist/ui-common_clerk.browser_70f75e_5.128.0.js": {
+      "result": {
+        "url": "https://clerk.inngest.com/npm/@clerk/clerk-js@5.128.0/dist/ui-common_clerk.browser_70f75e_5.128.0.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["content-length", "121088"],
+          ["connection", "keep-alive"],
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=31536000, s-maxage=31536000, immutable"],
+          ["content-encoding", "br"],
+          ["etag", "W/\"6bf88-GloQlEeaC/0Y3kiXp3BdKhLbF8Y\""],
+          ["vary", "Accept-Encoding"],
+          ["access-control-expose-headers", "*"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["timing-allow-origin", "*"],
+          ["x-jsd-version", "5.128.0"],
+          ["x-jsd-version-type", "version"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ZvZJFiGwf6DkbSOOPgPMyksOMt4zCXdocAEYMWWpI4p7yTtv4J01%2FR5cpu6LuwTcpB08Dqx0C%2Ffzf%2FpeOG7TT9mCpns6xnDKSNrAHkFT3KeLDYLcOKJRpspj5s%2F0EjcU1NLO\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=63072000;"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad8c50d5132d7-CPH"]
+        ],
+        "body": "\"https://accounts.google.com/\"\n\"https://clerk.com/\"\n\"https://go.clerk.com/\"\n\"https://img.clerk.com/\"\n\"https://img.clerkstage.dev/\"\n\"https://img.lclclerk.com/\"\n\"https://solana.com/\"\n\"https://stripe.com/\""
+      }
+    },
+    "GET https://clerk.inngest.com/npm/@clerk/clerk-js@5.128.0/dist/subscriptionDetails_clerk.browser_70f75e_5.128.0.js": {
+      "result": {
+        "url": "https://clerk.inngest.com/npm/@clerk/clerk-js@5.128.0/dist/subscriptionDetails_clerk.browser_70f75e_5.128.0.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["content-length", "3159"],
+          ["connection", "keep-alive"],
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=31536000, s-maxage=31536000, immutable"],
+          ["content-encoding", "br"],
+          ["etag", "W/\"282c-y20Ef/unSrHVUXw9lvcpx5fqUl8\""],
+          ["vary", "Accept-Encoding"],
+          ["access-control-expose-headers", "*"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["timing-allow-origin", "*"],
+          ["x-jsd-version", "5.128.0"],
+          ["x-jsd-version-type", "version"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=aHo9jzp1kg0%2F8gXDgcPuqcIhrXiUuEpAGvCv70%2BPPcLxP%2BFSCmPAF0VC9WGX3gFRJ%2BmC3LW0bcazNXmKc5gt%2FYvtll%2FOwGLDYKDQ8rQnWOonRIvmI%2FO0vs0Ub5ljNKvzV2gn\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=63072000;"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad8c5390cb25e-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://clerk.inngest.com/npm/@clerk/clerk-js@5.128.0/dist/vendors_clerk.browser_70f75e_5.128.0.js": {
+      "result": {
+        "url": "https://clerk.inngest.com/npm/@clerk/clerk-js@5.128.0/dist/vendors_clerk.browser_70f75e_5.128.0.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["content-length", "47976"],
+          ["connection", "keep-alive"],
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=31536000, s-maxage=31536000, immutable"],
+          ["content-encoding", "br"],
+          ["etag", "W/\"21316-Tey8RNhVYyHmHCSOCfukS5/6cjg\""],
+          ["vary", "Accept-Encoding"],
+          ["access-control-expose-headers", "*"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["timing-allow-origin", "*"],
+          ["x-jsd-version", "5.128.0"],
+          ["x-jsd-version-type", "version"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=D28AkBmSWRfZEV3fW1neVo7oSYOAMvdozwRNpE5GTQnyEUqxN6sXaFtsbg%2F%2F2qIFUeQYxmTGzddnKtjDRiu9X%2Bbf2ypmRIR%2B4GfadgIrcekEuD6eHazoeQWKskYkL%2BCxWW4m\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=63072000;"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad8c53a6331a2-CPH"]
+        ],
+        "body": ""
       }
     }
   },
@@ -63,30 +461,23 @@
         "records": ["cname.vercel-dns.com"]
       }
     },
-    "AAAA app.inngest.com": {
-      "result": {
-        "name": "app.inngest.com",
-        "type": "AAAA",
-        "records": []
-      }
-    },
-    "A app.inngest.com": {
-      "result": {
-        "name": "app.inngest.com",
-        "type": "A",
-        "records": ["76.76.21.241", "66.33.60.193"]
-      }
-    },
     "NS app.inngest.com": {
       "result": {
         "name": "app.inngest.com",
         "type": "NS",
         "records": [
-          "ns2.vercel-dns-3.com",
-          "ns3.vercel-dns-3.com",
+          "ns1.vercel-dns-3.com",
           "ns4.vercel-dns-3.com",
-          "ns1.vercel-dns-3.com"
+          "ns2.vercel-dns-3.com",
+          "ns3.vercel-dns-3.com"
         ]
+      }
+    },
+    "AAAA app.inngest.com": {
+      "result": {
+        "name": "app.inngest.com",
+        "type": "AAAA",
+        "records": []
       }
     },
     "CNAME cname.vercel-dns.com": {
@@ -96,9 +487,16 @@
         "records": []
       }
     },
-    "TXT 61.21.76.76.origin.asn.cymru.com": {
+    "A app.inngest.com": {
       "result": {
-        "name": "61.21.76.76.origin.asn.cymru.com",
+        "name": "app.inngest.com",
+        "type": "A",
+        "records": ["76.76.21.93", "66.33.60.194"]
+      }
+    },
+    "TXT 241.21.76.76.origin.asn.cymru.com": {
+      "result": {
+        "name": "241.21.76.76.origin.asn.cymru.com",
         "type": "TXT",
         "records": ["16509 | 76.76.21.0/24 | US | arin | 2020-05-08"]
       }
@@ -115,7 +513,7 @@
     "app.inngest.com:443": {
       "result": {
         "host": "app.inngest.com",
-        "ip": "76.76.21.61",
+        "ip": "76.76.21.241",
         "issuer": "C=US, O=Let's Encrypt, CN=YR1",
         "subjectAltNames": ["app.inngest.com"],
         "validFrom": "Aug 17 01:41:51 2026 GMT",

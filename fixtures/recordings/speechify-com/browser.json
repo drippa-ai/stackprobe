@@ -394,12 +394,6 @@
         "headers": {}
       },
       {
-        "url": "https://website.cdn.speechify.com/platform-web-app-1.mp4",
-        "method": "GET",
-        "type": "media",
-        "headers": {}
-      },
-      {
         "url": "https://website.cdn.speechify.com/mic-icon-x24.svg",
         "method": "GET",
         "type": "image",
@@ -520,6 +514,12 @@
         "headers": {}
       },
       {
+        "url": "https://website.cdn.speechify.com/platform-web-app-1.mp4",
+        "method": "GET",
+        "type": "media",
+        "headers": {}
+      },
+      {
         "url": "https://website.cdn.speechify.com/platform-chrome-extension.mp4",
         "method": "GET",
         "type": "media",
@@ -592,12 +592,6 @@
         "headers": {}
       },
       {
-        "url": "https://speechify.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.3474752098377132:1791140719:alDAYYfkN58eOJWZXxbV5w3T7w9G9kaDLyqxKL-gyxM/a456c295ea26b518",
-        "method": "POST",
-        "type": "xhr",
-        "headers": {}
-      },
-      {
         "url": "https://trybe.speechify.com/pixel.js",
         "method": "GET",
         "type": "script",
@@ -646,26 +640,26 @@
         "headers": {}
       },
       {
+        "url": "https://speechify.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.9533884328351624:1791183921:eS22wFbA2gVS_NsUikEQ6w_gZnGlGzjiksMBkiHXdXs/a45ad8818ed76c90",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
         "url": "https://speechify.com/_next/static/chunks/01wku-.2v~b8e.js",
         "method": "GET",
         "type": "script",
         "headers": {}
       },
       {
-        "url": "https://accounts.google.com/gsi/client",
+        "url": "https://speechify.com/api/payload-session/",
         "method": "GET",
-        "type": "script",
+        "type": "fetch",
         "headers": {}
       },
       {
         "url": "https://us-central1-faro-cloud-proxy-production.cloudfunctions.net/faro-cloud-proxy",
         "method": "POST",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://speechify.com/api/payload-session/",
-        "method": "GET",
         "type": "fetch",
         "headers": {}
       },
@@ -691,12 +685,6 @@
         "url": "https://speechify.com/_next/static/chunks/0bm696i6h66he.css",
         "method": "GET",
         "type": "stylesheet",
-        "headers": {}
-      },
-      {
-        "url": "https://speechify.com/onboarding/nc/general/",
-        "method": "GET",
-        "type": "fetch",
         "headers": {}
       },
       {
@@ -760,7 +748,19 @@
         "headers": {}
       },
       {
+        "url": "https://speechify.com/onboarding/nc/general/",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
         "url": "https://connect.facebook.net/signals/config/2571390006668101",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://accounts.google.com/gsi/client",
         "method": "GET",
         "type": "script",
         "headers": {}
@@ -838,6 +838,12 @@
         "headers": {}
       },
       {
+        "url": "https://bzrcdn.openai.com/pixel-config/v1/V7SeysuVT5cR1kMytB2mJD.json",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
         "url": "https://b.applovin.com/v1/pixel/config",
         "method": "GET",
         "type": "fetch",
@@ -850,15 +856,27 @@
         "headers": {}
       },
       {
-        "url": "https://bzrcdn.openai.com/pixel-config/v1/V7SeysuVT5cR1kMytB2mJD.json",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
         "url": "https://b.applovin.com/v1/pixel",
         "method": "POST",
         "type": "ping",
+        "headers": {}
+      },
+      {
+        "url": "https://res4.applovin.com/p/104/b/bs.c9e1074f5b3f9fc8ea15d152add07294-1.iife.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://res4.applovin.com/p/104/hs/hs.iife.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://scripts.clarity.ms/0.8.70/clarity.js",
+        "method": "GET",
+        "type": "script",
         "headers": {}
       },
       {
@@ -886,24 +904,6 @@
         "headers": {}
       },
       {
-        "url": "https://res4.applovin.com/p/104/b/bs.c9e1074f5b3f9fc8ea15d152add07294-1.iife.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://res4.applovin.com/p/104/hs/hs.iife.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://scripts.clarity.ms/0.8.70/clarity.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
         "url": "https://www.googletagmanager.com/gtag/js",
         "method": "GET",
         "type": "script",
@@ -922,7 +922,19 @@
         "headers": {}
       },
       {
+        "url": "https://k.clarity.ms/collect",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
         "url": "https://us-central1-faro-cloud-proxy-production.cloudfunctions.net/faro-cloud-proxy",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://bzr.openai.com/v1/sdk/events",
         "method": "POST",
         "type": "fetch",
         "headers": {}
@@ -934,19 +946,13 @@
         "headers": {}
       },
       {
-        "url": "https://p.clarity.ms/collect",
-        "method": "POST",
-        "type": "xhr",
-        "headers": {}
-      },
-      {
-        "url": "https://bzr.openai.com/v1/sdk/events",
+        "url": "https://trybe.speechify.com/v1/pixel/events",
         "method": "POST",
         "type": "fetch",
         "headers": {}
       },
       {
-        "url": "https://p.clarity.ms/collect",
+        "url": "https://k.clarity.ms/collect",
         "method": "POST",
         "type": "xhr",
         "headers": {}
@@ -965,15 +971,15 @@
       "cf_clearance",
       "__cf_bm",
       "_cfuvid",
+      "__obref",
       "_axwrt_ts",
       "_axwrt",
       "ax_visitor",
-      "__obref",
       "_scid",
       "_scid_r",
+      "ugc_vid_ead00738-c1ee-477b-b637-2f1da2b15529",
       "_gcl_au",
-      "axcrt",
-      "ugc_vid_ead00738-c1ee-477b-b637-2f1da2b15529"
+      "axcrt"
     ],
     "globals": [
       "__next_s",
@@ -1003,13 +1009,13 @@
       "axon",
       "oaiq",
       "snaptr",
-      "onGoogleLibraryLoad",
       "_rwq",
       "rewardful",
       "__defNormalProp",
       "__spreadValues",
       "_rewardful_loaded",
       "Rewardful",
+      "onGoogleLibraryLoad",
       "parseOpenGraphData",
       "a0_0x4c92",
       "parseJsonLd",
@@ -1026,14 +1032,14 @@
       "scrapeMicrodata",
       "_scPxHelper",
       "_scPxTeller",
+      "__clr",
       "jspbGetTypeName",
       "google_tag_manager_external",
       "google_tag_manager",
       "google_tag_data",
-      "__clr",
+      "trybe",
       "ls",
-      "Un",
-      "trybe"
+      "Un"
     ]
   }
 }

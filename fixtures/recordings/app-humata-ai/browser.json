@@ -94,6 +94,12 @@
         "headers": {}
       },
       {
+        "url": "https://app.humata.ai/_next/data/Ziw4EGO2lfvslUvsHbtOO/logout.json",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
         "url": "https://app.humata.ai/_next/static/media/Sohne-Leicht.355f2437.otf",
         "method": "GET",
         "type": "font",
@@ -103,12 +109,6 @@
         "url": "https://app.humata.ai/fonts/Sohne-Leicht.woff2",
         "method": "GET",
         "type": "font",
-        "headers": {}
-      },
-      {
-        "url": "https://app.humata.ai/_next/data/Ziw4EGO2lfvslUvsHbtOO/logout.json",
-        "method": "GET",
-        "type": "fetch",
         "headers": {}
       },
       {
@@ -130,7 +130,43 @@
         "headers": {}
       },
       {
+        "url": "https://js.intercomcdn.com/frame.8ca90362.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://js.intercomcdn.com/vendor.6b1beca3.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
         "url": "https://connect.facebook.net/signals/config/954613023339162",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://api-iam.intercom.io/messenger/web/launcher_settings",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://api-iam.intercom.io/messenger/web/ping",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
         "method": "GET",
         "type": "script",
         "headers": {}
@@ -145,18 +181,6 @@
         "url": "https://app.humata.ai/_next/static/css/cb924e2a3cca105f.css",
         "method": "GET",
         "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://www.googletagmanager.com/gtag/js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://www.googletagmanager.com/gtag/js",
-        "method": "GET",
-        "type": "script",
         "headers": {}
       },
       {
@@ -196,18 +220,6 @@
         "headers": {}
       },
       {
-        "url": "https://js.intercomcdn.com/frame.9e82d32e.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://js.intercomcdn.com/vendor.6b1beca3.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
         "url": "https://www.facebook.com/tr/",
         "method": "GET",
         "type": "image",
@@ -238,19 +250,13 @@
         "headers": {}
       },
       {
-        "url": "https://api-iam.intercom.io/messenger/web/launcher_settings",
-        "method": "POST",
-        "type": "xhr",
-        "headers": {}
-      },
-      {
-        "url": "https://api-iam.intercom.io/messenger/web/ping",
-        "method": "POST",
-        "type": "xhr",
-        "headers": {}
-      },
-      {
         "url": "https://www.facebook.com/tr/",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/logo.svg",
         "method": "GET",
         "type": "image",
         "headers": {}
@@ -271,12 +277,6 @@
         "url": "https://app.humata.ai/_next/static/media/Sohne-Buch.3f4fe154.otf",
         "method": "GET",
         "type": "font",
-        "headers": {}
-      },
-      {
-        "url": "https://app.humata.ai/logo.svg",
-        "method": "GET",
-        "type": "image",
         "headers": {}
       },
       {
@@ -316,12 +316,6 @@
         "headers": {}
       },
       {
-        "url": "https://app.humata.ai/fonts/Sohne-Kraftig.woff",
-        "method": "GET",
-        "type": "font",
-        "headers": {}
-      },
-      {
         "url": "https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg",
         "method": "GET",
         "type": "image",
@@ -340,21 +334,9 @@
         "headers": {}
       },
       {
-        "url": "https://app.humata.ai/_next/static/chunks/pages/forgot-password-4879f8ba0a2d6ba3.js",
+        "url": "https://app.humata.ai/fonts/Sohne-Kraftig.woff",
         "method": "GET",
-        "type": "other",
-        "headers": {}
-      },
-      {
-        "url": "https://app.humata.ai/_next/static/chunks/pages/forgot-password-4879f8ba0a2d6ba3.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://app.humata.ai/_next/static/css/88edcb258734b63d.css",
-        "method": "GET",
-        "type": "fetch",
+        "type": "font",
         "headers": {}
       },
       {
@@ -373,6 +355,24 @@
         "url": "https://app.humata.ai/_next/static/chunks/pages/signup-2a1328b29c1dbeca.js",
         "method": "GET",
         "type": "other",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/pages/forgot-password-4879f8ba0a2d6ba3.js",
+        "method": "GET",
+        "type": "other",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/chunks/pages/forgot-password-4879f8ba0a2d6ba3.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://app.humata.ai/_next/static/css/88edcb258734b63d.css",
+        "method": "GET",
+        "type": "fetch",
         "headers": {}
       },
       {
@@ -398,25 +398,19 @@
         "method": "GET",
         "type": "fetch",
         "headers": {}
-      },
-      {
-        "url": "https://www.google.com/ccm/collect",
-        "method": "POST",
-        "type": "fetch",
-        "headers": {}
       }
     ],
     "websockets": [
-      "wss://nexus-websocket-a.intercom.io/pubsub/5-RBIQGVfwK41uWJtmUas4aApXtwAxbR6J_pnt6ZxBbnf1-ouStg908XwFhKohMDNfuMhLTSWzT--eCXS40v8SSZtWiDqG9zOSp_6e"
+      "wss://nexus-websocket-a.intercom.io/pubsub/5-E6crISVMppBDPYpbMyVmClXNNFv5hNRRh2ruVRcj9uTpwifLcVShSYfSEM44wOGazfsDjrft2qyllTA-ac6hj-s7AYtmsBp_72T7"
     ],
     "cookies": [
       "_ga",
       "_gcl_au",
+      "_ga_98M4H1DSL3",
       "_fbp",
       "intercom-id-ni8ix7uw",
       "intercom-session-ni8ix7uw",
-      "intercom-device-id-ni8ix7uw",
-      "_ga_98M4H1DSL3"
+      "intercom-device-id-ni8ix7uw"
     ],
     "globals": [
       "_rwq",
@@ -445,12 +439,12 @@
       "__spreadValues",
       "_rewardful_loaded",
       "Rewardful",
+      "__intercomAssignLocation",
+      "__intercomReloadLocation",
       "google_tag_data",
       "google_tag_manager",
       "onYouTubeIframeAPIReady",
-      "gaGlobal",
-      "__intercomAssignLocation",
-      "__intercomReloadLocation"
+      "gaGlobal"
     ]
   }
 }

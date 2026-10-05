@@ -63,7 +63,8 @@ without a recorded answer.
 
 `recordings/<name>/browser.json` holds the browser loads (sanitized: no query strings, cookie
 values or header values beyond a short allowlist) that a scan of that surface makes: its app
-pages, or an unclassified homepage. Record them with `pnpm record-browser`, which needs Chromium
+pages, or an unclassified homepage. `pnpm record-ground-truth` records them along with the
+network when Chromium is installed
 (`pnpm --filter @drippa/stackprobe-browser-playwright install-chromium`).
 
 Recordings of a surface also hold its own scripts, distilled to the strings the bundle layer

@@ -1000,6 +1000,12 @@
         "headers": {}
       },
       {
+        "url": "https://o324374.ingest.sentry.io/api/4506742283763712/envelope/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
         "url": "https://transcend-cdn.com/cm/a36a42ad-3a71-444f-9e8a-b19950129dc6/airgap.js",
         "method": "GET",
         "type": "script",
@@ -1009,12 +1015,6 @@
         "url": "https://accounts.google.com/gsi/client",
         "method": "GET",
         "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://o324374.ingest.sentry.io/api/4506742283763712/envelope/",
-        "method": "POST",
-        "type": "fetch",
         "headers": {}
       },
       {

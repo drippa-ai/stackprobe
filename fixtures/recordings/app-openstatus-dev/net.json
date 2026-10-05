@@ -1,6 +1,6 @@
 {
   "url": "https://app.openstatus.dev/",
-  "recordedAt": "2026-10-04T20:16:48.800Z",
+  "recordedAt": "2026-10-05T07:52:20.572Z",
   "http": {
     "GET https://app.openstatus.dev/": {
       "result": {
@@ -9,11 +9,11 @@
         "headers": [
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-type", "text/html"],
-          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
           ["location", "/overview"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
-          ["x-vercel-id", "arn1::htzw4-1791145008877-679ce40ebb01"],
+          ["x-vercel-id", "arn1::lst7p-1791186740684-dffbea62d2ca"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<a href=\"/overview\">here</a>"
@@ -26,14 +26,14 @@
         "headers": [
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-type", "text/html"],
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:21 GMT"],
           ["location", "/login?redirectTo=%2Foverview"],
           ["server", "Vercel"],
           ["set-cookie", "auth-redirect=<redacted>"],
           ["set-cookie", "__Host-authjs.csrf-token=<redacted>"],
           ["set-cookie", "__Secure-authjs.callback-url=<redacted>"],
           ["strict-transport-security", "max-age=63072000"],
-          ["x-vercel-id", "arn1::8pg5t-1791145008918-0d60bd53d80c"],
+          ["x-vercel-id", "arn1::l7kh4-1791186740711-6118a7304c0e"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<a href=\"/login?redirectTo=%252Foverview\">here</a>"
@@ -48,7 +48,7 @@
           ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
           ["content-encoding", "br"],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:22 GMT"],
           [
             "link",
             "</_next/static/immutable/media/797e433ab948586e-s.p.1v5bejj26fx9h.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/CalSans_SemiBold-s.p.36fsdtbhywrvd.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/immutable/media/CommitMono_400_Italic-s.p.0rnuo2147qah4.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/CommitMono_400_Regular-s.p.1ot3n3tzfq2ho.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/CommitMono_700_Italic-s.p.1fmtesxsx53ei.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/CommitMono_700_Regular-s.p.3hmpgs9gaxjfp.otf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/otf\", </_next/static/immutable/media/caa3a2e1cccd8315-s.p.0zr6hhvz-h9nw.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/chunks/1i-bbnm5x8lh1.css>; rel=preload; as=\"style\", </_next/static/immutable/chunks/1us3o-lvuln9k.css>; rel=preload; as=\"style\""
@@ -65,10 +65,10 @@
           ["x-matched-path", "/login"],
           ["x-powered-by", "Next.js"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::fra1::l6ptz-1791145010084-10a3b17df24d"],
+          ["x-vercel-id", "arn1::fra1::gmt4n-1791186741840-0553d5c8b245"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1i-bbnm5x8lh1.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1us3o-lvuln9k.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\">\n<script src=\"/_next/static/immutable/chunks/0t4g-i01yicww.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1wqtnon_j9c7o.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/11ya_humdx8by.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0n2erjj27forr.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-44pb8iy-7j269.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3t5ektktyf_ua.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2jtvkbzpybwau.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1sjw87h_3x02k.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/310_fuk16lic7.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3cv4-9my0ljsm.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3ape1_41zr_ls.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0gk-nefv03l8a.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1iyyl61n45hds.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://openpanel.dev/op1.js?v=1.5.1\" as=\"script\">\n<meta name=\"description\" content=\"Sign in to openstatus. Monitor your services and keep your users informed.\">\n<meta name=\"robots\" content=\"index, follow\">\n<link rel=\"canonical\" href=\"https://app.openstatus.dev/login\">\n<meta property=\"og:title\" content=\"openstatus\">\n<meta property=\"og:description\" content=\"Open-source platform to monitor your services and keep your users informed.\">\n<meta property=\"og:image\" content=\"https://www.openstatus.dev/api/og?title=openstatus&amp;description=Monitor%20your%20services%20and%20keep%20your%20users%20informed.&amp;footer=app.openstatus.dev&amp;image=assets/og/dashboard-v2.png\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"openstatus\">\n<meta name=\"twitter:description\" content=\"Open-source platform to monitor your services and keep your users informed.\">\n<meta name=\"twitter:image\" content=\"https://www.openstatus.dev/api/og?title=openstatus&amp;description=Monitor%20your%20services%20and%20keep%20your%20users%20informed.&amp;footer=app.openstatus.dev&amp;image=assets/og/dashboard-v2.png\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.07a7nheflmzmw.ico\" sizes=\"31x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.svg?icon.14mkonrt_abs6.svg\" sizes=\"any\" type=\"image/svg+xml\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"sentry-trace\" content=\"028947171ba44ab08e060c6fa6021707-beebaf955e960138-0\">\n<meta name=\"baggage\" content=\"sentry-environment=vercel-production,sentry-release=25b3d65fbb7276d01ae069393fdd4d764c1468d9,sentry-public_key=f20616b5573f2a39dab718d99c8d9e38,sentry-trace_id=028947171ba44ab08e060c6fa6021707,sentry-org_id=4505782661349376,sentry-sampled=false,sentry-sample_rand=0.7097907419168354,sentry-sample_rate=0.2\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"https://openstatus.dev\">openstatus</a>\n<a href=\"https://www.openstatus.dev/docs\">Documentation</a>\n<a href=\"https://openstatus.dev/legal/terms\">Terms of Service</a>\n<a href=\"https://openstatus.dev/legal/privacy\">Privacy Policy</a>\n<a href=\"https://openstatus.dev/guides/migrate-from-atlassian-statuspage\">Atlassian Statuspage</a>\n<a href=\"https://openstatus.dev/guides/migrate-from-betterstack\">Betterstack</a>\n<a href=\"https://openstatus.dev/guides/migrate-from-instatus\">Instatus</a>\n<script src=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\" id=\"_R_\" async=\"\"></script>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1i-bbnm5x8lh1.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1us3o-lvuln9k.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\">\n<script src=\"/_next/static/immutable/chunks/0t4g-i01yicww.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1wqtnon_j9c7o.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/11ya_humdx8by.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0n2erjj27forr.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-44pb8iy-7j269.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3t5ektktyf_ua.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2jtvkbzpybwau.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1sjw87h_3x02k.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/310_fuk16lic7.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3cv4-9my0ljsm.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3ape1_41zr_ls.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0gk-nefv03l8a.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1iyyl61n45hds.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://openpanel.dev/op1.js?v=1.5.1\" as=\"script\">\n<meta name=\"description\" content=\"Sign in to openstatus. Monitor your services and keep your users informed.\">\n<meta name=\"robots\" content=\"index, follow\">\n<link rel=\"canonical\" href=\"https://app.openstatus.dev/login\">\n<meta property=\"og:title\" content=\"openstatus\">\n<meta property=\"og:description\" content=\"Open-source platform to monitor your services and keep your users informed.\">\n<meta property=\"og:image\" content=\"https://www.openstatus.dev/api/og?title=openstatus&amp;description=Monitor%20your%20services%20and%20keep%20your%20users%20informed.&amp;footer=app.openstatus.dev&amp;image=assets/og/dashboard-v2.png\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"openstatus\">\n<meta name=\"twitter:description\" content=\"Open-source platform to monitor your services and keep your users informed.\">\n<meta name=\"twitter:image\" content=\"https://www.openstatus.dev/api/og?title=openstatus&amp;description=Monitor%20your%20services%20and%20keep%20your%20users%20informed.&amp;footer=app.openstatus.dev&amp;image=assets/og/dashboard-v2.png\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.07a7nheflmzmw.ico\" sizes=\"31x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.svg?icon.14mkonrt_abs6.svg\" sizes=\"any\" type=\"image/svg+xml\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"sentry-trace\" content=\"14af280218cd447d91f676423fb231d8-aaecf843e8a7718e-0\">\n<meta name=\"baggage\" content=\"sentry-environment=vercel-production,sentry-release=25b3d65fbb7276d01ae069393fdd4d764c1468d9,sentry-public_key=f20616b5573f2a39dab718d99c8d9e38,sentry-trace_id=14af280218cd447d91f676423fb231d8,sentry-org_id=4505782661349376,sentry-sampled=false,sentry-sample_rand=0.8329251669387879,sentry-sample_rate=0.2\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"https://openstatus.dev\">openstatus</a>\n<a href=\"https://www.openstatus.dev/docs\">Documentation</a>\n<a href=\"https://openstatus.dev/legal/terms\">Terms of Service</a>\n<a href=\"https://openstatus.dev/legal/privacy\">Privacy Policy</a>\n<a href=\"https://openstatus.dev/guides/migrate-from-atlassian-statuspage\">Atlassian Statuspage</a>\n<a href=\"https://openstatus.dev/guides/migrate-from-betterstack\">Betterstack</a>\n<a href=\"https://openstatus.dev/guides/migrate-from-instatus\">Instatus</a>\n<script src=\"/_next/static/immutable/chunks/1w1q-dum89wgn.js\" id=\"_R_\" async=\"\"></script>"
       }
     },
     "GET https://app.openstatus.dev/_next/static/immutable/chunks/0t4g-i01yicww.js": {
@@ -77,235 +77,19 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "344199"],
+          ["age", "385931"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"0t4g-i01yicww.js\""],
           ["content-encoding", "br"],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:23 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/0t4g-i01yicww.js\""],
           ["last-modified", "Wed, 30 Sep 2026 20:40:11 GMT"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
           ["x-matched-path", "/_next/static/immutable/chunks/0t4g-i01yicww.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::8zgmg-1791145010863-d682864dfe9f"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://app.openstatus.dev/_next/static/immutable/chunks/3ape1_41zr_ls.js": {
-      "result": {
-        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/3ape1_41zr_ls.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "344199"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3ape1_41zr_ls.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/3ape1_41zr_ls.js\""],
-          ["last-modified", "Wed, 30 Sep 2026 20:40:11 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/immutable/chunks/3ape1_41zr_ls.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::c6bts-1791145010936-b1fc4e858d76"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://app.openstatus.dev/_next/static/immutable/chunks/0gk-nefv03l8a.js": {
-      "result": {
-        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/0gk-nefv03l8a.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "344199"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0gk-nefv03l8a.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/0gk-nefv03l8a.js\""],
-          ["last-modified", "Wed, 30 Sep 2026 20:40:11 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/immutable/chunks/0gk-nefv03l8a.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::7cvlz-1791145010936-a966c5fd7422"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://app.openstatus.dev/_next/static/immutable/chunks/1w1q-dum89wgn.js": {
-      "result": {
-        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/1w1q-dum89wgn.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "344199"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"1w1q-dum89wgn.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/1w1q-dum89wgn.js\""],
-          ["last-modified", "Wed, 30 Sep 2026 20:40:11 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/immutable/chunks/1w1q-dum89wgn.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::mj5zg-1791145010939-d7a15abf716a"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://app.openstatus.dev/_next/static/immutable/chunks/3cv4-9my0ljsm.js": {
-      "result": {
-        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/3cv4-9my0ljsm.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "299398"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3cv4-9my0ljsm.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/3cv4-9my0ljsm.js\""],
-          ["last-modified", "Thu, 01 Oct 2026 09:06:52 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/immutable/chunks/3cv4-9my0ljsm.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::cdpft-1791145010938-1f953b042c81"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://app.openstatus.dev/_next/static/immutable/chunks/2jtvkbzpybwau.js": {
-      "result": {
-        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/2jtvkbzpybwau.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "366017"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2jtvkbzpybwau.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/2jtvkbzpybwau.js\""],
-          ["last-modified", "Wed, 30 Sep 2026 14:36:33 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/immutable/chunks/2jtvkbzpybwau.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::ll4qf-1791145010936-7b8d9cec357b"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://nuqs.dev/\""
-      }
-    },
-    "GET https://app.openstatus.dev/_next/static/immutable/chunks/310_fuk16lic7.js": {
-      "result": {
-        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/310_fuk16lic7.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "344199"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"310_fuk16lic7.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/310_fuk16lic7.js\""],
-          ["last-modified", "Wed, 30 Sep 2026 20:40:11 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/immutable/chunks/310_fuk16lic7.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::pnr2h-1791145010937-0405b30c6ad8"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://app.openstatus.dev/_next/static/immutable/chunks/turbopack-44pb8iy-7j269.js": {
-      "result": {
-        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/turbopack-44pb8iy-7j269.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "35908"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"turbopack-44pb8iy-7j269.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/turbopack-44pb8iy-7j269.js\""],
-          ["last-modified", "Sun, 04 Oct 2026 10:18:22 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/immutable/chunks/turbopack-44pb8iy-7j269.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::2xsj4-1791145010937-e4c7a57af7db"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://app.openstatus.dev/_next/static/immutable/chunks/3t5ektktyf_ua.js": {
-      "result": {
-        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/3t5ektktyf_ua.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "366017"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3t5ektktyf_ua.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/3t5ektktyf_ua.js\""],
-          ["last-modified", "Wed, 30 Sep 2026 14:36:33 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/immutable/chunks/3t5ektktyf_ua.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::mw48w-1791145010939-83aef7c6d41c"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://app.openstatus.dev/_next/static/immutable/chunks/1iyyl61n45hds.js": {
-      "result": {
-        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/1iyyl61n45hds.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "344199"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"1iyyl61n45hds.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/1iyyl61n45hds.js\""],
-          ["last-modified", "Wed, 30 Sep 2026 20:40:11 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/immutable/chunks/1iyyl61n45hds.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::gd27n-1791145010939-bcfa2197742a"],
+          ["x-vercel-id", "arn1::qz584-1791186743459-21cea18439cf"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -317,22 +101,94 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "344199"],
+          ["age", "385931"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"0n2erjj27forr.js\""],
           ["content-encoding", "br"],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:23 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/0n2erjj27forr.js\""],
           ["last-modified", "Wed, 30 Sep 2026 20:40:11 GMT"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
           ["x-matched-path", "/_next/static/immutable/chunks/0n2erjj27forr.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::rgm5t-1791145010937-8fe3e28cf9b2"],
+          ["x-vercel-id", "arn1::xb7h8-1791186743486-39b8e4e8fe53"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
+      }
+    },
+    "GET https://app.openstatus.dev/_next/static/immutable/chunks/3t5ektktyf_ua.js": {
+      "result": {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/3t5ektktyf_ua.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "407750"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3t5ektktyf_ua.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:23 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3t5ektktyf_ua.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:36:33 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3t5ektktyf_ua.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5p2r9-1791186743492-defadad36d10"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.openstatus.dev/_next/static/immutable/chunks/3cv4-9my0ljsm.js": {
+      "result": {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/3cv4-9my0ljsm.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "2114"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3cv4-9my0ljsm.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:23 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3cv4-9my0ljsm.js\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:17:08 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3cv4-9my0ljsm.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::rkz4l-1791186743494-bbdcc0f53dca"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.openstatus.dev/_next/static/immutable/chunks/2jtvkbzpybwau.js": {
+      "result": {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/2jtvkbzpybwau.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "407750"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2jtvkbzpybwau.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:23 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/2jtvkbzpybwau.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:36:33 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2jtvkbzpybwau.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::hmcs9-1791186743491-470d93293e16"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://nuqs.dev/\""
       }
     },
     "GET https://app.openstatus.dev/_next/static/immutable/chunks/1sjw87h_3x02k.js": {
@@ -341,19 +197,43 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "191256"],
+          ["age", "2114"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"1sjw87h_3x02k.js\""],
           ["content-encoding", "br"],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:23 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/1sjw87h_3x02k.js\""],
-          ["last-modified", "Fri, 02 Oct 2026 15:09:14 GMT"],
+          ["last-modified", "Mon, 05 Oct 2026 07:17:08 GMT"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
           ["x-matched-path", "/_next/static/immutable/chunks/1sjw87h_3x02k.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::7fl52-1791145010936-c1b389d2d2d5"],
+          ["x-vercel-id", "arn1::2mwhr-1791186743492-6bf8c40352c8"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.openstatus.dev/_next/static/immutable/chunks/0gk-nefv03l8a.js": {
+      "result": {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/0gk-nefv03l8a.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "385931"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0gk-nefv03l8a.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:23 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0gk-nefv03l8a.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 20:40:11 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0gk-nefv03l8a.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::c5fds-1791186743494-111f8d7b7863"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -365,19 +245,139 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "344199"],
+          ["age", "385931"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"1wqtnon_j9c7o.js\""],
           ["content-encoding", "br"],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:23 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/1wqtnon_j9c7o.js\""],
           ["last-modified", "Wed, 30 Sep 2026 20:40:11 GMT"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
           ["x-matched-path", "/_next/static/immutable/chunks/1wqtnon_j9c7o.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::hhh4n-1791145010937-fa48f50221fd"],
+          ["x-vercel-id", "arn1::d2hj9-1791186743487-ac3f8529bf19"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.openstatus.dev/_next/static/immutable/chunks/1w1q-dum89wgn.js": {
+      "result": {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/1w1q-dum89wgn.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "385931"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1w1q-dum89wgn.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:23 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/1w1q-dum89wgn.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 20:40:11 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1w1q-dum89wgn.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::rrnrm-1791186743497-6452b139e082"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.openstatus.dev/_next/static/immutable/chunks/310_fuk16lic7.js": {
+      "result": {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/310_fuk16lic7.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "385931"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"310_fuk16lic7.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:23 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/310_fuk16lic7.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 20:40:11 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/310_fuk16lic7.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::d75g6-1791186743495-158813ca3fdf"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.openstatus.dev/_next/static/immutable/chunks/1iyyl61n45hds.js": {
+      "result": {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/1iyyl61n45hds.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "385931"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1iyyl61n45hds.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:23 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/1iyyl61n45hds.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 20:40:11 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1iyyl61n45hds.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5clt4-1791186743496-d5f74c38f864"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.openstatus.dev/_next/static/immutable/chunks/3b2d0lhl8xx3q.js": {
+      "result": {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/3b2d0lhl8xx3q.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "385931"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3b2d0lhl8xx3q.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:23 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3b2d0lhl8xx3q.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 20:40:12 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3b2d0lhl8xx3q.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::k4b6k-1791186743499-c7b98d014cfd"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.openstatus.dev/_next/static/immutable/chunks/0c0hxoamwjsbw.js": {
+      "result": {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "41732"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0c0hxoamwjsbw.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:23 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0c0hxoamwjsbw.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0c0hxoamwjsbw.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::q6gw8-1791186743495-d921cf1703c4"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -389,43 +389,67 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "35908"],
+          ["age", "77640"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"11ya_humdx8by.js\""],
           ["content-encoding", "br"],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:23 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/11ya_humdx8by.js\""],
           ["last-modified", "Sun, 04 Oct 2026 10:18:22 GMT"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
           ["x-matched-path", "/_next/static/immutable/chunks/11ya_humdx8by.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::mmn2m-1791145010936-483b9d5b7f63"],
+          ["x-vercel-id", "arn1::5zbvd-1791186743490-dff39360a780"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "\"https://docs.sentry.io/\""
       }
     },
-    "GET https://app.openstatus.dev/_next/static/immutable/chunks/0c0hxoamwjsbw.js": {
+    "GET https://app.openstatus.dev/_next/static/immutable/chunks/turbopack-44pb8iy-7j269.js": {
       "result": {
-        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/turbopack-44pb8iy-7j269.js",
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "0"],
+          ["age", "77641"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0c0hxoamwjsbw.js\""],
+          ["content-disposition", "inline; filename=\"turbopack-44pb8iy-7j269.js\""],
           ["content-encoding", "br"],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/0c0hxoamwjsbw.js\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:23 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/turbopack-44pb8iy-7j269.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 10:18:22 GMT"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/immutable/chunks/0c0hxoamwjsbw.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::g2sj7-1791145010938-024a4540e26f"],
+          ["x-matched-path", "/_next/static/immutable/chunks/turbopack-44pb8iy-7j269.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::r8rfx-1791186743493-29bb077897bc"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.openstatus.dev/_next/static/immutable/chunks/3ape1_41zr_ls.js": {
+      "result": {
+        "url": "https://app.openstatus.dev/_next/static/immutable/chunks/3ape1_41zr_ls.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "2114"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3ape1_41zr_ls.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:23 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3ape1_41zr_ls.js\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:17:08 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3ape1_41zr_ls.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::qz584-1791186743494-c228d50fe005"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -433,25 +457,11 @@
     }
   },
   "dns": {
-    "CNAME app.openstatus.dev": {
-      "result": {
-        "name": "app.openstatus.dev",
-        "type": "CNAME",
-        "records": []
-      }
-    },
-    "TXT 1.1.150.216.origin.asn.cymru.com": {
-      "result": {
-        "name": "1.1.150.216.origin.asn.cymru.com",
-        "type": "TXT",
-        "records": ["16509 | 216.150.1.0/24 | US | arin | 2024-07-24"]
-      }
-    },
     "A app.openstatus.dev": {
       "result": {
         "name": "app.openstatus.dev",
         "type": "A",
-        "records": ["216.150.16.129", "216.150.1.193"]
+        "records": ["216.150.16.129", "216.150.1.129"]
       }
     },
     "AAAA app.openstatus.dev": {
@@ -468,11 +478,11 @@
         "records": []
       }
     },
-    "TXT as16509.asn.cymru.com": {
+    "CNAME app.openstatus.dev": {
       "result": {
-        "name": "AS16509.asn.cymru.com",
-        "type": "TXT",
-        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+        "name": "app.openstatus.dev",
+        "type": "CNAME",
+        "records": []
       }
     },
     "NS openstatus.dev": {
@@ -481,13 +491,27 @@
         "type": "NS",
         "records": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"]
       }
+    },
+    "TXT 129.1.150.216.origin.asn.cymru.com": {
+      "result": {
+        "name": "129.1.150.216.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 216.150.1.0/24 | US | arin | 2024-07-24"]
+      }
+    },
+    "TXT as16509.asn.cymru.com": {
+      "result": {
+        "name": "AS16509.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
     }
   },
   "tls": {
     "app.openstatus.dev:443": {
       "result": {
         "host": "app.openstatus.dev",
-        "ip": "216.150.1.1",
+        "ip": "216.150.1.129",
         "issuer": "C=US, O=Let's Encrypt, CN=YR2",
         "subjectAltNames": ["*.openstatus.dev", "openstatus.dev"],
         "validFrom": "Aug 19 02:11:01 2026 GMT",

@@ -1,13 +1,13 @@
 {
   "url": "https://drippa.ai/",
-  "recordedAt": "2026-10-04T20:16:59.380Z",
+  "recordedAt": "2026-10-05T07:52:47.066Z",
   "http": {
     "GET https://drippa.ai/": {
       "result": {
         "url": "https://drippa.ai/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:59 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:47 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -19,7 +19,7 @@
           ["x-deployment-id", "ea731826-516d-4760-9d58-2602fe26a0b2"],
           ["content-encoding", "gzip"],
           ["server", "cloudflare"],
-          ["cf-ray", "a456de145c0b4e4c-OSL"]
+          ["cf-ray", "a45ad94ecf20d82d-CPH"]
         ],
         "body": "<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta name=\"description\" content=\"Drippa builds a living world model of your Product Org, scopes the work, and hands optimized context to engineers and their coding agents.\">\n<meta name=\"keywords\" content=\"AI-native product development, world model, coding agents, Claude Code context, post-PRD, post-Jira, issues are dead, tickets are dead, product scoping, agentic workflows, product development platform\">\n<meta name=\"author\" content=\"Drippa\">\n<link rel=\"icon\" href=\"/favicon.png?v=2\" type=\"image/png\" sizes=\"any\">\n<link rel=\"apple-touch-icon\" href=\"/favicon.png?v=2\">\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">\n<link href=\"https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=Caveat:wght@400;600&amp;display=swap\" rel=\"stylesheet\">\n<meta property=\"og:title\" content=\"Drippa - Product development for the AI-native future\">\n<meta property=\"og:description\" content=\"Drippa builds a living world model of your product organization, then scopes and preps the work - handing optimized context to engineers and their coding agents. No PRDs. No tickets.\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:url\" content=\"https://drippa.ai/\">\n<meta property=\"og:image\" content=\"https://drippa.ai/og-image.png\">\n<meta property=\"og:site_name\" content=\"Drippa\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:site\" content=\"@drippa\">\n<meta name=\"twitter:title\" content=\"Drippa — Product development for the AI-native future\">\n<meta name=\"twitter:description\" content=\"Drippa builds a living world model of your product organization, then scopes and preps the work — handing optimized context to engineers and their coding agents. No PRDs. No tickets.\">\n<meta name=\"twitter:image\" content=\"https://drippa.ai/og-image.png\">\n<script type=\"module\" crossorigin=\"\" src=\"/assets/index-Cq1NYCMv.js\"></script>\n<link rel=\"stylesheet\" crossorigin=\"\" href=\"/assets/index-_WjodP5x.css\">\n<script defer=\"\" src=\"/~flock.js\" data-proxy-url=\"/~api/analytics\"></script>"
       }
@@ -36,7 +36,7 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; media-src 'self' blob: https:; font-src 'self' data:; connect-src 'self' https://ddvoszncihslnkiftvqx.supabase.co; frame-ancestors 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; report-uri /api/csp-report"
           ],
           ["content-type", "text/html"],
-          ["date", "Sun, 04 Oct 2026 20:17:00 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:47 GMT"],
           ["location", "/login"],
           ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
@@ -44,7 +44,7 @@
           ["strict-transport-security", "max-age=31536000; includeSubDomains"],
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "SAMEORIGIN"],
-          ["x-vercel-id", "arn1::bcth8-1791145020118-6eb599114163"],
+          ["x-vercel-id", "arn1::mprld-1791186767643-e6cf652769ee"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<a href=\"/login\">here</a>"
@@ -57,14 +57,14 @@
         "headers": [
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-security-policy", "frame-ancestors 'self'"],
-          ["date", "Sun, 04 Oct 2026 20:17:00 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:47 GMT"],
           ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=31536000; includeSubDomains"],
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "SAMEORIGIN"],
-          ["x-vercel-id", "arn1::tdvjt-1791145020168-9cf4510c55a2"],
+          ["x-vercel-id", "arn1::zhkq6-1791186767675-05a072be7e11"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -84,7 +84,7 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; media-src 'self' blob: https:; font-src 'self' data:; connect-src 'self' https://ddvoszncihslnkiftvqx.supabase.co; frame-ancestors 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; report-uri /api/csp-report"
           ],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:17:00 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:47 GMT"],
           [
             "link",
             "</_next/static/immutable/media/017d9bea37084d9b-s.p.2fl0vhx7oyatw.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/797e433ab948586e-s.p.1v5bejj26fx9h.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\""
@@ -102,7 +102,7 @@
           ["x-matched-path", "/login"],
           ["x-powered-by", "Next.js"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::arn1::845sh-1791145020214-fb4dbc5bb90c"],
+          ["x-vercel-id", "arn1::arn1::mprld-1791186767691-1bb0838f79f3"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/2low7b3ympyxz.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1cxkq6t8rbtbq.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/immutable/chunks/1bdglmhk3io3-.js\">\n<script src=\"/_next/static/immutable/chunks/37j0fse5aqm7e.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0310rj95uuxr8.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0zqe33iojj7x3.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2w05p8no808ff.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-283cq43m6ay11.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0l6c8_4m8g6g9.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0ij9f9es4gkuc.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2fdvq3sqnt5m4.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/20jguie8mkqa2.js\" async=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2ib4s3mz05paj.js\" async=\"\"></script>\n<meta name=\"description\" content=\"Multi-tenant webhook service for AI-powered GitHub PR analysis and Slack notifications\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.1zvtdxz8cp-v4.ico\" sizes=\"48x48\" type=\"image/x-icon\">\n<meta name=\"next-size-adjust\" content=\"\">\n<script src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"https://drippa.ai/terms\">Terms of Service</a>\n<a href=\"https://drippa.ai/privacy\">Privacy Policy</a>\n<script src=\"/_next/static/immutable/chunks/1bdglmhk3io3-.js\" id=\"_R_\" async=\"\"></script>"
@@ -114,13 +114,13 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "118521"],
+          ["age", "160268"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"37j0fse5aqm7e.js\""],
           ["content-encoding", "br"],
           ["content-security-policy", "frame-ancestors 'self'"],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:17:00 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:47 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/37j0fse5aqm7e.js\""],
           ["last-modified", "Sat, 03 Oct 2026 11:21:39 GMT"],
           ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
@@ -131,7 +131,7 @@
           ["x-frame-options", "SAMEORIGIN"],
           ["x-matched-path", "/_next/static/immutable/chunks/37j0fse5aqm7e.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::8pg5t-1791145020324-b194969aec40"],
+          ["x-vercel-id", "arn1::mvft5-1791186767842-f03f2d9447ed"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -143,13 +143,13 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "187162"],
+          ["age", "228909"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"turbopack-283cq43m6ay11.js\""],
           ["content-encoding", "br"],
           ["content-security-policy", "frame-ancestors 'self'"],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:17:00 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:47 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/turbopack-283cq43m6ay11.js\""],
           ["last-modified", "Fri, 02 Oct 2026 16:17:38 GMT"],
           ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
@@ -160,181 +160,7 @@
           ["x-frame-options", "SAMEORIGIN"],
           ["x-matched-path", "/_next/static/immutable/chunks/turbopack-283cq43m6ay11.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::jz9db-1791145020392-35a22061bc40"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://app.drippa.ai/_next/static/immutable/chunks/1bdglmhk3io3-.js": {
-      "result": {
-        "url": "https://app.drippa.ai/_next/static/immutable/chunks/1bdglmhk3io3-.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "187162"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"1bdglmhk3io3-.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "frame-ancestors 'self'"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:17:00 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/1bdglmhk3io3-.js\""],
-          ["last-modified", "Fri, 02 Oct 2026 16:17:38 GMT"],
-          ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
-          ["referrer-policy", "strict-origin-when-cross-origin"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
-          ["x-content-type-options", "nosniff"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/1bdglmhk3io3-.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::r6nks-1791145020410-0ab10e52e1f6"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://app.drippa.ai/_next/static/immutable/chunks/0ij9f9es4gkuc.js": {
-      "result": {
-        "url": "https://app.drippa.ai/_next/static/immutable/chunks/0ij9f9es4gkuc.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "187162"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0ij9f9es4gkuc.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "frame-ancestors 'self'"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:17:00 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/0ij9f9es4gkuc.js\""],
-          ["last-modified", "Fri, 02 Oct 2026 16:17:38 GMT"],
-          ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
-          ["referrer-policy", "strict-origin-when-cross-origin"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
-          ["x-content-type-options", "nosniff"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/0ij9f9es4gkuc.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::845sh-1791145020392-f98ee594271b"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://app.drippa.ai/_next/static/immutable/chunks/2w05p8no808ff.js": {
-      "result": {
-        "url": "https://app.drippa.ai/_next/static/immutable/chunks/2w05p8no808ff.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "118521"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2w05p8no808ff.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "frame-ancestors 'self'"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:17:00 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/2w05p8no808ff.js\""],
-          ["last-modified", "Sat, 03 Oct 2026 11:21:39 GMT"],
-          ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
-          ["referrer-policy", "strict-origin-when-cross-origin"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
-          ["x-content-type-options", "nosniff"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/2w05p8no808ff.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::zxz28-1791145020380-7cd9f713cd9d"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://app.drippa.ai/_next/static/immutable/chunks/20jguie8mkqa2.js": {
-      "result": {
-        "url": "https://app.drippa.ai/_next/static/immutable/chunks/20jguie8mkqa2.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "1277"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"20jguie8mkqa2.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "frame-ancestors 'self'"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:17:00 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/20jguie8mkqa2.js\""],
-          ["last-modified", "Sun, 04 Oct 2026 19:55:42 GMT"],
-          ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
-          ["referrer-policy", "strict-origin-when-cross-origin"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
-          ["x-content-type-options", "nosniff"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/20jguie8mkqa2.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::d5jhn-1791145020406-b903f55be1d1"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://app.drippa.ai/_next/static/immutable/chunks/2fdvq3sqnt5m4.js": {
-      "result": {
-        "url": "https://app.drippa.ai/_next/static/immutable/chunks/2fdvq3sqnt5m4.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "1277"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2fdvq3sqnt5m4.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "frame-ancestors 'self'"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:17:00 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/2fdvq3sqnt5m4.js\""],
-          ["last-modified", "Sun, 04 Oct 2026 19:55:42 GMT"],
-          ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
-          ["referrer-policy", "strict-origin-when-cross-origin"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
-          ["x-content-type-options", "nosniff"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/2fdvq3sqnt5m4.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::j8dht-1791145020406-09b159aaf0b3"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://app.drippa.ai/_next/static/immutable/chunks/2ib4s3mz05paj.js": {
-      "result": {
-        "url": "https://app.drippa.ai/_next/static/immutable/chunks/2ib4s3mz05paj.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "1277"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2ib4s3mz05paj.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "frame-ancestors 'self'"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:17:00 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/2ib4s3mz05paj.js\""],
-          ["last-modified", "Sun, 04 Oct 2026 19:55:42 GMT"],
-          ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
-          ["referrer-policy", "strict-origin-when-cross-origin"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
-          ["x-content-type-options", "nosniff"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/2ib4s3mz05paj.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::lz6t2-1791145020412-35b2195d1d86"],
+          ["x-vercel-id", "arn1::gmt4n-1791186767877-fb19fb414898"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -346,13 +172,13 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "187162"],
+          ["age", "228909"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"0l6c8_4m8g6g9.js\""],
           ["content-encoding", "br"],
           ["content-security-policy", "frame-ancestors 'self'"],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:17:00 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:47 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/0l6c8_4m8g6g9.js\""],
           ["last-modified", "Fri, 02 Oct 2026 16:17:38 GMT"],
           ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
@@ -363,31 +189,39 @@
           ["x-frame-options", "SAMEORIGIN"],
           ["x-matched-path", "/_next/static/immutable/chunks/0l6c8_4m8g6g9.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::9r5sw-1791145020394-7117cda788f2"],
+          ["x-vercel-id", "arn1::cl427-1791186767877-fc64c2f1ca25"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
       }
     },
-    "GET https://drippa.ai/~flock.js": {
+    "GET https://app.drippa.ai/_next/static/immutable/chunks/2w05p8no808ff.js": {
       "result": {
-        "url": "https://drippa.ai/~flock.js",
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/2w05p8no808ff.js",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:17:00 GMT"],
-          ["content-type", "text/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["cache-control", "max-age=1500"],
-          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["access-control-allow-origin", "*"],
+          ["age", "160268"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2w05p8no808ff.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'self'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:47 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/2w05p8no808ff.js\""],
+          ["last-modified", "Sat, 03 Oct 2026 11:21:39 GMT"],
+          ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
           ["x-content-type-options", "nosniff"],
-          ["set-cookie", "__cf_bm=<redacted>"],
-          ["content-encoding", "gzip"],
-          ["server", "cloudflare"],
-          ["cf-ray", "a456de19690e0daa-OSL"]
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2w05p8no808ff.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::dw4jk-1791186767875-33b88a225699"],
+          ["transfer-encoding", "chunked"]
         ],
-        "body": "\"https://api.tinybird.co/\""
+        "body": ""
       }
     },
     "GET https://app.drippa.ai/_next/static/immutable/chunks/0zqe33iojj7x3.js": {
@@ -396,13 +230,13 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "187162"],
+          ["age", "228909"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"0zqe33iojj7x3.js\""],
           ["content-encoding", "br"],
           ["content-security-policy", "frame-ancestors 'self'"],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:17:00 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:47 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/0zqe33iojj7x3.js\""],
           ["last-modified", "Fri, 02 Oct 2026 16:17:38 GMT"],
           ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
@@ -413,7 +247,36 @@
           ["x-frame-options", "SAMEORIGIN"],
           ["x-matched-path", "/_next/static/immutable/chunks/0zqe33iojj7x3.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::rddxh-1791145020380-53217d53e98d"],
+          ["x-vercel-id", "arn1::fwbmd-1791186767877-0f08dfb2054a"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.drippa.ai/_next/static/immutable/chunks/2fdvq3sqnt5m4.js": {
+      "result": {
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/2fdvq3sqnt5m4.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "43024"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2fdvq3sqnt5m4.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'self'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:47 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/2fdvq3sqnt5m4.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:55:42 GMT"],
+          ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2fdvq3sqnt5m4.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::ztbp5-1791186767880-04c05883eb69"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -425,15 +288,15 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "14"],
+          ["age", "41"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"0c0hxoamwjsbw.js\""],
           ["content-encoding", "br"],
           ["content-security-policy", "frame-ancestors 'self'"],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:17:00 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:47 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/0c0hxoamwjsbw.js\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:45 GMT"],
+          ["last-modified", "Mon, 05 Oct 2026 07:52:05 GMT"],
           ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["server", "Vercel"],
@@ -442,7 +305,94 @@
           ["x-frame-options", "SAMEORIGIN"],
           ["x-matched-path", "/_next/static/immutable/chunks/0c0hxoamwjsbw.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::w5x9n-1791145020406-e395f9782516"],
+          ["x-vercel-id", "arn1::r8rfx-1791186767881-bb349a166f25"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.drippa.ai/_next/static/immutable/chunks/20jguie8mkqa2.js": {
+      "result": {
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/20jguie8mkqa2.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "256792"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"20jguie8mkqa2.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'self'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:47 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/20jguie8mkqa2.js\""],
+          ["last-modified", "Fri, 02 Oct 2026 08:32:54 GMT"],
+          ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/20jguie8mkqa2.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::8fsdh-1791186767885-a6e14a3fc377"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.drippa.ai/_next/static/immutable/chunks/0ij9f9es4gkuc.js": {
+      "result": {
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/0ij9f9es4gkuc.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "228909"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0ij9f9es4gkuc.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'self'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:47 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0ij9f9es4gkuc.js\""],
+          ["last-modified", "Fri, 02 Oct 2026 16:17:38 GMT"],
+          ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0ij9f9es4gkuc.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::zhkq6-1791186767887-4e42047c5380"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.drippa.ai/_next/static/immutable/chunks/1bdglmhk3io3-.js": {
+      "result": {
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/1bdglmhk3io3-.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "228909"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1bdglmhk3io3-.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'self'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:47 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/1bdglmhk3io3-.js\""],
+          ["last-modified", "Fri, 02 Oct 2026 16:17:38 GMT"],
+          ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1bdglmhk3io3-.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::8fsdh-1791186767887-5f7049d18b74"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -454,13 +404,13 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "187162"],
+          ["age", "228909"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"0310rj95uuxr8.js\""],
           ["content-encoding", "br"],
           ["content-security-policy", "frame-ancestors 'self'"],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:17:00 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:47 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/0310rj95uuxr8.js\""],
           ["last-modified", "Fri, 02 Oct 2026 16:17:38 GMT"],
           ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
@@ -471,7 +421,57 @@
           ["x-frame-options", "SAMEORIGIN"],
           ["x-matched-path", "/_next/static/immutable/chunks/0310rj95uuxr8.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::lz6t2-1791145020380-c31551e62f8b"],
+          ["x-vercel-id", "arn1::v2ssl-1791186767872-867e5341437c"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://drippa.ai/~flock.js": {
+      "result": {
+        "url": "https://drippa.ai/~flock.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:47 GMT"],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cache-control", "max-age=1500"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["content-encoding", "gzip"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9534c45d8d5-CPH"]
+        ],
+        "body": "\"https://api.tinybird.co/\""
+      }
+    },
+    "GET https://app.drippa.ai/_next/static/immutable/chunks/2ib4s3mz05paj.js": {
+      "result": {
+        "url": "https://app.drippa.ai/_next/static/immutable/chunks/2ib4s3mz05paj.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2ib4s3mz05paj.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "frame-ancestors 'self'"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:47 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/2ib4s3mz05paj.js\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:52:05 GMT"],
+          ["permissions-policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2ib4s3mz05paj.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::d75g6-1791186767886-3654862a650c"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -482,7 +482,7 @@
         "url": "https://drippa.ai/assets/index-Cq1NYCMv.js",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:17:00 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:48 GMT"],
           ["content-type", "text/javascript; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -495,13 +495,20 @@
           ["etag", "W/\"0d0024abf03c171511bc61fa063e5d8f\""],
           ["content-encoding", "gzip"],
           ["server", "cloudflare"],
-          ["cf-ray", "a456de190c604e4c-OSL"]
+          ["cf-ray", "a45ad9530862d82d-CPH"]
         ],
         "body": "\"https://app.drippa.ai/\"\n\"https://cal.com/\"\n\"https://chat.deepseek.com/\"\n\"https://chatgpt.com/\"\n\"https://claude.ai/\"\n\"https://dora.dev/\"\n\"https://drippa.ai/\"\n\"https://edpb.europa.eu/\"\n\"https://gnqivvzsyznzmgjicoih.supabase.co/\"\n\"https://gsap.com/\"\n\"https://ideas.repec.org/\"\n\"https://lovable.dev/\"\n\"https://radix-ui.com/\"\n\"https://www.artificialintelligence-news.com/\"\n\"https://www.bain.com/\"\n\"https://www.perplexity.ai/\""
       }
     }
   },
   "dns": {
+    "A drippa.ai": {
+      "result": {
+        "name": "drippa.ai",
+        "type": "A",
+        "records": ["185.158.133.1"]
+      }
+    },
     "AAAA drippa.ai": {
       "result": {
         "name": "drippa.ai",
@@ -521,13 +528,6 @@
         "name": "drippa.ai",
         "type": "NS",
         "records": ["dns1.registrar-servers.com", "dns2.registrar-servers.com"]
-      }
-    },
-    "A drippa.ai": {
-      "result": {
-        "name": "drippa.ai",
-        "type": "A",
-        "records": ["185.158.133.1"]
       }
     },
     "TXT 1.133.158.185.origin.asn.cymru.com": {
@@ -560,38 +560,13 @@
       "result": {
         "name": "app.drippa.ai",
         "type": "A",
-        "records": ["216.150.16.193", "216.150.1.193"]
+        "records": ["216.150.1.1", "216.150.16.1"]
       }
     },
-    "CNAME app.drippa.ai": {
-      "result": {
-        "name": "app.drippa.ai",
-        "type": "CNAME",
-        "records": ["edb0d07de83bcc8e.vercel-dns-017.com"]
-      }
-    },
-    "A dashboard.drippa.ai": {
+    "CNAME portal.drippa.ai": {
       "error": {
         "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND dashboard.drippa.ai"
-      }
-    },
-    "CNAME console.drippa.ai": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryCname ENOTFOUND console.drippa.ai"
-      }
-    },
-    "CNAME dashboard.drippa.ai": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryCname ENOTFOUND dashboard.drippa.ai"
-      }
-    },
-    "A console.drippa.ai": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND console.drippa.ai"
+        "message": "queryCname ENOTFOUND portal.drippa.ai"
       }
     },
     "A portal.drippa.ai": {
@@ -600,10 +575,34 @@
         "message": "queryA ENOTFOUND portal.drippa.ai"
       }
     },
+    "A dashboard.drippa.ai": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND dashboard.drippa.ai"
+      }
+    },
+    "A console.drippa.ai": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND console.drippa.ai"
+      }
+    },
     "A status.drippa.ai": {
       "error": {
         "code": "DNS_NXDOMAIN",
         "message": "queryA ENOTFOUND status.drippa.ai"
+      }
+    },
+    "CNAME dashboard.drippa.ai": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND dashboard.drippa.ai"
+      }
+    },
+    "A docs.drippa.ai": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND docs.drippa.ai"
       }
     },
     "CNAME api.drippa.ai": {
@@ -613,22 +612,17 @@
         "records": ["edb0d07de83bcc8e.vercel-dns-017.com"]
       }
     },
-    "CNAME portal.drippa.ai": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryCname ENOTFOUND portal.drippa.ai"
-      }
-    },
     "CNAME docs.drippa.ai": {
       "error": {
         "code": "DNS_NXDOMAIN",
         "message": "queryCname ENOTFOUND docs.drippa.ai"
       }
     },
-    "A docs.drippa.ai": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND docs.drippa.ai"
+    "A api.drippa.ai": {
+      "result": {
+        "name": "api.drippa.ai",
+        "type": "A",
+        "records": ["216.150.1.1", "216.150.16.1"]
       }
     },
     "CNAME status.drippa.ai": {
@@ -637,17 +631,30 @@
         "message": "queryCname ENOTFOUND status.drippa.ai"
       }
     },
-    "A api.drippa.ai": {
-      "result": {
-        "name": "api.drippa.ai",
-        "type": "A",
-        "records": ["216.150.1.193", "216.150.16.193"]
-      }
-    },
-    "NS app.drippa.ai": {
+    "CNAME app.drippa.ai": {
       "result": {
         "name": "app.drippa.ai",
-        "type": "NS",
+        "type": "CNAME",
+        "records": ["edb0d07de83bcc8e.vercel-dns-017.com"]
+      }
+    },
+    "CNAME console.drippa.ai": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND console.drippa.ai"
+      }
+    },
+    "AAAA api.drippa.ai": {
+      "result": {
+        "name": "api.drippa.ai",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "CNAME edb0d07de83bcc8e.vercel-dns-017.com": {
+      "result": {
+        "name": "edb0d07de83bcc8e.vercel-dns-017.com",
+        "type": "CNAME",
         "records": []
       }
     },
@@ -665,23 +672,16 @@
         "records": []
       }
     },
-    "AAAA api.drippa.ai": {
+    "NS app.drippa.ai": {
       "result": {
-        "name": "api.drippa.ai",
-        "type": "AAAA",
+        "name": "app.drippa.ai",
+        "type": "NS",
         "records": []
       }
     },
-    "CNAME edb0d07de83bcc8e.vercel-dns-017.com": {
+    "TXT 129.16.150.216.origin.asn.cymru.com": {
       "result": {
-        "name": "edb0d07de83bcc8e.vercel-dns-017.com",
-        "type": "CNAME",
-        "records": []
-      }
-    },
-    "TXT 193.16.150.216.origin.asn.cymru.com": {
-      "result": {
-        "name": "193.16.150.216.origin.asn.cymru.com",
+        "name": "129.16.150.216.origin.asn.cymru.com",
         "type": "TXT",
         "records": ["16509 | 216.150.16.0/24 | US | arin | 2024-07-24"]
       }
@@ -691,6 +691,13 @@
         "name": "AS16509.asn.cymru.com",
         "type": "TXT",
         "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
+      }
+    },
+    "TXT 1.16.150.216.origin.asn.cymru.com": {
+      "result": {
+        "name": "1.16.150.216.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": ["16509 | 216.150.16.0/24 | US | arin | 2024-07-24"]
       }
     }
   },
@@ -708,7 +715,7 @@
     "app.drippa.ai:443": {
       "result": {
         "host": "app.drippa.ai",
-        "ip": "216.150.16.193",
+        "ip": "216.150.16.129",
         "issuer": "C=US, O=Let's Encrypt, CN=YR1",
         "subjectAltNames": ["app.drippa.ai"],
         "validFrom": "Sep  1 12:23:41 2026 GMT",
@@ -718,7 +725,7 @@
     "api.drippa.ai:443": {
       "result": {
         "host": "api.drippa.ai",
-        "ip": "216.150.16.193",
+        "ip": "216.150.16.1",
         "issuer": "C=US, O=Let's Encrypt, CN=YR1",
         "subjectAltNames": ["api.drippa.ai"],
         "validFrom": "Sep 20 19:13:43 2026 GMT",

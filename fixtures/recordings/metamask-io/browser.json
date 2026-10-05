@@ -190,6 +190,12 @@
         "headers": {}
       },
       {
+        "url": "https://metamask.io/assets/video/home-1920-cover.jpg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
         "url": "https://metamask.io/_next/static/chunks/webpack-040f320ae52fd398.js",
         "method": "GET",
         "type": "script",
@@ -337,12 +343,6 @@
         "url": "https://metamask.io/_next/static/chunks/app/%5Blocale%5D/layout-76b70b8cf757687b.js",
         "method": "GET",
         "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://metamask.io/assets/video/home-1920-cover.jpg",
-        "method": "GET",
-        "type": "image",
         "headers": {}
       },
       {
@@ -556,7 +556,7 @@
         "headers": {}
       },
       {
-        "url": "https://metamask.io/masks/03/1920x1080/03_MM_Mask-effect_1920x1080.lottie",
+        "url": "https://metamask.io/masks/01/1920x1080/01_MM_Mask-effect_1920x1080.lottie",
         "method": "GET",
         "type": "fetch",
         "headers": {}
@@ -604,12 +604,6 @@
         "headers": {}
       },
       {
-        "url": "https://forms.hsforms.com/embed/v3/form/4795067/2b64112b-f442-4840-9ace-b11dccd5f744/json",
-        "method": "GET",
-        "type": "xhr",
-        "headers": {}
-      },
-      {
         "url": "https://www.gstatic.com/draco/versioned/decoders/1.5.5/draco_wasm_wrapper.js",
         "method": "GET",
         "type": "fetch",
@@ -619,6 +613,12 @@
         "url": "https://www.gstatic.com/draco/versioned/decoders/1.5.5/draco_decoder.wasm",
         "method": "GET",
         "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://forms.hsforms.com/embed/v3/form/4795067/2b64112b-f442-4840-9ace-b11dccd5f744/json",
+        "method": "GET",
+        "type": "xhr",
         "headers": {}
       },
       {
@@ -646,9 +646,51 @@
         "headers": {}
       },
       {
+        "url": "https://www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/recaptcha__en.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
         "url": "https://metamask.io/glb/cube-transformed.glb",
         "method": "GET",
         "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://metamask.io/glb/integrate-transformed.glb",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://metamask.io/glb/extend-transformed.glb",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://metamask.io/glb/access-transformed.glb",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://metamask.io/glb/instance-transformed.glb",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.com/recaptcha/enterprise/anchor",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/styles__ltr.css",
+        "method": "GET",
+        "type": "stylesheet",
         "headers": {}
       },
       {
@@ -656,14 +698,50 @@
         "method": "GET",
         "type": "script",
         "headers": {}
+      },
+      {
+        "url": "https://metamask.io/glb/default.jpg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.com/recaptcha/enterprise/webworker.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf",
+        "method": "GET",
+        "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/recaptcha__en.js",
+        "method": "GET",
+        "type": "other",
+        "headers": {}
       }
     ],
     "websockets": [],
     "cookies": ["NEXT_LOCALE", "__cf_bm"],
     "globals": [
-      "webpackChunk_N_E",
       "__next_s",
       "__next_f",
+      "webpackChunk_N_E",
       "_N_E",
       "NEXT_DEPLOYMENT_ID",
       "next",
@@ -687,7 +765,13 @@
       "hbspt",
       "hsFormsOnReady",
       "_hsq",
-      "hsRecaptchaLoaded_5c62eec8_e581_41ae_b75a_cea45d4c328c"
+      "hsRecaptchaLoaded_2b6c62f9_f7a6_4c27_aba1_08f3eb524c37",
+      "___grecaptcha_cfg",
+      "grecaptcha",
+      "__recaptcha_api",
+      "__google_recaptcha_client",
+      "scrypt",
+      "closure_lm_110602"
     ]
   }
 }

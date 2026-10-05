@@ -268,18 +268,6 @@
         "headers": {}
       },
       {
-        "url": "https://app.qa.tech/auth/password-reset",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://app.qa.tech/",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
         "url": "https://www.googletagmanager.com/gtag/js",
         "method": "GET",
         "type": "script",
@@ -334,12 +322,6 @@
         "headers": {}
       },
       {
-        "url": "https://app.qa.tech/auth/sign-in",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
         "url": "https://app.qa.tech/_x/static/posthog-recorder.js",
         "method": "GET",
         "type": "script",
@@ -370,7 +352,25 @@
         "headers": {}
       },
       {
+        "url": "https://app.qa.tech/_next/image",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_next/image",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
         "url": "https://app.qa.tech/auth/password-reset",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/",
         "method": "GET",
         "type": "fetch",
         "headers": {}
@@ -379,12 +379,6 @@
         "url": "https://app.qa.tech/auth/sign-in",
         "method": "GET",
         "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
-        "method": "GET",
-        "type": "script",
         "headers": {}
       },
       {
@@ -418,49 +412,7 @@
         "headers": {}
       },
       {
-        "url": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://www.googleadservices.com/pagead/conversion/11487178656/",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://www.google.com/ccm/collect",
-        "method": "POST",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://www.googleadservices.com/ccm/conversion/11487178656/",
-        "method": "GET",
-        "type": "image",
-        "headers": {}
-      },
-      {
-        "url": "https://px.ads.linkedin.com/collect",
-        "method": "GET",
-        "type": "image",
-        "headers": {}
-      },
-      {
-        "url": "https://connect.facebook.net/signals/config/362946813210832",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://app.qa.tech/_x/api/surveys/",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://js-eu1.hs-analytics.net/analytics/1791139500000/143323477.js",
+        "url": "https://js-eu1.hs-analytics.net/analytics/1791185700000/143323477.js",
         "method": "GET",
         "type": "script",
         "headers": {}
@@ -478,8 +430,74 @@
         "headers": {}
       },
       {
+        "url": "https://app.qa.tech/auth/password-reset",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion/11487178656/",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googleadservices.com/ccm/conversion/11487178656/",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.com/ccm/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/auth/sign-in",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/362946813210832",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://px.ads.linkedin.com/collect",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://api-eu1.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
         "url": "https://px.ads.linkedin.com/wa/",
         "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.qa.tech/_x/api/surveys/",
+        "method": "GET",
         "type": "fetch",
         "headers": {}
       },
@@ -490,21 +508,15 @@
         "headers": {}
       },
       {
-        "url": "https://aplo-evnt.com/api/v1/intent_pixel/track_request",
-        "method": "POST",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://api-eu1.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json",
-        "method": "GET",
-        "type": "xhr",
-        "headers": {}
-      },
-      {
         "url": "https://www.googletagmanager.com/gtag/js",
         "method": "GET",
         "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://aplo-evnt.com/api/v1/intent_pixel/track_request",
+        "method": "POST",
+        "type": "fetch",
         "headers": {}
       },
       {
@@ -515,12 +527,6 @@
       },
       {
         "url": "https://track-eu1.hubspot.com/__ptq.gif",
-        "method": "GET",
-        "type": "image",
-        "headers": {}
-      },
-      {
-        "url": "https://www.googletagmanager.com/a",
         "method": "GET",
         "type": "image",
         "headers": {}
@@ -579,29 +585,29 @@
       "_fbq",
       "initApollo",
       "_POSTHOG_REMOTE_CONFIG",
-      "posthogErrorWrappingFunctions",
-      "extendPostHogWithExceptionAutoCapture",
-      "extendPostHogWithExceptionAutocapture",
       "redditNormalizeEmail",
       "onYouTubeIframeAPIReady",
       "gaGlobal",
-      "postHogTracingHeadersPatchFns",
-      "trackingFunctions",
-      "_already_called_lintrk",
-      "ORIBILI",
-      "postHogWebVitalsCallbacks",
-      "extendPostHogWithSurveys",
       "_hsp",
       "__hsReferrer",
       "__hsInitialUrl",
+      "posthogErrorWrappingFunctions",
+      "extendPostHogWithExceptionAutoCapture",
+      "extendPostHogWithExceptionAutocapture",
+      "postHogTracingHeadersPatchFns",
+      "trackingFunctions",
+      "postHogWebVitalsCallbacks",
+      "_already_called_lintrk",
       "PIXELS_RAN",
       "enabledEventSettings",
       "_hsq",
-      "sanitizeKey",
-      "_hstc_loaded",
       "hsCookieBanner",
       "_hspb_loaded",
       "_hspb_ran",
+      "sanitizeKey",
+      "_hstc_loaded",
+      "ORIBILI",
+      "extendPostHogWithSurveys",
       "_hstc_ran",
       "hsCallsToActionsReady",
       "__hsUserToken",

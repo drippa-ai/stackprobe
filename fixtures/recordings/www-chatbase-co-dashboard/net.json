@@ -1,6 +1,6 @@
 {
   "url": "https://www.chatbase.co/dashboard",
-  "recordedAt": "2026-10-04T20:16:46.655Z",
+  "recordedAt": "2026-10-05T07:52:07.992Z",
   "http": {
     "GET https://www.chatbase.co/dashboard": {
       "result": {
@@ -13,7 +13,7 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "text/html"],
-          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:08 GMT"],
           ["location", "/auth/signin?next=%2Fdashboard"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
@@ -21,7 +21,7 @@
           ["strict-transport-security", "max-age=63072000"],
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "SAMEORIGIN"],
-          ["x-vercel-id", "arn1::bcth8-1791145006726-37683f6d553b"],
+          ["x-vercel-id", "arn1::h827l-1791186728002-17dd605e7a25"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<a href=\"/auth/signin?next=%252Fdashboard\">here</a>"
@@ -40,7 +40,7 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:08 GMT"],
           [
             "link",
             "</__cb/_next/static/immutable/media/83afe278b6a6bb3c-s.p.45535valc9rzk.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </__cb/_next/static/immutable/media/caa3a2e1cccd8315-s.p.0zr6hhvz-h9nw.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </fonts/ProzaDisplay-SemiBoldItalic.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </fonts/ProzaDisplay-BoldItalic.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\""
@@ -57,109 +57,10 @@
           ["x-frame-options", "SAMEORIGIN"],
           ["x-matched-path", "/auth/signin"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::iad1::bcth8-1791145006784-7e0e26302bcb"],
+          ["x-vercel-id", "arn1::iad1::6tl6n-1791186728038-f875b9ce6593"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/0pd517pxh6vcm.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/2-5wzhu8qppjo.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/1t4cxi75rdbk2.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/3u2p097r6uft5.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/__cb/_next/static/immutable/chunks/0c3qvn961npnn.js\">\n<script src=\"/__cb/_next/static/immutable/chunks/1191lj8_x8otc.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2nwa74aoyrwy0.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/030_x03l9ly56.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0ux-h5uvcuc89.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/turbopack-22-c1oqq6f7zu.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0x-9rc1bm-510.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2qdblmd4je3nh.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/4519rpd7jxu8x.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0x767289iclnm.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1ciksvojfipik.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/26520i_dqg323.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3l6-c6vc89ks3.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3th-44uczva1s.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0lpzvm68p_5b7.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0yre_ngvk4fsm.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3vgtzkidybmkg.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3t1g0gue_7_2e.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/33n4ouh7f3_9s.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1imv5lnii1thd.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/22mnbgxpw3eje.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1-0y7-7nhhxm1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/10h9wya-h4zph.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/26v9vzy95by3x.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/30_ukc6_fhn_b.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3uzfp5gpfy5yl.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/05i21-8v2mk_f.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2loevn1b5-7nz.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0-wjlyk8qsae_.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0k8_f9q3v7zje.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/00pjbka6tgacw.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1zii8055jnmqm.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0b8ps6pzkqs3t.js\" async=\"\" crossorigin=\"\"></script>\n<meta name=\"description\" content=\"Sign in to your account\">\n<meta name=\"robots\" content=\"noindex, nofollow\">\n<link rel=\"canonical\" href=\"https://www.chatbase.co/auth/signin\">\n<meta name=\"next-size-adjust\" content=\"\">\n<link rel=\"preload\" href=\"/fonts/ProzaDisplay-SemiBoldItalic.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/fonts/ProzaDisplay-BoldItalic.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<script src=\"/__cb/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"/\">Chatbase</a>\n<a href=\"/auth/signup?next=%2Fdashboard\">Create a new account</a>\n<a href=\"/auth/sso\">Sign in with SSO</a>\n<a href=\"/legal/terms\">Terms</a>\n<a href=\"/legal/privacy\">Privacy</a>\n<script src=\"/__cb/_next/static/immutable/chunks/0c3qvn961npnn.js\" id=\"_R_\" async=\"\"></script>\n<a href=\"/auth/password-reset?next=%2Fdashboard\">Forgot password?</a>"
-      }
-    },
-    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/turbopack-22-c1oqq6f7zu.js": {
-      "result": {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/turbopack-22-c1oqq6f7zu.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "363453"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"turbopack-22-c1oqq6f7zu.js\""],
-          ["content-encoding", "br"],
-          [
-            "content-security-policy-report-only",
-            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
-          ],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/turbopack-22-c1oqq6f7zu.js\""],
-          ["last-modified", "Wed, 30 Sep 2026 15:00:57 GMT"],
-          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
-          ["referrer-policy", "strict-origin-when-cross-origin"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-content-type-options", "nosniff"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/turbopack-22-c1oqq6f7zu.js"],
-          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/turbopack-22-c1oqq6f7zu.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::lz6t2-1791145007306-fe40c1e395e5"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/2nwa74aoyrwy0.js": {
-      "result": {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/2nwa74aoyrwy0.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "214040"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2nwa74aoyrwy0.js\""],
-          ["content-encoding", "br"],
-          [
-            "content-security-policy-report-only",
-            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
-          ],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/2nwa74aoyrwy0.js\""],
-          ["last-modified", "Fri, 02 Oct 2026 08:14:28 GMT"],
-          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
-          ["referrer-policy", "strict-origin-when-cross-origin"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-content-type-options", "nosniff"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/2nwa74aoyrwy0.js"],
-          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/2nwa74aoyrwy0.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::rddrp-1791145007304-e45afac1f850"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/0ux-h5uvcuc89.js": {
-      "result": {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/0ux-h5uvcuc89.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "321528"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0ux-h5uvcuc89.js\""],
-          ["content-encoding", "br"],
-          [
-            "content-security-policy-report-only",
-            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
-          ],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/0ux-h5uvcuc89.js\""],
-          ["last-modified", "Thu, 01 Oct 2026 02:25:43 GMT"],
-          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
-          ["referrer-policy", "strict-origin-when-cross-origin"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-content-type-options", "nosniff"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/0ux-h5uvcuc89.js"],
-          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/0ux-h5uvcuc89.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::zxz28-1791145007306-19939d8c1cfc"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/3as65fslgjsz2.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/2-5wzhu8qppjo.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/1t4cxi75rdbk2.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/__cb/_next/static/immutable/chunks/3u2p097r6uft5.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/__cb/_next/static/immutable/chunks/0c3qvn961npnn.js\">\n<script src=\"/__cb/_next/static/immutable/chunks/1191lj8_x8otc.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2nwa74aoyrwy0.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/030_x03l9ly56.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0ux-h5uvcuc89.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/turbopack-22-c1oqq6f7zu.js\" async=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0x-9rc1bm-510.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2qdblmd4je3nh.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/4519rpd7jxu8x.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3s-klpyypdl-3.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1ciksvojfipik.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/26520i_dqg323.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3l6-c6vc89ks3.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3th-44uczva1s.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0lpzvm68p_5b7.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0yre_ngvk4fsm.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3vgtzkidybmkg.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3t1g0gue_7_2e.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/33n4ouh7f3_9s.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1imv5lnii1thd.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/22mnbgxpw3eje.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1-0y7-7nhhxm1.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/10h9wya-h4zph.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/26v9vzy95by3x.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/30_ukc6_fhn_b.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/3uzfp5gpfy5yl.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/05i21-8v2mk_f.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/2loevn1b5-7nz.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0-wjlyk8qsae_.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0k8_f9q3v7zje.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/00pjbka6tgacw.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/1zii8055jnmqm.js\" async=\"\" crossorigin=\"\"></script>\n<script src=\"/__cb/_next/static/immutable/chunks/0b8ps6pzkqs3t.js\" async=\"\" crossorigin=\"\"></script>\n<meta name=\"description\" content=\"Sign in to your account\">\n<meta name=\"robots\" content=\"noindex, nofollow\">\n<link rel=\"canonical\" href=\"https://www.chatbase.co/auth/signin\">\n<meta name=\"next-size-adjust\" content=\"\">\n<link rel=\"preload\" href=\"/fonts/ProzaDisplay-SemiBoldItalic.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/fonts/ProzaDisplay-BoldItalic.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<script src=\"/__cb/_next/static/immutable/chunks/0c0hxoamwjsbw.js\" nomodule=\"\"></script>\n<a href=\"/\">Chatbase</a>\n<a href=\"/auth/signup?next=%2Fdashboard\">Create a new account</a>\n<a href=\"/auth/sso\">Sign in with SSO</a>\n<a href=\"/legal/terms\">Terms</a>\n<a href=\"/legal/privacy\">Privacy</a>\n<script src=\"/__cb/_next/static/immutable/chunks/0c3qvn961npnn.js\" id=\"_R_\" async=\"\"></script>\n<a href=\"/auth/password-reset?next=%2Fdashboard\">Forgot password?</a>"
       }
     },
     "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/1191lj8_x8otc.js": {
@@ -168,7 +69,7 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "362543"],
+          ["age", "403707"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"1191lj8_x8otc.js\""],
           ["content-encoding", "br"],
@@ -177,7 +78,7 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:12 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/1191lj8_x8otc.js\""],
           ["last-modified", "Wed, 30 Sep 2026 15:02:09 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
@@ -189,7 +90,7 @@
           ["x-matched-path", "/_next/static/immutable/chunks/1191lj8_x8otc.js"],
           ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/1191lj8_x8otc.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::zxz28-1791145007319-bb9a9fb69819"],
+          ["x-vercel-id", "arn1::vnlfd-1791186732998-5f5bb0da30bb"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -201,7 +102,7 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "362528"],
+          ["age", "406722"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"0x-9rc1bm-510.js\""],
           ["content-encoding", "br"],
@@ -210,7 +111,7 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/0x-9rc1bm-510.js\""],
           ["last-modified", "Wed, 30 Sep 2026 14:50:56 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
@@ -222,43 +123,43 @@
           ["x-matched-path", "/_next/static/immutable/chunks/0x-9rc1bm-510.js"],
           ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/0x-9rc1bm-510.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::jfj88-1791145007322-abe3ae123e62"],
+          ["x-vercel-id", "arn1::25tsn-1791186733008-6fae473d1eef"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
       }
     },
-    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/0x767289iclnm.js": {
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/turbopack-22-c1oqq6f7zu.js": {
       "result": {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/0x767289iclnm.js",
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/turbopack-22-c1oqq6f7zu.js",
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "14255"],
+          ["age", "403541"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0x767289iclnm.js\""],
+          ["content-disposition", "inline; filename=\"turbopack-22-c1oqq6f7zu.js\""],
           ["content-encoding", "br"],
           [
             "content-security-policy-report-only",
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/0x767289iclnm.js\""],
-          ["last-modified", "Sun, 04 Oct 2026 16:08:51 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/turbopack-22-c1oqq6f7zu.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 15:00:57 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/0x767289iclnm.js"],
-          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/0x767289iclnm.js"],
+          ["x-matched-path", "/_next/static/immutable/chunks/turbopack-22-c1oqq6f7zu.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/turbopack-22-c1oqq6f7zu.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::cwh7s-1791145007320-e83581e4fe85"],
+          ["x-vercel-id", "arn1::l9gpx-1791186733008-e81c8f0aa076"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "\"https://api.axiom.co/\"\n\"https://axiom-vitals.com/\""
+        "body": ""
       }
     },
     "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/2qdblmd4je3nh.js": {
@@ -267,7 +168,7 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "14255"],
+          ["age", "54315"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"2qdblmd4je3nh.js\""],
           ["content-encoding", "br"],
@@ -276,7 +177,7 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/2qdblmd4je3nh.js\""],
           ["last-modified", "Sun, 04 Oct 2026 16:08:51 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
@@ -288,109 +189,10 @@
           ["x-matched-path", "/_next/static/immutable/chunks/2qdblmd4je3nh.js"],
           ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/2qdblmd4je3nh.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::8zgmg-1791145007320-a355c6af9a9f"],
+          ["x-vercel-id", "arn1::hd9hx-1791186733008-bf47b83ed3c3"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
-      }
-    },
-    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/4519rpd7jxu8x.js": {
-      "result": {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/4519rpd7jxu8x.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "14876"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"4519rpd7jxu8x.js\""],
-          ["content-encoding", "br"],
-          [
-            "content-security-policy-report-only",
-            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
-          ],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/4519rpd7jxu8x.js\""],
-          ["last-modified", "Sun, 04 Oct 2026 16:08:51 GMT"],
-          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
-          ["referrer-policy", "strict-origin-when-cross-origin"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-content-type-options", "nosniff"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/4519rpd7jxu8x.js"],
-          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/4519rpd7jxu8x.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::c6bts-1791145007322-05f919fc4331"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://nuqs.dev/\""
-      }
-    },
-    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/3th-44uczva1s.js": {
-      "result": {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/3th-44uczva1s.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "22171"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3th-44uczva1s.js\""],
-          ["content-encoding", "br"],
-          [
-            "content-security-policy-report-only",
-            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
-          ],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/3th-44uczva1s.js\""],
-          ["last-modified", "Sun, 04 Oct 2026 13:39:38 GMT"],
-          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
-          ["referrer-policy", "strict-origin-when-cross-origin"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-content-type-options", "nosniff"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/3th-44uczva1s.js"],
-          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/3th-44uczva1s.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::d9br7-1791145007322-5ea2382fdeb0"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/0yre_ngvk4fsm.js": {
-      "result": {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/0yre_ngvk4fsm.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "10641"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0yre_ngvk4fsm.js\""],
-          ["content-encoding", "br"],
-          [
-            "content-security-policy-report-only",
-            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
-          ],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/0yre_ngvk4fsm.js\""],
-          ["last-modified", "Sun, 04 Oct 2026 17:19:25 GMT"],
-          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
-          ["referrer-policy", "strict-origin-when-cross-origin"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-content-type-options", "nosniff"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/0yre_ngvk4fsm.js"],
-          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/0yre_ngvk4fsm.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::l6ptz-1791145007322-a89f0e3daf91"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://backend.chatbase.co/\"\n\"https://www.chatbase.co/\""
       }
     },
     "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/26520i_dqg323.js": {
@@ -399,7 +201,7 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "11985"],
+          ["age", "3900"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"26520i_dqg323.js\""],
           ["content-encoding", "br"],
@@ -408,9 +210,9 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/26520i_dqg323.js\""],
-          ["last-modified", "Sun, 04 Oct 2026 16:08:51 GMT"],
+          ["last-modified", "Mon, 05 Oct 2026 06:47:12 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["server", "Vercel"],
@@ -420,43 +222,10 @@
           ["x-matched-path", "/_next/static/immutable/chunks/26520i_dqg323.js"],
           ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/26520i_dqg323.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::gxl2g-1791145007322-30d1a09fa974"],
+          ["x-vercel-id", "arn1::hccg4-1791186733009-cf61763ee200"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "\"https://accounts.zoho.com/\"\n\"https://desk.zoho.com/\""
-      }
-    },
-    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/3t1g0gue_7_2e.js": {
-      "result": {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/3t1g0gue_7_2e.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "9091"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3t1g0gue_7_2e.js\""],
-          ["content-encoding", "br"],
-          [
-            "content-security-policy-report-only",
-            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
-          ],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/3t1g0gue_7_2e.js\""],
-          ["last-modified", "Sun, 04 Oct 2026 17:19:24 GMT"],
-          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
-          ["referrer-policy", "strict-origin-when-cross-origin"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-content-type-options", "nosniff"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/3t1g0gue_7_2e.js"],
-          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/3t1g0gue_7_2e.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::gd27n-1791145007328-5d20de5317a4"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
       }
     },
     "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/3vgtzkidybmkg.js": {
@@ -465,7 +234,7 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "7066"],
+          ["age", "25828"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"3vgtzkidybmkg.js\""],
           ["content-encoding", "br"],
@@ -474,9 +243,9 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/3vgtzkidybmkg.js\""],
-          ["last-modified", "Sun, 04 Oct 2026 17:20:42 GMT"],
+          ["last-modified", "Sun, 04 Oct 2026 23:43:51 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["server", "Vercel"],
@@ -486,7 +255,7 @@
           ["x-matched-path", "/_next/static/immutable/chunks/3vgtzkidybmkg.js"],
           ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/3vgtzkidybmkg.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::g2sj7-1791145007326-af5524a9ad6f"],
+          ["x-vercel-id", "arn1::jtlhn-1791186733008-86c8c6322224"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "\"https://backend.chatbase.co/\"\n\"https://radix-ui.com/\""
@@ -498,7 +267,7 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "364407"],
+          ["age", "407400"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"0lpzvm68p_5b7.js\""],
           ["content-encoding", "br"],
@@ -507,7 +276,7 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/0lpzvm68p_5b7.js\""],
           ["last-modified", "Wed, 30 Sep 2026 14:25:55 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
@@ -519,73 +288,106 @@
           ["x-matched-path", "/_next/static/immutable/chunks/0lpzvm68p_5b7.js"],
           ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/0lpzvm68p_5b7.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::6wqzn-1791145007322-fd617ebce019"],
+          ["x-vercel-id", "arn1::bvnfs-1791186733008-1f206b2975c9"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
       }
     },
-    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/0k8_f9q3v7zje.js": {
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/0yre_ngvk4fsm.js": {
       "result": {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/0k8_f9q3v7zje.js",
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/0yre_ngvk4fsm.js",
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "14483"],
+          ["age", "1081"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0k8_f9q3v7zje.js\""],
+          ["content-disposition", "inline; filename=\"0yre_ngvk4fsm.js\""],
           ["content-encoding", "br"],
           [
             "content-security-policy-report-only",
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/0k8_f9q3v7zje.js\""],
-          ["last-modified", "Sun, 04 Oct 2026 16:08:51 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0yre_ngvk4fsm.js\""],
+          ["last-modified", "Mon, 05 Oct 2026 06:45:19 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/0k8_f9q3v7zje.js"],
-          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/0k8_f9q3v7zje.js"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0yre_ngvk4fsm.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/0yre_ngvk4fsm.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::w2976-1791145007330-30504300c9fa"],
+          ["x-vercel-id", "arn1::kv42t-1791186733011-830bfafc48d4"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "\"https://va.vercel-scripts.com/\"\n\"https://www.dubcdn.com/\""
+        "body": "\"https://backend.chatbase.co/\"\n\"https://www.chatbase.co/\""
       }
     },
-    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/2loevn1b5-7nz.js": {
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/3t1g0gue_7_2e.js": {
       "result": {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/2loevn1b5-7nz.js",
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/3t1g0gue_7_2e.js",
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "33544"],
+          ["age", "55961"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2loevn1b5-7nz.js\""],
+          ["content-disposition", "inline; filename=\"3t1g0gue_7_2e.js\""],
           ["content-encoding", "br"],
           [
             "content-security-policy-report-only",
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/2loevn1b5-7nz.js\""],
-          ["last-modified", "Sun, 04 Oct 2026 10:33:57 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3t1g0gue_7_2e.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 16:08:48 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/2loevn1b5-7nz.js"],
-          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/2loevn1b5-7nz.js"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3t1g0gue_7_2e.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/3t1g0gue_7_2e.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::bx9s5-1791145007331-5a231c9ca9de"],
+          ["x-vercel-id", "arn1::scgzq-1791186733009-59a69bdc11c6"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/0ux-h5uvcuc89.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/0ux-h5uvcuc89.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "365189"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0ux-h5uvcuc89.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0ux-h5uvcuc89.js\""],
+          ["last-modified", "Thu, 01 Oct 2026 02:25:43 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0ux-h5uvcuc89.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/0ux-h5uvcuc89.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5zbvd-1791186733009-82c03544d488"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -597,7 +399,7 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "333276"],
+          ["age", "375103"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"3l6-c6vc89ks3.js\""],
           ["content-encoding", "br"],
@@ -606,7 +408,7 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/3l6-c6vc89ks3.js\""],
           ["last-modified", "Wed, 30 Sep 2026 23:27:02 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
@@ -618,95 +420,62 @@
           ["x-matched-path", "/_next/static/immutable/chunks/3l6-c6vc89ks3.js"],
           ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/3l6-c6vc89ks3.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::8bclp-1791145007322-8fe216af2074"],
+          ["x-vercel-id", "arn1::rrnrm-1791186733008-76258532b447"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "\"https://us.posthog.com/\"\n\"https://va.vercel-scripts.com/\"\n\"https://vercel.com/\""
       }
     },
-    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/26v9vzy95by3x.js": {
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/3s-klpyypdl-3.js": {
       "result": {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/26v9vzy95by3x.js",
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/3s-klpyypdl-3.js",
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "321634"],
+          ["age", "38367"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"26v9vzy95by3x.js\""],
+          ["content-disposition", "inline; filename=\"3s-klpyypdl-3.js\""],
           ["content-encoding", "br"],
           [
             "content-security-policy-report-only",
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/26v9vzy95by3x.js\""],
-          ["last-modified", "Thu, 01 Oct 2026 02:56:12 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3s-klpyypdl-3.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 21:12:36 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/26v9vzy95by3x.js"],
-          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/26v9vzy95by3x.js"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3s-klpyypdl-3.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/3s-klpyypdl-3.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::65x27-1791145007330-492116689712"],
+          ["x-vercel-id", "arn1::4r5kv-1791186733008-192be0ae567c"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "\"https://backend.chatbase.co/\""
+        "body": "\"https://api.axiom.co/\"\n\"https://axiom-vitals.com/\""
       }
     },
-    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/3uzfp5gpfy5yl.js": {
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/4519rpd7jxu8x.js": {
       "result": {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/3uzfp5gpfy5yl.js",
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/4519rpd7jxu8x.js",
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "364203"],
+          ["age", "53585"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3uzfp5gpfy5yl.js\""],
+          ["content-disposition", "inline; filename=\"4519rpd7jxu8x.js\""],
           ["content-encoding", "br"],
           [
             "content-security-policy-report-only",
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/3uzfp5gpfy5yl.js\""],
-          ["last-modified", "Wed, 30 Sep 2026 14:51:02 GMT"],
-          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
-          ["referrer-policy", "strict-origin-when-cross-origin"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-content-type-options", "nosniff"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/3uzfp5gpfy5yl.js"],
-          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/3uzfp5gpfy5yl.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::rg9ks-1791145007330-84d35aed28a0"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/0-wjlyk8qsae_.js": {
-      "result": {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/0-wjlyk8qsae_.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "14876"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0-wjlyk8qsae_.js\""],
-          ["content-encoding", "br"],
-          [
-            "content-security-policy-report-only",
-            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
-          ],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/0-wjlyk8qsae_.js\""],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/4519rpd7jxu8x.js\""],
           ["last-modified", "Sun, 04 Oct 2026 16:08:51 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
@@ -714,79 +483,79 @@
           ["strict-transport-security", "max-age=63072000"],
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/0-wjlyk8qsae_.js"],
-          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/0-wjlyk8qsae_.js"],
+          ["x-matched-path", "/_next/static/immutable/chunks/4519rpd7jxu8x.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/4519rpd7jxu8x.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::8zgmg-1791145007330-6ca0741c21c4"],
+          ["x-vercel-id", "arn1::dmk92-1791186733008-cb4f1424a166"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "\"https://raw.githubusercontent.com/\"\n\"https://vercel.com/\""
+        "body": "\"https://nuqs.dev/\""
       }
     },
-    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/1-0y7-7nhhxm1.js": {
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/2nwa74aoyrwy0.js": {
       "result": {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/1-0y7-7nhhxm1.js",
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/2nwa74aoyrwy0.js",
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "287213"],
+          ["age", "257299"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"1-0y7-7nhhxm1.js\""],
+          ["content-disposition", "inline; filename=\"2nwa74aoyrwy0.js\""],
           ["content-encoding", "br"],
           [
             "content-security-policy-report-only",
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/1-0y7-7nhhxm1.js\""],
-          ["last-modified", "Thu, 01 Oct 2026 11:35:36 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/2nwa74aoyrwy0.js\""],
+          ["last-modified", "Fri, 02 Oct 2026 08:14:28 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/1-0y7-7nhhxm1.js"],
-          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/1-0y7-7nhhxm1.js"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2nwa74aoyrwy0.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/2nwa74aoyrwy0.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::w2976-1791145007338-5b8a12d2a379"],
+          ["x-vercel-id", "arn1::5zbvd-1791186732999-efffcb069437"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
       }
     },
-    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/030_x03l9ly56.js": {
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/2loevn1b5-7nz.js": {
       "result": {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/030_x03l9ly56.js",
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/2loevn1b5-7nz.js",
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "337628"],
+          ["age", "2546"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"030_x03l9ly56.js\""],
+          ["content-disposition", "inline; filename=\"2loevn1b5-7nz.js\""],
           ["content-encoding", "br"],
           [
             "content-security-policy-report-only",
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/030_x03l9ly56.js\""],
-          ["last-modified", "Wed, 30 Sep 2026 21:55:35 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/2loevn1b5-7nz.js\""],
+          ["last-modified", "Mon, 05 Oct 2026 06:31:58 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/030_x03l9ly56.js"],
-          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/030_x03l9ly56.js"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2loevn1b5-7nz.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/2loevn1b5-7nz.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::hhh4n-1791145007306-0dc0f64357da"],
+          ["x-vercel-id", "arn1::rrnrm-1791186733021-7782bea4e98b"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "\"https://vercel.live/\""
+        "body": ""
       }
     },
     "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/1ciksvojfipik.js": {
@@ -795,7 +564,7 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "237407"],
+          ["age", "280539"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"1ciksvojfipik.js\""],
           ["content-encoding", "br"],
@@ -804,7 +573,7 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/1ciksvojfipik.js\""],
           ["last-modified", "Fri, 02 Oct 2026 01:47:32 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
@@ -816,10 +585,76 @@
           ["x-matched-path", "/_next/static/immutable/chunks/1ciksvojfipik.js"],
           ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/1ciksvojfipik.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::rgm5t-1791145007324-9580728ec1da"],
+          ["x-vercel-id", "arn1::p8r6f-1791186733022-2b0a24ace1f7"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/0k8_f9q3v7zje.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/0k8_f9q3v7zje.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "53706"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0k8_f9q3v7zje.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0k8_f9q3v7zje.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 16:08:51 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0k8_f9q3v7zje.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/0k8_f9q3v7zje.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9ts6d-1791186733021-444df2b9ae4d"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://va.vercel-scripts.com/\"\n\"https://www.dubcdn.com/\""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/26v9vzy95by3x.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/26v9vzy95by3x.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "362645"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"26v9vzy95by3x.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/26v9vzy95by3x.js\""],
+          ["last-modified", "Thu, 01 Oct 2026 02:56:12 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/26v9vzy95by3x.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/26v9vzy95by3x.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::zhkq6-1791186733016-70e7dee94c2b"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://backend.chatbase.co/\""
       }
     },
     "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/00pjbka6tgacw.js": {
@@ -828,7 +663,7 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "364814"],
+          ["age", "406539"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"00pjbka6tgacw.js\""],
           ["content-encoding", "br"],
@@ -837,7 +672,7 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/00pjbka6tgacw.js\""],
           ["last-modified", "Wed, 30 Sep 2026 14:56:33 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
@@ -849,73 +684,7 @@
           ["x-matched-path", "/_next/static/immutable/chunks/00pjbka6tgacw.js"],
           ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/00pjbka6tgacw.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::6wqzn-1791145007340-f28500dee5d2"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/22mnbgxpw3eje.js": {
-      "result": {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/22mnbgxpw3eje.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "13483"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"22mnbgxpw3eje.js\""],
-          ["content-encoding", "br"],
-          [
-            "content-security-policy-report-only",
-            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
-          ],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/22mnbgxpw3eje.js\""],
-          ["last-modified", "Sun, 04 Oct 2026 16:08:48 GMT"],
-          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
-          ["referrer-policy", "strict-origin-when-cross-origin"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-content-type-options", "nosniff"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/22mnbgxpw3eje.js"],
-          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/22mnbgxpw3eje.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::c6bts-1791145007330-b91859cb672f"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/1imv5lnii1thd.js": {
-      "result": {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/1imv5lnii1thd.js",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "13155"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"1imv5lnii1thd.js\""],
-          ["content-encoding", "br"],
-          [
-            "content-security-policy-report-only",
-            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
-          ],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          ["etag", "W/\"_next/static/immutable/chunks/1imv5lnii1thd.js\""],
-          ["last-modified", "Sun, 04 Oct 2026 16:08:51 GMT"],
-          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
-          ["referrer-policy", "strict-origin-when-cross-origin"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-content-type-options", "nosniff"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/1imv5lnii1thd.js"],
-          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/1imv5lnii1thd.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::97x49-1791145007330-4614189428c7"],
+          ["x-vercel-id", "arn1::25tsn-1791186733023-130273ddb0a4"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -927,7 +696,7 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "362337"],
+          ["age", "407176"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"10h9wya-h4zph.js\""],
           ["content-encoding", "br"],
@@ -936,7 +705,7 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/10h9wya-h4zph.js\""],
           ["last-modified", "Wed, 30 Sep 2026 14:45:56 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
@@ -948,10 +717,519 @@
           ["x-matched-path", "/_next/static/immutable/chunks/10h9wya-h4zph.js"],
           ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/10h9wya-h4zph.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::lpzmg-1791145007334-b432a46a7365"],
+          ["x-vercel-id", "arn1::69lhw-1791186733016-1c1cbbab60cc"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "\"https://nodejs.org/\"\n\"https://stripe.com/\""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/0b8ps6pzkqs3t.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/0b8ps6pzkqs3t.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "403084"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0b8ps6pzkqs3t.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0b8ps6pzkqs3t.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:59:15 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0b8ps6pzkqs3t.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/0b8ps6pzkqs3t.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::kv42t-1791186733021-aa35d22457e0"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/2cuuln4kqm7td.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/2cuuln4kqm7td.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "405090"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2cuuln4kqm7td.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/2cuuln4kqm7td.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 15:20:42 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2cuuln4kqm7td.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/2cuuln4kqm7td.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::f8g72-1791186733022-6c941c60e56a"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://www.instagram.com/\"\n\"https://www.linkedin.com/\"\n\"https://x.com/\""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/29--cv82cc7ug.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/29--cv82cc7ug.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "332055"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"29--cv82cc7ug.js\""],
+          ["content-length", "227"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "\"_next/static/immutable/chunks/29--cv82cc7ug.js\""],
+          ["last-modified", "Thu, 01 Oct 2026 11:37:57 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/29--cv82cc7ug.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/29--cv82cc7ug.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::gmt4n-1791186733042-95a935a62fbb"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/embed.min.js": {
+      "result": {
+        "url": "https://www.chatbase.co/embed.min.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "39569"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"embed.min.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"7893d71ffc998622917d478eadd3701d\""],
+          ["last-modified", "Sun, 04 Oct 2026 20:26:45 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/embed.min.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::xcmzr-1791186733022-c1c4be6600f6"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://backend.chatbase.co/\"\n\"https://qa.chatbase.co/\"\n\"https://www.chatbase.co/\""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/0c3qvn961npnn.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/0c3qvn961npnn.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "406596"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0c3qvn961npnn.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0c3qvn961npnn.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:55:36 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0c3qvn961npnn.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/0c3qvn961npnn.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::c4g96-1791186733021-5e4cb4d716be"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/_vercel/insights/script.js": {
+      "result": {
+        "url": "https://www.chatbase.co/_vercel/insights/script.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "207824"],
+          ["cache-control", "public, max-age=2678400"],
+          ["content-disposition", "inline; filename=\"script.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"6f2bd745916f8b5e07a39cd13e7260a5\""],
+          ["last-modified", "Fri, 02 Oct 2026 21:46:28 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000; includeSubDomains; preload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1:arn1:arn1::jgxhd-1791186733031-33cd6276f429"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/3th-44uczva1s.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/3th-44uczva1s.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "2423"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3th-44uczva1s.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3th-44uczva1s.js\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:08:54 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3th-44uczva1s.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/3th-44uczva1s.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::kv42t-1791186733021-3e51957ae0cc"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/1zii8055jnmqm.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/1zii8055jnmqm.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "331577"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1zii8055jnmqm.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/1zii8055jnmqm.js\""],
+          ["last-modified", "Thu, 01 Oct 2026 11:45:55 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1zii8055jnmqm.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/1zii8055jnmqm.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::dw4jk-1791186733021-8e37c30cf369"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://backend.chatbase.co/\"\n\"https://challenges.cloudflare.com/\""
+      }
+    },
+    "GET https://www.chatbase.co/_vercel/speed-insights/script.js": {
+      "result": {
+        "url": "https://www.chatbase.co/_vercel/speed-insights/script.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "250"],
+          ["cache-control", "public, max-age=2678400"],
+          ["content-disposition", "inline; filename=\"script.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"0e7c215a9775d8de91b65e4ed9224d36\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:22:41 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000; includeSubDomains; preload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1:arn1:arn1::bvnfs-1791186733029-5496d6d18bd2"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://vitals.vercel-insights.com/\""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/0xkyrvepjetfk.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/0xkyrvepjetfk.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "367140"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0xkyrvepjetfk.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0xkyrvepjetfk.js\""],
+          ["last-modified", "Thu, 01 Oct 2026 01:25:46 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0xkyrvepjetfk.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/0xkyrvepjetfk.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::d7fdz-1791186733042-155b5bf08324"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/2ycgcwwyw6cyk.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/2ycgcwwyw6cyk.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "404281"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2ycgcwwyw6cyk.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/2ycgcwwyw6cyk.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:41:06 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2ycgcwwyw6cyk.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/2ycgcwwyw6cyk.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::hccg4-1791186733035-5384175b7a29"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/01xh-j2cgpdcr.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/01xh-j2cgpdcr.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "293878"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"01xh-j2cgpdcr.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/01xh-j2cgpdcr.js\""],
+          ["last-modified", "Thu, 01 Oct 2026 21:16:21 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/01xh-j2cgpdcr.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/01xh-j2cgpdcr.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mcqk5-1791186733029-28ff051302ae"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://backend.chatbase.co/\""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/19djz-ikoqxob.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/19djz-ikoqxob.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "2591"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"19djz-ikoqxob.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/19djz-ikoqxob.js\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:09:01 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/19djz-ikoqxob.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/19djz-ikoqxob.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::txlkr-1791186733022-e893c496c17f"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://jobs.ashbyhq.com/\"\n\"https://www.chatbase.co/\""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/0jg6-d7a0s4rq.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/0jg6-d7a0s4rq.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "368770"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0jg6-d7a0s4rq.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0jg6-d7a0s4rq.js\""],
+          ["last-modified", "Thu, 01 Oct 2026 01:26:03 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0jg6-d7a0s4rq.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/0jg6-d7a0s4rq.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::gmt4n-1791186733022-5535a0d48761"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/1-0y7-7nhhxm1.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/1-0y7-7nhhxm1.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "329880"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1-0y7-7nhhxm1.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/1-0y7-7nhhxm1.js\""],
+          ["last-modified", "Thu, 01 Oct 2026 11:35:36 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1-0y7-7nhhxm1.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/1-0y7-7nhhxm1.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::l9gpx-1791186733020-4d794c442af9"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/3uzfp5gpfy5yl.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/3uzfp5gpfy5yl.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "1054"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3uzfp5gpfy5yl.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3uzfp5gpfy5yl.js\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:08:55 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3uzfp5gpfy5yl.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/3uzfp5gpfy5yl.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::fpnxb-1791186733021-78bc51c56ae6"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
       }
     },
     "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/33n4ouh7f3_9s.js": {
@@ -960,7 +1238,7 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "7263"],
+          ["age", "1834"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"33n4ouh7f3_9s.js\""],
           ["content-encoding", "br"],
@@ -969,9 +1247,9 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/33n4ouh7f3_9s.js\""],
-          ["last-modified", "Sun, 04 Oct 2026 17:21:45 GMT"],
+          ["last-modified", "Mon, 05 Oct 2026 07:21:38 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["server", "Vercel"],
@@ -981,10 +1259,340 @@
           ["x-matched-path", "/_next/static/immutable/chunks/33n4ouh7f3_9s.js"],
           ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/33n4ouh7f3_9s.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::hhh4n-1791145007338-749dd1358b76"],
+          ["x-vercel-id", "arn1::c5fds-1791186733008-0a45c2dba8ca"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "\"http://yandex.com/\"\n\"https://app.posthog.com/\"\n\"https://posthog.com/\"\n\"https://sentry.io/\"\n\"https://us.i.posthog.com/\"\n\"https://us.posthog.com/\""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/1jwucibl33i5t.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/1jwucibl33i5t.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "406011"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1jwucibl33i5t.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/1jwucibl33i5t.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:27:54 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1jwucibl33i5t.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/1jwucibl33i5t.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::kf7ld-1791186733043-4ea051d079f6"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/1mxz938xohymj.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/1mxz938xohymj.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "296081"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1mxz938xohymj.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/1mxz938xohymj.js\""],
+          ["last-modified", "Thu, 01 Oct 2026 21:37:31 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1mxz938xohymj.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/1mxz938xohymj.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::b84xc-1791186733042-28d4ae2ed285"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://www.instagram.com/\"\n\"https://www.linkedin.com/\"\n\"https://x.com/\""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/3e91pmucx-ehy.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/3e91pmucx-ehy.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "331707"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3e91pmucx-ehy.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3e91pmucx-ehy.js\""],
+          ["last-modified", "Thu, 01 Oct 2026 11:35:36 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3e91pmucx-ehy.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/3e91pmucx-ehy.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::bqmqd-1791186733043-3058f5e16af1"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/0-wjlyk8qsae_.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/0-wjlyk8qsae_.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "54038"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0-wjlyk8qsae_.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0-wjlyk8qsae_.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 16:08:51 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0-wjlyk8qsae_.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/0-wjlyk8qsae_.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::4r5kv-1791186733021-823b9a0c9f02"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://raw.githubusercontent.com/\"\n\"https://vercel.com/\""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/0c0hxoamwjsbw.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "406707"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0c0hxoamwjsbw.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0c0hxoamwjsbw.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:53:45 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0c0hxoamwjsbw.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/0c0hxoamwjsbw.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5zmd5-1791186733024-d16eae443109"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/265b_qfa8ll22.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/265b_qfa8ll22.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "648"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"265b_qfa8ll22.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/265b_qfa8ll22.js\""],
+          ["last-modified", "Mon, 05 Oct 2026 06:47:05 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/265b_qfa8ll22.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/265b_qfa8ll22.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mvhjv-1791186733042-fa23a635b873"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://www.instagram.com/\"\n\"https://www.linkedin.com/\"\n\"https://x.com/\""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/22mnbgxpw3eje.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/22mnbgxpw3eje.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "56461"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"22mnbgxpw3eje.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/22mnbgxpw3eje.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 16:08:48 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/22mnbgxpw3eje.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/22mnbgxpw3eje.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::c5fds-1791186733021-26b661c03365"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/3wbge4h-_nlxd.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/3wbge4h-_nlxd.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "332055"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3wbge4h-_nlxd.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3wbge4h-_nlxd.js\""],
+          ["last-modified", "Thu, 01 Oct 2026 11:37:57 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3wbge4h-_nlxd.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/3wbge4h-_nlxd.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::vnlfd-1791186733043-b8cefce2fda0"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://backend.chatbase.co/\"\n\"https://www.instagram.com/\"\n\"https://www.linkedin.com/\"\n\"https://x.com/\""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/1imv5lnii1thd.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/1imv5lnii1thd.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "29081"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1imv5lnii1thd.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/1imv5lnii1thd.js\""],
+          ["last-modified", "Sun, 04 Oct 2026 23:47:31 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1imv5lnii1thd.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/1imv5lnii1thd.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::6tl6n-1791186733021-f7ec42841ba2"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/2ru58m5-p8iqz.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/2ru58m5-p8iqz.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "375378"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2ru58m5-p8iqz.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/2ru58m5-p8iqz.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 23:27:01 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2ru58m5-p8iqz.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/2ru58m5-p8iqz.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::zwzs4-1791186733042-a1c7d3466e12"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
       }
     },
     "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/30_ukc6_fhn_b.js": {
@@ -993,7 +1601,7 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "319589"],
+          ["age", "1045"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"30_ukc6_fhn_b.js\""],
           ["content-encoding", "br"],
@@ -1002,9 +1610,9 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/30_ukc6_fhn_b.js\""],
-          ["last-modified", "Thu, 01 Oct 2026 03:25:46 GMT"],
+          ["last-modified", "Mon, 05 Oct 2026 07:23:40 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["server", "Vercel"],
@@ -1014,10 +1622,43 @@
           ["x-matched-path", "/_next/static/immutable/chunks/30_ukc6_fhn_b.js"],
           ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/30_ukc6_fhn_b.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::zxz28-1791145007330-ec00a9eec2c1"],
+          ["x-vercel-id", "arn1::kf7ld-1791186733021-e937e8a5fe66"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "\"http://json-schema.org/\"\n\"https://json-schema.org/\""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/030_x03l9ly56.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/030_x03l9ly56.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "381397"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"030_x03l9ly56.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/030_x03l9ly56.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 21:55:35 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/030_x03l9ly56.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/030_x03l9ly56.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::kf7ld-1791186733008-0dbb310fa222"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://vercel.live/\""
       }
     },
     "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/05i21-8v2mk_f.js": {
@@ -1026,7 +1667,7 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "364144"],
+          ["age", "406450"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"05i21-8v2mk_f.js\""],
           ["content-encoding", "br"],
@@ -1035,7 +1676,7 @@
             "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
           ],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
           ["etag", "W/\"_next/static/immutable/chunks/05i21-8v2mk_f.js\""],
           ["last-modified", "Wed, 30 Sep 2026 14:52:38 GMT"],
           ["permissions-policy", "camera=(), geolocation=(), payment=()"],
@@ -1047,28 +1688,272 @@
           ["x-matched-path", "/_next/static/immutable/chunks/05i21-8v2mk_f.js"],
           ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/05i21-8v2mk_f.js"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::sn569-1791145007356-b5d715a00542"],
+          ["x-vercel-id", "arn1::k7gl6-1791186733017-bac4e505e6c9"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "\"https://backend.chatbase.co/\"\n\"https://supabase.com/\"\n\"realtime-js/2.112.3\"\n\"storage-js/2.112.3\"\n\"supabase-js/2.112.3\"\n\"supabase-ssr/0.12.4\""
       }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/0scfqueeumc-n.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/0scfqueeumc-n.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "450"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0scfqueeumc-n.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/0scfqueeumc-n.js\""],
+          ["last-modified", "Mon, 05 Oct 2026 06:45:19 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0scfqueeumc-n.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/0scfqueeumc-n.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::wgnw9-1791186733045-0ee86a25f0d0"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://backend.chatbase.co/\"\n\"https://img.youtube.com/\"\n\"https://luv.health/\"\n\"https://www.youtube.com/\""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/1x3kdd_l7a3_2.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/1x3kdd_l7a3_2.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "406904"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1x3kdd_l7a3_2.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/1x3kdd_l7a3_2.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:27:32 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1x3kdd_l7a3_2.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/1x3kdd_l7a3_2.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::np6v6-1791186733043-8d70b7cb8789"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/__cb/_next/static/immutable/chunks/3a7e1c69cq9lj.js": {
+      "result": {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/3a7e1c69cq9lj.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "404958"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3a7e1c69cq9lj.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"_next/static/immutable/chunks/3a7e1c69cq9lj.js\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:31:03 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3a7e1c69cq9lj.js"],
+          ["x-nextjs-rewritten-path", "/_next/static/immutable/chunks/3a7e1c69cq9lj.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mvhjv-1791186733042-2fd6294eda26"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://backend.chatbase.co/\""
+      }
+    },
+    "GET https://www.chatbase.co/ingest/array/phc_LRLvwlsuLuCxZe7KPEEdX0O3w2x4e1AiIhmEdaQc7aj/config.js": {
+      "result": {
+        "url": "https://www.chatbase.co/ingest/array/phc_LRLvwlsuLuCxZe7KPEEdX0O3w2x4e1AiIhmEdaQc7aj/config.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-credentials", "true"],
+          ["cache-control", "public, max-age=300"],
+          ["content-encoding", "gzip"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          [
+            "vary",
+            "Origin, Referer,origin, access-control-request-method, access-control-request-headers, Accept-Encoding"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-envoy-upstream-service-time", "0"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::zhkq6-1791186733029-1bc5cfdb6f17"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/ingest/static/dead-clicks-autocapture.js": {
+      "result": {
+        "url": "https://www.chatbase.co/ingest/static/dead-clicks-autocapture.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "0"],
+          ["cache-control", "public, max-age=14400"],
+          ["cf-cache-status", "HIT"],
+          ["cf-ray", "a45ad8797ea1dcff-ARN"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"2fc48ef72dfb1d4bd7e81636e272ed27\""],
+          ["last-modified", "Mon, 05 Oct 2026 05:59:23 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::p8r6f-1791186733031-2a7d09433110"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/ingest/static/exception-autocapture.js": {
+      "result": {
+        "url": "https://www.chatbase.co/ingest/static/exception-autocapture.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=14400"],
+          ["cf-cache-status", "MISS"],
+          ["cf-ray", "a45ad879fdc9c725-ARN"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"4b5f2db438f185b1a7f8bf29f5f14e40\""],
+          ["last-modified", "Mon, 05 Oct 2026 05:59:23 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::5zbvd-1791186733029-b5d23cdac21a"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.chatbase.co/ingest/static/surveys.js": {
+      "result": {
+        "url": "https://www.chatbase.co/ingest/static/surveys.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "0"],
+          ["cache-control", "public, max-age=14400"],
+          ["cf-cache-status", "HIT"],
+          ["cf-ray", "a45ad879882c0d92-ARN"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"8f68202c1f94acb2e8cfc1fab6e7e212\""],
+          ["last-modified", "Mon, 05 Oct 2026 05:59:23 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::hmcs9-1791186733029-665c3c0e440d"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://posthog.com/\""
+      }
+    },
+    "GET https://www.chatbase.co/ingest/static/posthog-recorder.js": {
+      "result": {
+        "url": "https://www.chatbase.co/ingest/static/posthog-recorder.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "0"],
+          ["cache-control", "public, max-age=14400"],
+          ["cf-cache-status", "HIT"],
+          ["cf-ray", "a45ad8798e565cc8-ARN"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy-report-only",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://connect.facebook.net https://www.googletagmanager.com https://snap.licdn.com https://challenges.cloudflare.com https://www.gstatic.com https://import-cdn.default.com https://www.dubcdn.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: wss:; frame-src 'self' https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://challenges.cloudflare.com https://www.youtube.com https://app.dub.co https://connect.facebook.net https://*.default.com; worker-src 'self' blob: https://cdn.jsdelivr.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+          ],
+          ["content-type", "application/javascript"],
+          ["date", "Mon, 05 Oct 2026 07:52:13 GMT"],
+          ["etag", "W/\"43abd54d51cd00bf7a988a9fae5291a3\""],
+          ["last-modified", "Mon, 05 Oct 2026 05:59:23 GMT"],
+          ["permissions-policy", "camera=(), geolocation=(), payment=()"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::m6wnq-1791186733029-0feb781cb132"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://posthog.com/\""
+      }
     }
   },
   "dns": {
-    "AAAA www.chatbase.co": {
-      "result": {
-        "name": "www.chatbase.co",
-        "type": "AAAA",
-        "records": []
-      }
-    },
-    "A www.chatbase.co": {
-      "result": {
-        "name": "www.chatbase.co",
-        "type": "A",
-        "records": ["76.76.21.22", "66.33.60.129"]
-      }
-    },
     "CNAME www.chatbase.co": {
       "result": {
         "name": "www.chatbase.co",
@@ -1076,16 +1961,30 @@
         "records": ["cname.vercel-dns.com"]
       }
     },
+    "AAAA www.chatbase.co": {
+      "result": {
+        "name": "www.chatbase.co",
+        "type": "AAAA",
+        "records": []
+      }
+    },
     "NS www.chatbase.co": {
       "result": {
         "name": "www.chatbase.co",
         "type": "NS",
         "records": [
+          "ns2.vercel-dns-3.com",
           "ns1.vercel-dns-3.com",
-          "ns4.vercel-dns-3.com",
           "ns3.vercel-dns-3.com",
-          "ns2.vercel-dns-3.com"
+          "ns4.vercel-dns-3.com"
         ]
+      }
+    },
+    "A www.chatbase.co": {
+      "result": {
+        "name": "www.chatbase.co",
+        "type": "A",
+        "records": ["76.76.21.61", "66.33.60.130"]
       }
     },
     "CNAME cname.vercel-dns.com": {
@@ -1095,9 +1994,9 @@
         "records": []
       }
     },
-    "TXT 129.60.33.66.origin.asn.cymru.com": {
+    "TXT 194.60.33.66.origin.asn.cymru.com": {
       "result": {
-        "name": "129.60.33.66.origin.asn.cymru.com",
+        "name": "194.60.33.66.origin.asn.cymru.com",
         "type": "TXT",
         "records": ["16509 | 66.33.60.0/24 | US | arin | 2024-03-21"]
       }
@@ -1114,7 +2013,7 @@
     "www.chatbase.co:443": {
       "result": {
         "host": "www.chatbase.co",
-        "ip": "66.33.60.129",
+        "ip": "66.33.60.194",
         "issuer": "C=US, O=Let's Encrypt, CN=YR1",
         "subjectAltNames": ["www.chatbase.co"],
         "validFrom": "Aug 21 15:34:15 2026 GMT",

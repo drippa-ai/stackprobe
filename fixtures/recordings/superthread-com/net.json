@@ -1,20 +1,20 @@
 {
   "url": "https://superthread.com/",
-  "recordedAt": "2026-10-04T20:16:51.218Z",
+  "recordedAt": "2026-10-05T07:52:26.106Z",
   "http": {
     "GET https://superthread.com/": {
       "result": {
         "url": "https://superthread.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:26 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
           ["x-content-type-options", "nosniff"],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3tKjPOrqtakglj4ARkor6EUIwWbziNPwMGTTU6GdcBtLTKFts9yYt%2FQdTZhnLOkC5LLTDiIMkU3T9R9n1zV05m9PAUJtbmcr8VwkuBRa6RAtTBXS3hudWjsm55vEnkhRHAM%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=8wAkgsbDAPawZyUenJ9z8BoT09gSEf9EaDjdJGlRHdt0nectexP%2BovH8M55j8FIw5yyyqK3CVGBp8L40CMmOljqNwu9s%2FUvvv0Vv%2FAUjOVFfqEOoaBiMNYtV%2B%2B7rQ13Cm24%3D\"}]}"
           ],
           ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
           ["access-control-allow-origin", "*"],
@@ -24,7 +24,7 @@
           ["server", "cloudflare"],
           ["cf-cache-status", "DYNAMIC"],
           ["content-encoding", "br"],
-          ["cf-ray", "a456dde0baef0883-OSL"],
+          ["cf-ray", "a45ad8cba9b8d8d5-CPH"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"description\" content=\"Bring AI agents, tasks, projects, docs, meetings, and client work into one fast workspace where execution and knowledge stay connected.\">\n<link rel=\"canonical\" href=\"https://superthread.com/\">\n<meta name=\"theme-color\" content=\"#fcfcfd\">\n<link rel=\"preconnect\" href=\"https://assets.superthread.com\" crossorigin=\"\">\n<link rel=\"dns-prefetch\" href=\"https://assets.superthread.com\">\n<link rel=\"preconnect\" href=\"https://static.superthread.com\" crossorigin=\"\">\n<link rel=\"dns-prefetch\" href=\"https://static.superthread.com\">\n<link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.ico\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"48x48\" href=\"/favicon-48x48.png\">\n<link rel=\"icon\" href=\"/favicon-light.png\" media=\"(prefers-color-scheme: light)\">\n<link rel=\"icon\" href=\"/favicon-dark.png\" media=\"(prefers-color-scheme: dark)\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">\n<link rel=\"manifest\" href=\"/manifest.webmanifest\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:title\" content=\"Superthread: AI Agents, Tasks &amp; Docs for Teams\">\n<meta property=\"og:description\" content=\"Bring AI agents, tasks, projects, docs, meetings, and client work into one fast workspace where execution and knowledge stay connected.\">\n<meta property=\"og:image\" content=\"https://assets.superthread.com/images/og/superthread-card.png\">\n<meta property=\"og:url\" content=\"https://superthread.com/\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Superthread: AI Agents, Tasks &amp; Docs for Teams\">\n<meta name=\"twitter:description\" content=\"Bring AI agents, tasks, projects, docs, meetings, and client work into one fast workspace where execution and knowledge stay connected.\">\n<meta name=\"twitter:image\" content=\"https://assets.superthread.com/images/og/superthread-card.png\">\n<link rel=\"preload\" as=\"video\" type=\"video/mp4\" href=\"https://assets.superthread.com/video/home/agents-main-8b843b1ae2bb.mp4\" fetchpriority=\"high\">\n<link rel=\"stylesheet\" href=\"/_astro/Layout.CjXCEvHC.css\">\n<a href=\"/\"></a>\n<a href=\"/features/agents\">Agents New Delegate work across Superthread</a>\n<a href=\"/features/tasks-boards\">Tasks &amp; boards Plan and track everyday work</a>\n<a href=\"/features/time-tracking\">Time tracking New Track billable time and capacity</a>\n<a href=\"/features/forms\">Forms and portal New Capture, route, and manage requests</a>\n<a href=\"/features/roadmap-projects\">Projects Coordinate larger initiatives</a>\n<a href=\"/features/sprints\">Sprints Run focused delivery cycles</a>\n<a href=\"/features/saved-filters\">Saved filters Return to important work</a>\n<a href=\"/features/docs-wiki\">Pages &amp; subpages Write and organise knowledge</a>\n<a href=\"/features/spaces\">Spaces Give each team or client a home</a>\n<a href=\"/features/notes-transcription\">AI note-taker Turn meetings into notes and actions</a>\n<a href=\"/features/inbox\">Notifications See changes that need attention</a>\n<a href=\"https://superthread.com/docs/help/github-integration\">GitHub Keep code and work in sync</a>\n<a href=\"https://superthread.com/docs/help/slack-integration\">Slack Create work from conversations</a>\n<a href=\"https://superthread.com/docs/help/zapier-integration\">Zapier Automate across thousands of apps</a>\n<a href=\"/features/integrations\">View all Browse every integration</a>\n<a href=\"/solutions/startups\">Startups Move quickly without losing context</a>\n<a href=\"/solutions/small-business\">Small business Run the whole business in one place</a>\n<a href=\"/solutions/agencies\">Agencies Run client work, delivery, and billable time</a>\n<a href=\"/solutions/construction\">Property &amp; construction Connect work from planning to handover and aftercare</a>\n<a href=\"/solutions/education\">Education Coordinate learning, projects, and knowledge</a>\n<a href=\"/solutions/personal\">Personal Organise ideas, plans, and everyday work</a>\n<a href=\"/solutions/product-engineering\">Product &amp; engineering Connect product plans to shipped work</a>\n<a href=\"/solutions/marketing\">Marketing Move campaigns from brief to launch</a>\n<a href=\"/solutions/recruitment\">Recruitment Coordinate roles, candidates, and clients</a>\n<a href=\"/solutions/human-resources\">Human resources Run people requests and operations</a>\n<a href=\"/solutions/internal-service-teams\">Internal service teams Give employees one place to ask for help</a>\n<a href=\"/solutions/it\">IT Handle support requests and keep systems documented</a>\n<a href=\"/solutions/agent-use-cases\">Agent use cases Browse prompts and triggers for recurring work</a>\n<a href=\"/solutions/project-management\">Project management Plan clearly and keep delivery on track</a>\n<a href=\"/templates/simple-sales-template\">Sales pipeline Track leads and keep deals moving</a>\n<a href=\"/templates/influencer-marketing-campaign-manager\">Influencer marketing Plan creators, content, and campaign delivery</a>\n<a href=\"/templates/fundraising-template\">Seed fundraising Organise investors, outreach, and follow-ups</a>\n<a href=\"/templates\">View template library Start faster with a proven workflow</a>\n<a href=\"/customers\">Customers</a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"/about-us\">About us</a>\n<a href=\"/roadmap\">Roadmap</a>\n<a href=\"/security\">Security</a>\n<a href=\"/contact-sales\">Contact sales</a>\n<a href=\"https://superthread.com/docs\">Help centre</a>\n<a href=\"/blog\">Blog</a>\n<a href=\"/learn\">Guides</a>\n<a href=\"https://join.slack.com/t/superthreadcommunity/shared_invite/zt-z0inhlyc-ifhwtGUNBM1G~z2NkMJIPg\">Slack community</a>\n<a href=\"https://superthread.com/docs/api-docs\">API docs</a>\n<a href=\"https://api.superthread.com/mcp#mcp\">MCP</a>\n<a href=\"https://superthread.com/docs/changelog\">Changelog</a>\n<a href=\"https://status.superthread.com/\">System status</a>\n<a href=\"https://app.superthread.com\">Login</a>\n<a href=\"https://app.superthread.com/login\">Start for free</a>\n<a href=\"/features/agents\">New Meet Superthread Agents</a>\n<script type=\"module\" src=\"/_astro/AnnouncementPill.astro_astro_type_script_index_0_lang.C1nm6RRv.js\"></script>\n<a href=\"/solutions/agent-use-cases\">See examples</a>\n<script type=\"module\" src=\"/_astro/InlinePillLink.astro_astro_type_script_index_0_lang.C1nm6RRv.js\"></script>\n<a href=\"/contact-sales\">Request a demo</a>\n<a href=\"#feature-video\">More</a>\n<a href=\"/solutions/agent-use-cases\">Browse every agent use case →</a>\n<a href=\"/features/agents\">See how agents work</a>\n<a href=\"/customers\">customers</a>\n<a href=\"https://www.tenderlake.com/\">Flemming Madsen, Tenderlake</a>\n<a href=\"/customers/medialab\">Adam, Head of Engineering, Medialab</a>\n<a href=\"/customers/acceler8-talent\">Mat Ferdenzi, CEO, Acceler8 Talent</a>\n<a href=\"https://www.jetbrains.com/youtrack/\"></a>\n<a href=\"https://static.superthread.com/desktop-app/Superthread-arm64.dmg\">Download</a>\n<a href=\"https://static.superthread.com/desktop-app/Superthread-win32-x64.exe\">Download</a>\n<a href=\"https://apps.apple.com/gb/app/superthread/id6755784114?platform=iphone\">App Store</a>\n<a href=\"https://play.google.com/store/apps/details?id=com.superthread.app\">Play Store</a>\n<a href=\"/solutions/startups\">Startups:</a>\n<a href=\"/solutions/small-business\">Small businesses:</a>\n<a href=\"/solutions/agencies\">Agencies:</a>\n<a href=\"/solutions/internal-service-teams\">Internal service teams:</a>\n<a href=\"/solutions/it\">IT teams:</a>\n<a href=\"/solutions/education\">Education:</a>\n<a href=\"/solutions/personal\">Personal:</a>\n<a href=\"https://api.superthread.com/mcp#mcp\">Superthread MCP server</a>\n<a href=\"https://superthread.com/docs/cli/index\">Superthread CLI</a>\n<a href=\"/pricing\">Compare plans</a>\n<a href=\"#import-tasks\">See the available import options</a>\n<a href=\"/pricing\">Compare Superthread plans</a>\n<a href=\"/security\">security and privacy</a>\n<a href=\"/features/integrations\">and more</a>\n<a href=\"https://viberacer.superthread.com/?utm_source=superthread.com&amp;utm_medium=owned&amp;utm_campaign=viberacer_launch&amp;utm_content=home_promo\">Play Vibe Racer</a>\n<a href=\"/scalability\">Scalability</a>\n<a href=\"/security\">Security &amp; privacy</a>\n<a href=\"/features/integrations\">Integrations</a>\n<a href=\"/templates\">Templates</a>\n<a href=\"https://static.superthread.com/desktop-app/Superthread-arm64.dmg\">Mac Apple Silicon</a>\n<a href=\"https://static.superthread.com/desktop-app/Superthread-x64.dmg\">Mac Intel</a>\n<a href=\"https://apps.apple.com/gb/app/superthread/id6755784114?platform=iphone\">iOS App Store</a>\n<a href=\"https://play.google.com/store/apps/details?id=com.superthread.app\">Google Play Store</a>\n<a href=\"https://static.superthread.com/desktop-app/Superthread-win32-x64.exe\">Windows</a>\n<a href=\"https://join.slack.com/t/superthreadcommunity/shared_invite/zt-z0inhlyc-ifhwtGUNBM1G~z2NkMJIPg\">Community</a>\n<a href=\"/terms/security-compliance\">Legal &amp; terms</a>\n<a href=\"https://viberacer.superthread.com/?utm_source=superthread.com&amp;utm_medium=owned&amp;utm_campaign=viberacer_launch&amp;utm_content=footer\">🎮 Vibe Racer</a>\n<a href=\"/ai\">AI</a>\n<a href=\"/brand-guidelines\">Brand guide</a>\n<a href=\"/compare/trello-vs-superthread\">vs Trello</a>\n<a href=\"/compare/jira-vs-superthread\">vs Jira</a>\n<a href=\"/compare/shortcut-vs-superthread\">vs Shortcut</a>\n<a href=\"/compare/monday-vs-superthread\">vs Monday</a>\n<a href=\"/compare/asana-vs-superthread\">vs Asana</a>\n<a href=\"https://www.youtube.com/@superthread_devlog\"></a>\n<a href=\"https://www.linkedin.com/company/superthread\"></a>\n<a href=\"https://x.com/superthread_\"></a>"
@@ -35,25 +35,112 @@
         "url": "https://superthread.com/_astro/AnnouncementPill.astro_astro_type_script_index_0_lang.C1nm6RRv.js",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:27 GMT"],
           ["content-type", "application/javascript"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
-          ["x-content-type-options", "nosniff"],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=wekRSWbn%2FfrTXE0dsdF30ryBMssni%2F%2B%2FCoSmTM7OqhoUz4iFXwzMy%2F8rT1iMTolhQCvB0X5tRjd%2Bg48KXsFV7oFLQXtfeZ6AP3ZdYNEZfEUBeQw99H%2FOrPjRMhWj2gDLnho%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Vw4E7gTgwQ8PNqhI8drH7orn11g1gF8YV%2FWe6bTDxFXiJCJygdeH3QgvPJ419%2FfaZgbEL%2BkP92QzVKG1Rk5N9VWicdXA864fh1mVC6YB430ZdQXjDTtcMhC%2F4Mt3GMoG%2FTY%3D\"}]}"
           ],
           ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
           ["access-control-allow-origin", "*"],
           ["cache-control", "public, max-age=1382400, must-revalidate"],
+          ["x-content-type-options", "nosniff"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["etag", "W/\"c3c2bfe6aaf7cf8e894d7fc6dddc76bd\""],
           ["content-encoding", "br"],
           ["vary", "accept-encoding"],
           ["server", "cloudflare"],
-          ["cf-cache-status", "MISS"],
-          ["cf-ray", "a456dde289f30883-OSL"],
+          ["cf-cache-status", "REVALIDATED"],
+          ["cf-ray", "a45ad8d1ce2cd8d5-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://superthread.com/_astro/client.lXud_Gad.js": {
+      "result": {
+        "url": "https://superthread.com/_astro/client.lXud_Gad.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:27 GMT"],
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=bsTZxuRkq0pFoetCpFJCszIG8jPGZl6Afcqfw5BEhKKuha1l6S0BmbEt1KbQF2dHyuqb16Ph%2BiEhjtfH91YjPu2uPMK9C7yEKAGQmGhUe5rNniB6DOYwLNhfrtghF73Ak0s%3D\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=1382400, must-revalidate"],
+          ["x-content-type-options", "nosniff"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["etag", "W/\"ea9e44c0fead27e1535d6776c3423ae0\""],
+          ["content-encoding", "br"],
+          ["vary", "accept-encoding"],
+          ["server", "cloudflare"],
+          ["cf-cache-status", "REVALIDATED"],
+          ["cf-ray", "a45ad8d22f5d90dc-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://superthread.com/_astro/FeatureTabs.03vwycu4.js": {
+      "result": {
+        "url": "https://superthread.com/_astro/FeatureTabs.03vwycu4.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:27 GMT"],
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=bYg2%2FKwGPmqnwv%2FcIv6RLbu8ZwnzqFYdw8x%2FoDeENQ3D8YqxvuI5OCv%2B04RlHsMrvYY3ABlf0K7RSD%2FPr0bBaPx2SJwsMulzXmglfcnMVya%2BOW3cTm4zwkdh79b2SsEaBhQ%3D\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=1382400, must-revalidate"],
+          ["x-content-type-options", "nosniff"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["etag", "W/\"32a03990d5b2b18c8fa94c4b527dfdfd\""],
+          ["content-encoding", "br"],
+          ["vary", "accept-encoding"],
+          ["server", "cloudflare"],
+          ["cf-cache-status", "REVALIDATED"],
+          ["cf-ray", "a45ad8d22db99a01-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://superthread.com/_astro/FeatureBento.Bcniclyc.js": {
+      "result": {
+        "url": "https://superthread.com/_astro/FeatureBento.Bcniclyc.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:27 GMT"],
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=lwuDVgmuUPgG8Mm1E5QLlGi5BbJG6QgqjOUlGYjc2VeS8x7yVZ5cjZI7cGroXOu%2B4cLoHa7Ia4OpWkNOoPU7suMQS1hzrIESCwDwa2e8ouKegz4YX1XcHHk7HUFFFgGYtgU%3D\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=1382400, must-revalidate"],
+          ["x-content-type-options", "nosniff"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["etag", "W/\"8e77eabcec20391aba025f385126900e\""],
+          ["content-encoding", "br"],
+          ["vary", "accept-encoding"],
+          ["server", "cloudflare"],
+          ["cf-cache-status", "REVALIDATED"],
+          ["cf-ray", "a45ad8d22ef25330-CPH"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
         "body": ""
@@ -64,25 +151,228 @@
         "url": "https://superthread.com/_astro/InlinePillLink.astro_astro_type_script_index_0_lang.C1nm6RRv.js",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:27 GMT"],
           ["content-type", "application/javascript"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
-          ["x-content-type-options", "nosniff"],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=5nbUnp%2Bp7DQWW%2FRfjLJox%2BfKBLumDWurxGOOAc3ydRG0CdvaepR%2BBjyPwnXWQUlIr7O3pDHEvtkcNCYmYLTIDAfL7gvIOJ%2FpZ4Ef0dwgjOLHMZ%2F9oB4%2BWbqwe%2FbkOGkV9C4%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=KcBTlzbMkAV04W8kAvkXapY7noWxl4f9ejN0zh4REYPJPCf8MIEwYMEqFxBmUuis%2Bm0VKbbCqwEXJCrFpdIZgGE9vyewTXavRTbeX%2FM9UYsgsLzi08wmQqYAeXIEPj3qlKQ%3D\"}]}"
           ],
           ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
           ["access-control-allow-origin", "*"],
           ["cache-control", "public, max-age=1382400, must-revalidate"],
+          ["x-content-type-options", "nosniff"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["etag", "W/\"c3c2bfe6aaf7cf8e894d7fc6dddc76bd\""],
           ["content-encoding", "br"],
           ["vary", "accept-encoding"],
           ["server", "cloudflare"],
-          ["cf-cache-status", "MISS"],
-          ["cf-ray", "a456dde2ec665689-OSL"],
+          ["cf-cache-status", "REVALIDATED"],
+          ["cf-ray", "a45ad8d22c612437-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://superthread.com/_astro/tabPillStyles.BOtdG-E7.js": {
+      "result": {
+        "url": "https://superthread.com/_astro/tabPillStyles.BOtdG-E7.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:27 GMT"],
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=U22bQ9z3xLNci2GUdfYG%2BfKxFVF06CYZ2E4ggoa%2FZtxs5dWnEr6GbgJ%2BOmoSbnQVTegLT98GhDJTy8yE5jUWb7aSYPshaVMGF%2FNbP7mwKc8ZDqP3jODHY9uInnr4mDlfOeY%3D\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=1382400, must-revalidate"],
+          ["x-content-type-options", "nosniff"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["etag", "W/\"fe84cdf9d03164d09f3b6af56037cb68\""],
+          ["content-encoding", "br"],
+          ["vary", "accept-encoding"],
+          ["server", "cloudflare"],
+          ["cf-cache-status", "REVALIDATED"],
+          ["cf-ray", "a45ad8d22d79d054-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://superthread.com/_astro/announcementComet.RI4Whddb.js": {
+      "result": {
+        "url": "https://superthread.com/_astro/announcementComet.RI4Whddb.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:27 GMT"],
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Z%2FfOKpUsaATczN3oZ5t5qc%2F%2FKlX8jmgOOgLwVNWXcVirA15FYbntWDW0Flyi1fAZK3vORgZMs3EYJp1OUytqsU9V82MmXlkrcUoSMzIOUgDr0Q1OKOdnKjgvAflJCDZY0jc%3D\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=1382400, must-revalidate"],
+          ["x-content-type-options", "nosniff"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["etag", "W/\"a2d13805b280e12efa7dd8d765dc58be\""],
+          ["content-encoding", "br"],
+          ["vary", "accept-encoding"],
+          ["server", "cloudflare"],
+          ["cf-cache-status", "REVALIDATED"],
+          ["cf-ray", "a45ad8d23fdab354-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://superthread.com/_astro/_plugin-vue_export-helper.DlAUqK2U.js": {
+      "result": {
+        "url": "https://superthread.com/_astro/_plugin-vue_export-helper.DlAUqK2U.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:27 GMT"],
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=5zIU67lR64%2FpG8BSkn6adYe99DUV1dFTYM4k6awibHU%2Fg5XI3F1wv8jkXTovPXuVsCGRdQCuO0jE%2BZ7mEYA3ObKL11jxRoT2pQRMfdrCsdm89vEuLzbHTx%2FuF262AHWA1G8%3D\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=1382400, must-revalidate"],
+          ["x-content-type-options", "nosniff"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["etag", "W/\"8fec6b654995ddaf9176465288aef54f\""],
+          ["content-encoding", "br"],
+          ["vary", "accept-encoding"],
+          ["server", "cloudflare"],
+          ["cf-cache-status", "REVALIDATED"],
+          ["cf-ray", "a45ad8d23d91d054-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://superthread.com/_astro/GlowBackdrop.jPS8OV0U.js": {
+      "result": {
+        "url": "https://superthread.com/_astro/GlowBackdrop.jPS8OV0U.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:27 GMT"],
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=DbJTWYC4rymVRZkNLN5Rdfu356C%2Fnseio9jWk581Ftrz7OZTQtkrPn7aSpUfZqGU5xtxaiMnikJgS390ZpSEzotbPhHWOgJiD7PQcXhHpVBPm2yq6tMflWN8i6I%2BHKQqVpI%3D\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=1382400, must-revalidate"],
+          ["x-content-type-options", "nosniff"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["etag", "W/\"fbfecf868405146753e881c0c56b9ec8\""],
+          ["content-encoding", "br"],
+          ["vary", "accept-encoding"],
+          ["server", "cloudflare"],
+          ["cf-cache-status", "REVALIDATED"],
+          ["cf-ray", "a45ad8d239671fa7-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://superthread.com/_astro/runtime-core.esm-bundler.DrOIPygF.js": {
+      "result": {
+        "url": "https://superthread.com/_astro/runtime-core.esm-bundler.DrOIPygF.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:27 GMT"],
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=QIXbfd5MXeQn3o2F6co%2FEgR7horkE5uf96rbV95E2mPtD2wynixJh6ulzgAkWmJWop6SIoJyePKVCKhncbURqbrbApYeVc7rF2ZxY7qLCmF9bYDwwvZHrI8Y22Yec4JENpM%3D\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=1382400, must-revalidate"],
+          ["x-content-type-options", "nosniff"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["etag", "W/\"8e6bb0798827ef0089703df580f82ee7\""],
+          ["content-encoding", "br"],
+          ["vary", "accept-encoding"],
+          ["server", "cloudflare"],
+          ["cf-cache-status", "REVALIDATED"],
+          ["cf-ray", "a45ad8d239507060-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://vuejs.org/\""
+      }
+    },
+    "GET https://superthread.com/_astro/runtime-dom.esm-bundler.ClRUGpnA.js": {
+      "result": {
+        "url": "https://superthread.com/_astro/runtime-dom.esm-bundler.ClRUGpnA.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:27 GMT"],
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ptsEoA6X7hQp1de7QabK8GsY%2B3mvYNA6aguyY5YAORRJhuSmfPZmTn3iosejsYu4ZhFPaOPuEc2wQ6gZloFrAQC26P9HAWG7z5Zx6rY17y%2FNW%2FLMTKeYPv8O9zA6bMjxcvM%3D\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=1382400, must-revalidate"],
+          ["x-content-type-options", "nosniff"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["etag", "W/\"8cb555c7bae526eb2a61ca02ae812fe7\""],
+          ["content-encoding", "br"],
+          ["vary", "accept-encoding"],
+          ["server", "cloudflare"],
+          ["cf-cache-status", "REVALIDATED"],
+          ["cf-ray", "a45ad8d23e2fa8d1-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://superthread.com/_astro/CookieBanner.Cmj5CoGO.js": {
+      "result": {
+        "url": "https://superthread.com/_astro/CookieBanner.Cmj5CoGO.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:27 GMT"],
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=BIlnaOD6NAHImzOaeAdW6mRcjUDdbgH8GtjcUm20a7L5ffvWgwTiREaZYW1t7eg4VQAGjP28dK90gbXJJIsOyk27mWnoZByujXlwewhosWjevDkkH6MUJgknLVo01gOX1lc%3D\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=1382400, must-revalidate"],
+          ["x-content-type-options", "nosniff"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["etag", "W/\"c5335a0070ece9d680a05c8fe0d793e6\""],
+          ["content-encoding", "br"],
+          ["vary", "accept-encoding"],
+          ["server", "cloudflare"],
+          ["cf-cache-status", "REVALIDATED"],
+          ["cf-ray", "a45ad8d24e352fb5-CPH"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
         "body": ""
@@ -94,14 +384,7 @@
       "result": {
         "name": "superthread.com",
         "type": "A",
-        "records": ["104.26.0.194", "104.26.1.194", "172.67.69.118"]
-      }
-    },
-    "AAAA superthread.com": {
-      "result": {
-        "name": "superthread.com",
-        "type": "AAAA",
-        "records": ["2606:4700:20::ac43:4576", "2606:4700:20::681a:1c2", "2606:4700:20::681a:c2"]
+        "records": ["172.67.69.118", "104.26.1.194", "104.26.0.194"]
       }
     },
     "CNAME superthread.com": {
@@ -111,18 +394,25 @@
         "records": []
       }
     },
+    "AAAA superthread.com": {
+      "result": {
+        "name": "superthread.com",
+        "type": "AAAA",
+        "records": ["2606:4700:20::ac43:4576", "2606:4700:20::681a:c2", "2606:4700:20::681a:1c2"]
+      }
+    },
     "NS superthread.com": {
       "result": {
         "name": "superthread.com",
         "type": "NS",
-        "records": ["kyree.ns.cloudflare.com", "asa.ns.cloudflare.com"]
+        "records": ["asa.ns.cloudflare.com", "kyree.ns.cloudflare.com"]
       }
     },
-    "TXT 118.69.67.172.origin.asn.cymru.com": {
+    "TXT 194.1.26.104.origin.asn.cymru.com": {
       "result": {
-        "name": "118.69.67.172.origin.asn.cymru.com",
+        "name": "194.1.26.104.origin.asn.cymru.com",
         "type": "TXT",
-        "records": ["13335 | 172.67.64.0/20 | US | arin | 2015-02-25"]
+        "records": ["13335 | 104.26.0.0/20 | US | arin | 2014-03-28"]
       }
     },
     "TXT as13335.asn.cymru.com": {
@@ -137,7 +427,7 @@
     "superthread.com:443": {
       "result": {
         "host": "superthread.com",
-        "ip": "172.67.69.118",
+        "ip": "104.26.1.194",
         "issuer": "C=US, O=Google Trust Services, CN=WE1",
         "subjectAltNames": ["superthread.com"],
         "validFrom": "Oct  1 19:26:17 2026 GMT",

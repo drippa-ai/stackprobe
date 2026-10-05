@@ -1,6 +1,6 @@
 {
   "url": "https://bydagny.com/",
-  "recordedAt": "2026-10-04T20:16:57.773Z",
+  "recordedAt": "2026-10-05T07:52:45.721Z",
   "http": {
     "GET https://bydagny.com/": {
       "result": {
@@ -9,11 +9,11 @@
         "headers": [
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-type", "text/html"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:45 GMT"],
           ["location", "https://www.bydagny.com/"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
-          ["x-vercel-id", "arn1::jbnw7-1791145018006-d7a08f3f1d7b"],
+          ["x-vercel-id", "arn1::s6c2p-1791186765889-14058002560f"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<a href=\"https://www.bydagny.com/\">here</a>"
@@ -25,13 +25,13 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "1007"],
+          ["age", "35615"],
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-disposition", "inline"],
           ["content-encoding", "br"],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"f5e991b9abeb79687cd61f0494caef22\""],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"3d95952a021dfaab5a6a0f5483c3bd7e\""],
           [
             "link",
             "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
@@ -53,10 +53,10 @@
           ["x-nextjs-stale-time", "300"],
           ["x-robots-tag", "all"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::rddrp-1791145018106-a2d378b40188"],
+          ["x-vercel-id", "arn1::7dcj2-1791186765989-b7afad0e1630"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" as=\"image\" href=\"/images/people-workshop-m.webp\">\n<link rel=\"preload\" href=\"/connector-icons/gmail.png\" as=\"image\">\n<link rel=\"preload\" href=\"/brand/tools/outlook.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/google-calendar.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/google-drive.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/google-sheets.png\" as=\"image\">\n<link rel=\"preload\" href=\"/brand/tools/excel.png\" as=\"image\">\n<link rel=\"preload\" as=\"image\" href=\"/images/people-print-m.webp\">\n<link rel=\"preload\" as=\"image\" href=\"/built-by-dagny-signature-black.png\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/3289t2y5hp9hl.css?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;display=swap\" data-precedence=\"default\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\">\n<script src=\"/_next/static/chunks/1qf0-3umuvlgs.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1c-4h2aze0ifj.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/17n6efyo3mw6y.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/20eevrxlqp_9y.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/082e10nix1-ed.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-1swzpcq_fwz6f.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3pq1wc-j3ja4g.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2_jlx2bd84vxt.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/08ec-sgyjoduq.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/18agb5d5xarky.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2wu-cw53ii2uk.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0ngnexp95s191.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1pc4rd05yqsw_.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/01ns8cob_5b4b.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1i_hyespczggy.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/18ham3_1y0mfy.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1ariht2ia-yss.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0fx1x1szzcnh4.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2gw6_h-fx5ucy.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@100..800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap\" as=\"style\">\n<link rel=\"preload\" href=\"https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&amp;display=swap\" as=\"style\">\n<link rel=\"preload\" href=\"/brand/tools/word.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/gbp.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/whatsapp.png\" as=\"image\">\n<link rel=\"preload\" href=\"/brand/tools/teams.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/slack.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/facebook-pages.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/instagram.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/stripe.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/mailchimp.png\" as=\"image\">\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Dagny Blog\" href=\"/rss.xml\">\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"anonymous\">\n<link rel=\"preconnect\" href=\"https://api.fontshare.com\">\n<link rel=\"preconnect\" href=\"https://cdn.fontshare.com\" crossorigin=\"anonymous\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"theme-color\" content=\"#f6f4ef\">\n<meta name=\"description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<link rel=\"manifest\" href=\"/manifest.json\">\n<link rel=\"canonical\" href=\"https://www.bydagny.com\">\n<link rel=\"alternate\" hreflang=\"en\" href=\"https://www.bydagny.com\">\n<link rel=\"alternate\" hreflang=\"nb\" href=\"https://www.bydagny.com/no\">\n<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://www.bydagny.com\">\n<meta name=\"mobile-web-app-capable\" content=\"yes\">\n<meta name=\"apple-mobile-web-app-title\" content=\"Dagny\">\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\">\n<meta property=\"og:title\" content=\"Dagny is your AI.\">\n<meta property=\"og:description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<meta property=\"og:url\" content=\"https://www.bydagny.com\">\n<meta property=\"og:site_name\" content=\"Dagny\">\n<meta property=\"og:locale\" content=\"en_US\">\n<meta property=\"og:image\" content=\"https://www.bydagny.com/brand/og-default.jpg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"Dagny\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Dagny is your AI.\">\n<meta name=\"twitter:description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<meta name=\"twitter:image\" content=\"https://www.bydagny.com/brand/og-default.jpg\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.0t8mtmhoze29e.ico?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" sizes=\"32x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.svg?icon.1x7fe67glzy7x.svg?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" sizes=\"any\" type=\"image/svg+xml\">\n<link rel=\"apple-touch-icon\" href=\"/apple-icon.png?apple-icon.3xpiyfnma559_.png?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" sizes=\"180x180\" type=\"image/png\">\n<link href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@100..800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap\" rel=\"stylesheet\">\n<link href=\"https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&amp;display=swap\" rel=\"stylesheet\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" nomodule=\"\"></script>\n<a href=\"/\"></a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"https://cal.com/einar-avei/demo\">Book a demo</a>\n<a href=\"/sign-in\">Log in</a>\n<a href=\"/new\">Hire Dagny</a>\n<a href=\"/new\">Get started for free</a>\n<a href=\"/playbook/tasks#be-found\">All 12 jobs in Be found</a>\n<a href=\"/playbook/tasks\">See all 40 in the playbook</a>\n<a href=\"/ai-for-small-business\">Start with the small business guide</a>\n<a href=\"/ai-for-small-business\">AI for small business</a>\n<a href=\"/product/market-intelligence\">Market intelligence</a>\n<a href=\"/seo-audit\">SEO audit</a>\n<a href=\"/aeo-audit\">AEO audit</a>\n<a href=\"/design-system\">Design system</a>\n<a href=\"/playbook\">The playbook</a>\n<a href=\"/blog\">Blog</a>\n<a href=\"/privacy-policy\">Privacy policy</a>\n<a href=\"https://avei.ai?utm_source=dagny&amp;utm_medium=footer&amp;utm_campaign=built_by\">Built byavei</a>\n<a href=\"https://www.antler.co\">Backed by</a>\n<a href=\"https://www.linkedin.com/company/112880554/\"></a>\n<script src=\"/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" id=\"_R_\" async=\"\"></script>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"preload\" as=\"image\" href=\"/images/people-workshop-m.webp\">\n<link rel=\"preload\" href=\"/connector-icons/gmail.png\" as=\"image\">\n<link rel=\"preload\" href=\"/brand/tools/outlook.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/google-calendar.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/google-drive.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/google-sheets.png\" as=\"image\">\n<link rel=\"preload\" href=\"/brand/tools/excel.png\" as=\"image\">\n<link rel=\"preload\" as=\"image\" href=\"/images/people-print-m.webp\">\n<link rel=\"preload\" as=\"image\" href=\"/built-by-dagny-signature-black.png\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/3289t2y5hp9hl.css?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;display=swap\" data-precedence=\"default\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\">\n<script src=\"/_next/static/chunks/1qf0-3umuvlgs.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1c-4h2aze0ifj.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3msro4g0sapf_.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/20eevrxlqp_9y.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/082e10nix1-ed.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-2vxg4zcb2k9i0.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3pq1wc-j3ja4g.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2_jlx2bd84vxt.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/08ec-sgyjoduq.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/18agb5d5xarky.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2wu-cw53ii2uk.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0ngnexp95s191.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1pc4rd05yqsw_.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/01ns8cob_5b4b.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1i_hyespczggy.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/18ham3_1y0mfy.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1ariht2ia-yss.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0fx1x1szzcnh4.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2gw6_h-fx5ucy.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@100..800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap\" as=\"style\">\n<link rel=\"preload\" href=\"https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&amp;display=swap\" as=\"style\">\n<link rel=\"preload\" href=\"/brand/tools/word.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/gbp.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/whatsapp.png\" as=\"image\">\n<link rel=\"preload\" href=\"/brand/tools/teams.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/slack.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/facebook-pages.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/instagram.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/stripe.png\" as=\"image\">\n<link rel=\"preload\" href=\"/connector-icons/mailchimp.png\" as=\"image\">\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Dagny Blog\" href=\"/rss.xml\">\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"anonymous\">\n<link rel=\"preconnect\" href=\"https://api.fontshare.com\">\n<link rel=\"preconnect\" href=\"https://cdn.fontshare.com\" crossorigin=\"anonymous\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"theme-color\" content=\"#f6f4ef\">\n<meta name=\"description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<link rel=\"manifest\" href=\"/manifest.json\">\n<link rel=\"canonical\" href=\"https://www.bydagny.com\">\n<link rel=\"alternate\" hreflang=\"en\" href=\"https://www.bydagny.com\">\n<link rel=\"alternate\" hreflang=\"nb\" href=\"https://www.bydagny.com/no\">\n<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://www.bydagny.com\">\n<meta name=\"mobile-web-app-capable\" content=\"yes\">\n<meta name=\"apple-mobile-web-app-title\" content=\"Dagny\">\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\">\n<meta property=\"og:title\" content=\"Dagny is your AI.\">\n<meta property=\"og:description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<meta property=\"og:url\" content=\"https://www.bydagny.com\">\n<meta property=\"og:site_name\" content=\"Dagny\">\n<meta property=\"og:locale\" content=\"en_US\">\n<meta property=\"og:image\" content=\"https://www.bydagny.com/brand/og-default.jpg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"Dagny\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Dagny is your AI.\">\n<meta name=\"twitter:description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<meta name=\"twitter:image\" content=\"https://www.bydagny.com/brand/og-default.jpg\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.0t8mtmhoze29e.ico?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" sizes=\"32x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.svg?icon.1x7fe67glzy7x.svg?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" sizes=\"any\" type=\"image/svg+xml\">\n<link rel=\"apple-touch-icon\" href=\"/apple-icon.png?apple-icon.3xpiyfnma559_.png?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" sizes=\"180x180\" type=\"image/png\">\n<link href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@100..800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap\" rel=\"stylesheet\">\n<link href=\"https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&amp;display=swap\" rel=\"stylesheet\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" nomodule=\"\"></script>\n<a href=\"/\"></a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"https://cal.com/einar-avei/demo\">Book a demo</a>\n<a href=\"/sign-in\">Log in</a>\n<a href=\"/new\">Hire Dagny</a>\n<a href=\"/new\">Get started for free</a>\n<a href=\"/playbook/tasks#be-found\">All 12 jobs in Be found</a>\n<a href=\"/playbook/tasks\">See all 40 in the playbook</a>\n<a href=\"/ai-for-small-business\">Start with the small business guide</a>\n<a href=\"/ai-for-small-business\">AI for small business</a>\n<a href=\"/product/market-intelligence\">Market intelligence</a>\n<a href=\"/seo-audit\">SEO audit</a>\n<a href=\"/aeo-audit\">AEO audit</a>\n<a href=\"/design-system\">Design system</a>\n<a href=\"/playbook\">The playbook</a>\n<a href=\"/blog\">Blog</a>\n<a href=\"/privacy-policy\">Privacy policy</a>\n<a href=\"https://avei.ai?utm_source=dagny&amp;utm_medium=footer&amp;utm_campaign=built_by\">Built byavei</a>\n<a href=\"https://www.antler.co\">Backed by</a>\n<a href=\"https://www.linkedin.com/company/112880554/\"></a>\n<script src=\"/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" id=\"_R_\" async=\"\"></script>"
       }
     },
     "GET https://www.bydagny.com/sign-in": {
@@ -68,7 +68,7 @@
           ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
           ["content-encoding", "br"],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
           [
             "link",
             "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
@@ -89,10 +89,10 @@
           ["x-powered-by", "Next.js"],
           ["x-robots-tag", "all"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::arn1::rddrp-1791145018314-8d389fe19275"],
+          ["x-vercel-id", "arn1::arn1::mprld-1791186766208-d16172c8ba94"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/3289t2y5hp9hl.css?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;display=swap\" data-precedence=\"default\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\">\n<script src=\"/_next/static/chunks/1qf0-3umuvlgs.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1c-4h2aze0ifj.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/17n6efyo3mw6y.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/20eevrxlqp_9y.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/082e10nix1-ed.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-1swzpcq_fwz6f.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3pq1wc-j3ja4g.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2_jlx2bd84vxt.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/08ec-sgyjoduq.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/18agb5d5xarky.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2wu-cw53ii2uk.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0ngnexp95s191.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1pc4rd05yqsw_.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/01ns8cob_5b4b.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2sz501iu8nwvw.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0eat8sc2uv30_.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0hcri9un_86us.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/28kiji-41mch6.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2_hkysr1tk_ta.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/03u9pcumxhaxu.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2f63mvcny0vzo.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0muw8gu0j2-a0.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1ariht2ia-yss.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@100..800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap\" as=\"style\">\n<link rel=\"preload\" href=\"https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&amp;display=swap\" as=\"style\">\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Dagny Blog\" href=\"/rss.xml\">\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"anonymous\">\n<link rel=\"preconnect\" href=\"https://api.fontshare.com\">\n<link rel=\"preconnect\" href=\"https://cdn.fontshare.com\" crossorigin=\"anonymous\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"theme-color\" content=\"#f7f8fa\">\n<meta name=\"description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<link rel=\"manifest\" href=\"/manifest.json\">\n<meta name=\"robots\" content=\"noindex, nofollow\">\n<link rel=\"canonical\" href=\"https://www.bydagny.com\">\n<meta name=\"mobile-web-app-capable\" content=\"yes\">\n<meta name=\"apple-mobile-web-app-title\" content=\"Dagny\">\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\">\n<meta property=\"og:title\" content=\"Dagny is your AI.\">\n<meta property=\"og:description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<meta property=\"og:url\" content=\"https://www.bydagny.com\">\n<meta property=\"og:site_name\" content=\"Dagny\">\n<meta property=\"og:locale\" content=\"en_US\">\n<meta property=\"og:image\" content=\"https://www.bydagny.com/brand/og-default.jpg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"Dagny\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Dagny is your AI.\">\n<meta name=\"twitter:description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<meta name=\"twitter:image\" content=\"https://www.bydagny.com/brand/og-default.jpg\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.0t8mtmhoze29e.ico\" sizes=\"32x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.svg?icon.1x7fe67glzy7x.svg\" sizes=\"any\" type=\"image/svg+xml\">\n<link rel=\"apple-touch-icon\" href=\"/apple-icon.png?apple-icon.3xpiyfnma559_.png\" sizes=\"180x180\" type=\"image/png\">\n<link href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@100..800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap\" rel=\"stylesheet\">\n<link href=\"https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&amp;display=swap\" rel=\"stylesheet\">\n<meta name=\"sentry-trace\" content=\"4910f123e56e412685292cd663ea56ed-a3af6e2ee53ae692-0\">\n<meta name=\"baggage\" content=\"sentry-environment=production,sentry-release=e1588d8af06a7427146292b83e014f15e0c4e4ab,sentry-public_key=0cc4acb45f8d32622580fbb6ba4d076a,sentry-trace_id=4910f123e56e412685292cd663ea56ed,sentry-org_id=4511523128803328,sentry-sampled=false,sentry-sample_rand=0.37072854189015547,sentry-sample_rate=0.1\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" nomodule=\"\"></script>\n<a href=\"/\"></a>\n<script src=\"/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" id=\"_R_\" async=\"\"></script>\n<a href=\"/privacy-policy\">privacy policy</a>\n<a href=\"/new\">Hire Dagny</a>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/3289t2y5hp9hl.css?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;display=swap\" data-precedence=\"default\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\">\n<script src=\"/_next/static/chunks/1qf0-3umuvlgs.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1c-4h2aze0ifj.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3msro4g0sapf_.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/20eevrxlqp_9y.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/082e10nix1-ed.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-2vxg4zcb2k9i0.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3pq1wc-j3ja4g.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2_jlx2bd84vxt.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/08ec-sgyjoduq.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/18agb5d5xarky.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2wu-cw53ii2uk.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0ngnexp95s191.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1pc4rd05yqsw_.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/01ns8cob_5b4b.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2sz501iu8nwvw.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0eat8sc2uv30_.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0hcri9un_86us.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/28kiji-41mch6.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2_hkysr1tk_ta.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/03u9pcumxhaxu.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2f63mvcny0vzo.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0muw8gu0j2-a0.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1ariht2ia-yss.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@100..800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap\" as=\"style\">\n<link rel=\"preload\" href=\"https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&amp;display=swap\" as=\"style\">\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Dagny Blog\" href=\"/rss.xml\">\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"anonymous\">\n<link rel=\"preconnect\" href=\"https://api.fontshare.com\">\n<link rel=\"preconnect\" href=\"https://cdn.fontshare.com\" crossorigin=\"anonymous\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"theme-color\" content=\"#f7f8fa\">\n<meta name=\"description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<link rel=\"manifest\" href=\"/manifest.json\">\n<meta name=\"robots\" content=\"noindex, nofollow\">\n<link rel=\"canonical\" href=\"https://www.bydagny.com\">\n<meta name=\"mobile-web-app-capable\" content=\"yes\">\n<meta name=\"apple-mobile-web-app-title\" content=\"Dagny\">\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\">\n<meta property=\"og:title\" content=\"Dagny is your AI.\">\n<meta property=\"og:description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<meta property=\"og:url\" content=\"https://www.bydagny.com\">\n<meta property=\"og:site_name\" content=\"Dagny\">\n<meta property=\"og:locale\" content=\"en_US\">\n<meta property=\"og:image\" content=\"https://www.bydagny.com/brand/og-default.jpg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"Dagny\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Dagny is your AI.\">\n<meta name=\"twitter:description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<meta name=\"twitter:image\" content=\"https://www.bydagny.com/brand/og-default.jpg\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.0t8mtmhoze29e.ico\" sizes=\"32x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.svg?icon.1x7fe67glzy7x.svg\" sizes=\"any\" type=\"image/svg+xml\">\n<link rel=\"apple-touch-icon\" href=\"/apple-icon.png?apple-icon.3xpiyfnma559_.png\" sizes=\"180x180\" type=\"image/png\">\n<link href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@100..800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap\" rel=\"stylesheet\">\n<link href=\"https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&amp;display=swap\" rel=\"stylesheet\">\n<meta name=\"sentry-trace\" content=\"f6676767591841a180592d5bf3cb5a18-b28dfee3d0fafc45-0\">\n<meta name=\"baggage\" content=\"sentry-environment=production,sentry-release=5d75f78e77e0ec371e38ceaefcca13044e22d5c4,sentry-public_key=0cc4acb45f8d32622580fbb6ba4d076a,sentry-trace_id=f6676767591841a180592d5bf3cb5a18,sentry-org_id=4511523128803328,sentry-sampled=false,sentry-sample_rand=0.23579391075375755,sentry-sample_rate=0.1\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" nomodule=\"\"></script>\n<a href=\"/\"></a>\n<script src=\"/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" id=\"_R_\" async=\"\"></script>\n<a href=\"/privacy-policy\">privacy policy</a>\n<a href=\"/new\">Hire Dagny</a>"
       }
     },
     "GET https://www.bydagny.com/new": {
@@ -104,7 +104,7 @@
           ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
           ["content-encoding", "br"],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
           [
             "link",
             "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
@@ -115,7 +115,7 @@
           ],
           [
             "link",
-            "</_next/static/chunks/3289t2y5hp9hl.css?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56>; rel=preload; as=\"style\""
+            "</_next/static/chunks/3289t2y5hp9hl.css?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM>; rel=preload; as=\"style\""
           ],
           ["server", "Vercel"],
           ["set-cookie", "sb-cookie-domain-migrated=<redacted>"],
@@ -129,26 +129,26 @@
           ["x-powered-by", "Next.js"],
           ["x-robots-tag", "all"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::arn1::9xpq9-1791145018366-4b65f7b5b0fc"],
+          ["x-vercel-id", "arn1::arn1::5m9cs-1791186766284-1e3e51101a5c"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/3289t2y5hp9hl.css?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;display=swap\" data-precedence=\"default\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\">\n<script src=\"/_next/static/chunks/1qf0-3umuvlgs.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1c-4h2aze0ifj.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/17n6efyo3mw6y.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/20eevrxlqp_9y.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/082e10nix1-ed.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-1swzpcq_fwz6f.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3pq1wc-j3ja4g.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2_jlx2bd84vxt.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/08ec-sgyjoduq.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/18agb5d5xarky.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2wu-cw53ii2uk.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0ngnexp95s191.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1pc4rd05yqsw_.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/01ns8cob_5b4b.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3zopjptjk3evd.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0cjnsueomezei.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1jx98ztyej55a.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2mkqwwxvrdhx0.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2_hkysr1tk_ta.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0pgko6yuc2k8h.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/263jdsgu-_1gn.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1ariht2ia-yss.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0mibrnil7nbbe.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3s8lrg6coxhx_.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1ll1xgneg5ozv.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2j2j94f-a5w-u.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0wg5tvj_g27hb.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3jg3crl7un2hh.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/32n6fxyqk6zaj.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/322bhbs7exoif.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<script src=\"/_next/static/chunks/07rzbtbn4og6d.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@100..800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap\" as=\"style\">\n<link rel=\"preload\" href=\"https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&amp;display=swap\" as=\"style\">\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Dagny Blog\" href=\"/rss.xml\">\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"anonymous\">\n<link rel=\"preconnect\" href=\"https://api.fontshare.com\">\n<link rel=\"preconnect\" href=\"https://cdn.fontshare.com\" crossorigin=\"anonymous\">\n<meta name=\"theme-color\" content=\"#f7f8fa\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"description\" content=\"Tell us about your business. Dagny builds a brain of it, watches the numbers, and ships your website first.\">\n<link rel=\"manifest\" href=\"/manifest.json\">\n<meta name=\"robots\" content=\"noindex\">\n<link rel=\"canonical\" href=\"https://www.bydagny.com\">\n<meta name=\"mobile-web-app-capable\" content=\"yes\">\n<meta name=\"apple-mobile-web-app-title\" content=\"Dagny\">\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\">\n<meta property=\"og:title\" content=\"Dagny is your AI.\">\n<meta property=\"og:description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<meta property=\"og:url\" content=\"https://www.bydagny.com\">\n<meta property=\"og:site_name\" content=\"Dagny\">\n<meta property=\"og:locale\" content=\"en_US\">\n<meta property=\"og:image\" content=\"https://www.bydagny.com/brand/og-default.jpg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"Dagny\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Dagny is your AI.\">\n<meta name=\"twitter:description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<meta name=\"twitter:image\" content=\"https://www.bydagny.com/brand/og-default.jpg\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.0t8mtmhoze29e.ico\" sizes=\"32x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.svg?icon.1x7fe67glzy7x.svg\" sizes=\"any\" type=\"image/svg+xml\">\n<link rel=\"apple-touch-icon\" href=\"/apple-icon.png?apple-icon.3xpiyfnma559_.png\" sizes=\"180x180\" type=\"image/png\">\n<link href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@100..800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap\" rel=\"stylesheet\">\n<link href=\"https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&amp;display=swap\" rel=\"stylesheet\">\n<meta name=\"sentry-trace\" content=\"8bd241cc8f9b4c789ab0c651d0d2de84-9d75ce33f0922f51-0\">\n<meta name=\"baggage\" content=\"sentry-environment=production,sentry-release=e1588d8af06a7427146292b83e014f15e0c4e4ab,sentry-public_key=0cc4acb45f8d32622580fbb6ba4d076a,sentry-trace_id=8bd241cc8f9b4c789ab0c651d0d2de84,sentry-org_id=4511523128803328,sentry-sampled=false,sentry-sample_rand=0.6033371081403797,sentry-sample_rate=0.1\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" nomodule=\"\"></script>\n<a href=\"/\"></a>\n<script src=\"/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56\" id=\"_R_\" async=\"\"></script>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/3289t2y5hp9hl.css?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;display=swap\" data-precedence=\"default\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\">\n<script src=\"/_next/static/chunks/1qf0-3umuvlgs.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1c-4h2aze0ifj.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3msro4g0sapf_.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/20eevrxlqp_9y.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/082e10nix1-ed.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-2vxg4zcb2k9i0.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3pq1wc-j3ja4g.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2_jlx2bd84vxt.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/08ec-sgyjoduq.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/18agb5d5xarky.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2wu-cw53ii2uk.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0ngnexp95s191.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1pc4rd05yqsw_.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/01ns8cob_5b4b.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3zopjptjk3evd.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0cjnsueomezei.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1jx98ztyej55a.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2mkqwwxvrdhx0.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2_hkysr1tk_ta.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0pgko6yuc2k8h.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/263jdsgu-_1gn.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1ariht2ia-yss.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0mibrnil7nbbe.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3s8lrg6coxhx_.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1ll1xgneg5ozv.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2j2j94f-a5w-u.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0wg5tvj_g27hb.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3jg3crl7un2hh.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/32n6fxyqk6zaj.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/322bhbs7exoif.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<script src=\"/_next/static/chunks/07rzbtbn4og6d.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@100..800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap\" as=\"style\">\n<link rel=\"preload\" href=\"https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&amp;display=swap\" as=\"style\">\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Dagny Blog\" href=\"/rss.xml\">\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"anonymous\">\n<link rel=\"preconnect\" href=\"https://api.fontshare.com\">\n<link rel=\"preconnect\" href=\"https://cdn.fontshare.com\" crossorigin=\"anonymous\">\n<meta name=\"theme-color\" content=\"#f7f8fa\">\n<meta name=\"next-size-adjust\" content=\"\">\n<meta name=\"description\" content=\"Tell us about your business. Dagny builds a brain of it, watches the numbers, and ships your website first.\">\n<link rel=\"manifest\" href=\"/manifest.json\">\n<meta name=\"robots\" content=\"noindex\">\n<link rel=\"canonical\" href=\"https://www.bydagny.com\">\n<meta name=\"mobile-web-app-capable\" content=\"yes\">\n<meta name=\"apple-mobile-web-app-title\" content=\"Dagny\">\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\">\n<meta property=\"og:title\" content=\"Dagny is your AI.\">\n<meta property=\"og:description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<meta property=\"og:url\" content=\"https://www.bydagny.com\">\n<meta property=\"og:site_name\" content=\"Dagny\">\n<meta property=\"og:locale\" content=\"en_US\">\n<meta property=\"og:image\" content=\"https://www.bydagny.com/brand/og-default.jpg\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"Dagny\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Dagny is your AI.\">\n<meta name=\"twitter:description\" content=\"Dagny is your service business's own AI. It connects to your tools, learns how you work, and runs the real jobs, from getting found online to chasing leads.\">\n<meta name=\"twitter:image\" content=\"https://www.bydagny.com/brand/og-default.jpg\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.0t8mtmhoze29e.ico\" sizes=\"32x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.svg?icon.1x7fe67glzy7x.svg\" sizes=\"any\" type=\"image/svg+xml\">\n<link rel=\"apple-touch-icon\" href=\"/apple-icon.png?apple-icon.3xpiyfnma559_.png\" sizes=\"180x180\" type=\"image/png\">\n<link href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400&amp;family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@100..800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap\" rel=\"stylesheet\">\n<link href=\"https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&amp;display=swap\" rel=\"stylesheet\">\n<meta name=\"sentry-trace\" content=\"75d7e3c229504d5688eeb0aa42d752f4-af73cdda2f3bf642-0\">\n<meta name=\"baggage\" content=\"sentry-environment=production,sentry-release=5d75f78e77e0ec371e38ceaefcca13044e22d5c4,sentry-public_key=0cc4acb45f8d32622580fbb6ba4d076a,sentry-trace_id=75d7e3c229504d5688eeb0aa42d752f4,sentry-org_id=4511523128803328,sentry-sampled=false,sentry-sample_rand=0.6885743139823493,sentry-sample_rate=0.1\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" nomodule=\"\"></script>\n<a href=\"/\"></a>\n<script src=\"/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM\" id=\"_R_\" async=\"\"></script>"
       }
     },
-    "GET https://www.bydagny.com/_next/static/chunks/1c-4h2aze0ifj.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
+    "GET https://www.bydagny.com/_next/static/chunks/1c-4h2aze0ifj.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
       "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/1c-4h2aze0ifj.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
+        "url": "https://www.bydagny.com/_next/static/chunks/1c-4h2aze0ifj.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "700"],
+          ["age", "35598"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"1c-4h2aze0ifj.js\""],
           ["content-encoding", "br"],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
           ["etag", "W/\"8a5edc5413c07a67decdea7f05dcb896\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
+          ["last-modified", "Sun, 04 Oct 2026 21:59:27 GMT"],
           [
             "link",
             "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
@@ -158,26 +158,26 @@
           ["x-matched-path", "/_next/static/chunks/1c-4h2aze0ifj.js"],
           ["x-robots-tag", "all"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::cdpft-1791145018914-81cff43bf0e1"],
+          ["x-vercel-id", "arn1::hfwx7-1791186766543-02081894449e"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
       }
     },
-    "GET https://www.bydagny.com/_next/static/chunks/1qf0-3umuvlgs.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
+    "GET https://www.bydagny.com/_next/static/chunks/1qf0-3umuvlgs.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
       "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/1qf0-3umuvlgs.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
+        "url": "https://www.bydagny.com/_next/static/chunks/1qf0-3umuvlgs.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "700"],
+          ["age", "35598"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"1qf0-3umuvlgs.js\""],
           ["content-encoding", "br"],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
           ["etag", "W/\"0c3f8adaf62d403b937b72a19d64dbfc\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
+          ["last-modified", "Sun, 04 Oct 2026 21:59:27 GMT"],
           [
             "link",
             "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
@@ -187,84 +187,26 @@
           ["x-matched-path", "/_next/static/chunks/1qf0-3umuvlgs.js"],
           ["x-robots-tag", "all"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::d9br7-1791145018910-bd3fc28a0dc9"],
+          ["x-vercel-id", "arn1::nlx46-1791186766544-85d55661596c"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
       }
     },
-    "GET https://www.bydagny.com/_next/static/chunks/08ec-sgyjoduq.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
+    "GET https://www.bydagny.com/_next/static/chunks/3pq1wc-j3ja4g.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
       "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/08ec-sgyjoduq.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
+        "url": "https://www.bydagny.com/_next/static/chunks/3pq1wc-j3ja4g.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "700"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"08ec-sgyjoduq.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"c93e3cad8b6696bfcf8fc8608919901b\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/08ec-sgyjoduq.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::j8dht-1791145018914-b394defb2513"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/20eevrxlqp_9y.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/20eevrxlqp_9y.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "700"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"20eevrxlqp_9y.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"68ba7a725920717dd0e2d65f693a9bd6\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/20eevrxlqp_9y.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::7cvlz-1791145018913-784a3a07267f"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/3pq1wc-j3ja4g.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/3pq1wc-j3ja4g.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "700"],
+          ["age", "640"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"3pq1wc-j3ja4g.js\""],
           ["content-encoding", "br"],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
           ["etag", "W/\"2e65270928027faedbe5e6d5825e4c2f\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
+          ["last-modified", "Mon, 05 Oct 2026 07:42:06 GMT"],
           [
             "link",
             "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
@@ -274,1099 +216,26 @@
           ["x-matched-path", "/_next/static/chunks/3pq1wc-j3ja4g.js"],
           ["x-robots-tag", "all"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::j8dht-1791145018902-4f1ed4de74d2"],
+          ["x-vercel-id", "arn1::wwsj7-1791186766543-d2369fde69ff"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "\"https://widget.intercom.io/\""
       }
     },
-    "GET https://www.bydagny.com/_next/static/chunks/turbopack-1swzpcq_fwz6f.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
+    "GET https://www.bydagny.com/_next/static/chunks/0eat8sc2uv30_.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
       "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/turbopack-1swzpcq_fwz6f.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
+        "url": "https://www.bydagny.com/_next/static/chunks/0eat8sc2uv30_.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "700"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"turbopack-1swzpcq_fwz6f.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          ["etag", "W/\"acf7ddcc9e51d214af500add90b98752\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/turbopack-1swzpcq_fwz6f.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::6d6pd-1791145018905-e83dd057c8d8"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://vercel.live/\""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/0muw8gu0j2-a0.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/0muw8gu0j2-a0.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "11"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0muw8gu0j2-a0.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"95dc922fd60dc3aa2f10318ae0ec6e7e\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/0muw8gu0j2-a0.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::whl54-1791145018894-c1ee6ffd7afb"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/0ngnexp95s191.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/0ngnexp95s191.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "700"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0ngnexp95s191.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"af46c94f092e7bb5d8cbd61819f4dbc2\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/0ngnexp95s191.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::whl54-1791145018914-075bb4eab82f"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://connect.facebook.net/\"\n\"https://ndoyjyehjpocvtgvafym.supabase.co/\"\n\"https://va.vercel-scripts.com/\"\n\"https://vercel.com/\"\n\"https://www.bydagny.com/\"\n\"https://www.clarity.ms/\""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/2_hkysr1tk_ta.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/2_hkysr1tk_ta.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "11"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2_hkysr1tk_ta.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"b813fc1b8ee188d405ebbb69d70525fe\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/2_hkysr1tk_ta.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::xn2c5-1791145018910-b9cfe351eb09"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/1ariht2ia-yss.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/1ariht2ia-yss.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "700"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"1ariht2ia-yss.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"bc0e34edba9d7c01d9b69dd6ec0c7150\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/1ariht2ia-yss.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::rgm5t-1791145018914-5eac9bbd7990"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/2sz501iu8nwvw.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/2sz501iu8nwvw.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "11"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2sz501iu8nwvw.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"5ea7714575c8d88f6b832e0aaf437540\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/2sz501iu8nwvw.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::2jlhk-1791145018898-0f5aed4fcf16"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/0hcri9un_86us.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/0hcri9un_86us.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "11"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0hcri9un_86us.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"7301e1844a6944c5524e0f3f06061be9\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/0hcri9un_86us.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::rgm5t-1791145018903-35f0fefdcd71"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://base-ui.com/\""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/28kiji-41mch6.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/28kiji-41mch6.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "11"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"28kiji-41mch6.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"f8f7b7290ac99191dbd1e293b66fef40\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/28kiji-41mch6.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::q86rg-1791145018898-03971cad2b9f"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/2f63mvcny0vzo.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/2f63mvcny0vzo.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "11"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2f63mvcny0vzo.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"d12c7b044e60be2f68d72ad724e7d407\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/2f63mvcny0vzo.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::mmn2m-1791145018903-2e960ba43f7d"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/1pc4rd05yqsw_.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/1pc4rd05yqsw_.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "700"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"1pc4rd05yqsw_.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"7be5db447ddd17dea860b35c92380907\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/1pc4rd05yqsw_.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::bcth8-1791145018914-178c44e7a744"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://api.bydagny.com/\"\n\"https://supabase.com/\"\n\"supabase-ssr/0.10.3\""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/01ns8cob_5b4b.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/01ns8cob_5b4b.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "700"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"01ns8cob_5b4b.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"275fea19d97a848c8d9ed01fa025c8b8\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/01ns8cob_5b4b.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::gd27n-1791145018914-7afe115d0981"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/2wu-cw53ii2uk.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/2wu-cw53ii2uk.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "700"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2wu-cw53ii2uk.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"463f6959b9e084e10870514bfc088b05\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/2wu-cw53ii2uk.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::t22cc-1791145018914-21389581decd"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/2_jlx2bd84vxt.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/2_jlx2bd84vxt.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "700"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2_jlx2bd84vxt.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"4514a9d0c795f1cb0110fcd1d3bc866e\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/2_jlx2bd84vxt.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::q8szj-1791145018914-91a9351bfe92"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "700"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2ww7m4uthf9jj.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"8fc032dd7fab07dabf3391ff33e96a30\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/2ww7m4uthf9jj.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::fct8s-1791145018932-70cec640e4e6"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/18agb5d5xarky.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/18agb5d5xarky.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "700"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"18agb5d5xarky.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"17dc8c0e4daf4a87f407c552978f2c68\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/18agb5d5xarky.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::jbzxn-1791145018914-ef908f191cc3"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"realtime-js/2.110.9\"\n\"storage-js/2.110.9\"\n\"supabase-js/2.110.9\""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/1i_hyespczggy.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/1i_hyespczggy.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "700"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"1i_hyespczggy.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"19a27e6bc49c2fe75365fdb73d97ae7b\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/1i_hyespczggy.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::hdjq2-1791145018914-a0d2500bee67"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/0cz1d0mv5g_q7.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/0cz1d0mv5g_q7.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "11"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0cz1d0mv5g_q7.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"846118c33b2c0e922d7b3a7676f81f6f\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:47 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/0cz1d0mv5g_q7.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::2jlhk-1791145018914-2f7016169959"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/0fx1x1szzcnh4.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/0fx1x1szzcnh4.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "700"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0fx1x1szzcnh4.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"4880160a508a706d4ca720a18df871f5\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/0fx1x1szzcnh4.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::d9br7-1791145018914-4ae1c5798e1f"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://avei.ai/\"\n\"https://cal.com/\"\n\"https://www.antler.co/\"\n\"https://www.linkedin.com/\""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/03u9pcumxhaxu.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/03u9pcumxhaxu.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "676"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"03u9pcumxhaxu.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"5ccfcdbbc05e6b0fc1d8318975240e2f\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:42 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/03u9pcumxhaxu.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::6psv2-1791145018894-78b3f18498ad"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/082e10nix1-ed.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/082e10nix1-ed.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "700"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"082e10nix1-ed.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"74da4d14e6935d7e3e30d510bce201bd\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/082e10nix1-ed.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::qzqx9-1791145018906-8ffeb444e13b"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/17n6efyo3mw6y.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/17n6efyo3mw6y.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "700"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"17n6efyo3mw6y.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"9507c3f9b32c5efb77565b43244decb1\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/17n6efyo3mw6y.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::7cvlz-1791145018906-f90b569b0970"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://docs.sentry.io/\""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/18ham3_1y0mfy.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/18ham3_1y0mfy.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "700"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"18ham3_1y0mfy.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"06075876c1c8bf85bd1d834ac749b02b\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/18ham3_1y0mfy.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::gd27n-1791145018915-fcb7431a75ec"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://app.cal.com/\"\n\"https://cal.com/\""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/322bhbs7exoif.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/322bhbs7exoif.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "676"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"322bhbs7exoif.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
-          ["etag", "W/\"8f3fedc4a09ad296d62d27db2d393317\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:42 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/322bhbs7exoif.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::8bclp-1791145018914-e4f548146677"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/2gw6_h-fx5ucy.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/2gw6_h-fx5ucy.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "700"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2gw6_h-fx5ucy.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          ["etag", "W/\"c047accb325ac938f2c33644931757cc\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:05:18 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/2gw6_h-fx5ucy.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::66l5v-1791145018914-380b17e0434a"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/3zopjptjk3evd.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/3zopjptjk3evd.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "0"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3zopjptjk3evd.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          ["etag", "W/\"3667a0bd86a18527c7ba9a702a605984\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/3zopjptjk3evd.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::z8d8q-1791145018906-b67c2cdedd25"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://www.google.com/\""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/0pgko6yuc2k8h.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/0pgko6yuc2k8h.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "0"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0pgko6yuc2k8h.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          ["etag", "W/\"5ebf5aff6d1aeaabde4661d36c833a96\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/0pgko6yuc2k8h.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::j8dht-1791145018922-9a70a6575e1c"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://base-ui.com/\""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/3jg3crl7un2hh.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/3jg3crl7un2hh.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "0"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3jg3crl7un2hh.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          ["etag", "W/\"50887dd7362da9b57986ad4d91e7e5f3\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/3jg3crl7un2hh.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::mmn2m-1791145018913-2639a963e0f1"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/1ll1xgneg5ozv.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/1ll1xgneg5ozv.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "0"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"1ll1xgneg5ozv.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          ["etag", "W/\"6f51745f1da762e4dc4c23378307fa0a\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/1ll1xgneg5ozv.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::whl54-1791145018910-0f5c221eb07b"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/263jdsgu-_1gn.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/263jdsgu-_1gn.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "0"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"263jdsgu-_1gn.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          ["etag", "W/\"39df829fa0150e4782a77f6d5470d660\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/263jdsgu-_1gn.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::sk9k4-1791145018910-97551a2eb394"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/2mkqwwxvrdhx0.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/2mkqwwxvrdhx0.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "0"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2mkqwwxvrdhx0.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          ["etag", "W/\"4252b706c65be35d2cec2a2b1a1e6870\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/2mkqwwxvrdhx0.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::pkb8p-1791145018906-45f21e1a1193"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/0mibrnil7nbbe.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/0mibrnil7nbbe.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "0"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0mibrnil7nbbe.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          ["etag", "W/\"6ef99f2eea7006b1a51b1fa6407a2266\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/0mibrnil7nbbe.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::qz2vj-1791145018906-56de76fe45ce"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"http://json-schema.org/\"\n\"https://json-schema.org/\""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/1jx98ztyej55a.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/1jx98ztyej55a.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "0"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"1jx98ztyej55a.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          ["etag", "W/\"0d032cfe5da677f2513e07c4b8d2302c\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/1jx98ztyej55a.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::lpzmg-1791145018913-7c60af849c3b"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/3s8lrg6coxhx_.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/3s8lrg6coxhx_.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "0"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3s8lrg6coxhx_.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          ["etag", "W/\"33fce3b5c750eccd3f697346724ca724\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/3s8lrg6coxhx_.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::jfj88-1791145018906-66f1dc425d99"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://api.githubcopilot.com/\"\n\"https://api.zero.inc/\"\n\"https://bydagny.com/\"\n\"https://circleback.ai/\"\n\"https://cursor.com/\"\n\"https://dashboard.stripe.com/\"\n\"https://drivemcp.googleapis.com/\"\n\"https://mcp.attio.com/\"\n\"https://mcp.granola.ai/\"\n\"https://mcp.linear.app/\"\n\"https://mcp.notion.com/\"\n\"https://mcp.sentry.dev/\"\n\"https://mcp.stripe.com/\"\n\"https://mcp.supabase.com/\"\n\"https://remote.mcp.pipedream.net/\"\n\"https://www.googleapis.com/\""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/32n6fxyqk6zaj.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/32n6fxyqk6zaj.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "0"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"32n6fxyqk6zaj.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          ["etag", "W/\"6d309d9db3b9ebaff47201b8f5d4a890\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/32n6fxyqk6zaj.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::fct8s-1791145018906-28800a542d03"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/0wg5tvj_g27hb.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/0wg5tvj_g27hb.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "0"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0wg5tvj_g27hb.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          ["etag", "W/\"c4f090099e530cf366b81206bf1942ac\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/0wg5tvj_g27hb.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::pnr2h-1791145018910-3cdeca7c6c97"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/0cjnsueomezei.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/0cjnsueomezei.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "0"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0cjnsueomezei.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          ["etag", "W/\"037acdd733be98be9160351459a89221\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/0cjnsueomezei.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::nqn7q-1791145018906-6e11b9ca97d7"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/2j2j94f-a5w-u.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/2j2j94f-a5w-u.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "0"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2j2j94f-a5w-u.js\""],
-          ["content-encoding", "br"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          ["etag", "W/\"c8f2f2519861bceeeec8cbc7803926d3\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:59 GMT"],
-          [
-            "link",
-            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
-          ],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["x-matched-path", "/_next/static/chunks/2j2j94f-a5w-u.js"],
-          ["x-robots-tag", "all"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::fr745-1791145018910-4796d7dc5606"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://apaya.com/\"\n\"https://fonts.googleapis.com/\"\n\"https://media.brand.dev/\"\n\"https://native.no/\"\n\"https://postbae.com/\"\n\"https://postsyncer.com/\"\n\"https://predis.ai/\"\n\"https://www.blotato.com/\"\n\"https://www.gstatic.com/\""
-      }
-    },
-    "GET https://www.bydagny.com/_next/static/chunks/0eat8sc2uv30_.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56": {
-      "result": {
-        "url": "https://www.bydagny.com/_next/static/chunks/0eat8sc2uv30_.js?dpl=dpl_3uQHp2YrFz7Cr2sKtPyTR2A58X56",
-        "status": 200,
-        "headers": [
-          ["access-control-allow-origin", "*"],
-          ["age", "11"],
+          ["age", "41"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"0eat8sc2uv30_.js\""],
           ["content-encoding", "br"],
           ["content-type", "application/javascript; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:58 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
           ["etag", "W/\"8992ea2a428f56be06a7a673b1107347\""],
-          ["last-modified", "Sun, 04 Oct 2026 20:16:47 GMT"],
+          ["last-modified", "Mon, 05 Oct 2026 07:52:04 GMT"],
           [
             "link",
             "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
@@ -1376,26 +245,1193 @@
           ["x-matched-path", "/_next/static/chunks/0eat8sc2uv30_.js"],
           ["x-robots-tag", "all"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::6pnxj-1791145018903-b5783d31326d"],
+          ["x-vercel-id", "arn1::f8g72-1791186766513-197471b61eee"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
       }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/0hcri9un_86us.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/0hcri9un_86us.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "41"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0hcri9un_86us.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"7301e1844a6944c5524e0f3f06061be9\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:52:04 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/0hcri9un_86us.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::dvtf8-1791186766513-02d627de3b24"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://base-ui.com/\""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/28kiji-41mch6.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/28kiji-41mch6.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "41"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"28kiji-41mch6.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"f8f7b7290ac99191dbd1e293b66fef40\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:52:04 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/28kiji-41mch6.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::b84xc-1791186766516-e6cdcaee2c42"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/0ngnexp95s191.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/0ngnexp95s191.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "35598"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0ngnexp95s191.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"af46c94f092e7bb5d8cbd61819f4dbc2\""],
+          ["last-modified", "Sun, 04 Oct 2026 21:59:28 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/0ngnexp95s191.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::p9blj-1791186766543-e61b76e65eb6"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://connect.facebook.net/\"\n\"https://ndoyjyehjpocvtgvafym.supabase.co/\"\n\"https://va.vercel-scripts.com/\"\n\"https://vercel.com/\"\n\"https://www.bydagny.com/\"\n\"https://www.clarity.ms/\""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/2_jlx2bd84vxt.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/2_jlx2bd84vxt.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "2235"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2_jlx2bd84vxt.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"4514a9d0c795f1cb0110fcd1d3bc866e\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:15:31 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/2_jlx2bd84vxt.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::56djt-1791186766542-450fb52fcfd6"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/1ariht2ia-yss.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/1ariht2ia-yss.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "640"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1ariht2ia-yss.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"bc0e34edba9d7c01d9b69dd6ec0c7150\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:42:06 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/1ariht2ia-yss.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::qz584-1791186766544-8275613bc445"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/2_hkysr1tk_ta.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/2_hkysr1tk_ta.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "41"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2_hkysr1tk_ta.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"b813fc1b8ee188d405ebbb69d70525fe\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:52:04 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/2_hkysr1tk_ta.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::nlx46-1791186766528-d2b7806bd3f9"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/2ww7m4uthf9jj.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "35598"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2ww7m4uthf9jj.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"8fc032dd7fab07dabf3391ff33e96a30\""],
+          ["last-modified", "Sun, 04 Oct 2026 21:59:27 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/2ww7m4uthf9jj.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::kfcjs-1791186766544-1905000dbf5a"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/2f63mvcny0vzo.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/2f63mvcny0vzo.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "26162"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2f63mvcny0vzo.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"d12c7b044e60be2f68d72ad724e7d407\""],
+          ["last-modified", "Mon, 05 Oct 2026 00:36:44 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/2f63mvcny0vzo.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5gmrc-1791186766519-1ef8026cb29b"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/2wu-cw53ii2uk.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/2wu-cw53ii2uk.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "35598"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2wu-cw53ii2uk.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"463f6959b9e084e10870514bfc088b05\""],
+          ["last-modified", "Sun, 04 Oct 2026 21:59:28 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/2wu-cw53ii2uk.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::2mwhr-1791186766542-f3558c08f3ea"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/turbopack-2vxg4zcb2k9i0.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/turbopack-2vxg4zcb2k9i0.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "35598"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"turbopack-2vxg4zcb2k9i0.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"501bac551e5a957c387aa341a76bcbaf\""],
+          ["last-modified", "Sun, 04 Oct 2026 21:59:27 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/turbopack-2vxg4zcb2k9i0.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::j6f2l-1791186766536-b6aaf861a704"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://vercel.live/\""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/2sz501iu8nwvw.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/2sz501iu8nwvw.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "41"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2sz501iu8nwvw.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"5ea7714575c8d88f6b832e0aaf437540\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:52:04 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/2sz501iu8nwvw.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::kjlnn-1791186766516-4dfb04caea1a"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/1pc4rd05yqsw_.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/1pc4rd05yqsw_.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "26419"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1pc4rd05yqsw_.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"7be5db447ddd17dea860b35c92380907\""],
+          ["last-modified", "Mon, 05 Oct 2026 00:32:26 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/1pc4rd05yqsw_.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::jnpst-1791186766543-1a40e8fc7c35"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://api.bydagny.com/\"\n\"https://supabase.com/\"\n\"supabase-ssr/0.10.3\""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/08ec-sgyjoduq.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/08ec-sgyjoduq.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "35598"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"08ec-sgyjoduq.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"c93e3cad8b6696bfcf8fc8608919901b\""],
+          ["last-modified", "Sun, 04 Oct 2026 21:59:27 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/08ec-sgyjoduq.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::dvtf8-1791186766542-72c25f3a92b3"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/082e10nix1-ed.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/082e10nix1-ed.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "35598"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"082e10nix1-ed.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"74da4d14e6935d7e3e30d510bce201bd\""],
+          ["last-modified", "Sun, 04 Oct 2026 21:59:27 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/082e10nix1-ed.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::bvnfs-1791186766543-077101d90190"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/0muw8gu0j2-a0.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/0muw8gu0j2-a0.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "41"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0muw8gu0j2-a0.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"95dc922fd60dc3aa2f10318ae0ec6e7e\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:52:04 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/0muw8gu0j2-a0.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::kv42t-1791186766519-5674d95e67f4"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/01ns8cob_5b4b.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/01ns8cob_5b4b.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "640"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"01ns8cob_5b4b.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"275fea19d97a848c8d9ed01fa025c8b8\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:42:06 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/01ns8cob_5b4b.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5vsxt-1791186766529-4d98ac5d2566"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/18agb5d5xarky.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/18agb5d5xarky.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "35598"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"18agb5d5xarky.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"17dc8c0e4daf4a87f407c552978f2c68\""],
+          ["last-modified", "Sun, 04 Oct 2026 21:59:28 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/18agb5d5xarky.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::fzq5s-1791186766542-37679e757914"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"realtime-js/2.110.9\"\n\"storage-js/2.110.9\"\n\"supabase-js/2.110.9\""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/0cz1d0mv5g_q7.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/0cz1d0mv5g_q7.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "39"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0cz1d0mv5g_q7.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"846118c33b2c0e922d7b3a7676f81f6f\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:52:07 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/0cz1d0mv5g_q7.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::l9gpx-1791186766544-3c71c4896859"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/3jg3crl7un2hh.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/3jg3crl7un2hh.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "32956"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3jg3crl7un2hh.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"50887dd7362da9b57986ad4d91e7e5f3\""],
+          ["last-modified", "Sun, 04 Oct 2026 22:43:29 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/3jg3crl7un2hh.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5gmrc-1791186766530-32afdecd43de"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/20eevrxlqp_9y.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/20eevrxlqp_9y.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "4633"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"20eevrxlqp_9y.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"68ba7a725920717dd0e2d65f693a9bd6\""],
+          ["last-modified", "Mon, 05 Oct 2026 06:35:32 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/20eevrxlqp_9y.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9ts6d-1791186766542-c85fdede2269"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/1jx98ztyej55a.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/1jx98ztyej55a.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "32956"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1jx98ztyej55a.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"0d032cfe5da677f2513e07c4b8d2302c\""],
+          ["last-modified", "Sun, 04 Oct 2026 22:43:29 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/1jx98ztyej55a.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::4h5q2-1791186766528-31d5da0ac05e"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/0cjnsueomezei.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/0cjnsueomezei.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "32956"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0cjnsueomezei.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"037acdd733be98be9160351459a89221\""],
+          ["last-modified", "Sun, 04 Oct 2026 22:43:29 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/0cjnsueomezei.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::gtwmp-1791186766529-a11464d7f3ef"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/2mkqwwxvrdhx0.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/2mkqwwxvrdhx0.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "32956"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2mkqwwxvrdhx0.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"4252b706c65be35d2cec2a2b1a1e6870\""],
+          ["last-modified", "Sun, 04 Oct 2026 22:43:29 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/2mkqwwxvrdhx0.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::xddqp-1791186766531-ef833a688077"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/1i_hyespczggy.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/1i_hyespczggy.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "35597"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1i_hyespczggy.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"19a27e6bc49c2fe75365fdb73d97ae7b\""],
+          ["last-modified", "Sun, 04 Oct 2026 21:59:29 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/1i_hyespczggy.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::2kpv8-1791186766542-d05e88e6d573"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/0pgko6yuc2k8h.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/0pgko6yuc2k8h.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "32956"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0pgko6yuc2k8h.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"5ebf5aff6d1aeaabde4661d36c833a96\""],
+          ["last-modified", "Sun, 04 Oct 2026 22:43:29 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/0pgko6yuc2k8h.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::n7nwn-1791186766528-167e3f337321"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://base-ui.com/\""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/1ll1xgneg5ozv.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/1ll1xgneg5ozv.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "32956"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1ll1xgneg5ozv.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"6f51745f1da762e4dc4c23378307fa0a\""],
+          ["last-modified", "Sun, 04 Oct 2026 22:43:29 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/1ll1xgneg5ozv.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::2mwhr-1791186766529-15c1727666b8"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/3s8lrg6coxhx_.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/3s8lrg6coxhx_.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "3876"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3s8lrg6coxhx_.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"33fce3b5c750eccd3f697346724ca724\""],
+          ["last-modified", "Mon, 05 Oct 2026 06:48:10 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/3s8lrg6coxhx_.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::nrn6n-1791186766529-c0bea0ef017e"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://api.githubcopilot.com/\"\n\"https://api.zero.inc/\"\n\"https://bydagny.com/\"\n\"https://circleback.ai/\"\n\"https://cursor.com/\"\n\"https://dashboard.stripe.com/\"\n\"https://drivemcp.googleapis.com/\"\n\"https://mcp.attio.com/\"\n\"https://mcp.granola.ai/\"\n\"https://mcp.linear.app/\"\n\"https://mcp.notion.com/\"\n\"https://mcp.sentry.dev/\"\n\"https://mcp.stripe.com/\"\n\"https://mcp.supabase.com/\"\n\"https://remote.mcp.pipedream.net/\"\n\"https://www.googleapis.com/\""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/0wg5tvj_g27hb.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/0wg5tvj_g27hb.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "32956"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0wg5tvj_g27hb.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"c4f090099e530cf366b81206bf1942ac\""],
+          ["last-modified", "Sun, 04 Oct 2026 22:43:29 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/0wg5tvj_g27hb.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::p9blj-1791186766532-0c3b4a385340"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/18ham3_1y0mfy.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/18ham3_1y0mfy.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "35598"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"18ham3_1y0mfy.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"06075876c1c8bf85bd1d834ac749b02b\""],
+          ["last-modified", "Sun, 04 Oct 2026 21:59:27 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/18ham3_1y0mfy.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::gskqx-1791186766543-2b274c28ec5b"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://app.cal.com/\"\n\"https://cal.com/\""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/263jdsgu-_1gn.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/263jdsgu-_1gn.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "32956"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"263jdsgu-_1gn.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"39df829fa0150e4782a77f6d5470d660\""],
+          ["last-modified", "Sun, 04 Oct 2026 22:43:29 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/263jdsgu-_1gn.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::czdsw-1791186766528-150a4b0389a2"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/2gw6_h-fx5ucy.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/2gw6_h-fx5ucy.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "35597"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2gw6_h-fx5ucy.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"c047accb325ac938f2c33644931757cc\""],
+          ["last-modified", "Sun, 04 Oct 2026 21:59:29 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/2gw6_h-fx5ucy.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5clt4-1791186766543-6881159c2245"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/0mibrnil7nbbe.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/0mibrnil7nbbe.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "32956"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0mibrnil7nbbe.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"6ef99f2eea7006b1a51b1fa6407a2266\""],
+          ["last-modified", "Sun, 04 Oct 2026 22:43:29 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/0mibrnil7nbbe.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::d7fdz-1791186766529-02b4422606c2"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://json-schema.org/\"\n\"https://json-schema.org/\""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/32n6fxyqk6zaj.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/32n6fxyqk6zaj.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "32956"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"32n6fxyqk6zaj.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"6d309d9db3b9ebaff47201b8f5d4a890\""],
+          ["last-modified", "Sun, 04 Oct 2026 22:43:29 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/32n6fxyqk6zaj.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::m525c-1791186766543-352cdcfa0925"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/07rzbtbn4og6d.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/07rzbtbn4og6d.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "3876"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"07rzbtbn4og6d.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"f83baa86c2ee9ec7e7a8a16284daa92d\""],
+          ["last-modified", "Mon, 05 Oct 2026 06:48:10 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/07rzbtbn4og6d.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::msvd2-1791186766543-10a79416ecec"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://json-schema.org/\"\n\"https://json-schema.org/\""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/0fx1x1szzcnh4.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/0fx1x1szzcnh4.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "35598"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0fx1x1szzcnh4.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"4880160a508a706d4ca720a18df871f5\""],
+          ["last-modified", "Sun, 04 Oct 2026 21:59:27 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/0fx1x1szzcnh4.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::fpnxb-1791186766544-849e397ea87e"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://avei.ai/\"\n\"https://cal.com/\"\n\"https://www.antler.co/\"\n\"https://www.linkedin.com/\""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/322bhbs7exoif.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/322bhbs7exoif.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "33475"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"322bhbs7exoif.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"8f3fedc4a09ad296d62d27db2d393317\""],
+          ["last-modified", "Sun, 04 Oct 2026 22:34:51 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/322bhbs7exoif.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::d7fdz-1791186766543-afc481c3c4ea"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/03u9pcumxhaxu.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/03u9pcumxhaxu.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "33476"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"03u9pcumxhaxu.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"5ccfcdbbc05e6b0fc1d8318975240e2f\""],
+          ["last-modified", "Sun, 04 Oct 2026 22:34:50 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/03u9pcumxhaxu.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::xb7h8-1791186766515-c5923f43d6e8"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/2j2j94f-a5w-u.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/2j2j94f-a5w-u.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "3876"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2j2j94f-a5w-u.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"c8f2f2519861bceeeec8cbc7803926d3\""],
+          ["last-modified", "Mon, 05 Oct 2026 06:48:10 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/2j2j94f-a5w-u.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::gtwmp-1791186766532-b62238dea307"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://apaya.com/\"\n\"https://fonts.googleapis.com/\"\n\"https://media.brand.dev/\"\n\"https://native.no/\"\n\"https://postbae.com/\"\n\"https://postsyncer.com/\"\n\"https://predis.ai/\"\n\"https://www.blotato.com/\"\n\"https://www.gstatic.com/\""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/3msro4g0sapf_.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/3msro4g0sapf_.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "35598"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3msro4g0sapf_.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"3d341b0323efb07d350d8619914c0c9a\""],
+          ["last-modified", "Sun, 04 Oct 2026 21:59:28 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/3msro4g0sapf_.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::g82gp-1791186766513-19fb1b82c48e"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://docs.sentry.io/\""
+      }
+    },
+    "GET https://www.bydagny.com/_next/static/chunks/3zopjptjk3evd.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM": {
+      "result": {
+        "url": "https://www.bydagny.com/_next/static/chunks/3zopjptjk3evd.js?dpl=dpl_4DCkFrszoGmZhWVqqKQqKZJnQTEM",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "0"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3zopjptjk3evd.js\""],
+          ["content-encoding", "br"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          ["etag", "W/\"3667a0bd86a18527c7ba9a702a605984\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:52:46 GMT"],
+          [
+            "link",
+            "</llms.txt>; rel=\"llms-txt\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/mcp.json>; rel=\"mcp-server\"; type=\"application/json\""
+          ],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-matched-path", "/_next/static/chunks/3zopjptjk3evd.js"],
+          ["x-robots-tag", "all"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::2mwhr-1791186766535-f0836ec453e5"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://www.google.com/\""
+      }
     }
   },
   "dns": {
-    "NS bydagny.com": {
-      "result": {
-        "name": "bydagny.com",
-        "type": "NS",
-        "records": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"]
-      }
-    },
     "AAAA bydagny.com": {
       "result": {
         "name": "bydagny.com",
         "type": "AAAA",
         "records": []
+      }
+    },
+    "A bydagny.com": {
+      "result": {
+        "name": "bydagny.com",
+        "type": "A",
+        "records": ["216.150.1.65", "216.150.16.193"]
+      }
+    },
+    "NS bydagny.com": {
+      "result": {
+        "name": "bydagny.com",
+        "type": "NS",
+        "records": ["ns1.vercel-dns.com", "ns2.vercel-dns.com"]
       }
     },
     "CNAME bydagny.com": {
@@ -1405,18 +1441,11 @@
         "records": []
       }
     },
-    "A bydagny.com": {
+    "TXT 65.1.150.216.origin.asn.cymru.com": {
       "result": {
-        "name": "bydagny.com",
-        "type": "A",
-        "records": ["216.150.1.65", "216.150.1.129"]
-      }
-    },
-    "TXT 193.16.150.216.origin.asn.cymru.com": {
-      "result": {
-        "name": "193.16.150.216.origin.asn.cymru.com",
+        "name": "65.1.150.216.origin.asn.cymru.com",
         "type": "TXT",
-        "records": ["16509 | 216.150.16.0/24 | US | arin | 2024-07-24"]
+        "records": ["16509 | 216.150.1.0/24 | US | arin | 2024-07-24"]
       }
     },
     "TXT as16509.asn.cymru.com": {
@@ -1426,13 +1455,6 @@
         "records": ["16509 | US | arin | 2000-05-04 | AMAZON-02 - Amazon.com, Inc., US"]
       }
     },
-    "A stackprobe-wildcard-check.bydagny.com": {
-      "result": {
-        "name": "stackprobe-wildcard-check.bydagny.com",
-        "type": "A",
-        "records": ["216.150.1.65", "216.150.1.1"]
-      }
-    },
     "CNAME stackprobe-wildcard-check.bydagny.com": {
       "result": {
         "name": "stackprobe-wildcard-check.bydagny.com",
@@ -1440,10 +1462,24 @@
         "records": []
       }
     },
-    "CNAME www.bydagny.com": {
+    "A stackprobe-wildcard-check.bydagny.com": {
+      "result": {
+        "name": "stackprobe-wildcard-check.bydagny.com",
+        "type": "A",
+        "records": ["216.150.1.1", "216.150.16.129"]
+      }
+    },
+    "A www.bydagny.com": {
       "result": {
         "name": "www.bydagny.com",
-        "type": "CNAME",
+        "type": "A",
+        "records": ["216.150.1.1", "216.150.16.1"]
+      }
+    },
+    "NS www.bydagny.com": {
+      "result": {
+        "name": "www.bydagny.com",
+        "type": "NS",
         "records": []
       }
     },
@@ -1454,17 +1490,10 @@
         "records": []
       }
     },
-    "A www.bydagny.com": {
+    "CNAME www.bydagny.com": {
       "result": {
         "name": "www.bydagny.com",
-        "type": "A",
-        "records": ["216.150.1.129", "216.150.16.193"]
-      }
-    },
-    "NS www.bydagny.com": {
-      "result": {
-        "name": "www.bydagny.com",
-        "type": "NS",
+        "type": "CNAME",
         "records": []
       }
     },
@@ -1480,7 +1509,7 @@
     "bydagny.com:443": {
       "result": {
         "host": "bydagny.com",
-        "ip": "216.150.16.193",
+        "ip": "216.150.1.65",
         "issuer": "C=US, O=Let's Encrypt, CN=YR1",
         "subjectAltNames": ["bydagny.com"],
         "validFrom": "Aug  7 11:02:33 2026 GMT",

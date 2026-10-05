@@ -1,14 +1,280 @@
 {
   "url": "https://app.goodtape.io/auth/login",
-  "recordedAt": "2026-10-04T20:16:52.563Z",
+  "recordedAt": "2026-10-05T07:52:33.595Z",
   "http": {
     "GET https://app.goodtape.io/auth/login": {
       "result": {
         "url": "https://app.goodtape.io/auth/login",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:34 GMT"],
           ["content-type", "text/html; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-ln8zz"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["set-cookie", "gt_ph_auth_uid=<redacted>"],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"description\" content=\"Good Tape is an automatic transcription service that makes it easy for journalists (and others) to turn audio recordings into text, regardless of language or sound quality. We save you time and effort so you can focus on what really matters.\">\n<meta property=\"og:title\" content=\"Good Tape\">\n<meta property=\"og:description\" content=\"Good Tape is an automatic transcription service that makes it easy for journalists (and others) to turn audio recordings into text, regardless of language or sound quality. We save you time and effort so you can focus on what really matters.\">\n<meta property=\"og:image\" content=\"https://app.goodtape.io/assets/og-image.png\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Good Tape\">\n<meta name=\"twitter:description\" content=\"Good Tape is an automatic transcription service that makes it easy for journalists (and others) to turn audio recordings into text, regardless of language or sound quality. We save you time and effort so you can focus on what really matters.\">\n<meta name=\"twitter:image\" content=\"https://app.goodtape.io/assets/og-image.png\">\n<meta name=\"facebook-domain-verification\" content=\"hxkf1k6o1l890vojmfw1mmwolrdxu1\">\n<link rel=\"preload\" href=\"/fonts/sharp-grotesk/SharpGroteskBook25.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"preload\" href=\"/fonts/sharp-grotesk/SharpGroteskMedium20.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"preload\" href=\"/fonts/sharp-grotesk/SharpGroteskBook20.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"preload\" href=\"/fonts/sharp-grotesk/SharpGroteskMedium25.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"alternate icon\" type=\"image/png\" href=\"/favicon.png\">\n<link rel=\"apple-touch-icon\" href=\"/favicon.png\">\n<link rel=\"icon\" href=\"/favicon.png\" type=\"image/png\">\n<link rel=\"modulepreload\" href=\"/assets/manifest-3b3f2f4a.js\">\n<link rel=\"modulepreload\" href=\"/Cn6aL_3I.js\">\n<link rel=\"modulepreload\" href=\"/D7s9bMd3.js\">\n<link rel=\"modulepreload\" href=\"/BW_0Ltx2.js\">\n<link rel=\"modulepreload\" href=\"/BIG7vTIZ.js\">\n<link rel=\"modulepreload\" href=\"/B9-7EZGV.js\">\n<link rel=\"modulepreload\" href=\"/5jBVRjIE.js\">\n<link rel=\"modulepreload\" href=\"/Br40_4MX.js\">\n<link rel=\"modulepreload\" href=\"/M_fkrczy.js\">\n<link rel=\"modulepreload\" href=\"/Du8b9OfE.js\">\n<link rel=\"modulepreload\" href=\"/DSehjWq9.js\">\n<link rel=\"modulepreload\" href=\"/CENhZXXP.js\">\n<link rel=\"modulepreload\" href=\"/xymt1Yre.js\">\n<link rel=\"modulepreload\" href=\"/C46atrCG.js\">\n<link rel=\"modulepreload\" href=\"/BBolXf7Y.js\">\n<link rel=\"modulepreload\" href=\"/SVoGoie_.js\">\n<link rel=\"modulepreload\" href=\"/loGf9Kxq.js\">\n<link rel=\"modulepreload\" href=\"/u8wTgF9a.js\">\n<link rel=\"modulepreload\" href=\"/B7CKUNBC.js\">\n<link rel=\"modulepreload\" href=\"/CY3-SJpC.js\">\n<link rel=\"modulepreload\" href=\"/BxhaAtB0.js\">\n<link rel=\"modulepreload\" href=\"/CE6bMmAw.js\">\n<link rel=\"modulepreload\" href=\"/BdaoR1SW.js\">\n<link rel=\"modulepreload\" href=\"/CM3s7aax.js\">\n<link rel=\"modulepreload\" href=\"/HLrAitpH.js\">\n<link rel=\"modulepreload\" href=\"/CGb-eGR2.js\">\n<link rel=\"modulepreload\" href=\"/D6FCNbk1.js\">\n<link rel=\"modulepreload\" href=\"/CcSk9tRc.js\">\n<link rel=\"modulepreload\" href=\"/Ckblzf4m.js\">\n<link rel=\"modulepreload\" href=\"/wv_iTk-d.js\">\n<link rel=\"modulepreload\" href=\"/BiBEYTQU.js\">\n<link rel=\"modulepreload\" href=\"/09oia8hT.js\">\n<link rel=\"modulepreload\" href=\"/DemS4Bnq.js\">\n<link rel=\"modulepreload\" href=\"/aPOkRr2q.js\">\n<link rel=\"modulepreload\" href=\"/XNm3l4Rk.js\">\n<link rel=\"modulepreload\" href=\"/DCTSG7KH.js\">\n<link rel=\"modulepreload\" href=\"/C1if1Ua_.js\">\n<link rel=\"modulepreload\" href=\"/BQetr6xq.js\">\n<link rel=\"modulepreload\" href=\"/CNVFR8DB.js\">\n<link rel=\"modulepreload\" href=\"/CdX6RSuv.js\">\n<link rel=\"modulepreload\" href=\"/B5tfLoe4.js\">\n<link rel=\"modulepreload\" href=\"/dnToVTJY.js\">\n<link rel=\"modulepreload\" href=\"/T44tYLLW.js\">\n<link rel=\"modulepreload\" href=\"/JiOG9QMS.js\">\n<link rel=\"modulepreload\" href=\"/RYoHg17b.js\">\n<link rel=\"modulepreload\" href=\"/D_4KzB6x.js\">\n<link rel=\"modulepreload\" href=\"/DMCSiO68.js\">\n<link rel=\"modulepreload\" href=\"/sPz_q7tv.js\">\n<link rel=\"modulepreload\" href=\"/Bo4trdon.js\">\n<link rel=\"modulepreload\" href=\"/Cb8_-w-i.js\">\n<link rel=\"modulepreload\" href=\"/CJQPldX4.js\">\n<link rel=\"modulepreload\" href=\"/BFXGPaQn.js\">\n<link rel=\"modulepreload\" href=\"/Dy2ojYGb.js\">\n<link rel=\"modulepreload\" href=\"/rnsxLMUg.js\">\n<link rel=\"modulepreload\" href=\"/BhA1QETY.js\">\n<link rel=\"modulepreload\" href=\"/RHNvqZy5.js\">\n<link rel=\"modulepreload\" href=\"/CTWtd2dq.js\">\n<link rel=\"modulepreload\" href=\"/CfUTGudI.js\">\n<link rel=\"modulepreload\" href=\"/D7HrI6pR.js\">\n<link rel=\"modulepreload\" href=\"/rmOhI1yV.js\">\n<link rel=\"modulepreload\" href=\"/BQIe4qz3.js\">\n<link rel=\"modulepreload\" href=\"/CnwKBhtc.js\">\n<link rel=\"modulepreload\" href=\"/DmgT8A0V.js\">\n<link rel=\"modulepreload\" href=\"/BdMPY2eW.js\">\n<link rel=\"modulepreload\" href=\"/igkq2FnS.js\">\n<link rel=\"modulepreload\" href=\"/CoeZ6FuU.js\">\n<link rel=\"modulepreload\" href=\"/CFq8hCIZ.js\">\n<link rel=\"modulepreload\" href=\"/CpBZUp5i.js\">\n<link rel=\"modulepreload\" href=\"/C1GmZiKv.js\">\n<link rel=\"modulepreload\" href=\"/B3UNCjPN.js\">\n<link rel=\"modulepreload\" href=\"/C32Dw5Lb.js\">\n<link rel=\"modulepreload\" href=\"/CMaJ4FiK.js\">\n<link rel=\"modulepreload\" href=\"/D6R_PC3e.js\">\n<link href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,300,0..1,0\" rel=\"stylesheet\">\n<link rel=\"stylesheet\" href=\"/BJftZq6t.css\">\n<link rel=\"stylesheet\" href=\"/KbsjaNMY.css\">\n<link rel=\"stylesheet\" href=\"/C9WoKuPx.css\">\n<link rel=\"stylesheet\" as=\"style\" href=\"/Br_5lnaP.css\">\n<link rel=\"stylesheet\" href=\"/DJuCZ3J8.css\">\n<a href=\"https://goodtape.io\"></a>\n<a href=\"/signup/flow\">Sign up</a>"
+      }
+    },
+    "GET https://app.goodtape.io/assets/manifest-3b3f2f4a.js": {
+      "result": {
+        "url": "https://app.goodtape.io/assets/manifest-3b3f2f4a.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-r7b5w"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"202bf-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/xymt1Yre.js": {
+      "result": {
+        "url": "https://app.goodtape.io/xymt1Yre.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-x5mhc"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"538-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/C46atrCG.js": {
+      "result": {
+        "url": "https://app.goodtape.io/C46atrCG.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-l7psr"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"425-1a0fc40a490\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/BxhaAtB0.js": {
+      "result": {
+        "url": "https://app.goodtape.io/BxhaAtB0.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-l7psr"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"ab1-1a0fc40a490\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/CM3s7aax.js": {
+      "result": {
+        "url": "https://app.goodtape.io/CM3s7aax.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-l7psr"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"22c1-1a0fc40a490\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/CENhZXXP.js": {
+      "result": {
+        "url": "https://app.goodtape.io/CENhZXXP.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-2txhd"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"1a14-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": "\"https://www.youtube.com/\""
+      }
+    },
+    "GET https://app.goodtape.io/BiBEYTQU.js": {
+      "result": {
+        "url": "https://app.goodtape.io/BiBEYTQU.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-x5mhc"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"5b0-1a0fc40a490\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/Bo4trdon.js": {
+      "result": {
+        "url": "https://app.goodtape.io/Bo4trdon.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "781"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-9d4fw"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"30d-1a0fc40a878\""],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/Ckblzf4m.js": {
+      "result": {
+        "url": "https://app.goodtape.io/Ckblzf4m.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
           ["x-frame-options", "SAMEORIGIN"],
@@ -22,11 +288,1528 @@
           ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
           ["x-forwarded-host", "web-deploy-6c59c868fd-9d4fw"],
           ["vary", "Origin, Accept-Encoding"],
-          ["set-cookie", "gt_ph_auth_uid=<redacted>"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"4a8-1a0fc40a878\""],
           ["content-encoding", "br"],
           ["strict-transport-security", "max-age=31536000; includeSubDomains"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"description\" content=\"Good Tape is an automatic transcription service that makes it easy for journalists (and others) to turn audio recordings into text, regardless of language or sound quality. We save you time and effort so you can focus on what really matters.\">\n<meta property=\"og:title\" content=\"Good Tape\">\n<meta property=\"og:description\" content=\"Good Tape is an automatic transcription service that makes it easy for journalists (and others) to turn audio recordings into text, regardless of language or sound quality. We save you time and effort so you can focus on what really matters.\">\n<meta property=\"og:image\" content=\"https://app.goodtape.io/assets/og-image.png\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"Good Tape\">\n<meta name=\"twitter:description\" content=\"Good Tape is an automatic transcription service that makes it easy for journalists (and others) to turn audio recordings into text, regardless of language or sound quality. We save you time and effort so you can focus on what really matters.\">\n<meta name=\"twitter:image\" content=\"https://app.goodtape.io/assets/og-image.png\">\n<meta name=\"facebook-domain-verification\" content=\"hxkf1k6o1l890vojmfw1mmwolrdxu1\">\n<link rel=\"preload\" href=\"/fonts/sharp-grotesk/SharpGroteskBook25.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"preload\" href=\"/fonts/sharp-grotesk/SharpGroteskMedium20.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"preload\" href=\"/fonts/sharp-grotesk/SharpGroteskBook20.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"preload\" href=\"/fonts/sharp-grotesk/SharpGroteskMedium25.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\">\n<link rel=\"alternate icon\" type=\"image/png\" href=\"/favicon.png\">\n<link rel=\"apple-touch-icon\" href=\"/favicon.png\">\n<link rel=\"icon\" href=\"/favicon.png\" type=\"image/png\">\n<link rel=\"modulepreload\" href=\"/assets/manifest-3b3f2f4a.js\">\n<link rel=\"modulepreload\" href=\"/Cn6aL_3I.js\">\n<link rel=\"modulepreload\" href=\"/D7s9bMd3.js\">\n<link rel=\"modulepreload\" href=\"/BW_0Ltx2.js\">\n<link rel=\"modulepreload\" href=\"/BIG7vTIZ.js\">\n<link rel=\"modulepreload\" href=\"/B9-7EZGV.js\">\n<link rel=\"modulepreload\" href=\"/5jBVRjIE.js\">\n<link rel=\"modulepreload\" href=\"/Br40_4MX.js\">\n<link rel=\"modulepreload\" href=\"/M_fkrczy.js\">\n<link rel=\"modulepreload\" href=\"/Du8b9OfE.js\">\n<link rel=\"modulepreload\" href=\"/DSehjWq9.js\">\n<link rel=\"modulepreload\" href=\"/CENhZXXP.js\">\n<link rel=\"modulepreload\" href=\"/xymt1Yre.js\">\n<link rel=\"modulepreload\" href=\"/C46atrCG.js\">\n<link rel=\"modulepreload\" href=\"/BBolXf7Y.js\">\n<link rel=\"modulepreload\" href=\"/SVoGoie_.js\">\n<link rel=\"modulepreload\" href=\"/loGf9Kxq.js\">\n<link rel=\"modulepreload\" href=\"/u8wTgF9a.js\">\n<link rel=\"modulepreload\" href=\"/B7CKUNBC.js\">\n<link rel=\"modulepreload\" href=\"/CY3-SJpC.js\">\n<link rel=\"modulepreload\" href=\"/BxhaAtB0.js\">\n<link rel=\"modulepreload\" href=\"/CE6bMmAw.js\">\n<link rel=\"modulepreload\" href=\"/BdaoR1SW.js\">\n<link rel=\"modulepreload\" href=\"/CM3s7aax.js\">\n<link rel=\"modulepreload\" href=\"/HLrAitpH.js\">\n<link rel=\"modulepreload\" href=\"/CGb-eGR2.js\">\n<link rel=\"modulepreload\" href=\"/D6FCNbk1.js\">\n<link rel=\"modulepreload\" href=\"/CcSk9tRc.js\">\n<link rel=\"modulepreload\" href=\"/Ckblzf4m.js\">\n<link rel=\"modulepreload\" href=\"/wv_iTk-d.js\">\n<link rel=\"modulepreload\" href=\"/BiBEYTQU.js\">\n<link rel=\"modulepreload\" href=\"/09oia8hT.js\">\n<link rel=\"modulepreload\" href=\"/DemS4Bnq.js\">\n<link rel=\"modulepreload\" href=\"/aPOkRr2q.js\">\n<link rel=\"modulepreload\" href=\"/XNm3l4Rk.js\">\n<link rel=\"modulepreload\" href=\"/DCTSG7KH.js\">\n<link rel=\"modulepreload\" href=\"/C1if1Ua_.js\">\n<link rel=\"modulepreload\" href=\"/BQetr6xq.js\">\n<link rel=\"modulepreload\" href=\"/CNVFR8DB.js\">\n<link rel=\"modulepreload\" href=\"/CdX6RSuv.js\">\n<link rel=\"modulepreload\" href=\"/B5tfLoe4.js\">\n<link rel=\"modulepreload\" href=\"/dnToVTJY.js\">\n<link rel=\"modulepreload\" href=\"/T44tYLLW.js\">\n<link rel=\"modulepreload\" href=\"/JiOG9QMS.js\">\n<link rel=\"modulepreload\" href=\"/RYoHg17b.js\">\n<link rel=\"modulepreload\" href=\"/D_4KzB6x.js\">\n<link rel=\"modulepreload\" href=\"/DMCSiO68.js\">\n<link rel=\"modulepreload\" href=\"/sPz_q7tv.js\">\n<link rel=\"modulepreload\" href=\"/Bo4trdon.js\">\n<link rel=\"modulepreload\" href=\"/Cb8_-w-i.js\">\n<link rel=\"modulepreload\" href=\"/CJQPldX4.js\">\n<link rel=\"modulepreload\" href=\"/BFXGPaQn.js\">\n<link rel=\"modulepreload\" href=\"/Dy2ojYGb.js\">\n<link rel=\"modulepreload\" href=\"/rnsxLMUg.js\">\n<link rel=\"modulepreload\" href=\"/BhA1QETY.js\">\n<link rel=\"modulepreload\" href=\"/RHNvqZy5.js\">\n<link rel=\"modulepreload\" href=\"/CTWtd2dq.js\">\n<link rel=\"modulepreload\" href=\"/CfUTGudI.js\">\n<link rel=\"modulepreload\" href=\"/D7HrI6pR.js\">\n<link rel=\"modulepreload\" href=\"/rmOhI1yV.js\">\n<link rel=\"modulepreload\" href=\"/BQIe4qz3.js\">\n<link rel=\"modulepreload\" href=\"/CnwKBhtc.js\">\n<link rel=\"modulepreload\" href=\"/DmgT8A0V.js\">\n<link rel=\"modulepreload\" href=\"/BdMPY2eW.js\">\n<link rel=\"modulepreload\" href=\"/igkq2FnS.js\">\n<link rel=\"modulepreload\" href=\"/CoeZ6FuU.js\">\n<link rel=\"modulepreload\" href=\"/CFq8hCIZ.js\">\n<link rel=\"modulepreload\" href=\"/CpBZUp5i.js\">\n<link rel=\"modulepreload\" href=\"/C1GmZiKv.js\">\n<link rel=\"modulepreload\" href=\"/B3UNCjPN.js\">\n<link rel=\"modulepreload\" href=\"/C32Dw5Lb.js\">\n<link rel=\"modulepreload\" href=\"/CMaJ4FiK.js\">\n<link rel=\"modulepreload\" href=\"/D6R_PC3e.js\">\n<link href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,300,0..1,0\" rel=\"stylesheet\">\n<link rel=\"stylesheet\" href=\"/BJftZq6t.css\">\n<link rel=\"stylesheet\" href=\"/KbsjaNMY.css\">\n<link rel=\"stylesheet\" href=\"/C9WoKuPx.css\">\n<link rel=\"stylesheet\" as=\"style\" href=\"/Br_5lnaP.css\">\n<link rel=\"stylesheet\" href=\"/DJuCZ3J8.css\">\n<a href=\"https://goodtape.io\"></a>\n<a href=\"/signup/flow\">Sign up</a>"
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/09oia8hT.js": {
+      "result": {
+        "url": "https://app.goodtape.io/09oia8hT.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "633"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-x5mhc"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"279-1a0fc40a490\""],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/loGf9Kxq.js": {
+      "result": {
+        "url": "https://app.goodtape.io/loGf9Kxq.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-l7psr"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"58d-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/D7s9bMd3.js": {
+      "result": {
+        "url": "https://app.goodtape.io/D7s9bMd3.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-2txhd"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"24b6-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/JiOG9QMS.js": {
+      "result": {
+        "url": "https://app.goodtape.io/JiOG9QMS.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "618"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-2txhd"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"26a-1a0fc40a490\""],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/wv_iTk-d.js": {
+      "result": {
+        "url": "https://app.goodtape.io/wv_iTk-d.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-x9927"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"575-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/D7HrI6pR.js": {
+      "result": {
+        "url": "https://app.goodtape.io/D7HrI6pR.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-x5mhc"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"584-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/SVoGoie_.js": {
+      "result": {
+        "url": "https://app.goodtape.io/SVoGoie_.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-2txhd"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"4f1-1a0fc40a490\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/RHNvqZy5.js": {
+      "result": {
+        "url": "https://app.goodtape.io/RHNvqZy5.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-x9927"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"857-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": "\"https://app.goodtape.io/\"\n\"https://apps.apple.com/\"\n\"https://goodtape.io/\"\n\"https://help-center.goodtape.io/\"\n\"https://play.google.com/\"\n\"https://status.goodtape.io/\""
+      }
+    },
+    "GET https://app.goodtape.io/Br40_4MX.js": {
+      "result": {
+        "url": "https://app.goodtape.io/Br40_4MX.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "729"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-hcq68"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"2d9-1a0fc40a878\""],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/5jBVRjIE.js": {
+      "result": {
+        "url": "https://app.goodtape.io/5jBVRjIE.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "636"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-r7b5w"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"27c-1a0fc40a490\""],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/CNVFR8DB.js": {
+      "result": {
+        "url": "https://app.goodtape.io/CNVFR8DB.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-x9927"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"441-1a0fc40a490\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/CcSk9tRc.js": {
+      "result": {
+        "url": "https://app.goodtape.io/CcSk9tRc.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-4djs4"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"685a-1a0fc40a490\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/dnToVTJY.js": {
+      "result": {
+        "url": "https://app.goodtape.io/dnToVTJY.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "759"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-x9927"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"2f7-1a0fc40a490\""],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/D_4KzB6x.js": {
+      "result": {
+        "url": "https://app.goodtape.io/D_4KzB6x.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "553"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-ln8zz"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"229-1a0fc40a878\""],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/aPOkRr2q.js": {
+      "result": {
+        "url": "https://app.goodtape.io/aPOkRr2q.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "964"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-ln8zz"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"3c4-1a0fc40a878\""],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/rnsxLMUg.js": {
+      "result": {
+        "url": "https://app.goodtape.io/rnsxLMUg.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "551"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-hcq68"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"227-1a0fc40a878\""],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/C1if1Ua_.js": {
+      "result": {
+        "url": "https://app.goodtape.io/C1if1Ua_.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "749"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-x5mhc"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"2ed-1a0fc40a490\""],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/CTWtd2dq.js": {
+      "result": {
+        "url": "https://app.goodtape.io/CTWtd2dq.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-9d4fw"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"45e-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/HLrAitpH.js": {
+      "result": {
+        "url": "https://app.goodtape.io/HLrAitpH.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-9d4fw"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"683-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/RYoHg17b.js": {
+      "result": {
+        "url": "https://app.goodtape.io/RYoHg17b.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-ln8zz"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"4c5-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/DCTSG7KH.js": {
+      "result": {
+        "url": "https://app.goodtape.io/DCTSG7KH.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-x9927"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"13ea-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/BFXGPaQn.js": {
+      "result": {
+        "url": "https://app.goodtape.io/BFXGPaQn.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-r7b5w"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"f4f-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/CY3-SJpC.js": {
+      "result": {
+        "url": "https://app.goodtape.io/CY3-SJpC.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-x5mhc"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"1b8a-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/rmOhI1yV.js": {
+      "result": {
+        "url": "https://app.goodtape.io/rmOhI1yV.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-2txhd"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"43c8-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/B7CKUNBC.js": {
+      "result": {
+        "url": "https://app.goodtape.io/B7CKUNBC.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-l7psr"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"1def-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/B5tfLoe4.js": {
+      "result": {
+        "url": "https://app.goodtape.io/B5tfLoe4.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-4djs4"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"a032-1a0fc40a490\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": "\"https://socket.io/\""
+      }
+    },
+    "GET https://app.goodtape.io/B9-7EZGV.js": {
+      "result": {
+        "url": "https://app.goodtape.io/B9-7EZGV.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-r7b5w"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"ce00-1a0fc40a490\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/BBolXf7Y.js": {
+      "result": {
+        "url": "https://app.goodtape.io/BBolXf7Y.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "655"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-ln8zz"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"28f-1a0fc40a490\""],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/M_fkrczy.js": {
+      "result": {
+        "url": "https://app.goodtape.io/M_fkrczy.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-2txhd"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"f40e-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/CdX6RSuv.js": {
+      "result": {
+        "url": "https://app.goodtape.io/CdX6RSuv.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-ln8zz"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"9e5-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/Du8b9OfE.js": {
+      "result": {
+        "url": "https://app.goodtape.io/Du8b9OfE.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "613"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-ln8zz"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"265-1a0fc40a878\""],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/Dy2ojYGb.js": {
+      "result": {
+        "url": "https://app.goodtape.io/Dy2ojYGb.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-hcq68"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"18574-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": "\"https://lexical.dev/\""
+      }
+    },
+    "GET https://app.goodtape.io/DemS4Bnq.js": {
+      "result": {
+        "url": "https://app.goodtape.io/DemS4Bnq.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "456"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-r7b5w"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"1c8-1a0fc40a878\""],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/BdaoR1SW.js": {
+      "result": {
+        "url": "https://app.goodtape.io/BdaoR1SW.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "982"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-r7b5w"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"3d6-1a0fc40a490\""],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": "\"https://app.goodtape.io/\""
+      }
+    },
+    "GET https://app.goodtape.io/BQetr6xq.js": {
+      "result": {
+        "url": "https://app.goodtape.io/BQetr6xq.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "443"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-r7b5w"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"1bb-1a0fc40a490\""],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/CJQPldX4.js": {
+      "result": {
+        "url": "https://app.goodtape.io/CJQPldX4.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "885"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-4djs4"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"375-1a0fc40a878\""],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/BhA1QETY.js": {
+      "result": {
+        "url": "https://app.goodtape.io/BhA1QETY.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-hcq68"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"4da-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/D6FCNbk1.js": {
+      "result": {
+        "url": "https://app.goodtape.io/D6FCNbk1.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-9d4fw"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"499-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/DSehjWq9.js": {
+      "result": {
+        "url": "https://app.goodtape.io/DSehjWq9.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-hcq68"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"2b495-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": "\"http://yandex.com/\"\n\"https://app.posthog.com/\"\n\"https://posthog.com/\"\n\"https://sentry.io/\"\n\"https://server-side.goodtape.io/\"\n\"https://us.i.posthog.com/\"\n\"https://us.posthog.com/\"\n\"https://www.googletagmanager.com/\""
+      }
+    },
+    "GET https://app.goodtape.io/Cb8_-w-i.js": {
+      "result": {
+        "url": "https://app.goodtape.io/Cb8_-w-i.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "707"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-l7psr"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"2c3-1a0fc40a878\""],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/CfUTGudI.js": {
+      "result": {
+        "url": "https://app.goodtape.io/CfUTGudI.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-hcq68"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"43a0a-1a0fc40a490\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": "\"https://f.vimeocdn.com/\"\n\"https://fresnel.vimeocdn.com/\"\n\"https://googleads.g.doubleclick.net/\"\n\"https://i.vimeocdn.com/\"\n\"https://i.ytimg.com/\"\n\"https://static.doubleclick.net/\"\n\"https://web-assets.s3.fr-par.scw.cloud/\"\n\"https://www.google.com/\"\n\"https://www.gstatic.com/\""
+      }
+    },
+    "GET https://app.goodtape.io/u8wTgF9a.js": {
+      "result": {
+        "url": "https://app.goodtape.io/u8wTgF9a.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-l7psr"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"8a73-1a0fc40a490\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": "\"https://goodtape.io/\"\n\"https://help-center.goodtape.io/\""
+      }
+    },
+    "GET https://app.goodtape.io/sPz_q7tv.js": {
+      "result": {
+        "url": "https://app.goodtape.io/sPz_q7tv.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-9d4fw"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"1170-1a0fc40a490\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/CGb-eGR2.js": {
+      "result": {
+        "url": "https://app.goodtape.io/CGb-eGR2.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-x5mhc"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"80e-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/XNm3l4Rk.js": {
+      "result": {
+        "url": "https://app.goodtape.io/XNm3l4Rk.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-2txhd"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"5e5-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/BIG7vTIZ.js": {
+      "result": {
+        "url": "https://app.goodtape.io/BIG7vTIZ.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-x9927"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"8465-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/T44tYLLW.js": {
+      "result": {
+        "url": "https://app.goodtape.io/T44tYLLW.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-l7psr"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"d84-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/BW_0Ltx2.js": {
+      "result": {
+        "url": "https://app.goodtape.io/BW_0Ltx2.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-9d4fw"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"d8b7-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": "\"https://remix.run/\""
+      }
+    },
+    "GET https://app.goodtape.io/DMCSiO68.js": {
+      "result": {
+        "url": "https://app.goodtape.io/DMCSiO68.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-hcq68"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:51 GMT"],
+          ["etag", "W/\"21150-1a0fc40a878\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.goodtape.io/Cn6aL_3I.js": {
+      "result": {
+        "url": "https://app.goodtape.io/Cn6aL_3I.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-ln8zz"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"39496-1a0fc40a490\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": "\"https://docs.sentry.io/\""
+      }
+    },
+    "GET https://app.goodtape.io/CE6bMmAw.js": {
+      "result": {
+        "url": "https://app.goodtape.io/CE6bMmAw.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:36 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "content-security-policy",
+            "default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; connect-src * ws: wss: data:; frame-src *; media-src * blob: data:; object-src *; worker-src * blob:; frame-ancestors 'self'; form-action *; base-uri 'self'; upgrade-insecure-requests"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["permissions-policy", "geolocation=(), microphone=(*), camera=(), payment=(*)"],
+          ["x-forwarded-host", "web-deploy-6c59c868fd-4djs4"],
+          ["vary", "Origin, Accept-Encoding"],
+          ["accept-ranges", "bytes"],
+          ["cache-control", "public, max-age=3600"],
+          ["last-modified", "Fri, 02 Oct 2026 10:54:50 GMT"],
+          ["etag", "W/\"184b1-1a0fc40a490\""],
+          ["content-encoding", "br"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"]
+        ],
+        "body": ""
       }
     }
   },
@@ -36,6 +1819,13 @@
         "name": "app.goodtape.io",
         "type": "AAAA",
         "records": []
+      }
+    },
+    "A app.goodtape.io": {
+      "result": {
+        "name": "app.goodtape.io",
+        "type": "A",
+        "records": ["51.158.56.81"]
       }
     },
     "CNAME app.goodtape.io": {
@@ -50,13 +1840,6 @@
         "name": "app.goodtape.io",
         "type": "NS",
         "records": []
-      }
-    },
-    "A app.goodtape.io": {
-      "result": {
-        "name": "app.goodtape.io",
-        "type": "A",
-        "records": ["51.158.56.81"]
       }
     },
     "NS goodtape.io": {

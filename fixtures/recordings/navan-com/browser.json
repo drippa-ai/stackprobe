@@ -370,6 +370,12 @@
         "headers": {}
       },
       {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
         "url": "https://navan.com/_next/static/chunks/87919-884e950a10b5b472.js",
         "method": "GET",
         "type": "script",
@@ -604,12 +610,6 @@
         "headers": {}
       },
       {
-        "url": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
         "url": "https://res.cloudinary.com/tripactions/image/upload/f_auto/q_auto/v1731693593/site/industry/logos/Canva.png",
         "method": "GET",
         "type": "image",
@@ -718,15 +718,15 @@
         "headers": {}
       },
       {
-        "url": "https://navan.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
         "url": "https://navan.com/_next/static/css/bba43cd4720e1dba.css",
         "method": "GET",
         "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://navan.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "method": "GET",
+        "type": "script",
         "headers": {}
       },
       {
@@ -1030,6 +1030,72 @@
         "headers": {}
       },
       {
+        "url": "https://navan.com/cdn-cgi/challenge-platform/h/b/scripts/jsd/d76008a69eab/main.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://sr-client-cfg.amplitude.com/config/222bb75b754895f957992a94a3e7c844",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://navan.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.9533884328351624:1791183921:eS22wFbA2gVS_NsUikEQ6w_gZnGlGzjiksMBkiHXdXs/a45ad896de474a6b",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://res.cloudinary.com/tripactions/raw/upload/f_auto/q_auto/v1723025395/site/homepage-2024/flying-cards/Personal_Reward_Card_Transaction_-_Desktop_-_US_English.lottie",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://res.cloudinary.com/tripactions/raw/upload/f_auto/q_auto/v1723025395/site/homepage-2024/flying-cards/NYC_SFO_Team_Expenses_-_Desktop_-_US_English.lottie",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://res.cloudinary.com/tripactions/raw/upload/f_auto/q_auto/v1723025395/site/homepage-2024/flying-cards/Personal_Reward_Card_Transaction_-_Desktop_-_US_English.lottie",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://res.cloudinary.com/tripactions/raw/upload/f_auto/q_auto/v1723025395/site/homepage-2024/flying-cards/NYC_SFO_Team_Expenses_-_Desktop_-_US_English.lottie",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://res.cloudinary.com/tripactions/raw/upload/f_auto/q_auto/v1723013654/site/homepage-2024/flying-cards/Card_transaction_-_Mobile_-_US_wShadow.json",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://res.cloudinary.com/tripactions/raw/upload/f_auto/q_auto/v1723013654/site/homepage-2024/flying-cards/Team_expenses_-_Mobile_-_US_wShadow.json",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://res.cloudinary.com/tripactions/raw/upload/f_auto/q_auto/v1723013654/site/homepage-2024/flying-cards/Card_transaction_-_Mobile_-_US_wShadow.json",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://res.cloudinary.com/tripactions/raw/upload/f_auto/q_auto/v1723013654/site/homepage-2024/flying-cards/Team_expenses_-_Mobile_-_US_wShadow.json",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
         "url": "https://res.cloudinary.com/tripactions/image/upload/f_auto/c_limit/w_1440/q_auto/f_auto/q_auto/v1749030444/site/homepage-2025/HP_ATF_1920_2x.png",
         "method": "GET",
         "type": "image",
@@ -1150,12 +1216,6 @@
         "headers": {}
       },
       {
-        "url": "https://navan.com/cdn-cgi/challenge-platform/h/b/scripts/jsd/d76008a69eab/main.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
         "url": "https://res.cloudinary.com/tripactions/image/upload//v1725179991/site/homepage-2024/visa_icon.svg",
         "method": "GET",
         "type": "image",
@@ -1165,60 +1225,6 @@
         "url": "https://res.cloudinary.com/tripactions/image/upload//v1725179823/site/homepage-2024/mastercard_icon.svg",
         "method": "GET",
         "type": "image",
-        "headers": {}
-      },
-      {
-        "url": "https://sr-client-cfg.amplitude.com/config/222bb75b754895f957992a94a3e7c844",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://res.cloudinary.com/tripactions/image/upload/f_auto/c_limit/w_64/q_auto/v1720092972/traverse/traverse20/icons/Play-icon.png",
-        "method": "GET",
-        "type": "image",
-        "headers": {}
-      },
-      {
-        "url": "https://navan.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.3474752098377132:1791140719:alDAYYfkN58eOJWZXxbV5w3T7w9G9kaDLyqxKL-gyxM/a456c2a9de480b41",
-        "method": "POST",
-        "type": "xhr",
-        "headers": {}
-      },
-      {
-        "url": "https://res.cloudinary.com/tripactions/raw/upload/f_auto/q_auto/v1723025395/site/homepage-2024/flying-cards/Personal_Reward_Card_Transaction_-_Desktop_-_US_English.lottie",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://res.cloudinary.com/tripactions/raw/upload/f_auto/q_auto/v1723025395/site/homepage-2024/flying-cards/NYC_SFO_Team_Expenses_-_Desktop_-_US_English.lottie",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://sr-client-cfg.amplitude.com/config/222bb75b754895f957992a94a3e7c844",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://sr-client-cfg.amplitude.com/config/222bb75b754895f957992a94a3e7c844",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://res.cloudinary.com/tripactions/raw/upload/f_auto/q_auto/v1723013654/site/homepage-2024/flying-cards/Card_transaction_-_Mobile_-_US_wShadow.json",
-        "method": "GET",
-        "type": "xhr",
-        "headers": {}
-      },
-      {
-        "url": "https://res.cloudinary.com/tripactions/raw/upload/f_auto/q_auto/v1723013654/site/homepage-2024/flying-cards/Team_expenses_-_Mobile_-_US_wShadow.json",
-        "method": "GET",
-        "type": "xhr",
         "headers": {}
       },
       {
@@ -1234,19 +1240,49 @@
         "headers": {}
       },
       {
-        "url": "https://navan.com/_next/static/chunks/4121.1e58844ee833842d.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
         "url": "https://navan.com/_next/static/chunks/6be917af.38a0eb4217f1827d.js",
         "method": "GET",
         "type": "script",
         "headers": {}
       },
       {
+        "url": "https://res.cloudinary.com/tripactions/image/upload/f_auto/c_limit/w_64/q_auto/v1720092972/traverse/traverse20/icons/Play-icon.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://sr-client-cfg.amplitude.com/config/222bb75b754895f957992a94a3e7c844",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://sr-client-cfg.amplitude.com/config/222bb75b754895f957992a94a3e7c844",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
         "url": "https://cdn.cookielaw.org/consent/a7d4d435-fab5-4102-8b14-2d0f873029a7/a7d4d435-fab5-4102-8b14-2d0f873029a7.json",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://navan.com/cdn-cgi/rum",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://navan.com/_next/static/chunks/4121.1e58844ee833842d.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
         "method": "GET",
         "type": "xhr",
         "headers": {}
@@ -1261,18 +1297,6 @@
         "url": "https://navan.com/_next/static/chunks/66056.8e666e2ba6025a03.js",
         "method": "GET",
         "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
-        "method": "GET",
-        "type": "xhr",
-        "headers": {}
-      },
-      {
-        "url": "https://navan.com/cdn-cgi/rum",
-        "method": "POST",
-        "type": "xhr",
         "headers": {}
       },
       {
@@ -1328,6 +1352,12 @@
         "method": "GET",
         "type": "image",
         "headers": {}
+      },
+      {
+        "url": "https://navan.com/api/analytics",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
       }
     ],
     "websockets": [],
@@ -1348,7 +1378,6 @@
       "dataLayer",
       "__onOneTrustReady",
       "gtag",
-      "$RT",
       "$RB",
       "$RV",
       "$RC",
@@ -1370,17 +1399,18 @@
       "trackEvent",
       "trackAmplitudeEvent",
       "__flushMunchkinQueue",
-      "experimentInstances",
       "DD_RUM",
+      "experimentInstances",
       "reactiveElementVersions",
       "litHtmlVersions",
       "litElementVersions",
-      "analyticsConnectorInstances",
+      "$RT",
       "google_tag_manager",
       "postscribe",
       "google_tag_manager_external",
       "jspbGetTypeName",
       "google_tag_data",
+      "analyticsConnectorInstances",
       "OneTrustStub",
       "OptanonWrapper",
       "OtTrustedType",

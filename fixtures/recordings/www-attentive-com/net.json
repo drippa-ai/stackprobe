@@ -1,22 +1,22 @@
 {
   "url": "https://www.attentive.com/",
-  "recordedAt": "2026-10-04T20:16:51.767Z",
+  "recordedAt": "2026-10-05T07:52:28.684Z",
   "http": {
     "GET https://www.attentive.com/": {
       "result": {
         "url": "https://www.attentive.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:28 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
           ["set-cookie", "_cfuvid=<redacted>"],
-          ["cf-ray", "a456dde45e49b4f4-OSL"],
+          ["cf-ray", "a45ad8dbfb07fea1-CPH"],
           ["cf-cache-status", "HIT"],
-          ["age", "174429"],
+          ["age", "216166"],
           ["content-encoding", "gzip"],
-          ["last-modified", "Sat, 03 Oct 2026 20:17:31 GMT"],
+          ["last-modified", "Fri, 02 Oct 2026 20:42:33 GMT"],
           [
             "link",
             "<https://cdn.prod.website-files.com>; rel=preconnect; crossorigin, <https://cdn.prod.website-files.com/684306b795a2c402456e92ba/css/staging-attentive.shared.6d8a0ad79.min.css>; rel=preload; as=style; crossorigin; integrity=\"sha384-bYoK15yFPNLS/LVzkYDf8FQl22gB3LJ1HQpwN94u+7Ruri28DTYL7eshPY8ZZvPE\", <https://cdn.intellimize.co>; rel=preconnect, <https://api.intellimize.co>; rel=preconnect; crossorigin, <https://log.intellimize.co>; rel=preconnect; crossorigin, <https://117310846.intellimizeio.com>; rel=preconnect, <https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css>; rel=preload; as=style"
@@ -40,6 +40,13 @@
     }
   },
   "dns": {
+    "NS www.attentive.com": {
+      "result": {
+        "name": "www.attentive.com",
+        "type": "NS",
+        "records": ["lamar.ns.cloudflare.com", "journey.ns.cloudflare.com"]
+      }
+    },
     "CNAME www.attentive.com": {
       "result": {
         "name": "www.attentive.com",
@@ -59,13 +66,6 @@
         "name": "cdn.webflow.com",
         "type": "CNAME",
         "records": []
-      }
-    },
-    "NS www.attentive.com": {
-      "result": {
-        "name": "www.attentive.com",
-        "type": "NS",
-        "records": ["lamar.ns.cloudflare.com", "journey.ns.cloudflare.com"]
       }
     },
     "A www.attentive.com": {

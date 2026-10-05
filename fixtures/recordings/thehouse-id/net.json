@@ -1,6 +1,6 @@
 {
   "url": "https://thehouse.id/",
-  "recordedAt": "2026-10-04T20:16:53.824Z",
+  "recordedAt": "2026-10-05T07:52:40.302Z",
   "http": {
     "GET https://thehouse.id/": {
       "result": {
@@ -8,31 +8,30 @@
         "status": 200,
         "headers": [
           ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-control", "s-maxage=31536000"],
           ["cache-tag", "998648018474"],
           ["cache-tag", "998648018474:studio"],
           ["content-encoding", "gzip"],
+          ["content-type", "text/html; charset=utf-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["etag", "\"84dkq9wj8zazv\""],
           ["server", "envoy"],
-          ["traceparent", "00-cb2a9644104b6a06347c9afae4034ca5-5d850b229654ee01-01"],
-          ["x-cloud-trace-context", "cb2a9644104b6a06347c9afae4034ca5/6738804660608757249;o=1"],
+          ["traceparent", "00-4f8a7a7791146fc05e02c3f4b9711030-573a7a5f17f94b59-01"],
+          [
+            "vary",
+            "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding"
+          ],
+          ["x-cloud-trace-context", "4f8a7a7791146fc05e02c3f4b9711030/6285470778791643993;o=1"],
           ["x-fah-adapter", "nextjs-14.0.18"],
           ["x-nextjs-cache", "HIT"],
           ["x-nextjs-prerender", "1"],
           ["x-nextjs-stale-time", "4294967294"],
           ["x-powered-by", "Next.js"],
-          ["server-timing", "l2gfet4t7; dur=3176"],
+          ["server-timing", "l2gfet4t7; dur=3318"],
           ["via", "1.1 google"],
-          ["date", "Sun, 04 Oct 2026 16:51:08 GMT"],
-          ["cache-control", "s-maxage=31536000"],
-          ["etag", "\"84dkq9wj8zazv\""],
-          ["content-type", "text/html; charset=utf-8"],
-          [
-            "vary",
-            "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding"
-          ],
-          ["content-length", "3820"],
-          ["age", "12347"],
-          ["cdn-cache-status", "hit"],
-          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"]
+          ["cdn-cache-status", "miss"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["transfer-encoding", "chunked"]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/44ce747bfa0cdc14.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/webpack-3a68ca926a023bb8.js\">\n<script src=\"/_next/static/chunks/4bd1b696-b98887138107acd7.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/684-76ac575fe1546a0d.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/main-app-f5531582a8aef103.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/bc9e92e6-ae33bc13ba3d0f54.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/36b4fd63-cb4284f3e3f3863b.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/982-8151d6dff6d7db7a.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/873-2f316d7b4b63687e.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/589-473228c6304fc74d.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/874-d7e83e81932746e2.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/184-0863bc588d5d1902.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/718-cbc62b82af80c4f4.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/759-7b757ecd69add047.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/layout-7084f63fad002d57.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/118-d495de99321a6895.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/page-07fa3bb5a983344d.js\" async=\"\"></script>\n<meta name=\"description\" content=\"Generate unique building facades from faces using AI\">\n<link rel=\"icon\" href=\"/favicon.ico\" type=\"image/x-icon\" sizes=\"16x16\">\n<script src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\" nomodule=\"\"></script>\n<a href=\"/\">HouseID</a>\n<script src=\"/_next/static/chunks/webpack-3a68ca926a023bb8.js\" async=\"\"></script>"
       }
@@ -48,106 +47,19 @@
           ["cache-tag", "998648018474"],
           ["cache-tag", "998648018474:studio"],
           ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:45 GMT"],
           ["etag", "W/\"1f8-49773873e8\""],
           ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
           ["server", "envoy"],
-          ["traceparent", "00-879510cc6eafd659c50f79ac213f8d94-3285c47a775e5f1a-00"],
+          ["traceparent", "00-9a7a63cec2e78ca08f89da6a69e0d024-465de01dd042e949-00"],
           ["vary", "Accept-Encoding"],
-          ["x-cloud-trace-context", "879510cc6eafd659c50f79ac213f8d94/3640531904066641690"],
+          ["x-cloud-trace-context", "9a7a63cec2e78ca08f89da6a69e0d024/5070455174141765961"],
           ["x-fah-adapter", "nextjs-14.0.18"],
           ["content-length", "504"],
-          ["server-timing", "l2gfet4t7; dur=1730"],
+          ["server-timing", "l2gfet4t7; dur=29"],
           ["via", "1.1 google"],
           ["cdn-cache-status", "miss"],
-          ["alt-svc", "h3=\":443\"; ma=2592000"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://thehouse.id/_next/static/chunks/webpack-3a68ca926a023bb8.js": {
-      "result": {
-        "url": "https://thehouse.id/_next/static/chunks/webpack-3a68ca926a023bb8.js",
-        "status": 200,
-        "headers": [
-          ["accept-ranges", "bytes"],
-          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
-          ["cache-control", "public, max-age=31536000, immutable"],
-          ["cache-tag", "998648018474"],
-          ["cache-tag", "998648018474:studio"],
-          ["content-encoding", "gzip"],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
-          ["etag", "W/\"d55-49773873e8\""],
-          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
-          ["server", "envoy"],
-          ["traceparent", "00-f03594b01ed3c8935b234923d4d1443b-259f47b3f598b7c4-00"],
-          ["vary", "Accept-Encoding"],
-          ["x-cloud-trace-context", "f03594b01ed3c8935b234923d4d1443b/2710964338945472452"],
-          ["x-fah-adapter", "nextjs-14.0.18"],
-          ["server-timing", "l2gfet4t7; dur=1766"],
-          ["via", "1.1 google"],
-          ["cdn-cache-status", "miss"],
-          ["alt-svc", "h3=\":443\"; ma=2592000"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://thehouse.id/_next/static/chunks/app/layout-7084f63fad002d57.js": {
-      "result": {
-        "url": "https://thehouse.id/_next/static/chunks/app/layout-7084f63fad002d57.js",
-        "status": 200,
-        "headers": [
-          ["accept-ranges", "bytes"],
-          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
-          ["cache-control", "public, max-age=31536000, immutable"],
-          ["cache-tag", "998648018474"],
-          ["cache-tag", "998648018474:studio"],
-          ["content-encoding", "gzip"],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
-          ["etag", "W/\"29ef-49773873e8\""],
-          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
-          ["server", "envoy"],
-          ["traceparent", "00-70557edd9ab9bf7b77cc530f18507049-3bb15eb881f761c2-00"],
-          ["vary", "Accept-Encoding"],
-          ["x-cloud-trace-context", "70557edd9ab9bf7b77cc530f18507049/4301323265663001026"],
-          ["x-fah-adapter", "nextjs-14.0.18"],
-          ["server-timing", "l2gfet4t7; dur=1773"],
-          ["via", "1.1 google"],
-          ["cdn-cache-status", "miss"],
-          ["alt-svc", "h3=\":443\"; ma=2592000"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://thehouse.id/_next/static/chunks/118-d495de99321a6895.js": {
-      "result": {
-        "url": "https://thehouse.id/_next/static/chunks/118-d495de99321a6895.js",
-        "status": 200,
-        "headers": [
-          ["accept-ranges", "bytes"],
-          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
-          ["cache-control", "public, max-age=31536000, immutable"],
-          ["cache-tag", "998648018474"],
-          ["cache-tag", "998648018474:studio"],
-          ["content-encoding", "gzip"],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
-          ["etag", "W/\"2121-49773873e8\""],
-          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
-          ["server", "envoy"],
-          ["traceparent", "00-7605606fee5fe5237b0f45c3d849a86f-032cbf17c149cc74-00"],
-          ["vary", "Accept-Encoding"],
-          ["x-cloud-trace-context", "7605606fee5fe5237b0f45c3d849a86f/228767789837044852"],
-          ["x-fah-adapter", "nextjs-14.0.18"],
-          ["server-timing", "l2gfet4t7; dur=1765"],
-          ["via", "1.1 google"],
-          ["cdn-cache-status", "miss"],
-          ["alt-svc", "h3=\":443\"; ma=2592000"],
-          ["transfer-encoding", "chunked"]
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"]
         ],
         "body": ""
       }
@@ -164,102 +76,15 @@
           ["cache-tag", "998648018474:studio"],
           ["content-encoding", "gzip"],
           ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:45 GMT"],
           ["etag", "W/\"2d15-49773873e8\""],
           ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
           ["server", "envoy"],
-          ["traceparent", "00-8bb7addd2e9558c2204404393fb843ee-bca1c11c74c394f7-00"],
+          ["traceparent", "00-22e04e7f9afd1d8a995f642bac2bd2fe-2a8e85c9adc5b797-00"],
           ["vary", "Accept-Encoding"],
-          ["x-cloud-trace-context", "8bb7addd2e9558c2204404393fb843ee/13592357478343087351"],
+          ["x-cloud-trace-context", "22e04e7f9afd1d8a995f642bac2bd2fe/3066535497536223127"],
           ["x-fah-adapter", "nextjs-14.0.18"],
-          ["server-timing", "l2gfet4t7; dur=1771"],
-          ["via", "1.1 google"],
-          ["cdn-cache-status", "miss"],
-          ["alt-svc", "h3=\":443\"; ma=2592000"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://thehouse.id/_next/static/chunks/874-d7e83e81932746e2.js": {
-      "result": {
-        "url": "https://thehouse.id/_next/static/chunks/874-d7e83e81932746e2.js",
-        "status": 200,
-        "headers": [
-          ["accept-ranges", "bytes"],
-          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
-          ["cache-control", "public, max-age=31536000, immutable"],
-          ["cache-tag", "998648018474"],
-          ["cache-tag", "998648018474:studio"],
-          ["content-encoding", "gzip"],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
-          ["etag", "W/\"1a28-49773873e8\""],
-          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
-          ["server", "envoy"],
-          ["traceparent", "00-a17b928a49a4ab8bcddfcdbf14786cbb-40ecdc1e1f7647be-00"],
-          ["vary", "Accept-Encoding"],
-          ["x-cloud-trace-context", "a17b928a49a4ab8bcddfcdbf14786cbb/4678356134866077630"],
-          ["x-fah-adapter", "nextjs-14.0.18"],
-          ["server-timing", "l2gfet4t7; dur=1782"],
-          ["via", "1.1 google"],
-          ["cdn-cache-status", "miss"],
-          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://thehouse.id/_next/static/chunks/759-7b757ecd69add047.js": {
-      "result": {
-        "url": "https://thehouse.id/_next/static/chunks/759-7b757ecd69add047.js",
-        "status": 200,
-        "headers": [
-          ["accept-ranges", "bytes"],
-          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
-          ["cache-control", "public, max-age=31536000, immutable"],
-          ["cache-tag", "998648018474"],
-          ["cache-tag", "998648018474:studio"],
-          ["content-encoding", "gzip"],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
-          ["etag", "W/\"258f-49773873e8\""],
-          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
-          ["server", "envoy"],
-          ["traceparent", "00-c3a4fc16e09cbc9e6085968fa48e53ff-3bc6c0d51d1b63d1-00"],
-          ["vary", "Accept-Encoding"],
-          ["x-cloud-trace-context", "c3a4fc16e09cbc9e6085968fa48e53ff/4307342115175359441"],
-          ["x-fah-adapter", "nextjs-14.0.18"],
-          ["server-timing", "l2gfet4t7; dur=1779"],
-          ["via", "1.1 google"],
-          ["cdn-cache-status", "miss"],
-          ["alt-svc", "h3=\":443\"; ma=2592000"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://thehouse.id/_next/static/chunks/app/page-07fa3bb5a983344d.js": {
-      "result": {
-        "url": "https://thehouse.id/_next/static/chunks/app/page-07fa3bb5a983344d.js",
-        "status": 200,
-        "headers": [
-          ["accept-ranges", "bytes"],
-          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
-          ["cache-control", "public, max-age=31536000, immutable"],
-          ["cache-tag", "998648018474"],
-          ["cache-tag", "998648018474:studio"],
-          ["content-encoding", "gzip"],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
-          ["etag", "W/\"445e-49773873e8\""],
-          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
-          ["server", "envoy"],
-          ["traceparent", "00-a23e91197c62b523c37912454622e223-d6e63840a6184eb6-00"],
-          ["vary", "Accept-Encoding"],
-          ["x-cloud-trace-context", "a23e91197c62b523c37912454622e223/15485126219075702454"],
-          ["x-fah-adapter", "nextjs-14.0.18"],
-          ["server-timing", "l2gfet4t7; dur=1771"],
+          ["server-timing", "l2gfet4t7; dur=31"],
           ["via", "1.1 google"],
           ["cdn-cache-status", "miss"],
           ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
@@ -280,18 +105,221 @@
           ["cache-tag", "998648018474:studio"],
           ["content-encoding", "gzip"],
           ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:45 GMT"],
           ["etag", "W/\"63cd-49773873e8\""],
           ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
           ["server", "envoy"],
-          ["traceparent", "00-52a251ac52b7fb41602773ff9fcfe672-3a51f774ce731b41-00"],
+          ["traceparent", "00-41dad88e25659c998c15694361171589-efab88b10fec313c-00"],
           ["vary", "Accept-Encoding"],
-          ["x-cloud-trace-context", "52a251ac52b7fb41602773ff9fcfe672/4202412008365300545"],
+          ["x-cloud-trace-context", "41dad88e25659c998c15694361171589/17270047490140025148"],
           ["x-fah-adapter", "nextjs-14.0.18"],
-          ["server-timing", "l2gfet4t7; dur=1775"],
+          ["server-timing", "l2gfet4t7; dur=45"],
+          ["via", "1.1 google"],
+          ["cdn-cache-status", "miss"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/app/page-07fa3bb5a983344d.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/app/page-07fa3bb5a983344d.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:45 GMT"],
+          ["etag", "W/\"445e-49773873e8\""],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["server", "envoy"],
+          ["traceparent", "00-047fe57725f42bade0f061904a7bf431-d9b57ef4e3a26de2-00"],
+          ["vary", "Accept-Encoding"],
+          ["x-cloud-trace-context", "047fe57725f42bade0f061904a7bf431/15687584467271183842"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=37"],
           ["via", "1.1 google"],
           ["cdn-cache-status", "miss"],
           ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/4bd1b696-b98887138107acd7.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/4bd1b696-b98887138107acd7.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:45 GMT"],
+          ["etag", "W/\"29492-49773873e8\""],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["server", "envoy"],
+          ["traceparent", "00-f80a9112450968eb7d32ae281d6619b6-ed1bd3250d4a1d58-00"],
+          ["vary", "Accept-Encoding"],
+          ["x-cloud-trace-context", "f80a9112450968eb7d32ae281d6619b6/17085481767450320216"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=48"],
+          ["via", "1.1 google"],
+          ["cdn-cache-status", "miss"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/webpack-3a68ca926a023bb8.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/webpack-3a68ca926a023bb8.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:45 GMT"],
+          ["etag", "W/\"d55-49773873e8\""],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["server", "envoy"],
+          ["traceparent", "00-62b80882149b624bc583ee09b839a50b-2cd29657cac08a63-00"],
+          ["vary", "Accept-Encoding"],
+          ["x-cloud-trace-context", "62b80882149b624bc583ee09b839a50b/3229809186586004067"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=46"],
+          ["via", "1.1 google"],
+          ["cdn-cache-status", "miss"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/874-d7e83e81932746e2.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/874-d7e83e81932746e2.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:45 GMT"],
+          ["etag", "W/\"1a28-49773873e8\""],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["server", "envoy"],
+          ["traceparent", "00-7f82f0b708fe1383e6e5a0202ca60fa0-51ff1e96ad2afd88-00"],
+          ["vary", "Accept-Encoding"],
+          ["x-cloud-trace-context", "7f82f0b708fe1383e6e5a0202ca60fa0/5908474868632583560"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=57"],
+          ["via", "1.1 google"],
+          ["cdn-cache-status", "miss"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/759-7b757ecd69add047.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/759-7b757ecd69add047.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:45 GMT"],
+          ["etag", "W/\"258f-49773873e8\""],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["server", "envoy"],
+          ["traceparent", "00-1d2b1a0bcbf63ec5bc661b2edb746ea2-4c1412bfdc5c3d1f-00"],
+          ["vary", "Accept-Encoding"],
+          ["x-cloud-trace-context", "1d2b1a0bcbf63ec5bc661b2edb746ea2/5482027261661822239"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=56"],
+          ["via", "1.1 google"],
+          ["cdn-cache-status", "miss"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/118-d495de99321a6895.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/118-d495de99321a6895.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:45 GMT"],
+          ["etag", "W/\"2121-49773873e8\""],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["server", "envoy"],
+          ["traceparent", "00-b38533f4392d5b423950b7f6f7ed6ae4-5754b57599fb6695-00"],
+          ["vary", "Accept-Encoding"],
+          ["x-cloud-trace-context", "b38533f4392d5b423950b7f6f7ed6ae4/6292854096042616469"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=56"],
+          ["via", "1.1 google"],
+          ["cdn-cache-status", "miss"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/app/layout-7084f63fad002d57.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/app/layout-7084f63fad002d57.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:45 GMT"],
+          ["etag", "W/\"29ef-49773873e8\""],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["server", "envoy"],
+          ["traceparent", "00-8881034115c5b9a6fea732ec6e020276-c50b1f4265a82835-00"],
+          ["vary", "Accept-Encoding"],
+          ["x-cloud-trace-context", "8881034115c5b9a6fea732ec6e020276/14198476620249442357"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=60"],
+          ["via", "1.1 google"],
+          ["cdn-cache-status", "miss"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -309,50 +337,21 @@
           ["cache-tag", "998648018474:studio"],
           ["content-encoding", "gzip"],
           ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:45 GMT"],
           ["etag", "W/\"527a-49773873e8\""],
           ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
           ["server", "envoy"],
-          ["traceparent", "00-5aae257903b13bb087d931d4dc11ca66-0c8f3f89e27e0a93-00"],
+          ["traceparent", "00-44df3cc5aa898b463ff50b8218a85868-89ce2e2feeea959f-00"],
           ["vary", "Accept-Encoding"],
-          ["x-cloud-trace-context", "5aae257903b13bb087d931d4dc11ca66/905011911567739539"],
+          ["x-cloud-trace-context", "44df3cc5aa898b463ff50b8218a85868/9929925011805214111"],
           ["x-fah-adapter", "nextjs-14.0.18"],
-          ["server-timing", "l2gfet4t7; dur=1778"],
+          ["server-timing", "l2gfet4t7; dur=60"],
           ["via", "1.1 google"],
           ["cdn-cache-status", "miss"],
           ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "\"https://fonts.googleapis.com/\"\n\"https://use.typekit.net/\""
-      }
-    },
-    "GET https://thehouse.id/_next/static/chunks/184-0863bc588d5d1902.js": {
-      "result": {
-        "url": "https://thehouse.id/_next/static/chunks/184-0863bc588d5d1902.js",
-        "status": 200,
-        "headers": [
-          ["accept-ranges", "bytes"],
-          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
-          ["cache-control", "public, max-age=31536000, immutable"],
-          ["cache-tag", "998648018474"],
-          ["cache-tag", "998648018474:studio"],
-          ["content-encoding", "gzip"],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
-          ["etag", "W/\"10e77-49773873e8\""],
-          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
-          ["server", "envoy"],
-          ["traceparent", "00-fe41ff910a797845edf248f6b915aa2c-f15df6e30a5c9669-00"],
-          ["vary", "Accept-Encoding"],
-          ["x-cloud-trace-context", "fe41ff910a797845edf248f6b915aa2c/17392328790966572649"],
-          ["x-fah-adapter", "nextjs-14.0.18"],
-          ["server-timing", "l2gfet4t7; dur=1776"],
-          ["via", "1.1 google"],
-          ["cdn-cache-status", "miss"],
-          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
       }
     },
     "GET https://thehouse.id/_next/static/chunks/36b4fd63-cb4284f3e3f3863b.js": {
@@ -367,55 +366,26 @@
           ["cache-tag", "998648018474:studio"],
           ["content-encoding", "gzip"],
           ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:45 GMT"],
           ["etag", "W/\"16df6-49773873e8\""],
           ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
           ["server", "envoy"],
-          ["traceparent", "00-dc119aadd0ded03c596cd35bc40e89b7-e61c6629f36e672e-00"],
+          ["traceparent", "00-caa252c8a0a5f63237e3d4a608e0a3bc-0e2413c6fc9b77d9-00"],
           ["vary", "Accept-Encoding"],
-          ["x-cloud-trace-context", "dc119aadd0ded03c596cd35bc40e89b7/16581240258435114798"],
+          ["x-cloud-trace-context", "caa252c8a0a5f63237e3d4a608e0a3bc/1018961161055074265"],
           ["x-fah-adapter", "nextjs-14.0.18"],
-          ["server-timing", "l2gfet4t7; dur=1785"],
-          ["via", "1.1 google"],
-          ["cdn-cache-status", "miss"],
-          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://apis.google.com/\"\n\"https://www.google.com/\""
-      }
-    },
-    "GET https://thehouse.id/_next/static/chunks/873-2f316d7b4b63687e.js": {
-      "result": {
-        "url": "https://thehouse.id/_next/static/chunks/873-2f316d7b4b63687e.js",
-        "status": 200,
-        "headers": [
-          ["accept-ranges", "bytes"],
-          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
-          ["cache-control", "public, max-age=31536000, immutable"],
-          ["cache-tag", "998648018474"],
-          ["cache-tag", "998648018474:studio"],
-          ["content-encoding", "gzip"],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
-          ["etag", "W/\"1ab5c-49773873e8\""],
-          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
-          ["server", "envoy"],
-          ["traceparent", "00-e46dcb8def2470b8487d3edc0fb7785f-c85dd5d7ee5446ed-00"],
-          ["vary", "Accept-Encoding"],
-          ["x-cloud-trace-context", "e46dcb8def2470b8487d3edc0fb7785f/14437931103812863725"],
-          ["x-fah-adapter", "nextjs-14.0.18"],
-          ["server-timing", "l2gfet4t7; dur=1780"],
+          ["server-timing", "l2gfet4t7; dur=54"],
           ["via", "1.1 google"],
           ["cdn-cache-status", "miss"],
           ["alt-svc", "h3=\":443\"; ma=2592000"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "\"https://facecade-default-rtdb.firebaseio.com/\"\n\"https://firebase.google.com/\"\n\"https://securetoken.google.com/\""
+        "body": "\"https://apis.google.com/\"\n\"https://www.google.com/\""
       }
     },
-    "GET https://thehouse.id/_next/static/chunks/4bd1b696-b98887138107acd7.js": {
+    "GET https://thehouse.id/_next/static/chunks/184-0863bc588d5d1902.js": {
       "result": {
-        "url": "https://thehouse.id/_next/static/chunks/4bd1b696-b98887138107acd7.js",
+        "url": "https://thehouse.id/_next/static/chunks/184-0863bc588d5d1902.js",
         "status": 200,
         "headers": [
           ["accept-ranges", "bytes"],
@@ -425,44 +395,15 @@
           ["cache-tag", "998648018474:studio"],
           ["content-encoding", "gzip"],
           ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
-          ["etag", "W/\"29492-49773873e8\""],
+          ["date", "Mon, 05 Oct 2026 07:52:45 GMT"],
+          ["etag", "W/\"10e77-49773873e8\""],
           ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
           ["server", "envoy"],
-          ["traceparent", "00-9e31c224371c5c127dbabe2dc85e2f9e-b7df7bf7193c9bde-01"],
+          ["traceparent", "00-9316d40443c9e4affc565164d5f0e33b-77fc65403eff32c6-00"],
           ["vary", "Accept-Encoding"],
-          ["x-cloud-trace-context", "9e31c224371c5c127dbabe2dc85e2f9e/13249444929957829598;o=1"],
+          ["x-cloud-trace-context", "9316d40443c9e4affc565164d5f0e33b/8645896711253734086"],
           ["x-fah-adapter", "nextjs-14.0.18"],
-          ["server-timing", "l2gfet4t7; dur=2029"],
-          ["via", "1.1 google"],
-          ["cdn-cache-status", "miss"],
-          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://thehouse.id/_next/static/chunks/polyfills-42372ed130431b0a.js": {
-      "result": {
-        "url": "https://thehouse.id/_next/static/chunks/polyfills-42372ed130431b0a.js",
-        "status": 200,
-        "headers": [
-          ["accept-ranges", "bytes"],
-          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
-          ["cache-control", "public, max-age=31536000, immutable"],
-          ["cache-tag", "998648018474"],
-          ["cache-tag", "998648018474:studio"],
-          ["content-encoding", "gzip"],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
-          ["etag", "W/\"1b7d2-49773873e8\""],
-          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
-          ["server", "envoy"],
-          ["traceparent", "00-74732af5bb7ab6a4cc46f0988d387cf3-8f5b5e4a613b6ec6-00"],
-          ["vary", "Accept-Encoding"],
-          ["x-cloud-trace-context", "74732af5bb7ab6a4cc46f0988d387cf3/10329953843856240326"],
-          ["x-fah-adapter", "nextjs-14.0.18"],
-          ["server-timing", "l2gfet4t7; dur=1781"],
+          ["server-timing", "l2gfet4t7; dur=63"],
           ["via", "1.1 google"],
           ["cdn-cache-status", "miss"],
           ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
@@ -483,21 +424,79 @@
           ["cache-tag", "998648018474:studio"],
           ["content-encoding", "gzip"],
           ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:45 GMT"],
           ["etag", "W/\"2a39e-49773873e8\""],
           ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
           ["server", "envoy"],
-          ["traceparent", "00-4ecb4672ccc04acf5f56ffa802cfa5b0-02c5e6f9b4e7f6c8-00"],
+          ["traceparent", "00-8bf9f221e2c84b7074c240084eba4fd9-ed276e203954bfe7-00"],
           ["vary", "Accept-Encoding"],
-          ["x-cloud-trace-context", "4ecb4672ccc04acf5f56ffa802cfa5b0/199819718644201160"],
+          ["x-cloud-trace-context", "8bf9f221e2c84b7074c240084eba4fd9/17088748395760500711"],
           ["x-fah-adapter", "nextjs-14.0.18"],
-          ["server-timing", "l2gfet4t7; dur=1784"],
+          ["server-timing", "l2gfet4t7; dur=41"],
+          ["via", "1.1 google"],
+          ["cdn-cache-status", "miss"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/polyfills-42372ed130431b0a.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:45 GMT"],
+          ["etag", "W/\"1b7d2-49773873e8\""],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["server", "envoy"],
+          ["traceparent", "00-7817ab407c75bada29b749e21219a997-2f2442274d7b7063-00"],
+          ["vary", "Accept-Encoding"],
+          ["x-cloud-trace-context", "7817ab407c75bada29b749e21219a997/3396912755515289699"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=42"],
           ["via", "1.1 google"],
           ["cdn-cache-status", "miss"],
           ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
+      }
+    },
+    "GET https://thehouse.id/_next/static/chunks/873-2f316d7b4b63687e.js": {
+      "result": {
+        "url": "https://thehouse.id/_next/static/chunks/873-2f316d7b4b63687e.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["cache-tag", "998648018474"],
+          ["cache-tag", "998648018474:studio"],
+          ["content-encoding", "gzip"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:45 GMT"],
+          ["etag", "W/\"1ab5c-49773873e8\""],
+          ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
+          ["server", "envoy"],
+          ["traceparent", "00-9430853b5ff04c52ca16da518cc64ad2-44073eaa693dae55-00"],
+          ["vary", "Accept-Encoding"],
+          ["x-cloud-trace-context", "9430853b5ff04c52ca16da518cc64ad2/4901955621047086677"],
+          ["x-fah-adapter", "nextjs-14.0.18"],
+          ["server-timing", "l2gfet4t7; dur=59"],
+          ["via", "1.1 google"],
+          ["cdn-cache-status", "miss"],
+          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://facecade-default-rtdb.firebaseio.com/\"\n\"https://firebase.google.com/\"\n\"https://securetoken.google.com/\""
       }
     },
     "GET https://thehouse.id/_next/static/chunks/bc9e92e6-ae33bc13ba3d0f54.js": {
@@ -512,18 +511,18 @@
           ["cache-tag", "998648018474:studio"],
           ["content-encoding", "gzip"],
           ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:57 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:45 GMT"],
           ["etag", "W/\"3e56d-49773873e8\""],
           ["last-modified", "Tue, 01 Jan 1980 00:00:01 GMT"],
           ["server", "envoy"],
-          ["traceparent", "00-3c37cdabdb3c70a265363c5a40988e05-b2945473e0eac832-00"],
+          ["traceparent", "00-2948dba65ff30e63a65b8ab5dcfa9c3a-c2a5c643ad17d581-00"],
           ["vary", "Accept-Encoding"],
-          ["x-cloud-trace-context", "3c37cdabdb3c70a265363c5a40988e05/12868002891975804978"],
+          ["x-cloud-trace-context", "2948dba65ff30e63a65b8ab5dcfa9c3a/14025834608484406657"],
           ["x-fah-adapter", "nextjs-14.0.18"],
-          ["server-timing", "l2gfet4t7; dur=1762"],
+          ["server-timing", "l2gfet4t7; dur=61"],
           ["via", "1.1 google"],
           ["cdn-cache-status", "miss"],
-          ["alt-svc", "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"],
+          ["alt-svc", "h3=\":443\"; ma=2592000"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "\"https://stackoverflow.com/\""
@@ -531,6 +530,13 @@
     }
   },
   "dns": {
+    "NS thehouse.id": {
+      "result": {
+        "name": "thehouse.id",
+        "type": "NS",
+        "records": ["ns50.domaincontrol.com", "ns49.domaincontrol.com"]
+      }
+    },
     "A thehouse.id": {
       "result": {
         "name": "thehouse.id",
@@ -538,24 +544,17 @@
         "records": ["35.219.200.9"]
       }
     },
-    "NS thehouse.id": {
+    "AAAA thehouse.id": {
       "result": {
         "name": "thehouse.id",
-        "type": "NS",
-        "records": ["ns49.domaincontrol.com", "ns50.domaincontrol.com"]
+        "type": "AAAA",
+        "records": []
       }
     },
     "CNAME thehouse.id": {
       "result": {
         "name": "thehouse.id",
         "type": "CNAME",
-        "records": []
-      }
-    },
-    "AAAA thehouse.id": {
-      "result": {
-        "name": "thehouse.id",
-        "type": "AAAA",
         "records": []
       }
     },

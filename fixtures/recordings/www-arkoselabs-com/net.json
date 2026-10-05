@@ -1,22 +1,22 @@
 {
   "url": "https://www.arkoselabs.com/",
-  "recordedAt": "2026-10-04T20:16:51.520Z",
+  "recordedAt": "2026-10-05T07:52:28.091Z",
   "http": {
     "GET https://www.arkoselabs.com/": {
       "result": {
         "url": "https://www.arkoselabs.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:28 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
           ["set-cookie", "_cfuvid=<redacted>"],
-          ["cf-ray", "a456dde2cc4a8be6-OSL"],
+          ["cf-ray", "a45ad8d818d6812a-CPH"],
           ["cf-cache-status", "HIT"],
-          ["age", "338068"],
+          ["age", "379804"],
           ["content-encoding", "gzip"],
-          ["last-modified", "Thu, 01 Oct 2026 23:24:48 GMT"],
+          ["last-modified", "Thu, 01 Oct 2026 03:30:37 GMT"],
           [
             "link",
             "<https://cdn.prod.website-files.com>; rel=preconnect; crossorigin, <https://cdn.prod.website-files.com/6a08a39dffcfb012b1c4a767/css/arkose-labs.shared.eb448c9c9.min.css>; rel=preload; as=style; crossorigin; integrity=\"sha384-60SMnJSoOZE2LM9YYcYBZIfljjShvKmLk5WPwSEGATkwAE50f9GIGcqiaaI4/LD8\", <https://cdn.intellimize.co>; rel=preconnect, <https://api.intellimize.co>; rel=preconnect; crossorigin, <https://log.intellimize.co>; rel=preconnect; crossorigin, <https://117467929.intellimizeio.com>; rel=preconnect"
@@ -56,13 +56,6 @@
         "records": ["lamar.ns.cloudflare.com", "journey.ns.cloudflare.com"]
       }
     },
-    "A www.arkoselabs.com": {
-      "result": {
-        "name": "www.arkoselabs.com",
-        "type": "A",
-        "records": ["198.202.211.1"]
-      }
-    },
     "AAAA www.arkoselabs.com": {
       "result": {
         "name": "www.arkoselabs.com",
@@ -75,6 +68,13 @@
         "name": "cdn.webflow.com",
         "type": "CNAME",
         "records": []
+      }
+    },
+    "A www.arkoselabs.com": {
+      "result": {
+        "name": "www.arkoselabs.com",
+        "type": "A",
+        "records": ["198.202.211.1"]
       }
     },
     "TXT 1.211.202.198.origin.asn.cymru.com": {

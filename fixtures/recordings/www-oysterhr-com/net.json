@@ -1,22 +1,22 @@
 {
   "url": "https://www.oysterhr.com/",
-  "recordedAt": "2026-10-04T20:16:51.738Z",
+  "recordedAt": "2026-10-05T07:52:28.376Z",
   "http": {
     "GET https://www.oysterhr.com/": {
       "result": {
         "url": "https://www.oysterhr.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:51 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:28 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
           ["set-cookie", "_cfuvid=<redacted>"],
-          ["cf-ray", "a456dde3fa4fb4ed-OSL"],
+          ["cf-ray", "a45ad8da58ba350a-CPH"],
           ["cf-cache-status", "HIT"],
-          ["age", "189159"],
+          ["age", "230896"],
           ["content-encoding", "gzip"],
-          ["last-modified", "Sun, 04 Oct 2026 00:27:32 GMT"],
+          ["last-modified", "Fri, 02 Oct 2026 18:17:11 GMT"],
           [
             "link",
             "<https://cdn.prod.website-files.com>; rel=preconnect; crossorigin, <https://cdn.prod.website-files.com/5ffc74fef1579006dc588807/css/oysterhr.shared.cc1a2dce2.min.css>; rel=preload; as=style; crossorigin; integrity=\"sha384-zBotziOaE5W9UvEC8CBghGABkxb4bFmd5BgAfI2LhTjz6KxX3tmZJTHtF6m23AvT\", <https://cdn.prod.website-files.com/5ffc74fef1579006dc588807/css/oysterhr.654a70dc1ba2c09e3d62cf7d.5f174d572.opt.min.css>; rel=preload; as=style; crossorigin; integrity=\"sha384-XxdNVySDLQ39M53yu1QE/iAQDnmfkCRtm0ylujOlDn9FsJqNKUHpzS09z7kWhGno\", <https://cdn.intellimize.co>; rel=preconnect, <https://api.intellimize.co>; rel=preconnect; crossorigin, <https://log.intellimize.co>; rel=preconnect; crossorigin, <https://117159863.intellimizeio.com>; rel=preconnect"
@@ -48,18 +48,18 @@
         "records": ["cdn.webflow.com"]
       }
     },
+    "A www.oysterhr.com": {
+      "result": {
+        "name": "www.oysterhr.com",
+        "type": "A",
+        "records": ["198.202.211.1"]
+      }
+    },
     "NS www.oysterhr.com": {
       "result": {
         "name": "www.oysterhr.com",
         "type": "NS",
         "records": ["journey.ns.cloudflare.com", "lamar.ns.cloudflare.com"]
-      }
-    },
-    "CNAME cdn.webflow.com": {
-      "result": {
-        "name": "cdn.webflow.com",
-        "type": "CNAME",
-        "records": []
       }
     },
     "AAAA www.oysterhr.com": {
@@ -69,11 +69,11 @@
         "records": ["2620:cb:2000::1"]
       }
     },
-    "A www.oysterhr.com": {
+    "CNAME cdn.webflow.com": {
       "result": {
-        "name": "www.oysterhr.com",
-        "type": "A",
-        "records": ["198.202.211.1"]
+        "name": "cdn.webflow.com",
+        "type": "CNAME",
+        "records": []
       }
     },
     "TXT 1.211.202.198.origin.asn.cymru.com": {

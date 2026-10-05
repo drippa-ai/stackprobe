@@ -159,19 +159,21 @@ export async function scan(input: string, options: ScanOptions): Promise<Report>
     surfaces,
     options.decider ? { decider: options.decider } : {},
   );
-  // The deep layers, only where the product may be: its own scripts, and a real browser.
+  // The deep layers, only where the product may be: a real browser first, then the page's own
+  // scripts, including the ones the browser saw it load.
   await Promise.all(
     deepTargets(surfaces, classifications).map(async (surface) => {
       const own = surfaces.find((s) => s.target.id === surface.id);
       if (!own) return;
+      const runDeep = async (layer: Layer) => {
+        const [result] = await runLayers([layer], surface, runOptions);
+        if (!result) return;
+        await options.onLayerResult?.(result);
+        own.results.push(result);
+      };
+      if (options.browser) await runDeep(browserLayer(options.browser));
       const signals = own.results.flatMap((result) => result.signals);
-      const deep = [
-        bundleLayer(firstPartyScripts(signals, surface.url)),
-        ...(options.browser ? [browserLayer(options.browser)] : []),
-      ];
-      const results = await runLayers(deep, surface, runOptions);
-      for (const result of results) await options.onLayerResult?.(result);
-      own.results.push(...results);
+      await runDeep(bundleLayer(firstPartyScripts(signals, surface.url)));
     }),
   );
   return buildReport({ domain: target.host, scannedAt, surfaces, classifications });

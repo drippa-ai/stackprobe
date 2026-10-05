@@ -106,6 +106,18 @@
         "headers": {}
       },
       {
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/news/8ab3e227121c53aacab0c9b9f7a48adbc65db520.webm",
+        "method": "GET",
+        "type": "media",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/news/bbc27473157462adacf0de441a8796268eb2d0ac.mp4",
+        "method": "GET",
+        "type": "media",
+        "headers": {}
+      },
+      {
         "url": "https://www.googletagmanager.com/gtm.js",
         "method": "GET",
         "type": "script",
@@ -139,18 +151,6 @@
         "url": "https://www.leagueoflegends.com/_next/static/node_modules/@riot-private/blades-ui/dist/skins/rg-product-pages/assets/carousel-right.svg",
         "method": "GET",
         "type": "image",
-        "headers": {}
-      },
-      {
-        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/news/8ab3e227121c53aacab0c9b9f7a48adbc65db520.webm",
-        "method": "GET",
-        "type": "media",
-        "headers": {}
-      },
-      {
-        "url": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/news/bbc27473157462adacf0de441a8796268eb2d0ac.mp4",
-        "method": "GET",
-        "type": "media",
         "headers": {}
       },
       {
@@ -208,6 +208,18 @@
         "headers": {}
       },
       {
+        "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-e9bf2e8251f174a23491aafea0b896fd.br.js",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-790c2c741cb0d7f14aff92f0c6cea5cc.br.js",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
         "url": "https://cdn.rgpub.io/public/live/riotbar/latest/lol-rso-pbe.en-gb.js",
         "method": "GET",
         "type": "script",
@@ -256,12 +268,6 @@
         "headers": {}
       },
       {
-        "url": "https://dev.visualwebsiteoptimizer.com/ee.gif",
-        "method": "GET",
-        "type": "image",
-        "headers": {}
-      },
-      {
         "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/spiegel/Spiegel-Regular.ttf",
         "method": "GET",
         "type": "font",
@@ -286,6 +292,12 @@
         "headers": {}
       },
       {
+        "url": "https://cmp.osano.com/",
+        "method": "GET",
+        "type": "document",
+        "headers": {}
+      },
+      {
         "url": "https://www.youtube.com/iframe_api",
         "method": "GET",
         "type": "script",
@@ -293,6 +305,12 @@
       },
       {
         "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9eb028de391e65072d06e77f06d0955f66b9fa2c-736x316.png",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/4c59eeaf4adc540fd42745bd5c71563fba8f6288-3840x1328.png",
         "method": "GET",
         "type": "image",
         "headers": {}
@@ -388,12 +406,6 @@
         "headers": {}
       },
       {
-        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/4c59eeaf4adc540fd42745bd5c71563fba8f6288-3840x1328.png",
-        "method": "GET",
-        "type": "image",
-        "headers": {}
-      },
-      {
         "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/acd771813b2b3f3bbcae4f27eadb2d79b1c4f547-4096x2160.png",
         "method": "GET",
         "type": "image",
@@ -407,18 +419,6 @@
       },
       {
         "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/5f6170c8842549a99f4c937b9d5db73a4173ddcb-1920x1080.jpg",
-        "method": "GET",
-        "type": "image",
-        "headers": {}
-      },
-      {
-        "url": "https://www.youtube.com/s/player/8ab5c328/www-widgetapi.vflset/www-widgetapi.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9eb028de391e65072d06e77f06d0955f66b9fa2c-736x316.png",
         "method": "GET",
         "type": "image",
         "headers": {}
@@ -490,9 +490,15 @@
         "headers": {}
       },
       {
-        "url": "https://xsso.leagueoflegends.com/check-session-iframe",
+        "url": "https://www.youtube.com/s/player/8ab5c328/www-widgetapi.vflset/www-widgetapi.js",
         "method": "GET",
-        "type": "document",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9eb028de391e65072d06e77f06d0955f66b9fa2c-736x316.png",
+        "method": "GET",
+        "type": "image",
         "headers": {}
       },
       {
@@ -517,6 +523,12 @@
         "url": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/inter/v3/Inter-Medium.woff2",
         "method": "GET",
         "type": "font",
+        "headers": {}
+      },
+      {
+        "url": "https://xsso.leagueoflegends.com/check-session-iframe",
+        "method": "GET",
+        "type": "document",
         "headers": {}
       },
       {
@@ -550,12 +562,6 @@
         "headers": {}
       },
       {
-        "url": "https://pagead2.googlesyndication.com/ccm/collect",
-        "method": "POST",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
         "url": "https://xsso.leagueoflegends.com/riot-owned-iframe",
         "method": "GET",
         "type": "document",
@@ -574,6 +580,12 @@
         "headers": {}
       },
       {
+        "url": "https://pagead2.googlesyndication.com/ccm/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
         "url": "https://xsso.leagueoflegends.com/redirect",
         "method": "GET",
         "type": "document",
@@ -586,9 +598,9 @@
       "lang",
       "__Secure-YNID",
       "YSC",
+      "__Secure-ROLLOUT_TOKEN",
       "VISITOR_INFO1_LIVE",
       "VISITOR_PRIVACY_METADATA",
-      "__Secure-ROLLOUT_TOKEN",
       "__cf_bm"
     ],
     "globals": [
@@ -607,12 +619,10 @@
       "__SSG_MANIFEST_CB",
       "__NEXT_P",
       "_N_E",
-      "litHtmlVersions",
       "DOMPurify",
       "__MIDDLEWARE_MATCHERS",
       "__BUILD_MANIFEST",
       "__SSG_MANIFEST",
-      "DD_RUM",
       "VWO",
       "_vwo_acc_id",
       "_vwo_prevMode",
@@ -622,19 +632,43 @@
       "_vwo_tm",
       "_vwo_cookieDomain",
       "_vwo_surveyAssetsBaseUrl",
+      "_vwo_clicks",
+      "VWOOmni",
+      "_vwoCc",
+      "_vwo_cdn",
+      "_vwo_apm_debug_cdn",
+      "vwo_eT",
+      "_vwo_library_timer",
+      "DD_RUM",
+      "litHtmlVersions",
       "google_tag_manager",
       "google_tag_data",
+      "_vwo_mt_l",
+      "_vwo_wt_l",
+      "mainThread",
+      "vwoChannelFW",
+      "vwoChannelToW",
+      "Wingify",
+      "_VWO_VaGQ_StartTime",
+      "_vwo_evq",
+      "_vwo_ev",
+      "fetcher",
+      "_vwo_api_section_callback",
+      "_vwo_editorOperationTracker",
+      "_vwo_handleMutations",
+      "_vis_opt_queue",
+      "vwo_dctag",
       "rdt",
       "extId",
       "fbq",
       "_fbq",
       "onYouTubeIframeAPIReady",
+      "RiotBar",
       "scriptUrl",
       "ttPolicy",
       "YT",
       "YTConfig",
       "onYTReady",
-      "RiotBar",
       "xsso"
     ]
   }

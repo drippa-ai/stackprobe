@@ -34,6 +34,12 @@
         "headers": {}
       },
       {
+        "url": "https://assets.superthread.com/images/logos/superthread-wordmark.svg",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
         "url": "https://assets.superthread.com/fonts/vela-sans-semibold.woff2",
         "method": "GET",
         "type": "font",
@@ -64,21 +70,9 @@
         "headers": {}
       },
       {
-        "url": "https://assets.superthread.com/images/logos/superthread-wordmark.svg",
-        "method": "GET",
-        "type": "image",
-        "headers": {}
-      },
-      {
         "url": "https://superthread.com/_astro/announcementComet.RI4Whddb.js",
         "method": "GET",
         "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://assets.superthread.com/video/home/agents-main-8b843b1ae2bb.mp4",
-        "method": "GET",
-        "type": "media",
         "headers": {}
       },
       {
@@ -226,25 +220,13 @@
         "headers": {}
       },
       {
-        "url": "https://superthread.com/_astro/CookieBanner.Cmj5CoGO.js",
+        "url": "https://assets.superthread.com/video/home/agents-main-8b843b1ae2bb.mp4",
         "method": "GET",
-        "type": "script",
+        "type": "media",
         "headers": {}
       },
       {
         "url": "https://superthread.com/_astro/runtime-dom.esm-bundler.ClRUGpnA.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://superthread.com/_astro/GlowBackdrop.jPS8OV0U.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://superthread.com/_astro/_plugin-vue_export-helper.DlAUqK2U.js",
         "method": "GET",
         "type": "script",
         "headers": {}
@@ -256,7 +238,25 @@
         "headers": {}
       },
       {
+        "url": "https://superthread.com/_astro/GlowBackdrop.jPS8OV0U.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
         "url": "https://superthread.com/_astro/tabPillStyles.BOtdG-E7.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://superthread.com/_astro/_plugin-vue_export-helper.DlAUqK2U.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://superthread.com/_astro/CookieBanner.Cmj5CoGO.js",
         "method": "GET",
         "type": "script",
         "headers": {}

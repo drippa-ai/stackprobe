@@ -586,18 +586,6 @@
         "headers": {}
       },
       {
-        "url": "https://app.goodtape.io/socket.io/",
-        "method": "GET",
-        "type": "xhr",
-        "headers": {}
-      },
-      {
-        "url": "https://app.goodtape.io/ingest/static/posthog-recorder.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
         "url": "https://www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/recaptcha__en.js",
         "method": "GET",
         "type": "script",
@@ -610,6 +598,12 @@
         "headers": {}
       },
       {
+        "url": "https://app.goodtape.io/socket.io/",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
         "url": "https://www.googletagmanager.com/gtag/js",
         "method": "GET",
         "type": "script",
@@ -619,6 +613,12 @@
         "url": "https://pagead2.googlesyndication.com/ccm/collect",
         "method": "POST",
         "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://app.goodtape.io/ingest/static/posthog-recorder.js",
+        "method": "GET",
+        "type": "script",
         "headers": {}
       },
       {
@@ -652,19 +652,19 @@
         "headers": {}
       },
       {
+        "url": "https://js-eu1.hscollectedforms.net/collectedforms.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
         "url": "https://js-eu1.hs-banner.com/v2/147598558/banner.js",
         "method": "GET",
         "type": "script",
         "headers": {}
       },
       {
-        "url": "https://js-eu1.hs-analytics.net/analytics/1791138600000/147598558.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://js-eu1.hscollectedforms.net/collectedforms.js",
+        "url": "https://js-eu1.hs-analytics.net/analytics/1791181800000/147598558.js",
         "method": "GET",
         "type": "script",
         "headers": {}
@@ -730,12 +730,6 @@
         "headers": {}
       },
       {
-        "url": "https://server-side.goodtape.io/g/collect",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
         "url": "https://connect.facebook.net/signals/config/2188476098354623",
         "method": "GET",
         "type": "script",
@@ -745,6 +739,12 @@
         "url": "https://www.facebook.com/tr/",
         "method": "GET",
         "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://server-side.goodtape.io/g/collect",
+        "method": "GET",
+        "type": "fetch",
         "headers": {}
       }
     ],
@@ -782,32 +782,32 @@
       "grecaptcha",
       "__recaptcha_api",
       "__google_recaptcha_client",
+      "_POSTHOG_REMOTE_CONFIG",
       "_posthogReleaseId",
       "_posthogChunkIds",
-      "__sentry_instrumentation_handlers__",
       "extendPostHogWithSurveys",
-      "_POSTHOG_REMOTE_CONFIG",
       "google_tag_data",
       "google_tag_manager",
-      "onYouTubeIframeAPIReady",
-      "gaGlobal",
+      "__sentry_instrumentation_handlers__",
       "recaptcha",
       "scrypt",
+      "onYouTubeIframeAPIReady",
+      "gaGlobal",
       "_xsd",
       "_randomPageId",
       "_hsp",
       "__hsReferrer",
       "__hsInitialUrl",
-      "PIXELS_RAN",
-      "enabledEventSettings",
-      "_hsq",
       "__hsCollectedFormsDebug",
+      "_hsq",
       "sanitizeKey",
       "_hstc_ran",
       "hsCallsToActionsReady",
       "__hsUserToken",
       "expireDateTime",
       "_hstc_loaded",
+      "PIXELS_RAN",
+      "enabledEventSettings",
       "hsCookieBanner",
       "_hspb_loaded",
       "_hspb_ran",

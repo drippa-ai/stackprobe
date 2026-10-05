@@ -1,26 +1,26 @@
 {
   "url": "https://rightblogger.com/",
-  "recordedAt": "2026-10-04T20:16:49.405Z",
+  "recordedAt": "2026-10-05T07:52:23.538Z",
   "http": {
     "GET https://rightblogger.com/": {
       "result": {
         "url": "https://rightblogger.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:23 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
-          ["cf-ray", "a456ddd559825a0f-OSL"],
+          ["cf-ray", "a45ad8bb99fa460d-CPH"],
           ["cf-cache-status", "DYNAMIC"],
           ["access-control-allow-origin", "*"],
-          ["age", "19389"],
+          ["age", "20754"],
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-disposition", "inline"],
           ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=YN%2FMEUvkP6AouZSM7vkP0nLpw5SzRs059rOFfQDq0P1knBfJMLkBLEB6%2B1Xt0ryE8ykHDGlLdnz00AGtIMuGT8p2yeVjH1fFVEbODqOfqfGmAs3z1Fvj%2FJ9VjHC0Tl0XBTw%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=g6AfD9dFU6roljoTBK5IWPKX4Ovf8Ta9UN95Kig4ZR6yliCDLXOE1nL%2BB%2FJVi8ZUtRNUXunfAJ%2Fl2mHgFg9hQ%2Fehs5MaodfgBr2fSr9DxrzcqMt4elE2dQJW7blr%2BVLlwEA%3D\"}]}"
           ],
           [
             "link",
@@ -36,51 +36,347 @@
           ["x-frame-options", "SAMEORIGIN"],
           ["x-matched-path", "/"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::pzm9b-1791145009621-5f2ce103de02"],
+          ["x-vercel-id", "arn1::2kpv8-1791186743710-f80c24b0f32c"],
           ["x-xss-protection", "1; mode=block"],
           ["server-timing", "cfCacheStatus;desc=\"DYNAMIC\""],
-          ["server-timing", "cfEdge;dur=197,cfOrigin;dur=0"],
+          ["server-timing", "cfEdge;dur=140,cfOrigin;dur=0"],
           ["content-encoding", "br"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
-        "body": "<meta charset=\"utf-8\" data-next-head=\"\">\n<meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\">\n<link rel=\"preload\" href=\"/images/rightblogger-black.svg\" as=\"image\" data-next-head=\"\">\n<link rel=\"preload\" href=\"/images/rightblogger.svg\" as=\"image\" data-next-head=\"\">\n<meta name=\"robots\" content=\"follow, index\" data-next-head=\"\">\n<meta name=\"description\" content=\"RightBlogger is an AI blog automation tool that researches, writes, publishes, and keeps your site's posts ranking on Google and ChatGPT.\" data-next-head=\"\">\n<link rel=\"canonical\" href=\"https://rightblogger.com/\" data-next-head=\"\">\n<meta property=\"og:url\" content=\"https://rightblogger.com/\" data-next-head=\"\">\n<meta property=\"og:type\" content=\"website\" data-next-head=\"\">\n<meta property=\"og:site_name\" content=\"RightBlogger Blog: AI Tutorials &amp; Tools for Creators\" data-next-head=\"\">\n<meta property=\"og:description\" content=\"RightBlogger is an AI blog automation tool that researches, writes, publishes, and keeps your site's posts ranking on Google and ChatGPT.\" data-next-head=\"\">\n<meta property=\"og:title\" content=\"RightBlogger: AI Blog Automation for Google &amp; ChatGPT\" data-next-head=\"\">\n<meta property=\"og:image\" content=\"https://rightblogger.com/images/rb-share-image.jpg\" data-next-head=\"\">\n<meta name=\"twitter:card\" content=\"summary_large_image\" data-next-head=\"\">\n<meta name=\"twitter:title\" content=\"RightBlogger: AI Blog Automation for Google &amp; ChatGPT\" data-next-head=\"\">\n<meta name=\"twitter:site\" content=\"@right_blogger\" data-next-head=\"\">\n<meta name=\"twitter:description\" content=\"RightBlogger is an AI blog automation tool that researches, writes, publishes, and keeps your site's posts ranking on Google and ChatGPT.\" data-next-head=\"\">\n<meta name=\"twitter:image\" content=\"https://rightblogger.com/images/rb-share-image.jpg\" data-next-head=\"\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"48x48\" href=\"/images/rightblogger-favicon-48x48.png\" data-next-head=\"\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"/images/rightblogger-favicon-96x96.png\" data-next-head=\"\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/images/rightblogger-white-circle.svg\" data-next-head=\"\">\n<link rel=\"apple-touch-icon\" href=\"/images/rightblogger-icon-square.png\" data-next-head=\"\">\n<meta name=\"theme-color\" content=\"#2F1A52\" data-next-head=\"\">\n<meta name=\"msapplication-TileColor\" content=\"#2F1A52\" data-next-head=\"\">\n<meta name=\"application-name\" content=\"RightBlogger\" data-next-head=\"\">\n<meta name=\"apple-mobile-web-app-title\" content=\"RightBlogger\" data-next-head=\"\">\n<link rel=\"preload\" href=\"/_next/static/immutable/chunks/2zv2_vhhde7t-.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/immutable/chunks/101f5cq76d-fn.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/immutable/chunks/39qwzqvnekfur.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/immutable/chunks/3n0b9ohwyjtr1.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/immutable/chunks/1huy60msy4701.css\" as=\"style\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/2zv2_vhhde7t-.css\" data-n-g=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/101f5cq76d-fn.css\" data-n-g=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/39qwzqvnekfur.css\" data-n-g=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/3n0b9ohwyjtr1.css\" data-n-g=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1huy60msy4701.css\" data-n-p=\"\">\n<script defer=\"\" nomodule=\"\" src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/43jwpr10paohx.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/0rfwp_a7tep9a.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/01bvl89cxdnn9.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/0t2zy56_ckt_6.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/3v_41rzb5f776.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/3zru08y5wwi_o.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/062tb0a0e_6d4.js\"></script>\n<script src=\"/_next/static/immutable/chunks/0ivvcry_idl29.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1i7sbheyywm_p.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/25pru1o3zdnh-.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2m4t54-7zc85w.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2f08z1kmby20n.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2uot-ta5vca3y.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3yksf9u1jgu1u.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0ie5u8396a241.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/023m4fogr4prz.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2f9fm_ys7v-5e.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0n6s1l6eu9ff7.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2yqsnsjn4o041.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3jw3jpfjk_qgj.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2bbj8fptlfzb-.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1daqjy-3fkyh6.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3f9w6obetmjs3.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3ptpex9g8o1ed.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2ymauyc-utidn.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3ymdjz55veor8.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/34d3r7_v3f8pn.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0vgsy2puku-xd.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1b6v83amgcg2t.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1sb_grxtg2gcd.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1tcuumvxki75a.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2_g16srut5nbs.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/06-ebj86vz6fs.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/02o_z6l5fvlsr.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0ygyrkyhk8o20.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2d69hgdy6j_wm.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0jw5x_usluucr.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-3fwhinsyvj8e8.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2w3u8-1clfrqt.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1mv632kfbi9fm.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1m9u2bstam85z.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2wtdo_8hjcdch.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2p67apdfkp_zf.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3e7m29t5a2om1.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3-klzor-ri9kl.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-01vn6f18ug2e1.js\" defer=\"\"></script>\n<script src=\"/_next/static/UEdDW5lO6V26EkeuwVUg1/_buildManifest.js\" defer=\"\"></script>\n<script src=\"/_next/static/UEdDW5lO6V26EkeuwVUg1/_ssgManifest.js\" defer=\"\"></script>\n<script src=\"/_next/static/UEdDW5lO6V26EkeuwVUg1/_clientMiddlewareManifest.js\" defer=\"\"></script>\n<link rel=\"preload\" as=\"image\" href=\"/images/rightblogger-black.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/images/rightblogger.svg\">\n<a href=\"/\"></a>\n<a href=\"/features\">Features</a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"/signin\">Sign in</a>\n<a href=\"/signup\">Start free trial</a>\n<a href=\"/wordpress\">WordPress</a>\n<a href=\"/shopify\">Shopify</a>\n<a href=\"/webflow\">Webflow</a>\n<a href=\"/framer\">Framer</a>\n<a href=\"/ghost\">Ghost</a>\n<a href=\"/wix\">Wix</a>\n<a href=\"/integrations\">All integrations</a>\n<a href=\"https://www.youtube.com/watch?v=aUCaVbTyeO8\">Watch \"RightBlogger walkthrough\" on YouTube</a>\n<a href=\"/agent\">Explore Site Agent</a>\n<a href=\"/ai-brand-monitor\">AI Brand MonitorSee when AI answers mention your brand, and which competitors appear alongside it.</a>\n<a href=\"/backlink-exchange\">Backlink ExchangeFind relevant link opportunities with verified websites in your niche.</a>\n<a href=\"/dashboard\">SEO reportingFollow your Search Console clicks, impressions, and search performance.</a>\n<a href=\"/signup\">Create a free account</a>\n<a href=\"/help\">Contact us</a>\n<a href=\"/chatgpt-vs-rightblogger\">RightBlogger vs ChatGPT comparison</a>\n<a href=\"/integrations\">integration details</a>\n<a href=\"/signup\">create a free account</a>\n<a href=\"/guarantee\">30-day money-back guarantee</a>\n<a href=\"mailto:contact@rightblogger.com\">contact@rightblogger.com</a>\n<a href=\"/guarantee\">money-back guarantee</a>\n<a href=\"https://www.youtube.com/@right_blogger\">YouTube</a>\n<a href=\"https://x.com/right_blogger\"></a>\n<a href=\"https://www.instagram.com/right_blogger/\">Instagram</a>\n<a href=\"https://www.linkedin.com/company/rightblogger/\">LinkedIn</a>\n<a href=\"https://www.facebook.com/profile.php?id=61556880190656\">Facebook</a>\n<a href=\"https://www.tiktok.com/@rightblogger\">TikTok</a>\n<a href=\"https://www.google.com/preferences/source?q=rightblogger.com\">Make us preferred on Google</a>\n<a href=\"/about\">About</a>\n<a href=\"/blog\">Blog</a>\n<a href=\"/affiliates\">Affiliate Program</a>\n<a href=\"https://testimonial.to/rightblogger/all\">Testimonials</a>\n<a href=\"https://feedback.rightblogger.com/\">Feedback Board</a>\n<a href=\"/brand\">Brand Assets</a>\n<a href=\"/help\">Help &amp; Support</a>\n<a href=\"/integrations\">Integrations</a>\n<a href=\"/comparisons\">Comparisons</a>\n<a href=\"/courses\">Courses</a>\n<a href=\"/extension\">Chrome Extension</a>\n<a href=\"/developers\">Developers</a>\n<a href=\"/agent\">Site Agent</a>\n<a href=\"/ai-brand-monitor\">AI Brand Monitor</a>\n<a href=\"/ai-visibility-checker\">AI Visibility Checker</a>\n<a href=\"/autoblogging\">Autoblogging</a>\n<a href=\"/social-media-automation\">Social Automation</a>\n<a href=\"/white-label-seo-reports\">White Label Reports</a>\n<a href=\"/mcp\">MCP Connector</a>\n<a href=\"/tools\">Tools</a>\n<a href=\"/blog/claude-watermark-seo\">Claude Watermark and SEO: How AI Text Watermarks Work and Whether Google Cares</a>\n<a href=\"https://rightblogger.com/\">RightBlogger, LLC</a>\n<a href=\"/privacy-policy\">Privacy Policy</a>\n<a href=\"/terms\">Terms</a>\n<a href=\"/llms.txt\">llms.txt</a>\n<a href=\"https://www.ryrob.com/\">Ryan Robinson</a>\n<a href=\"https://ihitthebutton.com/\">Andy Feliciotti</a>\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495\" integrity=\"sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;a0ef340b95cd4dfb9a5de921702e9f3a&quot;,&quot;spa&quot;:2}\" crossorigin=\"anonymous\"></script>"
+        "body": "<meta charset=\"utf-8\" data-next-head=\"\">\n<meta name=\"viewport\" content=\"width=device-width\" data-next-head=\"\">\n<link rel=\"preload\" href=\"/images/rightblogger-black.svg\" as=\"image\" data-next-head=\"\">\n<link rel=\"preload\" href=\"/images/rightblogger.svg\" as=\"image\" data-next-head=\"\">\n<meta name=\"robots\" content=\"follow, index\" data-next-head=\"\">\n<meta name=\"description\" content=\"RightBlogger is an AI blog automation tool that researches, writes, publishes, and keeps your site's posts ranking on Google and ChatGPT.\" data-next-head=\"\">\n<link rel=\"canonical\" href=\"https://rightblogger.com/\" data-next-head=\"\">\n<meta property=\"og:url\" content=\"https://rightblogger.com/\" data-next-head=\"\">\n<meta property=\"og:type\" content=\"website\" data-next-head=\"\">\n<meta property=\"og:site_name\" content=\"RightBlogger Blog: AI Tutorials &amp; Tools for Creators\" data-next-head=\"\">\n<meta property=\"og:description\" content=\"RightBlogger is an AI blog automation tool that researches, writes, publishes, and keeps your site's posts ranking on Google and ChatGPT.\" data-next-head=\"\">\n<meta property=\"og:title\" content=\"RightBlogger: AI Blog Automation for Google &amp; ChatGPT\" data-next-head=\"\">\n<meta property=\"og:image\" content=\"https://rightblogger.com/images/rb-share-image.jpg\" data-next-head=\"\">\n<meta name=\"twitter:card\" content=\"summary_large_image\" data-next-head=\"\">\n<meta name=\"twitter:title\" content=\"RightBlogger: AI Blog Automation for Google &amp; ChatGPT\" data-next-head=\"\">\n<meta name=\"twitter:site\" content=\"@right_blogger\" data-next-head=\"\">\n<meta name=\"twitter:description\" content=\"RightBlogger is an AI blog automation tool that researches, writes, publishes, and keeps your site's posts ranking on Google and ChatGPT.\" data-next-head=\"\">\n<meta name=\"twitter:image\" content=\"https://rightblogger.com/images/rb-share-image.jpg\" data-next-head=\"\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"48x48\" href=\"/images/rightblogger-favicon-48x48.png\" data-next-head=\"\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"/images/rightblogger-favicon-96x96.png\" data-next-head=\"\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/images/rightblogger-white-circle.svg\" data-next-head=\"\">\n<link rel=\"apple-touch-icon\" href=\"/images/rightblogger-icon-square.png\" data-next-head=\"\">\n<meta name=\"theme-color\" content=\"#2F1A52\" data-next-head=\"\">\n<meta name=\"msapplication-TileColor\" content=\"#2F1A52\" data-next-head=\"\">\n<meta name=\"application-name\" content=\"RightBlogger\" data-next-head=\"\">\n<meta name=\"apple-mobile-web-app-title\" content=\"RightBlogger\" data-next-head=\"\">\n<link rel=\"preload\" href=\"/_next/static/immutable/chunks/2zv2_vhhde7t-.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/immutable/chunks/101f5cq76d-fn.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/immutable/chunks/39qwzqvnekfur.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/immutable/chunks/3n0b9ohwyjtr1.css\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/immutable/chunks/1huy60msy4701.css\" as=\"style\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/2zv2_vhhde7t-.css\" data-n-g=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/101f5cq76d-fn.css\" data-n-g=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/39qwzqvnekfur.css\" data-n-g=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/3n0b9ohwyjtr1.css\" data-n-g=\"\">\n<link rel=\"stylesheet\" href=\"/_next/static/immutable/chunks/1huy60msy4701.css\" data-n-p=\"\">\n<script defer=\"\" nomodule=\"\" src=\"/_next/static/immutable/chunks/0c0hxoamwjsbw.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/43jwpr10paohx.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/0rfwp_a7tep9a.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/01bvl89cxdnn9.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/0t2zy56_ckt_6.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/0mwb9qa_y92bw.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/3zru08y5wwi_o.js\"></script>\n<script defer=\"\" src=\"/_next/static/immutable/chunks/062tb0a0e_6d4.js\"></script>\n<script src=\"/_next/static/immutable/chunks/371i_4u8o-xn1.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1i7sbheyywm_p.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/02mqxc1eys1sq.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2m4t54-7zc85w.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/18emmdw7mrgeg.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2uot-ta5vca3y.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3yksf9u1jgu1u.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0ppxun8e6ff4l.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/023m4fogr4prz.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2f9fm_ys7v-5e.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0n6s1l6eu9ff7.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2yqsnsjn4o041.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/397_juq9sx6cq.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2bbj8fptlfzb-.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1daqjy-3fkyh6.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3f9w6obetmjs3.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3ptpex9g8o1ed.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2ymauyc-utidn.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3ymdjz55veor8.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/34d3r7_v3f8pn.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0vgsy2puku-xd.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1b6v83amgcg2t.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1sb_grxtg2gcd.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1tcuumvxki75a.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2_g16srut5nbs.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3q85ibbz2imbb.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/02o_z6l5fvlsr.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0ygyrkyhk8o20.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2d69hgdy6j_wm.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/0jw5x_usluucr.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-1tvs5gbpl8ooy.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/12yt91mepvebd.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1mv632kfbi9fm.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/1m9u2bstam85z.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2wtdo_8hjcdch.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/2p67apdfkp_zf.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3e7m29t5a2om1.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/3-klzor-ri9kl.js\" defer=\"\"></script>\n<script src=\"/_next/static/immutable/chunks/turbopack-0v0rhgex4nd0x.js\" defer=\"\"></script>\n<script src=\"/_next/static/aMyaJyaBZxVDMe5gDW_Qq/_buildManifest.js\" defer=\"\"></script>\n<script src=\"/_next/static/aMyaJyaBZxVDMe5gDW_Qq/_ssgManifest.js\" defer=\"\"></script>\n<script src=\"/_next/static/aMyaJyaBZxVDMe5gDW_Qq/_clientMiddlewareManifest.js\" defer=\"\"></script>\n<link rel=\"preload\" as=\"image\" href=\"/images/rightblogger-black.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/images/rightblogger.svg\">\n<a href=\"/\"></a>\n<a href=\"/features\">Features</a>\n<a href=\"/pricing\">Pricing</a>\n<a href=\"/signin\">Sign in</a>\n<a href=\"/signup\">Start free trial</a>\n<a href=\"/wordpress\">WordPress</a>\n<a href=\"/shopify\">Shopify</a>\n<a href=\"/webflow\">Webflow</a>\n<a href=\"/framer\">Framer</a>\n<a href=\"/ghost\">Ghost</a>\n<a href=\"/wix\">Wix</a>\n<a href=\"/integrations\">All integrations</a>\n<a href=\"https://www.youtube.com/watch?v=aUCaVbTyeO8\">Watch \"RightBlogger walkthrough\" on YouTube</a>\n<a href=\"/agent\">Explore Site Agent</a>\n<a href=\"/ai-brand-monitor\">AI Brand MonitorSee when AI answers mention your brand, and which competitors appear alongside it.</a>\n<a href=\"/backlink-exchange\">Backlink ExchangeFind relevant link opportunities with verified websites in your niche.</a>\n<a href=\"/dashboard\">SEO reportingFollow your Search Console clicks, impressions, and search performance.</a>\n<a href=\"/signup\">Create a free account</a>\n<a href=\"/help\">Contact us</a>\n<a href=\"/chatgpt-vs-rightblogger\">RightBlogger vs ChatGPT comparison</a>\n<a href=\"/integrations\">integration details</a>\n<a href=\"/signup\">create a free account</a>\n<a href=\"/guarantee\">30-day money-back guarantee</a>\n<a href=\"mailto:contact@rightblogger.com\">contact@rightblogger.com</a>\n<a href=\"/guarantee\">money-back guarantee</a>\n<a href=\"https://www.youtube.com/@right_blogger\">YouTube</a>\n<a href=\"https://x.com/right_blogger\"></a>\n<a href=\"https://www.instagram.com/right_blogger/\">Instagram</a>\n<a href=\"https://www.linkedin.com/company/rightblogger/\">LinkedIn</a>\n<a href=\"https://www.facebook.com/profile.php?id=61556880190656\">Facebook</a>\n<a href=\"https://www.tiktok.com/@rightblogger\">TikTok</a>\n<a href=\"https://www.google.com/preferences/source?q=rightblogger.com\">Make us preferred on Google</a>\n<a href=\"/about\">About</a>\n<a href=\"/blog\">Blog</a>\n<a href=\"/affiliates\">Affiliate Program</a>\n<a href=\"https://testimonial.to/rightblogger/all\">Testimonials</a>\n<a href=\"https://feedback.rightblogger.com/\">Feedback Board</a>\n<a href=\"/brand\">Brand Assets</a>\n<a href=\"/help\">Help &amp; Support</a>\n<a href=\"/integrations\">Integrations</a>\n<a href=\"/comparisons\">Comparisons</a>\n<a href=\"/courses\">Courses</a>\n<a href=\"/extension\">Chrome Extension</a>\n<a href=\"/developers\">Developers</a>\n<a href=\"/agent\">Site Agent</a>\n<a href=\"/ai-brand-monitor\">AI Brand Monitor</a>\n<a href=\"/ai-visibility-checker\">AI Visibility Checker</a>\n<a href=\"/autoblogging\">Autoblogging</a>\n<a href=\"/social-media-automation\">Social Automation</a>\n<a href=\"/white-label-seo-reports\">White Label Reports</a>\n<a href=\"/mcp\">MCP Connector</a>\n<a href=\"/tools\">Tools</a>\n<a href=\"/blog/claude-watermark-seo\">Claude Watermark and SEO: How AI Text Watermarks Work and Whether Google Cares</a>\n<a href=\"https://rightblogger.com/\">RightBlogger, LLC</a>\n<a href=\"/privacy-policy\">Privacy Policy</a>\n<a href=\"/terms\">Terms</a>\n<a href=\"/llms.txt\">llms.txt</a>\n<a href=\"https://www.ryrob.com/\">Ryan Robinson</a>\n<a href=\"https://ihitthebutton.com/\">Andy Feliciotti</a>\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495\" integrity=\"sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;a0ef340b95cd4dfb9a5de921702e9f3a&quot;,&quot;spa&quot;:2}\" crossorigin=\"anonymous\"></script>"
       }
     },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/1i7sbheyywm_p.js": {
+    "GET https://rightblogger.com/_next/static/immutable/chunks/43jwpr10paohx.js": {
       "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/1i7sbheyywm_p.js",
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/43jwpr10paohx.js",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
           ["content-type", "application/javascript; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/1i7sbheyywm_p.js\""],
+          ["etag", "W/\"_next/static/immutable/chunks/43jwpr10paohx.js\""],
           ["access-control-allow-origin", "*"],
           ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"1i7sbheyywm_p.js\""],
+          ["content-disposition", "inline; filename=\"43jwpr10paohx.js\""],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=27LJgz1boYzIU%2Fx%2FwXHvslcdBE2MCcr9Nxcn2eKuZWwBINwjS8louMPjNAD3WSRMx077C5rQWJZg6mLJwu6p%2F7AnDzr3EPyb11vBhct0A5d3JxwHIMSjdYEgAnaSvX2rQ%2Bg%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=yHAtDXlFSZlqaY6DasRbaFnAcpU6s7ExO%2BC9T0l%2FOui3ANImI%2FPNKsh3ZXNaZiZiRW4Dm%2FMxzdR3cB%2BPX%2B4np%2BTR%2BJpZYHFzSO%2B20OgGXfXkoYimpY2jIlBdQQvJYJrgKdM%3D\"}]}"
           ],
-          ["last-modified", "Thu, 24 Sep 2026 04:33:26 GMT"],
+          ["last-modified", "Sun, 04 Oct 2026 14:54:17 GMT"],
           ["referrer-policy", "origin-when-cross-origin"],
           ["server", "cloudflare"],
           ["strict-transport-security", "max-age=15552000"],
           ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/1i7sbheyywm_p.js"],
+          ["x-matched-path", "/_next/static/immutable/chunks/43jwpr10paohx.js"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "iad1::mjrgt-1790224405982-5e544a111d41"],
+          ["x-vercel-id", "iad1::68nhb-1791125657813-e218e6976af6"],
           ["x-xss-protection", "1; mode=block"],
-          ["age", "920603"],
+          ["age", "61092"],
           ["cf-cache-status", "HIT"],
           ["vary", "accept-encoding"],
           ["content-encoding", "br"],
-          ["cf-ray", "a456ddd77ef98deb-OSL"],
+          ["cf-ray", "a45ad8e73863a0c9-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://firebasestorage.googleapis.com/\""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/02mqxc1eys1sq.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/02mqxc1eys1sq.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/02mqxc1eys1sq.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"02mqxc1eys1sq.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=rcXnXe1xbema1p3Phigxn0SLyiihiv3nY37ErGFcc9GXE2XbJssPHW%2BT1o68sCD2mcszQtY27T1KwoErh5DGapWDonLR%2B0rFAcqCjanJ7XJytQVw6umD8Rxsenj71BtadVc%3D\"}]}"
+          ],
+          ["last-modified", "Sun, 04 Oct 2026 22:35:35 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/02mqxc1eys1sq.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::27jk5-1791153334975-09e993bc32b9"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "33415"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e73995d731-CPH"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
         "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/3zru08y5wwi_o.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/3zru08y5wwi_o.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/3zru08y5wwi_o.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3zru08y5wwi_o.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=T2GWb06hGumOZ0YP5YDGIfkxmWqX90BSIsArIHvl2RW35r%2FlxSWxf0K9R9i0Ly0c8TTaJPgCYqGdJg0z134lhJ78f13vchRV%2BIJRVBKGQ9KNd6Xn%2BsUN0ekl%2Bbt%2BOmqnix4%3D\"}]}"
+          ],
+          ["last-modified", "Sun, 20 Sep 2026 23:39:07 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3zru08y5wwi_o.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::bfnbs-1789947547263-b8e913aa00ef"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "1239203"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e73dc0da98-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/371i_4u8o-xn1.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/371i_4u8o-xn1.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/371i_4u8o-xn1.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"371i_4u8o-xn1.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Tpe2pmuL0UDnXDQE3HNpDa0dWdfrK1dDPrV1E8oSYWssjapCJBK1UhkzqXnksNNFnB3DJqsqQv9JruTMgZdoaqAp05JUrvwmpvB7gtETwNJf2C7ONbTZhNSaLEr1kTuqXsU%3D\"}]}"
+          ],
+          ["last-modified", "Mon, 05 Oct 2026 02:06:58 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/371i_4u8o-xn1.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::wg42l-1791166017916-c25a2ebb71bc"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "20732"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e73dc4da98-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/062tb0a0e_6d4.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/062tb0a0e_6d4.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/062tb0a0e_6d4.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"062tb0a0e_6d4.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=SO6yLTD4%2BBCx%2FWR3fCu1S%2FwWY7f9xiKnDTCQdOdJU6AEXfaZZZ00rzDhnyq%2BGWCJA6eKTjdpM6s%2BkZa51w%2FOPPatjZ1BYZ8FpIjX9YURnC8xgKqNlgY7DGQ7%2B0H2oPvVgnA%3D\"}]}"
+          ],
+          ["last-modified", "Sun, 04 Oct 2026 14:54:17 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/062tb0a0e_6d4.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::hmbxb-1791125657866-017fde5a9ab8"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "61092"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e73d715926-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/2uot-ta5vca3y.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/2uot-ta5vca3y.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/2uot-ta5vca3y.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2uot-ta5vca3y.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ZL9iTsxFa3hL6BcXjafq2B5Komj9G%2FM8YmoojRUvss8wNerQcC%2Bq%2Flo5uJFogCYRUd4n%2BYfVXpP9%2BBL8zMcC4w1VcDrmAyM%2F6%2Fefxcv0UzpO6vMm4HNdwrzwGP2MV3eKIwg%3D\"}]}"
+          ],
+          ["last-modified", "Wed, 30 Sep 2026 21:08:10 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2uot-ta5vca3y.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::vttkw-1790802490301-86d286824f2a"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "384260"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e7392c7da8-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/2m4t54-7zc85w.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/2m4t54-7zc85w.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/2m4t54-7zc85w.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2m4t54-7zc85w.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=RwEGELOxeMnM2xr9t%2BZvCwUKXuiZ1JQ7n37pD12fpdJivZMkc5H4J6sqoZOdjFxrMN0QcY6uBeMJdBXUrQfaXbi1EcxT4PQpujo%2FJgT%2BZkHPuSFgeoUcNFIXTXIwrOEWal0%3D\"}]}"
+          ],
+          ["last-modified", "Sat, 03 Oct 2026 12:09:18 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2m4t54-7zc85w.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "sfo1::4mnng-1791029358435-bf39b8ea31e7"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "157391"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e73da58b1c-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/2f9fm_ys7v-5e.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/2f9fm_ys7v-5e.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/2f9fm_ys7v-5e.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2f9fm_ys7v-5e.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=J3xhCnlG%2Fpa8RchuNKzYcmWTD4vBX4Ea8u7uGVBmcZSLkoXCDIICXVfBSQVFDCPPpHPhYotk8bbSbjUvNwi7AkhNm02gbDRpJovYc6ojyLQImvupTXfKaI0AICOIf7rdBi4%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 11 Aug 2026 17:10:56 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2f9fm_ys7v-5e.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::ncbbw-1786468256348-6eb6b7a97dea"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "4715714"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e739385b0a-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/0t2zy56_ckt_6.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/0t2zy56_ckt_6.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/0t2zy56_ckt_6.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0t2zy56_ckt_6.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=eqsjjPZ4C83%2F%2B3q5Thfl%2F34oRA118eZYj8H1zU202zMqHGXRUUt5ECHAknjmHV%2FtilxqRDV37sM6DF7Udzz%2FQbREWd1Wtaig8ttTScEsDL5FToCV60pDa1rnc%2B4qT1Ocn5M%3D\"}]}"
+          ],
+          ["last-modified", "Sat, 03 Oct 2026 23:14:52 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0t2zy56_ckt_6.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "cle1::mjfgm-1791069292692-96bba3c1e987"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "117457"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e7392e7da8-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://do.featurebase.app/\""
       }
     },
     "GET https://rightblogger.com/_next/static/immutable/chunks/0rfwp_a7tep9a.js": {
@@ -88,7 +384,7 @@
         "url": "https://rightblogger.com/_next/static/immutable/chunks/0rfwp_a7tep9a.js",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
           ["content-type", "application/javascript; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -99,7 +395,7 @@
           ["content-disposition", "inline; filename=\"0rfwp_a7tep9a.js\""],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=bWt%2BJuiNnW4Ia1YhhZiYaMnFfpSxeZU6dkmqg6MWXUxXmfQ%2BzV6SzL9FAQxbinCwRvwSh8qxytZYswSgE9wODUNuxMZeBReR3bjwwl3G6YaH9OVDdgAC%2FtdKcGUbuDgCL3M%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=BCKecV17OQlrjGQj9o00rT2NZk2EB4UpMztMtapsVE5IDvqcJxfjOUkI3BCDr5W7RkdKZoScpZyQ%2BNetDYHVE51me9EVHlrapOYqq08GwLq8d%2F0ZgqJSXUrTMG2%2BULZVx8c%3D\"}]}"
           ],
           ["last-modified", "Sat, 03 Oct 2026 23:14:52 GMT"],
           ["referrer-policy", "origin-when-cross-origin"],
@@ -110,14 +406,1773 @@
           ["x-vercel-cache", "MISS"],
           ["x-vercel-id", "pdx1::qvkpd-1791069292093-912664cd6252"],
           ["x-xss-protection", "1; mode=block"],
-          ["age", "75717"],
+          ["age", "117458"],
           ["cf-cache-status", "HIT"],
           ["vary", "accept-encoding"],
           ["content-encoding", "br"],
-          ["cf-ray", "a456ddd778fe1a30-OSL"],
+          ["cf-ray", "a45ad8e73a828453-CPH"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
         "body": "\"https://js.stripe.com/\""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/1i7sbheyywm_p.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/1i7sbheyywm_p.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/1i7sbheyywm_p.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1i7sbheyywm_p.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=i6HVJyJaXRfYt54JWlQW%2F1YThpfsQpg%2BKeQj4bvHFgZTEwu8kVdXqZjgWTY25JpOIr7zj5sFNiyrwrLRalxE0WRkeMUdydIpH7oteRjGCNOI2E6wJ4pxVkv6jcFI%2BS4V9Tk%3D\"}]}"
+          ],
+          ["last-modified", "Thu, 24 Sep 2026 04:33:26 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1i7sbheyywm_p.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::mjrgt-1790224405982-5e544a111d41"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "962344"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e73f1e299e-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/0mwb9qa_y92bw.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/0mwb9qa_y92bw.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/0mwb9qa_y92bw.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0mwb9qa_y92bw.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=wkvnjPHV2qQtwJx1b43Zi9LvaOBD31Y%2BXAFSqZ0VNHDYqdFQGmWghm2J%2FDlwawxG0Cv6lkSEw4h18lCl756adNRfhQe2h8p2V1z8uPm6Yf8zF6xhmwkOtERXALxuzQlypho%3D\"}]}"
+          ],
+          ["last-modified", "Sun, 04 Oct 2026 22:37:40 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0mwb9qa_y92bw.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::x8rt9-1791153460456-c458402e7cc4"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "33290"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e73d73868c-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://admin.shopify.com/\""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/01bvl89cxdnn9.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/01bvl89cxdnn9.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/01bvl89cxdnn9.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"01bvl89cxdnn9.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=TBoVlmf32hSmlSPBUoT4kukQR9DJMChTXSGLaihHF9XJXjGoAGAw0Jv5sjLFDIPuCUDiDOenowyiN%2BHmgxjvnS%2FYKj40LEfXdJE5VlH4lyw1zFQWmJiJ6o5vQuRHZu0GuJE%3D\"}]}"
+          ],
+          ["last-modified", "Sun, 04 Oct 2026 14:54:50 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/01bvl89cxdnn9.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "cle1::zkl6b-1791125690553-9d2d0b72c720"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "61059"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e748c3db77-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/023m4fogr4prz.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/023m4fogr4prz.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/023m4fogr4prz.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"023m4fogr4prz.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=907E63Pta1mA%2Brrx3FiUXiZmd%2B6J%2Bo4r5wMnRvGbtT%2BUAIyuHWaBbEVPjj8QXFuuZA%2FMpb1R1fxj3d8PVy2cQ%2FmyqNmzCuuKnhlZx5DP6F26nBqqOFuwU1bf%2BvJP5IWL2Tc%3D\"}]}"
+          ],
+          ["last-modified", "Mon, 21 Sep 2026 18:56:46 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/023m4fogr4prz.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "sfo1::bqjgd-1790017005890-f22e1907fd43"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "1169744"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e74b00d054-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/2yqsnsjn4o041.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/2yqsnsjn4o041.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/2yqsnsjn4o041.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2yqsnsjn4o041.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=AD9lkmpl4QtyqQw7%2B3sdHXqIO7GaM2wpQJA%2BT2ye28hNsmZ5phw27jmaFxbU%2FRUb6dY0rdzDDtUQ7wyaRE3uefXjpSFInGljQoGuFCJkJFJQy1Afko1LD%2BA7ZJoiha6YsiA%3D\"}]}"
+          ],
+          ["last-modified", "Sat, 03 Oct 2026 23:13:51 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2yqsnsjn4o041.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "cdg1::l9gtz-1791069231726-af42e11d460a"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "117518"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e749472af8-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://do.featurebase.app/\"\n\"https://graph.facebook.com/\""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/0n6s1l6eu9ff7.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/0n6s1l6eu9ff7.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/0n6s1l6eu9ff7.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0n6s1l6eu9ff7.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=vlwRi8xWXROKvj0HAmIiqdFxwmkXDVH7nk8cbX%2F%2FyZjYbT5rx%2FI3d0966t2QzfJqrW3ZlCHJhfgQSnnS0c7VpT1%2BEHfUJjFyJNHsVLuKsw3%2FHNbmvIl9K%2Fip3aBZ7OaId7E%3D\"}]}"
+          ],
+          ["last-modified", "Thu, 10 Sep 2026 14:18:21 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0n6s1l6eu9ff7.js"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "cle1::2l5ft-1789049997005-4c9898159177"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "2136753"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e74c60daa7-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/1daqjy-3fkyh6.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/1daqjy-3fkyh6.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/1daqjy-3fkyh6.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1daqjy-3fkyh6.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Fwmtjjk6OOM1mGxDMjCA%2Bq6fOnMiZbmKGp8fFjSa89U%2FdqmWD%2BYzkyJHCZZK%2FeAQ7v4AsHiK7PJXAoR%2FEv2dM%2B5aie%2FNq%2BPDg9%2FVLUNhr3PmLPsOKAXSqGdFesiAJMJbUA8%3D\"}]}"
+          ],
+          ["last-modified", "Thu, 24 Sep 2026 04:33:22 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1daqjy-3fkyh6.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::qhlxc-1790224402557-e25e673dd3a8"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "962347"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e749f75a94-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/0jw5x_usluucr.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/0jw5x_usluucr.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/0jw5x_usluucr.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0jw5x_usluucr.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=KrX9dzXmkpdMaeqkR7b95xZ%2FMRTz4AQT9D42qlv6F4Sz%2BKQ8XADUb4Yba1x7w4jV1EjM%2F02s%2BaN0piS99zZTf9inRQRDSs7WlvqnWQDTHk3qZ1VDxmeWwbVkplCXyyyaLt8%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 22 Sep 2026 22:50:12 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0jw5x_usluucr.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "hkg1::xn5ls-1790117412262-06a1c0e55177"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "1069338"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e75e611dd9-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/18emmdw7mrgeg.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/18emmdw7mrgeg.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/18emmdw7mrgeg.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"18emmdw7mrgeg.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=IzELNVs07qaxi%2B3R1j4iswnlQpmGxu7T8DovWT1HxPoQLdWl2NImbjH9tHpnT4wrx0Hpy6Lw%2F38EeF%2Brlhh%2B556kN7s%2BhjbGo7nL%2FbAdWp17yi3Yk4lE%2BysGixUCp2Coaco%3D\"}]}"
+          ],
+          ["last-modified", "Sun, 04 Oct 2026 22:35:35 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/18emmdw7mrgeg.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::bpf5t-1791153334968-6cb8fc33d414"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "33415"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e7487f4146-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/0vgsy2puku-xd.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/0vgsy2puku-xd.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/0vgsy2puku-xd.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0vgsy2puku-xd.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=wK2yqZrnv1dSVoUi5kQmLzt6OEhIbXbS%2BFCPOMR2lReWkPzukwN8Y7u%2F2o31pBAAKLajPfC3NkSUuMo4o2qu5boBcUOZaSrgbnvh5x44UyWBnmty337%2By%2FG7T5OwJjqYIEo%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 11 Sep 2026 21:04:33 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0vgsy2puku-xd.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "pdx1::dfg9s-1789160673011-7e2c10a98593"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "2026077"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e74aa5a0fc-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/2bbj8fptlfzb-.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/2bbj8fptlfzb-.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/2bbj8fptlfzb-.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2bbj8fptlfzb-.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=m%2Bbswm%2Bl9mgNPtMfWCwx8rWkXC4ssaIbJmBgQOoaYZvNDtdeBUbhzmhCGw2SveDjnsVjOuVwKYHwB84yQyEnJa8PvgMTDvmmemvRo0EeG1WlF5woxHNlgE9FOSW6kEJoIGo%3D\"}]}"
+          ],
+          ["last-modified", "Thu, 01 Oct 2026 21:11:17 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2bbj8fptlfzb-.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::st4kb-1790889077319-4f56bdd76766"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "297672"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e74aec1a87-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://api.paritydeals.com/\"\n\"https://challenges.cloudflare.com/\"\n\"https://sandboxapi.paritydeals.com/\""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/12yt91mepvebd.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/12yt91mepvebd.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/12yt91mepvebd.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"12yt91mepvebd.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=u3dBXXvKJAk9pKA4ZxPxCOROElpblR2nIOfj0%2FAim8VQ%2FghHxqzLvUaO7lAr8Zk6HB6l2LfVOjVU%2FYk%2B2f6U4Gsvjmdf4Xb%2BO%2FZ25%2FoHGdMy%2FmkiPtT7ZxwMOq1qIpog1zI%3D\"}]}"
+          ],
+          ["last-modified", "Sun, 04 Oct 2026 22:36:02 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/12yt91mepvebd.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::pbw9s-1791153362412-d5662722110a"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "33388"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e75e494d24-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/3yksf9u1jgu1u.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/3yksf9u1jgu1u.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/3yksf9u1jgu1u.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3yksf9u1jgu1u.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4gpJxbplAf6tNZt8Yctx2ssuyguk3lpwdiV1UmuKs7SXw2JsfzpPNE6iM61KMuKKhAz3j138IsePk6aOEHW1GWPNJhskmVynD9E%2FggR366XTSalfqgA4YBfpaBmtJ6kiyis%3D\"}]}"
+          ],
+          ["last-modified", "Wed, 30 Sep 2026 21:08:02 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3yksf9u1jgu1u.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "sin1::j2vxm-1790802482446-7c0cb796fa9f"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "384267"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e73adf2437-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://website-info.rightblogger.com/\"\n\"https://www.facebook.com/\"\n\"https://www.instagram.com/\"\n\"https://www.linkedin.com/\"\n\"https://www.tiktok.com/\"\n\"https://www.youtube.com/\"\n\"https://x.com/\""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/2ymauyc-utidn.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/2ymauyc-utidn.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/2ymauyc-utidn.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2ymauyc-utidn.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=VIS4Tb%2BoM%2BXcsqRWwfjicOyfGE7Ia0SGveozRSzSTnNNYvQOj%2F19AzijlXbYbSTyd6UNygvqCPGV3v1TlyCGiDdQPSY25TTrlY%2Ftv3rVinDzVNBemRmv1d3xW97JmMSKVss%3D\"}]}"
+          ],
+          ["last-modified", "Wed, 30 Sep 2026 11:07:24 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2ymauyc-utidn.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::tcmcc-1790766444265-b96a498d7b9f"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "420306"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e7490253db-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/0ygyrkyhk8o20.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/0ygyrkyhk8o20.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/0ygyrkyhk8o20.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0ygyrkyhk8o20.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=dSExY5FZ4C9Qf9%2FBNV%2BLp3xrlXy8rB4lS8tDcLnF9J5%2Fi41qlGapUPRLUxoyzPC84EyAFkxPAMPil10%2B%2FI5I14fc0jTj1HVVPQ%2B2F4gm4RjKeiRI5AMNcK1yOSlRaN9xwNA%3D\"}]}"
+          ],
+          ["last-modified", "Thu, 24 Sep 2026 04:33:24 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0ygyrkyhk8o20.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::rvhq6-1790224404683-09f2e38631d3"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "962345"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e75e28da98-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/2_g16srut5nbs.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/2_g16srut5nbs.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/2_g16srut5nbs.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2_g16srut5nbs.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=lGvocbcmtcvH5TyKkxjgphFGldru6KiSWtQnV4AhJj7AKzG2TKWiqsImrc9yIr%2FgdmWav27QzTQ2ynjk16LkCdJqJhH2HEgGRdhdVktZbxB40r%2FpkUxoBTWr0wGgBcdjcqk%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 29 Sep 2026 21:45:46 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2_g16srut5nbs.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::xqjxg-1790718345920-e13c6b35379d"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "468404"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e74b97460d-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/3ymdjz55veor8.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/3ymdjz55veor8.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/3ymdjz55veor8.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3ymdjz55veor8.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=YHDo94puWObl2vi%2F%2F5oFR4jR1XJA3r%2B9vlFT90JyMxzbYjR6ZfReYr7wA9l3nThTHO%2Bijb1345u3wWL1v8t92jBycc4uXixlEXzQnjnxSYcznEo0P6FGgGo8CkWS6xy8k64%3D\"}]}"
+          ],
+          ["last-modified", "Mon, 21 Sep 2026 18:56:45 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3ymdjz55veor8.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "sfo1::xldjr-1790017005839-9c063c1475fd"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "1169744"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e74a98a0fc-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://locize.com/\"\n\"https://www.i18next.com/\""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/397_juq9sx6cq.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/397_juq9sx6cq.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/397_juq9sx6cq.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"397_juq9sx6cq.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=52hNrwi%2FDnu487VpCCWoU2gQmQ0rr81j5zqtYr6C7sywtYNS1gpnlOZfFDUpoFt6qnpvL8YY%2BTdmWysq0jofy4doMfMiHW4t3gR0a2ChvnhBheDE0qvIysvwBdm6gdqrP30%3D\"}]}"
+          ],
+          ["last-modified", "Sun, 04 Oct 2026 22:35:34 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/397_juq9sx6cq.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::4g7vx-1791153334932-69adfa8ee14a"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "33415"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e74e125b76-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/0ppxun8e6ff4l.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/0ppxun8e6ff4l.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/0ppxun8e6ff4l.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0ppxun8e6ff4l.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3Wj1D9L9ngknJOCDIGkWrlqy02NeJXNvBcHHzPcJaljlazzSxE9ZMm0gINERMoc5mNWBr67EpgsJJzfPtX1P7%2FiIJTx0r%2B4WNIoKWGjwLEEwD2RvdmCZNUUvfU5UHa6lEQg%3D\"}]}"
+          ],
+          ["last-modified", "Mon, 05 Oct 2026 02:06:58 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0ppxun8e6ff4l.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::75rvc-1791166018148-e314d65f1721"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "20732"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e74e1a1dd9-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://app.posthog.com/\"\n\"https://arstechnica.com/\"\n\"https://cms.rightblogger.com/\"\n\"https://datafa.st/\"\n\"https://developers.google.com/\"\n\"https://fast.bentonow.com/\"\n\"https://feedback.rightblogger.com/\"\n\"https://ihitthebutton.com/\"\n\"https://news.google.com/\"\n\"https://r.wdfl.co/\"\n\"https://rightblogger.com/\"\n\"https://scripts.simpleanalyticscdn.com/\"\n\"https://tally.so/\"\n\"https://testimonial.to/\"\n\"https://va.vercel-scripts.com/\"\n\"https://www.google.com/\"\n\"https://www.googletagmanager.com/\"\n\"https://www.ryrob.com/\"\n\"https://www.youtube.com/\""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/1sb_grxtg2gcd.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/1sb_grxtg2gcd.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/1sb_grxtg2gcd.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1sb_grxtg2gcd.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=5RbGvRO6xlGMGe%2FPULD83Uors%2BN3WyyWCfBzLGvv3pk4srdVaN%2BPD4yFq7VUESUdcJKxPxYxNFYzdnrAFNCiT%2BlZbLk71JYAIi8UI6UQS%2B3M5E3159RuJ4f1QpZYXEFXICg%3D\"}]}"
+          ],
+          ["last-modified", "Fri, 11 Sep 2026 21:04:33 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1sb_grxtg2gcd.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "pdx1::qvvpp-1789160673009-1cb7d053bd52"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "2026077"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e75a50e034-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/1mv632kfbi9fm.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/1mv632kfbi9fm.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/1mv632kfbi9fm.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1mv632kfbi9fm.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=QFuf8IhFdX9mM2qhch59IJRiGM5Gfv8%2F5htg83Evk5hrjtFJPNoLFt%2FYtLhOAdMMOduKL4iI6dn4KcvF7JW2%2Bm0jEuHzJa%2FaBIFfzgoyerpTouYQvLWHPdMx2QdbJenXZUk%3D\"}]}"
+          ],
+          ["last-modified", "Sat, 03 Oct 2026 23:14:21 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1mv632kfbi9fm.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "cdg1::2b785-1791069261193-18407be4dc4b"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "117489"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e75af29a01-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://graph.facebook.com/\""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/3f9w6obetmjs3.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/3f9w6obetmjs3.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/3f9w6obetmjs3.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3f9w6obetmjs3.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=KkgCBBshbRkIP8y5GHtLe%2BeEsXcaM%2FUR4R86aRN56iHp5k726wcDtAovixmR%2FhHDCnYHTWb%2BkdKTf%2FL0iCbZvvSV5HWjb%2F4VldOUuOqN0KjRdjgAMs7YmHu27F5XktYZyk4%3D\"}]}"
+          ],
+          ["last-modified", "Sun, 20 Sep 2026 17:07:11 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3f9w6obetmjs3.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "sin1::xlpgn-1789924030934-640aee61e3a0"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "1262718"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e74b289159-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://supabase.com/\"\n\"realtime-js/2.116.0\"\n\"storage-js/2.116.0\"\n\"supabase-js/2.116.0\"\n\"supabase-ssr/0.12.7\""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/3e7m29t5a2om1.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/3e7m29t5a2om1.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/3e7m29t5a2om1.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3e7m29t5a2om1.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ZqiWy2lX2R0lhM6Jg1OZC811TAvLMYD%2BhoSM4jhVYtP2nKoOsINXr4MJkZgncMIBHXWBOTGN7hkj8Ah2HkSDHHkyu%2BhVRnYRcvG5yJWK5KY8fa7Tt%2Br8UtLJ7ZGmbbkGSEk%3D\"}]}"
+          ],
+          ["last-modified", "Sat, 19 Sep 2026 01:12:01 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3e7m29t5a2om1.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::2z2p2-1789780321086-caaca53bc8b9"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "1406429"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e769a22af8-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/aMyaJyaBZxVDMe5gDW_Qq/_clientMiddlewareManifest.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/aMyaJyaBZxVDMe5gDW_Qq/_clientMiddlewareManifest.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"13c9761b5a933643552304045e89c9d0\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"_clientMiddlewareManifest.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=n90Y3gVFgR72zkFqim5mUAsGT5XGA7oP7pKgURl9QkJ5mZrqGbgA9yjI%2F64Bk4nDD5uf0e8pilpQxwPSw6b2PxjjYpr4sjyAUDa6znGA5GCnJkO2Qa2vdtZALazG9Lelv7o%3D\"}]}"
+          ],
+          ["last-modified", "Mon, 05 Oct 2026 02:06:58 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/aMyaJyaBZxVDMe5gDW_Qq/_clientMiddlewareManifest.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::mcmbc-1791166017941-e15009f3183d"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "20732"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e778b04146-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/02o_z6l5fvlsr.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/02o_z6l5fvlsr.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/02o_z6l5fvlsr.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"02o_z6l5fvlsr.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=9fgsoYSAse3sGixfkB%2B7Qv4t%2BlWYRaZiLRoSiOWy01yQzvnpX7zngAefu9geiYiLibWfl70Y5naBHZrckZtPrFvUlmx34pdZxOBrcqpcxmlelmzkMXakre8Z70n9X2fNn4c%3D\"}]}"
+          ],
+          ["last-modified", "Wed, 30 Sep 2026 19:43:37 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/02o_z6l5fvlsr.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "cle1::cnf6d-1790797417674-37b451eb26da"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "389332"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e75e3b4d24-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://admin.shopify.com/\"\n\"https://website-info.rightblogger.com/\""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/turbopack-1tvs5gbpl8ooy.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/turbopack-1tvs5gbpl8ooy.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/turbopack-1tvs5gbpl8ooy.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"turbopack-1tvs5gbpl8ooy.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=bpSsCozJq5V%2Bvt2A0GMmojOFnBxkaHAOi6YaOW1X%2FK5lLtwOV8H%2BKeleh32f1OJxgyJ43Kr3FAdO22EuybILvsRnynGRB1Rvy5WPA548c6fZuu12hKCra3zAENpYVGbCOXQ%3D\"}]}"
+          ],
+          ["last-modified", "Mon, 05 Oct 2026 02:06:58 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/turbopack-1tvs5gbpl8ooy.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::9fs8q-1791166017930-8cdabd41308b"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "20732"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e75ee3ee1a-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/3t16ad93kuwfh.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/3t16ad93kuwfh.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/3t16ad93kuwfh.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3t16ad93kuwfh.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=LAgCtZZJU2srNvqT8S7w1rFSG2%2FsFM5YeGdicemBW7UiFQEHs2dm6WtqOXbdQnTX1WLBdKS9G6GWURxzrPyZAwyZ4t9exOmQYXwONy4KIWSiOwllBc%2B7Wv5BxuWDNlbilK0%3D\"}]}"
+          ],
+          ["last-modified", "Sun, 04 Oct 2026 22:36:02 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3t16ad93kuwfh.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::pjc8v-1791153362197-fe445d2e9c03"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "33388"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e77b8e1a87-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/2d69hgdy6j_wm.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/2d69hgdy6j_wm.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/2d69hgdy6j_wm.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2d69hgdy6j_wm.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=1TJZigLOHH6q%2FJ6qTybo85AQOXukKNDvWwGEcc%2FSAtQaeV6RD18WDJqjzYxVaGRhbCeiHgaWEtQfCMTHEtbbDjZ7ctyn0Z%2FvO7spP8wNIwebRacMgCa9oeU2hFRkVOc61aY%3D\"}]}"
+          ],
+          ["last-modified", "Thu, 10 Sep 2026 14:18:21 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2d69hgdy6j_wm.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "pdx1::kzks2-1789049901351-8aa7620ed197"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "2136849"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e7596e2af8-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/cdn-cgi/zaraz/s.js": {
+      "result": {
+        "url": "https://rightblogger.com/cdn-cgi/zaraz/s.js",
+        "status": 400,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "text/plain;charset=UTF-8"],
+          ["content-length", "24"],
+          ["connection", "keep-alive"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["vary", "accept-encoding"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=xwyx0sjw%2BtgOuvMk99QfLGZHDrI2AMrcz2FQTY9M6GdU0bn8aXAj7WvblPBWGIITOn56PniQ4RfS9mAaqWnKLQV7EjTJ2KHOnGYJiTXnGedycHdQ%2BVt3ZeJqGJVxrCaPiAU%3D\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad8e77d3c90dc-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/0n47lma_5tdl3.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/0n47lma_5tdl3.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/0n47lma_5tdl3.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0n47lma_5tdl3.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=T2QkUO0f91qRcdlrVMOPZpMC9JuSrwHAjQGZ4eAr876vs0k6Eft5Ld%2B7mWTEoB1jf0BqmjufoLeZCcuAOXzt9tYWeboA11BT0tFMrFareiwkzUCWnINDHSfnbh1PUbkuVbY%3D\"}]}"
+          ],
+          ["last-modified", "Sun, 04 Oct 2026 22:35:35 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0n47lma_5tdl3.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::pd7gj-1791153335823-4758dfc8aae5"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "33414"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e779f553a1-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/3l5mu6hwf8qt8.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/3l5mu6hwf8qt8.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/3l5mu6hwf8qt8.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3l5mu6hwf8qt8.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=25x9nUvydODuKo3KptbHA1ZuBaGhapQGlgAh48O0jLtEd53abw14NJuNVl4q%2B55P4LqY%2FUZnwjVOTQOLU89L9fAyKezgQaX8ta8xf3Jh3jyvP8Mjz74bI6sWzgJJEMYhbvg%3D\"}]}"
+          ],
+          ["last-modified", "Sun, 04 Oct 2026 22:42:05 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3l5mu6hwf8qt8.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "sfo1::2xzvl-1791153725658-724b38cffc38"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "33024"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e78de5b893-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/3-klzor-ri9kl.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/3-klzor-ri9kl.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/3-klzor-ri9kl.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3-klzor-ri9kl.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=EMftQiQq3Anb30tqKBDCRUng7uSf1HVynY2itzTAlcCqMQR939Ebb26bglUHLB3qG9xaLKrFKMud5MpTPpizGsxonYr4x0OGD%2FP4jFtg87lW4V26S7zFpLBC5CgaPR5jk2o%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 22 Sep 2026 22:50:08 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3-klzor-ri9kl.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::9m7pl-1790117407963-9d74d4aa8a47"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "1069342"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e77b4ddf6d-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/8a220114cdc01ac9/script.js": {
+      "result": {
+        "url": "https://rightblogger.com/8a220114cdc01ac9/script.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"0e7c215a9775d8de91b65e4ed9224d36\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public, max-age=2678400"],
+          ["content-disposition", "inline; filename=\"script.js\""],
+          ["cross-origin-resource-policy", "cross-origin"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=upo8VEhUt55hRm08NzZWIwJayCDmsNFsEMXFa9ckjWsdDVHq1mPsns2hVOpbeviURaYLXzPqTRGaRbMAksQ0hFcgWBpy5wTjIimcWlpmalHvQ2TYA56jFvRqAOoaouHHZ74%3D\"}]}"
+          ],
+          ["last-modified", "Tue, 11 Aug 2026 16:24:27 GMT"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "iad1:iad1:iad1::mw4gf-1786471129570-f3491ec46d05"],
+          ["age", "2037153"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e77d745f9e-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://vitals.vercel-insights.com/\""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/turbopack-0v0rhgex4nd0x.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/turbopack-0v0rhgex4nd0x.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/turbopack-0v0rhgex4nd0x.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"turbopack-0v0rhgex4nd0x.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=2CjthlIG7QrIEcsSIIvNgS40wsIz3yJwosQMfqnkTAjuDJo4hIppDv7d6RPmu%2BxjIBC8jO4%2FNDWaf%2B1i6vHvQPzBk34W%2FIIPlocAeSJC9QF8nN8083YE12gdm6xRW2DZ2HI%3D\"}]}"
+          ],
+          ["last-modified", "Sun, 04 Oct 2026 22:36:02 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/turbopack-0v0rhgex4nd0x.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::lwf27-1791153362464-a14697345ce2"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "33388"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e77e2a2448-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/aMyaJyaBZxVDMe5gDW_Qq/_buildManifest.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/aMyaJyaBZxVDMe5gDW_Qq/_buildManifest.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"1afe008afe2ef98a14eb3794ea739e87\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"_buildManifest.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=dgsUUsd7l9gzMIjl0DdgKjfB1kjT6vEuAPNLt8cBDRyz3NF6CKAl4oIbTssDVP%2FYZYPzzC0BDsMcmdw7RBXyrrxW0KvVRjYU72DbRzf4lJOo6gUzgOV8LllwZ3r1rJbyy8w%3D\"}]}"
+          ],
+          ["last-modified", "Mon, 05 Oct 2026 02:06:58 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/aMyaJyaBZxVDMe5gDW_Qq/_buildManifest.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "fra1::nrvxq-1791166017982-8d714d2a2fd1"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "20732"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e779e54935-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/1uzqooqc-ncqe.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/1uzqooqc-ncqe.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/1uzqooqc-ncqe.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1uzqooqc-ncqe.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=nND3VO%2FUwB5jADICYbQXzyclgKpmWzKgMkQCbYx9GBO5w9AUQxyc77XVLsiYi9jxuPZFUD9DK3bInongKBaLUPYqZ8qHLpMDeghrtt1V%2FvpRRHXZr1PvyZ%2BlkkHt5ypChwg%3D\"}]}"
+          ],
+          ["last-modified", "Sat, 03 Oct 2026 23:15:00 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1uzqooqc-ncqe.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "sfo1::wqsl9-1791069300229-2e2c4da4c401"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "117450"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e77d7a5f9e-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://do.featurebase.app/\"\n\"https://graph.facebook.com/\""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/1m9u2bstam85z.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/1m9u2bstam85z.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/1m9u2bstam85z.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1m9u2bstam85z.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=H0xydqJbnh0NX5MZBbyDwvZHIlzWie%2FSjHXAMLLCrgtbwFK9WvmzOqma8oPJCjwTjyeyB%2FN79hOye6BBVk3OxYsZRC4aXvtwzMQSZUfhEmQLEvMFzkVZyAcAG2UtNFaWpE4%3D\"}]}"
+          ],
+          ["last-modified", "Sun, 04 Oct 2026 14:54:17 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1m9u2bstam85z.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::gtfx4-1791125657926-bd2f2900e31d"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "61092"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e78f62b354-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://googleads.g.doubleclick.net/\"\n\"https://i.ytimg.com/\"\n\"https://img.youtube.com/\"\n\"https://rightblogger.com/\"\n\"https://static.doubleclick.net/\"\n\"https://twitter.com/\"\n\"https://www.google.com/\"\n\"https://www.youtube-nocookie.com/\"\n\"https://www.youtube.com/\""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/3l5wzodussufb.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/3l5wzodussufb.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/3l5wzodussufb.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3l5wzodussufb.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=oTW%2FqTvL7mxQa7BzHyKDlzzRjW5dK3EIh%2Fx5BwvdEiFB9J7lJzTcyIOP9jjXkLrqu%2B7IOjnYletkusbRvwiPZodJGO5Vuee6WONLvW5vkKZFBC7uzRWMyZ%2FgPQLqzZo3y4s%3D\"}]}"
+          ],
+          ["last-modified", "Sun, 04 Oct 2026 22:36:02 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3l5wzodussufb.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::mkx2b-1791153362305-f745360e1ceb"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "33388"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e78e88cd9c-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/17pqhxaq2rzjn.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/17pqhxaq2rzjn.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/17pqhxaq2rzjn.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"17pqhxaq2rzjn.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=VlLzYBN7KJT%2B4GvyuSd0lKz2UwoZsNTb9%2BEfMXwknDDsnsREwJ3Uv7q%2BNt7LGPyY4VQ22UGMoIMSr%2F0AFlgsNDv8iJKIqHrzdvsn0HrrBLNgghIrwiyQmBdznZ8RmUX8I4k%3D\"}]}"
+          ],
+          ["last-modified", "Sat, 03 Oct 2026 23:15:00 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/17pqhxaq2rzjn.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "cle1::gvv9f-1791069300412-5c7981cd794e"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "117450"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e78f96299e-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://appleid.cdn-apple.com/\"\n\"https://firebasestorage.googleapis.com/\"\n\"https://rightblogger.com/\""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/2wtdo_8hjcdch.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/2wtdo_8hjcdch.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/2wtdo_8hjcdch.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2wtdo_8hjcdch.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Z8GIhjb8uPf34JSvHuWu3e61GRqD184XKdefdDjZAXUbxD592XQDqmzg1yNDr89hhTYU18i%2FzNCHrOwim4ajkCZhknrj%2FevjliexsjUmDKCgJaSfpGgz%2BgMFcmbz6ydgK88%3D\"}]}"
+          ],
+          ["last-modified", "Sat, 03 Oct 2026 23:14:21 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2wtdo_8hjcdch.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "cdg1::pcvlr-1791069261213-ec62dd0aa0d4"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "117489"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e77b78bd8a-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"https://rightblogger.com/\"\n\"https://theresanaiforthat.com/\"\n\"https://www.facebook.com/\"\n\"https://www.g2.com/\"\n\"https://www.instagram.com/\"\n\"https://www.linkedin.com/\"\n\"https://www.tiktok.com/\"\n\"https://www.trustpilot.com/\"\n\"https://www.youtube.com/\"\n\"https://x.com/\""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/2p67apdfkp_zf.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/2p67apdfkp_zf.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/2p67apdfkp_zf.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2p67apdfkp_zf.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=DgxE0GiJXVOixN2ej2kiZ%2BFsy8iS8w2QI0MiD3Z9I%2FHMvdipsVzkkAwf9qbQh%2FSrIrQNfkzDtEP9gMO2u3df2H8GjQg7f8dgv2s3MVCzhw29A2zxg8O4giZ1ugB0S%2BlbIXs%3D\"}]}"
+          ],
+          ["last-modified", "Wed, 02 Sep 2026 18:09:58 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2p67apdfkp_zf.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::m84hl-1788372598433-1d45a53decff"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "2814152"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e77fd14f62-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/aMyaJyaBZxVDMe5gDW_Qq/_ssgManifest.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/aMyaJyaBZxVDMe5gDW_Qq/_ssgManifest.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"5ad0d4fbe32ab99549dc18ca93672ed1\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"_ssgManifest.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=BoKMKJZhI9Nvh2mOJAdc%2F0NBRADRrQs1jv1urQy%2FOdRxZf5dS7x4UtmR8yVjUIeJC2TXJ9x34XLI3cMG4iOMaJkjff0SJ00%2F%2BdG9G7qlZQ0oPPAN1dLqfKoHKCyTLm%2BHOiU%3D\"}]}"
+          ],
+          ["last-modified", "Mon, 05 Oct 2026 02:06:58 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/aMyaJyaBZxVDMe5gDW_Qq/_ssgManifest.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "arn1::5mqk8-1791166018347-243daec2633a"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "20731"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e77c29c4ae-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/2mb9o2it5lkfn.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/2mb9o2it5lkfn.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/2mb9o2it5lkfn.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2mb9o2it5lkfn.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2FkBFpj7Cv7qzl5GBwbEqD9CRy%2F8ff5xPfB3NRip%2F5%2BjqWyiuYRKhUzO5QXx6vQhMcRVzBspK3HEs718ukwdStuqGxUSd6wpmR7gECZvK5eBUiBbXmdpTdTryx0O48vVW7tk%3D\"}]}"
+          ],
+          ["last-modified", "Sun, 04 Oct 2026 22:35:35 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/2mb9o2it5lkfn.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::mr8zb-1791153335786-5e00c774887c"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "33414"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e78bbc0a0a-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/3ptpex9g8o1ed.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/3ptpex9g8o1ed.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/3ptpex9g8o1ed.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3ptpex9g8o1ed.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Jfj1eArrcrwophDJ9CVg%2F086WppaJTRa5Y9H9QCwPKZ1bi9XPNclUjpH3YCTSQUQ6c%2FqDrp8vPZv8PDmBtenhv5lBxzZHCBBTASzUIrZKh4AttjNaINszBse3YcMP03kJVI%3D\"}]}"
+          ],
+          ["last-modified", "Thu, 17 Sep 2026 22:51:03 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3ptpex9g8o1ed.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::sc7z4-1789685463193-dde495771834"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "1501287"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e7488ea5f4-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/1b6v83amgcg2t.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/1b6v83amgcg2t.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/1b6v83amgcg2t.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1b6v83amgcg2t.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=tlCugQgT9%2B4TFaeBkBhEOFWOaljZIGbp5Q2pxwwVYvlzXSPG5x5h2QLEHC6iMR9j58tEX6wdWXUlV1jDwK8NTcnWYFZWkwNL72d8keu3gm1o8%2BpUcwIroeh1wmuzIu8e6u0%3D\"}]}"
+          ],
+          ["last-modified", "Sun, 20 Sep 2026 17:07:10 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1b6v83amgcg2t.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "gru1::92cf5-1789924029915-d3bc808d7f0f"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "1262720"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e7586fc394-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/34d3r7_v3f8pn.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/34d3r7_v3f8pn.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/34d3r7_v3f8pn.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"34d3r7_v3f8pn.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=TUnDLu5vUIxKwEgmm9GwOjgmWWDDZQYHLi04%2BH%2BxKHD7C%2FZV2cI%2FAL%2FG%2BpIkAhQC3LpxSpibuOYf4ITmJCJ0acityNhX3xK37Jougw7qLxmzDGfkFu%2FBgyMh8QOsZLO7%2BSE%3D\"}]}"
+          ],
+          ["last-modified", "Mon, 21 Sep 2026 18:57:36 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/34d3r7_v3f8pn.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::b4vxj-1790017056248-e74a0a969e81"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "1169694"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e749d653a1-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"http://yandex.com/\"\n\"https://app.posthog.com/\"\n\"https://posthog.com/\"\n\"https://sentry.io/\"\n\"https://us.i.posthog.com/\"\n\"https://us.posthog.com/\""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/1tcuumvxki75a.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/1tcuumvxki75a.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/1tcuumvxki75a.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1tcuumvxki75a.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=FPDCOwjcJi6NJeB2uuNWAVNs8zJmTXeM3hLw9xH3UY9X6xwffg3DliQl%2FIWtQHT%2BoBp%2FrfmhM8R%2BG4vRj%2F7tTOfsg8%2FczUg9fJ4LdBoCyABO6Odyl3f0%2BiWJUE0N%2FDg2Oi8%3D\"}]}"
+          ],
+          ["last-modified", "Thu, 10 Sep 2026 14:18:21 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/1tcuumvxki75a.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "sfo1::klm66-1789049901339-09b711dfc68e"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "2136849"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e7589a51d2-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "\"http://www.ibm.com/\""
+      }
+    },
+    "GET https://rightblogger.com/_next/static/immutable/chunks/0ovc4p_auznxv.js": {
+      "result": {
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/0ovc4p_auznxv.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"_next/static/immutable/chunks/0ovc4p_auznxv.js\""],
+          ["access-control-allow-origin", "*"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"0ovc4p_auznxv.js\""],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=atCsjOH6W0QU4W4jZiTcsBP%2FL2FZD4kflas6o2zkt8VukB405KvGzLuufQ%2FtqxRywtgsX07KQL4ZiP0qQu54pJ2PySeS4znTCWPR%2F1pLivFsc6S9aeAUpRyQcSt5YQZ3O2g%3D\"}]}"
+          ],
+          ["last-modified", "Sun, 20 Sep 2026 18:47:06 GMT"],
+          ["referrer-policy", "origin-when-cross-origin"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=15552000"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/immutable/chunks/0ovc4p_auznxv.js"],
+          ["x-vercel-cache", "MISS"],
+          ["x-vercel-id", "iad1::9ljdr-1789930025970-eb207bd03859"],
+          ["x-xss-protection", "1; mode=block"],
+          ["age", "1256724"],
+          ["cf-cache-status", "HIT"],
+          ["vary", "accept-encoding"],
+          ["content-encoding", "br"],
+          ["cf-ray", "a45ad8e78aada8d1-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
       }
     },
     "GET https://rightblogger.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js": {
@@ -125,7 +2180,7 @@
         "url": "https://rightblogger.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
           ["content-type", "application/javascript; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -136,7 +2191,7 @@
           ["content-disposition", "inline; filename=\"0c0hxoamwjsbw.js\""],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Sp%2BxaiSZT067WIvVOlMkgN3VpSwCAxwNUW2qA68Iativz9yTVs%2B8RiavMaM0GhuruA4f4xUtwRYRZQH9yr%2Bm4dS8IwaHaGJM6yVdPrmrryvojZlfZMEXERpGYnjt8EhgRZQ%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=iuBdh9NhQX%2ByBiioDvhb7b8XimQ68csThCDARQqRMPGJYuhx1z327GsjjdgumZKER8ffInaYovKvKkOBYViJOJfIIjfvldkWMW58ORhx9GTktOI1Pc28p2Vmq5xGSw1RRgI%3D\"}]}"
           ],
           ["last-modified", "Thu, 06 Aug 2026 03:23:30 GMT"],
           ["referrer-policy", "origin-when-cross-origin"],
@@ -150,1025 +2205,63 @@
           ["cf-cache-status", "HIT"],
           ["vary", "accept-encoding"],
           ["content-encoding", "br"],
-          ["cf-ray", "a456ddd72fbd5a0f-OSL"],
+          ["cf-ray", "a45ad8e74a596e6e-CPH"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
         "body": ""
       }
     },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/01bvl89cxdnn9.js": {
+    "GET https://rightblogger.com/_next/static/immutable/chunks/3q85ibbz2imbb.js": {
       "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/01bvl89cxdnn9.js",
+        "url": "https://rightblogger.com/_next/static/immutable/chunks/3q85ibbz2imbb.js",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:30 GMT"],
           ["content-type", "application/javascript; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/01bvl89cxdnn9.js\""],
+          ["etag", "W/\"_next/static/immutable/chunks/3q85ibbz2imbb.js\""],
           ["access-control-allow-origin", "*"],
           ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"01bvl89cxdnn9.js\""],
+          ["content-disposition", "inline; filename=\"3q85ibbz2imbb.js\""],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=hHVWoMqwRvhLv4a9i4eZHDdG4hC1v5BMTGrksneGkpLbbnFkHxP74%2FtU5%2BdfYBqmFnmw83vmT4m8oVkiHXYs%2BQTYGtKSFXiryQLA7qZO8v6j3PEuZk8evNWTBt%2FJGIVFarY%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4wK6mNnX7u3CBoiUu32%2FnSURDDNFn9I%2FqzThqDO6K9zhX4XfPSxn05OsgsfyDAzvZHewjIqI0iMk8f5n3I8Kbyx1J9hK%2FqlFDfRDXkDxicB5CekoNoBwGj%2BYbRPTcfpErVQ%3D\"}]}"
           ],
-          ["last-modified", "Sun, 04 Oct 2026 14:54:50 GMT"],
+          ["last-modified", "Sun, 04 Oct 2026 22:35:35 GMT"],
           ["referrer-policy", "origin-when-cross-origin"],
           ["server", "cloudflare"],
           ["strict-transport-security", "max-age=15552000"],
           ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/01bvl89cxdnn9.js"],
+          ["x-matched-path", "/_next/static/immutable/chunks/3q85ibbz2imbb.js"],
           ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "cle1::zkl6b-1791125690553-9d2d0b72c720"],
+          ["x-vercel-id", "iad1::w7qsv-1791153334974-3abc8ca8a125"],
           ["x-xss-protection", "1; mode=block"],
-          ["age", "19319"],
+          ["age", "33415"],
           ["cf-cache-status", "HIT"],
           ["vary", "accept-encoding"],
           ["content-encoding", "br"],
-          ["cf-ray", "a456ddd77f4f49c5-OSL"],
+          ["cf-ray", "a45ad8e75a7fb69f-CPH"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
-        "body": ""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/2m4t54-7zc85w.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/2m4t54-7zc85w.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/2m4t54-7zc85w.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2m4t54-7zc85w.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=E7hRWc5wI9PD%2FH%2BCstArFT63IgQUN2MxR1gYoZigEkq9ZTjGQDXbBLY7g%2Fb%2FFTl1JpBp0NyXd6sHs9bs69vbAC4FQldK3scCZMfGZ8MFkK64Yt7grimmEba3CeoIgpWtSDs%3D\"}]}"
-          ],
-          ["last-modified", "Sat, 03 Oct 2026 12:09:18 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/2m4t54-7zc85w.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "sfo1::4mnng-1791029358435-bf39b8ea31e7"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "115651"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd778fc1a30-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/3ymdjz55veor8.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/3ymdjz55veor8.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/3ymdjz55veor8.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3ymdjz55veor8.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=qtz%2F8XhXhRk3oDlGiT5DW5d8%2FuQ1TMBD3VXfp2RFBurLJZtlmvd3xGZLqsGfWbPxaXgnra6F98bpx6qE6GCIxkk67QmxcBpZtIHMulB6Dvqt54RSqLYyfmq8v5F4ZXPuIRg%3D\"}]}"
-          ],
-          ["last-modified", "Mon, 21 Sep 2026 18:56:45 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/3ymdjz55veor8.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "sfo1::xldjr-1790017005839-9c063c1475fd"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "1128003"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd79e920883-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": "\"https://locize.com/\"\n\"https://www.i18next.com/\""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/43jwpr10paohx.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/43jwpr10paohx.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/43jwpr10paohx.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"43jwpr10paohx.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ZM8ovsq6AcMm%2FtE%2FRQhye9wjLrB1cqlfPqoBb2SIlyWj7%2FfSNYdLKOv1RsnCGtfto6ewQF5c5T5nuQSJORl4spaupFeC2HyRkMeQs%2BiPwxWm2%2BwFSPVxJf3VjbIe5M7ta4U%3D\"}]}"
-          ],
-          ["last-modified", "Sun, 04 Oct 2026 14:54:17 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/43jwpr10paohx.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "iad1::68nhb-1791125657813-e218e6976af6"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "19352"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd779181525-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": "\"https://firebasestorage.googleapis.com/\""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/25pru1o3zdnh-.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/25pru1o3zdnh-.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/25pru1o3zdnh-.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"25pru1o3zdnh-.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2BB8L%2BnGJmHHEFk1Qnddui%2BpP9p977jBffLuv%2BpZnrgpz8d8yj3C5C3aiy226wdYttOIrKD0kPdYmAQ1RA33NoinrGE3BweuXu%2BhSWRyhKfAsQfZc%2Fe%2BQ9aItNB4OB1WZezw%3D\"}]}"
-          ],
-          ["last-modified", "Mon, 14 Sep 2026 01:49:12 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/25pru1o3zdnh-.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "sin1::t7dkb-1789350552023-15ef770de4e8"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "1794457"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd77e11568d-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/2ymauyc-utidn.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/2ymauyc-utidn.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/2ymauyc-utidn.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2ymauyc-utidn.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=hsOXNdvCqLBYmoqpRHkIprsBRe9Yf3F9WbYqw%2FuBondkAQY1rOfri%2FdMwOgd2uLm0%2FN7kN%2F1RENz05%2BKO5c5LLtlJ91Q%2BjP7v%2FYYw4E03TNxR%2Fm%2FELglqkP1RPrnKmpqaX4%3D\"}]}"
-          ],
-          ["last-modified", "Wed, 30 Sep 2026 11:07:24 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/2ymauyc-utidn.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "iad1::tcmcc-1790766444265-b96a498d7b9f"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "378565"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd79bed4e4c-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/3jw3jpfjk_qgj.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/3jw3jpfjk_qgj.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/3jw3jpfjk_qgj.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3jw3jpfjk_qgj.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Nh9KXAyohA3AJSN813duvhF%2FNKLxiFlYOI%2FskJMO%2FMczTX1aBfG%2FHctO%2BaBSKIwnGGZ5ipGuYoVux9DzVazHML0SjNDmvYfzRmi%2FgaQ21fwkboHTseEmeL0HGs49O5pJokg%3D\"}]}"
-          ],
-          ["last-modified", "Mon, 24 Aug 2026 18:23:03 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/3jw3jpfjk_qgj.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "sfo1::22xc4-1787595783106-f0eb8245d9a2"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "3549226"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd78c32c759-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/2bbj8fptlfzb-.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/2bbj8fptlfzb-.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/2bbj8fptlfzb-.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2bbj8fptlfzb-.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=IKSf622e8Q6Uwy8Ww1HPGWLAZ%2Bd2%2B2pEq6qUttkdEjvupDqPzcg74EAvnpXCvvbsHfqmK38Ypk03I9xKwvN97oSkgSe%2Fl9MZDfAdPjuReFHguPbNEygqCNJO0Es20YDjnYw%3D\"}]}"
-          ],
-          ["last-modified", "Thu, 01 Oct 2026 21:11:17 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/2bbj8fptlfzb-.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "arn1::st4kb-1790889077319-4f56bdd76766"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "255932"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd79e224c11-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": "\"https://api.paritydeals.com/\"\n\"https://challenges.cloudflare.com/\"\n\"https://sandboxapi.paritydeals.com/\""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/3zru08y5wwi_o.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/3zru08y5wwi_o.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/3zru08y5wwi_o.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3zru08y5wwi_o.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ABlU8lee8wvWTwNKMZ6%2BgVsFybHacHMZXerwpaGR5GrUiMITDNdJz3oBrxZqtYqWOlBn079IKiW8WO6l4FFm0PNc5NFq210pTC6%2BwTDXl2ctnSAHEBcRVaoGYZJoRjcg5pU%3D\"}]}"
-          ],
-          ["last-modified", "Sun, 20 Sep 2026 23:39:07 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/3zru08y5wwi_o.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "iad1::bfnbs-1789947547263-b8e913aa00ef"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "1197462"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd78dac56b1-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/0ivvcry_idl29.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/0ivvcry_idl29.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/0ivvcry_idl29.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0ivvcry_idl29.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=sD33g7vgBgtTP5806m9XCM1OI2LDEXu7dR4tu3b3a7iGoVP7CXjFO3jcmXVpdZhDjqtgvIDsCJgveKAR5jRqfYnus2AYuinlNclmXZYCiuJphUbNpxYCCIq3STpDt0bHzbA%3D\"}]}"
-          ],
-          ["last-modified", "Sun, 04 Oct 2026 14:54:18 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/0ivvcry_idl29.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "iad1::t29nx-1791125658030-2ded55af56e9"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "19351"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd78f2556bf-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/34d3r7_v3f8pn.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/34d3r7_v3f8pn.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/34d3r7_v3f8pn.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"34d3r7_v3f8pn.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=hI71wqcFXSCUb86nTR5QCtBoufSL%2FwoRELlOVZSlu3vFLAdVq%2FytQSTklaSNdJvovR9bWmqNtdpaqucwPJzyldD%2BxI%2BjYiAgIQLFieFvfYWPC8lRyfhJXJsgVGRhVHQm16I%3D\"}]}"
-          ],
-          ["last-modified", "Mon, 21 Sep 2026 18:57:36 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/34d3r7_v3f8pn.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "iad1::b4vxj-1790017056248-e74a0a969e81"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "1127953"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd79e4a0daa-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": "\"http://yandex.com/\"\n\"https://app.posthog.com/\"\n\"https://posthog.com/\"\n\"https://sentry.io/\"\n\"https://us.i.posthog.com/\"\n\"https://us.posthog.com/\""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/0vgsy2puku-xd.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/0vgsy2puku-xd.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/0vgsy2puku-xd.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0vgsy2puku-xd.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=t1EkG6ZjS5A%2B76OcH9wkljrMNGrEqbpFXShHPh09FIW7eI2re%2FZJu3bXpe%2FjxnzEFI1eeSNFJ%2B8yyvMuYuVszIeNPbHQcD0iIideLviXYDHHgEHpCcPYg37%2B%2F8WR9VSDmts%3D\"}]}"
-          ],
-          ["last-modified", "Fri, 11 Sep 2026 21:04:33 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/0vgsy2puku-xd.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "pdx1::dfg9s-1789160673011-7e2c10a98593"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "1984336"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd7a8e47127-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/062tb0a0e_6d4.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/062tb0a0e_6d4.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/062tb0a0e_6d4.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"062tb0a0e_6d4.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3nU0Qhg%2B%2BbWFAq5rVEi3Bt8lnBimOYOJNLBfYhdaFrM0zKZ7DWaoVclGPDRqaW16CitI%2FPzF%2FULQpzvZo20X8A1AGMk%2BTA7OxjZpCbfHzdwf58lU7kw8KOdP0o%2BY9USKobA%3D\"}]}"
-          ],
-          ["last-modified", "Sun, 04 Oct 2026 14:54:17 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/062tb0a0e_6d4.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "iad1::hmbxb-1791125657866-017fde5a9ab8"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "19352"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd789a156b9-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/0t2zy56_ckt_6.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/0t2zy56_ckt_6.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/0t2zy56_ckt_6.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0t2zy56_ckt_6.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=GdanmN2icA2Yllm5%2BOm8PDVI8hibwMamHoPNQc6IA3y7CCr%2BiQUNJpiANKLvHktfruq8GV1qopzpe%2BDL1E0TFIR8Hava9GvJwGKnl33Qt5xryN9kXPH%2BLVYFLxlAHVpudMw%3D\"}]}"
-          ],
-          ["last-modified", "Sat, 03 Oct 2026 23:14:52 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/0t2zy56_ckt_6.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "cle1::mjfgm-1791069292692-96bba3c1e987"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "75717"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd79bd5b50b-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": "\"https://do.featurebase.app/\""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/2f9fm_ys7v-5e.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/2f9fm_ys7v-5e.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/2f9fm_ys7v-5e.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2f9fm_ys7v-5e.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=33GMVYBBaw6DIqlyvUXCF1slLK0E7mVXItoHUzJMyuC0pf8dV9Cd%2FmtSfxcReyEROA3DqaYmodPMGGg3mXBUodPwLacKNYB5e14sPeHPtCxydC0rDaFQfiAErwxmuztWBR0%3D\"}]}"
-          ],
-          ["last-modified", "Tue, 11 Aug 2026 17:10:56 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/2f9fm_ys7v-5e.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "iad1::ncbbw-1786468256348-6eb6b7a97dea"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "4673973"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd78b2e7130-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/0n6s1l6eu9ff7.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/0n6s1l6eu9ff7.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/0n6s1l6eu9ff7.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0n6s1l6eu9ff7.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4BO%2F7oulVAx7Y8dTNsWC7S65F50oZ1n%2FRcj9E4OsfqJlFG05H1vECuXBQm6yeaHFAz6XwpFHEfUL5T45ITLDrRlWosfLh9hLZhMbd%2FgRsIpAhTQ1apIZ%2F%2F6FnDQfXX96pOs%3D\"}]}"
-          ],
-          ["last-modified", "Thu, 10 Sep 2026 14:18:21 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/0n6s1l6eu9ff7.js"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "cle1::2l5ft-1789049997005-4c9898159177"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "2095012"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd78e35b4fa-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/2f08z1kmby20n.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/2f08z1kmby20n.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/2f08z1kmby20n.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2f08z1kmby20n.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=7Qi0PL4a97SM49M6t2dcKa7hIeiGqCkS60826%2FFoyIhtYsjrfOGbIgmERSYVU4ya26WSR19DbAyNQxJuNaeUs5Tti5TdhQGfHrO5QwR5yhaHkJK%2FROVhHZ5jbYazZd35TE0%3D\"}]}"
-          ],
-          ["last-modified", "Fri, 11 Sep 2026 21:04:34 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/2f08z1kmby20n.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "pdx1::5hdlj-1789160674429-025cf70495fa"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "1984335"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd77dfd568d-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/2uot-ta5vca3y.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/2uot-ta5vca3y.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/2uot-ta5vca3y.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2uot-ta5vca3y.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=rX09GMIxNpjebv3fnZ5vOmwyieWYbcAXGrzxONOYl7FmU3hlDUgmzIz2v5uLlPuBhBLwFFestdfahU9S6RKKCLokcg1ve9ZThnIP8NULm2WJ1UBe2vBMIKaJWgxdlDWctVQ%3D\"}]}"
-          ],
-          ["last-modified", "Wed, 30 Sep 2026 21:08:10 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/2uot-ta5vca3y.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "iad1::vttkw-1790802490301-86d286824f2a"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "342519"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd78fc9b51d-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/3ptpex9g8o1ed.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/3ptpex9g8o1ed.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/3ptpex9g8o1ed.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3ptpex9g8o1ed.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=e%2BzI%2FNIsSfNHCcZN43ZX3GpSuvfJ4mdyaKRg5uoajpCwOt2jkLhd%2BV4uG2lT14vG2v8KxYg0%2FWGORCjO6v96YUPIGLg9y3YFTvp6azEAR9FVH3AEjD%2FZg0WfFi2%2Fdfh%2FbWA%3D\"}]}"
-          ],
-          ["last-modified", "Thu, 17 Sep 2026 22:51:03 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/3ptpex9g8o1ed.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "iad1::sc7z4-1789685463193-dde495771834"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "1459546"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd7993c5a0f-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/3yksf9u1jgu1u.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/3yksf9u1jgu1u.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/3yksf9u1jgu1u.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3yksf9u1jgu1u.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Cj%2Bb6iW%2Bzl%2FvofEFz4s4F8mpj57ORrweXl1GUf2%2BVSRAu3EGUUbljRBeYG6ixPb7KOt7BAqYIq5HItoZv0iZPsCxMTpGPfqi73fy9wKOr1ZJfWKtrtbOhCk721prQYn8uTo%3D\"}]}"
-          ],
-          ["last-modified", "Wed, 30 Sep 2026 21:08:02 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/3yksf9u1jgu1u.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "sin1::j2vxm-1790802482446-7c0cb796fa9f"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "342527"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd77fec5684-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": "\"https://website-info.rightblogger.com/\"\n\"https://www.facebook.com/\"\n\"https://www.instagram.com/\"\n\"https://www.linkedin.com/\"\n\"https://www.tiktok.com/\"\n\"https://www.youtube.com/\"\n\"https://x.com/\""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/1daqjy-3fkyh6.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/1daqjy-3fkyh6.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/1daqjy-3fkyh6.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"1daqjy-3fkyh6.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ExnMizifnG1VQPEy%2B%2BG8pYzoKRBrhJ8kYnoCsvtvvHrlD0%2BjYsSoGUF5lKVFBUrRfae93xhXdK%2FZLwttO2gZr%2F%2BRxZyNQXNq2MRQt4kYMoNVh47hGTgkByMerST5sh6dVig%3D\"}]}"
-          ],
-          ["last-modified", "Thu, 24 Sep 2026 04:33:22 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/1daqjy-3fkyh6.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "iad1::qhlxc-1790224402557-e25e673dd3a8"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "920607"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd79cd30b41-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/1b6v83amgcg2t.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/1b6v83amgcg2t.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/1b6v83amgcg2t.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"1b6v83amgcg2t.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=xCTk0Q83MurAH6Z7O3DhYioYXWOw5re5vy8MvWS4ilY%2FBrRRSpKkuRurU2ei6WL723I611fLBGGmzEeHH6E9eqAIFp%2BL3gcO3WgK3cVtf5JztG5jGk%2FkSJD1JdEUVdWtMrU%3D\"}]}"
-          ],
-          ["last-modified", "Sun, 20 Sep 2026 17:07:10 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/1b6v83amgcg2t.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "gru1::92cf5-1789924029915-d3bc808d7f0f"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "1220979"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd7adf756ae-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/023m4fogr4prz.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/023m4fogr4prz.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/023m4fogr4prz.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"023m4fogr4prz.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=jJHZjto4ws0EPH4KisKeiOkANl4GfzfAiAwNpfojwkit%2F6TZ1l8ueq0c4EuWRTZhnvEMuC230iysVvVasjUeESmJuBD%2Fa6gkquZdVcECr%2FHnYiAtLmcOxOQ33GVXBEQiPnM%3D\"}]}"
-          ],
-          ["last-modified", "Mon, 21 Sep 2026 18:56:46 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/023m4fogr4prz.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "sfo1::bqjgd-1790017005890-f22e1907fd43"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "1128003"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd78bd00b45-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/3f9w6obetmjs3.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/3f9w6obetmjs3.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/3f9w6obetmjs3.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3f9w6obetmjs3.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=MWXW0qlTqEQgqxF1z7C7DV7Ce2C8NzHN2y931s5h8TDs%2BJ563rZ2NyYfM7DE4OA83sj%2Bgm6MupIoeIja9HaPiDDxztfDuq8io%2FLpkzbgNwyqoSf0efvf45MJv5uuboG3L60%3D\"}]}"
-          ],
-          ["last-modified", "Sun, 20 Sep 2026 17:07:11 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/3f9w6obetmjs3.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "sin1::xlpgn-1789924030934-640aee61e3a0"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "1220977"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd7abecb50b-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": "\"https://supabase.com/\"\n\"realtime-js/2.116.0\"\n\"storage-js/2.116.0\"\n\"supabase-js/2.116.0\"\n\"supabase-ssr/0.12.7\""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/0ie5u8396a241.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/0ie5u8396a241.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/0ie5u8396a241.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"0ie5u8396a241.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=qgr15%2FaxYZ3brBy7ezpM8Ahe8gie6nz9Pq7GeOZrvlCuwKQoZV5oacowwINH72Zu19W9cHC4svGSkoAIbRLK0okxBSiCrEVWkfoyuXWKyoCncOe%2BArhXVGqNdP4cQqQhOok%3D\"}]}"
-          ],
-          ["last-modified", "Sun, 04 Oct 2026 14:54:17 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/0ie5u8396a241.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "iad1::kc2lx-1791125657814-716e2b3a8d8d"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "19352"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd78c1456c6-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": "\"https://app.posthog.com/\"\n\"https://arstechnica.com/\"\n\"https://cms.rightblogger.com/\"\n\"https://datafa.st/\"\n\"https://developers.google.com/\"\n\"https://fast.bentonow.com/\"\n\"https://feedback.rightblogger.com/\"\n\"https://ihitthebutton.com/\"\n\"https://news.google.com/\"\n\"https://r.wdfl.co/\"\n\"https://rightblogger.com/\"\n\"https://scripts.simpleanalyticscdn.com/\"\n\"https://tally.so/\"\n\"https://testimonial.to/\"\n\"https://va.vercel-scripts.com/\"\n\"https://www.google.com/\"\n\"https://www.googletagmanager.com/\"\n\"https://www.ryrob.com/\"\n\"https://www.youtube.com/\""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/3v_41rzb5f776.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/3v_41rzb5f776.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/3v_41rzb5f776.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3v_41rzb5f776.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=BW9cVxbyITLHDKi9pDEsUk8OkGWXvG0lbx4n4vBryPS6rvKr%2FRCGnPTDAnqtb1iJwJwJW0f7lYXZjFfYNpQI79LMVh37JY28Kor1iLFf%2FUW0lOTxSolZmZTTbrHkGuub33c%3D\"}]}"
-          ],
-          ["last-modified", "Sun, 04 Oct 2026 13:42:39 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/3v_41rzb5f776.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "sfo1::qgcw7-1791121359107-8f8665e45814"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "23650"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd78d3856b5-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": "\"https://admin.shopify.com/\""
-      }
-    },
-    "GET https://rightblogger.com/_next/static/immutable/chunks/2yqsnsjn4o041.js": {
-      "result": {
-        "url": "https://rightblogger.com/_next/static/immutable/chunks/2yqsnsjn4o041.js",
-        "status": 200,
-        "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["transfer-encoding", "chunked"],
-          ["connection", "keep-alive"],
-          ["etag", "W/\"_next/static/immutable/chunks/2yqsnsjn4o041.js\""],
-          ["access-control-allow-origin", "*"],
-          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2yqsnsjn4o041.js\""],
-          [
-            "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=94QXFgh%2BjAKKHZXz2xzbDsXZChBoHuOVE9LvlQgNWH4DqvVndQmyztYdc%2F6khkfY3PPr0dzJg48jFngK1YYZvPIzkoecPdKVgDKlq3hNAAVQjW3CEE4lHLi1AXNmRbYJLRM%3D\"}]}"
-          ],
-          ["last-modified", "Sat, 03 Oct 2026 23:13:51 GMT"],
-          ["referrer-policy", "origin-when-cross-origin"],
-          ["server", "cloudflare"],
-          ["strict-transport-security", "max-age=15552000"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/immutable/chunks/2yqsnsjn4o041.js"],
-          ["x-vercel-cache", "MISS"],
-          ["x-vercel-id", "cdg1::l9gtz-1791069231726-af42e11d460a"],
-          ["x-xss-protection", "1; mode=block"],
-          ["age", "75778"],
-          ["cf-cache-status", "HIT"],
-          ["vary", "accept-encoding"],
-          ["content-encoding", "br"],
-          ["cf-ray", "a456ddd78f7e568a-OSL"],
-          ["alt-svc", "h3=\":443\"; ma=86400"]
-        ],
-        "body": "\"https://do.featurebase.app/\"\n\"https://graph.facebook.com/\""
+        "body": "\"https://app.rightblogger.com/\"\n\"https://chat.openai.com/\"\n\"https://claude.ai/\"\n\"https://cms.rightblogger.com/\"\n\"https://ihitthebutton.com/\"\n\"https://rightblogger.com/\"\n\"https://www.google.com/\"\n\"https://www.perplexity.ai/\"\n\"https://www.yoursite.com/\"\n\"https://www.youtube.com/\"\n\"https://x.com/\"\n\"https://yoursite.com/\""
       }
     }
   },
   "dns": {
-    "CNAME rightblogger.com": {
-      "result": {
-        "name": "rightblogger.com",
-        "type": "CNAME",
-        "records": []
-      }
-    },
     "AAAA rightblogger.com": {
       "result": {
         "name": "rightblogger.com",
         "type": "AAAA",
         "records": ["2606:4700:3108::ac42:28ef", "2606:4700:3108::ac42:2b11"]
+      }
+    },
+    "A rightblogger.com": {
+      "result": {
+        "name": "rightblogger.com",
+        "type": "A",
+        "records": ["172.66.43.17", "172.66.40.239"]
       }
     },
     "NS rightblogger.com": {
@@ -1178,11 +2271,11 @@
         "records": ["ruth.ns.cloudflare.com", "max.ns.cloudflare.com"]
       }
     },
-    "A rightblogger.com": {
+    "CNAME rightblogger.com": {
       "result": {
         "name": "rightblogger.com",
-        "type": "A",
-        "records": ["172.66.43.17", "172.66.40.239"]
+        "type": "CNAME",
+        "records": []
       }
     },
     "TXT 239.40.66.172.origin.asn.cymru.com": {

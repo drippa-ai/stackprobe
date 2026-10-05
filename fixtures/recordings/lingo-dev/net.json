@@ -1,13 +1,13 @@
 {
   "url": "https://lingo.dev/",
-  "recordedAt": "2026-10-04T20:16:53.148Z",
+  "recordedAt": "2026-10-05T07:52:36.870Z",
   "http": {
     "GET https://lingo.dev/": {
       "result": {
         "url": "https://lingo.dev/",
         "status": 302,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:38 GMT"],
           ["content-length", "0"],
           ["connection", "keep-alive"],
           ["location", "/en"],
@@ -15,11 +15,11 @@
           ["strict-transport-security", "max-age=31536000"],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=rHFnebZa7m6mU3y2lmljBB5Q5u3Y%2B4Po%2FTIBJw94bppHI%2BKSK1dfW2BpIdZCf1e1bXgGGPjSP0XsiECt7YTdoqbOietjjvGS6C%2B330dcAZ9XKLABJHZODThu6w%3D%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=E3gGd7%2BPKLxJkWkCTmxoiCexBHJO2STJPBy7P3%2FO6CQ4P2lLezz7%2FTpLhItOVWo8ZkKne6NFtzXtc3l5b4FaWCQewPnHHCH93IhmNZ3qJjqq1ZubdLoiEakmmw%3D%3D\"}]}"
           ],
           ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
           ["server", "cloudflare"],
-          ["cf-ray", "a456ddf04d920daa-OSL"]
+          ["cf-ray", "a45ad90eea974d24-CPH"]
         ],
         "body": ""
       }
@@ -29,7 +29,7 @@
         "url": "https://lingo.dev/en",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:55 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:39 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -41,12 +41,12 @@
           ["strict-transport-security", "max-age=31536000"],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=KmHlXkjJ1mcyzZgIEVmXLXbi0thjwJPbYFe5GnRUhs2KhfVkiNyAREPiAI4v0gGwTjK2qLeNNgxKb2xLorZVL4CqTk5ZvJklzJ99J2z%2FLd3hmmgRNMJSOW4SXQ%3D%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=R2lZf6MYE2VU2%2BzDGB254Ofd8kQB%2FNRUKWohG6U5Jl0%2FhtwD0KA9vfLeDIfJ%2FuMwuuL4waTAigyQUfsQM8mDi7U2zq6Bcn%2BT5igbvEa46AVdUgnoyxY1GwbW%2BQ%3D%3D\"}]}"
           ],
           ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
           ["content-encoding", "br"],
           ["server", "cloudflare"],
-          ["cf-ray", "a456ddf7be890daa-OSL"]
+          ["cf-ray", "a45ad91759014d24-CPH"]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/mistral-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/mistral-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/solana-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/solana-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/calcom-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/calcom-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/freenet-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/freenet-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/sosafe-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/sosafe-light.svg\">\n<link rel=\"stylesheet\" href=\"/assets/tailwind-CxZTQlfx.css\" data-precedence=\"default\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/maze-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/maze-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/formbricks-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/formbricks-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/opus-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/opus-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/scribe-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/scribe-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/papermark-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/papermark-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/tulip-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/tulip-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/imagen-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/imagen-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/testimonials/annika-palm.webp\">\n<link rel=\"preload\" as=\"image\" href=\"/testimonials/keith-williams.webp\">\n<link rel=\"preload\" as=\"image\" href=\"/testimonials/quentin-jarvi.webp\">\n<link rel=\"preload\" as=\"image\" href=\"/testimonials/sebastiaan-truely.webp\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/truely-dark.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/logos/truely-light.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/badges/yc.svg\">\n<link rel=\"preload\" as=\"image\" href=\"/badges/initialized-capital.png\">\n<meta name=\"color-scheme\" content=\"light dark\">\n<meta name=\"description\" content=\"On Lingo.dev, teams configure localization engines with glossaries, brand voice, and per-locale model chains, called from code, CLI, CI/CD, or MCP.\">\n<meta property=\"og:title\" content=\"Localization engineering platform · Lingo.dev\">\n<meta property=\"og:description\" content=\"On Lingo.dev, teams configure localization engines with glossaries, brand voice, and per-locale model chains, called from code, CLI, CI/CD, or MCP.\">\n<meta property=\"og:image\" content=\"https://lingo.dev/og.png?title=Localization%20engineering%20platform\">\n<meta property=\"og:image:type\" content=\"image/png\">\n<meta property=\"og:image:width\" content=\"2400\">\n<meta property=\"og:image:height\" content=\"1260\">\n<meta property=\"og:image:alt\" content=\"Lingo.dev — Localization engineering platform\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:site_name\" content=\"Lingo.dev\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:site\" content=\"@LingoDotDev\">\n<meta name=\"twitter:creator\" content=\"@LingoDotDev\">\n<meta property=\"og:url\" content=\"https://lingo.dev/en\">\n<meta property=\"og:locale\" content=\"en_US\">\n<link rel=\"modulepreload\" href=\"/assets/index-BOLA5nXd.js\">\n<link rel=\"modulepreload\" href=\"/assets/rolldown-runtime-B0Z9INg1.js\">\n<link rel=\"modulepreload\" href=\"/assets/createServerFn-Dv00mAfv.js\">\n<link rel=\"modulepreload\" href=\"/assets/useStore-DUHwZ7a7.js\">\n<link rel=\"modulepreload\" href=\"/assets/link--oyf_28X.js\">\n<link rel=\"modulepreload\" href=\"/assets/not-found-i5RsCZif.js\">\n<link rel=\"modulepreload\" href=\"/assets/load-client-BvVWSrrb.js\">\n<link rel=\"modulepreload\" href=\"/assets/root-DLTE-HSj.js\">\n<link rel=\"modulepreload\" href=\"/assets/redirect-Bys5cUY-.js\">\n<link rel=\"modulepreload\" href=\"/assets/lazyRouteComponent-BuHI9vwl.js\">\n<link rel=\"modulepreload\" href=\"/assets/jsx-runtime-DpJIb57s.js\">\n<link rel=\"modulepreload\" href=\"/assets/Match-C99LyOzE.js\">\n<link rel=\"modulepreload\" href=\"/assets/ClientOnly-BG2BpGST.js\">\n<link rel=\"modulepreload\" href=\"/assets/useRouter-BSc4n-e1.js\">\n<link rel=\"modulepreload\" href=\"/assets/matchContext-BCtYa-OQ.js\">\n<link rel=\"modulepreload\" href=\"/assets/useMatch-B_NgPUvD.js\">\n<link rel=\"modulepreload\" href=\"/assets/useLoaderData-Csj1BJdE.js\">\n<link rel=\"modulepreload\" href=\"/assets/useSearch-BVmgaBHH.js\">\n<link rel=\"modulepreload\" href=\"/assets/useNavigate-BLGvq7Da.js\">\n<link rel=\"modulepreload\" href=\"/assets/useRouteContext-Cco4Vv_p.js\">\n<link rel=\"modulepreload\" href=\"/assets/useLocation-BnYVF7tu.js\">\n<link rel=\"modulepreload\" href=\"/assets/back-link-BmcljcLI.js\">\n<link rel=\"modulepreload\" href=\"/assets/lingo-ta_cp-Xz.js\">\n<link rel=\"modulepreload\" href=\"/assets/provider-CjgrKxbK.js\">\n<link rel=\"modulepreload\" href=\"/assets/get-lingo-4a9TVlbr.js\">\n<link rel=\"modulepreload\" href=\"/assets/QueryClientProvider-Cbgnf2qQ.js\">\n<link rel=\"modulepreload\" href=\"/assets/removable-CzMLznaP.js\">\n<link rel=\"modulepreload\" href=\"/assets/loaders-Bm-IBGUG.js\">\n<link rel=\"modulepreload\" href=\"/assets/infiniteQueryObserver-BmNrNN4s.js\">\n<link rel=\"modulepreload\" href=\"/assets/useMutation-DyxuNRn0.js\">\n<link rel=\"modulepreload\" href=\"/assets/queryOptions-Dfvzj6n2.js\">\n<link rel=\"modulepreload\" href=\"/assets/mutationOptions-Dfvzj6n2.js\">\n<link rel=\"modulepreload\" href=\"/assets/ArrowLeft.es-CYFtbR6m.js\">\n<link rel=\"modulepreload\" href=\"/assets/ArrowRight.es-Ctydi2xN.js\">\n<link rel=\"modulepreload\" href=\"/assets/-jsonld-DF89oa64.js\">\n<link rel=\"modulepreload\" href=\"/assets/share-links-B4dCszHn.js\">\n<link rel=\"modulepreload\" href=\"/assets/CheckCircle.es-ZXKz_yXY.js\">\n<link rel=\"modulepreload\" href=\"/assets/button-DffOmskQ.js\">\n<link rel=\"modulepreload\" href=\"/assets/ClockCounterClockwise.es-FWJTcIhl.js\">\n<link rel=\"modulepreload\" href=\"/assets/Compass.es-BI4pEp6X.js\">\n<link rel=\"modulepreload\" href=\"/assets/error-view-X7K5AoP6.js\">\n<link rel=\"modulepreload\" href=\"/assets/-from-api-6v7HHOIP.js\">\n<link rel=\"modulepreload\" href=\"/assets/Plug.es-Dkb8BWS6.js\">\n<link rel=\"modulepreload\" href=\"/assets/Terminal.es-OFaIpmDy.js\">\n<link rel=\"modulepreload\" href=\"/assets/IconBase.es-Bm0Sjnqm.js\">\n<link rel=\"modulepreload\" href=\"/assets/empty-state-CvOprNEZ.js\">\n<link rel=\"modulepreload\" href=\"/assets/Schema-7ZGLqBCM.js\">\n<link rel=\"modulepreload\" href=\"/assets/platform-Cqngzsvl.js\">\n<link rel=\"modulepreload\" href=\"/assets/model-DVjcdJ9i.js\">\n<link rel=\"modulepreload\" href=\"/assets/src-D9g_Uz_h.js\">\n<link rel=\"modulepreload\" href=\"/assets/locales-BXOZotzx.js\">\n<link rel=\"modulepreload\" href=\"/assets/preload-helper-Czpn1I53.js\">\n<link rel=\"modulepreload\" href=\"/assets/head-D0bw5IzJ.js\">\n<link rel=\"modulepreload\" href=\"/assets/public-url-VIQp167L.js\">\n<link rel=\"modulepreload\" href=\"/assets/client-BxcCjCbJ.js\">\n<link rel=\"modulepreload\" href=\"/assets/visitor-Bp62UXWb.js\">\n<link rel=\"modulepreload\" href=\"/assets/auth-Do5OdZ9I.js\">\n<link rel=\"modulepreload\" href=\"/assets/run-B4azDdqs.js\">\n<link rel=\"modulepreload\" href=\"/assets/react-dom-gdz8HrnR.js\">\n<link rel=\"modulepreload\" href=\"/assets/utils-C51mBvCt.js\">\n<link rel=\"modulepreload\" href=\"/assets/control-DsOK9i6R.js\">\n<link rel=\"modulepreload\" href=\"/assets/byline-DE_dQsvr.js\">\n<link rel=\"modulepreload\" href=\"/assets/consent-fields-D7WHtfYq.js\">\n<link rel=\"modulepreload\" href=\"/assets/-leaf-link-Cja3Iori.js\">\n<link rel=\"modulepreload\" href=\"/assets/use-locale-D2YtS0Wn.js\">\n<link rel=\"modulepreload\" href=\"/assets/period-CF95uFPA.js\">\n<link rel=\"modulepreload\" href=\"/assets/day-C-xukuxE.js\">\n<link rel=\"modulepreload\" href=\"/assets/content-Db_qx0vh.js\">\n<link rel=\"modulepreload\" href=\"/assets/-stories-CptEK2dS.js\">\n<link rel=\"modulepreload\" href=\"/assets/page-not-found-BLQM3CXj.js\">\n<link rel=\"modulepreload\" href=\"/assets/-copy-BECRabZk.js\">\n<link rel=\"modulepreload\" href=\"/assets/legacy-wCrtOIz-.js\">\n<link rel=\"modulepreload\" href=\"/assets/queue-K-mEy836.js\">\n<link rel=\"modulepreload\" href=\"/assets/-cli-release-DqH7PXsN.js\">\n<link rel=\"modulepreload\" href=\"/assets/tab-strip-i5PIyyub.js\">\n<link rel=\"modulepreload\" href=\"/assets/tab-search-BkR6pp5G.js\">\n<link rel=\"modulepreload\" href=\"/assets/-review-filter-Bps77jVm.js\">\n<link rel=\"modulepreload\" href=\"/assets/-scope-mdMycE1E.js\">\n<link rel=\"modulepreload\" href=\"/assets/-event-filter-DgIZfuh2.js\">\n<link rel=\"modulepreload\" href=\"/assets/explore-back-link-Zh56sOID.js\">\n<link rel=\"modulepreload\" href=\"/assets/-mock-BKW_KxIL.js\">\n<link rel=\"modulepreload\" href=\"/assets/-copy-CdrQ4QYa.js\">\n<link rel=\"modulepreload\" href=\"/assets/-copy-CXQOIdTm.js\">\n<link rel=\"modulepreload\" href=\"/assets/-opened-from-Cd1HUv-r.js\">\n<link rel=\"modulepreload\" href=\"/assets/-run-labels-DY-jZTOR.js\">\n<link rel=\"modulepreload\" href=\"/assets/-builtin-copy-BUNCSw7-.js\">\n<link rel=\"modulepreload\" href=\"/assets/role-picker-Cal_G3ja.js\">\n<link rel=\"modulepreload\" href=\"/assets/invites-W5d4DprS.js\">\n<link rel=\"modulepreload\" href=\"/assets/record-page-oVxrUzxs.js\">\n<link rel=\"modulepreload\" href=\"/assets/eyebrow-DdmblAsT.js\">\n<link rel=\"modulepreload\" href=\"/assets/-connect-draft-Bi_nFrex.js\">\n<link rel=\"modulepreload\" href=\"/assets/-provider-catalog-CyQ6LW1m.js\">\n<link rel=\"modulepreload\" href=\"/assets/route-DinHYkIm.js\">\n<link rel=\"modulepreload\" href=\"/assets/language-switcher-B5V6R5We.js\">\n<link rel=\"modulepreload\" href=\"/assets/Sun.es-9EDRr45U.js\">\n<link rel=\"modulepreload\" href=\"/assets/GithubLogo.es-g0DdtE-z.js\">\n<link rel=\"modulepreload\" href=\"/assets/XLogo.es-Hp533wd3.js\">\n<link rel=\"modulepreload\" href=\"/assets/active-tab-CeUyj7zJ.js\">\n<link rel=\"modulepreload\" href=\"/assets/wordmark-BQ62zVRo.js\">\n<link rel=\"modulepreload\" href=\"/assets/nav-cta-CG_L9kdt.js\">\n<link rel=\"modulepreload\" href=\"/assets/-legal-Bn0AUb49.js\">\n<link rel=\"modulepreload\" href=\"/assets/route-ClVfwnDB.js\">\n<link rel=\"modulepreload\" href=\"/assets/home-DMhTxhWj.js\">\n<link rel=\"modulepreload\" href=\"/assets/session-gate-CLuhGt-s.js\">\n<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">\n<link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"/favicon-96x96.png\">\n<link rel=\"icon\" sizes=\"48x48\" href=\"/favicon.ico\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">\n<link rel=\"manifest\" href=\"/site.webmanifest\">\n<link rel=\"canonical\" href=\"https://lingo.dev/en\">\n<link rel=\"alternate\" hreflang=\"cs\" href=\"https://lingo.dev/cs\">\n<link rel=\"alternate\" hreflang=\"de\" href=\"https://lingo.dev/de\">\n<link rel=\"alternate\" hreflang=\"en\" href=\"https://lingo.dev/en\">\n<link rel=\"alternate\" hreflang=\"es-419\" href=\"https://lingo.dev/es\">\n<link rel=\"alternate\" hreflang=\"es-ES\" href=\"https://lingo.dev/es-es\">\n<link rel=\"alternate\" hreflang=\"fr\" href=\"https://lingo.dev/fr\">\n<link rel=\"alternate\" hreflang=\"ja\" href=\"https://lingo.dev/ja\">\n<link rel=\"alternate\" hreflang=\"ko\" href=\"https://lingo.dev/ko\">\n<link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://lingo.dev/pt\">\n<link rel=\"alternate\" hreflang=\"pt-PT\" href=\"https://lingo.dev/pt-pt\">\n<link rel=\"alternate\" hreflang=\"ru\" href=\"https://lingo.dev/ru\">\n<link rel=\"alternate\" hreflang=\"zh\" href=\"https://lingo.dev/zh\">\n<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://lingo.dev/en\">\n<a href=\"/en/orgs/~\"></a>\n<a href=\"/en\"></a>\n<a href=\"/en/docs/platform\">Docs</a>\n<a href=\"/en/customers\">Customers</a>\n<a href=\"/en/pricing\">Pricing</a>\n<a href=\"https://cal.com/team/lingodotdev/talk\">Enterprise</a>\n<a href=\"/en/careers\">CareersHiring!</a>\n<a href=\"/en/orgs/~\">Platform</a>\n<a href=\"https://cal.com/team/lingodotdev/talk\">Talk to sales</a>\n<a href=\"/en/auth/signin\">Sign in</a>\n<a href=\"/en/auth/signup\">Create an account</a>\n<a href=\"/en/changelog/2026-w39\">Oct 1W39 – Infrastructure, where you configure localization engines</a>\n<a href=\"/en/auth/signup\">Set up Lingo.dev</a>\n<a href=\"/en/docs/platform/ai-reviewers\">Read how AI reviewers score translations</a>\n<a href=\"/en/customers/sosafe\">Read the SoSafe story</a>\n<a href=\"/en/research/retrieval-augmented-localization\">How retrieval augmented localization cuts terminology errors</a>\n<a href=\"/en/customers/cal-com\">Read the Cal.com story</a>\n<a href=\"/en/docs/workflows\">See how continuous localization works</a>\n<a href=\"/en/customers/jarvi\">Read the Jarvi story</a>\n<a href=\"/en/docs/api/pipeline/human-review\">How the human review step runs in the pipeline</a>\n<a href=\"/en/customers/truely\">Read the Truely story</a>\n<a href=\"/en/docs/api\">Localization API</a>\n<a href=\"/en/docs/platform\">Localization engines</a>\n<a href=\"/en/docs/mcp\">Platform MCP</a>\n<a href=\"/en/docs/cli\">CLI</a>\n<a href=\"/en/docs/workflows\">Workflows</a>\n<a href=\"/en/docs/platform\">Documentation</a>\n<a href=\"/en/guides\">Guides</a>\n<a href=\"/en/labs\">Labs</a>\n<a href=\"/en/changelog\">Changelog</a>\n<a href=\"/en/customers\">Customer stories</a>\n<a href=\"/en/blog\">Blog</a>\n<a href=\"/en/research\">Research</a>\n<a href=\"/en/careers\">Careers</a>\n<a href=\"/en/legal\">Legal</a>\n<a href=\"/humans.txt\">humans.txt</a>\n<a href=\"https://github.com/lingodotdev/lingo.dev\">GitHub</a>\n<a href=\"https://discord.gg/rJ8zGYJQj5\">Discord</a>\n<a href=\"https://x.com/lingodotdev\">X</a>\n<a href=\"https://www.linkedin.com/company/lingodotdev\">LinkedIn</a>\n<a href=\"https://www.ycombinator.com\">Y CombinatorY Combinator</a>\n<a href=\"https://initialized.com\">Initialized CapitalInitialized Capital</a>\n<a href=\"/en/legal/privacy\">Privacy</a>\n<a href=\"/en/legal/terms\">Terms</a>\n<a href=\"/en/legal/cookies\">Cookies</a>\n<a href=\"/.well-known/security.txt\">security.txt</a>\n<a href=\"https://status.lingo.dev/\">All systems normal</a>\n<script type=\"module\" async=\"\" src=\"/assets/index-BOLA5nXd.js\"></script>"
       }
@@ -56,7 +56,7 @@
         "url": "https://lingo.dev/assets/index-BOLA5nXd.js",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:55 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
           ["content-type", "text/javascript"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -66,25 +66,1490 @@
           ["strict-transport-security", "max-age=31536000"],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=9rWivZuqxd2MKUeBmA1BtlxhFlWK%2FeMnTxjIrgZ%2BR2JFfFQkxNx8WNl30Z2K1XaGz3INcMF%2FkgorxeForeBp3oBoT6roB12qnT45grNGFAgWhpuhHcZcd9hvwQ%3D%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2BXrjkKhlhqiWkEXWFDnU1JcDhQYUrGa9ZgL8dlFp0620YISB5ANwsElUrvKrIlz3fhpuZpgvXjnH%2B%2B4D9C8T%2F8miLxjtHo4TV6bqA4rImEh089WUUX2LT9dTsQ%3D%3D\"}]}"
           ],
           ["etag", "W/\"1f64403bf495047fbbdaf06b5f23c980\""],
           ["content-encoding", "br"],
           ["server", "cloudflare"],
-          ["cf-ray", "a456ddfc0c730daa-OSL"]
+          ["cf-ray", "a45ad9353cfe4d24-CPH"]
         ],
         "body": "\"https://eu.posthog.com/\""
+      }
+    },
+    "GET https://lingo.dev/assets/useSearch-BVmgaBHH.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/useSearch-BVmgaBHH.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Ysc1JOe0FoCZUwb8HuepY3nQjPy3aEZHpxEO8W8%2B7OH4%2FLqCltHi7vGzbXnlHBkXE5Ma9QGjXSs8JuaveQawu6YCpQ26BtaNKA3%2BnNnNyx%2BV5j87WxYYHm3nMA%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"86d02bf5d90471b90166f68b5be4e96e\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9356d35da98-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/lazyRouteComponent-BuHI9vwl.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/lazyRouteComponent-BuHI9vwl.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=UmjyICUgSYl0ndYVk6c5LJCCyyOf%2FiItgAzsJXxhwiOiOFEP8jUCP%2Fwa6Vy4bNGHIzjw3rH1jdSDq%2BpvG8i8AMgrwhPMphASLZ9qMtIVB2NsGYAbSW%2FUPMKa1A%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"456c13d4774248a1399672d20049e734\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9356b1a4b92-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/back-link-BmcljcLI.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/back-link-BmcljcLI.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=HoVhbFmr6EVEx4M%2F97IQenqUk%2BpTeNWZrcHuQmdqPkvbG5k%2B78xUvLQx%2Bxuy%2B7Tx%2FNXP%2BGQrxHke5K7hm1LQgV1w%2BAb3UjbjrahT0BkeA8hYlRc6gNB3tIdKZw%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"78be8023ffa42ff45f5bf7c0a7f618a8\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9357b314b92-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/rolldown-runtime-B0Z9INg1.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/rolldown-runtime-B0Z9INg1.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=44G6xBTFjcZ9mOT3VW8koQvICJcYrimNvgw1RIZgoa1KO0VvnPMym1vvtxVws77UbOTz%2BkaMV7LtIR2bo5jBJ5bJPZ%2BI7ziv138GC381PHFrEJguuEgo8lVbhw%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"0627aec6eb89ca5ce8d91578f8635d77\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9356ceec0b7-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/not-found-i5RsCZif.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/not-found-i5RsCZif.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Y%2Btaneuhn8e2OYOw0AWmmbkOM78KYkVlokroCRwzKHTWljw7vrhtkPNR%2BaQCBEFuEeNqVpWVM%2FMffp6pDzVPqA2YGI%2BUQHWkO4ZepOqEyuyzQgnNJzQmZT30Wg%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"95f29a05dd466ce1e92c944c927087b6\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9356d75d2d0-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/load-client-BvVWSrrb.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/load-client-BvVWSrrb.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=O6D4geSSofJ%2BHwZwAxNw%2BPOEoNWBmvsm9OSe9%2F%2F4YtBBPdiPf9lbCYD5Zd3V%2FSAJX960aEum2Dm4cRJXA3BlUTSi%2BehABeO1jN%2F1YTgGzd0L3g27HuKVHntHkg%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"c5008fc1bdfe228d8948c24186fa8aab\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9356b53b79d-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/Match-C99LyOzE.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/Match-C99LyOzE.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=QeH2ht%2BDIHFy0DwA5%2F1djVIjVcvSMkZs3sDdXZ6NC0v4e52t3sJ1De889LHAq%2Bjw%2FmgZzwEHozPzp936TK%2Fm0SDiKpohQKuUrBzhhel2R6VcOkq7iVrk2Y%2FE3g%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"70b53dfc5ee412c6239ab20244cadd66\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9356c77805c-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/useLoaderData-Csj1BJdE.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/useLoaderData-Csj1BJdE.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=1jW%2B2L711lkxsS9tMMEkqjraTINRc9WCoaoQ52NhT%2B8wMUcuo5OcImO%2FNoBL%2B%2FCym16wdD%2BfKJJ6ecI1V7ZfMfDZfTtuQmFN06%2FYVHvWHZlrK9mRh24wmGdauw%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"86f8875f999e7ab1523f511abe21b217\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9357aa81a54-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/provider-CjgrKxbK.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/provider-CjgrKxbK.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=40SqIFbmmLl2T0uEt3TrC4yjsvD4wN%2FGOLxwNXX%2FfppE3%2F2G54rYdCyEZtp1IXptKIHAKw95yDa76iK%2ByTWsuiIr6XsYPwoNSTXME0%2B5Eg653rqFz6mjnEKUdQ%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"1a67c7589941d33299b969ae26e73225\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9357de61dd9-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/createServerFn-Dv00mAfv.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/createServerFn-Dv00mAfv.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ascCMs%2FpHb0pkkxujyicaRlBgONB9ELbVAV%2FkV9GydGDYFhUpJIwoN24VW49qyTQzJmih%2BpAMGi98AX7iQa%2FqVKg43enSJQnPUzyTUzGMIxSLKV4pPFjtlVW2g%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"76521342717f42e4f2fba50ef8e9ecc0\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad93569ccfc08-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/useMatch-B_NgPUvD.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/useMatch-B_NgPUvD.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=rg59aG2UIahwz4pd6d4PtUjwAwtg0DxK5jXRXv6ZoirkZmFGGqXnXnuTfmuNoQykpXZj3ntZR0ohMHAlAVwMh2UzhqF15M5ynGHI2yZXfELcTkqDfLznLuk2Pg%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"4eb2340ca7bbd877832fa6f57ed298eb\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9357c57db77-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/useRouteContext-Cco4Vv_p.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/useRouteContext-Cco4Vv_p.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=cgxygfZ9hbNaT9hh6%2BlwKtWUln17ZyLvbwd41oMC6gtTQKWBdZ%2FQjRxa4IM1I%2FcXiOjPTfHJitwnX3CUpZ%2BS7wOmgOHwCoNsZcxlE21bJk4b1KRONjCK9Rhrvw%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"7978cf3bf675e0e41648527b5370849e\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9357d3545d5-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/useLocation-BnYVF7tu.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/useLocation-BnYVF7tu.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=qIPiJSIlsNY0k%2FT5L086Kcycyy5R5nrXYY94ZVWSN59I5gSiitUtGgQrvplLuO8y7L5IVgds0TvjUwBR1fZiLMnlf2xlsJC3HUbalP6U93WGqFHUai54OC%2FpaQ%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"eac6b1c2ff0cfdf7d49c924530aee024\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad935782a868c-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/QueryClientProvider-Cbgnf2qQ.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/QueryClientProvider-Cbgnf2qQ.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=e8FXJGWNkN50yrRbmDQRHFghilo8ugyXWUomefXok7KGLNLrTPPkKdUiWs54u5qomu0Y4uF1dcjwblN4qbs1xceBIzRNZCRh1T3Nm1aAArO37X%2FgYD9WVQT4wQ%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"8c17d8e26cdca73b85bc61b26fec4b45\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9357f0a2448-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/useNavigate-BLGvq7Da.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/useNavigate-BLGvq7Da.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=DuRvyCUeW7Qu%2BlHgEVQW1v6yIr9lvjm8rpWqzJ3gfdpqVcJ03KXycqZ5IHzWGjhuEWETXLKjxFoNBQqJsCxVunV8PkYGu%2BHsgBXvRS%2Fv2q%2F4wnIsucyEUNLL8Q%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"d10601f48e1c8e554cffba1ba09f0d6e\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9357964dce9-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/jsx-runtime-DpJIb57s.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/jsx-runtime-DpJIb57s.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=iOlP7d%2FcLEQtNVWazEdsW1xbf8O%2BmtH1xGEApJNxd5UClvieaTUUmH6GCfICM50i3ahgPW5URRrgrtZu6Afq9G9I03FxRrVNl3ZY48%2B7e5MCqK9zl2xGK5KT5g%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"aa89dee140b0882221c252a17ec5547b\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9357b550db5-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/removable-CzMLznaP.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/removable-CzMLznaP.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=lacu92XAopiUE2Jrg7AXenOr7A1e%2BKb%2Bn0BqyBIMzPZeJzZ7pZ%2BfU5bzyK0WTBnt4d27QJChNQW86dNUn67wjQIsOvHTWpkE2WKhYzNx9If3coJYGdPxq%2Bfnsw%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"4b2cb9429bfdd1b962496b241d793fc4\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad93579523796-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/infiniteQueryObserver-BmNrNN4s.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/infiniteQueryObserver-BmNrNN4s.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=y2mFqjBPD%2Blk6lUA%2Bc%2BdMrF%2BXip3LoeG5fzfHWbBr09KMysEPpMEo8j%2FDQoAhQZ4j5XUVGtqsqhMgGgmuv3hKTMKnzSR2lBFaZGtkPkKqRecU%2BZlHIiSp%2FU%2Brw%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"0fa6183a2a19c1d9f44c5618fac08ca8\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9357f935b0a-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/matchContext-BCtYa-OQ.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/matchContext-BCtYa-OQ.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=JInt3jaG1pwWIUr9tGaCiB6fzh47z622iCw7UkrO7aKShoHvtzZ8jCz1YK5KhBekoEe12ggGDTSe5T1VnTRuk6EW5u6%2FkCNwrNK%2BAGH4fM4XXhjnkN52vEdL7w%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"a9f5d9c0561dcc55b585ec3b844b343e\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad93579c3ad96-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/get-lingo-4a9TVlbr.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/get-lingo-4a9TVlbr.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Gva%2BggDRnzqAlj8Aj2QDSubREnq9hik%2BDq%2BxSb82zmMCIyZUDNzBdz86Wh9pvxuCfEvdqlaWRO87BnSPdcdsxTA6XCx1sRCc8YkccqBVWo%2Bcya1o5UusPpE4YQ%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"a291de9cab44afe115890083500faf8b\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9357a8fd0c3-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/useRouter-BSc4n-e1.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/useRouter-BSc4n-e1.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Rxe9FtQXn0%2FrViIiTjRAEaCrXDaN7Wn%2B%2BEwmLLnJYjSGAahNDgYgWFjbaPDlmKIJ3BDqsHB4VJLRixP%2BhexY42JkosoD1UPM8rzEZt6JxdiHzWdyA6%2BhxR6q8Q%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"ea0035c4779b4eedfdf0db50efe3ce6d\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9357a556cad-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/lingo-ta_cp-Xz.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/lingo-ta_cp-Xz.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=u6tc6X52EHlbDdPvtZ%2FJz0XhOrLk4qO3yGM1pf7f8QNi1wOE4aW4dNqPNn0z7hs%2BwA7abqDqKjII9hK3PhOXx7b4AXGu%2FHM9Y0Qng4n7uEvMRhAyd%2F4ozZJ1LQ%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"d484da464d2e042fc3a20b0425d88961\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9357995840e-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/error-view-X7K5AoP6.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/error-view-X7K5AoP6.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=JgtauuVwEJn%2FUf8%2BIdfF9i2adVfBQAeu5FLOsUPDgtYZ9Kkn5q8iRCRCS2Tr8kM4c91Pg29HqOOmvuifNp%2FdpTxbsJJn%2BAulG3XwjRUO031tHIrsPQgVYRDO2Q%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"53878a3a1a3505f351f9af5aaef111a0\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9359bb1b79d-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/ArrowRight.es-Ctydi2xN.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/ArrowRight.es-Ctydi2xN.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=yK97vAJhkwFSMYhPPVwYKf79ZPNXbAxixE2ZfJDCRG8gXturZcdpEJHIyKNA%2For0G3M3qCjFEbeZuiKDi0c6EI3nZyfyOdU1oi1ZiC42rmJpjMpzqSRmRhe%2Bkw%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"eeeb68d3c48f0d7a346a2a718fa33bcd\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9358d6ae034-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/ArrowLeft.es-CYFtbR6m.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/ArrowLeft.es-CYFtbR6m.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Vg91js5i%2FzkQQCbyD1FwU2ETxb8worvllGkI40h5UOg%2BuJXB9eZb0gVBaG1z1ajWqlRaiuSFY04apL69fNUcgQhSBjYlXJysDCSAebCmfBgrFq9Q%2BwozxmxGmQ%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"1c8b20fe23a7ae6a1d02d203f214a7cc\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9358b51c394-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/loaders-Bm-IBGUG.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/loaders-Bm-IBGUG.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=GMPcot2%2BoBdd7c%2BXduHJQa98YoYCPdtpNIcsBLs%2BCbnd7HJNNzUzYAqXJythnS3FAKt%2BqQMRchGGoJWs7JRPqJ4LVHzlhG6EXJUhfd38FZzMbk9PWFnJjQM2qg%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"3cda00cad8469affc72439a25bfce445\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9357b243f0d-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/button-DffOmskQ.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/button-DffOmskQ.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=GYU%2FK6NuIsYstWU14bbbImS8Ul0i6MGtGrHAv3fcrVuInyC5qKsg0ofI5aBwUiehjUB2DwnNyeEEJJhVx6q2I98bliN9i3hDjKnc%2BsuFtgI9cZaFx5r%2BBsplkw%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"1b841fc7dcaa71bca13277eec5d0a4fb\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9358b52c394-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/ClientOnly-BG2BpGST.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/ClientOnly-BG2BpGST.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=wdeB7yCjWC6xMsGp1Ok1UdvJScQCWlGYRT%2FoTrImgU%2BjAmd3DZiH0hOZ7xvrj1Ao5Aj1kSkovCzTPF8wYxeWgojW3t6W86mth6GYlNmBzOPagaYfrgC77%2Buj3A%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"34a5952affc468b9e0fbf1b11d4e8e5b\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9358b79cd9c-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/useStore-DUHwZ7a7.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/useStore-DUHwZ7a7.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=GmiyH4oLa07zORWLUGEryyUG%2FX6gvlTBAADa9SsDWpzaOjaao9fW8YkYPOXxEeXPfzZwbI0cb8hOsZz0CWMgrfiW5Ewan9XUIw4ZHoqDltqC%2BWcFck2%2B8BalRA%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"7845529b522ab1395d3cbb9787bcf967\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9358c8d042d-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/-jsonld-DF89oa64.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/-jsonld-DF89oa64.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=UqlzJMg5lFC1Hk5tLxHbYqXS%2F%2BrMz%2F7ZBFRDODmb%2FAqExVF5hVtiBEM9cM7VEJcqwlWKf%2FFnDAaF48OzI4%2BvCwiqdL85%2FJopkyXcbsX1Nc4FbYMqdA%2ByG5L7aw%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"8ba3eaace7358b2f17f26ee96914b1a6\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9358a842387-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/link--oyf_28X.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/link--oyf_28X.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=DDkN85vZmYquRpdYaIJw6r2ZrOaZMS8O3v5vmgv%2B1jGwXbSo6MFstvt4wQNMvRGcHsaZ7fk9x5ku6w2xzPJjsEyrP2WEPWsgtdayygh68p%2FYUUdEP115dHQzkQ%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"077623a04968bfd92d3edd140cd1a8e0\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9358cdfd90a-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/redirect-Bys5cUY-.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/redirect-Bys5cUY-.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=mS7FApb8FJuojoFg%2BibECrDu%2BirVZWbawg6vBFju3ZBDwCEGdrPw7IYPXvo9fCQ%2F5oNJqzwSudiLbyiYNU%2FMRZ58KA%2BdgskVMplLMyRglsINHfpLX%2B%2FJr%2Fvd1A%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"04d8cbe9c5ef5e49cc2b069bc66e21da\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9358f5fdaa7-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/ClockCounterClockwise.es-FWJTcIhl.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/ClockCounterClockwise.es-FWJTcIhl.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4QlumoceurPFRyxkcnPW6XcaykdWlm1HtL%2F4mcnRDoNuB839%2BsOYNfZbH9%2FouyJJKwqveCWUgvKgKEe2a21OcO6gY6t6qQQnidOoCoJPtNbl07RsMZSBzpGgpg%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"85eb4a5d42bd4fbb216620697fd91f86\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9359909fea1-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/queryOptions-Dfvzj6n2.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/queryOptions-Dfvzj6n2.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["content-length", "38"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["etag", "\"ca3b0d069e56ed0bd6a273cce2cb675c\""],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=RdFdiQiX8g2pCzfcWXFOBLsZLeyd07v2dnQuAIMPutRNDSdtnsv1BslaXbdkxk9H7e9YFgyp230UHVluA18KyuYcTw5G3mZ33sqGyVR1g7fU4DhJMukPpzp2bg%3D%3D\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9358bba8aa7-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/CheckCircle.es-ZXKz_yXY.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/CheckCircle.es-ZXKz_yXY.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=YE9nKXMLML5RxTz7V6zBq9tF11dvQNbHDFYWtieNzUQTYlscfWLkAlvwzL%2BJsh5Yc2e2AMiYjSylXe1z4ozuuA6YecvvxkqOu%2BWFNDTLeaWbvL%2Bwi20J6nJx2Q%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"4fa1dda6a46e9e7e47cdfaf4653105c0\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad93588fefea1-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/preload-helper-Czpn1I53.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/preload-helper-Czpn1I53.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=TOFJOUJDLuldtfTqc14MX%2BfngM5ID%2FlyKFYy1q%2FAkvhaQ13PF4feFS%2B%2FmNU7jMYaXmz8BYbEeX3BCk6Z2pLtgVVikEOMS9cbqoP%2B8FlnPZWks%2FhQT6BAO8VCTg%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"3a1d4cc2d84736cd43ad65e0558609ab\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9359916f9c7-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/model-DVjcdJ9i.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/model-DVjcdJ9i.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=rfNSNBG4fxsojk0ieIz4qjvZL8KcyodSAq6k9NTMFGDLrywGInapvvMZmlU03mlx%2FoaZoQN39q%2FODAwIb31LfVtDngfgNi7CzOHwSe3GwOS07l58tJK9rrJcSg%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"4d775782f7b79c9a921b8f97b18180f4\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9359ac38715-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/platform-Cqngzsvl.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/platform-Cqngzsvl.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=cFMJgzc11s0iZQ%2BIur91aRfASGpukgUoIHKfeBHr4FAOIsxRTNHl7CQ10tWpwYqNR%2F7BDb0AHyJebtQya0uwlrjXtlMLC32ZBs0EJyO1%2Fqzl7%2BMJXW%2BD3iYcLA%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"d6eb61f4606fa584aae1ae3f683ad5c7\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9359ad9d0c3-CPH"]
+        ],
+        "body": "\"https://api.lingo.dev/\""
+      }
+    },
+    "GET https://lingo.dev/assets/mutationOptions-Dfvzj6n2.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/mutationOptions-Dfvzj6n2.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["content-length", "38"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["etag", "\"ca3b0d069e56ed0bd6a273cce2cb675c\""],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Cunqtqa%2FX4SJmcIpTjKaVEx4d617h01XDTuytqBGButPPr5UYZ1xo8s9BpSg2Y%2F0xyjA6NDDlSFobUB5GFCeOOr6UWzCJGp7jc00%2F%2Ffsdu7z9NKpMMRKIeRITg%3D%3D\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad935898370a6-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/root-DLTE-HSj.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/root-DLTE-HSj.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["content-length", "32"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["etag", "\"8edbd4bd5fb4f8bc122a82475368cb83\""],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Aa2clS%2FJp3kWG%2F48q%2FzX%2BhzqkOW4VyzRJ5iRdHycLfFIY4%2BMJqlhhTa%2BQJ1cWCkfC%2FM%2FjItj5wYqveDCXlyazeIYWHOGSH2ZVMMqZfVl3kre1pNDbbhz60I%2FsQ%3D%3D\"}]}"
+          ],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9358eaea8d1-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/head-D0bw5IzJ.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/head-D0bw5IzJ.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ZQ8CNIx9YZtFnv%2Fr9DqT%2FIFURcFRz5pZbT4u2NpQLv7zdNuOZQNAkA%2BRy7Que4iUpjTK1vblWBFpp99%2F%2FQSlF%2B16Y8uZBZ5%2BpaeMJTTXcBwtqjGqLhlm7jKMiQ%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"2d49acf7819e5256fa2019cd7f79dcee\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad935abccb79d-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/empty-state-CvOprNEZ.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/empty-state-CvOprNEZ.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=XW6jxrinSF0AhcARzjLXHJ8ye8P1mdgM8KCiOd18Zm0Ta6ed2rx8dC8ereDEI%2Fw2AyynxAPmIlDT4xq7%2F203F7CTNDxMRWXnMJ7XHhKnVOQVBknCTrF41zUttQ%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"a038d540a6e1c14588dcf02fc0656d1c\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9359b9e3ca8-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/Compass.es-BI4pEp6X.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/Compass.es-BI4pEp6X.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=gisiq2d0gRpOSr4rlSL6igSRPNlDMCoQVNYEyaET7IO9Jwm3VErKJP6Oe%2BBubc5kcvuRVNqDkJUkrKmTiSL%2B5RNAESaWFtFP%2BDIjwudnyK5SWjYfjTXNRzVnfA%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"c69176553fb6548af617430e29922159\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad93599a34935-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/Plug.es-Dkb8BWS6.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/Plug.es-Dkb8BWS6.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=QGMaPtlM08Dlm1XUvXDoN2gNKcPzaBnu1ilp2wMLi8ys6R3orobFpMTvVr3QCMMQtcCuZMzdcmWItiBw4EziEPPNKRnJNtvgNshV4OZZQSP2H2nWwQi1DILVCA%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"a57716c592bf2099d405df6661917576\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9359914f9c7-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/Terminal.es-OFaIpmDy.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/Terminal.es-OFaIpmDy.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ITgKE2rGVr6DTRk7SF%2BsAgpwGQLXgS5Lphqrj%2FVPMmgFa8v4DGfbVS2YiFYuV22u%2BmEvPxxbBWc89BG5EsRjWAKfR8vMvZTyhyqaPP6xHeJb%2BB2Ov8q05pSk%2FA%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"e6d5895908a58b84d78bc11049a6b071\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad93599a42da5-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/locales-BXOZotzx.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/locales-BXOZotzx.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ElPil%2BUk8xEqZpDC2nMTmT33itX1T4gAOsY9lki3k9mGMeHp1weAJLMVwpj3KDBBhITFHw%2FttaqUuRp8zrNB9fRNri2dwASTd6kuavucz1NaWzLurJ4D9WcTqw%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"ef9fe18f6ad804cd43862ed72b1d83f0\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9359ba82437-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/useMutation-DyxuNRn0.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/useMutation-DyxuNRn0.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=LLWamOIXaUX12p7lRVtzwdY9rY601zwSWmC0SpBAbru5OHqa1ObQHqx0B9bmVPv3kt7d1aM9fsPKBs14rIqri9%2F0Oa0j4b%2BKOHfHYzYS1tcyHWrieCPv77WdIw%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"c6a64c26d25e31a59b7a4c6268f83ea5\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9358eb00523-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/src-D9g_Uz_h.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/src-D9g_Uz_h.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=rJt0bEDPs%2B0qkWLQBWwo4NGL9ipqai4pLrlUZM4mWIrgWuw8mp7AmzCaw9gzIp5hwL0PwOjzhYdtA1VF9SSYERyGScKhz7jPo9%2BktqnXbObESNExaVhsbxi2dg%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"1bd456bf0ca2c9156cb53c7ee53b6fea\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9359a803ea3-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/public-url-VIQp167L.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/public-url-VIQp167L.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=lu%2FeXgQLnX83MuGTx9w2fgvsNzu88%2FVuVUny0rOmixyrb5IQp6q47FoKnfx0gBs9whrMn3GCz3YaHqK8hegV%2FcVMxyyrpP4pj8Q8jDfO7ul2IKsjJxiLZe4hLQ%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"de8c7e89405cc44c1e8bc3315c1fa43b\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad935a903d8d5-CPH"]
+        ],
+        "body": "\"https://cal.com/\"\n\"https://www.linkedin.com/\"\n\"https://x.com/\""
+      }
+    },
+    "GET https://lingo.dev/assets/auth-Do5OdZ9I.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/auth-Do5OdZ9I.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=9g8BR9kBFqhAIYRTIvxArFKwTBprFTNhhkOz7FqzcCpq1JhK0UWUuVbiToYlO1n9ELFvu7734v72JQ6s1xYEG%2BmozYO6tG3Q5C65spb57H%2FLELa1iaGSbvEcag%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"54da0cbf0bc6a9e502d8e0d88eccb231\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad935ace67060-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/react-dom-gdz8HrnR.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/react-dom-gdz8HrnR.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Rco8oGgrIb7GDpNX4xEzRiAwnh%2F48R1mqc14eqSVoAy5XJgSECCvD9OAd0POxNDONwWfVMW6OjH1nb3FN167fAU%2FVua%2FlYdumqyFBOaasZwMamJ4LvnuglHeyg%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"b34dfd3b87ce477d1021807d1e30c642\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad935ad4f3d52-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/-from-api-6v7HHOIP.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/-from-api-6v7HHOIP.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=KC9TnvMXeeZJkpm6dSX6VlhDGVrxl77%2Bfqb%2BIOHqnYJhkMxqMuRnEkRuHnqdE8%2FRtBUv7a5DoVf%2BLIiFsZ59p7rgRyufet8%2BzOZyn5JeL%2BCsTxoSH6Tn8Ev5WA%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"eca26e147df5c6940400f4126bda8181\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad935985a708e-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/IconBase.es-Bm0Sjnqm.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/IconBase.es-Bm0Sjnqm.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=XhIRsvErKQ4CCKiUm5f8K9GqBL55cT6DGen3qyTXSyNrnUHlH9BL1Kk%2B2NgmlbFKhIwpjNNCjxPHGA6EFTEJOi6gqHjhQcC6hQ2c1Da3qU5KmorG%2BA9x8pNqvQ%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"53b47505d346c70ca6d2bf5fb9fed720\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad93598eb14ad-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/Schema-7ZGLqBCM.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/Schema-7ZGLqBCM.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=a4%2BCOBSpRLy0ZYEXWBJL%2BNaOkRCgnU1ZXwQ4jKweIY05ROdYRFRcdEiRqC3XbJRuS5622A27%2BufTxWv759A1DoTXOr%2FDIfLFHkUc7sW9ym4l2l73IJZr9zPvxQ%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"50e15223baa103cc80890a70251fe6cf\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9359af0ee1a-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/utils-C51mBvCt.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/utils-C51mBvCt.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=gk8u%2B15M7cqGwcmtxnGqQMOk0qNlqmjDD65pbzr30nBmQUfn7t1s9M73vi0j2JNY1uEKtZP%2FGvjJQAp%2Bf9svLVbeJk%2FJH4uC%2FqvXQJc5LwAq2NkcGCJoc0KW4w%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"a40eaf580f620af5bfa83ea7e1da98e7\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad935affd0b28-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/visitor-Bp62UXWb.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/visitor-Bp62UXWb.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ZjC5UItk5VIC%2BlbNi52pFItHp22SpK9z5UAEXwMSVzWe4QmFt1QA%2BJX2%2B%2FvgllYKjaeoocyeyJhF9EW%2Bf3bFt4NzKLhcSRY1tHcbA1gVyzBn%2FQOeg7A9v3%2Bb1w%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"ffe8e84ae3c711ac59b0743f9ec42028\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad935b8c1f523-CPH"]
+        ],
+        "body": "\"https://nlugbbdqxnqwhydszieg.supabase.co/\""
+      }
+    },
+    "GET https://lingo.dev/assets/run-B4azDdqs.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/run-B4azDdqs.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=inoRoqbPF%2BCG25WUSPHTM1g89yvzRyZhXLsAK7yI6UlDpgDuK9c%2BsRDgEMM4ucyo2yuFyH1nxKw2sAmVgx2ZPfZ7FNs%2BzS9txxBzHeSQss5NS6MyrivxtwzX5w%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"c50ebaa40c9bc3ec1d319b0fe58bdb2b\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad935acf05000-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lingo.dev/assets/client-BxcCjCbJ.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/client-BxcCjCbJ.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=My45xg4W10nG2w0OLiI8e%2FSBwBpJ0RnfnTt44GwdrZL9Q5nRSKVf8OrMF40%2B51myD8917jsivCcZcZwU95gqrrJuI3a1lTV6JeUt%2ByrPhLp%2BYcBmxfYVStmmoQ%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"6dd2440173b25321c5492720c0dd9764\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad935a8255b0b-CPH"]
+        ],
+        "body": "\"https://nlugbbdqxnqwhydszieg.supabase.co/\"\n\"https://supabase.com/\"\n\"realtime-js/2.116.0\"\n\"storage-js/2.116.0\""
+      }
+    },
+    "GET https://lingo.dev/assets/share-links-B4dCszHn.js": {
+      "result": {
+        "url": "https://lingo.dev/assets/share-links-B4dCszHn.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:43 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["cf-cache-status", "HIT"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          ["strict-transport-security", "max-age=31536000"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=G8vSJbu1V16MdKp1ue%2F9xwYULjA9PzgvxpTS4IgiD%2FUEtcUxpmydB0i2xT29FpEz6n%2B3YLYt1ELDYyR2MOdJk9VxYyt0HzsNV5uJnTldnkyhIUZEd7TIfuBLyw%3D%3D\"}]}"
+          ],
+          ["etag", "W/\"fb8c181a225208e26d8211f90a6be790\""],
+          ["content-encoding", "br"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad9357830868c-CPH"]
+        ],
+        "body": "\"https://app.cal.com/\"\n\"https://lingo.dev/\"\n\"https://news.ycombinator.com/\"\n\"https://www.linkedin.com/\"\n\"https://www.youtube.com/\"\n\"https://x.com/\""
       }
     }
   },
   "dns": {
-    "NS lingo.dev": {
-      "result": {
-        "name": "lingo.dev",
-        "type": "NS",
-        "records": ["maeve.ns.cloudflare.com", "ian.ns.cloudflare.com"]
-      }
-    },
     "CNAME lingo.dev": {
       "result": {
         "name": "lingo.dev",
@@ -92,18 +1557,25 @@
         "records": []
       }
     },
-    "A lingo.dev": {
+    "NS lingo.dev": {
       "result": {
         "name": "lingo.dev",
-        "type": "A",
-        "records": ["172.67.72.90", "104.26.7.146", "104.26.6.146"]
+        "type": "NS",
+        "records": ["ian.ns.cloudflare.com", "maeve.ns.cloudflare.com"]
       }
     },
     "AAAA lingo.dev": {
       "result": {
         "name": "lingo.dev",
         "type": "AAAA",
-        "records": ["2606:4700:20::681a:692", "2606:4700:20::ac43:485a", "2606:4700:20::681a:792"]
+        "records": ["2606:4700:20::681a:792", "2606:4700:20::ac43:485a", "2606:4700:20::681a:692"]
+      }
+    },
+    "A lingo.dev": {
+      "result": {
+        "name": "lingo.dev",
+        "type": "A",
+        "records": ["104.26.7.146", "104.26.6.146", "172.67.72.90"]
       }
     },
     "TXT 146.6.26.104.origin.asn.cymru.com": {

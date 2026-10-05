@@ -64,12 +64,6 @@
         "headers": {}
       },
       {
-        "url": "https://ymir-media-emgdf4ged0bmfegs.a03.azurefd.net/engineering/next-static/prod/_next/static/chunks/2a059il6nuozv.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
         "url": "https://ymir-media-emgdf4ged0bmfegs.a03.azurefd.net/engineering/next-static/prod/_next/static/chunks/06m6xpshlcd1d.js",
         "method": "GET",
         "type": "script",
@@ -77,6 +71,12 @@
       },
       {
         "url": "https://ymir-media-emgdf4ged0bmfegs.a03.azurefd.net/engineering/next-static/prod/_next/static/chunks/3cwd19po0brvd.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://ymir-media-emgdf4ged0bmfegs.a03.azurefd.net/engineering/next-static/prod/_next/static/chunks/2a059il6nuozv.js",
         "method": "GET",
         "type": "script",
         "headers": {}
@@ -412,6 +412,12 @@
         "headers": {}
       },
       {
+        "url": "https://cdn.usefathom.com/script.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
         "url": "https://marketingcmsstorage.blob.core.windows.net/engineeringstorage-prod/Pixel_Pink.jpg",
         "method": "GET",
         "type": "image",
@@ -475,12 +481,6 @@
         "url": "https://marketingcmsstorage.blob.core.windows.net/engineeringstorage-prod/Pods_Green.jpg",
         "method": "GET",
         "type": "image",
-        "headers": {}
-      },
-      {
-        "url": "https://cdn.usefathom.com/script.js",
-        "method": "GET",
-        "type": "script",
         "headers": {}
       },
       {
@@ -554,32 +554,19 @@
         "method": "GET",
         "type": "image",
         "headers": {}
-      },
-      {
-        "url": "https://cdn.usefathom.com/",
-        "method": "GET",
-        "type": "image",
-        "headers": {}
-      },
-      {
-        "url": "https://ymir-media-emgdf4ged0bmfegs.a03.azurefd.net/engineering/next-static/prod/_next/static/chunks/1sk4vy2v9j5si.css",
-        "method": "GET",
-        "type": "stylesheet",
-        "headers": {}
       }
     ],
     "websockets": [],
     "cookies": ["lb_session", "__cf_bm"],
     "globals": [
-      "TURBOPACK",
       "__next_f",
+      "TURBOPACK",
       "NEXT_DEPLOYMENT_ID",
       "next",
       "__webpack_hash__",
       "MotionIsMounted",
       "__fathomIsLoading",
-      "__fathomClientQueue",
-      "fathom"
+      "__fathomClientQueue"
     ]
   }
 }

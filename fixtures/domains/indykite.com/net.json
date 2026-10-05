@@ -1,19 +1,19 @@
 {
   "url": "https://indykite.com/",
-  "recordedAt": "2026-10-04T20:17:00.988Z",
+  "recordedAt": "2026-10-05T07:52:48.186Z",
   "http": {
     "GET https://indykite.com/": {
       "result": {
         "url": "https://indykite.com/",
         "status": 301,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:17:01 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:48 GMT"],
           ["content-type", "text/html"],
           ["content-length", "166"],
           ["connection", "keep-alive"],
           ["location", "https://www.indykite.ai/"],
           ["set-cookie", "_cfuvid=<redacted>"],
-          ["cf-ray", "a456de1de89056ae-OSL"],
+          ["cf-ray", "a45ad9561ac84b92-CPH"],
           ["cf-cache-status", "BYPASS"],
           ["cache-control", "private"],
           ["server", "cloudflare"],
@@ -31,16 +31,16 @@
         "url": "https://www.indykite.ai/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:17:02 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:48 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
           ["set-cookie", "_cfuvid=<redacted>"],
-          ["cf-ray", "a456de235fff7130-OSL"],
+          ["cf-ray", "a45ad958ce90a0c9-CPH"],
           ["cf-cache-status", "HIT"],
-          ["age", "34914"],
+          ["age", "76661"],
           ["content-encoding", "gzip"],
-          ["last-modified", "Sun, 04 Oct 2026 12:32:18 GMT"],
+          ["last-modified", "Mon, 05 Oct 2026 07:52:48 GMT"],
           [
             "link",
             "<https://cdn.prod.website-files.com>; rel=preconnect; crossorigin, <https://cdn.prod.website-files.com/68fb67105f097330f30d2c9e/css/indykite-rebuild-38c826.webflow.shared.457cc55f4.min.css>; rel=preload; as=style; crossorigin; integrity=\"sha384-RXzFX0EpPMkv9KR15lOuBCHq9g89nepie+h471kY3oHwqTm1tKKh7uXH9iTtKCog\", <https://cdn.prod.website-files.com/68fb67105f097330f30d2c9e/css/indykite-rebuild-38c826.webflow.68fb67135f097330f30d2d84.cbf884a34.opt.min.css>; rel=preload; as=style; crossorigin; integrity=\"sha384-y/iEo0nmW+JTW00U/ie7MKYULCLyv+KgqhZ4YDM8TN5h6A+s8+mPeakH3bqUQo88\""
@@ -73,11 +73,11 @@
           ["strict-transport-security", "max-age=31536000; includeSubDomains; preload"],
           ["content-type", "text/plain; charset=utf-8"],
           ["accept-ranges", "bytes"],
-          ["date", "Sun, 04 Oct 2026 20:17:02 GMT"],
-          ["x-served-by", "cache-osl6547-OSL"],
+          ["date", "Mon, 05 Oct 2026 07:52:49 GMT"],
+          ["x-served-by", "cache-osl6523-OSL"],
           ["x-cache", "MISS"],
           ["x-cache-hits", "0"],
-          ["x-timer", "S1791145022.378293,VS0,VE49"],
+          ["x-timer", "S1791186769.340491,VS0,VE48"],
           ["vary", "x-fh-requested-host, accept-encoding"],
           ["alt-svc", "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"]
         ],
@@ -98,11 +98,11 @@
           ["cache-control", "private, no-cache, no-store, max-age=0, must-revalidate"],
           ["content-type", "text/html; charset=utf-8"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:02 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:49 GMT"],
           ["x-envoy-upstream-service-time", "12"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/3b7kfjtog_fjj.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/3k60lfaskn_5x.js\">\n<script src=\"/_next/static/chunks/3x7padtx7vwmd.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3hftvx7_a8px1.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2lzp3c-jpnq5g.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0ujt_loomz70a.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-27tvvjualgy-h.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2hbl2__da5s92.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/13_r20cne5rt_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2x2eof9zuqnrz.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0_5jy3c5m3s9y.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1p95wlip_dutu.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3fn-r1lv-etho.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0fwtvez9zmx2u.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/130x3fcu5p3te.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/144uk2ksl9gms.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1ltmxcws50his.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0ywvu048cgs-5.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0kuzqsci12ij_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3l_lrp8-13xc8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/22xlfele-mnpf.js\" async=\"\"></script>\n<meta name=\"google-site-verification\" content=\"OGCgPW_lWoS2Vpv6Kbhjah9U839PeHR5NTrLJ6Fd1pM\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.3ell48jefmzh_.ico\" sizes=\"32x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.svg?icon.1hw01ngtei__6.svg\" sizes=\"any\" type=\"image/svg+xml\">\n<meta name=\"sentry-trace\" content=\"e18f7c555fc74925b10549d5398be133-93ea726e58e5fd9a-1\">\n<meta name=\"baggage\" content=\"sentry-environment=prod-us,sentry-release=d134711eb13c50e9b01ad2c701bebd8b534d5306,sentry-public_key=5a4eb57bb1b3b769fc750ad0f26c2007,sentry-trace_id=e18f7c555fc74925b10549d5398be133,sentry-org_id=4511264058441728,sentry-transaction=%2Flogin,sentry-sampled=true,sentry-sample_rand=0.16679795642597695,sentry-sample_rate=1\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/chunks/3k60lfaskn_5x.js\" id=\"_R_\" async=\"\"></script>"
+        "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"/_next/static/chunks/3b7kfjtog_fjj.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/3k60lfaskn_5x.js\">\n<script src=\"/_next/static/chunks/3x7padtx7vwmd.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3hftvx7_a8px1.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2lzp3c-jpnq5g.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0ujt_loomz70a.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/turbopack-27tvvjualgy-h.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2hbl2__da5s92.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/13_r20cne5rt_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2x2eof9zuqnrz.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0_5jy3c5m3s9y.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1p95wlip_dutu.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3fn-r1lv-etho.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0fwtvez9zmx2u.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/130x3fcu5p3te.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/144uk2ksl9gms.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/1ltmxcws50his.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0ywvu048cgs-5.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/0kuzqsci12ij_.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3l_lrp8-13xc8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/22xlfele-mnpf.js\" async=\"\"></script>\n<meta name=\"google-site-verification\" content=\"OGCgPW_lWoS2Vpv6Kbhjah9U839PeHR5NTrLJ6Fd1pM\">\n<link rel=\"icon\" href=\"/favicon.ico?favicon.3ell48jefmzh_.ico\" sizes=\"32x32\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/icon.svg?icon.1hw01ngtei__6.svg\" sizes=\"any\" type=\"image/svg+xml\">\n<meta name=\"sentry-trace\" content=\"ad8e2a26d1e444be81d24dd39b501586-8aa37a84196d8ca3-1\">\n<meta name=\"baggage\" content=\"sentry-environment=prod-us,sentry-release=d134711eb13c50e9b01ad2c701bebd8b534d5306,sentry-public_key=5a4eb57bb1b3b769fc750ad0f26c2007,sentry-trace_id=ad8e2a26d1e444be81d24dd39b501586,sentry-org_id=4511264058441728,sentry-transaction=%2Flogin,sentry-sampled=true,sentry-sample_rand=0.02624188002882666,sentry-sample_rate=1\">\n<script src=\"/_next/static/chunks/0cz1d0mv5g_q7.js\" nomodule=\"\"></script>\n<script src=\"/_next/static/chunks/3k60lfaskn_5x.js\" id=\"_R_\" async=\"\"></script>"
       }
     },
     "GET https://developer.indykite.com/": {
@@ -110,7 +110,7 @@
         "url": "https://developer.indykite.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:17:02 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:49 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -119,7 +119,7 @@
           ["cache-control", "public, max-age=0, must-revalidate"],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=8ZJNWeXTw11PF0W%2BUVY0iTn73VKsafz2n7NhLldI00b1mANABBRdJhzQF2gJwTStdpRjgtLOYmqoVKxJogYm28qu8et48t26OJNHfxzGjHbk%2BceQ0yi2ik%2BLInmv8y%2F7jfiOI3szK%2Bxd\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Ml08yDCmj46TeKoHeJxVodYlnttp2hDvJVgIThtWD4I1u%2F14A%2B0qFf%2BuZowR1GroTQkUAsXF%2Fs16fcwjD6P4UzYkHIOEGzjDFfgROijZpROpk0yLUav%2BqbtJsOYI9b0DJLgR7yGJcLHX\"}]}"
           ],
           [
             "content-security-policy",
@@ -136,7 +136,7 @@
           ["etag", "W/\"d3121cbd76b7c1a71a01b52c52495fbc\""],
           ["content-encoding", "br"],
           ["server", "cloudflare"],
-          ["cf-ray", "a456de2748177131-OSL"],
+          ["cf-ray", "a45ad95db9b8d731-CPH"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
         "body": "<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<link rel=\"icon\" type=\"image/png\" href=\"/favicon.png\">\n<meta name=\"description\" content=\"A collection of developer resources, code samples, and guides to easily implement IndyKite products: ContX IQ, AuthZEN authorization, TrustScore, Outbound Events.\">\n<meta name=\"author\" content=\"IndyKite Developer hub\">\n<meta property=\"og:title\" content=\"IndyKite Developer hub - Developer Resources &amp; Guides\">\n<meta property=\"og:description\" content=\"A collection of developer resources, code samples, and guides to easily implement IndyKite products: ContX IQ, AuthZEN authorization, TrustScore, Outbound Events.\">\n<meta property=\"og:type\" content=\"website\">\n<meta content=\"https://developer.indykite.com/assets/images/indykite_developer_hub_opengraph.jpg\" property=\"og:image\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:site\" content=\"@indykite\">\n<link rel=\"stylesheet\" href=\"/_astro/Footer.DtLx1a4W.css\">\n<a href=\"/\"></a>\n<a href=\"/\">Home</a>\n<a href=\"/resources\">Resources</a>\n<a href=\"/terraform\">Terraform</a>\n<a href=\"/guides\">Guides</a>\n<a href=\"/tutorials\">Tutorials</a>\n<a href=\"https://openapi.indykite.com/\">API definitions</a>\n<a href=\"https://forum.indykite.com/\">Forum</a>\n<a href=\"https://github.com/indykite/developer-hub\">Github</a>\n<a href=\"https://eu.hub.indykite.com/\">EU Sandbox Registration</a>\n<a href=\"https://us.hub.indykite.com/\">US Sandbox Registration</a>\n<a href=\"/guides/guide-sandbox\">Getting-Started Guide</a>\n<a href=\"https://github.com/indykite/developer-hub/tree/master/get-started\">Code Examples Repository</a>\n<a href=\"/resources\">View all resources</a>\n<a href=\"/resources/environment-1\">EnvironmentSet Up IndyKite Environment: Project, Application, and CredentialsCreate the foundational</a>\n<a href=\"/resources/residency-1\">EnvironmentData Residency: Composite-Database Project with Location-Routed IngestionSet up a project</a>\n<a href=\"/resources/capture-1\">CaptureIngest Data into the IndyKite Knowledge Graph (IKG)Add nodes (entities) and relationships to </a>\n<a href=\"/resources?category=ContX%20IQ\">View resources</a>\n<a href=\"/resources?category=Token%20Introspect\">View resources</a>\n<a href=\"/resources?category=KBAC\">View resources</a>\n<a href=\"/resources?category=Outbound%20Events\">View resources</a>\n<a href=\"/resources?category=TrustScore\">View resources</a>\n<a href=\"/resources?category=EntityMatching\">View resources</a>\n<a href=\"/resources?category=Environment\">View resources</a>\n<a href=\"/resources?category=Capture\">View resources</a>\n<a href=\"/resources?category=Data%20Schema\">View resources</a>\n<a href=\"/resources?category=External%20Data%20Resolver\">View resources</a>\n<a href=\"/resources?category=MCP\">View resources</a>\n<a href=\"/resources?category=Audit%20Signing\">View resources</a>\n<a href=\"/resources?api=ContX%20IQ\">ContX IQ (24)</a>\n<a href=\"/resources?api=KBAC\">KBAC (9)</a>\n<a href=\"/resources?api=Outbound%20Events\">Outbound Events (4)</a>\n<a href=\"/resources?api=Environment\">Environment (2)</a>\n<a href=\"/resources?api=MCP\">MCP (2)</a>\n<a href=\"/resources?api=External%20Data%20Resolver\">External Data Resolver (2)</a>\n<a href=\"/resources?api=Trust%20Score\">Trust Score (2)</a>\n<a href=\"/resources?api=Capture\">Capture (1)</a>\n<a href=\"https://developer.indykite.com\"></a>\n<a href=\"/resources\">Use cases</a>\n<a href=\"https://openapi.indykite.com/\">OpenAPI definitions</a>\n<a href=\"/guides/guide-skills\">AI agent skills guide</a>\n<a href=\"https://github.com/indykite/skills\">AI agent skills repo</a>\n<a href=\"https://indykite.ai/about/about-us\">About Us</a>\n<a href=\"https://www.indykite.ai/\">Website</a>\n<a href=\"/llms.txt\">AI sitemap: /llms.txt</a>\n<script defer=\"\" src=\"https://static.cloudflareinsights.com/beacon.min.js\" data-cf-beacon=\"{&quot;token&quot;: &quot;2bd6a7526776438d9e9c98371c1f0d69&quot;}\"></script>"
@@ -154,27 +154,9 @@
           ["content-type", "application/javascript; charset=UTF-8"],
           ["vary", "Accept-Encoding"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:02 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:49 GMT"],
           ["x-envoy-upstream-service-time", "4"],
           ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://us.hub.indykite.com/_next/static/chunks/22xlfele-mnpf.js": {
-      "result": {
-        "url": "https://us.hub.indykite.com/_next/static/chunks/22xlfele-mnpf.js",
-        "status": 200,
-        "headers": [
-          ["cache-control", "public, max-age=31536000, immutable"],
-          ["accept-ranges", "bytes"],
-          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
-          ["etag", "W/\"259-1a0f1567be0\""],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["content-length", "601"],
-          ["vary", "Accept-Encoding"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
-          ["x-envoy-upstream-service-time", "2"]
         ],
         "body": ""
       }
@@ -191,8 +173,8 @@
           ["content-type", "application/javascript; charset=UTF-8"],
           ["vary", "Accept-Encoding"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
-          ["x-envoy-upstream-service-time", "5"],
+          ["date", "Mon, 05 Oct 2026 07:52:49 GMT"],
+          ["x-envoy-upstream-service-time", "3"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -210,26 +192,83 @@
           ["content-type", "application/javascript; charset=UTF-8"],
           ["vary", "Accept-Encoding"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:50 GMT"],
           ["x-envoy-upstream-service-time", "3"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
       }
     },
-    "GET https://us.hub.indykite.com/_next/static/chunks/144uk2ksl9gms.js": {
+    "GET https://us.hub.indykite.com/_next/static/chunks/2x2eof9zuqnrz.js": {
       "result": {
-        "url": "https://us.hub.indykite.com/_next/static/chunks/144uk2ksl9gms.js",
+        "url": "https://us.hub.indykite.com/_next/static/chunks/2x2eof9zuqnrz.js",
         "status": 200,
         "headers": [
           ["cache-control", "public, max-age=31536000, immutable"],
           ["accept-ranges", "bytes"],
           ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
-          ["etag", "W/\"98f-1a0f1567be0\""],
+          ["etag", "W/\"51e3-1a0f1567be0\""],
           ["content-type", "application/javascript; charset=UTF-8"],
           ["vary", "Accept-Encoding"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:50 GMT"],
+          ["x-envoy-upstream-service-time", "2"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/0ywvu048cgs-5.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/0ywvu048cgs-5.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"700f-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Mon, 05 Oct 2026 07:52:50 GMT"],
+          ["x-envoy-upstream-service-time", "2"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/13_r20cne5rt_.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/13_r20cne5rt_.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"5629-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Mon, 05 Oct 2026 07:52:50 GMT"],
+          ["x-envoy-upstream-service-time", "4"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://go.apollo.dev/\""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/3k60lfaskn_5x.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/3k60lfaskn_5x.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"1f24-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Mon, 05 Oct 2026 07:52:50 GMT"],
           ["x-envoy-upstream-service-time", "4"],
           ["transfer-encoding", "chunked"]
         ],
@@ -248,49 +287,11 @@
           ["content-type", "application/javascript; charset=UTF-8"],
           ["vary", "Accept-Encoding"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
-          ["x-envoy-upstream-service-time", "2"],
+          ["date", "Mon, 05 Oct 2026 07:52:50 GMT"],
+          ["x-envoy-upstream-service-time", "4"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
-      }
-    },
-    "GET https://us.hub.indykite.com/_next/static/chunks/2x2eof9zuqnrz.js": {
-      "result": {
-        "url": "https://us.hub.indykite.com/_next/static/chunks/2x2eof9zuqnrz.js",
-        "status": 200,
-        "headers": [
-          ["cache-control", "public, max-age=31536000, immutable"],
-          ["accept-ranges", "bytes"],
-          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
-          ["etag", "W/\"51e3-1a0f1567be0\""],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["vary", "Accept-Encoding"],
-          ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
-          ["x-envoy-upstream-service-time", "3"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://us.hub.indykite.com/_next/static/chunks/13_r20cne5rt_.js": {
-      "result": {
-        "url": "https://us.hub.indykite.com/_next/static/chunks/13_r20cne5rt_.js",
-        "status": 200,
-        "headers": [
-          ["cache-control", "public, max-age=31536000, immutable"],
-          ["accept-ranges", "bytes"],
-          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
-          ["etag", "W/\"5629-1a0f1567be0\""],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["vary", "Accept-Encoding"],
-          ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
-          ["x-envoy-upstream-service-time", "3"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://go.apollo.dev/\""
       }
     },
     "GET https://us.hub.indykite.com/_next/static/chunks/1p95wlip_dutu.js": {
@@ -305,49 +306,11 @@
           ["content-type", "application/javascript; charset=UTF-8"],
           ["vary", "Accept-Encoding"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
-          ["x-envoy-upstream-service-time", "4"],
+          ["date", "Mon, 05 Oct 2026 07:52:50 GMT"],
+          ["x-envoy-upstream-service-time", "8"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "\"http://dev.apollodata.com/\"\n\"https://yarnpkg.com/\""
-      }
-    },
-    "GET https://us.hub.indykite.com/_next/static/chunks/3fn-r1lv-etho.js": {
-      "result": {
-        "url": "https://us.hub.indykite.com/_next/static/chunks/3fn-r1lv-etho.js",
-        "status": 200,
-        "headers": [
-          ["cache-control", "public, max-age=31536000, immutable"],
-          ["accept-ranges", "bytes"],
-          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
-          ["etag", "W/\"29609-1a0f1567be0\""],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["vary", "Accept-Encoding"],
-          ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
-          ["x-envoy-upstream-service-time", "7"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://us.hub.indykite.com/_next/static/chunks/3k60lfaskn_5x.js": {
-      "result": {
-        "url": "https://us.hub.indykite.com/_next/static/chunks/3k60lfaskn_5x.js",
-        "status": 200,
-        "headers": [
-          ["cache-control", "public, max-age=31536000, immutable"],
-          ["accept-ranges", "bytes"],
-          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
-          ["etag", "W/\"1f24-1a0f1567be0\""],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["vary", "Accept-Encoding"],
-          ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
-          ["x-envoy-upstream-service-time", "2"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
       }
     },
     "GET https://us.hub.indykite.com/_next/static/chunks/1ltmxcws50his.js": {
@@ -362,27 +325,64 @@
           ["content-type", "application/javascript; charset=UTF-8"],
           ["vary", "Accept-Encoding"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
-          ["x-envoy-upstream-service-time", "3"],
+          ["date", "Mon, 05 Oct 2026 07:52:50 GMT"],
+          ["x-envoy-upstream-service-time", "5"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
       }
     },
-    "GET https://us.hub.indykite.com/_next/static/chunks/0ywvu048cgs-5.js": {
+    "GET https://us.hub.indykite.com/_next/static/chunks/22xlfele-mnpf.js": {
       "result": {
-        "url": "https://us.hub.indykite.com/_next/static/chunks/0ywvu048cgs-5.js",
+        "url": "https://us.hub.indykite.com/_next/static/chunks/22xlfele-mnpf.js",
         "status": 200,
         "headers": [
           ["cache-control", "public, max-age=31536000, immutable"],
           ["accept-ranges", "bytes"],
           ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
-          ["etag", "W/\"700f-1a0f1567be0\""],
+          ["etag", "W/\"259-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["content-length", "601"],
+          ["vary", "Accept-Encoding"],
+          ["date", "Mon, 05 Oct 2026 07:52:50 GMT"],
+          ["x-envoy-upstream-service-time", "4"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/144uk2ksl9gms.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/144uk2ksl9gms.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"98f-1a0f1567be0\""],
           ["content-type", "application/javascript; charset=UTF-8"],
           ["vary", "Accept-Encoding"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
-          ["x-envoy-upstream-service-time", "2"],
+          ["date", "Mon, 05 Oct 2026 07:52:50 GMT"],
+          ["x-envoy-upstream-service-time", "7"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/3fn-r1lv-etho.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/3fn-r1lv-etho.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"29609-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Mon, 05 Oct 2026 07:52:50 GMT"],
+          ["x-envoy-upstream-service-time", "6"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -400,8 +400,27 @@
           ["content-type", "application/javascript; charset=UTF-8"],
           ["vary", "Accept-Encoding"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
-          ["x-envoy-upstream-service-time", "3"],
+          ["date", "Mon, 05 Oct 2026 07:52:50 GMT"],
+          ["x-envoy-upstream-service-time", "5"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://us.hub.indykite.com/_next/static/chunks/0_5jy3c5m3s9y.js": {
+      "result": {
+        "url": "https://us.hub.indykite.com/_next/static/chunks/0_5jy3c5m3s9y.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["accept-ranges", "bytes"],
+          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
+          ["etag", "W/\"c221-1a0f1567be0\""],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["vary", "Accept-Encoding"],
+          ["content-encoding", "gzip"],
+          ["date", "Mon, 05 Oct 2026 07:52:50 GMT"],
+          ["x-envoy-upstream-service-time", "5"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -419,30 +438,11 @@
           ["content-type", "application/javascript; charset=UTF-8"],
           ["vary", "Accept-Encoding"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
-          ["x-envoy-upstream-service-time", "4"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://bit.ly/\"\n\"https://stalniy.github.io/\""
-      }
-    },
-    "GET https://us.hub.indykite.com/_next/static/chunks/0_5jy3c5m3s9y.js": {
-      "result": {
-        "url": "https://us.hub.indykite.com/_next/static/chunks/0_5jy3c5m3s9y.js",
-        "status": 200,
-        "headers": [
-          ["cache-control", "public, max-age=31536000, immutable"],
-          ["accept-ranges", "bytes"],
-          ["last-modified", "Wed, 30 Sep 2026 08:02:52 GMT"],
-          ["etag", "W/\"c221-1a0f1567be0\""],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["vary", "Accept-Encoding"],
-          ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:50 GMT"],
           ["x-envoy-upstream-service-time", "3"],
           ["transfer-encoding", "chunked"]
         ],
-        "body": ""
+        "body": "\"https://bit.ly/\"\n\"https://stalniy.github.io/\""
       }
     },
     "GET https://us.hub.indykite.com/_next/static/chunks/0cz1d0mv5g_q7.js": {
@@ -457,7 +457,7 @@
           ["content-type", "application/javascript; charset=UTF-8"],
           ["vary", "Accept-Encoding"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:50 GMT"],
           ["x-envoy-upstream-service-time", "5"],
           ["transfer-encoding", "chunked"]
         ],
@@ -476,7 +476,7 @@
           ["content-type", "application/javascript; charset=UTF-8"],
           ["vary", "Accept-Encoding"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:50 GMT"],
           ["x-envoy-upstream-service-time", "6"],
           ["transfer-encoding", "chunked"]
         ],
@@ -495,8 +495,8 @@
           ["content-type", "application/javascript; charset=UTF-8"],
           ["vary", "Accept-Encoding"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
-          ["x-envoy-upstream-service-time", "5"],
+          ["date", "Mon, 05 Oct 2026 07:52:50 GMT"],
+          ["x-envoy-upstream-service-time", "4"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "\"https://chrome.google.com/\""
@@ -514,8 +514,8 @@
           ["content-type", "application/javascript; charset=UTF-8"],
           ["vary", "Accept-Encoding"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
-          ["x-envoy-upstream-service-time", "4"],
+          ["date", "Mon, 05 Oct 2026 07:52:50 GMT"],
+          ["x-envoy-upstream-service-time", "5"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -533,8 +533,8 @@
           ["content-type", "application/javascript; charset=UTF-8"],
           ["vary", "Accept-Encoding"],
           ["content-encoding", "gzip"],
-          ["date", "Sun, 04 Oct 2026 20:17:03 GMT"],
-          ["x-envoy-upstream-service-time", "3"],
+          ["date", "Mon, 05 Oct 2026 07:52:49 GMT"],
+          ["x-envoy-upstream-service-time", "5"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "\"https://docs.sentry.io/\""
@@ -542,17 +542,17 @@
     }
   },
   "dns": {
-    "NS indykite.com": {
-      "result": {
-        "name": "indykite.com",
-        "type": "NS",
-        "records": ["april.ns.cloudflare.com", "dexter.ns.cloudflare.com"]
-      }
-    },
     "AAAA indykite.com": {
       "result": {
         "name": "indykite.com",
         "type": "AAAA",
+        "records": []
+      }
+    },
+    "CNAME indykite.com": {
+      "result": {
+        "name": "indykite.com",
+        "type": "CNAME",
         "records": []
       }
     },
@@ -563,11 +563,11 @@
         "records": ["198.202.211.1"]
       }
     },
-    "CNAME indykite.com": {
+    "NS indykite.com": {
       "result": {
         "name": "indykite.com",
-        "type": "CNAME",
-        "records": []
+        "type": "NS",
+        "records": ["dexter.ns.cloudflare.com", "april.ns.cloudflare.com"]
       }
     },
     "TXT 1.211.202.198.origin.asn.cymru.com": {
@@ -607,58 +607,9 @@
         "records": []
       }
     },
-    "CNAME dashboard.indykite.com": {
-      "result": {
-        "name": "dashboard.indykite.com",
-        "type": "CNAME",
-        "records": []
-      }
-    },
-    "A api.indykite.com": {
-      "result": {
-        "name": "api.indykite.com",
-        "type": "A",
-        "records": []
-      }
-    },
-    "CNAME status.indykite.com": {
-      "result": {
-        "name": "status.indykite.com",
-        "type": "CNAME",
-        "records": []
-      }
-    },
-    "CNAME portal.indykite.com": {
-      "result": {
-        "name": "portal.indykite.com",
-        "type": "CNAME",
-        "records": []
-      }
-    },
     "CNAME app.indykite.com": {
       "result": {
         "name": "app.indykite.com",
-        "type": "CNAME",
-        "records": []
-      }
-    },
-    "A console.indykite.com": {
-      "result": {
-        "name": "console.indykite.com",
-        "type": "A",
-        "records": []
-      }
-    },
-    "CNAME console.indykite.com": {
-      "result": {
-        "name": "console.indykite.com",
-        "type": "CNAME",
-        "records": []
-      }
-    },
-    "CNAME api.indykite.com": {
-      "result": {
-        "name": "api.indykite.com",
         "type": "CNAME",
         "records": []
       }
@@ -670,10 +621,52 @@
         "records": []
       }
     },
-    "A portal.indykite.com": {
+    "CNAME status.indykite.com": {
+      "result": {
+        "name": "status.indykite.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "CNAME dashboard.indykite.com": {
+      "result": {
+        "name": "dashboard.indykite.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "CNAME console.indykite.com": {
+      "result": {
+        "name": "console.indykite.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "A api.indykite.com": {
+      "result": {
+        "name": "api.indykite.com",
+        "type": "A",
+        "records": []
+      }
+    },
+    "A console.indykite.com": {
+      "result": {
+        "name": "console.indykite.com",
+        "type": "A",
+        "records": []
+      }
+    },
+    "CNAME portal.indykite.com": {
       "result": {
         "name": "portal.indykite.com",
-        "type": "A",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "CNAME api.indykite.com": {
+      "result": {
+        "name": "api.indykite.com",
+        "type": "CNAME",
         "records": []
       }
     },
@@ -684,10 +677,10 @@
         "records": []
       }
     },
-    "NS us.hub.indykite.com": {
+    "A portal.indykite.com": {
       "result": {
-        "name": "us.hub.indykite.com",
-        "type": "NS",
+        "name": "portal.indykite.com",
+        "type": "A",
         "records": []
       }
     },
@@ -698,10 +691,10 @@
         "records": ["34.26.82.238"]
       }
     },
-    "AAAA us.hub.indykite.com": {
+    "NS us.hub.indykite.com": {
       "result": {
         "name": "us.hub.indykite.com",
-        "type": "AAAA",
+        "type": "NS",
         "records": []
       }
     },
@@ -719,23 +712,16 @@
         "records": ["ik-docs.web.app"]
       }
     },
-    "NS hub.indykite.com": {
+    "AAAA us.hub.indykite.com": {
       "result": {
-        "name": "hub.indykite.com",
-        "type": "NS",
+        "name": "us.hub.indykite.com",
+        "type": "AAAA",
         "records": []
       }
     },
-    "A docs.indykite.com": {
+    "NS hub.indykite.com": {
       "result": {
-        "name": "docs.indykite.com",
-        "type": "A",
-        "records": ["199.36.158.100"]
-      }
-    },
-    "NS docs.indykite.com": {
-      "result": {
-        "name": "docs.indykite.com",
+        "name": "hub.indykite.com",
         "type": "NS",
         "records": []
       }
@@ -747,6 +733,13 @@
         "records": ["2620:0:890::100"]
       }
     },
+    "A docs.indykite.com": {
+      "result": {
+        "name": "docs.indykite.com",
+        "type": "A",
+        "records": ["199.36.158.100"]
+      }
+    },
     "CNAME ik-docs.web.app": {
       "result": {
         "name": "ik-docs.web.app",
@@ -754,21 +747,11 @@
         "records": []
       }
     },
-    "TXT 238.82.26.34.origin.asn.cymru.com": {
+    "NS docs.indykite.com": {
       "result": {
-        "name": "238.82.26.34.origin.asn.cymru.com",
-        "type": "TXT",
-        "records": [
-          "396982 | 34.26.0.0/16 | US | arin | 2022-05-09",
-          "396982 | 34.16.0.0/12 | US | arin | 2022-05-09"
-        ]
-      }
-    },
-    "TXT as396982.asn.cymru.com": {
-      "result": {
-        "name": "AS396982.asn.cymru.com",
-        "type": "TXT",
-        "records": ["396982 | US | arin | 2018-08-15 | GOOGLE-CLOUD-PLATFORM - Google LLC, US"]
+        "name": "docs.indykite.com",
+        "type": "NS",
+        "records": []
       }
     },
     "TXT 100.158.36.199.origin.asn.cymru.com": {
@@ -783,6 +766,23 @@
         "name": "AS54113.asn.cymru.com",
         "type": "TXT",
         "records": ["54113 | US | arin | 2011-10-04 | FASTLY - Fastly, Inc., US"]
+      }
+    },
+    "TXT 238.82.26.34.origin.asn.cymru.com": {
+      "result": {
+        "name": "238.82.26.34.origin.asn.cymru.com",
+        "type": "TXT",
+        "records": [
+          "396982 | 34.16.0.0/12 | US | arin | 2022-05-09",
+          "396982 | 34.26.0.0/16 | US | arin | 2022-05-09"
+        ]
+      }
+    },
+    "TXT as396982.asn.cymru.com": {
+      "result": {
+        "name": "AS396982.asn.cymru.com",
+        "type": "TXT",
+        "records": ["396982 | US | arin | 2018-08-15 | GOOGLE-CLOUD-PLATFORM - Google LLC, US"]
       }
     }
   },
