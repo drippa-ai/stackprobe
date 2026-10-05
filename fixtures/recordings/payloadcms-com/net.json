@@ -1,6 +1,6 @@
 {
   "url": "https://payloadcms.com/",
-  "recordedAt": "2026-10-04T20:16:52.073Z",
+  "recordedAt": "2026-10-05T07:52:31.200Z",
   "http": {
     "GET https://payloadcms.com/": {
       "result": {
@@ -9,14 +9,14 @@
         "headers": [
           ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
           ["access-control-allow-origin", "*"],
-          ["age", "541559"],
+          ["age", "583298"],
           ["cache-control", "max-age=0, s-maxage=31536000, stale-while-revalidate"],
           ["content-disposition", "inline"],
           ["content-encoding", "br"],
           ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
           ["content-type", "text/html; charset=utf-8"],
           ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
           ["etag", "W/\"3b1bcf712183be01da1eb1b55c0883e6\""],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
@@ -30,7 +30,7 @@
           ["x-nextjs-stale-time", "300"],
           ["x-powered-by", "Next.js, Payload"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::8dqhn-1791145012228-683c1a40becd"],
+          ["x-vercel-id", "arn1::5rz45-1791186751270-c95e59bbf55a"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"preload\" href=\"/_next/static/media/096fc0a920206bee-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/media/0a519dad0c4c2790-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/media/32d694b729e49e86-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/media/5566c67f1508ae8a-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/media/5b01f339abf2f1a5.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/media/716743f5eba8aa5c-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/media/739c2d8941231bb4-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/media/77e7188387b00f5d-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/media/bb521019c7c7526d-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/media/c86d5e148479770d-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/media/d8aa0c7d96365198-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"preload\" href=\"/_next/static/media/fbc69893487b1118-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/288866e4842272b0.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/023bbe7ca10a9a88.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/15bf72d263e50e62.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/0bf1c3cec40ed4d0.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/08a586a0f33b4cd5.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/c2c7ce737a2ff1e1.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/b90c030fa12f791d.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/b029e2d221abaa85.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/d61da7d5e70fd447.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/352ac3638c9eb80c.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/e912d6ae00551635.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/3953ed54debf3020.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/9c0fff44b907be34.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/fc598ab0b922d212.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/9c2fa9966c7583ab.css\" data-precedence=\"next\">\n<link rel=\"stylesheet\" href=\"/_next/static/css/4d643b54cdd31edb.css\" data-precedence=\"next\">\n<link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"/_next/static/chunks/webpack-f2c88a646a62c3c1.js\">\n<script src=\"/_next/static/chunks/6d7c96b5-d0a90eb3a3a7d427.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3172-ba8c9c397c1c8193.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/main-app-c1e57933769cc396.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2222-fdbaa823d311f6d9.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/global-error-a108230083c77df4.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/4881-bdcfa09a28329a4a.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/8684-41a3a1a0d5a94480.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/8177-2febf00a6c356acd.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/5783-856ea3b0345b5966.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/6838-c1a944662a9e0d01.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/(frontend)/layout-c51f61fc093cee1f.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/(frontend)/error-002af63e2cdf82ca.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/4945-09e92659cf9ba037.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/4885-e060676f8104b8c7.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/707-2b139d2b029267c3.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/5835-dfb16612ac55500e.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2111-f429a6384648040b.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/6385-38281a2ddd5d7f0e.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2565-845dc26e6176a5a8.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/4912-8f8be98dd2cd2382.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/(frontend)/(pages)/layout-289a54135bb83ae7.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/(frontend)/not-found-d0364140cf3601ed.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/4014-896bc0c5210ed229.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/2566-6a1dfd3a77acdce4.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/9261-5473bee226d654e3.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/6890-21f8d46a154bfd03.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3466-9e592bceb152ec0a.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/3002-fcd9a90f8c377cde.js\" async=\"\"></script>\n<script src=\"/_next/static/chunks/app/(frontend)/(pages)/%5B...slug%5D/page-c6111370c9d75665.js\" async=\"\"></script>\n<link rel=\"preload\" href=\"https://cdn.jsdelivr.net/npm/@docsearch/css@3\" as=\"style\">\n<link rel=\"preload\" href=\"/_next/static/chunks/1158.d1db3858cdd82060.js\" as=\"script\" fetchpriority=\"low\">\n<link rel=\"preload\" href=\"/_next/static/chunks/8200.5d456a499c750d27.js\" as=\"script\" fetchpriority=\"low\">\n<meta name=\"next-size-adjust\" content=\"\">\n<link href=\"/images/favicon.svg\" rel=\"icon\">\n<link href=\"https://cloud-api.payloadcms.com\" rel=\"dns-prefetch\">\n<link href=\"https://api.github.com/repos/payloadcms/payload\" rel=\"dns-prefetch\">\n<link href=\"https://www.googletagmanager.com\" rel=\"preconnect\">\n<link href=\"https://www.google-analytics.com\" rel=\"preconnect\">\n<meta name=\"description\" content=\"Built with TypeScript and React, Payload is an open-source headless CMS and application framework. Build anything.\">\n<meta property=\"og:title\" content=\"Payload: The Next.js Headless CMS and App Framework\">\n<meta property=\"og:description\" content=\"Built with TypeScript and React, Payload is an open-source headless CMS and application framework. Build anything.\">\n<meta property=\"og:url\" content=\"https://payloadcms.com\">\n<meta property=\"og:site_name\" content=\"Payload\">\n<meta property=\"og:image\" content=\"https://payloadcms.com/images/og-image.jpg\">\n<meta property=\"og:type\" content=\"website\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:creator\" content=\"@payloadcms\">\n<meta name=\"twitter:title\" content=\"Payload: The Next.js Headless CMS and App Framework\">\n<meta name=\"twitter:description\" content=\"Built with TypeScript and React, Payload is an open-source headless CMS and application framework. Build anything.\">\n<meta name=\"twitter:image\" content=\"https://payloadcms.com/images/og-image.jpg\">\n<link rel=\"apple-touch-icon\" href=\"/apple-icon.png?ecf0fe126546bd55\" type=\"image/png\" sizes=\"512x512\">\n<link href=\"https://cdn.jsdelivr.net/npm/@docsearch/css@3\" rel=\"stylesheet\">\n<script src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\" nomodule=\"\"></script>\n<a href=\"/\"></a>\n<a href=\"/use-cases\">Product</a>\n<a href=\"/talk-to-us\">Schedule a Demo</a>\n<a href=\"/use-cases/headless-cms\">Headless CMS</a>\n<a href=\"/use-cases/enterprise-app-builder\">Enterprise App Builder</a>\n<a href=\"/use-cases/headless-ecommerce\">Headless E-Commerce</a>\n<a href=\"/use-cases/digital-asset-management\">Digital Asset Management</a>\n<a href=\"/multi-tenancy\">Multi-Tenancy</a>\n<a href=\"/white-label-cms-admin-panel\">White Label</a>\n<a href=\"/localization\">Localization</a>\n<a href=\"/access-control\">Access Control</a>\n<a href=\"/headless-cms-auth\">Auth</a>\n<a href=\"/case-studies\">Browse Case Studies</a>\n<a href=\"/developers\">Developers</a>\n<a href=\"/marketers\">Marketing teams</a>\n<a href=\"/enterprise\">Enterprise companies</a>\n<a href=\"/become-a-partner\">Agencies &amp; Consultancies</a>\n<a href=\"/compare/wordpress\">Payload vs WordPress</a>\n<a href=\"/compare/contentful\">Payload vs Contentful</a>\n<a href=\"/compare/sanity\">Payload vs Sanity</a>\n<a href=\"/compare/strapi\">Payload vs Strapi</a>\n<a href=\"/compare/directus\">Payload vs Directus</a>\n<a href=\"/become-a-partner\">Become a Partner</a>\n<a href=\"/partners\">Find a Partner</a>\n<a href=\"/docs\">Documentation</a>\n<a href=\"https://github.com/payloadcms/payload/tree/main/examples\">Examples</a>\n<a href=\"https://github.com/payloadcms/payload/tree/main/templates\">Templates</a>\n<a href=\"https://github.com/payloadcms/payload\">GitHub</a>\n<a href=\"https://github.com/payloadcms/payload/releases\">Releases</a>\n<a href=\"/blog\">Blog</a>\n<a href=\"/posts/guides\">Guides &amp; Tutorials</a>\n<a href=\"https://github.com/payloadcms/payload/discussions/categories/roadmap\">Roadmap</a>\n<a href=\"https://discord.com/invite/r6sCXqVk3v\">Discord</a>\n<a href=\"/community-help\">Community Help</a>\n<a href=\"/docs\">Explore Docs</a>\n<a href=\"/enterprise\">Enterprise</a>\n<a href=\"/enterprise/single-sign-on-sso\">SSO</a>\n<a href=\"/enterprise/ai-framework\">AI Auto-Embedding</a>\n<a href=\"/enterprise/publishing-workflows\">Publishing Workflows</a>\n<a href=\"/enterprise/visual-editor\">Visual Editor</a>\n<a href=\"/enterprise/headless-ab-variant-testing\">Static A/B testing</a>\n<a href=\"/enterprise/enterprise-ai\">AI features</a>\n<a href=\"/case-studies/microsoft\">Microsoft</a>\n<a href=\"/case-studies/asics\">ASICS</a>\n<a href=\"/case-studies/blue-origin-club-for-the-future\">Blue Origin</a>\n<a href=\"/case-studies/hello-bello\">Hello Bello</a>\n<a href=\"/case-studies/tekton\">Tekton</a>\n<a href=\"/case-studies/microsoft\">Read the case study</a>\n<a href=\"/case-studies\">Browse all</a>\n<a href=\"/docs\">Docs</a>\n<a href=\"https://github.com/payloadcms/payload\"></a>\n<a href=\"/login\">Login</a>\n<a href=\"/get-started\">Get Started</a>\n<a href=\"/talk-to-us\">Get a DemoGet a Demo</a>\n<a href=\"/use-cases/headless-ecommerce\">Headless eCommerce</a>\n<a href=\"/talk-to-us\">Schedule a demoSchedule a demo</a>\n<a href=\"/case-studies/blue-origin-club-for-the-future\">“Utilizing Payload enabled us to implement our digital postcards tool quickly and easily, engaging t</a>\n<a href=\"/case-studies/microsoft\">“Building with Payload can be done quickly and effectively, thanks to its code-based customization a</a>\n<a href=\"/case-studies/hello-bello\">“Payload had all the core features we needed to get started quickly, and the flexibility to make it </a>\n<a href=\"/case-studies/tekton\">“We were impressed by the built-in flexibility and extensibility that kept our development workflow </a>\n<a href=\"/case-studies/paper-triangles\">“What we found so user-friendly was how simple the UI was to edit and manage content. Things were no</a>\n<a href=\"https://www.payloadcms.com/docs\">Learn more</a>\n<a href=\"/enterprise/visual-editor\">Learn more</a>\n<a href=\"/enterprise/ai-framework\">Learn more</a>\n<a href=\"/developers\">Learn more</a>\n<a href=\"/talk-to-us\">Schedule a DemoSchedule a Demo</a>\n<a href=\"https://payloadcms.com/get-started\">Get StartedGet Started</a>\n<a href=\"/use-cases/headless-cms\">Content Management System</a>\n<a href=\"/docs/getting-started/what-is-payload\">Documentation</a>\n<a href=\"https://github.com/payloadcms/payload/discussions/categories/roadmap?discussions_q=category%3ARoadmap+\">Roadmap</a>\n<a href=\"/get-started\">Pricing</a>\n<a href=\"/talk-to-us\">Enterprise</a>\n<a href=\"/case-studies\">Case Studies</a>\n<a href=\"/become-a-partner\">Partner With Us</a>\n<a href=\"/security\">Security</a>\n<a href=\"/compare\">Compare Payload</a>\n<a href=\"/cloud-terms\">Terms of Service</a>\n<a href=\"/privacy\">Privacy Policy</a>\n<a href=\"/contact\">Contact</a>\n<a href=\"https://twitter.com/payloadcms\"></a>\n<a href=\"https://discord.com/invite/r6sCXqVk3v\"></a>\n<a href=\"https://www.youtube.com/channel/UCyrx4Wpd4SBIpqUKlkb6N1Q\"></a>\n<a href=\"https://www.instagram.com/payloadcms/\"></a>\n<script src=\"/_next/static/chunks/webpack-f2c88a646a62c3c1.js\" id=\"_R_\" async=\"\"></script>"
@@ -43,16 +43,16 @@
         "headers": [
           ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
           ["access-control-allow-origin", "*"],
-          ["age", "34666"],
+          ["age", "2514"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"6d7c96b5-d0a90eb3a3a7d427.js\""],
           ["content-encoding", "br"],
           ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
           ["content-type", "application/javascript; charset=utf-8"],
           ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
           ["etag", "W/\"4d32f8005f9aaa8f20d598c04c195cba\""],
-          ["last-modified", "Sun, 04 Oct 2026 10:39:05 GMT"],
+          ["last-modified", "Mon, 05 Oct 2026 07:10:38 GMT"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
           ["vary", "Sec-CH-Prefers-Color-Scheme"],
@@ -60,68 +60,8 @@
           ["x-matched-path", "/_next/static/chunks/6d7c96b5-d0a90eb3a3a7d427.js"],
           ["x-powered-by", "Next.js, Payload"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::8dqhn-1791145012312-d7978216f334"],
+          ["x-vercel-id", "arn1::m525c-1791186753500-a7fc016683cc"],
           ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/app/global-error-a108230083c77df4.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/app/global-error-a108230083c77df4.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["accept-ranges", "bytes"],
-          ["access-control-allow-origin", "*"],
-          ["age", "365401"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"global-error-a108230083c77df4.js\""],
-          ["content-length", "394"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "\"f722a8626159f8a93b1df26c8bc99232\""],
-          ["last-modified", "Wed, 30 Sep 2026 14:30:03 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/app/global-error-a108230083c77df4.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::hz5f6-1791145012372-7280974d5c6d"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/main-app-c1e57933769cc396.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/main-app-c1e57933769cc396.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["accept-ranges", "bytes"],
-          ["access-control-allow-origin", "*"],
-          ["age", "365807"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"main-app-c1e57933769cc396.js\""],
-          ["content-length", "484"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "\"537f86481dcb59d93e6611651d572766\""],
-          ["last-modified", "Wed, 30 Sep 2026 14:40:05 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/main-app-c1e57933769cc396.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::4vhcm-1791145012372-69c46d85335e"]
         ],
         "body": ""
       }
@@ -133,14 +73,14 @@
         "headers": [
           ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
           ["access-control-allow-origin", "*"],
-          ["age", "319644"],
+          ["age", "361385"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"2222-fdbaa823d311f6d9.js\""],
           ["content-encoding", "br"],
           ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
           ["content-type", "application/javascript; charset=utf-8"],
           ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
           ["etag", "W/\"27ef1f5ed8cc5ae6fc01f325cb88423d\""],
           ["last-modified", "Thu, 01 Oct 2026 03:29:28 GMT"],
           ["server", "Vercel"],
@@ -150,67 +90,7 @@
           ["x-matched-path", "/_next/static/chunks/2222-fdbaa823d311f6d9.js"],
           ["x-powered-by", "Next.js, Payload"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::5zs6c-1791145012368-cb613db84133"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/4881-bdcfa09a28329a4a.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/4881-bdcfa09a28329a4a.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "365807"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"4881-bdcfa09a28329a4a.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"61a442711ef33ae263012ef3ef399881\""],
-          ["last-modified", "Wed, 30 Sep 2026 14:40:05 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/4881-bdcfa09a28329a4a.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::r8w7l-1791145012372-ac0ceac1dd2d"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/5783-856ea3b0345b5966.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/5783-856ea3b0345b5966.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "366504"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"5783-856ea3b0345b5966.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"12f5e5dd0d66d698deeb6b80abc87c4a\""],
-          ["last-modified", "Wed, 30 Sep 2026 14:28:28 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/5783-856ea3b0345b5966.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::l6ptz-1791145012386-227059a3b141"],
+          ["x-vercel-id", "arn1::k7gl6-1791186753535-4a32032a679c"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -223,14 +103,14 @@
         "headers": [
           ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
           ["access-control-allow-origin", "*"],
-          ["age", "366314"],
+          ["age", "408055"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"layout-c51f61fc093cee1f.js\""],
           ["content-encoding", "br"],
           ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
           ["content-type", "application/javascript; charset=utf-8"],
           ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
           ["etag", "W/\"fdda217e890cb826ce39e7399114d429\""],
           ["last-modified", "Wed, 30 Sep 2026 14:31:37 GMT"],
           ["server", "Vercel"],
@@ -240,643 +120,37 @@
           ["x-matched-path", "/_next/static/chunks/app/(frontend)/layout-c51f61fc093cee1f.js"],
           ["x-powered-by", "Next.js, Payload"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::cdpft-1791145012386-6b4b776b0388"],
+          ["x-vercel-id", "arn1::qxvx7-1791186753532-e805fbedd822"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "\"https://cloud-api.payloadcms.com/\"\n\"https://www.googletagmanager.com/\""
       }
     },
-    "GET https://payloadcms.com/_next/static/chunks/2566-6a1dfd3a77acdce4.js": {
+    "GET https://payloadcms.com/_next/static/chunks/8684-41a3a1a0d5a94480.js": {
       "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/2566-6a1dfd3a77acdce4.js",
+        "url": "https://payloadcms.com/_next/static/chunks/8684-41a3a1a0d5a94480.js",
         "status": 200,
         "headers": [
           ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
           ["access-control-allow-origin", "*"],
-          ["age", "5868"],
+          ["age", "4577"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2566-6a1dfd3a77acdce4.js\""],
+          ["content-disposition", "inline; filename=\"8684-41a3a1a0d5a94480.js\""],
           ["content-encoding", "br"],
           ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
           ["content-type", "application/javascript; charset=utf-8"],
           ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"716178107254b28701fceb21b6d22ba6\""],
-          ["last-modified", "Sun, 04 Oct 2026 18:39:04 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"4772139f0d2532386ce735075e97f7ea\""],
+          ["last-modified", "Mon, 05 Oct 2026 06:36:15 GMT"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
           ["vary", "Sec-CH-Prefers-Color-Scheme"],
           ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/2566-6a1dfd3a77acdce4.js"],
+          ["x-matched-path", "/_next/static/chunks/8684-41a3a1a0d5a94480.js"],
           ["x-powered-by", "Next.js, Payload"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::rnjzl-1791145012394-e6ff5a1250ed"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/4945-09e92659cf9ba037.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/4945-09e92659cf9ba037.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "10522"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"4945-09e92659cf9ba037.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"9f8b8723c0f82cf54f62b33f672d67bf\""],
-          ["last-modified", "Sun, 04 Oct 2026 17:21:30 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/4945-09e92659cf9ba037.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::lpzmg-1791145012394-f933d402a07d"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/8177-2febf00a6c356acd.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/8177-2febf00a6c356acd.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "364965"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"8177-2febf00a6c356acd.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"cd9512911bec5a6619207498c0e2e3bc\""],
-          ["last-modified", "Wed, 30 Sep 2026 14:54:06 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/8177-2febf00a6c356acd.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::bf226-1791145012386-c38a0cdd4b65"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/6838-c1a944662a9e0d01.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/6838-c1a944662a9e0d01.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "319643"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"6838-c1a944662a9e0d01.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"e0313b81fb5319f55885bf2ac8798cfe\""],
-          ["last-modified", "Thu, 01 Oct 2026 03:29:28 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/6838-c1a944662a9e0d01.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::6s9x9-1791145012394-ba76902a5a9e"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/5835-dfb16612ac55500e.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/5835-dfb16612ac55500e.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "323195"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"5835-dfb16612ac55500e.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"e41ab964c098e8b03bc6b006626d99de\""],
-          ["last-modified", "Thu, 01 Oct 2026 02:30:17 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/5835-dfb16612ac55500e.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::l6ptz-1791145012398-678f1cae0f92"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/4885-e060676f8104b8c7.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/4885-e060676f8104b8c7.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "331814"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"4885-e060676f8104b8c7.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"e896ce03e74a2abdb10b63df2712b2c5\""],
-          ["last-modified", "Thu, 01 Oct 2026 00:06:37 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/4885-e060676f8104b8c7.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::rddrp-1791145012398-32d8fa77ca0f"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/3466-9e592bceb152ec0a.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/3466-9e592bceb152ec0a.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "366314"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3466-9e592bceb152ec0a.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"b1c032cc5ebad4c4625cd395a32cf6c1\""],
-          ["last-modified", "Wed, 30 Sep 2026 14:31:37 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/3466-9e592bceb152ec0a.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::6pnxj-1791145012398-c381dcd312ba"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://l4wlsi8vxy8hre4v.public.blob.vercel-storage.com/\""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/6385-38281a2ddd5d7f0e.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/6385-38281a2ddd5d7f0e.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "364761"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"6385-38281a2ddd5d7f0e.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"dfcb419cd4aeb3ec34f4907d430322c4\""],
-          ["last-modified", "Wed, 30 Sep 2026 14:57:30 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/6385-38281a2ddd5d7f0e.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::qx46t-1791145012394-9a286369bd86"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/app/(frontend)/(pages)/%5B...slug%5D/page-c6111370c9d75665.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/app/(frontend)/(pages)/%5B...slug%5D/page-c6111370c9d75665.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["accept-ranges", "bytes"],
-          ["access-control-allow-origin", "*"],
-          ["age", "365178"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"page-c6111370c9d75665.js\""],
-          ["content-length", "257"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "\"cab32dce62d3af852a3af465499caf09\""],
-          ["last-modified", "Wed, 30 Sep 2026 14:50:33 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          [
-            "x-matched-path",
-            "/_next/static/chunks/app/(frontend)/(pages)/%5B...slug%5D/page-c6111370c9d75665.js"
-          ],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::qhmlb-1791145012398-6f7b8981851a"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/3002-fcd9a90f8c377cde.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/3002-fcd9a90f8c377cde.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "34564"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3002-fcd9a90f8c377cde.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"c09c5a4dff9e02e37eda2191f35f05fa\""],
-          ["last-modified", "Sun, 04 Oct 2026 10:40:47 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/3002-fcd9a90f8c377cde.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::cdpft-1791145012398-75af63ea5a5b"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://payloadcms.com/\"\n\"https://www.youtube.com/\""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/9261-5473bee226d654e3.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/9261-5473bee226d654e3.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "364713"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"9261-5473bee226d654e3.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"40620a3e41306896681a2793a7fd12ba\""],
-          ["last-modified", "Wed, 30 Sep 2026 14:58:18 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/9261-5473bee226d654e3.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::lhkdx-1791145012398-e65edd9a59de"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"http://fb.me/\""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/6890-21f8d46a154bfd03.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/6890-21f8d46a154bfd03.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "365138"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"6890-21f8d46a154bfd03.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"8bbb81ebe251650a267afb60602cecb2\""],
-          ["last-modified", "Wed, 30 Sep 2026 14:51:13 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/6890-21f8d46a154bfd03.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::8pg5t-1791145012398-6715c1f50c5b"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://payloadcms.com/\""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/4912-8f8be98dd2cd2382.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/4912-8f8be98dd2cd2382.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "328506"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"4912-8f8be98dd2cd2382.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"d0087e9b09383c823ff39f2648fe3f07\""],
-          ["last-modified", "Thu, 01 Oct 2026 01:01:46 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/4912-8f8be98dd2cd2382.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::vvjn7-1791145012394-ed7688a833f0"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://discord.com/\"\n\"https://payloadcms.com/\"\n\"https://twitter.com/\"\n\"https://www.instagram.com/\"\n\"https://www.youtube.com/\""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/app/(frontend)/(pages)/layout-289a54135bb83ae7.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/app/(frontend)/(pages)/layout-289a54135bb83ae7.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["accept-ranges", "bytes"],
-          ["access-control-allow-origin", "*"],
-          ["age", "326874"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"layout-289a54135bb83ae7.js\""],
-          ["content-length", "324"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "\"ba192f40bee045059ed1fe45e4ece65e\""],
-          ["last-modified", "Thu, 01 Oct 2026 01:28:57 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          [
-            "x-matched-path",
-            "/_next/static/chunks/app/(frontend)/(pages)/layout-289a54135bb83ae7.js"
-          ],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::ll4qf-1791145012398-57fbaebededb"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/app/(frontend)/not-found-d0364140cf3601ed.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/app/(frontend)/not-found-d0364140cf3601ed.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "328506"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"not-found-d0364140cf3601ed.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"7034e3663b0e2dd4c5d252eca06bc62a\""],
-          ["last-modified", "Thu, 01 Oct 2026 01:01:46 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/app/(frontend)/not-found-d0364140cf3601ed.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::nslqd-1791145012398-18404700aca3"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://l4wlsi8vxy8hre4v.public.blob.vercel-storage.com/\""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/2565-845dc26e6176a5a8.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/2565-845dc26e6176a5a8.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "364761"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2565-845dc26e6176a5a8.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"1a7e0cc12b1507e9fae83d1b4ac22492\""],
-          ["last-modified", "Wed, 30 Sep 2026 14:57:30 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/2565-845dc26e6176a5a8.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::twqzn-1791145012401-5c373fc3e32f"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://cloud-api.payloadcms.com/\""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/4014-896bc0c5210ed229.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/4014-896bc0c5210ed229.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "364713"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"4014-896bc0c5210ed229.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"e2c409b79b9b8edebda28e613ab35494\""],
-          ["last-modified", "Wed, 30 Sep 2026 14:58:18 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/4014-896bc0c5210ed229.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::hz5f6-1791145012398-483cbf8aa6f9"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/3172-ba8c9c397c1c8193.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/3172-ba8c9c397c1c8193.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "324362"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"3172-ba8c9c397c1c8193.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"3a8a817a47dab010666798f56d4ecf9e\""],
-          ["last-modified", "Thu, 01 Oct 2026 02:10:49 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/3172-ba8c9c397c1c8193.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::8dqhn-1791145012372-d2619348ca08"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/2111-f429a6384648040b.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/2111-f429a6384648040b.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "364965"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"2111-f429a6384648040b.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"a917d4452f84090ba7bff90d7e7c7286\""],
-          ["last-modified", "Wed, 30 Sep 2026 14:54:06 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/2111-f429a6384648040b.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::97x49-1791145012394-fab7280c2c4d"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": "\"https://img.youtube.com/\"\n\"https://payloadcms.com/\"\n\"https://player.vimeo.com/\"\n\"https://www.youtube-nocookie.com/\"\n\"https://www.youtube.com/\""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/polyfills-42372ed130431b0a.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/polyfills-42372ed130431b0a.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "5000"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"polyfills-42372ed130431b0a.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"846118c33b2c0e922d7b3a7676f81f6f\""],
-          ["last-modified", "Sun, 04 Oct 2026 18:53:31 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/polyfills-42372ed130431b0a.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::646r4-1791145012398-5bfada053d82"],
-          ["transfer-encoding", "chunked"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://payloadcms.com/_next/static/chunks/707-2b139d2b029267c3.js": {
-      "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/707-2b139d2b029267c3.js",
-        "status": 200,
-        "headers": [
-          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["access-control-allow-origin", "*"],
-          ["age", "334111"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"707-2b139d2b029267c3.js\""],
-          ["content-encoding", "br"],
-          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
-          ["content-type", "application/javascript; charset=utf-8"],
-          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"2b591ff2d7d2fed8a04d924f067be530\""],
-          ["last-modified", "Wed, 30 Sep 2026 23:28:21 GMT"],
-          ["server", "Vercel"],
-          ["strict-transport-security", "max-age=63072000"],
-          ["vary", "Sec-CH-Prefers-Color-Scheme"],
-          ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/707-2b139d2b029267c3.js"],
-          ["x-powered-by", "Next.js, Payload"],
-          ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::mgw6r-1791145012398-a4fda431d774"],
+          ["x-vercel-id", "arn1::2fnd6-1791186753532-104eb6636ef4"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
@@ -890,14 +164,14 @@
           ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
           ["accept-ranges", "bytes"],
           ["access-control-allow-origin", "*"],
-          ["age", "364761"],
+          ["age", "406503"],
           ["cache-control", "public,max-age=31536000,immutable"],
           ["content-disposition", "inline; filename=\"error-002af63e2cdf82ca.js\""],
           ["content-length", "955"],
           ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
           ["content-type", "application/javascript; charset=utf-8"],
           ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
           ["etag", "\"a351d3aaae9bbb28de9bc980841f4727\""],
           ["last-modified", "Wed, 30 Sep 2026 14:57:30 GMT"],
           ["server", "Vercel"],
@@ -907,62 +181,889 @@
           ["x-matched-path", "/_next/static/chunks/app/(frontend)/error-002af63e2cdf82ca.js"],
           ["x-powered-by", "Next.js, Payload"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::w2976-1791145012405-3bcac7372778"]
+          ["x-vercel-id", "arn1::5vsxt-1791186753535-ceb660e1c6aa"]
         ],
         "body": ""
       }
     },
-    "GET https://payloadcms.com/_next/static/chunks/8684-41a3a1a0d5a94480.js": {
+    "GET https://payloadcms.com/_next/static/chunks/app/global-error-a108230083c77df4.js": {
       "result": {
-        "url": "https://payloadcms.com/_next/static/chunks/8684-41a3a1a0d5a94480.js",
+        "url": "https://payloadcms.com/_next/static/chunks/app/global-error-a108230083c77df4.js",
         "status": 200,
         "headers": [
           ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["accept-ranges", "bytes"],
           ["access-control-allow-origin", "*"],
-          ["age", "5868"],
+          ["age", "408150"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["content-disposition", "inline; filename=\"8684-41a3a1a0d5a94480.js\""],
-          ["content-encoding", "br"],
+          ["content-disposition", "inline; filename=\"global-error-a108230083c77df4.js\""],
+          ["content-length", "394"],
           ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
           ["content-type", "application/javascript; charset=utf-8"],
           ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
-          ["date", "Sun, 04 Oct 2026 20:16:52 GMT"],
-          ["etag", "W/\"4772139f0d2532386ce735075e97f7ea\""],
-          ["last-modified", "Sun, 04 Oct 2026 18:39:04 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "\"f722a8626159f8a93b1df26c8bc99232\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:30:03 GMT"],
           ["server", "Vercel"],
           ["strict-transport-security", "max-age=63072000"],
           ["vary", "Sec-CH-Prefers-Color-Scheme"],
           ["x-frame-options", "SAMEORIGIN"],
-          ["x-matched-path", "/_next/static/chunks/8684-41a3a1a0d5a94480.js"],
+          ["x-matched-path", "/_next/static/chunks/app/global-error-a108230083c77df4.js"],
           ["x-powered-by", "Next.js, Payload"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::7fl52-1791145012372-318900afedff"],
+          ["x-vercel-id", "arn1::nrn6n-1791186753535-634252b71882"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/4885-e060676f8104b8c7.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/4885-e060676f8104b8c7.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "4577"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"4885-e060676f8104b8c7.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"e896ce03e74a2abdb10b63df2712b2c5\""],
+          ["last-modified", "Mon, 05 Oct 2026 06:36:15 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/4885-e060676f8104b8c7.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::7dl9k-1791186753535-799125b78d83"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
       }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/4945-09e92659cf9ba037.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/4945-09e92659cf9ba037.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "406502"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"4945-09e92659cf9ba037.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"9f8b8723c0f82cf54f62b33f672d67bf\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:57:30 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/4945-09e92659cf9ba037.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::vwxj5-1791186753535-6b1ae972fb44"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/6838-c1a944662a9e0d01.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/6838-c1a944662a9e0d01.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "361384"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"6838-c1a944662a9e0d01.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"e0313b81fb5319f55885bf2ac8798cfe\""],
+          ["last-modified", "Thu, 01 Oct 2026 03:29:28 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/6838-c1a944662a9e0d01.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::6tbms-1791186753533-ff02feb71805"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/4881-bdcfa09a28329a4a.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/4881-bdcfa09a28329a4a.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "407548"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"4881-bdcfa09a28329a4a.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"61a442711ef33ae263012ef3ef399881\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:40:05 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/4881-bdcfa09a28329a4a.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::s6c2p-1791186753535-1eb51c4f3916"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/5783-856ea3b0345b5966.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/5783-856ea3b0345b5966.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "408245"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"5783-856ea3b0345b5966.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"12f5e5dd0d66d698deeb6b80abc87c4a\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:28:28 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/5783-856ea3b0345b5966.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::czdsw-1791186753535-285e4910bb87"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/main-app-c1e57933769cc396.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/main-app-c1e57933769cc396.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "407548"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"main-app-c1e57933769cc396.js\""],
+          ["content-length", "484"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "\"537f86481dcb59d93e6611651d572766\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:40:05 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/main-app-c1e57933769cc396.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::vkv6t-1791186753535-b844a11a01b4"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/8177-2febf00a6c356acd.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/8177-2febf00a6c356acd.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "406707"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"8177-2febf00a6c356acd.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"cd9512911bec5a6619207498c0e2e3bc\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:54:06 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/8177-2febf00a6c356acd.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::25tsn-1791186753535-813e6b4e1f91"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/6385-38281a2ddd5d7f0e.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/6385-38281a2ddd5d7f0e.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "406502"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"6385-38281a2ddd5d7f0e.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"dfcb419cd4aeb3ec34f4907d430322c4\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:57:30 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/6385-38281a2ddd5d7f0e.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::6tbms-1791186753543-88fe5347c73a"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/2565-845dc26e6176a5a8.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/2565-845dc26e6176a5a8.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "406502"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2565-845dc26e6176a5a8.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"1a7e0cc12b1507e9fae83d1b4ac22492\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:57:30 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/2565-845dc26e6176a5a8.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::dvtf8-1791186753540-0efa377c70f7"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://cloud-api.payloadcms.com/\""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/2111-f429a6384648040b.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/2111-f429a6384648040b.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "406706"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2111-f429a6384648040b.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"a917d4452f84090ba7bff90d7e7c7286\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:54:06 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/2111-f429a6384648040b.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::vwxj5-1791186753543-e8b3a50525c3"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://img.youtube.com/\"\n\"https://payloadcms.com/\"\n\"https://player.vimeo.com/\"\n\"https://www.youtube-nocookie.com/\"\n\"https://www.youtube.com/\""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/3002-fcd9a90f8c377cde.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/3002-fcd9a90f8c377cde.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "3872"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3002-fcd9a90f8c377cde.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"c09c5a4dff9e02e37eda2191f35f05fa\""],
+          ["last-modified", "Mon, 05 Oct 2026 06:48:01 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/3002-fcd9a90f8c377cde.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::6tl6n-1791186753545-61475bf303c7"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://payloadcms.com/\"\n\"https://www.youtube.com/\""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/9261-5473bee226d654e3.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/9261-5473bee226d654e3.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "1776"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"9261-5473bee226d654e3.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"40620a3e41306896681a2793a7fd12ba\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:22:56 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/9261-5473bee226d654e3.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mcqk5-1791186753545-15340d70b712"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://fb.me/\""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/3466-9e592bceb152ec0a.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/3466-9e592bceb152ec0a.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "408055"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3466-9e592bceb152ec0a.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"b1c032cc5ebad4c4625cd395a32cf6c1\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:31:37 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/3466-9e592bceb152ec0a.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::p9blj-1791186753545-6c58d905c4b8"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://l4wlsi8vxy8hre4v.public.blob.vercel-storage.com/\""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/3172-ba8c9c397c1c8193.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/3172-ba8c9c397c1c8193.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "366104"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"3172-ba8c9c397c1c8193.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"3a8a817a47dab010666798f56d4ecf9e\""],
+          ["last-modified", "Thu, 01 Oct 2026 02:10:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/3172-ba8c9c397c1c8193.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::h827l-1791186753534-6639ad729651"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/8200.5d456a499c750d27.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/8200.5d456a499c750d27.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "406970"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"8200.5d456a499c750d27.js\""],
+          ["content-length", "652"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "\"a824cd7c96c43d444e1b4262317f69b6\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:49:43 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/8200.5d456a499c750d27.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mvft5-1791186753549-7a1709ec2a64"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/4912-8f8be98dd2cd2382.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/4912-8f8be98dd2cd2382.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "370247"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"4912-8f8be98dd2cd2382.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"d0087e9b09383c823ff39f2648fe3f07\""],
+          ["last-modified", "Thu, 01 Oct 2026 01:01:46 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/4912-8f8be98dd2cd2382.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::nrn6n-1791186753543-905dd5c08cec"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://discord.com/\"\n\"https://payloadcms.com/\"\n\"https://twitter.com/\"\n\"https://www.instagram.com/\"\n\"https://www.youtube.com/\""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/app/(frontend)/not-found-d0364140cf3601ed.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/app/(frontend)/not-found-d0364140cf3601ed.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "370247"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"not-found-d0364140cf3601ed.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"7034e3663b0e2dd4c5d252eca06bc62a\""],
+          ["last-modified", "Thu, 01 Oct 2026 01:01:46 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/app/(frontend)/not-found-d0364140cf3601ed.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::c4g96-1791186753545-485786cfeb1f"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://l4wlsi8vxy8hre4v.public.blob.vercel-storage.com/\""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/5835-dfb16612ac55500e.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/5835-dfb16612ac55500e.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "364936"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"5835-dfb16612ac55500e.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"e41ab964c098e8b03bc6b006626d99de\""],
+          ["last-modified", "Thu, 01 Oct 2026 02:30:17 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/5835-dfb16612ac55500e.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::sb49h-1791186753535-bad91c2923e5"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/app/(frontend)/(pages)/%5B...slug%5D/page-c6111370c9d75665.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/app/(frontend)/(pages)/%5B...slug%5D/page-c6111370c9d75665.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "406919"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"page-c6111370c9d75665.js\""],
+          ["content-length", "257"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "\"cab32dce62d3af852a3af465499caf09\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:50:33 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "x-matched-path",
+            "/_next/static/chunks/app/(frontend)/(pages)/%5B...slug%5D/page-c6111370c9d75665.js"
+          ],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::6vddp-1791186753547-c505af827234"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/webpack-f2c88a646a62c3c1.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/webpack-f2c88a646a62c3c1.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "366104"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"webpack-f2c88a646a62c3c1.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"1f700fb58fcc84566898440f6c91f9ba\""],
+          ["last-modified", "Thu, 01 Oct 2026 02:10:49 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/webpack-f2c88a646a62c3c1.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::nrn6n-1791186753550-f2ed1e4cf8b4"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/2566-6a1dfd3a77acdce4.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/2566-6a1dfd3a77acdce4.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "376317"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"2566-6a1dfd3a77acdce4.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"716178107254b28701fceb21b6d22ba6\""],
+          ["last-modified", "Wed, 30 Sep 2026 23:20:35 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/2566-6a1dfd3a77acdce4.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::nrn6n-1791186753547-bf1879b7f3f9"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/707-2b139d2b029267c3.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/707-2b139d2b029267c3.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "375852"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"707-2b139d2b029267c3.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"2b591ff2d7d2fed8a04d924f067be530\""],
+          ["last-modified", "Wed, 30 Sep 2026 23:28:21 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/707-2b139d2b029267c3.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::2fnd6-1791186753540-f05b18bf765e"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/app/(frontend)/(pages)/layout-289a54135bb83ae7.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/app/(frontend)/(pages)/layout-289a54135bb83ae7.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "4787"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"layout-289a54135bb83ae7.js\""],
+          ["content-length", "324"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "\"ba192f40bee045059ed1fe45e4ece65e\""],
+          ["last-modified", "Mon, 05 Oct 2026 06:32:45 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          [
+            "x-matched-path",
+            "/_next/static/chunks/app/(frontend)/(pages)/layout-289a54135bb83ae7.js"
+          ],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::d75g6-1791186753544-73211d6f4897"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/1158.d1db3858cdd82060.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/1158.d1db3858cdd82060.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "406879"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"1158.d1db3858cdd82060.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"3b20ee162f4ec1a35051d82b811d4cfc\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:51:13 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/1158.d1db3858cdd82060.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::vwxj5-1791186753549-694f25ac1f74"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://alg.li/\"\n\"https://www.algolia.com/\""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/4014-896bc0c5210ed229.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/4014-896bc0c5210ed229.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "1776"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"4014-896bc0c5210ed229.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"e2c409b79b9b8edebda28e613ab35494\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:22:56 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/4014-896bc0c5210ed229.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::scgzq-1791186753544-8711cd56959e"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/polyfills-42372ed130431b0a.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "342878"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"polyfills-42372ed130431b0a.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"846118c33b2c0e922d7b3a7676f81f6f\""],
+          ["last-modified", "Thu, 01 Oct 2026 08:37:55 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/polyfills-42372ed130431b0a.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::c5fds-1791186753549-10720886cf9f"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/7419.c2c043063ba9ef11.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/7419.c2c043063ba9ef11.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "377084"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"7419.c2c043063ba9ef11.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"2d324a9d853109de9d01735215929586\""],
+          ["last-modified", "Wed, 30 Sep 2026 23:07:48 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/7419.c2c043063ba9ef11.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::z5ms2-1791186753552-94509067a987"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://connect.facebook.net/\""
+      }
+    },
+    "GET https://payloadcms.com/_next/static/chunks/6890-21f8d46a154bfd03.js": {
+      "result": {
+        "url": "https://payloadcms.com/_next/static/chunks/6890-21f8d46a154bfd03.js",
+        "status": 200,
+        "headers": [
+          ["accept-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["access-control-allow-origin", "*"],
+          ["age", "406879"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["content-disposition", "inline; filename=\"6890-21f8d46a154bfd03.js\""],
+          ["content-encoding", "br"],
+          ["content-security-policy", "object-src 'none';base-uri 'self';form-action 'self';"],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["critical-ch", "Sec-CH-Prefers-Color-Scheme"],
+          ["date", "Mon, 05 Oct 2026 07:52:33 GMT"],
+          ["etag", "W/\"8bbb81ebe251650a267afb60602cecb2\""],
+          ["last-modified", "Wed, 30 Sep 2026 14:51:13 GMT"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["vary", "Sec-CH-Prefers-Color-Scheme"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-matched-path", "/_next/static/chunks/6890-21f8d46a154bfd03.js"],
+          ["x-powered-by", "Next.js, Payload"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::d6wf2-1791186753545-61b838a06616"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://payloadcms.com/\""
+      }
     }
   },
   "dns": {
-    "AAAA payloadcms.com": {
-      "result": {
-        "name": "payloadcms.com",
-        "type": "AAAA",
-        "records": []
-      }
-    },
-    "NS payloadcms.com": {
-      "result": {
-        "name": "payloadcms.com",
-        "type": "NS",
-        "records": [
-          "ns-1204.awsdns-22.org",
-          "ns-594.awsdns-10.net",
-          "ns-88.awsdns-11.com",
-          "ns-1841.awsdns-38.co.uk"
-        ]
-      }
-    },
     "A payloadcms.com": {
       "result": {
         "name": "payloadcms.com",
@@ -970,10 +1071,22 @@
         "records": ["76.76.21.21"]
       }
     },
-    "CNAME payloadcms.com": {
+    "NS payloadcms.com": {
       "result": {
         "name": "payloadcms.com",
-        "type": "CNAME",
+        "type": "NS",
+        "records": [
+          "ns-594.awsdns-10.net",
+          "ns-1204.awsdns-22.org",
+          "ns-88.awsdns-11.com",
+          "ns-1841.awsdns-38.co.uk"
+        ]
+      }
+    },
+    "AAAA payloadcms.com": {
+      "result": {
+        "name": "payloadcms.com",
+        "type": "AAAA",
         "records": []
       }
     },
@@ -982,6 +1095,13 @@
         "name": "21.21.76.76.origin.asn.cymru.com",
         "type": "TXT",
         "records": ["16509 | 76.76.21.0/24 | US | arin | 2020-05-08"]
+      }
+    },
+    "CNAME payloadcms.com": {
+      "result": {
+        "name": "payloadcms.com",
+        "type": "CNAME",
+        "records": []
       }
     },
     "TXT as16509.asn.cymru.com": {

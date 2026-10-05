@@ -1,6 +1,6 @@
 {
   "url": "https://www.leagueoflegends.com/",
-  "recordedAt": "2026-10-04T20:16:48.425Z",
+  "recordedAt": "2026-10-05T07:52:17.483Z",
   "http": {
     "GET https://www.leagueoflegends.com/": {
       "result": {
@@ -9,11 +9,11 @@
         "headers": [
           ["cache-control", "private, no-cache"],
           ["content-length", "0"],
-          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:17 GMT"],
           ["location", "/en-gb/"],
           ["server", "Netlify"],
           ["strict-transport-security", "max-age=31536000"],
-          ["x-nf-request-id", "01M448ZQEA27BDSRRYW0WAYVYJ"]
+          ["x-nf-request-id", "01M45GS6E6ZS0V0QBSMWDS72SF"]
         ],
         "body": ""
       }
@@ -23,7 +23,7 @@
         "url": "https://www.leagueoflegends.com/en-gb/",
         "status": 200,
         "headers": [
-          ["age", "3"],
+          ["age", "7"],
           ["cache-control", "private,no-cache"],
           [
             "cache-status",
@@ -31,8 +31,8 @@
           ],
           ["content-encoding", "br"],
           ["content-type", "text/html; charset=utf-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
-          ["etag", "W/\"zglo2nfhf75j4n-df\""],
+          ["date", "Mon, 05 Oct 2026 07:52:17 GMT"],
+          ["etag", "W/\"qjha0r8vqv5j4n-df\""],
           [
             "netlify-vary",
             "query=__nextDataReq|_rsc,header=x-nextjs-data|x-next-debug-logging|next-router-prefetch|next-router-segment-prefetch|next-router-state-tree|next-url|rsc|accept-encoding,cookie=__prerender_bypass|__next_preview_data"
@@ -45,8 +45,8 @@
           ["vary", "Accept-Encoding"],
           ["x-content-type-options", "nosniff"],
           ["x-cookie-source", "edge"],
-          ["x-nextjs-date", "Sun, 04 Oct 2026 20:16:48 GMT"],
-          ["x-nf-request-id", "01M448ZQG21ZA7DV46CA7113FB"],
+          ["x-nextjs-date", "Mon, 05 Oct 2026 07:52:17 GMT"],
+          ["x-nf-request-id", "01M45GS6F5XTVXY1967WDYKR0E"],
           ["x-powered-by", "Next.js"],
           ["x-sitebuilder-version", "4.45.1"],
           ["transfer-encoding", "chunked"]
@@ -60,18 +60,38 @@
         "status": 200,
         "headers": [
           ["accept-ranges", "bytes"],
-          ["age", "43557"],
+          ["age", "34093"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["cache-status", "\"Netlify Edge\"; hit; ttl=31492443"],
+          ["cache-status", "\"Netlify Edge\"; hit; ttl=31501907"],
           ["content-encoding", "br"],
-          ["content-length", "38458"],
+          ["content-length", "38465"],
           ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
           ["etag", "\"b5cc8b6cbba4016c1924b27744364767-ssl-df\""],
           ["server", "Netlify"],
           ["strict-transport-security", "max-age=31536000"],
           ["vary", "Accept-Encoding"],
-          ["x-nf-request-id", "01M448ZQR0YVHGYQJVMCBRR7SD"]
+          ["x-nf-request-id", "01M45GS8YSR3NMT8MJ7CFFXN1T"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.leagueoflegends.com/_next/static/chunks/pages/_app-8e1ba8c934f22784.js": {
+      "result": {
+        "url": "https://www.leagueoflegends.com/_next/static/chunks/pages/_app-8e1ba8c934f22784.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["age", "68056"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["cache-status", "\"Netlify Edge\"; hit; ttl=31467944"],
+          ["content-length", "883"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"c7b2e6d195f7dc76bf5bec43c4869189-ssl\""],
+          ["server", "Netlify"],
+          ["strict-transport-security", "max-age=31536000"],
+          ["x-nf-request-id", "01M45GS90QWRVX4B4HWRG2N958"]
         ],
         "body": ""
       }
@@ -82,102 +102,18 @@
         "status": 200,
         "headers": [
           ["accept-ranges", "bytes"],
-          ["age", "41582"],
+          ["age", "6783"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["cache-status", "\"Netlify Edge\"; hit; ttl=31494419"],
+          ["cache-status", "\"Netlify Edge\"; hit; ttl=31529217"],
           ["content-encoding", "br"],
-          ["content-length", "1775"],
+          ["content-length", "1814"],
           ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
           ["etag", "\"5687bd116534a02f010a6dd2d3cb01b2-ssl-df\""],
           ["server", "Netlify"],
           ["strict-transport-security", "max-age=31536000"],
           ["vary", "Accept-Encoding"],
-          ["x-nf-request-id", "01M448ZQTSZSHXQMBPV24EXBWJ"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.leagueoflegends.com/_next/static/chunks/pages/%5B%5B...pathArray%5D%5D-de705f74a51683f7.js": {
-      "result": {
-        "url": "https://www.leagueoflegends.com/_next/static/chunks/pages/%5B%5B...pathArray%5D%5D-de705f74a51683f7.js",
-        "status": 200,
-        "headers": [
-          ["accept-ranges", "bytes"],
-          ["age", "84779"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["cache-status", "\"Netlify Edge\"; hit; ttl=31451221"],
-          ["content-length", "468"],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
-          ["etag", "\"9289d89d793e93c0d370b7049f60d40c-ssl\""],
-          ["server", "Netlify"],
-          ["strict-transport-security", "max-age=31536000"],
-          ["x-nf-request-id", "01M448ZQV5SF6R8DC7X36FKC5M"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.leagueoflegends.com/_next/static/chunks/839-6321fedd259ab0fd.js": {
-      "result": {
-        "url": "https://www.leagueoflegends.com/_next/static/chunks/839-6321fedd259ab0fd.js",
-        "status": 200,
-        "headers": [
-          ["accept-ranges", "bytes"],
-          ["age", "13842"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["cache-status", "\"Netlify Edge\"; hit; ttl=31522158"],
-          ["content-encoding", "br"],
-          ["content-length", "5917"],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["etag", "\"4bc70d817d4baf226540a9b84565960a-ssl-df\""],
-          ["server", "Netlify"],
-          ["strict-transport-security", "max-age=31536000"],
-          ["vary", "Accept-Encoding"],
-          ["x-nf-request-id", "01M448ZQVAAH65Q39PF7BV9J9X"]
-        ],
-        "body": "\"https://cmp.osano.com/\"\n\"https://dev.visualwebsiteoptimizer.com/\"\n\"https://www.datadoghq-browser-agent.com/\"\n\"https://www.googletagmanager.com/\""
-      }
-    },
-    "GET https://www.leagueoflegends.com/_next/static/chunks/pages/_app-8e1ba8c934f22784.js": {
-      "result": {
-        "url": "https://www.leagueoflegends.com/_next/static/chunks/pages/_app-8e1ba8c934f22784.js",
-        "status": 200,
-        "headers": [
-          ["accept-ranges", "bytes"],
-          ["age", "36676"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["cache-status", "\"Netlify Edge\"; hit; ttl=31499324"],
-          ["content-length", "883"],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["etag", "\"c7b2e6d195f7dc76bf5bec43c4869189-ssl\""],
-          ["server", "Netlify"],
-          ["strict-transport-security", "max-age=31536000"],
-          ["x-nf-request-id", "01M448ZQVG89G5S20SCA6N6M8F"]
-        ],
-        "body": ""
-      }
-    },
-    "GET https://www.leagueoflegends.com/_next/static/Gmozal-5wR6tVeB_azDmk/_buildManifest.js": {
-      "result": {
-        "url": "https://www.leagueoflegends.com/_next/static/Gmozal-5wR6tVeB_azDmk/_buildManifest.js",
-        "status": 200,
-        "headers": [
-          ["accept-ranges", "bytes"],
-          ["age", "14253"],
-          ["cache-control", "public,max-age=31536000,immutable"],
-          ["cache-status", "\"Netlify Edge\"; hit; ttl=31521747"],
-          ["content-encoding", "br"],
-          ["content-length", "631"],
-          ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
-          ["etag", "\"8bead9612360b94aa19ae5b145a8fcfa-ssl-df\""],
-          ["server", "Netlify"],
-          ["strict-transport-security", "max-age=31536000"],
-          ["vary", "Accept-Encoding"],
-          ["x-nf-request-id", "01M448ZQVH5NFZ79DT8EM6JQAZ"]
+          ["x-nf-request-id", "01M45GS90MWH1GJPPSSEB97S42"]
         ],
         "body": ""
       }
@@ -188,62 +124,82 @@
         "status": 200,
         "headers": [
           ["accept-ranges", "bytes"],
-          ["age", "41583"],
+          ["age", "55984"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["cache-status", "\"Netlify Edge\"; hit; ttl=31494418"],
+          ["cache-status", "\"Netlify Edge\"; hit; ttl=31480016"],
           ["content-encoding", "br"],
-          ["content-length", "5248"],
+          ["content-length", "5344"],
           ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
           ["etag", "\"9549ef31667d9456c69fb7ec27c33a6b-ssl-df\""],
           ["server", "Netlify"],
           ["strict-transport-security", "max-age=31536000"],
           ["vary", "Accept-Encoding"],
-          ["x-nf-request-id", "01M448ZQVDXNNC5P741C2CHS3C"]
+          ["x-nf-request-id", "01M45GS90WN968KTZX8Z8EH1YJ"]
         ],
         "body": ""
       }
     },
-    "GET https://www.leagueoflegends.com/_next/static/chunks/373-e69bc9a84fe7ccb2.js": {
+    "GET https://www.leagueoflegends.com/_next/static/Gmozal-5wR6tVeB_azDmk/_buildManifest.js": {
       "result": {
-        "url": "https://www.leagueoflegends.com/_next/static/chunks/373-e69bc9a84fe7ccb2.js",
+        "url": "https://www.leagueoflegends.com/_next/static/Gmozal-5wR6tVeB_azDmk/_buildManifest.js",
         "status": 200,
         "headers": [
           ["accept-ranges", "bytes"],
-          ["age", "10868"],
+          ["age", "38558"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["cache-status", "\"Netlify Edge\"; hit; ttl=31525132"],
+          ["cache-status", "\"Netlify Edge\"; hit; ttl=31497442"],
           ["content-encoding", "br"],
-          ["content-length", "27615"],
+          ["content-length", "631"],
           ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
-          ["etag", "\"b07c4c482d031bfc661df723a53bd21d-ssl-df\""],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"8bead9612360b94aa19ae5b145a8fcfa-ssl-df\""],
           ["server", "Netlify"],
           ["strict-transport-security", "max-age=31536000"],
           ["vary", "Accept-Encoding"],
-          ["x-nf-request-id", "01M448ZQTXKQ7RHCP35YDMYVCQ"]
+          ["x-nf-request-id", "01M45GS9121HG45VKMH9QS9EVQ"]
         ],
-        "body": "\"https://example.invalid/\""
+        "body": ""
       }
     },
-    "GET https://www.leagueoflegends.com/_next/static/chunks/main-76a240742e38efa1.js": {
+    "GET https://www.leagueoflegends.com/_next/static/chunks/839-6321fedd259ab0fd.js": {
       "result": {
-        "url": "https://www.leagueoflegends.com/_next/static/chunks/main-76a240742e38efa1.js",
+        "url": "https://www.leagueoflegends.com/_next/static/chunks/839-6321fedd259ab0fd.js",
         "status": 200,
         "headers": [
           ["accept-ranges", "bytes"],
-          ["age", "26324"],
+          ["age", "38558"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["cache-status", "\"Netlify Edge\"; hit; ttl=31509676"],
+          ["cache-status", "\"Netlify Edge\"; hit; ttl=31497442"],
           ["content-encoding", "br"],
-          ["content-length", "35652"],
+          ["content-length", "5941"],
           ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
-          ["etag", "\"40f78a11b36f5d8c502bfd97fe56de09-ssl-df\""],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"4bc70d817d4baf226540a9b84565960a-ssl-df\""],
           ["server", "Netlify"],
           ["strict-transport-security", "max-age=31536000"],
           ["vary", "Accept-Encoding"],
-          ["x-nf-request-id", "01M448ZQTXJJE837P2A047TKEE"]
+          ["x-nf-request-id", "01M45GS90YJ2127XX8H3VAP4R3"]
+        ],
+        "body": "\"https://cmp.osano.com/\"\n\"https://dev.visualwebsiteoptimizer.com/\"\n\"https://www.datadoghq-browser-agent.com/\"\n\"https://www.googletagmanager.com/\""
+      }
+    },
+    "GET https://www.leagueoflegends.com/_next/static/chunks/pages/%5B%5B...pathArray%5D%5D-de705f74a51683f7.js": {
+      "result": {
+        "url": "https://www.leagueoflegends.com/_next/static/chunks/pages/%5B%5B...pathArray%5D%5D-de705f74a51683f7.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["age", "54660"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["cache-status", "\"Netlify Edge\"; hit; ttl=31481340"],
+          ["content-length", "468"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"9289d89d793e93c0d370b7049f60d40c-ssl\""],
+          ["server", "Netlify"],
+          ["strict-transport-security", "max-age=31536000"],
+          ["x-nf-request-id", "01M45GS914RSM13YBVQA689NTB"]
         ],
         "body": ""
       }
@@ -254,16 +210,60 @@
         "status": 200,
         "headers": [
           ["accept-ranges", "bytes"],
-          ["age", "10869"],
+          ["age", "129"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["cache-status", "\"Netlify Edge\"; hit; ttl=31525131"],
+          ["cache-status", "\"Netlify Edge\"; hit; ttl=31535871"],
           ["content-length", "151"],
           ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
           ["etag", "\"1f5dc70784c153a408a53a8268419fdd-ssl\""],
           ["server", "Netlify"],
           ["strict-transport-security", "max-age=31536000"],
-          ["x-nf-request-id", "01M448ZQVKBP3CZJ30S6PXVQPV"]
+          ["x-nf-request-id", "01M45GS916WX1JQ7KHVZ3BFDKT"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.leagueoflegends.com/_next/static/chunks/373-e69bc9a84fe7ccb2.js": {
+      "result": {
+        "url": "https://www.leagueoflegends.com/_next/static/chunks/373-e69bc9a84fe7ccb2.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["age", "71638"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["cache-status", "\"Netlify Edge\"; hit; ttl=31464362"],
+          ["content-encoding", "br"],
+          ["content-length", "27581"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"b07c4c482d031bfc661df723a53bd21d-ssl-df\""],
+          ["server", "Netlify"],
+          ["strict-transport-security", "max-age=31536000"],
+          ["vary", "Accept-Encoding"],
+          ["x-nf-request-id", "01M45GS90SXQE3294HWPGFBBW9"]
+        ],
+        "body": "\"https://example.invalid/\""
+      }
+    },
+    "GET https://www.leagueoflegends.com/_next/static/chunks/main-76a240742e38efa1.js": {
+      "result": {
+        "url": "https://www.leagueoflegends.com/_next/static/chunks/main-76a240742e38efa1.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["age", "21546"],
+          ["cache-control", "public,max-age=31536000,immutable"],
+          ["cache-status", "\"Netlify Edge\"; hit; ttl=31514454"],
+          ["content-encoding", "br"],
+          ["content-length", "35698"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"40f78a11b36f5d8c502bfd97fe56de09-ssl-df\""],
+          ["server", "Netlify"],
+          ["strict-transport-security", "max-age=31536000"],
+          ["vary", "Accept-Encoding"],
+          ["x-nf-request-id", "01M45GS90J5FG5Z850RFD039QC"]
         ],
         "body": ""
       }
@@ -274,18 +274,18 @@
         "status": 200,
         "headers": [
           ["accept-ranges", "bytes"],
-          ["age", "29906"],
+          ["age", "53780"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["cache-status", "\"Netlify Edge\"; hit; ttl=31506094"],
+          ["cache-status", "\"Netlify Edge\"; hit; ttl=31482220"],
           ["content-encoding", "br"],
-          ["content-length", "43401"],
+          ["content-length", "43407"],
           ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
           ["etag", "\"48e55b22daf69347755aac24481f03e1-ssl-df\""],
           ["server", "Netlify"],
           ["strict-transport-security", "max-age=31536000"],
           ["vary", "Accept-Encoding"],
-          ["x-nf-request-id", "01M448ZQTNWDKB6WG7EE27GZXW"]
+          ["x-nf-request-id", "01M45GS90P9JYP27VW8ZRK073V"]
         ],
         "body": ""
       }
@@ -296,24 +296,31 @@
         "status": 200,
         "headers": [
           ["accept-ranges", "bytes"],
-          ["age", "14252"],
+          ["age", "53780"],
           ["cache-control", "public,max-age=31536000,immutable"],
-          ["cache-status", "\"Netlify Edge\"; hit; ttl=31521747"],
+          ["cache-status", "\"Netlify Edge\"; hit; ttl=31482220"],
           ["content-encoding", "br"],
-          ["content-length", "391689"],
+          ["content-length", "391879"],
           ["content-type", "application/javascript; charset=UTF-8"],
-          ["date", "Sun, 04 Oct 2026 20:16:49 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
           ["etag", "\"bce10b165fe964382c99e1ae91d54326-ssl-df\""],
           ["server", "Netlify"],
           ["strict-transport-security", "max-age=31536000"],
           ["vary", "Accept-Encoding"],
-          ["x-nf-request-id", "01M448ZQV5A35KDWNCEKGDBC6G"]
+          ["x-nf-request-id", "01M45GS912S6ZRC3T5S6G1DHWH"]
         ],
         "body": "\"http://fb.me/\"\n\"https://assetcdn.rgpub.io/\"\n\"https://git.io/\"\n\"https://js.hcaptcha.com/\"\n\"https://lolstatic-a.akamaihd.net/\"\n\"https://open.spotify.com/\"\n\"https://placeholder.invalid/\"\n\"https://radix-ui.com/\"\n\"https://support.xbox.com/\"\n\"https://www.leagueoflegends.com/\"\n\"https://www.playstation.com/\"\n\"https://www.youtube.com/\"\n\"https://youtube.com/\""
       }
     }
   },
   "dns": {
+    "A www.leagueoflegends.com": {
+      "result": {
+        "name": "www.leagueoflegends.com",
+        "type": "A",
+        "records": ["3.33.186.135", "15.197.167.90"]
+      }
+    },
     "CNAME www.leagueoflegends.com": {
       "result": {
         "name": "www.leagueoflegends.com",
@@ -321,25 +328,18 @@
         "records": ["riotgames-publishing.netlifyglobalcdn.com"]
       }
     },
+    "AAAA www.leagueoflegends.com": {
+      "result": {
+        "name": "www.leagueoflegends.com",
+        "type": "AAAA",
+        "records": ["2a05:d014:58f:6200::1f6", "2a05:d014:58f:6200::1f5"]
+      }
+    },
     "NS www.leagueoflegends.com": {
       "result": {
         "name": "www.leagueoflegends.com",
         "type": "NS",
         "records": []
-      }
-    },
-    "A www.leagueoflegends.com": {
-      "result": {
-        "name": "www.leagueoflegends.com",
-        "type": "A",
-        "records": ["15.197.167.90", "3.33.186.135"]
-      }
-    },
-    "AAAA www.leagueoflegends.com": {
-      "result": {
-        "name": "www.leagueoflegends.com",
-        "type": "AAAA",
-        "records": ["2a05:d014:58f:6200::1f5", "2a05:d014:58f:6200::1f6"]
       }
     },
     "CNAME riotgames-publishing.netlifyglobalcdn.com": {
@@ -354,9 +354,9 @@
         "name": "leagueoflegends.com",
         "type": "NS",
         "records": [
+          "ns-981.awsdns-58.net",
           "ns-1095.awsdns-08.org",
           "ns-212.awsdns-26.com",
-          "ns-981.awsdns-58.net",
           "ns-1809.awsdns-34.co.uk"
         ]
       }

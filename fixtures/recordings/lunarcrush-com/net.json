@@ -1,13 +1,13 @@
 {
   "url": "https://lunarcrush.com/",
-  "recordedAt": "2026-10-04T20:16:49.996Z",
+  "recordedAt": "2026-10-05T07:52:23.991Z",
   "http": {
     "GET https://lunarcrush.com/": {
       "result": {
         "url": "https://lunarcrush.com/",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:24 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -21,15 +21,15 @@
           ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2BQ3Cx2%2FS77PpX4XPnyo3IuR%2Foe9uCxQ7XnoXrc27d5namuXztmDBobtm%2FDblaATHXUpvMKEcZVrJlfLaSPPJd4qBHOEYguHvD9WsongjJ2T0NKVq1NwscwdYizshpkNEfwstNqcHAzlEefTFhs6Xe1tom17lsFSfLk7KYjQrjE%2BTdTQ%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=2z%2BJioNbOyR8iE3mfN2QYHed7c03NPRRJnZshkyZ8lLxRK3zfRQJhcQDWUR96b1Q2obsiDKp9l%2BvsHuJy50p69By5Qm%2BnHM1SXg4V149yNHxJB8YHHHi5TfN63ULT06ohcnggp33Cb3QWKlDbxhKozLD4zrkxV1bSHIWEFJGn2dmQJY%3D\"}]}"
           ],
           ["permissions-policy", "camera=(), microphone=(self), geolocation=()"],
           ["vary", "accept-encoding"],
           ["server-timing", "cfCacheStatus;desc=\"DYNAMIC\""],
-          ["server-timing", "cfEdge;dur=21,cfOrigin;dur=501"],
+          ["server-timing", "cfEdge;dur=11,cfOrigin;dur=204"],
           ["cf-cache-status", "DYNAMIC"],
           ["content-encoding", "br"],
-          ["cf-ray", "a456ddd90da05699-OSL"]
+          ["cf-ray", "a45ad8be6ad6c6e0-CPH"]
         ],
         "body": "<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\">\n<link rel=\"preconnect\" href=\"https://wsrv.nl\" crossorigin=\"\">\n<link rel=\"dns-prefetch\" href=\"https://wsrv.nl\">\n<link rel=\"preconnect\" href=\"https://cdn.lunarcrush.com\" crossorigin=\"\">\n<link rel=\"preconnect\" href=\"https://lunarcrush.com\" crossorigin=\"\">\n<link rel=\"icon\" type=\"image/png\" href=\"/landing-assets/favicon.png\">\n<link rel=\"preload\" href=\"/landing-assets/PlusJakartaSans-Variable.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\">\n<script type=\"module\" crossorigin=\"\" src=\"/landing-assets/assets/index-BBgBuW3H.js\"></script>\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/landing-assets/assets/vendor-react-Dh9LqfKY.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/landing-assets/assets/vendor-ds-BBGBs0Ze.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/landing-assets/assets/HomePage-B_G0Cp7Q.js\">\n<link rel=\"stylesheet\" href=\"/landing-assets/assets/style-RgS1w064.css\" media=\"print\" onload=\"this.media='all'; this.onload=null;\">\n<meta name=\"description\" content=\"Real-time sentiment and social volume across 40+ categories — crypto, stocks, sports, brands, and more — sourced from X, Reddit, YouTube, and TikTok.\">\n<link rel=\"canonical\" href=\"https://lunarcrush.com/\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:title\" content=\"LunarCrush: The Social Media Sentiment Layer\">\n<meta property=\"og:description\" content=\"Real-time sentiment and social volume across 40+ categories — crypto, stocks, sports, brands, and more — sourced from X, Reddit, YouTube, and TikTok.\">\n<meta property=\"og:url\" content=\"https://lunarcrush.com/\">\n<meta property=\"og:image\" content=\"https://lunarcrush.com/og/dynamic/home.png\">\n<meta property=\"og:image:width\" content=\"1200\">\n<meta property=\"og:image:height\" content=\"630\">\n<meta property=\"og:image:alt\" content=\"LunarCrush: The Social Media Sentiment Layer\">\n<meta property=\"og:site_name\" content=\"LunarCrush\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:site\" content=\"@LunarCrush\">\n<meta name=\"twitter:title\" content=\"LunarCrush: The Social Media Sentiment Layer\">\n<meta name=\"twitter:description\" content=\"Real-time sentiment and social volume across 40+ categories — crypto, stocks, sports, brands, and more — sourced from X, Reddit, YouTube, and TikTok.\">\n<meta name=\"twitter:image\" content=\"https://lunarcrush.com/og/dynamic/home.png\">\n<meta name=\"twitter:image:alt\" content=\"LunarCrush: The Social Media Sentiment Layer\">\n<a href=\"/en/login\">GET STARTED</a>\n<a href=\"/en/categories/crypto\">Crypto</a>\n<a href=\"/en/topic/bitcoin-btc\">Bitcoin</a>\n<a href=\"/en/creator/x:mkbhd\">Marques Brownlee</a>\n<a href=\"/en/categories/ai\">AI</a>\n<a href=\"/en/topic/youtube\">YouTube</a>\n<a href=\"/en/creator/x:mrbeast\">MrBeast</a>\n<a href=\"/en/topic/solana-sol\">Solana</a>\n<a href=\"/en/categories/stocks\">Stocks</a>\n<a href=\"/pricing\">See full pricing details</a>\n<script id=\"gtag-js\" async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-QWXNXSLZZ8\"></script>\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495\" integrity=\"sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;3bc2232921a647539758d12ee5fb08c0&quot;,&quot;spa&quot;:2}\" crossorigin=\"anonymous\"></script>"
       }
@@ -39,7 +39,7 @@
         "url": "https://lunarcrush.com/landing-assets/assets/index-BBgBuW3H.js",
         "status": 200,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
           ["content-type", "application/javascript"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -54,38 +54,241 @@
           ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
           [
             "report-to",
-            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=YcRVlNVt80yVEs0%2F7ahxglkKnBI2h%2BxqWaVe8QcZE%2F685AGbHGI6YRvwtq2xlKEGS0eWgbReT3cKHwrJJR3S0WRJ5RiMC4w40AyNrSb28ea3Zl%2FuP55uGIbAsyyaxRNfI10efbhkFFqJtLDCwB3d9zfQYurd%2FrudF3ZSPYURRWFjstc%3D\"}]}"
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ndT3Sfw%2Bf2xnZtR3EzCshd%2FKUb15o0Tkww0lNUrmSLB64W6a%2BQXQSv0CrpYKdCo%2FxzjY0Ik%2BZ20F3F5NVEJlMBmuS%2BxizMJkPX064WTKVPy6y7aT%2F%2FA%2BmHelKhhQssV3vvFKCkwqycCCBZloBOV8v5Hq8QI7ZsTwqpdoBThHaP7BJ%2FM%3D\"}]}"
           ],
           ["etag", "W/\"19c854438c6322f02cd29877e949502d\""],
           ["content-encoding", "br"],
           ["vary", "accept-encoding"],
           ["cf-cache-status", "MISS"],
-          ["cf-ray", "a456dddc79c85699-OSL"]
+          ["cf-ray", "a45ad8c67864c6e0-CPH"]
         ],
         "body": "\"https://beacon-ebon-nu.vercel.app/\"\n\"https://cdn.lunarcrush.com/\"\n\"https://chat.openai.com/\"\n\"https://claude.ai/\"\n\"https://claude.com/\"\n\"https://lunarcrush.ai/\"\n\"https://lunarcrush.com/\"\n\"https://mcp.lunarcrush.com/\"\n\"https://shop.lunarcrush.com/\"\n\"https://t.me/\"\n\"https://us.i.posthog.com/\"\n\"https://www.google.com/\"\n\"https://www.instagram.com/\"\n\"https://www.perplexity.ai/\"\n\"https://www.tradingview.com/\"\n\"https://www.youtube.com/\"\n\"https://x.com/\""
+      }
+    },
+    "GET https://lunarcrush.com/landing-assets/assets/HomePage-B_G0Cp7Q.js": {
+      "result": {
+        "url": "https://lunarcrush.com/landing-assets/assets/HomePage-B_G0Cp7Q.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["permissions-policy", "camera=(), microphone=(self), geolocation=()"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=2wnnLa0Rwg62WaOmKyW4v70AWgRmDLsoGsR3eg0s5zwSGVNdfS2A7Tizu6qG6YZpVDxmP8VYhTEAWcJBjNyU6RXqNz%2FrevGawl9sWTlbjUjAbfPqhcAdWG%2BaJ6BGBP1PoSWXTPI87D%2F%2Fu9JmQv4aXdQmGutimq6O6XMXxQ3O9mzJamE%3D\"}]}"
+          ],
+          ["etag", "W/\"7ee6a49a4d6348d0bc0102f01e9e8f89\""],
+          ["content-encoding", "br"],
+          ["vary", "accept-encoding"],
+          ["cf-cache-status", "MISS"],
+          ["cf-ray", "a45ad8c6bd3d1e42-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lunarcrush.com/landing-assets/assets/structured-data-BUmSj9Rv.js": {
+      "result": {
+        "url": "https://lunarcrush.com/landing-assets/assets/structured-data-BUmSj9Rv.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["permissions-policy", "camera=(), microphone=(self), geolocation=()"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ctSfEUdxgchxmo1mkwMChfQFozINXrqtvo47nCjIfMkmnUmAuzZ5rcaTSLuJV9GgNOeYNVg5kk1gqN9wazZ%2FIMvz4fOv7BBoR%2Bz%2BKGzPsJMaxHYU5%2BsmKhkHWrW%2BoYThG%2FAXE9AHeOsVCNVgG%2BG%2F%2BSp7u%2Fcubzayn9xw8%2FQki2ei%2B1E%3D\"}]}"
+          ],
+          ["etag", "W/\"89452f33bac67322a609783dbacb2f2e\""],
+          ["content-encoding", "br"],
+          ["vary", "accept-encoding"],
+          ["cf-cache-status", "MISS"],
+          ["cf-ray", "a45ad8c6bdd8c67d-CPH"]
+        ],
+        "body": "\"https://lunarcrush.com/\"\n\"https://t.me/\"\n\"https://www.instagram.com/\"\n\"https://www.youtube.com/\"\n\"https://x.com/\""
+      }
+    },
+    "GET https://lunarcrush.com/landing-assets/assets/logo-aspect-7zZw_w2g.js": {
+      "result": {
+        "url": "https://lunarcrush.com/landing-assets/assets/logo-aspect-7zZw_w2g.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["permissions-policy", "camera=(), microphone=(self), geolocation=()"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=q1eQw%2FsqmEXm9OAUY4QnKZmlmOnnnIjANQYFSQS8IorEhmcKgamf%2BihHRUUoY%2BdEgDyEsYJQVwykhdIowyfZAR1oWEqn9%2Fdw%2BT5ewFRCj5unk7v%2BWu%2F1t98uia2m05d%2FbiSKxePiWyfvIZnF39vgWEec3QubQX8ykq1PzS0Uu75cu9U%3D\"}]}"
+          ],
+          ["etag", "W/\"542b068f802aaacd58c1207cc02ea873\""],
+          ["content-encoding", "br"],
+          ["vary", "accept-encoding"],
+          ["cf-cache-status", "MISS"],
+          ["cf-ray", "a45ad8c6b97196ad-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lunarcrush.com/landing-assets/assets/helpers-OOuGbWno.js": {
+      "result": {
+        "url": "https://lunarcrush.com/landing-assets/assets/helpers-OOuGbWno.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["permissions-policy", "camera=(), microphone=(self), geolocation=()"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=yvDw2vRMVVawzcgeJeGTZy17m%2Fb5NCNEreif9Ka0tVVVsbUz97oAZ2dsNuSK%2B09pGNQKdvEES4qwVjO3yVorCFqHCdtPSF5%2FM9j8D1pXDreXbQgEmLY%2B7GnKcm4wdP1nOp7z0K7mCf3ZwwQcTFfj4SdRqr63V1He5VbU9rsOiCYV48w%3D\"}]}"
+          ],
+          ["etag", "W/\"a6503cd5135e211f9da44a54c08c3e4f\""],
+          ["content-encoding", "br"],
+          ["vary", "accept-encoding"],
+          ["cf-cache-status", "MISS"],
+          ["cf-ray", "a45ad8c6b9eb460d-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lunarcrush.com/landing-assets/assets/vendor-react-Dh9LqfKY.js": {
+      "result": {
+        "url": "https://lunarcrush.com/landing-assets/assets/vendor-react-Dh9LqfKY.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["permissions-policy", "camera=(), microphone=(self), geolocation=()"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=k8xhEpAGm0tjfd1z5ug%2FTB%2BpCdpKPUnaOntA4M8oEIT9u0cgDhQvPokHZIJOS7ObkHj1JOzwi16NsGnoUp0uomK3X0DXeUk8wbqmWr6TxZ2Tk3AYKfyXXq6YB6g9L9DriB5M538v16rkDjIqk0YV%2Butqc06VGe3f11vOlY%2FlKWmrjus%3D\"}]}"
+          ],
+          ["etag", "W/\"601f0990fbafc5e8165e7fa2f62c6509\""],
+          ["content-encoding", "br"],
+          ["vary", "accept-encoding"],
+          ["cf-cache-status", "MISS"],
+          ["cf-ray", "a45ad8c6bf8e5b0b-CPH"]
+        ],
+        "body": "\"https://reactrouter.com/\""
+      }
+    },
+    "GET https://lunarcrush.com/landing-assets/assets/JsonLd-xmCt2raW.js": {
+      "result": {
+        "url": "https://lunarcrush.com/landing-assets/assets/JsonLd-xmCt2raW.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["permissions-policy", "camera=(), microphone=(self), geolocation=()"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=7wjos%2F5Qa0oAcK9GBpBQuli8ctlW%2BlkfXAxtZO4UBvACOBxRzLAQBULrWhyf4yiEwuPxIxv78f3eLKmb1Vnn9PH9sEAvsnAg40RAI7EYAwWKTBrwKZTpyeyTvNFSY3Lw1fWTXseXFi2SZU0Gjd26oTi8fJRpRtusvYEIsZLi84OxCwY%3D\"}]}"
+          ],
+          ["etag", "W/\"4e7d604e47a2cd3b29e44c95a7beb70f\""],
+          ["content-encoding", "br"],
+          ["vary", "accept-encoding"],
+          ["cf-cache-status", "MISS"],
+          ["cf-ray", "a45ad8c6bd5d3f0d-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://lunarcrush.com/landing-assets/assets/vendor-ds-BBGBs0Ze.js": {
+      "result": {
+        "url": "https://lunarcrush.com/landing-assets/assets/vendor-ds-BBGBs0Ze.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
+          ["content-type", "application/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["access-control-allow-origin", "*"],
+          ["cache-control", "public, max-age=31536000, immutable"],
+          ["permissions-policy", "camera=(), microphone=(self), geolocation=()"],
+          ["server", "cloudflare"],
+          ["strict-transport-security", "max-age=31536000; includeSubDomains"],
+          ["nel", "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"],
+          [
+            "report-to",
+            "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=YyLJ4ZVW1d2NAGUwTDK31ni8KMl1zcTIQY2JsEWRbdKw9oTBTp8XrW0J0I4JI78KwblCksI%2F6Tx5UIJ2q5nH1k3%2BMZVCZxGDZ5FDWFCmMF0C7B3RgaRaOAs6vD%2FQSLVuGWe9QDEPQ%2BcKkIfBNC6M2ZHzoi4BaGehuQYFyTpc9I%2BlzZE%3D\"}]}"
+          ],
+          ["etag", "W/\"87c31bdcde6385e6aca1ad38adccb156\""],
+          ["content-encoding", "br"],
+          ["vary", "accept-encoding"],
+          ["cf-cache-status", "MISS"],
+          ["cf-ray", "a45ad8c6b811042d-CPH"]
+        ],
+        "body": ""
       }
     }
   },
   "dns": {
-    "A lunarcrush.com": {
-      "result": {
-        "name": "lunarcrush.com",
-        "type": "A",
-        "records": ["172.67.74.50", "104.26.11.168", "104.26.10.168"]
-      }
-    },
-    "AAAA lunarcrush.com": {
-      "result": {
-        "name": "lunarcrush.com",
-        "type": "AAAA",
-        "records": ["2606:4700:20::ac43:4a32", "2606:4700:20::681a:aa8", "2606:4700:20::681a:ba8"]
-      }
-    },
     "NS lunarcrush.com": {
       "result": {
         "name": "lunarcrush.com",
         "type": "NS",
-        "records": ["dell.ns.cloudflare.com", "dakota.ns.cloudflare.com"]
+        "records": ["dakota.ns.cloudflare.com", "dell.ns.cloudflare.com"]
       }
     },
     "CNAME lunarcrush.com": {
@@ -95,9 +298,23 @@
         "records": []
       }
     },
-    "TXT 168.10.26.104.origin.asn.cymru.com": {
+    "AAAA lunarcrush.com": {
       "result": {
-        "name": "168.10.26.104.origin.asn.cymru.com",
+        "name": "lunarcrush.com",
+        "type": "AAAA",
+        "records": ["2606:4700:20::681a:aa8", "2606:4700:20::ac43:4a32", "2606:4700:20::681a:ba8"]
+      }
+    },
+    "A lunarcrush.com": {
+      "result": {
+        "name": "lunarcrush.com",
+        "type": "A",
+        "records": ["172.67.74.50", "104.26.10.168", "104.26.11.168"]
+      }
+    },
+    "TXT 168.11.26.104.origin.asn.cymru.com": {
+      "result": {
+        "name": "168.11.26.104.origin.asn.cymru.com",
         "type": "TXT",
         "records": ["13335 | 104.26.0.0/20 | US | arin | 2014-03-28"]
       }
@@ -114,7 +331,7 @@
     "lunarcrush.com:443": {
       "result": {
         "host": "lunarcrush.com",
-        "ip": "104.26.10.168",
+        "ip": "104.26.11.168",
         "issuer": "C=US, O=Google Trust Services, CN=WE1",
         "subjectAltNames": ["lunarcrush.com"],
         "validFrom": "Sep 29 20:21:54 2026 GMT",

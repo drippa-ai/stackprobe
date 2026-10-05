@@ -1,13 +1,13 @@
 {
   "url": "https://stackoverflow.com/",
-  "recordedAt": "2026-10-04T20:17:05.056Z",
+  "recordedAt": "2026-10-05T07:52:52.362Z",
   "http": {
     "GET https://stackoverflow.com/": {
       "result": {
         "url": "https://stackoverflow.com/",
         "status": 302,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:17:05 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:52 GMT"],
           ["content-length", "0"],
           ["connection", "keep-alive"],
           ["set-cookie", "prov=<redacted>"],
@@ -15,11 +15,11 @@
           ["set-cookie", "prov=<redacted>"],
           ["set-cookie", "__cf_bm=<redacted>"],
           ["location", "/questions"],
-          ["cf-ray", "a456de36f9897130-OSL"],
+          ["cf-ray", "a45ad96f8d8c812a-CPH"],
           ["cf-cache-status", "DYNAMIC"],
           ["cache-control", "private"],
           ["server", "cloudflare"],
-          ["x-worker-origin-response-time", "137000000"],
+          ["x-worker-origin-response-time", "117000000"],
           ["strict-transport-security", "max-age=31536000; includeSubDomains"],
           ["x-dns-prefetch-control", "off"],
           [
@@ -29,7 +29,7 @@
           ["feature-policy", "microphone 'none'; speaker 'none'"],
           ["x-clacks-overhead", "GNU Terry Pratchett"],
           ["x-frame-options", "SAMEORIGIN"],
-          ["x-request-guid", "e8c50e21-e43c-4a2a-a1ad-4b5bcdf27946"]
+          ["x-request-guid", "bfc90a18-e01b-4972-91ee-9023b7e36d43"]
         ],
         "body": ""
       }
@@ -39,7 +39,7 @@
         "url": "https://stackoverflow.com/questions",
         "status": 403,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:17:05 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:52 GMT"],
           ["content-type", "text/html; charset=UTF-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "close"],
@@ -50,7 +50,7 @@
           ["cf-mitigated", "challenge"],
           [
             "content-security-policy",
-            "default-src 'none'; script-src 'nonce-CVpfjTkOot2YSxVx2gI828' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'"
+            "default-src 'none'; script-src 'nonce-gDTzJzutaRRQgxCSz5QlNz' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'"
           ],
           ["server", "cloudflare"],
           [
@@ -66,15 +66,15 @@
             "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*"
           ],
           ["referrer-policy", "same-origin"],
-          ["server-timing", "chlray;desc=\"a456de384b997130\""],
+          ["server-timing", "chlray;desc=\"a45ad9709e42812a\""],
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "SAMEORIGIN"],
           ["set-cookie", "__cf_bm=<redacted>"],
           ["x-dns-prefetch-control", "off"],
           ["content-encoding", "gzip"],
-          ["cf-ray", "a456de384b997130-OSL"]
+          ["cf-ray", "a45ad9709e42812a-CPH"]
         ],
-        "body": "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\n<meta name=\"robots\" content=\"noindex,nofollow\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"content-security-policy\" content=\"default-src 'none'; script-src 'nonce-CVpfjTkOot2YSxVx2gI828' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'\">\n<meta http-equiv=\"refresh\" content=\"360\">"
+        "body": "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\n<meta name=\"robots\" content=\"noindex,nofollow\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"content-security-policy\" content=\"default-src 'none'; script-src 'nonce-gDTzJzutaRRQgxCSz5QlNz' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'\">\n<meta http-equiv=\"refresh\" content=\"360\">"
       }
     },
     "GET https://api.stackoverflow.com/": {
@@ -82,7 +82,7 @@
         "url": "https://api.stackoverflow.com/",
         "status": 404,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:17:05 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:53 GMT"],
           ["content-type", "text/html; charset=utf-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "keep-alive"],
@@ -92,18 +92,18 @@
           ["cf-cache-status", "DYNAMIC"],
           ["content-encoding", "gzip"],
           ["server", "cloudflare"],
-          ["cf-ray", "a456de3a3e5c49c5-OSL"]
+          ["cf-ray", "a45ad972f9066c90-CPH"]
         ],
         "body": "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n<a href=\"https://www.stackstatus.net/\">https://www.stackstatus.net</a>"
       }
     }
   },
   "dns": {
-    "A stackoverflow.com": {
+    "AAAA stackoverflow.com": {
       "result": {
         "name": "stackoverflow.com",
-        "type": "A",
-        "records": ["198.252.206.1"]
+        "type": "AAAA",
+        "records": []
       }
     },
     "CNAME stackoverflow.com": {
@@ -113,18 +113,18 @@
         "records": []
       }
     },
-    "AAAA stackoverflow.com": {
+    "A stackoverflow.com": {
       "result": {
         "name": "stackoverflow.com",
-        "type": "AAAA",
-        "records": []
+        "type": "A",
+        "records": ["198.252.206.1"]
       }
     },
     "NS stackoverflow.com": {
       "result": {
         "name": "stackoverflow.com",
         "type": "NS",
-        "records": ["sureena.ns.cloudflare.com", "damian.ns.cloudflare.com"]
+        "records": ["damian.ns.cloudflare.com", "sureena.ns.cloudflare.com"]
       }
     },
     "TXT 1.206.252.198.origin.asn.cymru.com": {
@@ -141,16 +141,16 @@
         "records": ["13335 | US | arin | 2010-07-14 | CLOUDFLARENET - Cloudflare, Inc., US"]
       }
     },
-    "A stackprobe-wildcard-check.stackoverflow.com": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND stackprobe-wildcard-check.stackoverflow.com"
-      }
-    },
     "CNAME stackprobe-wildcard-check.stackoverflow.com": {
       "error": {
         "code": "DNS_NXDOMAIN",
         "message": "queryCname ENOTFOUND stackprobe-wildcard-check.stackoverflow.com"
+      }
+    },
+    "A stackprobe-wildcard-check.stackoverflow.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND stackprobe-wildcard-check.stackoverflow.com"
       }
     },
     "A console.stackoverflow.com": {
@@ -159,10 +159,10 @@
         "message": "queryA ENOTFOUND console.stackoverflow.com"
       }
     },
-    "A dashboard.stackoverflow.com": {
+    "CNAME dashboard.stackoverflow.com": {
       "error": {
         "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND dashboard.stackoverflow.com"
+        "message": "queryCname ENOTFOUND dashboard.stackoverflow.com"
       }
     },
     "CNAME console.stackoverflow.com": {
@@ -171,10 +171,28 @@
         "message": "queryCname ENOTFOUND console.stackoverflow.com"
       }
     },
-    "CNAME docs.stackoverflow.com": {
+    "A app.stackoverflow.com": {
       "error": {
         "code": "DNS_NXDOMAIN",
-        "message": "queryCname ENOTFOUND docs.stackoverflow.com"
+        "message": "queryA ENOTFOUND app.stackoverflow.com"
+      }
+    },
+    "A portal.stackoverflow.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND portal.stackoverflow.com"
+      }
+    },
+    "CNAME app.stackoverflow.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryCname ENOTFOUND app.stackoverflow.com"
+      }
+    },
+    "A dashboard.stackoverflow.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND dashboard.stackoverflow.com"
       }
     },
     "A docs.stackoverflow.com": {
@@ -183,17 +201,16 @@
         "message": "queryA ENOTFOUND docs.stackoverflow.com"
       }
     },
-    "CNAME api.stackoverflow.com": {
-      "result": {
-        "name": "api.stackoverflow.com",
-        "type": "CNAME",
-        "records": []
-      }
-    },
-    "CNAME app.stackoverflow.com": {
+    "CNAME docs.stackoverflow.com": {
       "error": {
         "code": "DNS_NXDOMAIN",
-        "message": "queryCname ENOTFOUND app.stackoverflow.com"
+        "message": "queryCname ENOTFOUND docs.stackoverflow.com"
+      }
+    },
+    "A status.stackoverflow.com": {
+      "error": {
+        "code": "DNS_NXDOMAIN",
+        "message": "queryA ENOTFOUND status.stackoverflow.com"
       }
     },
     "A api.stackoverflow.com": {
@@ -203,40 +220,23 @@
         "records": ["172.64.152.92", "104.18.35.164"]
       }
     },
-    "A app.stackoverflow.com": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND app.stackoverflow.com"
-      }
-    },
-    "CNAME dashboard.stackoverflow.com": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryCname ENOTFOUND dashboard.stackoverflow.com"
-      }
-    },
-    "A portal.stackoverflow.com": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND portal.stackoverflow.com"
-      }
-    },
-    "CNAME status.stackoverflow.com": {
-      "error": {
-        "code": "DNS_NXDOMAIN",
-        "message": "queryCname ENOTFOUND status.stackoverflow.com"
-      }
-    },
     "CNAME portal.stackoverflow.com": {
       "error": {
         "code": "DNS_NXDOMAIN",
         "message": "queryCname ENOTFOUND portal.stackoverflow.com"
       }
     },
-    "A status.stackoverflow.com": {
+    "CNAME api.stackoverflow.com": {
+      "result": {
+        "name": "api.stackoverflow.com",
+        "type": "CNAME",
+        "records": []
+      }
+    },
+    "CNAME status.stackoverflow.com": {
       "error": {
         "code": "DNS_NXDOMAIN",
-        "message": "queryA ENOTFOUND status.stackoverflow.com"
+        "message": "queryCname ENOTFOUND status.stackoverflow.com"
       }
     },
     "AAAA api.stackoverflow.com": {

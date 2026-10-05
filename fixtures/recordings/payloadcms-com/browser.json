@@ -538,6 +538,18 @@
         "headers": {}
       },
       {
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
         "url": "https://l4wlsi8vxy8hre4v.public.blob.vercel-storage.com/usaf-white200.svg",
         "method": "GET",
         "type": "image",
@@ -574,18 +586,6 @@
         "headers": {}
       },
       {
-        "url": "https://www.googletagmanager.com/gtag/js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://www.googletagmanager.com/gtm.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
         "url": "https://www.googletagmanager.com/gtag/destination",
         "method": "GET",
         "type": "script",
@@ -616,6 +616,12 @@
         "headers": {}
       },
       {
+        "url": "https://www.googletagmanager.com/td",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
         "url": "https://www.google.com/ccm/collect",
         "method": "POST",
         "type": "fetch",
@@ -628,7 +634,7 @@
         "headers": {}
       },
       {
-        "url": "https://js.hs-analytics.net/analytics/1791143700000/24174066.js",
+        "url": "https://js.hs-analytics.net/analytics/1791186600000/24174066.js",
         "method": "GET",
         "type": "script",
         "headers": {}
@@ -665,7 +671,7 @@
       }
     ],
     "websockets": [],
-    "cookies": ["_gcl_au", "__cf_bm", "__hstc", "hubspotutk", "__hssrc", "__hssc"],
+    "cookies": ["__cf_bm", "_gcl_au", "__hstc", "hubspotutk", "__hssrc", "__hssc"],
     "globals": [
       "webpackChunk_N_E",
       "$RT",
@@ -688,8 +694,9 @@
       "_hsp",
       "__hsReferrer",
       "__hsInitialUrl",
-      "PIXELS_RAN",
-      "enabledEventSettings",
+      "hsCookieBanner",
+      "_hspb_loaded",
+      "_hspb_ran",
       "_hsq",
       "sanitizeKey",
       "_hstc_ran",
@@ -697,9 +704,8 @@
       "__hsUserToken",
       "expireDateTime",
       "_hstc_loaded",
-      "hsCookieBanner",
-      "_hspb_loaded",
-      "_hspb_ran"
+      "PIXELS_RAN",
+      "enabledEventSettings"
     ]
   }
 }

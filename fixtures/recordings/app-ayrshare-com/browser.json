@@ -324,25 +324,19 @@
         "headers": {}
       },
       {
-        "url": "https://www.googletagmanager.com/gtag/js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://www.googletagmanager.com/gtag/js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
         "url": "https://app.ayrshare.com/_next/static/media/c825fd02acae0153-s.p.1q3-y3vmyf3p6.woff2",
         "method": "GET",
         "type": "font",
         "headers": {}
       },
       {
-        "url": "https://app.ayrshare.com/_next/static/chunks/0xjwmg-1fprw0.js",
+        "url": "https://www.googletagmanager.com/gtag/js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js",
         "method": "GET",
         "type": "script",
         "headers": {}
@@ -351,6 +345,12 @@
         "url": "https://www.google.com/recaptcha/api2/anchor",
         "method": "GET",
         "type": "document",
+        "headers": {}
+      },
+      {
+        "url": "https://app.ayrshare.com/_next/static/chunks/0xjwmg-1fprw0.js",
+        "method": "GET",
+        "type": "script",
         "headers": {}
       },
       {
@@ -414,17 +414,35 @@
         "headers": {}
       },
       {
+        "url": "https://www.google.com/recaptcha/api2/reload",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
         "url": "https://www.google.com/ccm/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://content-firebaseappcheck.googleapis.com/v1/projects/ayrshare/apps/1:481832134203:web:d29cf4688cb14f31ba1e1e:exchangeRecaptchaV3Token",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/clr",
         "method": "POST",
         "type": "fetch",
         "headers": {}
       }
     ],
     "websockets": [],
-    "cookies": ["_gcl_au", "_ga", "_ga_601PYKGM15"],
+    "cookies": ["_GRECAPTCHA", "_gcl_au", "_ga", "_ga_601PYKGM15"],
     "globals": [
-      "TURBOPACK",
       "__next_f",
+      "TURBOPACK",
       "NEXT_DEPLOYMENT_ID",
       "next",
       "__webpack_hash__",
@@ -442,7 +460,7 @@
       "__google_recaptcha_client",
       "recaptcha",
       "scrypt",
-      "closure_lm_176384",
+      "closure_lm_565154",
       "gaGlobal"
     ]
   }

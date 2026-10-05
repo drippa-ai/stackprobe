@@ -40,7 +40,7 @@
         "headers": {}
       },
       {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/0pd517pxh6vcm.css",
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/3as65fslgjsz2.css",
         "method": "GET",
         "type": "stylesheet",
         "headers": {}
@@ -148,7 +148,7 @@
         "headers": {}
       },
       {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/0x767289iclnm.js",
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/3s-klpyypdl-3.js",
         "method": "GET",
         "type": "script",
         "headers": {}
@@ -349,6 +349,12 @@
         "url": "https://www.chatbase.co/__cb/_next/static/immutable/media/grain.2yo71lp6k8fnp.webp",
         "method": "GET",
         "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://backend.chatbase.co/storage/v1/object/public/chatbase/homepage/hero-data-sources.mp4",
+        "method": "GET",
+        "type": "media",
         "headers": {}
       },
       {
@@ -610,12 +616,6 @@
         "headers": {}
       },
       {
-        "url": "https://backend.chatbase.co/storage/v1/object/public/chatbase/homepage/hero-data-sources.mp4",
-        "method": "GET",
-        "type": "media",
-        "headers": {}
-      },
-      {
         "url": "https://backend.chatbase.co/storage/v1/object/public/chatbase/built-for-industry/industry-retail.mp4",
         "method": "GET",
         "type": "media",
@@ -730,12 +730,6 @@
         "headers": {}
       },
       {
-        "url": "https://www.chatbase.co/api/get-chatbot-styles/z2c2HSfKnCTh5J4650V0I",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
         "url": "https://www.googletagmanager.com/gtag/js",
         "method": "GET",
         "type": "script",
@@ -754,13 +748,13 @@
         "headers": {}
       },
       {
-        "url": "https://www.chatbase.co/auth/signin",
+        "url": "https://www.chatbase.co/api/get-chatbot-styles/z2c2HSfKnCTh5J4650V0I",
         "method": "GET",
         "type": "fetch",
         "headers": {}
       },
       {
-        "url": "https://www.chatbase.co/auth/signup",
+        "url": "https://www.chatbase.co/auth/signin",
         "method": "GET",
         "type": "fetch",
         "headers": {}
@@ -796,30 +790,6 @@
         "headers": {}
       },
       {
-        "url": "https://www.chatbase.co/ingest/static/posthog-recorder.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://www.chatbase.co/ingest/static/dead-clicks-autocapture.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://www.chatbase.co/ingest/static/surveys.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://www.chatbase.co/ingest/static/exception-autocapture.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
         "url": "https://www.chatbase.co/auth/signup",
         "method": "GET",
         "type": "fetch",
@@ -832,37 +802,25 @@
         "headers": {}
       },
       {
+        "url": "https://px.ads.linkedin.com/collect",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
         "url": "https://www.chatbase.co/enterprise",
         "method": "GET",
         "type": "fetch",
         "headers": {}
       },
       {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/00pjbka6tgacw.js",
-        "method": "GET",
-        "type": "script",
+        "url": "https://px.ads.linkedin.com/wa/",
+        "method": "POST",
+        "type": "fetch",
         "headers": {}
       },
       {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/29--cv82cc7ug.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/3wbge4h-_nlxd.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/1x3kdd_l7a3_2.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://www.chatbase.co/customers",
+        "url": "https://www.chatbase.co/auth/signup",
         "method": "GET",
         "type": "fetch",
         "headers": {}
@@ -871,12 +829,6 @@
         "url": "https://connect.facebook.net/signals/config/2178469352913388",
         "method": "GET",
         "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://www.chatbase.co/auth/signin",
-        "method": "GET",
-        "type": "fetch",
         "headers": {}
       },
       {
@@ -922,21 +874,69 @@
         "headers": {}
       },
       {
+        "url": "https://www.chatbase.co/customers",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.chatbase.co/auth/signin",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/00pjbka6tgacw.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/29--cv82cc7ug.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/3wbge4h-_nlxd.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/1x3kdd_l7a3_2.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
         "url": "https://www.chatbase.co/pricing",
         "method": "GET",
         "type": "fetch",
         "headers": {}
       },
       {
-        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/1mxz938xohymj.js",
+        "url": "https://www.chatbase.co/ingest/static/posthog-recorder.js",
         "method": "GET",
         "type": "script",
         "headers": {}
       },
       {
-        "url": "https://www.chatbase.co/dashboard",
+        "url": "https://www.chatbase.co/ingest/static/dead-clicks-autocapture.js",
         "method": "GET",
-        "type": "fetch",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.chatbase.co/ingest/static/surveys.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.chatbase.co/ingest/static/exception-autocapture.js",
+        "method": "GET",
+        "type": "script",
         "headers": {}
       },
       {
@@ -952,6 +952,12 @@
         "headers": {}
       },
       {
+        "url": "https://www.google.no/ads/ga-audiences",
+        "method": "GET",
+        "type": "image",
+        "headers": {}
+      },
+      {
         "url": "https://www.google.com/ccm/collect",
         "method": "POST",
         "type": "fetch",
@@ -964,25 +970,19 @@
         "headers": {}
       },
       {
-        "url": "https://www.google.no/ads/ga-audiences",
+        "url": "https://www.facebook.com/tr/",
         "method": "GET",
         "type": "image",
         "headers": {}
       },
       {
-        "url": "https://px.ads.linkedin.com/collect",
+        "url": "https://www.chatbase.co/__cb/_next/static/immutable/chunks/1mxz938xohymj.js",
         "method": "GET",
-        "type": "image",
+        "type": "script",
         "headers": {}
       },
       {
-        "url": "https://px.ads.linkedin.com/wa/",
-        "method": "POST",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://www.chatbase.co/auth/signin",
+        "url": "https://www.chatbase.co/dashboard",
         "method": "GET",
         "type": "fetch",
         "headers": {}
@@ -1060,7 +1060,7 @@
         "headers": {}
       },
       {
-        "url": "https://www.chatbase.co/ingest/api/surveys/",
+        "url": "https://www.chatbase.co/auth/signin",
         "method": "GET",
         "type": "fetch",
         "headers": {}
@@ -1072,9 +1072,9 @@
         "headers": {}
       },
       {
-        "url": "https://www.facebook.com/tr/",
+        "url": "https://www.chatbase.co/ingest/api/surveys/",
         "method": "GET",
-        "type": "image",
+        "type": "fetch",
         "headers": {}
       },
       {
@@ -1100,9 +1100,9 @@
       "__cf_bm"
     ],
     "globals": [
+      "TURBOPACK",
       "__next_s",
       "__next_f",
-      "TURBOPACK",
       "NEXT_DEPLOYMENT_ID",
       "next",
       "__webpack_hash__",
@@ -1125,17 +1125,17 @@
       "__chatbaseWidgetInitialized",
       "DubAnalytics",
       "_dubAnalytics",
+      "_already_called_lintrk",
+      "ORIBILI",
       "_POSTHOG_REMOTE_CONFIG",
       "google_tag_data",
       "google_tag_manager",
       "onYouTubeIframeAPIReady",
       "gaGlobal",
-      "_already_called_lintrk",
-      "ORIBILI",
+      "extendPostHogWithSurveys",
       "posthogErrorWrappingFunctions",
       "extendPostHogWithExceptionAutoCapture",
-      "extendPostHogWithExceptionAutocapture",
-      "extendPostHogWithSurveys"
+      "extendPostHogWithExceptionAutocapture"
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "url": "https://whereby.com/",
-  "recordedAt": "2026-10-04T20:16:50.947Z",
+  "recordedAt": "2026-10-05T07:52:25.776Z",
   "http": {
     "GET https://whereby.com/": {
       "result": {
@@ -11,7 +11,7 @@
           ["content-encoding", "br"],
           ["content-length", "44766"],
           ["content-type", "text/html"],
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
           ["etag", "\"d1f46c815bbc209131d8def1f254cd87\""],
           ["framer-site-id", "7356e3a0763581fd950f62ec7c680d6bc4dce232a4ea99d68d314d4d7a9096c0"],
           ["last-modified", "Wed, 30 Sep 2026 09:03:30 GMT"],
@@ -22,7 +22,7 @@
           ["server", "Framer/26fa766"],
           [
             "server-timing",
-            "region;desc=\"eu-west-1\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"26fa766\", instance;desc=\"4fec50b\", route;dur=1;desc=\"id=EAl_0P7Mg&locale=default\", country;desc=\"GB\", ss-only-routes"
+            "region;desc=\"eu-west-1\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"26fa766\", instance;desc=\"ab3f234\", route;dur=1;desc=\"id=EAl_0P7Mg&locale=default\", country;desc=\"GB\", ss-only-routes"
           ],
           ["strict-transport-security", "max-age=31536000"],
           ["vary", "Accept-Encoding, Accept"],
@@ -37,23 +37,11 @@
     }
   },
   "dns": {
-    "NS whereby.com": {
-      "result": {
-        "name": "whereby.com",
-        "type": "NS",
-        "records": [
-          "ns-1411.awsdns-48.org",
-          "ns-525.awsdns-01.net",
-          "ns-42.awsdns-05.com",
-          "ns-1933.awsdns-49.co.uk"
-        ]
-      }
-    },
     "A whereby.com": {
       "result": {
         "name": "whereby.com",
         "type": "A",
-        "records": ["99.83.164.242", "75.2.8.149"]
+        "records": ["75.2.8.149", "99.83.164.242"]
       }
     },
     "AAAA whereby.com": {
@@ -70,13 +58,25 @@
         "records": []
       }
     },
-    "TXT 242.164.83.99.origin.asn.cymru.com": {
+    "NS whereby.com": {
       "result": {
-        "name": "242.164.83.99.origin.asn.cymru.com",
+        "name": "whereby.com",
+        "type": "NS",
+        "records": [
+          "ns-42.awsdns-05.com",
+          "ns-1933.awsdns-49.co.uk",
+          "ns-525.awsdns-01.net",
+          "ns-1411.awsdns-48.org"
+        ]
+      }
+    },
+    "TXT 149.8.2.75.origin.asn.cymru.com": {
+      "result": {
+        "name": "149.8.2.75.origin.asn.cymru.com",
         "type": "TXT",
         "records": [
-          "16509 | 99.83.160.0/20 | US | arin | 2018-01-10",
-          "16509 | 99.83.128.0/17 | US | arin | 2018-01-10"
+          "16509 | 75.2.0.0/20 | US | arin | 2018-01-10",
+          "16509 | 75.2.0.0/17 | US | arin | 2018-01-10"
         ]
       }
     },
@@ -92,7 +92,7 @@
     "whereby.com:443": {
       "result": {
         "host": "whereby.com",
-        "ip": "99.83.164.242",
+        "ip": "75.2.8.149",
         "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
         "subjectAltNames": ["whereby.com", "*.whereby.com"],
         "validFrom": "May 21 00:00:00 2026 GMT",

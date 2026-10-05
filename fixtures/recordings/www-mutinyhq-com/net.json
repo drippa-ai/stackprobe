@@ -1,6 +1,6 @@
 {
   "url": "https://www.mutinyhq.com/",
-  "recordedAt": "2026-10-04T20:16:50.917Z",
+  "recordedAt": "2026-10-05T07:52:25.499Z",
   "http": {
     "GET https://www.mutinyhq.com/": {
       "result": {
@@ -12,7 +12,7 @@
           ["content-encoding", "br"],
           ["content-length", "65180"],
           ["content-type", "text/html"],
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
           ["etag", "\"bc7ca0f084ca232a4989d778aadc7bc6\""],
           ["framer-site-id", "3b88683e3d0d7d86c44bce5d58038b53a797e7214f216497f0b91e4c0ef9fbaa"],
           ["last-modified", "Fri, 11 Sep 2026 01:04:21 GMT"],
@@ -23,7 +23,7 @@
           ["server", "Framer/26fa766"],
           [
             "server-timing",
-            "region;desc=\"eu-central-1\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"26fa766\", instance;desc=\"84ada50\", route;dur=1;desc=\"id=ShFvJSlE0&locale=default\", abtests;dur=1;desc=\"WQd80AGuG=Ze1DNM0ZD\", country;desc=\"NO\", ss-only-routes"
+            "region;desc=\"eu-central-1\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"26fa766\", instance;desc=\"7e117d1\", route;dur=1;desc=\"id=ShFvJSlE0&locale=default\", abtests;dur=1;desc=\"WQd80AGuG=Ze1DNM0ZD\", country;desc=\"NO\", ss-only-routes"
           ],
           ["strict-transport-security", "max-age=31536000"],
           ["vary", "Accept-Encoding, Accept"],
@@ -38,7 +38,7 @@
       "result": {
         "name": "www.mutinyhq.com",
         "type": "A",
-        "records": ["31.43.160.6", "31.43.161.6"]
+        "records": ["31.43.161.6", "31.43.160.6"]
       }
     },
     "CNAME www.mutinyhq.com": {
@@ -55,17 +55,17 @@
         "records": []
       }
     },
-    "NS www.mutinyhq.com": {
-      "result": {
-        "name": "www.mutinyhq.com",
-        "type": "NS",
-        "records": []
-      }
-    },
     "CNAME sites.framer.app": {
       "result": {
         "name": "sites.framer.app",
         "type": "CNAME",
+        "records": []
+      }
+    },
+    "NS www.mutinyhq.com": {
+      "result": {
+        "name": "www.mutinyhq.com",
+        "type": "NS",
         "records": []
       }
     },
@@ -74,10 +74,10 @@
         "name": "mutinyhq.com",
         "type": "NS",
         "records": [
-          "ns-534.awsdns-02.net",
           "ns-127.awsdns-15.com",
           "ns-1580.awsdns-05.co.uk",
-          "ns-1474.awsdns-56.org"
+          "ns-1474.awsdns-56.org",
+          "ns-534.awsdns-02.net"
         ]
       }
     },

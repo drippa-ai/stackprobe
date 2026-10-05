@@ -82,13 +82,13 @@
         "headers": {}
       },
       {
-        "url": "https://clerk.turso.tech/npm/@clerk/clerk-js@5/dist/clerk.browser.js",
+        "url": "https://app.turso.tech/_next/static/immutable/chunks/2kkhd5-i2fm8m.js",
         "method": "GET",
         "type": "script",
         "headers": {}
       },
       {
-        "url": "https://app.turso.tech/_next/static/immutable/chunks/2kkhd5-i2fm8m.js",
+        "url": "https://clerk.turso.tech/npm/@clerk/clerk-js@5/dist/clerk.browser.js",
         "method": "GET",
         "type": "script",
         "headers": {}
@@ -196,13 +196,13 @@
         "headers": {}
       },
       {
-        "url": "https://us-assets.i.posthog.com/array/phc_pMhv2miXNG72Aj2fSt7Dpg4tBDCyBxyQh9VCqFBg2Jax/config.js",
+        "url": "https://clerk.turso.tech/npm/@clerk/clerk-js@5.128.0/dist/clerk.browser.js",
         "method": "GET",
         "type": "script",
         "headers": {}
       },
       {
-        "url": "https://clerk.turso.tech/npm/@clerk/clerk-js@5.128.0/dist/clerk.browser.js",
+        "url": "https://us-assets.i.posthog.com/array/phc_pMhv2miXNG72Aj2fSt7Dpg4tBDCyBxyQh9VCqFBg2Jax/config.js",
         "method": "GET",
         "type": "script",
         "headers": {}
@@ -215,12 +215,6 @@
       },
       {
         "url": "https://app.turso.tech/_vercel/insights/script.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://app.turso.tech/_vercel/speed-insights/script.js",
         "method": "GET",
         "type": "script",
         "headers": {}
@@ -250,6 +244,12 @@
         "headers": {}
       },
       {
+        "url": "https://app.turso.tech/_vercel/speed-insights/script.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
         "url": "https://clerk.turso.tech/v1/environment",
         "method": "GET",
         "type": "fetch",
@@ -274,15 +274,15 @@
         "headers": {}
       },
       {
-        "url": "https://stats.g.doubleclick.net/g/collect",
-        "method": "POST",
-        "type": "ping",
-        "headers": {}
-      },
-      {
         "url": "https://www.google.no/ads/ga-audiences",
         "method": "GET",
         "type": "image",
+        "headers": {}
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect",
+        "method": "POST",
+        "type": "ping",
         "headers": {}
       },
       {
@@ -368,30 +368,6 @@
         "method": "GET",
         "type": "image",
         "headers": {}
-      },
-      {
-        "url": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzJkcmNFaWRwcEFLSFp4RnlQZTNMYXl6QTd2ayJ9",
-        "method": "GET",
-        "type": "image",
-        "headers": {}
-      },
-      {
-        "url": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzNJNndnUVA0QnNNb3ZsWmtqWW1rSHJ0R1JQUSJ9",
-        "method": "GET",
-        "type": "image",
-        "headers": {}
-      },
-      {
-        "url": "https://img.clerk.com/static/github.svg",
-        "method": "GET",
-        "type": "image",
-        "headers": {}
-      },
-      {
-        "url": "https://img.clerk.com/static/google.svg",
-        "method": "GET",
-        "type": "image",
-        "headers": {}
       }
     ],
     "websockets": [],
@@ -415,9 +391,9 @@
       "ph_phc_pMhv2miXNG72Aj2fSt7Dpg4tBDCyBxyQh9VCqFBg2Jax_posthog"
     ],
     "globals": [
+      "__next_f",
       "_debugIds",
       "TURBOPACK",
-      "__next_f",
       "NEXT_DEPLOYMENT_ID",
       "next",
       "__webpack_hash__",
@@ -428,16 +404,16 @@
       "__clerk_publishable_key",
       "__clerk_proxy_url",
       "__clerk_domain",
+      "webpackChunk_clerk_clerk_js",
+      "Clerk",
       "__unstable__onBeforeSetActive",
       "__unstable__onAfterSetActive",
       "vam",
       "va",
-      "si",
       "google_tag_data",
       "google_tag_manager",
       "twq",
-      "webpackChunk_clerk_clerk_js",
-      "Clerk",
+      "si",
       "onYouTubeIframeAPIReady",
       "gaGlobal",
       "twttr",

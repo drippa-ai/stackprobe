@@ -2,12 +2,22 @@
 //   pnpm record-ground-truth            records surfaces that have no recording yet
 //   pnpm record-ground-truth --force    records them all again
 //   pnpm record-ground-truth <filter>   only recordings whose name contains <filter>
+// Records browser loads too when Chromium is installed
+// (pnpm --filter @drippa/stackprobe-browser-playwright install-chromium).
 // Also records a full scan (discovery included) of the homepage of every company with an app
 // in the ground truth, into fixtures/domains/. Never run in CI. Then run `pnpm accuracy`.
 import { existsSync } from 'node:fs';
+import { playwrightIfInstalled } from '../../browser-playwright/src/index.ts';
 import { NodeNet } from '../src/node/net.ts';
 import { scan } from '../src/scan.ts';
-import { DOMAINS_DIR, RECORDINGS_DIR, RecordingNet, saveRecording } from '../test/fixtures.ts';
+import {
+  DOMAINS_DIR,
+  RECORDINGS_DIR,
+  RecordingBrowser,
+  RecordingNet,
+  saveBrowserRecording,
+  saveRecording,
+} from '../test/fixtures.ts';
 import { discoveryDomains, loadGroundTruth } from '../test/ground-truth.ts';
 
 const args = process.argv.slice(2);
@@ -20,17 +30,29 @@ const rows = loadGroundTruth().filter(
     (!filter || row.recording.includes(filter)) &&
     (force || !existsSync(new URL(`${row.recording}/net.json`, RECORDINGS_DIR))),
 );
-console.log(`recording ${rows.length} surface(s)`);
+const chromium = await playwrightIfInstalled();
+console.log(
+  `recording ${rows.length} surface(s)${chromium ? ', with the browser' : ' (no Chromium: no browser loads)'}`,
+);
 
 const queue = [...rows];
 await Promise.all(
   Array.from({ length: CONCURRENCY }, async () => {
     for (let row = queue.shift(); row; row = queue.shift()) {
-      // A scan of just this surface (rules only, no browser), so the recording holds exactly the
-      // requests the accuracy report's replay makes, scripts for the bundle layer included.
+      // A scan of just this surface (rules only), so the recording holds exactly what the
+      // accuracy report's replay asks for: the network, scripts for the bundle layer, and the
+      // browser loads when Chromium is installed.
       const net = new RecordingNet(new NodeNet(), row.surfaceUrl);
-      const report = await scan(row.surfaceUrl, { net, discover: false });
+      const browser = chromium ? new RecordingBrowser(chromium) : undefined;
+      const report = await scan(row.surfaceUrl, {
+        net,
+        discover: false,
+        ...(browser ? { browser } : {}),
+      });
       saveRecording(row.recording, net.recording, RECORDINGS_DIR);
+      if (browser && Object.keys(browser.recording).length) {
+        saveBrowserRecording(row.recording, browser.recording);
+      }
       const layers = report.layersRun.map((run) =>
         run.error ? `${run.layer} ${run.status} (${run.error.code})` : `${run.layer} ${run.status}`,
       );
@@ -57,3 +79,4 @@ await Promise.all(
     }
   }),
 );
+await chromium?.close();

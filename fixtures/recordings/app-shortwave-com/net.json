@@ -1,6 +1,6 @@
 {
   "url": "https://app.shortwave.com/",
-  "recordedAt": "2026-10-04T20:16:53.695Z",
+  "recordedAt": "2026-10-05T07:52:40.129Z",
   "http": {
     "GET https://app.shortwave.com/": {
       "result": {
@@ -24,11 +24,11 @@
           ["x-frame-options", "DENY"],
           ["x-xss-protection", "1; mode=block"],
           ["accept-ranges", "bytes"],
-          ["date", "Sun, 04 Oct 2026 20:16:53 GMT"],
-          ["x-served-by", "cache-osl6529-OSL"],
+          ["date", "Mon, 05 Oct 2026 07:52:40 GMT"],
+          ["x-served-by", "cache-osl6542-OSL"],
           ["x-cache", "MISS"],
           ["x-cache-hits", "0"],
-          ["x-timer", "S1791145014.750613,VS0,VE67"],
+          ["x-timer", "S1791186760.268000,VS0,VE59"],
           ["vary", "x-fh-requested-host, accept-encoding"],
           ["alt-svc", "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"]
         ],
@@ -56,15 +56,114 @@
           ["x-frame-options", "DENY"],
           ["x-xss-protection", "1; mode=block"],
           ["accept-ranges", "bytes"],
-          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
-          ["x-served-by", "cache-osl6529-OSL"],
+          ["date", "Mon, 05 Oct 2026 07:52:41 GMT"],
+          ["x-served-by", "cache-osl6542-OSL"],
           ["x-cache", "HIT"],
-          ["x-cache-hits", "0"],
-          ["x-timer", "S1791145014.052123,VS0,VE1"],
+          ["x-cache-hits", "1"],
+          ["x-timer", "S1791186761.471604,VS0,VE1"],
           ["vary", "x-fh-requested-host, accept-encoding"],
           ["alt-svc", "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"]
         ],
         "body": ""
+      }
+    },
+    "GET https://app.shortwave.com/assets/config-2dd36096.js": {
+      "result": {
+        "url": "https://app.shortwave.com/assets/config-2dd36096.js",
+        "status": 200,
+        "headers": [
+          ["connection", "keep-alive"],
+          ["content-length", "1833"],
+          ["cache-control", "public, max-age=604800"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'none'; connect-src * data: blob:; font-src 'self' data:; frame-src https://accounts.google.com https://embed.figma.com https://www.figma.com; img-src * data: blob:; manifest-src 'self'; media-src * data: blob:; object-src 'none'; script-src 'self' 'sha256-bbwWI6HOmqgEh27DqEBPuCeihO2CdlyqnPh8Z/iRaLU='; worker-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'"
+          ],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["etag", "\"1f514589f56f246a8839980b885a3a5061a011d5828a9ba9c4ad95a512ce71bc-br\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:55:24 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["strict-transport-security", "max-age=31556926"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-xss-protection", "1; mode=block"],
+          ["accept-ranges", "bytes"],
+          ["date", "Mon, 05 Oct 2026 07:52:41 GMT"],
+          ["x-served-by", "cache-osl6524-OSL"],
+          ["x-cache", "HIT"],
+          ["x-cache-hits", "1"],
+          ["x-timer", "S1791186761.484622,VS0,VE1"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["alt-svc", "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"]
+        ],
+        "body": "\"https://admin.internal.shortwave.com/\"\n\"https://api.notion.com/\"\n\"https://api.shortwave.com/\"\n\"https://app.asana.com/\"\n\"https://app.hubspot.com/\"\n\"https://attachment.shortwave.com/\"\n\"https://mail.google.com/\"\n\"https://shortwaveimages.com/\"\n\"https://slack.com/\"\n\"https://www.googleapis.com/\"\n\"wss://api.shortwave.com/\""
+      }
+    },
+    "GET https://app.shortwave.com/assets/assets-b97aeed3.js": {
+      "result": {
+        "url": "https://app.shortwave.com/assets/assets-b97aeed3.js",
+        "status": 200,
+        "headers": [
+          ["connection", "keep-alive"],
+          ["content-length", "120608"],
+          ["cache-control", "public, max-age=604800"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'none'; connect-src * data: blob:; font-src 'self' data:; frame-src https://accounts.google.com https://embed.figma.com https://www.figma.com; img-src * data: blob:; manifest-src 'self'; media-src * data: blob:; object-src 'none'; script-src 'self' 'sha256-bbwWI6HOmqgEh27DqEBPuCeihO2CdlyqnPh8Z/iRaLU='; worker-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'"
+          ],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["etag", "\"b612abfc7ac24300ffbb6fee287c91f88a45e85c03fb1b0b82effc4802439041-br\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:55:24 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["strict-transport-security", "max-age=31556926"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-xss-protection", "1; mode=block"],
+          ["accept-ranges", "bytes"],
+          ["date", "Mon, 05 Oct 2026 07:52:41 GMT"],
+          ["x-served-by", "cache-osl6524-OSL"],
+          ["x-cache", "HIT"],
+          ["x-cache-hits", "1"],
+          ["x-timer", "S1791186761.484759,VS0,VE2"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["alt-svc", "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://app.shortwave.com/assets/shared-8b709d33.js": {
+      "result": {
+        "url": "https://app.shortwave.com/assets/shared-8b709d33.js",
+        "status": 200,
+        "headers": [
+          ["connection", "keep-alive"],
+          ["content-length", "279872"],
+          ["cache-control", "public, max-age=604800"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'none'; connect-src * data: blob:; font-src 'self' data:; frame-src https://accounts.google.com https://embed.figma.com https://www.figma.com; img-src * data: blob:; manifest-src 'self'; media-src * data: blob:; object-src 'none'; script-src 'self' 'sha256-bbwWI6HOmqgEh27DqEBPuCeihO2CdlyqnPh8Z/iRaLU='; worker-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'"
+          ],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["etag", "\"978b4f377dbe4093e6c7ba59144efd0bab943ccdf5278367eb9dba988ca88469-br\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:55:24 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["strict-transport-security", "max-age=31556926"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-xss-protection", "1; mode=block"],
+          ["accept-ranges", "bytes"],
+          ["date", "Mon, 05 Oct 2026 07:52:41 GMT"],
+          ["x-served-by", "cache-osl6548-OSL"],
+          ["x-cache", "HIT"],
+          ["x-cache-hits", "1"],
+          ["x-timer", "S1791186761.485319,VS0,VE1"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["alt-svc", "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"]
+        ],
+        "body": "\"https://api.giphy.com/\"\n\"https://app.shortwave.com/\"\n\"https://apps.apple.com/\"\n\"https://calendar.google.com/\"\n\"https://mail.google.com/\"\n\"https://mcp.asana.com/\"\n\"https://mcp.linear.app/\"\n\"https://mcp.zapier.com/\"\n\"https://play.google.com/\"\n\"https://shortwave.com/\"\n\"https://support.google.com/\"\n\"https://tasklet.ai/\"\n\"https://www.google.com/\"\n\"https://www.shortwave.com/\""
       }
     },
     "GET https://app.shortwave.com/assets/main-bd178c55.js": {
@@ -89,24 +188,57 @@
           ["x-frame-options", "DENY"],
           ["x-xss-protection", "1; mode=block"],
           ["accept-ranges", "bytes"],
-          ["date", "Sun, 04 Oct 2026 20:16:54 GMT"],
-          ["x-served-by", "cache-osl6530-OSL"],
+          ["date", "Mon, 05 Oct 2026 07:52:41 GMT"],
+          ["x-served-by", "cache-osl6534-OSL"],
           ["x-cache", "HIT"],
-          ["x-cache-hits", "0"],
-          ["x-timer", "S1791145015.788260,VS0,VE1"],
+          ["x-cache-hits", "1"],
+          ["x-timer", "S1791186761.484501,VS0,VE3"],
           ["vary", "x-fh-requested-host, accept-encoding"],
           ["alt-svc", "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"]
         ],
         "body": "\"http://www.apache.org/\"\n\"https://accounts.google.com/\"\n\"https://android.googlesource.com/\"\n\"https://api.stripe.com/\"\n\"https://app.asana.com/\"\n\"https://app.shortwave-staging.com/\"\n\"https://bit.ly/\"\n\"https://dashboard.stripe.com/\"\n\"https://developer.android.com/\"\n\"https://docs.google.com/\"\n\"https://embed.figma.com/\"\n\"https://logo.dev/\"\n\"https://mcp.zapier.com/\"\n\"https://support.zoom.com/\"\n\"https://tasklet.ai/\"\n\"https://twitter.com/\"\n\"https://www.linkedin.com/\"\n\"https://www.nap.edu/\"\n\"https://www.shortwave.com/\""
       }
+    },
+    "GET https://app.shortwave.com/assets/vendor-a819f0ae.js": {
+      "result": {
+        "url": "https://app.shortwave.com/assets/vendor-a819f0ae.js",
+        "status": 200,
+        "headers": [
+          ["connection", "keep-alive"],
+          ["content-length", "415486"],
+          ["cache-control", "public, max-age=604800"],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'none'; connect-src * data: blob:; font-src 'self' data:; frame-src https://accounts.google.com https://embed.figma.com https://www.figma.com; img-src * data: blob:; manifest-src 'self'; media-src * data: blob:; object-src 'none'; script-src 'self' 'sha256-bbwWI6HOmqgEh27DqEBPuCeihO2CdlyqnPh8Z/iRaLU='; worker-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'"
+          ],
+          ["content-type", "text/javascript; charset=utf-8"],
+          ["etag", "\"e258c581e6c9522cadb38222cf620b3cc3d0e0af24475d94943b86bea2fba03a-br\""],
+          ["last-modified", "Fri, 02 Oct 2026 05:55:24 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["strict-transport-security", "max-age=31556926"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "DENY"],
+          ["x-xss-protection", "1; mode=block"],
+          ["accept-ranges", "bytes"],
+          ["date", "Mon, 05 Oct 2026 07:52:41 GMT"],
+          ["x-served-by", "cache-osl6527-OSL"],
+          ["x-cache", "HIT"],
+          ["x-cache-hits", "1"],
+          ["x-timer", "S1791186761.484774,VS0,VE4"],
+          ["vary", "x-fh-requested-host, accept-encoding"],
+          ["alt-svc", "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"]
+        ],
+        "body": "\"http://fb.me/\"\n\"http://underscorejs.org/\"\n\"http://www.apache.org/\"\n\"https://bit.ly/\"\n\"https://fcmregistrations.googleapis.com/\"\n\"https://firebaseinstallations.googleapis.com/\"\n\"https://firebaselogging.googleapis.com/\"\n\"https://firebaseremoteconfig.googleapis.com/\"\n\"https://git.io/\"\n\"https://lodash.com/\"\n\"https://mui.com/\"\n\"https://npms.io/\"\n\"https://openjsf.org/\""
+      }
     }
   },
   "dns": {
-    "NS app.shortwave.com": {
+    "A app.shortwave.com": {
       "result": {
         "name": "app.shortwave.com",
-        "type": "NS",
-        "records": []
+        "type": "A",
+        "records": ["151.101.1.195", "151.101.65.195"]
       }
     },
     "AAAA app.shortwave.com": {
@@ -123,6 +255,13 @@
         "records": []
       }
     },
+    "NS app.shortwave.com": {
+      "result": {
+        "name": "app.shortwave.com",
+        "type": "NS",
+        "records": []
+      }
+    },
     "NS shortwave.com": {
       "result": {
         "name": "shortwave.com",
@@ -135,18 +274,11 @@
         ]
       }
     },
-    "A app.shortwave.com": {
+    "TXT 195.1.101.151.origin.asn.cymru.com": {
       "result": {
-        "name": "app.shortwave.com",
-        "type": "A",
-        "records": ["151.101.1.195", "151.101.65.195"]
-      }
-    },
-    "TXT 195.65.101.151.origin.asn.cymru.com": {
-      "result": {
-        "name": "195.65.101.151.origin.asn.cymru.com",
+        "name": "195.1.101.151.origin.asn.cymru.com",
         "type": "TXT",
-        "records": ["54113 | 151.101.64.0/22 | US | arin | 2016-02-01"]
+        "records": ["54113 | 151.101.0.0/22 | US | arin | 2016-02-01"]
       }
     },
     "TXT as54113.asn.cymru.com": {
@@ -161,7 +293,7 @@
     "app.shortwave.com:443": {
       "result": {
         "host": "app.shortwave.com",
-        "ip": "151.101.65.195",
+        "ip": "151.101.1.195",
         "issuer": "C=US, O=Google Trust Services, CN=WR3",
         "subjectAltNames": [
           "taskify.aveek.io",

@@ -1,13 +1,13 @@
 {
   "url": "https://www.perplexity.ai/hub/",
-  "recordedAt": "2026-10-04T20:16:50.580Z",
+  "recordedAt": "2026-10-05T07:52:25.190Z",
   "http": {
     "GET https://www.perplexity.ai/hub/": {
       "result": {
         "url": "https://www.perplexity.ai/hub/",
         "status": 403,
         "headers": [
-          ["date", "Sun, 04 Oct 2026 20:16:50 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:25 GMT"],
           ["content-type", "text/html; charset=UTF-8"],
           ["transfer-encoding", "chunked"],
           ["connection", "close"],
@@ -18,7 +18,7 @@
           ["cf-mitigated", "challenge"],
           [
             "content-security-policy",
-            "default-src 'none'; script-src 'nonce-KujApkAm488kMKg8PBftIr' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'"
+            "default-src 'none'; script-src 'nonce-7O0HQHvoQtS72UOkMYVW6c' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'"
           ],
           ["server", "cloudflare"],
           [
@@ -34,32 +34,1360 @@
             "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*"
           ],
           ["referrer-policy", "same-origin"],
-          ["server-timing", "chlray;desc=\"a456dddc9feb0daa\""],
+          ["server-timing", "chlray;desc=\"a45ad8c5dbc031a2\""],
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "SAMEORIGIN"],
           ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
           ["set-cookie", "__cf_bm=<redacted>"],
           ["content-encoding", "gzip"],
-          ["cf-ray", "a456dddc9feb0daa-OSL"],
+          ["cf-ray", "a45ad8c5dbc031a2-CPH"],
           ["alt-svc", "h3=\":443\"; ma=86400"]
         ],
-        "body": "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\n<meta name=\"robots\" content=\"noindex,nofollow\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"content-security-policy\" content=\"default-src 'none'; script-src 'nonce-KujApkAm488kMKg8PBftIr' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'\">\n<meta http-equiv=\"refresh\" content=\"360\">"
+        "body": "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\n<meta name=\"robots\" content=\"noindex,nofollow\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"content-security-policy\" content=\"default-src 'none'; script-src 'nonce-7O0HQHvoQtS72UOkMYVW6c' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'\">\n<meta http-equiv=\"refresh\" content=\"360\">"
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/rolldown-runtime-BYbx6iT9.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/rolldown-runtime-BYbx6iT9.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"47eb6677670791246ef846196dea27ee\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Thu, 06 Aug 2026 01:15:35 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["age", "5638"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ebe84da264-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/Motion-CMNV_v16.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/Motion-CMNV_v16.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"a37f097aa2de889aaeffa211318602a8\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Thu, 01 Oct 2026 18:12:45 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["age", "5638"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ebff9f042d-CPH"]
+        ],
+        "body": "\"https://pplx-marketing-static.perplexity.ai/\"\n\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/vite-l9Q5E00E.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/vite-l9Q5E00E.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"f5ea45af6a61a194d9f2a1f9d8e1e7d4\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 04 Sep 2026 00:27:51 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["age", "5450"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ebff9bcb89-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/ModalContext-GmJPM1NF.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/ModalContext-GmJPM1NF.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"081340ef23fbf62d742a2ac8458a9737\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:33:23 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["age", "5638"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec089a5f9e-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/ToastContext-Djuqjx7R.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/ToastContext-Djuqjx7R.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"d6f61922335c7b0f237e017e1af751e2\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:33:23 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["age", "5638"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec1a2e299e-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/browserSanityDocumentMode-vVK7wRul.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/browserSanityDocumentMode-vVK7wRul.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"0c3c3e0e7d055f75a644de13c40e9e40\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Tue, 08 Sep 2026 21:46:03 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["age", "5638"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec1b714f62-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/useGdprConsent-CbO-5ZYW.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/useGdprConsent-CbO-5ZYW.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"5527c3842ed970255086dc30c1bc8f2e\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:02:47 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["age", "5638"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec19d8d8d5-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/elevation-BTay4dr6.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/elevation-BTay4dr6.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"9bd52106c01ff54bc873a8f6d6f0ce58\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:02:32 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["age", "5638"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec1b529a04-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/ResolvedMarketingLocationContext-B0zTnlRK.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/ResolvedMarketingLocationContext-B0zTnlRK.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"54de351e352b6aebe043e4a659767423\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Thu, 01 Oct 2026 18:12:45 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["age", "5638"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec1839cd9c-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/pplx-stream-Dllod_LU.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/pplx-stream-Dllod_LU.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"928ad036475e7d4c18f10d8b244639e5\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:02:41 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["age", "5638"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ebfd8adf6d-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/Shared-BJN7R0CD.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/Shared-BJN7R0CD.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"317e193169ef0bbcda1e886debb75f78\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:02:26 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["age", "5638"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec2ba9267b-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://r2cdn.perplexity.ai/js/count/0.1.0/loader.min.js": {
+      "result": {
+        "url": "https://r2cdn.perplexity.ai/js/count/0.1.0/loader.min.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["access-control-allow-origin", "*"],
+          ["etag", "W/\"f7cf5df55e4128b51469af0f5c252437\""],
+          ["access-control-allow-headers", "*"],
+          ["last-modified", "Fri, 06 Feb 2026 10:18:53 GMT"],
+          ["vary", "Accept-Encoding"],
+          ["server", "cloudflare"],
+          ["age", "4137"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec29ac8b1c-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/react-spring_web.modern-DrXPfzNY.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/react-spring_web.modern-DrXPfzNY.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"4627b6898a1e748bd0d277f93cf16680\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Thu, 01 Oct 2026 18:13:01 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["age", "4396"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ebe8415f9e-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://www.perplexity.ai/unifyintent.js": {
+      "result": {
+        "url": "https://www.perplexity.ai/unifyintent.js",
+        "status": 403,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/html; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "close"],
+          [
+            "accept-ch",
+            "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA"
+          ],
+          ["cf-mitigated", "challenge"],
+          [
+            "content-security-policy",
+            "default-src 'none'; script-src 'nonce-csEw0h59CSCD8bq9hESnlj' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'"
+          ],
+          ["server", "cloudflare"],
+          [
+            "critical-ch",
+            "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA"
+          ],
+          ["cross-origin-embedder-policy", "require-corp"],
+          ["cross-origin-opener-policy", "same-origin"],
+          ["cross-origin-resource-policy", "same-origin"],
+          ["origin-agent-cluster", "?1"],
+          [
+            "permissions-policy",
+            "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*"
+          ],
+          ["referrer-policy", "same-origin"],
+          ["server-timing", "chlray;desc=\"a45ad8ec2a64299e\""],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec2a64299e-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\n<meta name=\"robots\" content=\"noindex,nofollow\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"content-security-policy\" content=\"default-src 'none'; script-src 'nonce-csEw0h59CSCD8bq9hESnlj' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'\">\n<meta http-equiv=\"refresh\" content=\"360\">"
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/SingularAttributionProviderShared-DyvNnEqP.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/SingularAttributionProviderShared-DyvNnEqP.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"c1c7238a153afee5a8449cb58edafc7e\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:02:26 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["age", "5638"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec296a32d7-CPH"]
+        ],
+        "body": "\"https://pplx-marketing-static.perplexity.ai/\"\n\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/marketingHostRouteAliases-BrWsUv4m.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/marketingHostRouteAliases-BrWsUv4m.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"b3972a4e7fc0386c55055ea41943c6f0\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:12:20 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["age", "5638"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec1e9cc67d-CPH"]
+        ],
+        "body": "\"https://host-route-alias.invalid/\"\n\"https://pplx-static-sourcemaps.perplexity.ai/\"\n\"https://research.perplexity.ai/\"\n\"https://www.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/pplx-icons-D_S1l24Q.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/pplx-icons-D_S1l24Q.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"96b3a273f1b84a6b5ac17bc63e505110\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:02:41 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["age", "5638"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ebfb988a3c-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/platform-core-QnzOnuIV.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/platform-core-QnzOnuIV.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"6d479e62ab0edefc5b32b2b35a2ccd30\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:02:41 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["age", "5638"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ebff93042d-CPH"]
+        ],
+        "body": "\"https://pplx-marketing-static.perplexity.ai/\"\n\"https://pplx-static-sourcemaps.perplexity.ai/\"\n\"https://redacted.invalid/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/index.html-C4dTx59-.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/index.html-C4dTx59-.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"901711338a7c30c7b9cf34153a3909fa\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 14:53:50 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["age", "5684"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ebfd3ee034-CPH"]
+        ],
+        "body": "\"https://developers.google.com/\"\n\"https://google-testing.pplxmeasure.com/\"\n\"https://google.pplxmeasure.com/\"\n\"https://linear.app/\"\n\"https://marketing.invalid/\"\n\"https://pagead2.googlesyndication.com/\"\n\"https://pplx-marketing-static.perplexity.ai/\"\n\"https://pplx-static-sourcemaps.perplexity.ai/\"\n\"https://region1.google-analytics.com/\"\n\"https://stats.g.doubleclick.net/\"\n\"https://testing.perplexity.ai/\"\n\"https://www.google-analytics.com/\"\n\"https://www.google.com/\"\n\"https://www.googletagmanager.com/\"\n\"https://www.perplexity.ai/\""
+      }
+    },
+    "GET https://count.perplexity.ai/cdn-cgi/challenge-platform/scripts/jsd/main.js": {
+      "result": {
+        "url": "https://count.perplexity.ai/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "status": 302,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-length", "0"],
+          ["connection", "keep-alive"],
+          ["location", "/cdn-cgi/challenge-platform/h/b/scripts/jsd/d76008a69eab/main.js?"],
+          [
+            "cache-control",
+            "max-age=300, stale-if-error=10800, stale-while-revalidate=10800, public"
+          ],
+          ["access-control-allow-origin", "*"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad8ec4e049a01-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://count.perplexity.ai/cdn-cgi/challenge-platform/h/b/scripts/jsd/d76008a69eab/main.js": {
+      "result": {
+        "url": "https://count.perplexity.ai/cdn-cgi/challenge-platform/h/b/scripts/jsd/d76008a69eab/main.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          [
+            "cache-control",
+            "max-age=14400, stale-if-error=10800, stale-while-revalidate=10800, public"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["content-encoding", "gzip"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad8ec4be7da98-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.perplexity.ai/cdn-cgi/challenge-platform/scripts/jsd/main.js": {
+      "result": {
+        "url": "https://www.perplexity.ai/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "status": 302,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-length", "0"],
+          ["connection", "keep-alive"],
+          ["location", "/cdn-cgi/challenge-platform/h/b/scripts/jsd/d76008a69eab/main.js?"],
+          [
+            "cache-control",
+            "max-age=300, stale-if-error=10800, stale-while-revalidate=10800, public"
+          ],
+          ["access-control-allow-origin", "*"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad8ec4ceb6cad-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://www.perplexity.ai/cdn-cgi/challenge-platform/h/b/scripts/jsd/d76008a69eab/main.js": {
+      "result": {
+        "url": "https://www.perplexity.ai/cdn-cgi/challenge-platform/h/b/scripts/jsd/d76008a69eab/main.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "application/javascript; charset=UTF-8"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          [
+            "cache-control",
+            "max-age=14400, stale-if-error=10800, stale-while-revalidate=10800, public"
+          ],
+          ["x-content-type-options", "nosniff"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["content-encoding", "gzip"],
+          ["server", "cloudflare"],
+          ["cf-ray", "a45ad8ec4bbfd0c3-CPH"],
+          ["alt-svc", "h3=\":443\"; ma=86400"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/dist-DGfKqoeH.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/dist-DGfKqoeH.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"9f9a7f535ba2fdf3e540c7cc04ea05e7\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:02:32 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ebe9360ba7-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\"\n\"https://radix-ui.com/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/i18n-BTCIV-aP.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/i18n-BTCIV-aP.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"c9e509dd5192ced8a78afdf7ee848a6d\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:02:36 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ebee774b92-CPH"]
+        ],
+        "body": "\"https://formatjs.github.io/\"\n\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/aether-core-Cf38cbe5.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/aether-core-Cf38cbe5.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"2d1ec272109136870e49a836866d41ed\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:02:27 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ebf994d8d5-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/platform-components-DsGWPfMO.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/platform-components-DsGWPfMO.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"a1625d4b35ed91fc8a9a653384d42913\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:12:22 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ebfcfba0fc-CPH"]
+        ],
+        "body": "\"https://pplx-marketing-static.perplexity.ai/\"\n\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/config-yF9Ke0PX.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/config-yF9Ke0PX.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"be028061f122876fb45eefe4ff65bea2\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Mon, 14 Sep 2026 14:09:07 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec080018b1-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/react-query-DbSGb-Bc.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/react-query-DbSGb-Bc.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"75f683f4d513f9749aae608e4f8a950e\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:02:42 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec080390dc-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/ManagedModalLifecycleContext-H3qxwrTk.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/ManagedModalLifecycleContext-H3qxwrTk.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"9a1354042623283e6123e749b9aaee1e\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:12:07 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec0e9cc011-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/Surface-yBA7voQd.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/Surface-yBA7voQd.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"255ec6031311417c5082f0d2d983cf29\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:33:23 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec0dfc2387-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/useAetherLabels-CsXAU6A6.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/useAetherLabels-CsXAU6A6.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"3ab349d34cab887ef9d6a1ca9c9eab2a\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:12:28 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec0cb4d90a-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/openfeature-uAw9p1yA.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/openfeature-uAw9p1yA.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"ad925d934602ebb5b3c9111570706be5\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Thu, 01 Oct 2026 18:12:59 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec182190dc-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/useAetherContext-CmwrN94Y.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/useAetherContext-CmwrN94Y.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"5e5dd94b7a0883ab8d3df300e986cf58\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:12:28 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec08a41c70-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/MarketingQueryStateContext-Cwbq2P3x.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/MarketingQueryStateContext-Cwbq2P3x.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"478c3b78a6c68d2d1f81b2942f5a4a63\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Thu, 01 Oct 2026 18:12:45 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec1a40b354-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/experimentation-B-ZDfREP.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/experimentation-B-ZDfREP.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"4aafb952dd7251d46767d8e79146149d\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:33:30 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec1d8f9a01-CPH"]
+        ],
+        "body": "\"https://pplx-marketing-static.perplexity.ai/\"\n\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/consts-B9uRFDHh.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/consts-B9uRFDHh.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"c67fb0007431d20fc84e7bd6feb5b415\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:02:30 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec2905afe5-CPH"]
+        ],
+        "body": "\"https://get.microsoft.com/\"\n\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/types-DtQQ35k9.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/types-DtQQ35k9.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"cb13316c9f9d19e8598cd4449f9574f9\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 15:02:46 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec2da46e6e-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/vendors-DI6JD-XO.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/vendors-DI6JD-XO.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"6d21f61fd4dcdd22ba915d8eb2249f81\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 05:41:39 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ebe9b63299-CPH"]
+        ],
+        "body": "\"https://d20xtzwzcl0ceb.cloudfront.net/\"\n\"https://d3uc069fcn7uxw.cloudfront.net/\"\n\"https://docs.datadoghq.com/\"\n\"https://pplx-static-sourcemaps.perplexity.ai/\"\n\"https://www.datad0g-browser-agent.com/\"\n\"https://www.datadoghq-browser-agent.com/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/r2Asset-B6630YKB.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/r2Asset-B6630YKB.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"f82b95585bc7966601b56efc9c7b2ecc\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 11 Sep 2026 06:51:38 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec2e471e41-CPH"]
+        ],
+        "body": "\"https://frontend-cdn.perplexity.ai/\"\n\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/NimbusSection-BA1TY8_6.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/NimbusSection-BA1TY8_6.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"8da47c33e468c1076c3ffc19d9d91e0a\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Thu, 01 Oct 2026 18:12:45 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec3f7bd054-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/Logo-GYCFvKEB.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/Logo-GYCFvKEB.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"0c20406dbffc2194095e4d8a1d75a79c\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 16:00:11 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec3bc43d52-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/InstrumentationScope-BfR2nY-X.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/InstrumentationScope-BfR2nY-X.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"868ac4222c6610ea4e4c294e6cf2f021\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 16:00:10 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec3b89a5f4-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/withInstrumentationScope-BaP_V6Bz.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/withInstrumentationScope-BaP_V6Bz.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"aec317c302e51cfa07aa921e94dd1fee\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 16:00:38 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec3ed12af8-CPH"]
+        ],
+        "body": "\"https://perplexity.ai/\"\n\"https://pplx-static-sourcemaps.perplexity.ai/\"\n\"https://www.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/Faq-CjjkcTAC.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/Faq-CjjkcTAC.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"7ba60411fca3f6e64afc76651ce0934e\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 18:54:20 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec390dafe5-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/localizableString-CTGoYb0A.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/localizableString-CTGoYb0A.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"2d4145456a3cd65e3873e9ad405050ca\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Thu, 01 Oct 2026 18:51:51 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec3da9bd15-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/Footer-D_Epa4VU.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/Footer-D_Epa4VU.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"18e16b40a1f7dcae01003aa7ed6292ff\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 16:00:10 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec3f83d054-CPH"]
+        ],
+        "body": "\"https://discord.gg/\"\n\"https://docs.perplexity.ai/\"\n\"https://instagram.com/\"\n\"https://linkedin.com/\"\n\"https://live.standards.site/\"\n\"https://perplexity.ai/\"\n\"https://perplexity.supply/\"\n\"https://pplx-marketing-static.perplexity.ai/\"\n\"https://pplx-static-sourcemaps.perplexity.ai/\"\n\"https://pplx.ai/\"\n\"https://research.perplexity.ai/\"\n\"https://threads.net/\"\n\"https://trust.perplexity.ai/\"\n\"https://www.perplexity.ai/\"\n\"https://www.youtube.com/\"\n\"https://x.com/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/useInView-DL6qFkul.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/useInView-DL6qFkul.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"a441f5af255ad38e602489998e33adb4\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Thu, 01 Oct 2026 20:11:27 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec487bc9be-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/loadDatadogOpenFeatureProvider-p0Bay09X.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/loadDatadogOpenFeatureProvider-p0Bay09X.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"3736946e280ba3fdc2943532b3f9aaac\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 16:00:27 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec4c04b79d-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/Header-B08SN0IN.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/Header-B08SN0IN.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"896d1f7b905d236c14887e1ad94f455a\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 16:00:10 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec3a6a86cc-CPH"]
+        ],
+        "body": "\"https://api.sanity.io/\"\n\"https://cdn.sanity.io/\"\n\"https://pplx-marketing-static.perplexity.ai/\"\n\"https://pplx-static-sourcemaps.perplexity.ai/\"\n\"https://research.perplexity.ai/\"\n\"https://trust.perplexity.ai/\"\n\"https://www.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/GlobalToastRenderer-15B6oVnI.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/GlobalToastRenderer-15B6oVnI.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"da6c5aa7dbdf9e20be38422870ec5dd6\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 16:00:10 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec4c0ec394-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/dist-CeDAvWL7.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/dist-CeDAvWL7.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"0624d97f80efdc292ce00d3ac54dd6ba\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Thu, 01 Oct 2026 18:12:51 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec5be36c90-CPH"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/eppo-sdk-C4hZNuaj.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/eppo-sdk-C4hZNuaj.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"82fbd0d45dbed0898c967aad65f13416\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Thu, 01 Oct 2026 18:12:51 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec58630523-CPH"]
+        ],
+        "body": "\"https://fscdn.eppo.cloud/\"\n\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/hub-Cx83prAV.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/hub-Cx83prAV.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"9d74d342efc6a7b9f613389f9a84a458\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Fri, 02 Oct 2026 18:54:32 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "REVALIDATED"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec2db9f9c7-CPH"]
+        ],
+        "body": "\"https://perplexity.ai/\"\n\"https://pplx-static-sourcemaps.perplexity.ai/\"\n\"https://www.linkedin.com/\"\n\"https://www.youtube.com/\"\n\"https://x.com/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/hubIcons-CLW7e46i.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/hubIcons-CLW7e46i.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"d6b1c89e37447bce7aa696e7f1b21ca1\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Thu, 01 Oct 2026 20:11:16 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "REVALIDATED"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec4878d82d-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
+      }
+    },
+    "GET https://pplx-marketing-static.perplexity.ai/assets/easing-DOPtNfmj.js": {
+      "result": {
+        "url": "https://pplx-marketing-static.perplexity.ai/assets/easing-DOPtNfmj.js",
+        "status": 200,
+        "headers": [
+          ["date", "Mon, 05 Oct 2026 07:52:31 GMT"],
+          ["content-type", "text/javascript"],
+          ["transfer-encoding", "chunked"],
+          ["connection", "keep-alive"],
+          ["etag", "W/\"a3a2e0cd2887496f2d8f31c865e9c890\""],
+          ["strict-transport-security", "max-age=15552000; includeSubDomains; preload"],
+          ["last-modified", "Thu, 01 Oct 2026 18:12:51 GMT"],
+          ["set-cookie", "__cf_bm=<redacted>"],
+          ["server", "cloudflare"],
+          ["expires", "Mon, 05 Oct 2026 07:57:31 GMT"],
+          ["cache-control", "public, max-age=300"],
+          ["cf-cache-status", "HIT"],
+          ["content-encoding", "gzip"],
+          ["cf-ray", "a45ad8ec3b385330-CPH"]
+        ],
+        "body": "\"https://pplx-static-sourcemaps.perplexity.ai/\""
       }
     }
   },
   "dns": {
+    "NS www.perplexity.ai": {
+      "result": {
+        "name": "www.perplexity.ai",
+        "type": "NS",
+        "records": []
+      }
+    },
     "A www.perplexity.ai": {
       "result": {
         "name": "www.perplexity.ai",
         "type": "A",
         "records": ["104.18.26.48", "104.18.27.48"]
-      }
-    },
-    "AAAA www.perplexity.ai": {
-      "result": {
-        "name": "www.perplexity.ai",
-        "type": "AAAA",
-        "records": ["2606:4700::6812:1a30", "2606:4700::6812:1b30"]
       }
     },
     "CNAME www.perplexity.ai": {
@@ -69,11 +1397,11 @@
         "records": []
       }
     },
-    "NS www.perplexity.ai": {
+    "AAAA www.perplexity.ai": {
       "result": {
         "name": "www.perplexity.ai",
-        "type": "NS",
-        "records": []
+        "type": "AAAA",
+        "records": ["2606:4700::6812:1a30", "2606:4700::6812:1b30"]
       }
     },
     "NS perplexity.ai": {

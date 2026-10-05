@@ -64,9 +64,21 @@
         "headers": {}
       },
       {
+        "url": "https://cdp.customer.io/v1/analytics-js/snippet/8d93860152efd4e62bd0/analytics.min.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
         "url": "https://app.launchdarkly.com/sdk/goals/61fbf23f47fba217dcbbacbb",
         "method": "GET",
         "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://analytics-cdn.inngest.com/v1/projects/4zcppDbfhG6nGTzkwkquksEXnzhpSQZl/settings",
+        "method": "GET",
+        "type": "fetch",
         "headers": {}
       },
       {
@@ -76,21 +88,9 @@
         "headers": {}
       },
       {
-        "url": "https://app.launchdarkly.com/sdk/evalx/61fbf23f47fba217dcbbacbb/contexts/eyJhbm9ueW1vdXMiOnRydWUsImtpbmQiOiJ1c2VyIiwia2V5IjoiZjI4NDhiMzAtYzAyZC0xMWYxLTlmMzEtNTk1NjAyZjQwM2QzIn0",
+        "url": "https://app.launchdarkly.com/sdk/evalx/61fbf23f47fba217dcbbacbb/contexts/eyJhbm9ueW1vdXMiOnRydWUsImtpbmQiOiJ1c2VyIiwia2V5IjoiYjFmY2M2NDAtYzA5MS0xMWYxLWJjYzUtYjUyOTcyZGI5YjNiIn0",
         "method": "GET",
         "type": "xhr",
-        "headers": {}
-      },
-      {
-        "url": "https://cdp.customer.io/v1/analytics-js/snippet/8d93860152efd4e62bd0/analytics.min.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://analytics-cdn.inngest.com/v1/projects/4zcppDbfhG6nGTzkwkquksEXnzhpSQZl/settings",
-        "method": "GET",
-        "type": "fetch",
         "headers": {}
       },
       {
@@ -130,6 +130,12 @@
         "headers": {}
       },
       {
+        "url": "https://analytics-cdn.inngest.com/next-integrations/actions/amplitude-plugins/f12a4347e1080fb88155.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
         "url": "https://clerk.inngest.com/v1/environment",
         "method": "GET",
         "type": "fetch",
@@ -142,21 +148,9 @@
         "headers": {}
       },
       {
-        "url": "https://analytics-cdn.inngest.com/next-integrations/actions/amplitude-plugins/f12a4347e1080fb88155.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
         "url": "https://analytics-cdn.inngest.com/next-integrations/actions/3962/1faa179dfb20d0a3f5a0.js",
         "method": "GET",
         "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://cdp.customer.io/v1/projects/8d93860152efd4e62bd0/settings",
-        "method": "GET",
-        "type": "fetch",
         "headers": {}
       },
       {
@@ -184,9 +178,27 @@
         "headers": {}
       },
       {
-        "url": "https://clientstream.launchdarkly.com/eval/61fbf23f47fba217dcbbacbb/eyJhbm9ueW1vdXMiOnRydWUsImtpbmQiOiJ1c2VyIiwia2V5IjoiZjI4NDhiMzAtYzAyZC0xMWYxLTlmMzEtNTk1NjAyZjQwM2QzIn0",
+        "url": "https://cdp.customer.io/v1/projects/8d93860152efd4e62bd0/settings",
         "method": "GET",
-        "type": "eventsource",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.google.com/ccm/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://cdp.customer.io/v1/analytics-js/ajs-destination.js",
+        "method": "GET",
+        "type": "script",
         "headers": {}
       },
       {
@@ -214,27 +226,9 @@
         "headers": {}
       },
       {
-        "url": "https://cdp.customer.io/v1/analytics-js/ajs-destination.js",
+        "url": "https://clientstream.launchdarkly.com/eval/61fbf23f47fba217dcbbacbb/eyJhbm9ueW1vdXMiOnRydWUsImtpbmQiOiJ1c2VyIiwia2V5IjoiYjFmY2M2NDAtYzA5MS0xMWYxLWJjYzUtYjUyOTcyZGI5YjNiIn0",
         "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://unpkg.com/@inngest/browser@0.3.1/inngest.min.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://www.google.com/ccm/collect",
-        "method": "POST",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://ad.doubleclick.net/ccm/s/collect",
-        "method": "POST",
-        "type": "fetch",
+        "type": "eventsource",
         "headers": {}
       },
       {
@@ -247,6 +241,12 @@
         "url": "https://clerk-telemetry.com/v1/logs",
         "method": "POST",
         "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://unpkg.com/@inngest/browser@0.3.1/inngest.min.js",
+        "method": "GET",
+        "type": "script",
         "headers": {}
       },
       {
@@ -266,6 +266,18 @@
         "method": "POST",
         "type": "fetch",
         "headers": {}
+      },
+      {
+        "url": "https://events.launchdarkly.com/events/bulk/61fbf23f47fba217dcbbacbb",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://api.inngest.com/gql",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
       }
     ],
     "websockets": [],
@@ -273,12 +285,12 @@
       "ajs_anonymous_id",
       "analytics_session_id",
       "analytics_session_id.last_access",
+      "_gcl_au",
       "__client",
       "__client_uat",
       "__client_uat_E_ThCFCK",
-      "_cfuvid",
       "__cf_bm",
-      "_gcl_au"
+      "_cfuvid"
     ],
     "globals": [
       "__clerk_init_state",
@@ -298,14 +310,14 @@
       "webpackChunk_clerk_clerk_js",
       "Clerk",
       "webpackChunkDestination",
-      "webpackChunk_customerio_cdp_analytics_browser",
-      "analyticsWriteKey",
-      "__INSPECTOR__",
-      "AnalyticsNext",
       "webpackJsonp_name_Integration",
       "setImmediate",
       "clearImmediate",
       "dataLayer",
+      "webpackChunk_customerio_cdp_analytics_browser",
+      "analyticsWriteKey",
+      "__INSPECTOR__",
+      "AnalyticsNext",
       "google_tag_manager",
       "google_tag_data",
       "inngest",

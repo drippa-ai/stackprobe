@@ -30,6 +30,21 @@ describe('extractBundleStrings', () => {
   });
 });
 
+test('firstPartyScripts adds the scripts the browser saw load, after the HTML ones', () => {
+  const page = 'https://app.acme.test/login';
+  expect(
+    firstPartyScripts(
+      [
+        { layer: 'browser', kind: 'request-url', value: 'https://app.acme.test/chunks/lazy.js' },
+        { layer: 'browser', kind: 'request-url', value: 'https://app.acme.test/api/session' },
+        { layer: 'browser', kind: 'request-url', value: 'https://js.stripe.com/v3/stripe.js' },
+        { layer: 'http', kind: 'script-src', value: '/main.js', source: page },
+      ],
+      page,
+    ),
+  ).toEqual(['https://app.acme.test/main.js', 'https://app.acme.test/chunks/lazy.js']);
+});
+
 test('firstPartyScripts keeps the site own scripts only', () => {
   const src = (value: string): Signal => ({
     layer: 'http',

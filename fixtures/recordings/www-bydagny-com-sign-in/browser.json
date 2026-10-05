@@ -58,7 +58,7 @@
         "headers": {}
       },
       {
-        "url": "https://www.bydagny.com/_next/static/chunks/06sy4oi_ui504.js",
+        "url": "https://www.bydagny.com/_next/static/chunks/3msro4g0sapf_.js",
         "method": "GET",
         "type": "script",
         "headers": {}
@@ -76,7 +76,7 @@
         "headers": {}
       },
       {
-        "url": "https://www.bydagny.com/_next/static/chunks/turbopack-06688wwul_ajq.js",
+        "url": "https://www.bydagny.com/_next/static/chunks/turbopack-2vxg4zcb2k9i0.js",
         "method": "GET",
         "type": "script",
         "headers": {}
@@ -286,39 +286,15 @@
         "headers": {}
       },
       {
-        "url": "https://www.bydagny.com/privacy-policy",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
         "url": "https://cdn.fontshare.com/wf/5SZVFDB7V52TI6ULVC6J3WQZQCIZVDV5/ODYPSTCUDMKSTYIPTV4CLQ7URIK7XYBJ/YS3VPNVO4B3TOJMEXDGFZQ4TLZGGSRZC.woff",
         "method": "GET",
         "type": "font",
         "headers": {}
       },
       {
-        "url": "https://cdn.fontshare.com/wf/5SZVFDB7V52TI6ULVC6J3WQZQCIZVDV5/ODYPSTCUDMKSTYIPTV4CLQ7URIK7XYBJ/YS3VPNVO4B3TOJMEXDGFZQ4TLZGGSRZC.ttf",
+        "url": "https://www.bydagny.com/privacy-policy",
         "method": "GET",
-        "type": "font",
-        "headers": {}
-      },
-      {
-        "url": "https://www.bydagny.com/fonts/switzer/switzer-600.woff2",
-        "method": "GET",
-        "type": "font",
-        "headers": {}
-      },
-      {
-        "url": "https://ndoyjyehjpocvtgvafym.supabase.co/functions/v1/ingest",
-        "method": "POST",
-        "type": "ping",
-        "headers": {}
-      },
-      {
-        "url": "https://scripts.clarity.ms/0.8.70/clarity.js",
-        "method": "GET",
-        "type": "script",
+        "type": "fetch",
         "headers": {}
       },
       {
@@ -424,57 +400,15 @@
         "headers": {}
       },
       {
-        "url": "https://www.bydagny.com/privacy-policy",
+        "url": "https://cdn.fontshare.com/wf/5SZVFDB7V52TI6ULVC6J3WQZQCIZVDV5/ODYPSTCUDMKSTYIPTV4CLQ7URIK7XYBJ/YS3VPNVO4B3TOJMEXDGFZQ4TLZGGSRZC.ttf",
         "method": "GET",
-        "type": "fetch",
+        "type": "font",
         "headers": {}
       },
       {
-        "url": "https://js.intercomcdn.com/frame.9e82d32e.js",
+        "url": "https://www.bydagny.com/fonts/switzer/switzer-600.woff2",
         "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://js.intercomcdn.com/vendor.6b1beca3.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://www.bydagny.com/privacy-policy",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://www.bydagny.com/new",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://l.clarity.ms/collect",
-        "method": "POST",
-        "type": "xhr",
-        "headers": {}
-      },
-      {
-        "url": "https://www.bydagny.com/privacy-policy",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://api-iam.intercom.io/messenger/web/launcher_settings",
-        "method": "POST",
-        "type": "xhr",
-        "headers": {}
-      },
-      {
-        "url": "https://api-iam.intercom.io/messenger/web/ping",
-        "method": "POST",
-        "type": "xhr",
+        "type": "font",
         "headers": {}
       },
       {
@@ -484,9 +418,9 @@
         "headers": {}
       },
       {
-        "url": "https://www.bydagny.com/_next/static/chunks/3c9g7uw5o89kf.js",
+        "url": "https://www.bydagny.com/new",
         "method": "GET",
-        "type": "script",
+        "type": "fetch",
         "headers": {}
       },
       {
@@ -512,10 +446,76 @@
         "method": "GET",
         "type": "script",
         "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/privacy-policy",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/privacy-policy",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/privacy-policy",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://ndoyjyehjpocvtgvafym.supabase.co/functions/v1/ingest",
+        "method": "POST",
+        "type": "ping",
+        "headers": {}
+      },
+      {
+        "url": "https://scripts.clarity.ms/0.8.70/clarity.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.bydagny.com/_next/static/chunks/3c9g7uw5o89kf.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://js.intercomcdn.com/frame.8ca90362.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://js.intercomcdn.com/vendor.6b1beca3.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://u.clarity.ms/collect",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://api-iam.intercom.io/messenger/web/launcher_settings",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://api-iam.intercom.io/messenger/web/ping",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
       }
     ],
     "websockets": [
-      "wss://nexus-websocket-a.intercom.io/pubsub/5-fQoTOqnBynR6qHc0gdvyurNiT1uVvSFj_jy15rthJoZox0yZTbgpJYyTyeKe-nqcpw72DKT5JX57T6ZOVX_7ENXUmyiU6GMF_hZH"
+      "wss://nexus-websocket-a.intercom.io/pubsub/5-2SWdIAYuMr2Ay_Is4A2etj9a-Sn6PZT-gYVVUehdadjaqBmbm__dM7AOLSMUdS0CMGAxABiT6Kzh4FKXhW7dx0KV8VhpeaK2SqeB"
     ],
     "cookies": [
       "sb-cookie-domain-migrated",

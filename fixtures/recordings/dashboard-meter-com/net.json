@@ -1,6 +1,6 @@
 {
   "url": "https://dashboard.meter.com/",
-  "recordedAt": "2026-10-04T20:16:47.644Z",
+  "recordedAt": "2026-10-05T07:52:15.370Z",
   "http": {
     "GET https://dashboard.meter.com/": {
       "result": {
@@ -8,7 +8,7 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "168436"],
+          ["age", "210163"],
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-disposition", "inline"],
           ["content-encoding", "br"],
@@ -20,7 +20,7 @@
           ["cross-origin-embedder-policy", "unsafe-none"],
           ["cross-origin-opener-policy", "unsafe-none"],
           ["cross-origin-resource-policy", "cross-origin"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:15 GMT"],
           ["etag", "W/\"8c2a71a1111664936ac09aa501d3e6de\""],
           ["last-modified", "Fri, 02 Oct 2026 21:29:31 GMT"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
@@ -29,7 +29,7 @@
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "SAMEORIGIN"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::xn2c5-1791145007822-70ffe874dc99"],
+          ["x-vercel-id", "arn1::mprld-1791186735557-df94c271d3dc"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<meta charset=\"utf-8\">\n<link rel=\"icon\" href=\"/images/favicon.png\">\n<meta name=\"viewport\" content=\"viewport-fit=cover, width=device-width, initial-scale=1\">\n<meta name=\"mobile-web-app-capable\" content=\"yes\">\n<meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\">\n<meta name=\"theme-color\" id=\"meter-theme-color\" content=\"#FFFFFF\">\n<meta name=\"color-scheme\" id=\"meter-color-scheme\" content=\"light dark\">\n<meta name=\"healthcheck\" content=\"name=dashboard,status=online\">\n<meta name=\"robots\" content=\"noindex, nofollow\">\n<script type=\"module\" crossorigin=\"\" src=\"/assets/index-Co3Ngkdd.js\"></script>\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/jsx-runtime-qugFlhtW.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/exports-DLldTtZw.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/errorboundary-B-UebVjH.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/react-dom-f10ZNGnq.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/dist-Cn2-tMJl.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/src-CBHCeafP.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/dist-CQCcfPg_.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/preload-helper-D13UdkDh.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/src-DJRMf3GK.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/errors-BWeWtQMz.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/esm-DtbyFHkT.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/replayStats-OVwhbdRP.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useFeatureFlags-n9PNAn9b.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/cookies-B-M-bnfK.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useAxiosInstance-CYOJvzY7.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/IdentityDataProvider-BRlD173F.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/src-ZLNz1IIb.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/src-CnX46Lwo.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-BxpRig6_2.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useSuspenseQuery-Cy2nvdRL.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useMutation-CFn94QXV.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/gql-Dgz24EHJ.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/logError-n4868hE7.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useKeyValue-BLyXhqD8.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/src-6N33G5Wb.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/constants-DkdGq5CF.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useCurrentCompanyFromPath-C6OZcD6k.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/CurrentCompanyProvider-CQvB06Tp.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/nav-BWR4Pe5f.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useNetworkFromPath-D3b2NuOs.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/zod-types-B8E1ts_S.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useLocalStorage-CSwD9ABd.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useAccessLevelForUser-BWyemt2b.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/withZodSchema-Ckg8nye5.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/immer.esm-C19XHJ6g.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/client-DkbzuThN.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/src-YjGKa1yC.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/DeviceSpecsProvider-Bo7a7v5s.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useCompany-CAxIi5Ih.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/main_and_drawer_navigation-f9Es-UXD.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/SelectedDevicesProvider-jgvRxR_I.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/ThemeProvider-CxuFQfx4.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useHourCyclePreference-BIalu01C.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/stitches-Bojgm4GN.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/FullscreenFallback-D-gps0nq.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/queries-BQMD6IE5.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/AutoAddMeterEmployeeToCompany-CFiFiUgk.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/AutoPageTitle-CAhsnAU0.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/Markdown-DlxJ7MI4.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/NotFound-Bs2P44gt.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useCloseDrawerCallback-Drh7TSQW.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/realmConfig-B4MamKiy.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/ErrorFallback-DM1EDxeV.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/isEqual-poTfRQbn.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/DestructiveDialog-DxbHnF6-.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/FormTracker-C-dxcBP4.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useActiveControllerForNetwork-DmHS-BiU.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/enums-D--Kyl2Q.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/lastUsedTabs-DxuVv49R.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/ReactRouterLink-B9QbUXXc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/schemas-3q3BZ1Zj.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useCompanyNetworksVariables-BS1P9VP5.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-CJ9qEKJS.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useNetworkClients-BYq4-tLE.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/SearchParamsStateProvider-B9QbUXXc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useIsActive-VOKWmfah.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-DqKctomt.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/numbers-CNl2t8Bm.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/HasAccess-CnZNEAOz.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/FieldProvider-B9QbUXXc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/Fields-B9QbUXXc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-BXRpUyV0.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/deviceModelDisplayName-IslU8yWP.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/NoValue-B9QbUXXc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/createColumnBuilder-B9QbUXXc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-BzAKdLFu.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/schedulingHelpers-CeZx0-rN.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/macAddress-C9ryTAW2.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-C4EF3dGA.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/strings-XMAf6X1K.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/chart_utils-FnIc4e6A.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils2-DGPBe-DX.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/Insights-B9QbUXXc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/graphql-B-7-ETGl.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/Glossary-D1P4Fumo.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/_stringToArray-C4-BLuUq.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/_createCaseFirst-TctWsETI.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/upperFirst-2ABwaGYE.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/capitalize-BUuT9A7D.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-BlLrGXwn.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-BLXDdsng.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-Bd9lFXBu.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/NOSUpgradeChannel-DzjkZNTY.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-XtxgkQFc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/withZodSchema-B9QbUXXc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/NetworkForm-BQZHI6Uz.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useHandleNetworkAddSuccess-DI72uNPB.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-B7q1NhJj.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-C2ROXzUh.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useViewsStatePreference-BUnt6KwK.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/TableState-DFZDFzYj.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/bestPath-DPNlbb-y.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-e8Buv-AY2.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/network-BorOgKnF.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/KeyBoundSearchInput-B9QbUXXc.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/Sites-UYKqv0gH.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-EitYGIHR.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-CnNYAyQE.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/fqdn-CFbq9TU-.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-C4JVR51y.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/AlertTabs-tLvHSGel.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/NotificationsTabs-C519k5Km.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-BFsJ4L-c.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/route_elements-BGMP6Yw-.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/uploadToPresignedUrl-DBlCMS1z.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/UnifiedFileUploader-RjRICtQf.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/ToolbarOrganizations-Cl1Y8-dv.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/utils-itgJWY_I.js\">\n<link rel=\"modulepreload\" crossorigin=\"\" href=\"/assets/useRequestTemporaryAccess-DK45FYaL.js\">\n<link rel=\"stylesheet\" crossorigin=\"\" href=\"/src-Bgzzq2Sa.css\">\n<link rel=\"stylesheet\" crossorigin=\"\" href=\"/fonts-Dt730d2p.css\">\n<script src=\"/theme-bootstrap.js\"></script>"
@@ -41,7 +41,7 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "1113"],
+          ["age", "42845"],
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-disposition", "inline; filename=\"index-Co3Ngkdd.js\""],
           ["content-encoding", "br"],
@@ -53,7 +53,7 @@
           ["cross-origin-embedder-policy", "unsafe-none"],
           ["cross-origin-opener-policy", "unsafe-none"],
           ["cross-origin-resource-policy", "cross-origin"],
-          ["date", "Sun, 04 Oct 2026 20:16:47 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
           ["etag", "W/\"3c62b55c97b5828e7ffd5c6345291d52\""],
           ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
@@ -62,10 +62,208 @@
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "SAMEORIGIN"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::bx9s5-1791145007978-51c54351a597"],
+          ["x-vercel-id", "arn1::m852p-1791186740357-2c1c51fab235"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "\"http://yandex.com/\"\n\"https://api.meter.com/\"\n\"https://app.posthog.com/\"\n\"https://browser.sentry-cdn.com/\"\n\"https://docs.sentry.io/\"\n\"https://o447951.ingest.sentry.io/\"\n\"https://sentry.io/\"\n\"https://spotlightjs.com/\"\n\"https://us.i.posthog.com/\"\n\"https://us.posthog.com/\"\n\"https://va.vercel-scripts.com/\"\n\"https://vercel.com/\""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/useAxiosInstance-CYOJvzY7.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/useAxiosInstance-CYOJvzY7.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "423"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"useAxiosInstance-CYOJvzY7.js\""],
+          ["content-length", "560"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"16b61d6e3c9257592161018266593c31\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:16 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::25bz4-1791186740418-32a96a150392"]
+        ],
+        "body": "\"https://api.meter.com/\""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/errors-BWeWtQMz.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/errors-BWeWtQMz.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"errors-BWeWtQMz.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"c1ef864acb586200be4adf5b286b1c72\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mprld-1791186740417-bdd0f9659ac8"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/errorboundary-B-UebVjH.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/errorboundary-B-UebVjH.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "423"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"errorboundary-B-UebVjH.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"095a63b4b74369eb28bf4c506830a1fb\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:16 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::h827l-1791186740418-1959ea99382f"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/replayStats-OVwhbdRP.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/replayStats-OVwhbdRP.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "423"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"replayStats-OVwhbdRP.js\""],
+          ["content-length", "874"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"990a9323cfb2f215a92f17dc5797fb11\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:16 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::scgzq-1791186740418-fe8ace3e8b6c"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/cookies-B-M-bnfK.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/cookies-B-M-bnfK.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"cookies-B-M-bnfK.js\""],
+          ["content-length", "887"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"215bfcf06b62ec4d12e6416e76b45ad6\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::x7str-1791186740419-7a3d4679fa84"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/useFeatureFlags-n9PNAn9b.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/useFeatureFlags-n9PNAn9b.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "423"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"useFeatureFlags-n9PNAn9b.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"8a6f4ac9ec9e5d88268acfb781cdcb32\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:16 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::4h5q2-1791186740418-f59b82806fd9"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://app.launchdarkly.com/\"\n\"https://clientstream.launchdarkly.com/\"\n\"https://docs.launchdarkly.com/\"\n\"https://events.launchdarkly.com/\""
       }
     },
     "GET https://dashboard.meter.com/theme-bootstrap.js": {
@@ -74,7 +272,7 @@
         "status": 200,
         "headers": [
           ["access-control-allow-origin", "*"],
-          ["age", "1113"],
+          ["age", "4"],
           ["cache-control", "public, max-age=0, must-revalidate"],
           ["content-disposition", "inline; filename=\"theme-bootstrap.js\""],
           ["content-encoding", "br"],
@@ -86,8 +284,41 @@
           ["cross-origin-embedder-policy", "unsafe-none"],
           ["cross-origin-opener-policy", "unsafe-none"],
           ["cross-origin-resource-policy", "cross-origin"],
-          ["date", "Sun, 04 Oct 2026 20:16:48 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
           ["etag", "W/\"19ed4baa642276ff3f9a2487cd81eead\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:52:16 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::489s7-1791186740419-52a16229be0d"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/dist-Cn2-tMJl.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/dist-Cn2-tMJl.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"dist-Cn2-tMJl.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"67ebb3b171025e54db4e6ffa1b4ac52e\""],
           ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
           ["referrer-policy", "strict-origin-when-cross-origin"],
           ["server", "Vercel"],
@@ -95,10 +326,1693 @@
           ["x-content-type-options", "nosniff"],
           ["x-frame-options", "SAMEORIGIN"],
           ["x-vercel-cache", "HIT"],
-          ["x-vercel-id", "arn1::hdjq2-1791145008040-c18ff3adebe0"],
+          ["x-vercel-id", "arn1::kv42t-1791186740418-fcfe1f819076"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://reactrouter.com/\""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/dist-CQCcfPg_.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/dist-CQCcfPg_.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42845"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"dist-CQCcfPg_.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"1f0e756624b009aabfb9ed53cd8f1c68\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::ztbp5-1791186740418-5f5a1636ddfb"],
           ["transfer-encoding", "chunked"]
         ],
         "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/jsx-runtime-qugFlhtW.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/jsx-runtime-qugFlhtW.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "424"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"jsx-runtime-qugFlhtW.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"762fd4213604a66feb25f533494b23b5\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:16 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::dff5r-1791186740418-c61f6c035663"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://rolldown.rs/\""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/logError-n4868hE7.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/logError-n4868hE7.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"logError-n4868hE7.js\""],
+          ["content-length", "902"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"8dea621bb6d9001345d2050e190dcb90\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::2k44v-1791186740421-e323dd6db47b"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/src-6N33G5Wb.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/src-6N33G5Wb.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"src-6N33G5Wb.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"49444aec36dc3ede71c4926adf1639e6\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::xddqp-1791186740421-4eb6bfa04e1a"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/src-ZLNz1IIb.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/src-ZLNz1IIb.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"src-ZLNz1IIb.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"958554f3b727a949319c81ef173b69f3\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mvhjv-1791186740420-e3d0347cbf3b"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/useNetworkFromPath-D3b2NuOs.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/useNetworkFromPath-D3b2NuOs.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"useNetworkFromPath-D3b2NuOs.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"4d0a3862974b7f804dfa1bc19fd8d52a\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5zmd5-1791186740423-ba2253339080"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/DeviceSpecsProvider-Bo7a7v5s.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/DeviceSpecsProvider-Bo7a7v5s.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"DeviceSpecsProvider-Bo7a7v5s.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"eca751b8c3ea5948a6bac9ae14286bfd\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::p5r8j-1791186740422-61afa96e76c5"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/immer.esm-C19XHJ6g.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/immer.esm-C19XHJ6g.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"immer.esm-C19XHJ6g.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"db442182c47a99de10aced79e7096889\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::rrnrm-1791186740422-01227a538fba"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://bit.ly/\""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/useCompany-CAxIi5Ih.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/useCompany-CAxIi5Ih.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "422"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"useCompany-CAxIi5Ih.js\""],
+          ["content-length", "848"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"9f31b9ed23e2bec6cb5724d375aba8c5\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:17 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5rz45-1791186740423-7948adc41157"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/FullscreenFallback-D-gps0nq.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/FullscreenFallback-D-gps0nq.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42845"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"FullscreenFallback-D-gps0nq.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"69cf2343ea134f6ba6bf0d1559c3450d\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::rkz4l-1791186740423-12315e2b9be6"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/main_and_drawer_navigation-f9Es-UXD.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/main_and_drawer_navigation-f9Es-UXD.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"main_and_drawer_navigation-f9Es-UXD.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"321401e98235b1daf03ff8d2c611a90f\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::d2hj9-1791186740423-27854dbb8f46"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/src-YjGKa1yC.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/src-YjGKa1yC.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "422"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"src-YjGKa1yC.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"b3bee189d11cb5f507f645f24554ca59\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:17 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::gskqx-1791186740423-1d36dfd89d76"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/stitches-Bojgm4GN.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/stitches-Bojgm4GN.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "422"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"stitches-Bojgm4GN.js\""],
+          ["content-length", "585"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"c51979c6978f0193e327a90bd322bc10\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:17 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::dff5r-1791186740424-2857ee353e3a"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/react-dom-f10ZNGnq.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/react-dom-f10ZNGnq.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"react-dom-f10ZNGnq.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"744bb3f57233dc2102da129c6a1bb567\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5gmrc-1791186740418-1eb072e78972"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/queries-BQMD6IE5.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/queries-BQMD6IE5.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"queries-BQMD6IE5.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"320266ea500d5116eca30ddca93954d1\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::hmcs9-1791186740426-21bddab40b84"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/useAccessLevelForUser-BWyemt2b.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/useAccessLevelForUser-BWyemt2b.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "422"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"useAccessLevelForUser-BWyemt2b.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"bc4a3476b4ff18a31f6168fe3269c3ea\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:17 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5zmd5-1791186740422-27b897a8aae7"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/ThemeProvider-CxuFQfx4.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/ThemeProvider-CxuFQfx4.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"ThemeProvider-CxuFQfx4.js\""],
+          ["content-length", "471"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"548409166fc59308c9db608e35d546d3\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::g82gp-1791186740424-2c9bf1a5c10e"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/useCurrentCompanyFromPath-C6OZcD6k.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/useCurrentCompanyFromPath-C6OZcD6k.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"useCurrentCompanyFromPath-C6OZcD6k.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"83301e08e00c49915176b12f0c53eab4\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::9ts6d-1791186740423-526b4e47a66f"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/zod-types-B8E1ts_S.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/zod-types-B8E1ts_S.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "423"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"zod-types-B8E1ts_S.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"55f3a154602d4c96a69cda14bee3258d\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:17 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5p2r9-1791186740423-ce9822c2b1a2"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://speed.cloudflare.com/\""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/esm-DtbyFHkT.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/esm-DtbyFHkT.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42845"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"esm-DtbyFHkT.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"652983f4143ffa130dfcddb329aa636b\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::8tr4m-1791186740418-aec9f6b5b73f"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://d20xtzwzcl0ceb.cloudfront.net/\"\n\"https://d3uc069fcn7uxw.cloudfront.net/\"\n\"https://docs.datadoghq.com/\"\n\"https://www.datad0g-browser-agent.com/\"\n\"https://www.datadoghq-browser-agent.com/\""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/useHourCyclePreference-BIalu01C.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/useHourCyclePreference-BIalu01C.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "42845"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"useHourCyclePreference-BIalu01C.js\""],
+          ["content-length", "615"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"27a984a098802d7b8a462b45260ff95f\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::m852p-1791186740427-298146100b0d"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/useSuspenseQuery-Cy2nvdRL.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/useSuspenseQuery-Cy2nvdRL.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"useSuspenseQuery-Cy2nvdRL.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"9ac14e9cde8627cf4ac6b1689d0c1745\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5h8cd-1791186740421-07abe2265c70"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/constants-DkdGq5CF.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/constants-DkdGq5CF.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "423"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"constants-DkdGq5CF.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"2459764f21361db4c4839af86e336076\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:17 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::nlx46-1791186740421-5edb3027d9bd"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://docs.meter.com/\""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/useMutation-CFn94QXV.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/useMutation-CFn94QXV.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42845"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"useMutation-CFn94QXV.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"08ddfda8b2652f685268f73e2c561694\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::zwzs4-1791186740421-11368f0dbe66"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/CurrentCompanyProvider-CQvB06Tp.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/CurrentCompanyProvider-CQvB06Tp.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"CurrentCompanyProvider-CQvB06Tp.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"4e36c0d7b29050c6fc959681577f6724\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::r5ql8-1791186740422-c04ae4c97b53"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/nav-BWR4Pe5f.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/nav-BWR4Pe5f.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "423"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"nav-BWR4Pe5f.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"2c6fb5043c35b2aea8bad2933f6f5f8c\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:17 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::g82gp-1791186740422-984aedb0f109"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/realmConfig-B4MamKiy.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/realmConfig-B4MamKiy.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "422"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"realmConfig-B4MamKiy.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"954184cccfb39fe219c4912b09d7e17f\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:18 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::r5ql8-1791186740436-68293da16938"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://api.meter.com/\"\n\"https://api.meter.dev/\"\n\"https://api.meter.eu/\"\n\"https://barbados.meter.com/\"\n\"https://barbados.meter.dev/\"\n\"https://barbados.meter.website:8560/\"\n\"https://captive.meter.com/\"\n\"https://captive.meter.dev/\"\n\"https://captive.meter.eu/\"\n\"https://captive.meter.website:8777/\"\n\"https://cmd.meter.com/\"\n\"https://cmd.meter.dev/\"\n\"https://cmd.meter.website:7652/\"\n\"https://dashboard.meter.com/\"\n\"https://dashboard.meter.dev/\"\n\"https://dashboard.meter.eu/\"\n\"https://dashboard.meter.website:8556/\"\n\"https://meterapi.com/\"\n\"https://meterapi.dev/\"\n\"https://meterapi.eu/\"\n\"https://meterapi.website:8777/\"\n\"https://portal.meter.com/\"\n\"https://portal.meter.dev/\"\n\"https://www.meter.com/\"\n\"https://www.meter.eu/\""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/NotFound-Bs2P44gt.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/NotFound-Bs2P44gt.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "422"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"NotFound-Bs2P44gt.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"9949ee5068740033ea2cb29c51ee0bb6\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:17 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mvhjv-1791186740435-e6848e06cfc6"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/IdentityDataProvider-BRlD173F.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/IdentityDataProvider-BRlD173F.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42845"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"IdentityDataProvider-BRlD173F.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"472a1b8039ae325cb20fece2425b3b79\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::25tsn-1791186740420-7e75812ab0fc"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://login.meter.com/\"\n\"https://portal.meter.com/\""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/useKeyValue-BLyXhqD8.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/useKeyValue-BLyXhqD8.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42845"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"useKeyValue-BLyXhqD8.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"9e13dab7660f9ed100e5fe80b1854ef1\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::czdsw-1791186740421-a11317050683"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/AutoAddMeterEmployeeToCompany-CFiFiUgk.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/AutoAddMeterEmployeeToCompany-CFiFiUgk.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"AutoAddMeterEmployeeToCompany-CFiFiUgk.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"bacd0639c20467efdcc247f7cef943e1\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::56djt-1791186740436-c614b4efe6ce"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/useLocalStorage-CSwD9ABd.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/useLocalStorage-CSwD9ABd.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "423"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"useLocalStorage-CSwD9ABd.js\""],
+          ["content-length", "627"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"8c5f88d593dbedae0f2e1506f6fb5398\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:17 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::7rkc2-1791186740422-08c2808e7c5a"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/preload-helper-D13UdkDh.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/preload-helper-D13UdkDh.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"preload-helper-D13UdkDh.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"e6b54ce835849c6af1b713a0c027bacd\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::gskqx-1791186740420-b9bc139431c6"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/ErrorFallback-DM1EDxeV.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/ErrorFallback-DM1EDxeV.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"ErrorFallback-DM1EDxeV.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"44c5c78382ea54309e2acc72a86f617a\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5zmd5-1791186740441-f34cae77bdb5"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/exports-DLldTtZw.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/exports-DLldTtZw.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"exports-DLldTtZw.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"e001ff44fd58935e25642b2852a569d3\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::dsfjh-1791186740420-0e4bdd83ed4d"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/useCloseDrawerCallback-Drh7TSQW.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/useCloseDrawerCallback-Drh7TSQW.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "422"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"useCloseDrawerCallback-Drh7TSQW.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"78c547203d667021dc690a7273d40b46\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:17 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5p2r9-1791186740441-3566803e2938"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/FormTracker-C-dxcBP4.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/FormTracker-C-dxcBP4.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "422"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"FormTracker-C-dxcBP4.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"d4760529d07e4caed40e32bc9cbf204c\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:18 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5zbvd-1791186740441-4f439bf7875e"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/AutoPageTitle-CAhsnAU0.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/AutoPageTitle-CAhsnAU0.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"AutoPageTitle-CAhsnAU0.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"9d25406470ba065879d485dd7e80e2eb\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mcqk5-1791186740441-fc3675db9f38"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/gql-Dgz24EHJ.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/gql-Dgz24EHJ.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "423"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"gql-Dgz24EHJ.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"d23b295f07d101a7511ae3524a47c862\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:17 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mvft5-1791186740421-8c9718fd0982"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/SelectedDevicesProvider-jgvRxR_I.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/SelectedDevicesProvider-jgvRxR_I.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "422"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"SelectedDevicesProvider-jgvRxR_I.js\""],
+          ["content-length", "816"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"ce7f27faa40c3d7f0c1738e46258f825\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:17 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::mvft5-1791186740426-863ea09964ea"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/DestructiveDialog-DxbHnF6-.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/DestructiveDialog-DxbHnF6-.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"DestructiveDialog-DxbHnF6-.js\""],
+          ["content-length", "472"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"25d7ff04fc42b466fb5f36c7d8899d70\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::bvnfs-1791186740442-651fd387ccdd"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/isEqual-poTfRQbn.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/isEqual-poTfRQbn.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"isEqual-poTfRQbn.js\""],
+          ["content-length", "494"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"abd04b9872dfa7b89e4b86410f383ee5\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::d75g6-1791186740441-347592820626"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/withZodSchema-Ckg8nye5.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/withZodSchema-Ckg8nye5.js",
+        "status": 200,
+        "headers": [
+          ["accept-ranges", "bytes"],
+          ["access-control-allow-origin", "*"],
+          ["age", "422"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"withZodSchema-Ckg8nye5.js\""],
+          ["content-length", "792"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "\"62a1c6d1e1c5dec246068c02a04c1e57\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:17 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::kfcjs-1791186740427-960a5831f88e"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/useActiveControllerForNetwork-DmHS-BiU.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/useActiveControllerForNetwork-DmHS-BiU.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42846"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"useActiveControllerForNetwork-DmHS-BiU.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"a7ab7c1c38506ba6fb331c884db99e10\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::dff5r-1791186740441-a441968aee90"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/enums-D--Kyl2Q.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/enums-D--Kyl2Q.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "422"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"enums-D--Kyl2Q.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"d410379eb698210b0f31d30e92840d71\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:18 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::56djt-1791186740444-4cc8d181119d"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/utils-BxpRig6_2.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/utils-BxpRig6_2.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42845"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"utils-BxpRig6_2.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"0351eb4cc7e9c9603b1878f332886609\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::5zbvd-1791186740420-cd0b58f8f768"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://yarnpkg.com/\""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/client-DkbzuThN.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/client-DkbzuThN.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42845"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"client-DkbzuThN.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"64fddb0f503c71432410df985c0105c2\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::msvd2-1791186740422-e25a29bcf7ff"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/Markdown-DlxJ7MI4.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/Markdown-DlxJ7MI4.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42845"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"Markdown-DlxJ7MI4.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"9f27f022472c79c223fe3d9cc77439ad\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::rrnrm-1791186740441-2eaa02e9a985"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://commonmark.org/\""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/src-CnX46Lwo.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/src-CnX46Lwo.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42845"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"src-CnX46Lwo.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"9b72eab003c0296d18de68b86b80d6a4\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::bdw29-1791186740420-9279259bd666"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": ""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/src-DJRMf3GK.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/src-DJRMf3GK.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "42845"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"src-DJRMf3GK.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"b13577c4694cb70a9d9e87d04402fb26\""],
+          ["last-modified", "Sun, 04 Oct 2026 19:58:14 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::d7fdz-1791186740418-6ed98ff12736"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"https://assets-global.website-files.com/\"\n\"https://go.apollo.dev/\"\n\"https://img.logo.dev/\"\n\"https://meter.com/\"\n\"https://portal.meter.com/\""
+      }
+    },
+    "GET https://dashboard.meter.com/assets/src-CBHCeafP.js": {
+      "result": {
+        "url": "https://dashboard.meter.com/assets/src-CBHCeafP.js",
+        "status": 200,
+        "headers": [
+          ["access-control-allow-origin", "*"],
+          ["age", "423"],
+          ["cache-control", "public, max-age=0, must-revalidate"],
+          ["content-disposition", "inline; filename=\"src-CBHCeafP.js\""],
+          ["content-encoding", "br"],
+          [
+            "content-security-policy",
+            "default-src 'self' 'wasm-unsafe-eval' meter.com *.meter.com meter.dev *.meter.dev meter.eu *.meter.eu wss://*.meter.com wss://*.meter.dev wss://*.meter.eu *.sentry.io *.posthog.com *.apple-mapkit.com *.apple.com *.launchdarkly.com cdn.jsdelivr.net ws://*.pusher.com *.pusher.com vercel.com *.vercel.com vercel.live wss://api.liveblocks.io https://*.googleapis.com https://*.gstatic.com *.google.com *.googleapis.com *.googleusercontent.com *.smarty.com browser-intake-datadoghq.com https://static.zdassets.com  https://api.smooch.io  https://media.smooch.io  https://zendesk-eu.my.sentry.io  https://*.twilio.com  wss://api.smooch.io  wss://voice-js.roaming.twilio.com https://session-replay.browser-intake-datadoghq.com https://rum.browser-intake-datadoghq.com api.knock.app *.s3.amazonaws.com *.s3.us-west-2.amazonaws.com *.s3.eu-central-1.amazonaws.com; frame-src 'self' *.meter.dev *.meter.com *.meter.eu; font-src 'self' cdn.jsdelivr.net fonts.gstatic.com data:; img-src * blob: data:; frame-ancestors 'self'; worker-src 'self' cdn.jsdelivr.net blob:; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com; report-to https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312; report-uri https://o322827.ingest.sentry.io/api/5733722/security/?sentry_key=afaab4d98c2f428f837c950f942f8312"
+          ],
+          ["content-type", "application/javascript; charset=utf-8"],
+          ["cross-origin-embedder-policy", "unsafe-none"],
+          ["cross-origin-opener-policy", "unsafe-none"],
+          ["cross-origin-resource-policy", "cross-origin"],
+          ["date", "Mon, 05 Oct 2026 07:52:20 GMT"],
+          ["etag", "W/\"9e574a24d59792c31fd97f53b6c57428\""],
+          ["last-modified", "Mon, 05 Oct 2026 07:45:16 GMT"],
+          ["referrer-policy", "strict-origin-when-cross-origin"],
+          ["server", "Vercel"],
+          ["strict-transport-security", "max-age=63072000"],
+          ["x-content-type-options", "nosniff"],
+          ["x-frame-options", "SAMEORIGIN"],
+          ["x-vercel-cache", "HIT"],
+          ["x-vercel-id", "arn1::s6c2p-1791186740418-62079f5d6b5c"],
+          ["transfer-encoding", "chunked"]
+        ],
+        "body": "\"http://fb.me/\"\n\"https://base-ui.com/\""
       }
     }
   },
@@ -110,11 +2024,16 @@
         "records": []
       }
     },
-    "A dashboard.meter.com": {
+    "NS dashboard.meter.com": {
       "result": {
         "name": "dashboard.meter.com",
-        "type": "A",
-        "records": ["66.33.60.193", "76.76.21.241"]
+        "type": "NS",
+        "records": [
+          "ns1.vercel-dns-3.com",
+          "ns2.vercel-dns-3.com",
+          "ns3.vercel-dns-3.com",
+          "ns4.vercel-dns-3.com"
+        ]
       }
     },
     "CNAME dashboard.meter.com": {
@@ -124,23 +2043,18 @@
         "records": ["cname.vercel-dns.com"]
       }
     },
-    "NS dashboard.meter.com": {
-      "result": {
-        "name": "dashboard.meter.com",
-        "type": "NS",
-        "records": [
-          "ns1.vercel-dns-3.com",
-          "ns3.vercel-dns-3.com",
-          "ns2.vercel-dns-3.com",
-          "ns4.vercel-dns-3.com"
-        ]
-      }
-    },
     "CNAME cname.vercel-dns.com": {
       "result": {
         "name": "cname.vercel-dns.com",
         "type": "CNAME",
         "records": []
+      }
+    },
+    "A dashboard.meter.com": {
+      "result": {
+        "name": "dashboard.meter.com",
+        "type": "A",
+        "records": ["66.33.60.193", "76.76.21.241"]
       }
     },
     "TXT 61.21.76.76.origin.asn.cymru.com": {

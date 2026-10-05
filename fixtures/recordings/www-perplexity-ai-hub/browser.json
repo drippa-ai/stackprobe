@@ -352,6 +352,12 @@
         "headers": {}
       },
       {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
         "url": "https://pplx-marketing-static.perplexity.ai/assets/hub-Cx83prAV.js",
         "method": "GET",
         "type": "script",
@@ -436,24 +442,6 @@
         "headers": {}
       },
       {
-        "url": "https://www.perplexity.ai/cdn-cgi/challenge-platform/h/b/scripts/jsd/d76008a69eab/main.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://browser-intake-datadoghq.com/api/v2/rum",
-        "method": "POST",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
         "url": "https://count.perplexity.ai/api/v1/bs/618b666a7a0ecf98337180c96a2fbbdfa2eb8e04754144bbb6311d6620fc62f0",
         "method": "GET",
         "type": "script",
@@ -466,9 +454,9 @@
         "headers": {}
       },
       {
-        "url": "https://www.perplexity.ai/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.3474752098377132:1791140719:alDAYYfkN58eOJWZXxbV5w3T7w9G9kaDLyqxKL-gyxM/a456c2d8af7b56b7",
-        "method": "POST",
-        "type": "xhr",
+        "url": "https://www.perplexity.ai/cdn-cgi/challenge-platform/h/b/scripts/jsd/d76008a69eab/main.js",
+        "method": "GET",
+        "type": "script",
         "headers": {}
       },
       {
@@ -478,7 +466,19 @@
         "headers": {}
       },
       {
-        "url": "https://count.perplexity.ai/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.3474752098377132:1791140719:alDAYYfkN58eOJWZXxbV5w3T7w9G9kaDLyqxKL-gyxM/a456c2dbcacc56b7",
+        "url": "https://browser-intake-datadoghq.com/api/v2/rum",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://www.perplexity.ai/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.9533884328351624:1791183921:eS22wFbA2gVS_NsUikEQ6w_gZnGlGzjiksMBkiHXdXs/a45ad8c6cda8b893",
+        "method": "POST",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://count.perplexity.ai/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.9533884328351624:1791183921:eS22wFbA2gVS_NsUikEQ6w_gZnGlGzjiksMBkiHXdXs/a45ad8c93a77b893",
         "method": "POST",
         "type": "xhr",
         "headers": {}
@@ -538,18 +538,6 @@
         "headers": {}
       },
       {
-        "url": "https://api.unifyintent.com/analytics/v1/page",
-        "method": "POST",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://www.perplexity.ai/rest/event/analytics",
-        "method": "POST",
-        "type": "ping",
-        "headers": {}
-      },
-      {
         "url": "https://count.perplexity.ai/api/v1/bs",
         "method": "POST",
         "type": "fetch",
@@ -559,6 +547,18 @@
         "url": "https://count.perplexity.ai/cdn-cgi/rum",
         "method": "POST",
         "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://www.perplexity.ai/rest/event/analytics",
+        "method": "POST",
+        "type": "ping",
+        "headers": {}
+      },
+      {
+        "url": "https://api.unifyintent.com/analytics/v1/page",
+        "method": "POST",
+        "type": "fetch",
         "headers": {}
       },
       {

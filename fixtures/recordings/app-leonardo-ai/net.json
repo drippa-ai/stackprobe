@@ -1,6 +1,6 @@
 {
   "url": "https://app.leonardo.ai/",
-  "recordedAt": "2026-10-04T20:16:46.670Z",
+  "recordedAt": "2026-10-05T07:52:08.004Z",
   "http": {
     "GET https://app.leonardo.ai/": {
       "result": {
@@ -12,32 +12,31 @@
           ["server", "Vercel"],
           [
             "x-vercel-challenge-token",
-            "2.1791145006.60.NGY4NWE5YzA0MGNmNmE1YTgwZjgzMzRlMDY1ZmY5ZDc7MWQzMDc5NDY7N2ViYTgxYWQxNjA4MWNlOTQyMmFiODFlOWY2OTg3ZGQ2YzBiOGE0NzszO7kiAnugiZfYtkuo2rU8ULXwDAYgDzVsyGZ0AWWt0O0dm5lFOCiyGzMdDDZCKbI=.90b2a7564ae6109ddfb15c02acce6980"
+            "2.1791186728.60.MzBiNTdkNWU1NjkwYWU2MDYyYjkwOGMxZDhmODVlZjI7YzM2ZGNiMmM7NzlkM2U3MmU3MzgyZjYyMzMyMDIxYmY4YzQ5YThjNmRmYmJjY2NhZTszO6nK4cRPKRSPB4GeLH9mspGJWDnL0qfa8x0d7HYTK85wElPWioJS6ykU0mlsW9A=.7562bc8494e16574042f2765a4af531b"
           ],
-          ["x-vercel-id", "arn1::1791145006-5cSQ2EMgrTxPyZDuM8p1xbrADHz4ltxa"],
+          ["x-vercel-id", "arn1::1791186728-mXwKaOWF4NgI4nEOuEIuiuiaCjLOlJPj"],
           ["x-vercel-mitigated", "challenge"],
-          ["date", "Sun, 04 Oct 2026 20:16:46 GMT"],
+          ["date", "Mon, 05 Oct 2026 07:52:08 GMT"],
           ["transfer-encoding", "chunked"]
         ],
         "body": "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"theme-color\" content=\"#000\">\n<a href=\"https://vercel.link/security-checkpoint\">Website owner? Click here to fix</a>"
       }
+    },
+    "GET https://app.leonardo.ai/.well-known/vercel/security/static/challenge.v2.min.js": {
+      "result": {
+        "url": "https://app.leonardo.ai/.well-known/vercel/security/static/challenge.v2.min.js",
+        "status": 200,
+        "headers": [
+          ["cache-control", "private, no-store, max-age=0"],
+          ["content-length", "41224"],
+          ["content-type", "application/javascript"],
+          ["date", "Mon, 05 Oct 2026 07:52:09 GMT"]
+        ],
+        "body": ""
+      }
     }
   },
   "dns": {
-    "AAAA app.leonardo.ai": {
-      "result": {
-        "name": "app.leonardo.ai",
-        "type": "AAAA",
-        "records": []
-      }
-    },
-    "A app.leonardo.ai": {
-      "result": {
-        "name": "app.leonardo.ai",
-        "type": "A",
-        "records": ["76.76.21.22", "66.33.60.129"]
-      }
-    },
     "CNAME app.leonardo.ai": {
       "result": {
         "name": "app.leonardo.ai",
@@ -45,16 +44,11 @@
         "records": ["cname.vercel-dns.com"]
       }
     },
-    "NS app.leonardo.ai": {
+    "A app.leonardo.ai": {
       "result": {
         "name": "app.leonardo.ai",
-        "type": "NS",
-        "records": [
-          "ns1.vercel-dns-3.com",
-          "ns4.vercel-dns-3.com",
-          "ns3.vercel-dns-3.com",
-          "ns2.vercel-dns-3.com"
-        ]
+        "type": "A",
+        "records": ["66.33.60.129", "76.76.21.22"]
       }
     },
     "CNAME cname.vercel-dns.com": {
@@ -64,9 +58,28 @@
         "records": []
       }
     },
-    "TXT 129.60.33.66.origin.asn.cymru.com": {
+    "NS app.leonardo.ai": {
       "result": {
-        "name": "129.60.33.66.origin.asn.cymru.com",
+        "name": "app.leonardo.ai",
+        "type": "NS",
+        "records": [
+          "ns2.vercel-dns-3.com",
+          "ns3.vercel-dns-3.com",
+          "ns4.vercel-dns-3.com",
+          "ns1.vercel-dns-3.com"
+        ]
+      }
+    },
+    "AAAA app.leonardo.ai": {
+      "result": {
+        "name": "app.leonardo.ai",
+        "type": "AAAA",
+        "records": []
+      }
+    },
+    "TXT 194.60.33.66.origin.asn.cymru.com": {
+      "result": {
+        "name": "194.60.33.66.origin.asn.cymru.com",
         "type": "TXT",
         "records": ["16509 | 66.33.60.0/24 | US | arin | 2024-03-21"]
       }
@@ -83,7 +96,7 @@
     "app.leonardo.ai:443": {
       "result": {
         "host": "app.leonardo.ai",
-        "ip": "66.33.60.129",
+        "ip": "66.33.60.194",
         "issuer": "C=US, O=Let's Encrypt, CN=YR2",
         "subjectAltNames": ["app.leonardo.ai"],
         "validFrom": "Sep 14 08:10:05 2026 GMT",

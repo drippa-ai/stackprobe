@@ -5,7 +5,7 @@ Do not edit by hand: a test fails when this file is out of date.
 
 Fingerprints version `252e34859e3a`. 46 of 49 surfaces scored, 38 of them with recorded browser captures.
 
-**Technologies we have fingerprints for: found 51 of 63 (81%). Wrong: 0.**
+**Technologies we have fingerprints for: found 53 of 63 (84%). Wrong: 0.**
 
 - **Found**: the source says it is used, and the scan detected it.
 - **Missed**: the source says it is used, and the scan did not detect it.
@@ -22,7 +22,7 @@ Fingerprints version `252e34859e3a`. 46 of 49 surfaces scored, 38 of them with r
 | netlify | yes | 2 | 1 | 0 | 67% |
 | nextjs | yes | 15 | 1 | 0 | 94% |
 | payload | yes | 1 | 2 | 0 | 33% |
-| supabase | yes | 5 | 6 | 0 | 45% |
+| supabase | yes | 7 | 4 | 0 | 64% |
 | vercel | yes | 13 | 0 | 0 | 100% |
 | webflow | yes | 4 | 0 | 0 | 100% |
 
@@ -86,7 +86,7 @@ Fingerprints version `252e34859e3a`. 46 of 49 surfaces scored, 38 of them with r
 - **netlify**: navan-com
 - **nextjs**: tray-ai
 - **payload**: bizee-com, engineering-intility-com
-- **supabase**: app-drippa-ai, app-goodtape-io-auth-login, lingo-dev, mobbin-com, resend-com-login, www-udio-com
+- **supabase**: app-drippa-ai, app-goodtape-io-auth-login, mobbin-com, resend-com-login
 
 ## Detected, not in the ground truth
 

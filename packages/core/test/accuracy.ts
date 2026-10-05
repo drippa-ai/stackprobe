@@ -1,11 +1,13 @@
 import { existsSync } from 'node:fs';
 import { builtinFingerprints, FINGERPRINTS_VERSION } from '../src/fingerprints/index.ts';
 import { scan } from '../src/scan.ts';
+import { surfaceTarget } from '../src/surface.ts';
 import { ReplayDecider } from './decisions.ts';
 import {
   DOMAINS_DIR,
   loadBrowserRecording,
   loadRecording,
+  type NetRecording,
   RECORDINGS_DIR,
   ReplayBrowser,
   ReplayNet,
@@ -42,6 +44,8 @@ export interface Accuracy {
   decisionMisses: string[];
   // Pages the browser layer would load that have no recorded capture.
   browserMisses: string[];
+  // Recordings missing requests today's scan makes (e.g. scripts): re-record them.
+  netMisses: string[];
   // Surfaces scored with recorded browser captures.
   withBrowser: number;
   // Detected, but the ground truth says nothing either way.
@@ -140,6 +144,7 @@ export async function measureAccuracy(rows: GroundTruthRow[]): Promise<Accuracy>
   const decider = new ReplayDecider();
   const unverified: Accuracy['unverified'] = [];
   const browserMisses: string[] = [];
+  const netMisses: string[] = [];
   const notScored: Accuracy['notScored'] = [];
 
   for (const row of rows) {
@@ -150,27 +155,25 @@ export async function measureAccuracy(rows: GroundTruthRow[]): Promise<Accuracy>
     }
     const recording = loadRecording(row.recording);
     // Bot protection answers with an error page, not the site: not a fair test of the scanner.
-    const blocked = Object.values(recording.http).find(
-      (entry) => 'result' in entry && entry.result.status >= 400,
-    );
-    if (blocked && 'result' in blocked) {
-      notScored.push({
-        recording: row.recording,
-        reason: `blocked (HTTP ${blocked.result.status})`,
-      });
+    // Only the page itself counts (following its redirects), not a broken script it links to.
+    const status = pageStatus(recording, row.surfaceUrl);
+    if (status !== null && status >= 400) {
+      notScored.push({ recording: row.recording, reason: `blocked (HTTP ${status})` });
       continue;
     }
     // The CSV describes this exact surface, so no discovery here. The browser layer runs where a
     // scan would run it, from recorded captures.
     const captures = loadBrowserRecording(row.recording);
     const browser = captures ? new ReplayBrowser(captures) : undefined;
+    const replay = new ReplayNet(recording);
     const report = await scan(row.surfaceUrl, {
       discover: false,
-      net: new ReplayNet(recording),
+      net: replay,
       now: () => new Date(recording.recordedAt),
       ...(browser ? { browser } : {}),
     });
     browserMisses.push(...(browser?.misses ?? []));
+    if (replay.misses.length) netMisses.push(row.recording);
     const http = report.layersRun.find((run) => run.layer === 'http');
     if (http?.status !== 'ok') {
       const reason = http?.error ? `${http.error.code}: ${http.error.message}` : 'no HTTP';
@@ -219,8 +222,23 @@ export async function measureAccuracy(rows: GroundTruthRow[]): Promise<Accuracy>
     discovery: await measureDiscovery(rows, decider),
     decisionMisses: [...new Set(decider.misses)].sort(),
     browserMisses: [...new Set(browserMisses)].sort(),
+    netMisses: netMisses.sort(),
     withBrowser: rows.filter((row) => loadBrowserRecording(row.recording)).length,
   };
+}
+
+// The status the page itself ended with in a recording, after following its redirects.
+function pageStatus(recording: NetRecording, url: string): number | null {
+  let next = surfaceTarget(url).url;
+  for (let hop = 0; hop < 6; hop++) {
+    const entry = recording.http[`GET ${next}`];
+    if (!entry || !('result' in entry)) return null;
+    const { status, headers } = entry.result;
+    const location = headers.find(([name]) => name === 'location')?.[1];
+    if (status < 300 || status >= 400 || !location) return status;
+    next = new URL(location, next).href;
+  }
+  return null;
 }
 
 const percent = (part: number, whole: number) =>
@@ -324,11 +342,19 @@ export function formatAccuracy(accuracy: Accuracy): string {
         accuracy.decisionMisses.join(', '),
     );
   }
+  if (accuracy.netMisses.length) {
+    lines.push(
+      '',
+      `**${accuracy.netMisses.length} recordings are missing requests today's scan makes; run ` +
+        '`pnpm record-ground-truth --force`:** ' +
+        accuracy.netMisses.join(', '),
+    );
+  }
   if (accuracy.browserMisses.length) {
     lines.push(
       '',
       `**${accuracy.browserMisses.length} browser loads have no recorded capture; run ` +
-        '`pnpm record-browser`:** ' +
+        '`pnpm record-ground-truth --force` with Chromium installed:** ' +
         accuracy.browserMisses.join(', '),
     );
   }

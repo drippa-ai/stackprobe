@@ -34,12 +34,6 @@
         "headers": {}
       },
       {
-        "url": "https://app.drippa.ai/_next/image",
-        "method": "GET",
-        "type": "image",
-        "headers": {}
-      },
-      {
         "url": "https://app.drippa.ai/_next/static/immutable/chunks/2low7b3ympyxz.css",
         "method": "GET",
         "type": "stylesheet",
@@ -49,6 +43,12 @@
         "url": "https://app.drippa.ai/_next/static/immutable/chunks/1cxkq6t8rbtbq.css",
         "method": "GET",
         "type": "stylesheet",
+        "headers": {}
+      },
+      {
+        "url": "https://app.drippa.ai/_next/image",
+        "method": "GET",
+        "type": "image",
         "headers": {}
       },
       {

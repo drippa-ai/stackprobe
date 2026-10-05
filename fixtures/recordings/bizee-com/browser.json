@@ -76,6 +76,12 @@
         "headers": {}
       },
       {
+        "url": "https://bizee.com/build/assets/vendor-async-c453eb03.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
         "url": "https://bwas.bizee.com/icons/users-duocolor-alt.svg",
         "method": "GET",
         "type": "image",
@@ -196,12 +202,6 @@
         "headers": {}
       },
       {
-        "url": "https://bizee.com/build/assets/vendor-async-c453eb03.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
         "url": "https://collector-55505.us.tvsquared.com/tv2track.js",
         "method": "GET",
         "type": "script",
@@ -209,12 +209,6 @@
       },
       {
         "url": "https://static.zdassets.com/ekr/snippet.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://lantern.roeyecdn.com/lantern_global_88819.min.js",
         "method": "GET",
         "type": "script",
         "headers": {}
@@ -232,6 +226,12 @@
         "headers": {}
       },
       {
+        "url": "https://lantern.roeyecdn.com/lantern_global_88819.min.js",
+        "method": "GET",
+        "type": "script",
+        "headers": {}
+      },
+      {
         "url": "https://ekr.zdassets.com/compose/50cd49ef-b73d-4073-bd17-e6b8352b3e9b",
         "method": "GET",
         "type": "fetch",
@@ -239,12 +239,6 @@
       },
       {
         "url": "https://sr-client-cfg.amplitude.com/config/e16fd77d2fab83bbae65fd2670bdc9c7",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://api.lab.amplitude.com/sdk/v2/vardata",
         "method": "GET",
         "type": "fetch",
         "headers": {}
@@ -262,6 +256,12 @@
         "headers": {}
       },
       {
+        "url": "https://api.lab.amplitude.com/sdk/v2/vardata",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
         "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
         "method": "GET",
         "type": "script",
@@ -274,7 +274,7 @@
         "headers": {}
       },
       {
-        "url": "https://bizee.com/gtmpst/LM_opzz3D_gSmS2H-0O1QsdI6-fP15_ojrVbU2CRHRZogbmyafgOrnAr",
+        "url": "https://bizee.com/gtmpst/LM_opzz3D_gSmS2H-0O1QsdI6-fP15_ojrVbU2CRHRZogbnqLfpwKw",
         "method": "GET",
         "type": "script",
         "headers": {}
@@ -292,15 +292,45 @@
         "headers": {}
       },
       {
+        "url": "https://cdn.cookielaw.org/consent/7907ed1b-0dcf-42f9-8fea-683bd86e6764/7907ed1b-0dcf-42f9-8fea-683bd86e6764.json",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
+        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "method": "GET",
+        "type": "xhr",
+        "headers": {}
+      },
+      {
         "url": "https://static.zdassets.com/web_widget/messenger/latest/web-widget-main-d8f4c55.js",
         "method": "GET",
         "type": "script",
         "headers": {}
       },
       {
-        "url": "https://cdn.cookielaw.org/consent/7907ed1b-0dcf-42f9-8fea-683bd86e6764/7907ed1b-0dcf-42f9-8fea-683bd86e6764.json",
+        "url": "https://cdn.cookielaw.org/scripttemplates/202401.2.0/otBannerSdk.js",
         "method": "GET",
-        "type": "xhr",
+        "type": "script",
+        "headers": {}
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion/1071268326/",
+        "method": "GET",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://bizee.com/gtmpst/as/p/c/1071268326/",
+        "method": "POST",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://bizee.com/gtmpst/as/d/ccm/conversion/1071268326/",
+        "method": "GET",
+        "type": "image",
         "headers": {}
       },
       {
@@ -358,9 +388,15 @@
         "headers": {}
       },
       {
-        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "url": "https://cdn.cookielaw.org/consent/7907ed1b-0dcf-42f9-8fea-683bd86e6764/a8c5f98d-c57d-4cb4-8491-4190ed8684bb/en.json",
         "method": "GET",
-        "type": "xhr",
+        "type": "fetch",
+        "headers": {}
+      },
+      {
+        "url": "https://collector-55505.us.tvsquared.com/tv2track.php",
+        "method": "GET",
+        "type": "image",
         "headers": {}
       },
       {
@@ -376,39 +412,9 @@
         "headers": {}
       },
       {
-        "url": "https://cdn.cookielaw.org/scripttemplates/202401.2.0/otBannerSdk.js",
-        "method": "GET",
-        "type": "script",
-        "headers": {}
-      },
-      {
-        "url": "https://collector-55505.us.tvsquared.com/tv2track.php",
-        "method": "GET",
-        "type": "image",
-        "headers": {}
-      },
-      {
-        "url": "https://cdn.cookielaw.org/consent/7907ed1b-0dcf-42f9-8fea-683bd86e6764/a8c5f98d-c57d-4cb4-8491-4190ed8684bb/en.json",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://www.googleadservices.com/pagead/conversion/1071268326/",
-        "method": "GET",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://bizee.com/gtmpst/as/p/c/1071268326/",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071268326/",
         "method": "POST",
         "type": "fetch",
-        "headers": {}
-      },
-      {
-        "url": "https://bizee.com/gtmpst/as/d/ccm/conversion/1071268326/",
-        "method": "GET",
-        "type": "image",
         "headers": {}
       },
       {
@@ -436,12 +442,6 @@
         "headers": {}
       },
       {
-        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1071268326/",
-        "method": "POST",
-        "type": "fetch",
-        "headers": {}
-      },
-      {
         "url": "https://api2.amplitude.com/2/httpapi",
         "method": "POST",
         "type": "fetch",
@@ -454,8 +454,8 @@
       "lantern",
       "first_visit_30days",
       "gads_conversion_sent",
-      "_tq_id.TV-4545459045-1.fd46",
       "_gcl_au",
+      "_tq_id.TV-4545459045-1.fd46",
       "AMP_e16fd77d2f",
       "OptanonConsent"
     ],
@@ -475,7 +475,6 @@
       "__amplitudeInit",
       "sentryOnLoad",
       "_tvq",
-      "AhrefsAnalytics",
       "_sentryModuleMetadata",
       "_sentryDebugIds",
       "_sentryDebugIdIdentifier",
@@ -493,6 +492,7 @@
       "displayingItems",
       "dragOffset",
       "startDrag",
+      "AhrefsAnalytics",
       "zEWebpackACJsonp",
       "zE",
       "zEmbed",
@@ -503,9 +503,9 @@
       "google_tag_manager_external",
       "google_tag_data",
       "OptanonWrapper",
-      "zEACLoaded",
       "OneTrustStub",
       "OtTrustedType",
+      "zEACLoaded",
       "otStubData",
       "JSON2",
       "TV2Track",
