@@ -67,22 +67,26 @@ export class SandboxBrowser implements Browser {
       persistent: false,
     } as Parameters<typeof Sandbox.create>[0]);
     try {
+      // .mts: ES modules whatever the snapshot's package.json says.
       await sandbox.writeFiles([
-        { path: `${WORKDIR}/capture.ts`, content: CAPTURE_TS },
-        { path: `${WORKDIR}/capture-cli.ts`, content: CAPTURE_CLI_TS },
+        { path: `${WORKDIR}/capture.mts`, content: CAPTURE_TS },
+        {
+          path: `${WORKDIR}/capture-cli.mts`,
+          content: CAPTURE_CLI_TS.replace("from './capture.ts'", "from './capture.mts'"),
+        },
       ]);
       const command = await sandbox.runCommand({
         cmd: 'node',
         args: [
           '--experimental-strip-types',
-          'capture-cli.ts',
+          'capture-cli.mts',
           JSON.stringify({ urls, timeoutMs, userAgent: USER_AGENT }),
         ],
         cwd: WORKDIR,
         env: { PLAYWRIGHT_BROWSERS_PATH: BROWSERS_PATH },
       });
       if (command.exitCode !== 0) {
-        const stderr = (await command.stderr()).trim().split('\n').slice(-3).join(' ');
+        const stderr = (await command.stderr()).trim().split('\n').slice(0, 8).join(' | ');
         throw new Error(`Capture in sandbox failed (exit ${command.exitCode}): ${stderr}`);
       }
       return JSON.parse(await command.stdout()) as Captures;

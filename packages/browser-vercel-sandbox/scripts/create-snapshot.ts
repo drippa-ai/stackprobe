@@ -34,6 +34,7 @@ try {
   await sandbox.runCommand({ cmd: 'mkdir', args: ['-p', WORKDIR], sudo: true });
   await sandbox.runCommand({ cmd: 'chmod', args: ['777', WORKDIR], sudo: true });
   await run('npm', ['init', '-y']);
+  await run('npm', ['pkg', 'set', 'type=module']);
   await run('npm', ['install', `playwright-core@${PLAYWRIGHT_VERSION}`]);
   await run('npx', ['playwright-core', 'install', '--with-deps', 'chromium'], true);
   await run('chmod', ['-R', 'a+rX', BROWSERS_PATH], true);

@@ -65,9 +65,11 @@ describe('SandboxBrowser', () => {
       persistent: false,
     });
     expect(calls.files?.map((f) => f.path)).toEqual([
-      `${WORKDIR}/capture.ts`,
-      `${WORKDIR}/capture-cli.ts`,
+      `${WORKDIR}/capture.mts`,
+      `${WORKDIR}/capture-cli.mts`,
     ]);
+    const cli = (calls.files as { path: string; content: string }[])[1]?.content ?? '';
+    expect(cli).toContain("from './capture.mts'");
     const command = calls.command as { args: string[]; env: Record<string, string> };
     expect(JSON.parse(command.args.at(-1) as string)).toMatchObject({ urls, timeoutMs: 25_000 });
     expect(command.env.PLAYWRIGHT_BROWSERS_PATH).toBe(`${WORKDIR}/browsers`);
