@@ -1,7 +1,7 @@
 {
-  "name": "@drippa/stackprobe-browser-playwright",
+  "name": "@drippa/stackprobe-browser-vercel-sandbox",
   "version": "0.0.0",
-  "description": "Runs stackprobe's browser layer in a local headless Chromium, via Playwright.",
+  "description": "Runs stackprobe's browser layer in a Vercel Sandbox, for the hosted app.",
   "license": "Apache-2.0",
   "type": "module",
   "exports": {
@@ -21,10 +21,11 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit",
-    "install-chromium": "playwright-core install chromium"
+    "build-source": "node scripts/build-source.ts",
+    "create-snapshot": "node --env-file-if-exists=../../.env.vercel scripts/create-snapshot.ts"
   },
   "dependencies": {
     "@drippa/stackprobe-core": "workspace:*",
-    "playwright-core": "1.63.0"
+    "@vercel/sandbox": "^3.5.1"
   }
 }

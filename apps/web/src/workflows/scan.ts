@@ -1,5 +1,6 @@
-import type { LayerId, ScanStatus } from '@drippa/stackprobe-core';
+import type { LayerId, LayerResult, ScanStatus } from '@drippa/stackprobe-core';
 import {
+  browserStep,
   classifyStep,
   discoverStep,
   finishScanStep,
@@ -34,17 +35,26 @@ export async function scanWorkflow(
   );
   const surfaces = [{ target: root, results: rootResults }, ...others];
   const classifications = await classifyStep(surfaces);
-  // The deep layers where the product may be. The browser layer joins here once it runs hosted.
+  // The deep layers where the product may be: a real browser (all pages in one go), then each
+  // page's own scripts, including those the browser saw it load.
   const plans = await planDeepStep(surfaces, classifications);
-  const deep = await Promise.all(
-    plans.map(async ({ surface, scripts }) => ({
+  const browsed = await browserStep(scanId, plans);
+  const bundled = await Promise.all(
+    plans.map(async ({ surface, signals }) => ({
       id: surface.id,
-      result: await runBundleStep(scanId, surface, scripts),
+      result: await runBundleStep(scanId, surface, [
+        ...signals,
+        ...(browsed[surface.id]?.signals ?? []),
+      ]),
     })),
   );
   const withDeep = surfaces.map((s) => ({
     target: s.target,
-    results: [...s.results, ...deep.filter((d) => d.id === s.target.id).map((d) => d.result)],
+    results: [
+      ...s.results,
+      ...(browsed[s.target.id] ? [browsed[s.target.id] as LayerResult] : []),
+      ...bundled.filter((b) => b.id === s.target.id).map((b) => b.result),
+    ],
   }));
   return finishScanStep(scanId, scannedAt, withDeep, classifications);
 }

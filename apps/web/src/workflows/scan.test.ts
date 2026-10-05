@@ -1,4 +1,5 @@
 import {
+  type Browser,
   DEFAULT_LAYERS,
   MemoryStore,
   Report,
@@ -11,12 +12,14 @@ import { loadFixture, ReplayNet } from '../../../../packages/core/test/fixtures.
 const services = vi.hoisted(() => ({
   store: undefined as unknown as MemoryStore,
   net: undefined as unknown as ReplayNet,
+  browser: undefined as Browser | undefined,
 }));
 
 vi.mock('../lib/services.ts', () => ({
   getStore: () => services.store,
   getNet: () => services.net,
   getDecider: () => undefined,
+  getBrowser: async () => services.browser,
 }));
 
 const { SCAN_LAYERS, scanWorkflow } = await import('./scan.ts');
@@ -25,6 +28,7 @@ const { finishScanStep, runLayerStep } = await import('./scan-steps.ts');
 const { recording, expected } = loadFixture('vercel');
 
 beforeEach(() => {
+  services.browser = undefined;
   services.store = new MemoryStore();
   services.net = new ReplayNet(recording);
 });
@@ -82,4 +86,42 @@ test('does not retry saving into a scan that already finished', async () => {
   await expect(runLayerStep(scan.id, target, 'http')).rejects.toMatchObject({
     name: 'FatalError',
   });
+});
+
+// Every page "calls" a Supabase project in this fake browser, so its findings are easy to spot.
+const fakeBrowser: Browser = {
+  async capture(url) {
+    return {
+      url,
+      status: 200,
+      requests: [
+        {
+          url: 'https://abcdefghijklmnopqrst.supabase.co/auth/v1/user',
+          method: 'GET',
+          type: 'fetch',
+          headers: {},
+        },
+      ],
+      websockets: [],
+      cookies: [],
+      globals: [],
+    };
+  },
+};
+
+test('with a browser, the workflow finds what an in-process scan finds', async () => {
+  const { store, net } = services;
+  services.browser = fakeBrowser;
+  const scan = await store.createScan({ domain: 'vercel.com', url: recording.url });
+  await scanWorkflow(scan.id, recording.url, scan.createdAt);
+  const report = Report.parse((await store.getScan(scan.id))?.report);
+  const local = await scanInProcess(recording.url, {
+    net: new ReplayNet(recording),
+    browser: fakeBrowser,
+  });
+  const summary = (r: typeof report) =>
+    r.surfaces.map((s) => ({ url: s.url, techs: s.detections.map((d) => d.tech).sort() }));
+  expect(summary(report)).toEqual(summary(local));
+  expect(report.surfaces.some((s) => s.detections.some((d) => d.tech === 'supabase'))).toBe(true);
+  expect(net.misses).toEqual([]);
 });

@@ -16,6 +16,8 @@
     "@types/react-dom": "^19.3.0"
   },
   "dependencies": {
+    "@drippa/stackprobe-browser-playwright": "workspace:*",
+    "@drippa/stackprobe-browser-vercel-sandbox": "workspace:*",
     "@drippa/stackprobe-core": "workspace:*",
     "@drippa/stackprobe-decider-typesafe": "workspace:*",
     "@drippa/stackprobe-store-postgres": "workspace:*",
