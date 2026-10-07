@@ -13,6 +13,7 @@ import {
   verdictNames,
 } from '../../../lib/report-view.ts';
 import { rescanAction } from '../../actions.ts';
+import { ScanBand } from '../../effects/scan-band.tsx';
 import { ScanForm } from '../../scan-form.tsx';
 import { AutoRefresh } from './auto-refresh.tsx';
 import { CopyLink } from './copy-link.tsx';
@@ -47,6 +48,7 @@ export function Running({ scan, runs }: { scan: ScanRecord; runs: LayerRun[] }) 
           </p>
         </div>
       </section>
+      <ScanBand />
       <ol className="progress" aria-label="Checks">
         {steps.map((step) => (
           <li key={step.layer} className={`progress-step ${step.state}`}>

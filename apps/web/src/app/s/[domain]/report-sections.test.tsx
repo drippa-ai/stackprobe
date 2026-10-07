@@ -150,6 +150,7 @@ test('still scanning: what it is doing now and each check', () => {
     <Running scan={{ ...scan, status: 'running', report: null, finishedAt: null }} runs={runs} />,
   );
   expect(running).toContain('role="status"');
+  expect(running).toContain('<div class="scan-band" aria-hidden="true">');
   expect(running).toContain('Running');
   expect(running).toContain('Finding the product app and loading it in a real browser.');
   expect(running).toContain('Read headers and pages on 1 surface');
