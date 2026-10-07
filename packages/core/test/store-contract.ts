@@ -82,6 +82,22 @@ export function describeStore(name: string, makeStore: () => Promise<Store>) {
       await expect(store.saveLayerResult(scan.id, result('http'))).resolves.toBeUndefined();
     });
 
+    test('lists how each saved layer went, without its signals', async () => {
+      const store = await makeStore();
+      const scan = await store.createScan({ domain: 'acme.test', url: 'https://acme.test/' });
+      expect(await store.listLayerRuns(scan.id)).toEqual([]);
+      await store.saveLayerResult(scan.id, result('http'));
+      const failed = result('dns', 'failed');
+      failed.run.error = { code: 'TIMEOUT', message: 'DNS took too long' };
+      await store.saveLayerResult(scan.id, failed);
+      const runs = await store.listLayerRuns(scan.id);
+      expect(runs.sort((a, b) => a.layer.localeCompare(b.layer))).toEqual([
+        failed.run,
+        result('http').run,
+      ]);
+      expect(await store.listLayerRuns('00000000-0000-4000-8000-000000000000')).toEqual([]);
+    });
+
     test('a finished scan cannot change', async () => {
       const store = await makeStore();
       const scan = await store.createScan({ domain: 'acme.test', url: 'https://acme.test/' });

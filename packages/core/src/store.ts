@@ -1,4 +1,4 @@
-import type { Report } from './report.ts';
+import type { LayerRun, Report } from './report.ts';
 import type { LayerResult } from './runner.ts';
 import { reportStatus } from './scan.ts';
 
@@ -21,6 +21,9 @@ export interface Store {
   // Raw layer output, kept so new fingerprints can be run on old scans. Saving the same
   // (scan, surface, layer) again replaces it, so a retried workflow step never duplicates.
   saveLayerResult(scanId: string, result: LayerResult): Promise<void>;
+  // How each saved layer went, without its signals: a running scan's progress. Unknown scans
+  // have none. In no particular order.
+  listLayerRuns(scanId: string): Promise<LayerRun[]>;
   // Stores the report and marks the scan done or partial. A finished scan cannot change.
   finishScan(scanId: string, report: Report): Promise<ScanRecord>;
   getScan(scanId: string): Promise<ScanRecord | null>;
@@ -74,6 +77,10 @@ export class MemoryStore implements Store {
     this.running(scanId);
     const key = `${scanId} ${result.run.surfaceId} ${result.run.layer}`;
     this.layerResults.set(key, structuredClone(result));
+  }
+
+  async listLayerRuns(scanId: string): Promise<LayerRun[]> {
+    return this.layerResultsFor(scanId).map((result) => result.run);
   }
 
   async finishScan(scanId: string, report: Report): Promise<ScanRecord> {
