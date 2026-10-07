@@ -15,3 +15,6 @@ Read the relevant spec section before starting any task. Keep the spec private.
 - Plan first, wait for approval, then build.
 - Small PRs, one concern each. Drippa reviews every PR.
 - TypeScript, pnpm workspaces, Node 22.13+ (for the built-in node:sqlite).
+## UI
+- Theme "Probe": tokens in apps/web/src/app/tokens.css, never raw values in components.
+- Load the ui-theme skill before any visual change, ui-shaders before any shader or animation, and run ui-review before opening a UI PR.

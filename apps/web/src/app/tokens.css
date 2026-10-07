@@ -1,0 +1,134 @@
+/*
+ * Probe: stackprobe's theme. An instrument, not a landing page.
+ * Every colour, size and timing the web app uses lives here; components use these variables only.
+ * Rules for using them: .claude/skills/ui-theme/SKILL.md. Design canvas: linked from issue #52.
+ *
+ * Greys carry a trace of the signal hue (150°, chroma ≤ 0.012), so the page reads cool and quiet.
+ * Signal is the only accent. Warn and fail exist only for scan states.
+ */
+:root {
+  color-scheme: light dark;
+
+  /* Surfaces */
+  --page: oklch(98.6% 0.002 150);
+  --surface: oklch(100% 0 0);
+  --inset: oklch(96.6% 0.003 150);
+
+  /* Lines */
+  --line-soft: oklch(94.5% 0.004 150);
+  --line: oklch(91% 0.005 150);
+  --line-strong: oklch(83% 0.006 150);
+
+  /* Text */
+  --ink: oklch(21% 0.012 150);
+  --ink-2: oklch(43% 0.01 150);
+  --ink-3: oklch(53% 0.01 150);
+
+  /* Signal: confidence, the running scan, focus, the probe field. Text in signal uses --signal-ink. */
+  --signal: oklch(64% 0.19 145);
+  --signal-ink: oklch(45% 0.13 145);
+  --signal-tint: oklch(95.5% 0.04 145);
+
+  /* Scan states only */
+  --warn-ink: oklch(52% 0.12 65);
+  --warn-tint: oklch(95.5% 0.05 80);
+  --fail-ink: oklch(50% 0.18 27);
+  --fail-tint: oklch(95.5% 0.03 27);
+
+  /* Probe field and scan band dots */
+  --dot: oklch(80% 0.006 150);
+
+  /* Type */
+  --font-sans: var(--font-instrument), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, "SF Mono", monospace;
+  --text-display: clamp(44px, 7vw, 88px);
+  --text-title: clamp(32px, 5vw, 52px);
+  --text-heading: 24px;
+  --text-subheading: 20px;
+  --text-lead: 17px;
+  --text-body: 15px;
+  --text-label: 13px;
+  --text-data: 13px;
+  --leading-tight: 1.02;
+  --leading-heading: 1.2;
+  --leading-body: 1.5;
+  --tracking-display: -0.045em;
+  --tracking-title: -0.035em;
+  --tracking-heading: -0.02em;
+  --stretch-display: 86%;
+  --weight-regular: 400;
+  --weight-strong: 600;
+
+  /* Space: a 4 px grid */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+  --gutter: 24px;
+  --gutter-phone: 16px;
+  --content: 1200px;
+
+  /* Shape */
+  --radius-1: 4px; /* chips, bars */
+  --radius-2: 6px; /* controls */
+  --radius-3: 10px; /* panels */
+  --focus-ring: 0 0 0 2px var(--page), 0 0 0 4px var(--signal);
+  --shadow-menu: 0 12px 32px oklch(0% 0 0 / 0.1), 0 2px 6px oklch(0% 0 0 / 0.05);
+
+  /* Controls */
+  --control-sm: 36px;
+  --control-md: 44px;
+  --control-lg: 52px;
+
+  /* Motion: only where data changes */
+  --dur-instant: 120ms;
+  --dur-fast: 160ms;
+  --dur-standard: 240ms;
+  --dur-considered: 480ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page: oklch(15.5% 0.006 150);
+    --surface: oklch(18.5% 0.007 150);
+    --inset: oklch(13% 0.006 150);
+
+    --line-soft: oklch(21.5% 0.007 150);
+    --line: oklch(25% 0.008 150);
+    --line-strong: oklch(33% 0.01 150);
+
+    --ink: oklch(95% 0.006 150);
+    --ink-2: oklch(77% 0.008 150);
+    --ink-3: oklch(64% 0.008 150);
+
+    --signal: oklch(82% 0.2 145);
+    --signal-ink: oklch(84% 0.19 145);
+    --signal-tint: oklch(82% 0.2 145 / 0.13);
+
+    --warn-ink: oklch(83% 0.14 80);
+    --warn-tint: oklch(83% 0.14 80 / 0.12);
+    --fail-ink: oklch(75% 0.15 27);
+    --fail-tint: oklch(70% 0.17 27 / 0.14);
+
+    --dot: oklch(32% 0.01 150);
+
+    --shadow-menu: 0 16px 40px oklch(0% 0 0 / 0.45);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-instant: 0ms;
+    --dur-fast: 0ms;
+    --dur-standard: 0ms;
+    --dur-considered: 0ms;
+  }
+}
