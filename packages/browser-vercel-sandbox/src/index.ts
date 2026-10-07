@@ -82,14 +82,33 @@ export class SandboxBrowser implements Browser {
         env: { PLAYWRIGHT_BROWSERS_PATH: BROWSERS_PATH },
       });
       if (command.exitCode !== 0) {
-        const stderr = (await command.stderr()).trim().split('\n').slice(-3).join(' ');
-        throw new Error(`Capture in sandbox failed (exit ${command.exitCode}): ${stderr}`);
+        const stderr = await command.stderr();
+        console.error(
+          `Capture in sandbox failed (exit ${command.exitCode}):\n${stderr.slice(-4000)}`,
+        );
+        throw new Error(
+          `Capture in sandbox failed (exit ${command.exitCode}): ${errorLine(stderr)}`,
+        );
       }
       return JSON.parse(await command.stdout()) as Captures;
     } finally {
       await sandbox.stop().catch(() => {});
     }
   }
+}
+
+// The line of a Node crash that says what went wrong, not where: Node prints the error before
+// its stack and a trailing "Node.js v24" line.
+export function errorLine(stderr: string): string {
+  const lines = stderr
+    .split('\n')
+    .map((line) => line.trim())
+    .filter(Boolean);
+  return (
+    lines.find((line) => /^\w*Error\b/.test(line)) ??
+    lines.find((line) => !line.startsWith('at ') && !/^Node\.js v/.test(line)) ??
+    'no error output'
+  );
 }
 
 // A sandbox browser when running on Vercel with a snapshot configured, or none.
