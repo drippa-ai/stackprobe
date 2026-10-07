@@ -262,16 +262,22 @@ a:hover {
   border-bottom: 1px solid var(--line);
 }
 
-.probe-field,
+.probe-field {
+  position: absolute;
+  inset: 0;
+  mask-image: linear-gradient(90deg, transparent 0%, black 45%);
+}
+
+.probe-grid,
 .probe-lens {
   position: absolute;
   background-image: radial-gradient(var(--dot) 1.2px, transparent 1.6px);
   background-size: var(--space-4) var(--space-4);
+  transition: opacity var(--dur-considered) var(--ease-out);
 }
 
-.probe-field {
+.probe-grid {
   inset: 0;
-  mask-image: linear-gradient(90deg, transparent 0%, black 45%);
 }
 
 .probe-lens {
@@ -656,6 +662,30 @@ details[open] > .tech-row {
 
 /* Running scan */
 
+.scan-band {
+  position: relative;
+  height: calc(var(--space-12) + var(--space-2));
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-3);
+}
+
+.band-grid,
+.band-signal {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(var(--dot) 1px, transparent 1.4px);
+  background-size: var(--space-2) var(--space-2);
+  background-position: var(--space-1) var(--space-1);
+  transition: opacity var(--dur-considered) var(--ease-out);
+}
+
+.band-signal {
+  background-image: radial-gradient(var(--signal) 1.4px, transparent 1.8px);
+  mask-image: linear-gradient(90deg, transparent 30%, black 50%, transparent 70%);
+}
+
 .progress {
   list-style: none;
   padding: 0;
@@ -713,6 +743,29 @@ details[open] > .tech-row {
   from {
     opacity: 0;
   }
+}
+
+/* WebGPU layers: drawn over the CSS version, faded in once ready (see effects/). */
+
+.effect-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--dur-considered) var(--ease-out);
+}
+
+.live .effect-canvas {
+  opacity: 1;
+}
+
+.probe-field.live .probe-grid,
+.probe-field.live .probe-lens,
+.scan-band.live .band-grid,
+.scan-band.live .band-signal {
+  opacity: 0;
 }
 
 /* Phone */

@@ -1,3 +1,4 @@
+import { ProbeField } from './effects/probe-field.tsx';
 import { ScanForm } from './scan-form.tsx';
 import { SiteHeader } from './site-chrome.tsx';
 
@@ -7,10 +8,7 @@ export default function Home() {
       <SiteHeader />
       <main className="home">
         <section className="home-hero">
-          {/* The probe field. Static here; #54 draws it with a shader on top. */}
-          <div className="probe-field" aria-hidden="true">
-            <div className="probe-lens" />
-          </div>
+          <ProbeField />
           <div className="page home-copy">
             <h1>What's it built on?</h1>
             <p>
