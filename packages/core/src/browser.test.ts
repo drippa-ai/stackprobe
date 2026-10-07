@@ -2,6 +2,7 @@ import { describe, expect, test } from 'vitest';
 import {
   type Browser,
   type BrowserCapture,
+  captureAll,
   captureSignals,
   ownCapture,
   sanitizeCapture,
@@ -167,6 +168,36 @@ describe('deepTargets', () => {
     expect(deepTargets([s('https://acme.test/', 'root')], { root: k('marketing', 0.9) })).toEqual(
       [],
     );
+  });
+});
+
+describe('captureAll', () => {
+  const options = { signal: AbortSignal.timeout(1000), timeoutMs: 1000 };
+
+  test('a batch that fails as a whole gives every page its error', async () => {
+    const browser = {
+      capture: () => Promise.reject(new Error('unused')),
+      captureMany: () => Promise.reject(new Error('Capture in sandbox failed (exit 1)')),
+    };
+    const urls = ['https://app.acme.test/', 'https://acme.test/'];
+    expect(await captureAll(browser, urls, options)).toEqual({
+      'https://app.acme.test/': { error: 'Capture in sandbox failed (exit 1)' },
+      'https://acme.test/': { error: 'Capture in sandbox failed (exit 1)' },
+    });
+  });
+
+  test('without a batch, one failing page does not stop the others', async () => {
+    const browser: Browser = {
+      capture: (url) =>
+        url.includes('app.') ? Promise.resolve(supabaseApp) : Promise.reject(new Error('timeout')),
+    };
+    const captures = await captureAll(
+      browser,
+      ['https://app.acme.test/', 'https://acme.test/'],
+      options,
+    );
+    expect(captures['https://app.acme.test/']).toEqual(supabaseApp);
+    expect(captures['https://acme.test/']).toEqual({ error: 'timeout' });
   });
 });
 

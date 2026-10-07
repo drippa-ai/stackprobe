@@ -39,7 +39,13 @@ export async function captureAll(
   options: CaptureOptions,
 ): Promise<Record<string, BrowserCapture | { error: string }>> {
   if ('captureMany' in browser && typeof browser.captureMany === 'function') {
-    return (browser as BatchBrowser).captureMany(urls, options);
+    try {
+      return await (browser as BatchBrowser).captureMany(urls, options);
+    } catch (error) {
+      // The whole batch failed (e.g. the sandbox crashed): every page gets that error.
+      const message = error instanceof Error ? error.message : String(error);
+      return Object.fromEntries(urls.map((url) => [url, { error: message }]));
+    }
   }
   const entries = await Promise.all(
     urls.map(async (url) => {

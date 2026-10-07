@@ -1,7 +1,13 @@
 import { readFileSync } from 'node:fs';
 import { describe, expect, test } from 'vitest';
 import { generate } from '../scripts/build-source.ts';
-import { SandboxBrowser, type SandboxLike, sandboxBrowserFromEnv, WORKDIR } from './index.ts';
+import {
+  errorLine,
+  SandboxBrowser,
+  type SandboxLike,
+  sandboxBrowserFromEnv,
+  WORKDIR,
+} from './index.ts';
 
 const capture = {
   url: 'https://app.acme.test/login',
@@ -78,7 +84,7 @@ describe('SandboxBrowser', () => {
     const { create, calls } = fakeSandbox({
       exitCode: 1,
       stdout: '',
-      stderr: 'boom\nChromium missing',
+      stderr: 'file:///opt/stackprobe/capture-cli.ts:3\nError: Chromium missing\n    at main\nNode.js v24.19.0',
     });
     const browser = new SandboxBrowser({ snapshotId: 'snap_1', create });
     await expect(
@@ -97,6 +103,23 @@ describe('SandboxBrowser', () => {
       browser.capture('https://acme.test/', { signal: AbortSignal.timeout(1000), timeoutMs: 1000 }),
     ).rejects.toThrow(/ERR_NAME_NOT_RESOLVED/);
   });
+});
+
+test('a crash is told by its error line, not the end of its stack', () => {
+  const stderr = [
+    'file:///opt/stackprobe/capture-cli.ts:12',
+    '',
+    "Error: Executable doesn't exist at /opt/stackprobe/browsers/chromium",
+    '    at main (file:///opt/stackprobe/capture-cli.ts:12:9)',
+    '    at node:internal/main/run_main_module:33:47',
+    '',
+    'Node.js v24.19.0',
+  ].join('\n');
+  expect(errorLine(stderr)).toBe(
+    "Error: Executable doesn't exist at /opt/stackprobe/browsers/chromium",
+  );
+  expect(errorLine('Killed\n')).toBe('Killed');
+  expect(errorLine('')).toBe('no error output');
 });
 
 test('only on Vercel, and only with a snapshot', () => {
