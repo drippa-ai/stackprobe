@@ -1,18 +1,30 @@
-import type { ReactNode } from 'react';
-
 const REPO = 'https://github.com/drippa-ai/stackprobe';
 
-export function SiteHeader({ children }: { children?: ReactNode }) {
+// The probe mark: a ring with the signal dot in the middle.
+function ProbeMark() {
   return (
-    <header className="page site-header">
-      <div className="wordmark">
-        <a href="/">stackprobe</a>
-        <a href="https://drippa.ai">powered by Drippa</a>
+    <svg className="probe-mark" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+      <circle cx="8" cy="8" r="6.75" fill="none" stroke="currentColor" strokeWidth="1.5" />
+      <circle cx="8" cy="8" r="2.75" className="probe-dot" />
+    </svg>
+  );
+}
+
+export function SiteHeader() {
+  return (
+    <header className="site-header">
+      <div className="page">
+        <a href="/" className="wordmark">
+          <ProbeMark />
+          stackprobe
+        </a>
+        <nav className="site-nav" aria-label="Site">
+          <a href={REPO}>GitHub</a>
+          <a href="https://drippa.ai" className="by">
+            powered by Drippa
+          </a>
+        </nav>
       </div>
-      {children}
-      <nav className="site-nav" aria-label="Site">
-        <a href={REPO}>GitHub</a>
-      </nav>
     </header>
   );
 }

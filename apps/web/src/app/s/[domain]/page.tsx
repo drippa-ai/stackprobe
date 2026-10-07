@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { getStore } from '../../../lib/services.ts';
-import { ScanForm } from '../../scan-form.tsx';
 import { SiteHeader } from '../../site-chrome.tsx';
 import { NotScanned, ReportView, Running } from './report-sections.tsx';
 
@@ -17,20 +16,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function ScanPage({ params, searchParams }: Props) {
   const domain = decodeURIComponent((await params).domain).toLowerCase();
   const { surface } = await searchParams;
-  const scan = await getStore().latestScan(domain);
+  const store = getStore();
+  const scan = await store.latestScan(domain);
+  const runs = scan && !scan.report ? await store.listLayerRuns(scan.id) : [];
 
   return (
     <>
-      <SiteHeader>
-        <ScanForm variant="compact" />
-      </SiteHeader>
+      <SiteHeader />
       <main className="page report">
         {!scan ? (
           <NotScanned domain={domain} />
         ) : scan.report ? (
           <ReportView scan={scan} report={scan.report} selected={surface} />
         ) : (
-          <Running scan={scan} />
+          <Running scan={scan} runs={runs} />
         )}
       </main>
     </>

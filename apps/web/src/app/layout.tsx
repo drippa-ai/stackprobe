@@ -1,11 +1,12 @@
 import type { Metadata } from 'next';
-import { Bricolage_Grotesque, JetBrains_Mono } from 'next/font/google';
+import { Instrument_Sans, JetBrains_Mono } from 'next/font/google';
 import type { ReactNode } from 'react';
 import { SiteFooter } from './site-chrome.tsx';
+import './tokens.css';
 import './globals.css';
 
-const sans = Bricolage_Grotesque({ subsets: ['latin'], variable: '--font-sans' });
-const mono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mono' });
+const sans = Instrument_Sans({ subsets: ['latin'], axes: ['wdth'], variable: '--font-instrument' });
+const mono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-jetbrains' });
 
 export const metadata: Metadata = {
   title: 'stackprobe',
