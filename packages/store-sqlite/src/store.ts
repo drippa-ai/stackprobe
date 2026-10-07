@@ -5,6 +5,7 @@ import { DatabaseSync } from 'node:sqlite';
 import {
   DEFAULT_LIST_LIMIT,
   type LayerResult,
+  type LayerRun,
   type Report,
   reportStatus,
   ScanFinishedError,
@@ -111,6 +112,16 @@ export class SqliteStore implements Store {
     });
   }
 
+  async listLayerRuns(scanId: string): Promise<LayerRun[]> {
+    const rows = this.db
+      .prepare(
+        `select surface_id, layer, status, duration_ms, error
+         from layer_results where scan_id = ?`,
+      )
+      .all(scanId);
+    return (rows as unknown as LayerRunRow[]).map(toRun);
+  }
+
   async getScan(scanId: string): Promise<ScanRecord | null> {
     const row = this.db.prepare(`select ${SCAN_COLUMNS} from scans where id = ?`).get(scanId);
     return row ? toRecord(row as unknown as ScanRow) : null;
@@ -165,6 +176,24 @@ export class SqliteStore implements Store {
   private timestamp(): string {
     return this.now().toISOString();
   }
+}
+
+interface LayerRunRow {
+  surface_id: string;
+  layer: LayerRun['layer'];
+  status: LayerRun['status'];
+  duration_ms: number;
+  error: string | null;
+}
+
+function toRun(row: LayerRunRow): LayerRun {
+  return {
+    layer: row.layer,
+    surfaceId: row.surface_id,
+    status: row.status,
+    durationMs: Number(row.duration_ms),
+    ...(row.error ? { error: JSON.parse(row.error) as LayerRun['error'] } : {}),
+  };
 }
 
 function toRecord(row: ScanRow): ScanRecord {

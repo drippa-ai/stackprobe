@@ -60,8 +60,8 @@ git diff main -- apps/web | grep -nE '^\+.*(#[0-9a-fA-F]{3,8}\b|rgba?\(|hsla?\(|
       and each shows the green focus ring.
 - [ ] Rows open with Enter/Space (`<details>`); tabs are links with `aria-current`.
 - [ ] Inputs have labels (visible or visually hidden); icon-only buttons have `aria-label`.
-- [ ] Contrast ≥ 4.5:1 for text in both modes. `--ink-3` on `--page` is the floor; don't put
-      `--ink-3` on `--inset` or tints for small text.
+- [ ] Contrast ≥ 4.5:1 for text in both modes. `--ink-3` is the floor: 5.1:1 on `--page`, 4.8:1
+      on `--inset` (light mode). Never put `--ink-3` on a tint.
 - [ ] Reduced motion: nothing moves (check the `-reduced` screenshot and the shaders).
 - [ ] Status isn't told by colour alone.
 

@@ -7,7 +7,7 @@ export function CopyLink() {
   return (
     <button
       type="button"
-      className="link-button"
+      className="button secondary"
       onClick={async () => {
         await navigator.clipboard.writeText(window.location.href.split('?')[0] ?? '');
         setCopied(true);

@@ -3,7 +3,7 @@
 import { useActionState, useId } from 'react';
 import { type ScanFormState, scanAction } from './actions.ts';
 
-// The big form on the home page ("hero") or the small one in a report's header ("compact").
+// The big form on the home page ("hero") or the smaller one on a report page ("compact").
 export function ScanForm({
   defaultValue = '',
   variant = 'hero',
@@ -29,12 +29,12 @@ export function ScanForm({
           autoComplete="off"
           required
         />
-        <button type="submit" disabled={pending}>
+        <button type="submit" className="button" disabled={pending}>
           {pending ? 'Starting…' : 'Scan'}
         </button>
       </div>
       {state.error ? (
-        <p role="alert" className="warn" style={{ margin: 0 }}>
+        <p role="alert" className="form-error">
           {state.error}
         </p>
       ) : null}

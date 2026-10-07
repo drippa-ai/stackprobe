@@ -1,6 +1,7 @@
 import {
   DEFAULT_LIST_LIMIT,
   type LayerResult,
+  type LayerRun,
   type Report,
   reportStatus,
   ScanFinishedError,
@@ -104,6 +105,16 @@ export class PostgresStore implements Store {
     return toRecord(row);
   }
 
+  async listLayerRuns(scanId: string): Promise<LayerRun[]> {
+    if (!UUID.test(scanId)) return [];
+    const rows = await this.sql.query<LayerRunRow>(
+      `select surface_id, layer, status, duration_ms, error::text as error
+       from stackprobe.layer_results where scan_id = $1`,
+      [scanId],
+    );
+    return rows.map(toRun);
+  }
+
   async getScan(scanId: string): Promise<ScanRecord | null> {
     if (!UUID.test(scanId)) return null;
     const [row] = await this.sql.query<ScanRow>(
@@ -130,6 +141,24 @@ export class PostgresStore implements Store {
     const existing = await this.getScan(scanId);
     throw existing ? new ScanFinishedError(scanId) : new ScanNotFoundError(scanId);
   }
+}
+
+interface LayerRunRow {
+  surface_id: string;
+  layer: LayerRun['layer'];
+  status: LayerRun['status'];
+  duration_ms: number;
+  error: string | null;
+}
+
+function toRun(row: LayerRunRow): LayerRun {
+  return {
+    layer: row.layer,
+    surfaceId: row.surface_id,
+    status: row.status,
+    durationMs: Number(row.duration_ms),
+    ...(row.error ? { error: JSON.parse(row.error) as LayerRun['error'] } : {}),
+  };
 }
 
 function toRecord(row: ScanRow): ScanRecord {

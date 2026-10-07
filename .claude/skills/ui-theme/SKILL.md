@@ -68,7 +68,7 @@ Instrument Sans (`--font-sans`) for words; JetBrains Mono (`--font-mono`) for da
 | Role | Size | Face | Notes |
 |---|---|---|---|
 | Display (home headline only) | `--text-display` | sans 600 | `--leading-tight`, `--tracking-display`, `font-stretch: var(--stretch-display)`, max ~11ch |
-| Title (domain on a report) | `--text-title` | mono 500 | `--tracking-title` |
+| Title (domain on a report) | `--text-title` | mono 400 | `--tracking-title` |
 | Heading | `--text-heading` | sans 600 | `--tracking-heading` |
 | Subheading | `--text-subheading` | sans 600 | |
 | Lead (verdict, home intro) | `--text-lead` | sans 400 | `--ink-2`, tech names in `--ink` 600 |
