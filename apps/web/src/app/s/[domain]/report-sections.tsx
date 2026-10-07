@@ -141,6 +141,13 @@ export function ReportView({
           </p>
         </div>
         <div className="actions">
+          <a
+            className="json-link"
+            href={`/s/${encodeURIComponent(scan.domain)}.json`}
+            type="application/json"
+          >
+            {scan.domain}.json
+          </a>
           <CopyLink />
           <form action={rescanAction}>
             <input type="hidden" name="url" value={scan.url} />

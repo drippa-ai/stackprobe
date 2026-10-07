@@ -7,6 +7,11 @@ const rootEnv = new URL('../../.env.local', import.meta.url);
 if (existsSync(rootEnv)) process.loadEnvFile(rootEnv);
 
 const nextConfig: NextConfig = {
+  // Every report page has a JSON twin at the same address plus .json. Domains have dots, so it
+  // can't be its own [domain] segment: it's rewritten to a route handler instead.
+  async rewrites() {
+    return [{ source: '/s/:domain(.+)\\.json', destination: '/api/reports/:domain' }];
+  },
   // The workspace packages ship TypeScript source, so Next compiles them like app code.
   // Only loaded when self-hosted with Chromium installed; never bundled.
   serverExternalPackages: ['playwright-core'],

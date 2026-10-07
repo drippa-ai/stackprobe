@@ -127,10 +127,13 @@ describe('ReportView', () => {
     expect(html).not.toContain('framer header');
   });
 
-  test('says which checks ran and offers copy and scan again', () => {
+  test('says which checks ran and offers the JSON twin, copy and scan again', () => {
     const html = render();
     expect(html).toContain('Checks that ran: HTTP and a real browser.');
     expect(html).toContain('Fingerprints <span class="mono">abc123</span>');
+    expect(html).toContain(
+      '<a class="json-link" href="/s/acme.test.json" type="application/json">acme.test.json</a>',
+    );
     expect(html).toContain('Copy link');
     expect(html).toContain('Scan again');
   });
