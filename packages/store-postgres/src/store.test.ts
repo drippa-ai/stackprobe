@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { PGlite } from '@electric-sql/pglite';
-import { describe, expect, test } from 'vitest';
+import { beforeAll, describe, expect, test } from 'vitest';
 import { describeStore } from '../../core/test/store-contract.ts';
 import { migrate } from './migrate.ts';
 import type { Sql } from './sql.ts';
@@ -26,6 +26,12 @@ async function freshDatabase(): Promise<Sql> {
   await migrate(sql);
   return sql;
 }
+
+// The first PGlite in a process compiles its WebAssembly, which can take seconds on a busy
+// machine. Do it here, with its own time limit, so no test pays for it.
+beforeAll(async () => {
+  await (await PGlite.create()).close();
+}, 60_000);
 
 describeStore('PostgresStore', async () => new PostgresStore(await freshDatabase()));
 
