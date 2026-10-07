@@ -9,8 +9,12 @@ interface Props {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { domain } = await params;
-  return { title: `${decodeURIComponent(domain)} · stackprobe` };
+  const name = decodeURIComponent((await params).domain).toLowerCase();
+  return {
+    title: `${name} · stackprobe`,
+    // Agents can find the report as data from the page itself.
+    alternates: { types: { 'application/json': `/s/${encodeURIComponent(name)}.json` } },
+  };
 }
 
 export default async function ScanPage({ params, searchParams }: Props) {

@@ -656,6 +656,14 @@ details[open] > .tech-row {
   display: contents;
 }
 
+.json-link {
+  align-self: center;
+  margin-right: var(--space-2);
+  font-family: var(--font-mono);
+  font-size: var(--text-data);
+  color: var(--ink-3);
+}
+
 .warn-text {
   color: var(--warn-ink);
 }
@@ -869,6 +877,12 @@ details[open] > .tech-row {
   .actions {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .json-link {
+    grid-column: 1 / -1;
+    align-self: start;
+    margin: 0 0 var(--space-1);
   }
 
   .actions .button {
