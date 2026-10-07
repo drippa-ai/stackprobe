@@ -84,7 +84,8 @@ describe('SandboxBrowser', () => {
     const { create, calls } = fakeSandbox({
       exitCode: 1,
       stdout: '',
-      stderr: 'file:///opt/stackprobe/capture-cli.ts:3\nError: Chromium missing\n    at main\nNode.js v24.19.0',
+      stderr:
+        'file:///opt/stackprobe/capture-cli.ts:3\nError: Chromium missing\n    at main\nNode.js v24.19.0',
     });
     const browser = new SandboxBrowser({ snapshotId: 'snap_1', create });
     await expect(
