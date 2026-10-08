@@ -313,6 +313,27 @@ a:hover {
   color: var(--ink-2);
 }
 
+/* Not found */
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  padding-block: var(--space-16) var(--space-24);
+}
+
+.not-found-title {
+  font-size: var(--text-title);
+  font-weight: var(--weight-strong);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-title);
+}
+
+.requested-path {
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+
 /* Report: head */
 
 .report {
