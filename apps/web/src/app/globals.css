@@ -249,9 +249,10 @@ a:hover {
   max-width: calc(var(--space-24) * 4.5);
 }
 
+/* Messages from a form: what to fix, or a limit and when it resets. Calm, not alarming. */
 .form-error {
   font-size: var(--text-label);
-  color: var(--fail-ink);
+  color: var(--ink-2);
 }
 
 /* Home */
@@ -669,8 +670,18 @@ details[open] > .tech-row {
 }
 
 .actions {
-  display: flex;
+  display: grid;
+  /* The JSON link, Copy link, Scan again; a message from Scan again spans them below. */
+  grid-template-columns: repeat(3, auto);
+  justify-content: end;
+  align-items: center;
   gap: var(--space-2);
+}
+
+.actions-error {
+  grid-column: 1 / -1;
+  max-width: 0;
+  min-width: 100%;
 }
 
 .actions form {
@@ -898,6 +909,11 @@ details[open] > .tech-row {
   .actions {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .actions-error {
+    grid-column: 1 / -1;
+    margin: 0;
   }
 
   .json-link {

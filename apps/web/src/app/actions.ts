@@ -1,39 +1,33 @@
 'use server';
 
-import { requestScan } from '@drippa/stackprobe-core';
+import { headers } from 'next/headers';
 import { redirect } from 'next/navigation';
 import { start } from 'workflow/api';
-import { getStore } from '../lib/services.ts';
+import { clientIp } from '../lib/keys-api.ts';
+import { getAccess, getBotCheck, getIpHashSecret, getStore } from '../lib/services.ts';
+import { startScan } from '../lib/start-scan.ts';
 import { scanWorkflow } from '../workflows/scan.ts';
 
 export interface ScanFormState {
   error: string | null;
 }
 
+// Every scan form on the site: the home page, a report's "Scan again", not-found pages.
 export async function scanAction(_state: ScanFormState, form: FormData): Promise<ScanFormState> {
-  const input = String(form.get('url') ?? '');
-  let domain: string;
-  try {
-    const scan = await requestScan(
-      input,
-      {
-        store: getStore(),
-        start: async (created) => {
-          await start(scanWorkflow, [created.id, created.url, created.createdAt]);
-        },
+  const result = await startScan(
+    String(form.get('url') ?? ''),
+    { force: form.get('force') === '1' },
+    {
+      store: getStore(),
+      access: getAccess(),
+      botCheck: getBotCheck(),
+      ip: clientIp(await headers()),
+      ipHashSecret: getIpHashSecret(),
+      start: async (created) => {
+        await start(scanWorkflow, [created.id, created.url, created.createdAt]);
       },
-      { force: form.get('force') === '1' },
-    );
-    domain = scan.domain;
-  } catch (error) {
-    if (error instanceof TypeError) return { error: 'Enter a domain or URL, like example.com.' };
-    throw error;
-  }
-  redirect(`/s/${encodeURIComponent(domain)}`);
-}
-
-// "Scan again" on a results page: the URL came from a stored scan, so it is always valid.
-export async function rescanAction(form: FormData): Promise<void> {
-  form.set('force', '1');
-  await scanAction({ error: null }, form);
+    },
+  );
+  if ('error' in result) return { error: result.error };
+  redirect(`/s/${encodeURIComponent(result.domain)}`);
 }

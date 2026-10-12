@@ -81,6 +81,35 @@ describe('requestScan', () => {
     expect(started).toHaveLength(3);
   });
 
+  test('an allowance is checked and spent only for new scans', async () => {
+    const calls: string[] = [];
+    const allowance = {
+      check: async () => {
+        calls.push('check');
+      },
+      spend: async () => {
+        calls.push('spend');
+      },
+    };
+    await requestScan('acme.test', { ...deps(), allowance });
+    expect(calls).toEqual(['check', 'spend']);
+    // The same domain again: the running scan is returned, nothing spent.
+    await requestScan('acme.test', { ...deps(), allowance });
+    expect(calls).toEqual(['check', 'spend']);
+  });
+
+  test('an allowance that refuses stops the scan before anything is created', async () => {
+    const allowance = {
+      check: async () => {
+        throw new Error('limit');
+      },
+      spend: async () => {},
+    };
+    await expect(requestScan('acme.test', { ...deps(), allowance })).rejects.toThrow('limit');
+    expect(await store.latestScan('acme.test')).toBeNull();
+    expect(started).toEqual([]);
+  });
+
   test('rejects input that is not a domain or URL', async () => {
     await expect(requestScan('not a domain', deps())).rejects.toThrow(TypeError);
     await expect(requestScan('localhost', deps())).resolves.toBeDefined();

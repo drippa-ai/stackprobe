@@ -3,6 +3,8 @@ import type { AccessStore, Browser, Decider, Net, Store } from '@drippa/stackpro
 import { NodeNet } from '@drippa/stackprobe-core/node';
 import { deciderFromEnv } from '@drippa/stackprobe-decider-typesafe';
 import { connectPostgres } from '@drippa/stackprobe-store-postgres';
+import { checkBotId } from 'botid/server';
+import type { BotCheck } from './start-scan.ts';
 
 // The one place the app picks its stores and network. Tests replace this module.
 let database: ReturnType<typeof connectPostgres> | undefined;
@@ -52,4 +54,13 @@ export async function getBrowser(): Promise<Browser | undefined> {
 
 export function getNet(): Net {
   return new NodeNet();
+}
+
+// Vercel BotID on Vercel production. Previews are behind Vercel's login already, and Drippa's
+// product review drives a headless browser there that BotID would turn away. Self-hosted, there's
+// no BotID service to ask. In both, every request counts as a person and only the daily
+// allowance applies.
+export function getBotCheck(): BotCheck {
+  if (process.env.VERCEL_ENV !== 'production') return { isBot: async () => false };
+  return { isBot: async () => (await checkBotId()).isBot };
 }

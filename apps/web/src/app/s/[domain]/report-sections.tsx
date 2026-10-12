@@ -12,11 +12,11 @@ import {
   verdict,
   verdictNames,
 } from '../../../lib/report-view.ts';
-import { rescanAction } from '../../actions.ts';
 import { ScanBand } from '../../effects/scan-band.tsx';
 import { ScanForm } from '../../scan-form.tsx';
 import { AutoRefresh } from './auto-refresh.tsx';
 import { CopyLink } from './copy-link.tsx';
+import { ScanAgain } from './scan-again.tsx';
 
 // The report page's sections, apart from loading the scan, so they can be rendered in tests.
 
@@ -151,12 +151,7 @@ export function ReportView({
             {scan.domain}.json
           </a>
           <CopyLink />
-          <form action={rescanAction}>
-            <input type="hidden" name="url" value={scan.url} />
-            <button type="submit" className="button">
-              Scan again
-            </button>
-          </form>
+          <ScanAgain url={scan.url} />
         </div>
       </section>
     </>
