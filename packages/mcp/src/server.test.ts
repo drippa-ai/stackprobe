@@ -5,7 +5,7 @@ import { InMemoryTransport } from '@modelcontextprotocol/sdk/inMemory.js';
 import type { CallToolResult } from '@modelcontextprotocol/sdk/types.js';
 import { afterEach, beforeEach, describe, expect, test } from 'vitest';
 import { loadFixture, ReplayNet } from '../../core/test/fixtures.ts';
-import { createServer } from './server.ts';
+import { createServer, localScanStarter } from './server.ts';
 
 const { recording } = loadFixture('vercel');
 
@@ -16,7 +16,10 @@ let clock: Date;
 beforeEach(async () => {
   clock = new Date('2026-10-04T12:00:00Z');
   store = new SqliteStore(':memory:', { now: () => clock });
-  const server = createServer({ store, net: new ReplayNet(recording), now: () => clock });
+  const server = createServer({
+    store,
+    startScan: localScanStarter({ store, net: new ReplayNet(recording), now: () => clock }),
+  });
   const [clientSide, serverSide] = InMemoryTransport.createLinkedPair();
   client = new Client({ name: 'test', version: '0' });
   await Promise.all([server.connect(serverSide), client.connect(clientSide)]);

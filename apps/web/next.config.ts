@@ -21,6 +21,7 @@ const nextConfig: NextConfig = {
     '@drippa/stackprobe-browser-vercel-sandbox',
     '@drippa/stackprobe-core',
     '@drippa/stackprobe-decider-typesafe',
+    '@drippa/stackprobe-mcp',
     '@drippa/stackprobe-store-postgres',
   ],
 };

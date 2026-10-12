@@ -7,16 +7,19 @@ import { NodeNet } from '@drippa/stackprobe-core/node';
 import { deciderFromEnv } from '@drippa/stackprobe-decider-typesafe';
 import { defaultDatabasePath, SqliteStore } from '@drippa/stackprobe-store-sqlite';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
-import { createServer } from './server.ts';
+import { createServer, localScanStarter } from './server.ts';
 
 const store = new SqliteStore(process.env.STACKPROBE_DB || defaultDatabasePath());
 const decider = deciderFromEnv();
 const browser = await playwrightIfInstalled();
 const server = createServer({
   store,
-  net: new NodeNet(),
-  ...(decider ? { decider } : {}),
-  ...(browser ? { browser } : {}),
+  startScan: localScanStarter({
+    store,
+    net: new NodeNet(),
+    ...(decider ? { decider } : {}),
+    ...(browser ? { browser } : {}),
+  }),
 });
 process.on('exit', () => void browser?.close());
 await server.connect(new StdioServerTransport());

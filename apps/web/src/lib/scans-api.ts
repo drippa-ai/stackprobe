@@ -1,14 +1,14 @@
 import {
   type AccessStore,
+  type ApiKeyRecord,
   assertAllowance,
-  findApiKey,
   keySubject,
   LimitError,
   requestScan,
   type ScanRecord,
   type Store,
 } from '@drippa/stackprobe-core';
-import { type ApiResponse, invalidKey, limited } from './keys-api.ts';
+import { type ApiResponse, invalidKey, keyFromHeader, limited } from './keys-api.ts';
 import { reportJson } from './report-json.ts';
 
 // The HTTP scan API, apart from Next's route handlers so it can be tested directly.
@@ -41,10 +41,8 @@ export async function createScanResponse(
 ): Promise<ApiResponse> {
   const clock = deps.now ? { now: deps.now } : {};
   const access = { store: deps.access, ...clock };
-  const key = authorization?.match(/^Bearer\s+(\S+)$/i)?.[1];
-  const record = key ? await findApiKey(key, access) : null;
+  const record = await keyFromHeader(authorization, access);
   if (!record) return invalidKey();
-  const subject = keySubject(record);
 
   let input: { domain?: unknown; force?: unknown };
   try {
@@ -56,31 +54,14 @@ export async function createScanResponse(
     return badRequest('invalid_domain', 'Send a JSON body like {"domain": "example.com"}.');
   }
 
-  // Exactly one usage row per request: spent as a new scan, or logged as a reuse.
-  let spent = false;
   try {
-    const scan = await requestScan(
+    const { scan, reused } = await startKeyedScan(
+      record,
       input.domain,
-      {
-        store: deps.store,
-        start: deps.start,
-        ...clock,
-        allowance: {
-          check: async () => {
-            await assertAllowance(subject, record.scansPerDay, access);
-          },
-          spend: async () => {
-            spent = true;
-            await deps.access.recordUsage({ subject, endpoint: 'POST /api/scans', newScan: true });
-          },
-        },
-      },
-      { force: input.force === true },
+      { force: input.force === true, endpoint: 'POST /api/scans' },
+      deps,
     );
-    if (!spent) {
-      await deps.access.recordUsage({ subject, endpoint: 'POST /api/scans', newScan: false });
-    }
-    return scanResponse(scan, deps.origin, { reused: !spent, cache: false });
+    return scanResponse(scan, deps.origin, { reused, cache: false });
   } catch (error) {
     if (error instanceof TypeError) {
       return badRequest('invalid_domain', `"${input.domain}" isn't a domain or URL.`);
@@ -88,6 +69,41 @@ export async function createScanResponse(
     if (error instanceof LimitError) return limited(error, access);
     throw error;
   }
+}
+
+// Starts a scan with an API key, or returns the running or recent one, by requestScan's rules.
+// New scans spend the key's daily allowance. Logs exactly one usage row: a new scan or a reuse.
+// Throws TypeError for input that isn't a domain, LimitError at the limit.
+export async function startKeyedScan(
+  record: ApiKeyRecord,
+  domain: string,
+  { force, endpoint }: { force: boolean; endpoint: string },
+  deps: Pick<ScansApiDeps, 'store' | 'access' | 'start' | 'now'>,
+): Promise<{ scan: ScanRecord; reused: boolean }> {
+  const clock = deps.now ? { now: deps.now } : {};
+  const access = { store: deps.access, ...clock };
+  const subject = keySubject(record);
+  let spent = false;
+  const scan = await requestScan(
+    domain,
+    {
+      store: deps.store,
+      start: deps.start,
+      ...clock,
+      allowance: {
+        check: async () => {
+          await assertAllowance(subject, record.scansPerDay, access);
+        },
+        spend: async () => {
+          spent = true;
+          await deps.access.recordUsage({ subject, endpoint, newScan: true });
+        },
+      },
+    },
+    { force },
+  );
+  if (!spent) await deps.access.recordUsage({ subject, endpoint, newScan: false });
+  return { scan, reused: !spent };
 }
 
 export async function getScanResponse(id: string, deps: ScansApiDeps): Promise<ApiResponse> {

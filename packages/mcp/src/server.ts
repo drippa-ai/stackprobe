@@ -2,6 +2,7 @@ import {
   type Browser,
   type Decider,
   diffReports,
+  LimitError,
   type Net,
   Report,
   requestScan,
@@ -15,7 +16,20 @@ import { z } from 'zod';
 import { formatDiff, formatExplanation, formatScan } from './format.ts';
 import { runScanLocally } from './local-runner.ts';
 
+// Starts a scan, or returns the running or recent one, for scan_domain. `reused` is true when no
+// new scan was started. Throws TypeError for input that isn't a domain, LimitError at a limit.
+export type ScanStarter = (
+  domain: string,
+  options: { force: boolean },
+) => Promise<{ scan: ScanRecord; reused: boolean }>;
+
 export interface ServerOptions {
+  store: Store;
+  // How scan_domain scans: in this process (localScanStarter), or as a hosted run (apps/web).
+  startScan: ScanStarter;
+}
+
+export interface LocalScanOptions {
   store: Store;
   net: Net;
   // Settles surface kinds the rules can't; rules only without one.
@@ -23,6 +37,32 @@ export interface ServerOptions {
   // Loads app surfaces in a browser; without one, the browser layer is skipped.
   browser?: Browser;
   now?: () => Date;
+}
+
+// Scans in this process and waits for the result: the local stdio server.
+export function localScanStarter({
+  store,
+  net,
+  now,
+  decider,
+  browser,
+}: LocalScanOptions): ScanStarter {
+  return async (domain, { force }) => {
+    let ran = false;
+    const scan = await requestScan(
+      domain,
+      {
+        store,
+        ...(now ? { now } : {}),
+        start: async (created) => {
+          ran = true;
+          await runScanLocally(store, net, created, { decider, browser });
+        },
+      },
+      { force },
+    );
+    return { scan, reused: !ran };
+  };
 }
 
 const scanOutput = {
@@ -38,7 +78,7 @@ const which = {
 };
 
 // The stackprobe MCP server. Each tool is a thin wrapper around core.
-export function createServer({ store, net, now, decider, browser }: ServerOptions): McpServer {
+export function createServer({ store, startScan }: ServerOptions): McpServer {
   const server = new McpServer({ name: 'stackprobe', version: STACKPROBE_VERSION });
 
   server.registerTool(
@@ -47,7 +87,9 @@ export function createServer({ store, net, now, decider, browser }: ServerOption
       title: 'Scan a domain',
       description:
         'Finds what a website is built on (hosting, framework, backend), with evidence and a ' +
-        'confidence score for each finding. Takes a few seconds. A scan younger than 24 hours ' +
+        'confidence score for each finding. Usually takes a few seconds to half a minute; if ' +
+        'the scan is still running when this returns, call get_scan with its scan_id a little ' +
+        'later. A scan younger than 24 hours ' +
         'is returned instead of scanning again, unless force is true. Findings belong to the ' +
         'scanned URL; it is not yet known whether that is the product app or a marketing site.',
       inputSchema: {
@@ -58,27 +100,16 @@ export function createServer({ store, net, now, decider, browser }: ServerOption
       annotations: { readOnlyHint: false, openWorldHint: true },
     },
     async ({ domain, force }) => {
-      let ran = false;
-      let scan: ScanRecord;
+      let started: { scan: ScanRecord; reused: boolean };
       try {
-        scan = await requestScan(
-          domain,
-          {
-            store,
-            ...(now ? { now } : {}),
-            start: async (created) => {
-              ran = true;
-              await runScanLocally(store, net, created, { decider, browser });
-            },
-          },
-          { force: force ?? false },
-        );
+        started = await startScan(domain, { force: force ?? false });
       } catch (error) {
         if (error instanceof TypeError) return fail(`Not a domain or URL: ${domain}`);
+        if (error instanceof LimitError) return fail(error.message);
         throw error;
       }
+      const { scan, reused } = started;
       const latest = (await store.getScan(scan.id)) ?? scan;
-      const reused = !ran;
       const note = reused ? 'Returned a recent scan. Pass force: true to scan again.\n\n' : '';
       return result(note + formatScan(latest), { ...toOutput(latest), reused });
     },
