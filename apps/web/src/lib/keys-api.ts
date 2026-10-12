@@ -1,5 +1,6 @@
 import {
   type AccessDeps,
+  type ApiKeyRecord,
   createApiKey,
   findApiKey,
   hashIp,
@@ -91,4 +92,13 @@ export function limited(error: LimitError, deps: Pick<AccessDeps, 'now'>): ApiRe
 function bearer(authorization: string | null): string | null {
   const match = authorization?.match(/^Bearer\s+(\S+)$/i);
   return match?.[1] ?? null;
+}
+
+// The live API key an "Authorization: Bearer <key>" header names, or null.
+export async function keyFromHeader(
+  authorization: string | null,
+  deps: AccessDeps,
+): Promise<ApiKeyRecord | null> {
+  const key = bearer(authorization);
+  return key ? findApiKey(key, deps) : null;
 }

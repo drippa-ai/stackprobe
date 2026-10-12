@@ -1,3 +1,3 @@
 export { runScanLocally } from './local-runner.ts';
-export type { ServerOptions } from './server.ts';
-export { createServer } from './server.ts';
+export type { LocalScanOptions, ScanStarter, ServerOptions } from './server.ts';
+export { createServer, localScanStarter } from './server.ts';

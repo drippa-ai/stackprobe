@@ -1,6 +1,17 @@
 # stackprobe
 Probe the tech stacks of any product
 
+## MCP
+
+Connect an agent to the hosted MCP server with an API key (see "Get a key" below):
+
+```sh
+claude mcp add --transport http stackprobe https://stackprobe.tech/mcp \
+  --header "Authorization: Bearer $STACKPROBE_KEY"
+```
+
+It has four tools: `scan_domain`, `get_scan`, `explain_detection` and `diff_scans`. `scan_domain` waits up to 25 seconds for a scan; if it's still running, call `get_scan` a little later. The limits are the same as the HTTP API's.
+
 ## HTTP API
 
 Agents and scripts can use stackprobe over HTTP. Reading is free; starting scans needs a key, which you can create yourself.
