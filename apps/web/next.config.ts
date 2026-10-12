@@ -1,4 +1,5 @@
 import { existsSync } from 'node:fs';
+import { withBotId } from 'botid/next/config';
 import type { NextConfig } from 'next';
 import { withWorkflow } from 'workflow/next';
 
@@ -24,4 +25,5 @@ const nextConfig: NextConfig = {
   ],
 };
 
-export default withWorkflow(nextConfig);
+// BotID proxies its challenge through the app's own domain, so blockers don't break it.
+export default withWorkflow(withBotId(nextConfig));

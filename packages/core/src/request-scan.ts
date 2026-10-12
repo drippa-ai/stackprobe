@@ -12,6 +12,9 @@ export interface RequestScanDeps {
   store: Store;
   // Starts the scan's workflow. Called once per new scan.
   start(scan: ScanRecord): Promise<void>;
+  // The caller's daily allowance, when they have one (see access.ts). Only new scans touch it:
+  // check() runs before one is created and throws to refuse it; spend() runs once it exists.
+  allowance?: { check(): Promise<void>; spend(): Promise<void> };
   now?: () => Date;
 }
 
@@ -32,7 +35,9 @@ export async function requestScan(
     if (now - Date.parse(latest.finishedAt) < FRESH_FOR_MS) return latest;
   }
 
+  await deps.allowance?.check();
   const scan = await deps.store.createScan({ domain: target.host, url: target.url });
+  await deps.allowance?.spend();
   await deps.start(scan);
   return scan;
 }
