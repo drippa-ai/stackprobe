@@ -1,3 +1,30 @@
+export type {
+  AccessDeps,
+  AccessStore,
+  Allowance,
+  ApiKeyRecord,
+  Subject,
+  UsageEvent,
+} from './access.ts';
+export {
+  allowance,
+  assertAllowance,
+  createApiKey,
+  dayWindow,
+  findApiKey,
+  hashIp,
+  hashKey,
+  KEY_PREFIX,
+  KEY_PREFIX_LENGTH,
+  KEY_SCANS_PER_DAY,
+  KEYS_PER_IP_PER_DAY,
+  keySubject,
+  LimitError,
+  MemoryAccessStore,
+  USAGE_KEPT_DAYS,
+  VISITOR_SCANS_PER_DAY,
+  visitorSubject,
+} from './access.ts';
 export type { BatchBrowser, Browser, BrowserCapture, CaptureOptions } from './browser.ts';
 export {
   browserLayer,

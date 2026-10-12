@@ -1,7 +1,9 @@
 import { readFileSync } from 'node:fs';
 import { PGlite } from '@electric-sql/pglite';
 import { beforeAll, describe, expect, test } from 'vitest';
+import { describeAccessStore } from '../../core/test/access-contract.ts';
 import { describeStore } from '../../core/test/store-contract.ts';
+import { PostgresAccessStore } from './access-store.ts';
 import { migrate } from './migrate.ts';
 import type { Sql } from './sql.ts';
 import { PostgresStore } from './store.ts';
@@ -34,11 +36,19 @@ beforeAll(async () => {
 }, 60_000);
 
 describeStore('PostgresStore', async () => new PostgresStore(await freshDatabase()));
+describeAccessStore(
+  'PostgresAccessStore',
+  async () => new PostgresAccessStore(await freshDatabase()),
+);
 
 describe('migrate', () => {
   test('applies each migration once', async () => {
     const sql = fromPGlite(new PGlite());
-    expect(await migrate(sql)).toEqual(['0001_scans.sql', '0002_unwrap_json_strings.sql']);
+    expect(await migrate(sql)).toEqual([
+      '0001_scans.sql',
+      '0002_unwrap_json_strings.sql',
+      '0003_access.sql',
+    ]);
     expect(await migrate(sql)).toEqual([]);
   });
 
@@ -50,10 +60,12 @@ describe('migrate', () => {
        where n.nspname = 'stackprobe' and c.relkind = 'r' order by c.relname`,
     );
     expect(tables).toEqual([
+      { relname: 'api_keys', relrowsecurity: true },
       { relname: 'detections', relrowsecurity: true },
       { relname: 'layer_results', relrowsecurity: true },
       { relname: 'migrations', relrowsecurity: true },
       { relname: 'scans', relrowsecurity: true },
+      { relname: 'usage', relrowsecurity: true },
     ]);
   });
 });
