@@ -2,11 +2,10 @@
 
 import { headers } from 'next/headers';
 import { redirect } from 'next/navigation';
-import { start } from 'workflow/api';
 import { clientIp } from '../lib/keys-api.ts';
 import { getAccess, getBotCheck, getIpHashSecret, getStore } from '../lib/services.ts';
 import { startScan } from '../lib/start-scan.ts';
-import { scanWorkflow } from '../workflows/scan.ts';
+import { startScanWorkflow } from '../lib/start-workflow.ts';
 
 export interface ScanFormState {
   error: string | null;
@@ -23,9 +22,7 @@ export async function scanAction(_state: ScanFormState, form: FormData): Promise
       botCheck: getBotCheck(),
       ip: clientIp(await headers()),
       ipHashSecret: getIpHashSecret(),
-      start: async (created) => {
-        await start(scanWorkflow, [created.id, created.url, created.createdAt]);
-      },
+      start: startScanWorkflow,
     },
   );
   if ('error' in result) return { error: result.error };
