@@ -4,7 +4,7 @@ import { beforeAll, describe, expect, test } from 'vitest';
 import { describeAccessStore } from '../../core/test/access-contract.ts';
 import { describeStore } from '../../core/test/store-contract.ts';
 import { PostgresAccessStore } from './access-store.ts';
-import { migrate } from './migrate.ts';
+import { migrate, pendingMigrations } from './migrate.ts';
 import type { Sql } from './sql.ts';
 import { PostgresStore } from './store.ts';
 
@@ -42,6 +42,18 @@ describeAccessStore(
 );
 
 describe('migrate', () => {
+  test('lists pending migrations without applying them', async () => {
+    const sql = fromPGlite(new PGlite());
+    expect(await pendingMigrations(sql)).toEqual([
+      '0001_scans.sql',
+      '0002_unwrap_json_strings.sql',
+      '0003_access.sql',
+    ]);
+    expect(await pendingMigrations(sql)).toHaveLength(3);
+    await migrate(sql);
+    expect(await pendingMigrations(sql)).toEqual([]);
+  });
+
   test('applies each migration once', async () => {
     const sql = fromPGlite(new PGlite());
     expect(await migrate(sql)).toEqual([
