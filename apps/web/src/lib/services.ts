@@ -1,19 +1,39 @@
 import { sandboxBrowserFromEnv } from '@drippa/stackprobe-browser-vercel-sandbox';
-import type { Browser, Decider, Net, Store } from '@drippa/stackprobe-core';
+import type { AccessStore, Browser, Decider, Net, Store } from '@drippa/stackprobe-core';
 import { NodeNet } from '@drippa/stackprobe-core/node';
 import { deciderFromEnv } from '@drippa/stackprobe-decider-typesafe';
 import { connectPostgres } from '@drippa/stackprobe-store-postgres';
 
-// The one place the app picks its store and network. Tests replace this module.
-let store: Store | undefined;
+// The one place the app picks its stores and network. Tests replace this module.
+let database: ReturnType<typeof connectPostgres> | undefined;
 
-export function getStore(): Store {
-  if (!store) {
+function connect(): ReturnType<typeof connectPostgres> {
+  if (!database) {
     const url = process.env.DATABASE_URL;
     if (!url) throw new Error('DATABASE_URL is not set. See .env.example.');
-    store = connectPostgres(url).store;
+    database = connectPostgres(url);
   }
-  return store;
+  return database;
+}
+
+export function getStore(): Store {
+  return connect().store;
+}
+
+// API keys and the daily allowance, in the same database.
+export function getAccess(): AccessStore {
+  return connect().access;
+}
+
+// The secret IPs are hashed with, so visitors can be counted without keeping their address.
+// Required in production; a fixed value stands in during development.
+export function getIpHashSecret(): string {
+  const secret = process.env.STACKPROBE_IP_HASH_SECRET;
+  if (secret) return secret;
+  if (process.env.NODE_ENV === 'production') {
+    throw new Error('STACKPROBE_IP_HASH_SECRET is not set. See .env.example.');
+  }
+  return 'development-only-ip-hash-secret';
 }
 
 // Jev when TYPESAFE_API_KEY is set; without it, classification runs on rules only.
