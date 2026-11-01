@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@drippa/stackprobe-core": "workspace:*",
-    "postgres": "^3.4.9"
+    "postgres": "^4.0.0"
   },
   "devDependencies": {
     "@electric-sql/pglite": "^0.5.8",
