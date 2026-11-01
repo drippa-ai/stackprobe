@@ -21,9 +21,9 @@
     "record-decisions": "node --env-file-if-exists=.env.local packages/core/scripts/record-decisions.ts"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.15",
-    "@types/node": "^22.19.0",
+    "@biomejs/biome": "^2.6.4",
+    "@types/node": "^26.6.6",
     "typescript": "^7.0.2",
-    "vitest": "^5.0.3"
+    "vitest": "^5.0.5"
   }
 }
